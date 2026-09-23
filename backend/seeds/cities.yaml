@@ -1,0 +1,49 @@
+# Default sweep cities. The first five are the regions that account for 61% of
+# fake-customer-care incidents (I4C, via secondary reporting, March 2026).
+# `location` is the SerpApi Google Search location string; `ll` is the Google Maps
+# viewport used by the google_maps engine.
+- id: mumbai
+  name: Mumbai
+  state: Maharashtra
+  location: "Mumbai, Maharashtra, India"
+  ll: "@19.0760,72.8777,12z"
+  default: true
+- id: delhi
+  name: Delhi
+  state: Delhi
+  location: "Delhi, India"
+  ll: "@28.6139,77.2090,12z"
+  default: true
+- id: bengaluru
+  name: Bengaluru
+  state: Karnataka
+  location: "Bengaluru, Karnataka, India"
+  ll: "@12.9716,77.5946,12z"
+  default: true
+- id: hyderabad
+  name: Hyderabad
+  state: Telangana
+  location: "Hyderabad, Telangana, India"
+  ll: "@17.3850,78.4867,12z"
+  default: true
+- id: kolkata
+  name: Kolkata
+  state: West Bengal
+  location: "Kolkata, West Bengal, India"
+  ll: "@22.5726,88.3639,12z"
+  default: true
+- id: patna
+  name: Patna
+  state: Bihar
+  location: "Patna, Bihar, India"
+  ll: "@25.5941,85.1376,12z"
+- id: lucknow
+  name: Lucknow
+  state: Uttar Pradesh
+  location: "Lucknow, Uttar Pradesh, India"
+  ll: "@26.8467,80.9462,12z"
+- id: chennai
+  name: Chennai
+  state: Tamil Nadu
+  location: "Chennai, Tamil Nadu, India"
+  ll: "@13.0827,80.2707,12z"
