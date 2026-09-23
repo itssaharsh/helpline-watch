@@ -2,7 +2,7 @@
  "_fixture": {
   "kind": "synthetic",
   "note": "Search · Mumbai · Zomato customer care number",
-  "generated_at": "2026-09-23T20:44:56+00:00",
+  "generated_at": "2026-09-23T20:53:40+00:00",
   "params": {
    "engine": "google",
    "q": "Zomato customer care number",
@@ -17,11 +17,11 @@
   "search_metadata": {
    "id": "synthetic-fd3f507b653ba4db",
    "status": "Success",
-   "created_at": "2026-09-23 20:44:56 UTC",
-   "processed_at": "2026-09-23 20:44:56 UTC",
+   "created_at": "2026-09-23 20:53:40 UTC",
+   "processed_at": "2026-09-23 20:53:40 UTC",
    "json_endpoint": null,
    "raw_html_file": null,
-   "total_time_taken": 1.97
+   "total_time_taken": 0.98
   },
   "search_parameters": {
    "engine": "google",
@@ -61,7 +61,7 @@
      "position": 1,
      "title": "Zomato Customer Care Number",
      "place_id": "synthetic-zomato-mumbai-care",
-     "data_id": "0x6d80abffeda8:0x3c780aecaca4",
+     "data_id": "0xee118dd05d02:0x32f7e52adf7a",
      "rating": 4.8,
      "reviews": 3,
      "type": "Customer service",
@@ -70,8 +70,8 @@
      ],
      "address": "Mumbai",
      "gps_coordinates": {
-      "latitude": 15.859222747631433,
-      "longitude": 79.89739921433042
+      "latitude": 16.85740332027693,
+      "longitude": 85.93447873936732
      },
      "phone": "+91 74110 29385"
     }

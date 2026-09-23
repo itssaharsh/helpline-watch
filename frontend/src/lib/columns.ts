@@ -32,7 +32,7 @@ export const SURFACE_LABEL: Record<Surface, string> = {
 export const SIGNAL_LABEL: Record<string, string> = {
   NOT_IN_OFFICIAL_LIST: 'Not an official number', LOOKALIKE_OF_OFFICIAL: 'One digit off an official number', MOBILE_AS_HELPLINE: 'Mobile posing as helpline',
   LISTING_NAMED_AS_HELPLINE: 'Listing named as a helpline', THIN_OR_UNCLAIMED_LISTING: 'Thin or unclaimed listing', CROSS_BRAND: 'Same number, other brands',
-  MULTI_CITY: 'Planted in 3+ cities', AD_FROM_NON_OFFICIAL_DOMAIN: 'Inside a non-official ad', SCAM_WORDS_IN_CONTEXT: 'Fraud words around it',
+  SEEN_FOR_OTHER_BRANDS: 'Seen for other brands (unconfirmed)', MULTI_CITY: 'Planted in 3+ cities', AD_FROM_NON_OFFICIAL_DOMAIN: 'Inside a non-official ad', SCAM_WORDS_IN_CONTEXT: 'Fraud words around it',
   REVERSE_LOOKUP: 'Complaints found on reverse lookup', OFFICIAL_MATCH: 'Official number', ON_OFFICIAL_DOMAIN: 'On the brand’s own site',
 }
 

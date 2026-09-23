@@ -167,6 +167,8 @@ class Sweep(BaseModel):
     queries: list[str] = Field(default_factory=list)
     calls_made: int = 0
     calls_planned: int = 0
+    live_calls: int = 0
+    cache_hits: int = 0
     fixture_kinds: dict[str, int] = Field(default_factory=dict)
     coverage: list[CityCoverage] = Field(default_factory=list)
     findings: list[Finding] = Field(default_factory=list)

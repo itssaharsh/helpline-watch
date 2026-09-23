@@ -2,7 +2,7 @@
  "_fixture": {
   "kind": "synthetic",
   "note": "Search · Hyderabad · IndiGo customer care number",
-  "generated_at": "2026-09-23T20:44:57+00:00",
+  "generated_at": "2026-09-23T20:53:40+00:00",
   "params": {
    "engine": "google",
    "q": "IndiGo customer care number",
@@ -17,11 +17,11 @@
   "search_metadata": {
    "id": "synthetic-c6e4e9cb2acbb7fe",
    "status": "Success",
-   "created_at": "2026-09-23 20:44:57 UTC",
-   "processed_at": "2026-09-23 20:44:57 UTC",
+   "created_at": "2026-09-23 20:53:40 UTC",
+   "processed_at": "2026-09-23 20:53:40 UTC",
    "json_endpoint": null,
    "raw_html_file": null,
-   "total_time_taken": 1.64
+   "total_time_taken": 2.21
   },
   "search_parameters": {
    "engine": "google",
@@ -43,15 +43,15 @@
    {
     "position": 2,
     "title": "IndiGo customer care number 0124 617 3838 toll free",
-    "link": "https://www.customercare-numbers.in/indigo-customer-care",
-    "displayed_link": "https://www.customercare-numbers.in › indigo-customer-care",
+    "link": "https://www.helpline-directory.org/indigo-customer-care",
+    "displayed_link": "https://www.helpline-directory.org › indigo-customer-care",
     "snippet": "IndiGo customer care number is 0124 617 3838. Also try the grievance desk on the official website."
    },
    {
     "position": 3,
     "title": "IndiGo helpline number 24x7 - IndiGo care",
-    "link": "https://www.helpline-directory.org/indigo-helpline-24x7",
-    "displayed_link": "https://www.helpline-directory.org › indigo-helpline-24x7",
+    "link": "https://www.tollfreenumber.in/indigo-helpline-24x7",
+    "displayed_link": "https://www.tollfreenumber.in › indigo-helpline-24x7",
     "snippet": "Updated IndiGo helpline number: 0124 617 3839. Lines open 24 hours for card block, refund and KYC."
    },
    {

@@ -2,7 +2,7 @@
  "_fixture": {
   "kind": "synthetic",
   "note": "Maps · Kolkata · HDFC Bank customer care",
-  "generated_at": "2026-09-23T20:44:56+00:00",
+  "generated_at": "2026-09-23T20:53:40+00:00",
   "params": {
    "engine": "google_maps",
    "type": "search",
@@ -16,11 +16,11 @@
   "search_metadata": {
    "id": "synthetic-73aa3d42796099e0",
    "status": "Success",
-   "created_at": "2026-09-23 20:44:56 UTC",
-   "processed_at": "2026-09-23 20:44:56 UTC",
+   "created_at": "2026-09-23 20:53:40 UTC",
+   "processed_at": "2026-09-23 20:53:40 UTC",
    "json_endpoint": null,
    "raw_html_file": null,
-   "total_time_taken": 1.82
+   "total_time_taken": 2.08
   },
   "search_parameters": {
    "engine": "google_maps",
@@ -35,17 +35,17 @@
     "position": 1,
     "title": "HDFC Bank - Kolkata Main Branch",
     "place_id": "synthetic-hdfc-bank-kolkata-branch",
-    "data_id": "0x9579907ea80f:0x6eab4e1b29a",
-    "rating": 4.0,
-    "reviews": 779,
+    "data_id": "0xc09c9e202c94:0x813e6d889966",
+    "rating": 4.2,
+    "reviews": 830,
     "type": "Bank",
     "types": [
      "Bank"
     ],
     "address": "MG Road, Kolkata",
     "gps_coordinates": {
-     "latitude": 17.766664961809845,
-     "longitude": 82.91112529630601
+     "latitude": 21.845124016636028,
+     "longitude": 81.34753159859865
     },
     "phone": "1800 1600 1600",
     "website": "https://www.hdfcbank.com/"
@@ -54,17 +54,17 @@
     "position": 1,
     "title": "HDFC Bank Customer Care Number",
     "place_id": "synthetic-hdfc-bank-kolkata-care",
-    "data_id": "0xbbb08d34c8c2:0x1c18dcb61493",
+    "data_id": "0x82f681235142:0x3a174ba1a8e5",
     "rating": 5.0,
-    "reviews": 2,
+    "reviews": 3,
     "type": "Customer service",
     "types": [
      "Customer service"
     ],
     "address": "Sector 12, Kolkata",
     "gps_coordinates": {
-     "latitude": 21.8828550281994,
-     "longitude": 78.84584945498217
+     "latitude": 14.443929055712466,
+     "longitude": 77.54393816813567
     },
     "phone": "+91 74110 29385",
     "unclaimed_listing": true

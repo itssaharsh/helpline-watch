@@ -10,7 +10,7 @@ from dataclasses import dataclass, field
 from typing import Any
 
 from helpline_watch.extract import phones
-from helpline_watch.models import Brand, City
+from helpline_watch.models import Brand, City, NumberKind
 
 GOOGLE_DOMAIN = "google.co.in"
 INDIA_REGION = "2356"  # Google Ads Transparency region code for India
@@ -72,33 +72,34 @@ def ads_params(brand: Brand) -> dict[str, Any]:
     return {"engine": "google_ads_transparency_center", "text": brand.name, "region": INDIA_REGION}
 
 
-def reverse_params(number_norm: str) -> dict[str, Any]:
-    q = " OR ".join(f'"{form}"' for form in phones.search_forms(number_norm))
+def reverse_params(number_norm: str, kind: NumberKind | None = None) -> dict[str, Any]:
+    q = " OR ".join(f'"{form}"' for form in phones.search_forms(number_norm, kind))
     return {"engine": "google", "q": q, "google_domain": GOOGLE_DOMAIN, "gl": "in", "hl": "en", "num": "10"}
 
 
-def build_plan(brand: Brand, cities: list[City], suggestions: list[str], max_calls: int) -> SweepPlan:
+def build_plan(brand: Brand, cities: list[City], suggestions: list[str], max_calls: int, reserve: int = 6) -> SweepPlan:
     queries = choose_queries(brand, suggestions)
     plan = SweepPlan(autocomplete=autocomplete_call(brand), queries=queries)
-    calls: list[PlannedCall] = []
+    calls: list[PlannedCall] = [
+        PlannedCall(id="ads", engine="google_ads_transparency_center", params=ads_params(brand), city_id=None,
+                    group="ads", label=f"Ads Transparency · advertisers bidding on “{brand.name}”")
+    ]
+    if cities:
+        first = cities[0]
+        q = HINDI_TEMPLATE.format(brand=brand.name)
+        calls.append(PlannedCall(id=f"hindi:{first.id}", engine="google", params=search_params(q, first, hl="hi"),
+                                 city_id=first.id, group="hindi", label=f"Search (Hindi) · {first.name} · {q}"))
     for city in cities:
         for i, q in enumerate(queries):
             calls.append(PlannedCall(id=f"search:{city.id}:{i}", engine="google", params=search_params(q, city),
                                      city_id=city.id, group="search", label=f"Search · {city.name} · {q}"))
         calls.append(PlannedCall(id=f"maps:{city.id}", engine="google_maps", params=maps_params(brand, city),
                                  city_id=city.id, group="maps", label=f"Maps · {city.name} · {MAPS_TEMPLATE.format(brand=brand.name)}"))
-    if cities:
-        first = cities[0]
-        q = HINDI_TEMPLATE.format(brand=brand.name)
-        calls.append(PlannedCall(id=f"hindi:{first.id}", engine="google", params=search_params(q, first, hl="hi"),
-                                 city_id=first.id, group="hindi", label=f"Search (Hindi) · {first.name} · {q}"))
-    calls.append(PlannedCall(id="ads", engine="google_ads_transparency_center", params=ads_params(brand), city_id=None,
-                             group="ads", label=f"Ads Transparency · advertisers bidding on “{brand.name}”"))
-    # Keep the plan under the credit cap while leaving room for reverse lookups.
-    plan.calls = calls[: max(0, max_calls - 1)]
+    # Keep the plan under the credit cap: 1 for autocomplete, `reserve` for reverse lookups.
+    plan.calls = calls[: max(0, max_calls - 1 - reserve)]
     return plan
 
 
-def reverse_call(number_norm: str) -> PlannedCall:
-    return PlannedCall(id=f"reverse:{number_norm}", engine="google", params=reverse_params(number_norm), city_id=None,
-                       group="reverse", label=f"Reverse lookup · {phones.display(number_norm)}")
+def reverse_call(number_norm: str, kind: NumberKind | None = None) -> PlannedCall:
+    return PlannedCall(id=f"reverse:{number_norm}", engine="google", params=reverse_params(number_norm, kind), city_id=None,
+                       group="reverse", label=f"Reverse lookup · {phones.display(number_norm, kind)}")

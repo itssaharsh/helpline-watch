@@ -59,6 +59,7 @@ def _observations_from_text(
     advertiser: str | None = None,
 ) -> list[Observation]:
     out = []
+    text = text.translate(phones.DEVANAGARI_DIGITS)
     for parsed in phones.extract(text):
         out.append(
             Observation(
@@ -83,56 +84,89 @@ def _joined(*parts: Any) -> str:
     return " ".join(str(p) for p in parts if p)
 
 
+def _as_list(value: Any) -> list:
+    """SerpApi sometimes ships a block as a dict of lists (sitelinks) or a lone dict."""
+    if isinstance(value, list):
+        return value
+    if isinstance(value, dict):
+        nested = [v for v in value.values() if isinstance(v, list)]
+        return [item for sub in nested for item in sub] if nested else [value]
+    return []
+
+
+def _dicts(value: Any) -> list[dict]:
+    return [item for item in _as_list(value) if isinstance(item, dict)]
+
+
+def _num(value: Any) -> float | None:
+    try:
+        return float(str(value).replace(",", "")) if value not in (None, "") else None
+    except ValueError:
+        return None
+
+
+def _int(value: Any) -> int | None:
+    n = _num(value)
+    return int(n) if n is not None else None
+
+
+def _listing(place: dict) -> ListingMeta:
+    return ListingMeta(
+        title=place.get("title"), place_id=place.get("place_id"), data_id=place.get("data_id"), address=place.get("address"),
+        rating=_num(place.get("rating")), reviews=_int(place.get("reviews")), listing_type=place.get("type"),
+        unclaimed=bool(place.get("unclaimed_listing")) if place.get("unclaimed_listing") is not None else None,
+        website=place.get("website"),
+    )
+
+
 def parse_google_search(result: SerpResult, city_id: str | None) -> list[Observation]:
     data, prov = result.data, provenance(result, city_id)
     obs: list[Observation] = []
 
-    for ad in data.get("ads") or []:
-        text = _joined(ad.get("title"), ad.get("description"), *[s.get("title") for s in ad.get("sitelinks") or []])
+    for ad in _dicts(data.get("ads")):
+        text = _joined(ad.get("title"), ad.get("description"), *[s.get("title") for s in _dicts(ad.get("sitelinks"))])
         domain = displayed_domain(ad.get("displayed_link")) or domain_of(ad.get("link"))
         obs += _observations_from_text(
             text, surface=Surface.SEARCH_ADS, city_id=city_id, prov=prov,
             title=ad.get("title"), link=ad.get("link"), domain=domain, advertiser=domain,
         )
 
-    kg = data.get("knowledge_graph") or {}
-    if kg:
+    kg = data.get("knowledge_graph")
+    if isinstance(kg, dict) and kg:
         text = _joined(kg.get("title"), kg.get("phone"), kg.get("description"), kg.get("address"))
         obs += _observations_from_text(
             text, surface=Surface.SEARCH_KNOWLEDGE, city_id=city_id, prov=prov,
             title=kg.get("title"), link=kg.get("website"), domain=domain_of(kg.get("website")),
         )
 
-    ab = data.get("answer_box") or {}
-    if ab:
-        text = _joined(ab.get("title"), ab.get("answer"), ab.get("snippet"), *(ab.get("list") or []))
+    for ab in _dicts(data.get("answer_box"))[:1]:
+        text = _joined(ab.get("title"), ab.get("answer"), ab.get("snippet"), *_as_list(ab.get("list")))
         obs += _observations_from_text(
             text, surface=Surface.SEARCH_ANSWER, city_id=city_id, prov=prov,
             title=ab.get("title"), link=ab.get("link"), domain=domain_of(ab.get("link")),
         )
 
-    places = (data.get("local_results") or {}).get("places") if isinstance(data.get("local_results"), dict) else data.get("local_results")
-    for place in places or []:
-        listing = ListingMeta(
-            title=place.get("title"), place_id=place.get("place_id"), address=place.get("address"),
-            rating=place.get("rating"), reviews=place.get("reviews"), listing_type=place.get("type"),
-        )
+    local = data.get("local_results")
+    places = local.get("places") if isinstance(local, dict) and "places" in local else local
+    for place in _dicts(places):
         text = _joined(place.get("title"), place.get("phone"), place.get("address"), place.get("description"))
+        # The listing owner sets `website`; it is shown but never counts as the brand's domain.
         obs += _observations_from_text(
             text, surface=Surface.SEARCH_LOCAL, city_id=city_id, prov=prov,
-            title=place.get("title"), link=place.get("website"), domain=domain_of(place.get("website")), listing=listing,
+            title=place.get("title"), link=place.get("website"), domain=None, listing=_listing(place),
         )
 
-    for q in data.get("related_questions") or []:
-        text = _joined(q.get("question"), q.get("snippet"), *(q.get("list") or []))
+    for q in _dicts(data.get("related_questions")):
+        text = _joined(q.get("question"), q.get("snippet"), *_as_list(q.get("list")))
         obs += _observations_from_text(
             text, surface=Surface.SEARCH_PAA, city_id=city_id, prov=prov,
             title=q.get("title") or q.get("question"), link=q.get("link"), domain=domain_of(q.get("link")),
         )
 
-    for org in data.get("organic_results") or []:
-        rich = org.get("rich_snippet") or {}
-        extensions = [*(rich.get("top") or {}).get("extensions", []), *(rich.get("bottom") or {}).get("extensions", [])]
+    for org in _dicts(data.get("organic_results")):
+        rich = org.get("rich_snippet") if isinstance(org.get("rich_snippet"), dict) else {}
+        top, bottom = rich.get("top") or {}, rich.get("bottom") or {}
+        extensions = [*_as_list(top.get("extensions") if isinstance(top, dict) else None), *_as_list(bottom.get("extensions") if isinstance(bottom, dict) else None)]
         text = _joined(org.get("title"), org.get("snippet"), *extensions)
         obs += _observations_from_text(
             text, surface=Surface.SEARCH_ORGANIC, city_id=city_id, prov=prov,
@@ -144,19 +178,14 @@ def parse_google_search(result: SerpResult, city_id: str | None) -> list[Observa
 def parse_google_maps(result: SerpResult, city_id: str | None) -> list[Observation]:
     data, prov = result.data, provenance(result, city_id)
     obs: list[Observation] = []
-    local = data.get("local_results")
-    if isinstance(local, dict):  # single place result shape
-        local = [local]
-    for place in local or []:
-        listing = ListingMeta(
-            title=place.get("title"), place_id=place.get("place_id"), data_id=place.get("data_id"),
-            address=place.get("address"), rating=place.get("rating"), reviews=place.get("reviews"),
-            listing_type=place.get("type"), unclaimed=place.get("unclaimed_listing"), website=place.get("website"),
-        )
+    places = _dicts(data.get("local_results"))
+    if isinstance(data.get("place_results"), dict):  # an exact-match query returns one place
+        places = [data["place_results"], *places]
+    for place in places:
         text = _joined(place.get("title"), place.get("phone"), place.get("description"), place.get("address"))
         obs += _observations_from_text(
             text, surface=Surface.MAPS, city_id=city_id, prov=prov,
-            title=place.get("title"), link=place.get("website"), domain=domain_of(place.get("website")), listing=listing,
+            title=place.get("title"), link=place.get("website"), domain=None, listing=_listing(place),
         )
     return obs
 
@@ -170,7 +199,7 @@ def _matches_brand(name: str, brand: Brand) -> bool:
 def parse_ads_transparency(result: SerpResult, brand: Brand) -> list[AdvertiserFinding]:
     prov = provenance(result, None)
     grouped: dict[str, AdvertiserFinding] = {}
-    for ad in result.data.get("ad_creatives") or []:
+    for ad in _dicts(result.data.get("ad_creatives")):
         name = ad.get("advertiser") or "Unknown advertiser"
         key = ad.get("advertiser_id") or name
         current = grouped.get(key)
@@ -195,7 +224,7 @@ def parse_ads_transparency(result: SerpResult, brand: Brand) -> list[AdvertiserF
 
 def parse_reverse(result: SerpResult) -> list[ReverseHit]:
     hits = []
-    for org in result.data.get("organic_results") or []:
+    for org in _dicts(result.data.get("organic_results")):
         text = _joined(org.get("title"), org.get("snippet"))
         domain = domain_of(org.get("link")) or ""
         words = contains_any(text, SCAM_WORDS)
@@ -206,4 +235,4 @@ def parse_reverse(result: SerpResult) -> list[ReverseHit]:
 
 
 def parse_autocomplete(result: SerpResult) -> list[str]:
-    return [s.get("value") for s in result.data.get("suggestions") or [] if s.get("value")]
+    return [s.get("value") for s in _dicts(result.data.get("suggestions")) if s.get("value")]

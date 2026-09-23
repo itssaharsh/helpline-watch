@@ -221,10 +221,12 @@ def main() -> None:
     look_numbers = {lookalike(b.official_numbers[0]): [b.name] for b in brands if b.official_numbers}
     planted = {A: (["HDFC Bank", "Zomato", "IndiGo"], True), C: (["HDFC Bank"], True), D: (["SBI", "Paytm"], True), E: (["Paytm"], False), F: (["HDFC Bank"], False)}
     for num, (names, scam) in planted.items():
-        write("google", reverse_params(phones.normalise(num).norm), reverse_response(num, names, scam), f"reverse lookup {num}")
+        parsed = phones.normalise(num)
+        write("google", reverse_params(parsed.norm, parsed.kind), reverse_response(num, names, scam), f"reverse lookup {num}")
         written += 1
     for num in look_numbers:
-        write("google", reverse_params(phones.normalise(num).norm), reverse_response(num, [], False), f"reverse lookup {num}")
+        parsed = phones.normalise(num)
+        write("google", reverse_params(parsed.norm, parsed.kind), reverse_response(num, [], False), f"reverse lookup {num}")
         written += 1
     print(f"wrote {written + len(brands)} synthetic fixtures into {FIXTURES}")
 

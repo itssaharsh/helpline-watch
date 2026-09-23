@@ -2,7 +2,7 @@
  "_fixture": {
   "kind": "synthetic",
   "note": "Search · Kolkata · Zomato helpline number",
-  "generated_at": "2026-09-23T20:44:57+00:00",
+  "generated_at": "2026-09-23T20:53:40+00:00",
   "params": {
    "engine": "google",
    "q": "Zomato helpline number",
@@ -17,11 +17,11 @@
   "search_metadata": {
    "id": "synthetic-a15885db0a767dd1",
    "status": "Success",
-   "created_at": "2026-09-23 20:44:57 UTC",
-   "processed_at": "2026-09-23 20:44:57 UTC",
+   "created_at": "2026-09-23 20:53:40 UTC",
+   "processed_at": "2026-09-23 20:53:40 UTC",
    "json_endpoint": null,
    "raw_html_file": null,
-   "total_time_taken": 1.72
+   "total_time_taken": 1.0
   },
   "search_parameters": {
    "engine": "google",
@@ -61,7 +61,7 @@
      "position": 1,
      "title": "Zomato Customer Care Number",
      "place_id": "synthetic-zomato-kolkata-care",
-     "data_id": "0x4eb810422420:0xbad53fd28716",
+     "data_id": "0x22b1faa6ac3e:0x1997776ccdcc",
      "rating": 4.8,
      "reviews": 3,
      "type": "Customer service",
@@ -70,8 +70,8 @@
      ],
      "address": "Kolkata",
      "gps_coordinates": {
-      "latitude": 17.570757007333548,
-      "longitude": 84.68925057154816
+      "latitude": 24.47434312821395,
+      "longitude": 81.13670154826124
      },
      "phone": "+91 74110 29385"
     }

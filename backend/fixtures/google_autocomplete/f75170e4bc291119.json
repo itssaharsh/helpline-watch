@@ -2,7 +2,7 @@
  "_fixture": {
   "kind": "synthetic",
   "note": "autocomplete for HDFC Bank",
-  "generated_at": "2026-09-23T20:44:56+00:00",
+  "generated_at": "2026-09-23T20:53:40+00:00",
   "params": {
    "engine": "google_autocomplete",
    "q": "HDFC Bank customer care",
@@ -14,8 +14,8 @@
   "search_metadata": {
    "id": "synthetic-f75170e4bc291119",
    "status": "Success",
-   "created_at": "2026-09-23 20:44:56 UTC",
-   "processed_at": "2026-09-23 20:44:56 UTC",
+   "created_at": "2026-09-23 20:53:40 UTC",
+   "processed_at": "2026-09-23 20:53:40 UTC",
    "json_endpoint": null,
    "raw_html_file": null,
    "total_time_taken": 1.42

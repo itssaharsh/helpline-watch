@@ -2,7 +2,7 @@
  "_fixture": {
   "kind": "synthetic",
   "note": "Search · Kolkata · HDFC Bank customer care number",
-  "generated_at": "2026-09-23T20:44:56+00:00",
+  "generated_at": "2026-09-23T20:53:40+00:00",
   "params": {
    "engine": "google",
    "q": "HDFC Bank customer care number",
@@ -17,11 +17,11 @@
   "search_metadata": {
    "id": "synthetic-f617586c8dca58a9",
    "status": "Success",
-   "created_at": "2026-09-23 20:44:56 UTC",
-   "processed_at": "2026-09-23 20:44:56 UTC",
+   "created_at": "2026-09-23 20:53:40 UTC",
+   "processed_at": "2026-09-23 20:53:40 UTC",
    "json_endpoint": null,
    "raw_html_file": null,
-   "total_time_taken": 1.07
+   "total_time_taken": 2.06
   },
   "search_parameters": {
    "engine": "google",
@@ -43,8 +43,8 @@
    {
     "position": 2,
     "title": "HDFC Bank customer care number 1800 1600 1600 toll free",
-    "link": "https://www.customercare-numbers.in/hdfc-bank-customer-care",
-    "displayed_link": "https://www.customercare-numbers.in › hdfc-bank-customer-care",
+    "link": "https://www.tollfreenumber.in/hdfc-bank-customer-care",
+    "displayed_link": "https://www.tollfreenumber.in › hdfc-bank-customer-care",
     "snippet": "HDFC Bank customer care number is 1800 1600 1600. Also try the grievance desk on the official website."
    },
    {
@@ -82,7 +82,7 @@
      "position": 1,
      "title": "HDFC Bank Customer Care Number",
      "place_id": "synthetic-hdfc-bank-kolkata-care",
-     "data_id": "0xa79d797dc510:0x801f581f9408",
+     "data_id": "0xe351580c4e44:0x27381a0c2405",
      "rating": 4.8,
      "reviews": 3,
      "type": "Customer service",
@@ -91,8 +91,8 @@
      ],
      "address": "Kolkata",
      "gps_coordinates": {
-      "latitude": 12.658165320461663,
-      "longitude": 77.59531757527502
+      "latitude": 26.281085363858388,
+      "longitude": 83.69246973287727
      },
      "phone": "+91 74110 29385"
     }

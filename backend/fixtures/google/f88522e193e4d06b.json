@@ -2,7 +2,7 @@
  "_fixture": {
   "kind": "synthetic",
   "note": "Search · Bengaluru · Zomato customer care number",
-  "generated_at": "2026-09-23T20:44:57+00:00",
+  "generated_at": "2026-09-23T20:53:40+00:00",
   "params": {
    "engine": "google",
    "q": "Zomato customer care number",
@@ -17,11 +17,11 @@
   "search_metadata": {
    "id": "synthetic-f88522e193e4d06b",
    "status": "Success",
-   "created_at": "2026-09-23 20:44:57 UTC",
-   "processed_at": "2026-09-23 20:44:57 UTC",
+   "created_at": "2026-09-23 20:53:40 UTC",
+   "processed_at": "2026-09-23 20:53:40 UTC",
    "json_endpoint": null,
    "raw_html_file": null,
-   "total_time_taken": 1.66
+   "total_time_taken": 1.04
   },
   "search_parameters": {
    "engine": "google",

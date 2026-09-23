@@ -2,7 +2,7 @@
  "_fixture": {
   "kind": "synthetic",
   "note": "Maps · Mumbai · HDFC Bank customer care",
-  "generated_at": "2026-09-23T20:44:56+00:00",
+  "generated_at": "2026-09-23T20:53:40+00:00",
   "params": {
    "engine": "google_maps",
    "type": "search",
@@ -16,11 +16,11 @@
   "search_metadata": {
    "id": "synthetic-6832d31bbfeee7e7",
    "status": "Success",
-   "created_at": "2026-09-23 20:44:56 UTC",
-   "processed_at": "2026-09-23 20:44:56 UTC",
+   "created_at": "2026-09-23 20:53:40 UTC",
+   "processed_at": "2026-09-23 20:53:40 UTC",
    "json_endpoint": null,
    "raw_html_file": null,
-   "total_time_taken": 1.29
+   "total_time_taken": 2.33
   },
   "search_parameters": {
    "engine": "google_maps",
@@ -35,17 +35,17 @@
     "position": 1,
     "title": "HDFC Bank - Mumbai Main Branch",
     "place_id": "synthetic-hdfc-bank-mumbai-branch",
-    "data_id": "0x570e5e7e18aa:0xba560193fd91",
+    "data_id": "0xe3fc909cb85d:0x98c26abe9516",
     "rating": 3.9,
-    "reviews": 896,
+    "reviews": 472,
     "type": "Bank",
     "types": [
      "Bank"
     ],
     "address": "MG Road, Mumbai",
     "gps_coordinates": {
-     "latitude": 27.070295475759487,
-     "longitude": 80.90679676860525
+     "latitude": 14.394029108837342,
+     "longitude": 76.14870761751509
     },
     "phone": "1800 1600 1600",
     "website": "https://www.hdfcbank.com/"
@@ -54,17 +54,17 @@
     "position": 1,
     "title": "HDFC Bank Customer Care Number",
     "place_id": "synthetic-hdfc-bank-mumbai-care",
-    "data_id": "0x552d86344e60:0xe3fc909cb85d",
+    "data_id": "0xf4024dfa9d20:0x820081faa3f6",
     "rating": 5.0,
-    "reviews": 3,
+    "reviews": 0,
     "type": "Customer service",
     "types": [
      "Customer service"
     ],
     "address": "Sector 12, Mumbai",
     "gps_coordinates": {
-     "latitude": 18.671528887357525,
-     "longitude": 74.39402910883734
+     "latitude": 17.492722008741403,
+     "longitude": 87.06184253353847
     },
     "phone": "+91 74110 29385",
     "unclaimed_listing": true

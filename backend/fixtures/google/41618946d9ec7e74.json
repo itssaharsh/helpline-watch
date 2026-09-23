@@ -2,7 +2,7 @@
  "_fixture": {
   "kind": "synthetic",
   "note": "Search · Mumbai · SBI helpline number",
-  "generated_at": "2026-09-23T20:44:56+00:00",
+  "generated_at": "2026-09-23T20:53:40+00:00",
   "params": {
    "engine": "google",
    "q": "SBI helpline number",
@@ -17,11 +17,11 @@
   "search_metadata": {
    "id": "synthetic-41618946d9ec7e74",
    "status": "Success",
-   "created_at": "2026-09-23 20:44:56 UTC",
-   "processed_at": "2026-09-23 20:44:56 UTC",
+   "created_at": "2026-09-23 20:53:40 UTC",
+   "processed_at": "2026-09-23 20:53:40 UTC",
    "json_endpoint": null,
    "raw_html_file": null,
-   "total_time_taken": 1.04
+   "total_time_taken": 1.16
   },
   "search_parameters": {
    "engine": "google",
@@ -43,15 +43,15 @@
    {
     "position": 2,
     "title": "SBI customer care number 1800 1234 toll free",
-    "link": "https://www.customercare-numbers.in/sbi-customer-care",
-    "displayed_link": "https://www.customercare-numbers.in › sbi-customer-care",
+    "link": "https://www.justdial.com/sbi-customer-care",
+    "displayed_link": "https://www.justdial.com › sbi-customer-care",
     "snippet": "SBI customer care number is 1800 1234. Also try the grievance desk on the official website."
    },
    {
     "position": 3,
     "title": "SBI helpline number 24x7 - SBI care",
-    "link": "https://www.helpline-directory.org/sbi-helpline-24x7",
-    "displayed_link": "https://www.helpline-directory.org › sbi-helpline-24x7",
+    "link": "https://www.customercare-numbers.in/sbi-helpline-24x7",
+    "displayed_link": "https://www.customercare-numbers.in › sbi-helpline-24x7",
     "snippet": "Updated SBI helpline number: 1800 1235. Lines open 24 hours for card block, refund and KYC."
    },
    {
@@ -64,8 +64,8 @@
    {
     "position": 5,
     "title": "Man loses Rs 90,000 after calling fake SBI customer care number",
-    "link": "https://www.hindustantimes.com/city/mumbai/fake-sbi-helpline",
-    "displayed_link": "https://www.hindustantimes.com › city › mumbai",
+    "link": "https://www.deccanherald.com/city/mumbai/fake-sbi-helpline",
+    "displayed_link": "https://www.deccanherald.com › city › mumbai",
     "snippet": "The victim searched for SBI customer care on Google and dialled a number listed on a business listing. Police said the number was a scam."
    },
    {

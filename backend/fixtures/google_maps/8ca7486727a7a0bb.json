@@ -2,7 +2,7 @@
  "_fixture": {
   "kind": "synthetic",
   "note": "Maps · Delhi · IndiGo customer care",
-  "generated_at": "2026-09-23T20:44:57+00:00",
+  "generated_at": "2026-09-23T20:53:40+00:00",
   "params": {
    "engine": "google_maps",
    "type": "search",
@@ -16,11 +16,11 @@
   "search_metadata": {
    "id": "synthetic-8ca7486727a7a0bb",
    "status": "Success",
-   "created_at": "2026-09-23 20:44:57 UTC",
-   "processed_at": "2026-09-23 20:44:57 UTC",
+   "created_at": "2026-09-23 20:53:40 UTC",
+   "processed_at": "2026-09-23 20:53:40 UTC",
    "json_endpoint": null,
    "raw_html_file": null,
-   "total_time_taken": 2.09
+   "total_time_taken": 1.75
   },
   "search_parameters": {
    "engine": "google_maps",
@@ -35,17 +35,17 @@
     "position": 1,
     "title": "IndiGo - Delhi Main Branch",
     "place_id": "synthetic-indigo-delhi-branch",
-    "data_id": "0x5947c35b2d28:0x88a629794d65",
-    "rating": 3.8,
-    "reviews": 576,
+    "data_id": "0xacf9e06c5d07:0xcb33a391bb0f",
+    "rating": 3.6,
+    "reviews": 798,
     "type": "Airline ticket agency",
     "types": [
      "Airline ticket agency"
     ],
     "address": "MG Road, Delhi",
     "gps_coordinates": {
-     "latitude": 18.596423040074292,
-     "longitude": 80.04936411022499
+     "latitude": 13.827164461101928,
+     "longitude": 81.07998514810328
     },
     "phone": "0124 617 3838",
     "website": "https://www.goindigo.in/"
@@ -54,17 +54,17 @@
     "position": 1,
     "title": "IndiGo Customer Care Number",
     "place_id": "synthetic-indigo-delhi-care",
-    "data_id": "0x2cafb39399d0:0xe06c22fb120d",
+    "data_id": "0x4b44f23212a1:0x4a5f227605a7",
     "rating": 5.0,
-    "reviews": 3,
+    "reviews": 0,
     "type": "Customer service",
     "types": [
      "Customer service"
     ],
     "address": "Sector 12, Delhi",
     "gps_coordinates": {
-     "latitude": 22.81097455488949,
-     "longitude": 84.70011426379654
+     "latitude": 24.6515536313261,
+     "longitude": 86.77168451119385
     },
     "phone": "+91 74110 29385",
     "unclaimed_listing": true
@@ -73,17 +73,17 @@
     "position": 1,
     "title": "IndiGo Airport Counter Delhi",
     "place_id": "synthetic-indigo-delhi-ctr",
-    "data_id": "0xda291479e87:0x17a1d3e12295",
+    "data_id": "0x91ab7076fd9b:0xdd38eddba0eb",
     "rating": 4.0,
-    "reviews": 312,
+    "reviews": 407,
     "type": "Airline",
     "types": [
      "Airline"
     ],
     "address": "Airport, Delhi",
     "gps_coordinates": {
-     "latitude": 27.137224828482942,
-     "longitude": 74.15381399280074
+     "latitude": 23.349927999341332,
+     "longitude": 83.58779526609639
     },
     "phone": "0124 617 3838",
     "website": "https://www.goindigo.in/"

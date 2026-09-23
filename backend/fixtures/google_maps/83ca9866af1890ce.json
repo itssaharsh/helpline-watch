@@ -2,7 +2,7 @@
  "_fixture": {
   "kind": "synthetic",
   "note": "Maps · Kolkata · Zomato customer care",
-  "generated_at": "2026-09-23T20:44:57+00:00",
+  "generated_at": "2026-09-23T20:53:40+00:00",
   "params": {
    "engine": "google_maps",
    "type": "search",
@@ -16,11 +16,11 @@
   "search_metadata": {
    "id": "synthetic-83ca9866af1890ce",
    "status": "Success",
-   "created_at": "2026-09-23 20:44:57 UTC",
-   "processed_at": "2026-09-23 20:44:57 UTC",
+   "created_at": "2026-09-23 20:53:40 UTC",
+   "processed_at": "2026-09-23 20:53:40 UTC",
    "json_endpoint": null,
    "raw_html_file": null,
-   "total_time_taken": 2.32
+   "total_time_taken": 1.21
   },
   "search_parameters": {
    "engine": "google_maps",
@@ -35,17 +35,17 @@
     "position": 1,
     "title": "Zomato Customer Care Number",
     "place_id": "synthetic-zomato-kolkata-care",
-    "data_id": "0x2f07e266528d:0xa47712ea2d15",
+    "data_id": "0xf21814ff4427:0x6d9e0270a35a",
     "rating": 5.0,
-    "reviews": 1,
+    "reviews": 3,
     "type": "Customer service",
     "types": [
      "Customer service"
     ],
     "address": "Sector 12, Kolkata",
     "gps_coordinates": {
-     "latitude": 27.665691511097904,
-     "longitude": 79.46406341790717
+     "latitude": 16.10986097690565,
+     "longitude": 81.20395549894015
     },
     "phone": "+91 74110 29385",
     "unclaimed_listing": true
@@ -54,7 +54,7 @@
     "position": 1,
     "title": "Zomato Hyperpure Warehouse",
     "place_id": "synthetic-zomato-kolkata-hp",
-    "data_id": "0x8f61c796e8d3:0xb38c922fede7",
+    "data_id": "0x7ae36abcbd89:0xed6b5abb9993",
     "rating": 4.1,
     "reviews": 42,
     "type": "Warehouse",
@@ -63,8 +63,8 @@
     ],
     "address": "Industrial Area, Kolkata",
     "gps_coordinates": {
-     "latitude": 13.015117263549747,
-     "longitude": 79.86939717316866
+     "latitude": 23.198745939295904,
+     "longitude": 81.77992763379262
     },
     "website": "https://www.zomato.com/hyperpure"
    }

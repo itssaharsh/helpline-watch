@@ -2,7 +2,7 @@
  "_fixture": {
   "kind": "synthetic",
   "note": "Maps · Mumbai · Zomato customer care",
-  "generated_at": "2026-09-23T20:44:57+00:00",
+  "generated_at": "2026-09-23T20:53:40+00:00",
   "params": {
    "engine": "google_maps",
    "type": "search",
@@ -16,11 +16,11 @@
   "search_metadata": {
    "id": "synthetic-28e292537ce823b5",
    "status": "Success",
-   "created_at": "2026-09-23 20:44:57 UTC",
-   "processed_at": "2026-09-23 20:44:57 UTC",
+   "created_at": "2026-09-23 20:53:40 UTC",
+   "processed_at": "2026-09-23 20:53:40 UTC",
    "json_endpoint": null,
    "raw_html_file": null,
-   "total_time_taken": 1.27
+   "total_time_taken": 1.06
   },
   "search_parameters": {
    "engine": "google_maps",
@@ -35,17 +35,17 @@
     "position": 1,
     "title": "Zomato Customer Care Number",
     "place_id": "synthetic-zomato-mumbai-care",
-    "data_id": "0x5a094db7ec9e:0xd431def39ffb",
+    "data_id": "0x111748f094a2:0xe4bcc37f4b07",
     "rating": 5.0,
-    "reviews": 1,
+    "reviews": 2,
     "type": "Customer service",
     "types": [
      "Customer service"
     ],
     "address": "Sector 12, Mumbai",
     "gps_coordinates": {
-     "latitude": 12.896249320704591,
-     "longitude": 77.84465989184787
+     "latitude": 20.14043271872879,
+     "longitude": 79.08758386565964
     },
     "phone": "+91 74110 29385",
     "unclaimed_listing": true
@@ -54,7 +54,7 @@
     "position": 1,
     "title": "Zomato Hyperpure Warehouse",
     "place_id": "synthetic-zomato-mumbai-hp",
-    "data_id": "0x876eee456100:0x80eca4ead084",
+    "data_id": "0x38b87a917a0e:0x1e7f84e174a6",
     "rating": 4.1,
     "reviews": 42,
     "type": "Warehouse",
@@ -63,8 +63,8 @@
     ],
     "address": "Industrial Area, Mumbai",
     "gps_coordinates": {
-     "latitude": 20.442400106870622,
-     "longitude": 77.32054578369313
+     "latitude": 17.17101361325247,
+     "longitude": 87.0240003257583
     },
     "website": "https://www.zomato.com/hyperpure"
    }

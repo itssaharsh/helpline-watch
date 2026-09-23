@@ -2,7 +2,7 @@
  "_fixture": {
   "kind": "synthetic",
   "note": "Search · Mumbai · IndiGo helpline number",
-  "generated_at": "2026-09-23T20:44:57+00:00",
+  "generated_at": "2026-09-23T20:53:40+00:00",
   "params": {
    "engine": "google",
    "q": "IndiGo helpline number",
@@ -17,11 +17,11 @@
   "search_metadata": {
    "id": "synthetic-8eced1cf990d0339",
    "status": "Success",
-   "created_at": "2026-09-23 20:44:57 UTC",
-   "processed_at": "2026-09-23 20:44:57 UTC",
+   "created_at": "2026-09-23 20:53:40 UTC",
+   "processed_at": "2026-09-23 20:53:40 UTC",
    "json_endpoint": null,
    "raw_html_file": null,
-   "total_time_taken": 1.17
+   "total_time_taken": 2.04
   },
   "search_parameters": {
    "engine": "google",
@@ -43,22 +43,22 @@
    {
     "position": 2,
     "title": "IndiGo customer care number 0124 617 3838 toll free",
-    "link": "https://www.helpline-directory.org/indigo-customer-care",
-    "displayed_link": "https://www.helpline-directory.org › indigo-customer-care",
+    "link": "https://www.tollfreenumber.in/indigo-customer-care",
+    "displayed_link": "https://www.tollfreenumber.in › indigo-customer-care",
     "snippet": "IndiGo customer care number is 0124 617 3838. Also try the grievance desk on the official website."
    },
    {
     "position": 3,
     "title": "IndiGo helpline number 24x7 - IndiGo care",
-    "link": "https://www.tollfreenumber.in/indigo-helpline-24x7",
-    "displayed_link": "https://www.tollfreenumber.in › indigo-helpline-24x7",
+    "link": "https://www.helpline-directory.org/indigo-helpline-24x7",
+    "displayed_link": "https://www.helpline-directory.org › indigo-helpline-24x7",
     "snippet": "Updated IndiGo helpline number: 0124 617 3839. Lines open 24 hours for card block, refund and KYC."
    },
    {
     "position": 4,
     "title": "Man loses Rs 90,000 after calling fake IndiGo customer care number",
-    "link": "https://www.timesofindia.indiatimes.com/city/mumbai/fake-indigo-helpline",
-    "displayed_link": "https://www.timesofindia.indiatimes.com › city › mumbai",
+    "link": "https://www.hindustantimes.com/city/mumbai/fake-indigo-helpline",
+    "displayed_link": "https://www.hindustantimes.com › city › mumbai",
     "snippet": "The victim searched for IndiGo customer care on Google and dialled a number listed on a business listing. Police said the number was a scam."
    },
    {
@@ -82,7 +82,7 @@
      "position": 1,
      "title": "IndiGo Customer Care Number",
      "place_id": "synthetic-indigo-mumbai-care",
-     "data_id": "0xcab4c5c47e63:0x810b631c145b",
+     "data_id": "0x817226a9d6e7:0x61359da717aa",
      "rating": 4.8,
      "reviews": 3,
      "type": "Customer service",
@@ -91,8 +91,8 @@
      ],
      "address": "Mumbai",
      "gps_coordinates": {
-      "latitude": 17.039963121946997,
-      "longitude": 82.91137381399213
+      "latitude": 13.297253800470463,
+      "longitude": 84.34548019966978
      },
      "phone": "+91 74110 29385"
     }

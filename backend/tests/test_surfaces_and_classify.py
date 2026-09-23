@@ -45,7 +45,7 @@ def test_classifier_marks_official_lookalike_mobile_and_cross_brand():
         ]
     }
     obs = parse_google_maps(result("google_maps", data), "mumbai")
-    findings = classify(BRAND, obs, cross_brand={"+919123456789": ["Zomato", "IndiGo"]})
+    findings = classify(BRAND, obs, cross_brand={"+919123456789": {"fake": ["Zomato", "IndiGo"], "review": []}})
     by_number = {f.number_norm: f for f in findings}
     assert by_number["180016001600"].verdict == Verdict.OFFICIAL
     lookalike = by_number["180016001610"]
@@ -94,3 +94,50 @@ def test_ads_transparency_separates_brand_from_third_party_advertisers():
     assert [a.advertiser for a in advertisers] == ["Quick Loans Consultancy", "HDFC Bank Ltd"]
     assert advertisers[0].creatives == 2 and advertisers[0].first_shown == 2 and advertisers[0].last_shown == 10
     assert advertisers[1].is_brand is True
+
+
+def test_unconfirmed_sightings_for_other_brands_never_escalate_to_fake():
+    data = {"organic_results": [{"title": "Helpline directory", "link": "https://helpline-directory.org/x", "snippet": "Banking helpdesk 022 2345 6789"}]}
+    obs = parse_google_search(result("google", data), "delhi")
+    [finding] = classify(BRAND, obs, cross_brand={"+912223456789": {"fake": [], "review": ["Zomato", "IndiGo"]}})
+    assert finding.verdict == Verdict.REVIEW and finding.score == 2
+    assert any(s.code == "SEEN_FOR_OTHER_BRANDS" for s in finding.signals)
+
+
+def test_listing_website_field_cannot_make_a_number_official():
+    data = {"local_results": [{"title": "HDFC Bank Customer Care Helpline", "phone": "+91 91234 56789", "website": "https://www.hdfcbank.com", "reviews": 0}]}
+    obs = parse_google_maps(result("google_maps", data), "mumbai")
+    [finding] = classify(BRAND, obs)
+    assert finding.verdict == Verdict.FAKE
+
+
+def test_parsers_survive_odd_block_shapes():
+    data = {
+        "ads": [{"title": "Ad", "sitelinks": {"inline": [{"title": "Call 98765 43210"}]}}],
+        "answer_box": [{"title": "Box", "snippet": "Dial 1800 2600"}],
+        "organic_results": [{"title": "Org", "link": "https://x.in/a", "snippet": "n/a", "rich_snippet": {"top": {"extensions": None}}}],
+        "local_results": {"places": [{"title": "Place", "phone": "1800 1600 1600", "reviews": "1,234", "rating": "4.5"}]},
+        "related_questions": [{"question": "q?"}],
+    }
+    obs = parse_google_search(result("google", data), "delhi")
+    assert {o.number_norm for o in obs} == {"+919876543210", "18002600", "180016001600"}
+    assert next(o for o in obs if o.listing).listing.reviews == 1234
+
+
+def test_single_place_maps_result_is_parsed():
+    data = {"place_results": {"title": "HDFC Bank Customer Care Number", "phone": "+91 91234 56789", "place_id": "ChIJone"}}
+    obs = parse_google_maps(result("google_maps", data), "patna")
+    assert len(obs) == 1 and obs[0].listing.place_id == "ChIJone"
+
+
+def test_merge_analyst_state_keeps_pack_and_reverse_evidence():
+    from helpline_watch.analysis.classify import merge_analyst_state
+
+    data = {"organic_results": [{"title": "Contact", "link": "https://random-blog.in/x", "snippet": "HDFC helpline 022 2345 6789"}]}
+    obs = parse_google_search(result("google", data), "delhi")
+    [old] = classify(BRAND, obs)
+    hits = parse_reverse(result("google", {"organic_results": [{"title": "Scam", "link": "https://www.consumercomplaints.in/x", "snippet": "fraud number"}]}))
+    old = apply_reverse(old, hits).model_copy(update={"in_pack": True})
+    assert old.verdict == Verdict.FAKE
+    [merged] = merge_analyst_state(classify(BRAND, obs), [old])
+    assert merged.verdict == Verdict.FAKE and merged.in_pack and merged.reverse_checked

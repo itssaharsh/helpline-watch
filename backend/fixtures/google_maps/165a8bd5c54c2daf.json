@@ -2,7 +2,7 @@
  "_fixture": {
   "kind": "synthetic",
   "note": "Maps · Bengaluru · HDFC Bank customer care",
-  "generated_at": "2026-09-23T20:44:56+00:00",
+  "generated_at": "2026-09-23T20:53:40+00:00",
   "params": {
    "engine": "google_maps",
    "type": "search",
@@ -16,11 +16,11 @@
   "search_metadata": {
    "id": "synthetic-165a8bd5c54c2daf",
    "status": "Success",
-   "created_at": "2026-09-23 20:44:56 UTC",
-   "processed_at": "2026-09-23 20:44:56 UTC",
+   "created_at": "2026-09-23 20:53:40 UTC",
+   "processed_at": "2026-09-23 20:53:40 UTC",
    "json_endpoint": null,
    "raw_html_file": null,
-   "total_time_taken": 1.04
+   "total_time_taken": 1.59
   },
   "search_parameters": {
    "engine": "google_maps",
@@ -35,17 +35,17 @@
     "position": 1,
     "title": "HDFC Bank - Bengaluru Main Branch",
     "place_id": "synthetic-hdfc-bank-bengaluru-branch",
-    "data_id": "0xa63fd9d61230:0xd2ce97dcec97",
-    "rating": 4.1,
-    "reviews": 299,
+    "data_id": "0x8ba78f0bc8fc:0xab7cb5387f2",
+    "rating": 3.8,
+    "reviews": 679,
     "type": "Bank",
     "types": [
      "Bank"
     ],
     "address": "MG Road, Bengaluru",
     "gps_coordinates": {
-     "latitude": 19.570615179505555,
-     "longitude": 83.57226296345821
+     "latitude": 20.283353553855342,
+     "longitude": 83.44588049664343
     },
     "phone": "1800 1600 1600",
     "website": "https://www.hdfcbank.com/"
@@ -54,7 +54,7 @@
     "position": 1,
     "title": "HDFC Bank Toll Free Number",
     "place_id": "synthetic-hdfc-bank-bengaluru-look",
-    "data_id": "0xdb4d42394a7c:0x6c8bce55cabe",
+    "data_id": "0x87c0130a7861:0x1e850392ab7f",
     "rating": 5.0,
     "reviews": 1,
     "type": "Customer service",
@@ -63,8 +63,8 @@
     ],
     "address": "Whitefield, Bengaluru",
     "gps_coordinates": {
-     "latitude": 27.41022204491008,
-     "longitude": 81.36598127258554
+     "latitude": 27.13171509164986,
+     "longitude": 76.58783483928049
     },
     "phone": "1800 1600 1601",
     "unclaimed_listing": true

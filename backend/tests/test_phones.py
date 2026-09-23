@@ -88,3 +88,46 @@ def test_digit_distance_and_transposition():
     assert is_transposition("+919876543210", "+919876543201")
     assert not is_transposition("+919876543210", "+919876543210")
     assert not is_transposition("+919876543210", "+919876543299")
+
+
+# --- regressions from the fresh-context review ---
+
+def test_number_is_found_when_digits_precede_it():
+    cases = {
+        "Samsung Service Centre 2 098765 43210 Andheri": ["+919876543210"],
+        "Samsung Care 24 7 1800 102 4455": ["18001024455"],
+        "Open 9 to 6. 9876543210": ["+919876543210"],
+        "Andheri, Mumbai 400069 9876543210": ["+919876543210"],
+        "Rs 500 9876543210": ["+919876543210"],
+        "since 2019. 9876543210": ["+919876543210"],
+        "Plot 45 080 4567 8901": ["+918045678901"],
+        "98765 43210 98765 43211": ["+919876543210", "+919876543211"],
+    }
+    for text, expected in cases.items():
+        assert [p.norm for p in extract(text)] == expected, text
+
+
+def test_bare_ten_digits_starting_one_to_five_are_not_numbers():
+    assert extract("order id 2098765432 shipped") == []
+    assert extract("invoice 4508045678") == []
+
+
+def test_landline_std_codes_starting_six_to_nine_are_landlines_when_grouped():
+    bengaluru = normalise("080 4567 8901")
+    assert bengaluru.kind == NumberKind.LANDLINE and bengaluru.norm == "+918045678901"
+    assert display(bengaluru.norm, bengaluru.kind) == "080 4567 8901"
+    from helpline_watch.extract.phones import search_forms
+
+    assert search_forms(bengaluru.norm, bengaluru.kind) == ["08045678901", "080 4567 8901"]
+    mobile = normalise("098765 43210")
+    assert mobile.kind == NumberKind.MOBILE
+    assert normalise("+91 80 4567 8901").kind == NumberKind.LANDLINE
+    assert normalise("09876543210").kind == NumberKind.MOBILE
+
+
+def test_international_spellings_are_read():
+    assert normalise("+91-1800-102-4455").norm == "18001024455"
+    assert normalise("Toll free: +91 1800 266 2626".split(": ")[1]).norm == "18002662626"
+    assert normalise("0091 98765 43210").norm == "+919876543210"
+    assert normalise("+91 (0) 98765 43210").norm == "+919876543210"
+    assert [p.norm for p in extract("Toll free: +91 1800 266 2626 or +91 (0) 98765 43210")] == ["18002662626", "+919876543210"]

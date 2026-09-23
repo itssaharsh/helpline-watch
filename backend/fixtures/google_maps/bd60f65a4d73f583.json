@@ -2,7 +2,7 @@
  "_fixture": {
   "kind": "synthetic",
   "note": "Maps · Delhi · HDFC Bank customer care",
-  "generated_at": "2026-09-23T20:44:56+00:00",
+  "generated_at": "2026-09-23T20:53:40+00:00",
   "params": {
    "engine": "google_maps",
    "type": "search",
@@ -16,11 +16,11 @@
   "search_metadata": {
    "id": "synthetic-bd60f65a4d73f583",
    "status": "Success",
-   "created_at": "2026-09-23 20:44:56 UTC",
-   "processed_at": "2026-09-23 20:44:56 UTC",
+   "created_at": "2026-09-23 20:53:40 UTC",
+   "processed_at": "2026-09-23 20:53:40 UTC",
    "json_endpoint": null,
    "raw_html_file": null,
-   "total_time_taken": 1.7
+   "total_time_taken": 1.22
   },
   "search_parameters": {
    "engine": "google_maps",
@@ -35,17 +35,17 @@
     "position": 1,
     "title": "HDFC Bank - Delhi Main Branch",
     "place_id": "synthetic-hdfc-bank-delhi-branch",
-    "data_id": "0x3e5430238e89:0x97c89c655bc9",
+    "data_id": "0x112bc0afd32e:0x8a9ed1a101a0",
     "rating": 3.5,
-    "reviews": 652,
+    "reviews": 241,
     "type": "Bank",
     "types": [
      "Bank"
     ],
     "address": "MG Road, Delhi",
     "gps_coordinates": {
-     "latitude": 16.022201143117115,
-     "longitude": 75.8553664228163
+     "latitude": 23.91345805338198,
+     "longitude": 79.03415635234659
     },
     "phone": "1800 1600 1600",
     "website": "https://www.hdfcbank.com/"
@@ -54,17 +54,17 @@
     "position": 1,
     "title": "HDFC Bank Customer Care Number",
     "place_id": "synthetic-hdfc-bank-delhi-care",
-    "data_id": "0x14d5285a3d9b:0xc0af3fae8f1e",
+    "data_id": "0x76bd5c31df0:0x4baf9046f7ae",
     "rating": 5.0,
-    "reviews": 3,
+    "reviews": 2,
     "type": "Customer service",
     "types": [
      "Customer service"
     ],
     "address": "Sector 12, Delhi",
     "gps_coordinates": {
-     "latitude": 13.073179342611194,
-     "longitude": 80.66357561881436
+     "latitude": 20.296418223803904,
+     "longitude": 81.09954425341226
     },
     "phone": "+91 74110 29385",
     "unclaimed_listing": true

@@ -55,11 +55,12 @@ function callsFromSweep(sweep: Sweep): Record<string, CallState> {
     if (i === 0) calls[`hindi:${cityId}`] = { id: `hindi:${cityId}`, status: 'done', label: 'Hindi', group: 'hindi', city_id: cityId }
   })
   calls.ads = { id: 'ads', status: 'done', label: 'Ads Transparency', group: 'ads', city_id: null }
-  for (const c of sweep.coverage) {
-    if (c.failed > 0) {
-      const failedIds = Object.keys(calls).filter((k) => calls[k].city_id === c.city_id).slice(-c.failed)
-      for (const k of failedIds) calls[k] = { ...calls[k], status: 'failed', error: 'No recorded result for this query yet.' }
-    }
+  // Errors are stored as "<call id>: <message>", so the exact cell that failed can be marked.
+  for (const line of sweep.errors) {
+    const sep = line.indexOf(': ')
+    if (sep < 0) continue
+    const id = line.slice(0, sep)
+    if (calls[id]) calls[id] = { ...calls[id], status: 'failed', error: line.slice(sep + 2) }
   }
   return calls
 }
@@ -114,9 +115,11 @@ function reducer(state: SweepState, action: Action): SweepState {
     case 'error':
       return { ...state, status: 'error', error: action.payload.message, log: keepLog(state.log, log('fail', action.payload.message)) }
     case 'loaded': {
+      if (state.status === 'running') return state // a late "load latest" must never overwrite a live sweep
       const s = action.sweep
       return { ...EMPTY, status: 'done', sweepId: s.id, brandId: s.brand_id, cityIds: s.city_ids, mode: s.mode, calls: callsFromSweep(s), queries: s.queries,
-        findings: s.findings, advertisers: s.advertisers, sweep: s, diff: action.diff, cacheHits: s.calls_made, log: [log('info', `Loaded sweep ${s.id} from ${new Date(s.started_at).toLocaleString()}`)] }
+        findings: s.findings, advertisers: s.advertisers, sweep: s, diff: action.diff, liveCalls: s.live_calls ?? 0, cacheHits: s.cache_hits ?? s.calls_made,
+        log: [log('info', `Loaded sweep ${s.id} from ${new Date(s.started_at).toLocaleString()}`)] }
     }
     case 'finding_patched': {
       const findings = state.findings.map((x) => (x.number_norm === action.finding.number_norm ? action.finding : x))

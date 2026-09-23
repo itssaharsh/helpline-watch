@@ -21,7 +21,7 @@ def test_cross_brand_index_and_network(tmp_path):
     store.save_sweep(sweep("s1", "zomato", "Zomato", [f1], datetime(2026, 9, 20, tzinfo=UTC)))
     store.save_sweep(sweep("s2", "hdfc-bank", "HDFC Bank", [f1, f2], datetime(2026, 9, 21, tzinfo=UTC)))
 
-    assert store.brands_for_numbers([shared, "18002600"], exclude_brand_id="hdfc-bank") == {shared: ["Zomato"]}
+    assert store.brands_for_numbers([shared, "18002600"], exclude_brand_id="hdfc-bank") == {shared: {"fake": ["Zomato"], "review": []}}
     net = store.network()
     ids = {n["id"] for n in net["nodes"]}
     assert ids == {"brand:zomato", "brand:hdfc-bank", f"num:{shared}"}  # official numbers are not graph nodes
@@ -29,3 +29,13 @@ def test_cross_brand_index_and_network(tmp_path):
     latest = store.list_sweeps("hdfc-bank")
     assert latest[0]["id"] == "s2" and latest[0]["counts"]["fake"] == 1
     assert store.previous_sweep("hdfc-bank", store.get_sweep("s2")) is None
+
+
+def test_numbers_official_anywhere_are_never_cross_brand_evidence(tmp_path):
+    store = Store(tmp_path / "t.sqlite")
+    helpline = "18001140" + "00"
+    seen = Finding(number_norm=helpline, display=helpline, kind=NumberKind.TOLLFREE_1800, verdict=Verdict.REVIEW, score=1, observations=[obs(helpline)])
+    official = Finding(number_norm=helpline, display=helpline, kind=NumberKind.TOLLFREE_1800, verdict=Verdict.OFFICIAL, score=0, observations=[obs(helpline)])
+    store.save_sweep(sweep("s1", "zomato", "Zomato", [seen], datetime(2026, 9, 20, tzinfo=UTC)))
+    store.save_sweep(sweep("s2", "nch", "Consumer Helpline", [official], datetime(2026, 9, 21, tzinfo=UTC)))
+    assert store.brands_for_numbers([helpline], exclude_brand_id="hdfc-bank") == {}

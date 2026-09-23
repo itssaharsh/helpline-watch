@@ -89,20 +89,26 @@ class Store:
         return Sweep.model_validate_json(row["body"]) if row else None
 
     # ---------- corroboration ----------
-    def brands_for_numbers(self, numbers: list[str], exclude_brand_id: str) -> dict[str, list[str]]:
-        """Other brands each number has been seen posing as (from any earlier sweep)."""
+    def brands_for_numbers(self, numbers: list[str], exclude_brand_id: str) -> dict[str, dict[str, list[str]]]:
+        """Other brands each number has been seen for, split by that brand's verdict.
+
+        A number that is official for any brand is never cross-brand evidence, so a shared
+        aggregator page or a regulator's helpline cannot escalate across sweeps.
+        """
         if not numbers:
             return {}
         marks = ",".join("?" for _ in numbers)
         with self._conn() as c:
             rows = c.execute(
-                f"SELECT DISTINCT number_norm, brand_name FROM observations WHERE number_norm IN ({marks}) AND brand_id != ? AND verdict IN ('fake','review')",
+                f"""SELECT DISTINCT number_norm, brand_name, verdict FROM observations
+                    WHERE number_norm IN ({marks}) AND brand_id != ? AND verdict IN ('fake','review')
+                      AND number_norm NOT IN (SELECT number_norm FROM observations WHERE verdict IN ('official','official_unlisted'))""",
                 (*numbers, exclude_brand_id),
             ).fetchall()
-        out: dict[str, list[str]] = defaultdict(list)
+        out: dict[str, dict[str, set[str]]] = defaultdict(lambda: {"fake": set(), "review": set()})
         for r in rows:
-            out[r["number_norm"]].append(r["brand_name"])
-        return {k: sorted(v) for k, v in out.items()}
+            out[r["number_norm"]][r["verdict"]].add(r["brand_name"])
+        return {k: {"fake": sorted(v["fake"]), "review": sorted(v["review"] - v["fake"])} for k, v in out.items()}
 
     def network(self) -> dict:
         """Numbers ↔ brands graph across the latest sweep of every brand."""

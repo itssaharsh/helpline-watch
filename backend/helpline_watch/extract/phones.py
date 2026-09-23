@@ -1,8 +1,9 @@
 """Find and normalise Indian phone numbers in free text.
 
-Handles +91 / 0091 / 0 prefixes, Devanagari digits, 1800/1860/1600 series,
-and the separators people actually type (spaces, dashes, dots, brackets).
-Everything is pure and deterministic: a number is either in the text or it is not.
+Handles +91 / 0091 / 0 prefixes, "+91 (0)" forms, Devanagari digits, the 1800/1860/1600
+series, and the separators people actually type. Extraction walks digit groups so a
+stray "2" or a pincode before a number never swallows it, and two numbers written back
+to back are both found. Everything is pure and deterministic.
 """
 
 from __future__ import annotations
@@ -14,12 +15,16 @@ from helpline_watch.models import NumberKind
 
 DEVANAGARI_DIGITS = str.maketrans("०१२३४५६७८९", "0123456789")
 
-# A run of digits with optional separators; 8 to 15 digits in total.
-_CANDIDATE = re.compile(r"(?<![\w.])(?:\+?\d[\d\s\-.()]{6,20}\d)(?![\w])")
+# A maximal run of digits and the separators people put between digit groups.
+_RUN = re.compile(r"\+?\d[\d\s\-.()/]*\d|\+?\d")
+_GROUP = re.compile(r"\d+")
 _MIN_DIGITS = 8
-_MAX_DIGITS = 13
+_MAX_DIGITS = 14
 _SERVICE_PREFIXES = ("1800", "1860", "1600")
 _SERVICE_LENGTHS = {8, 10, 11, 12}  # 1800 XXXX · 1800 XXX XXX · 1800 XXX XXXX · 1800 XXXX XXXX
+_SERVICE_KIND = {"1800": NumberKind.TOLLFREE_1800, "1860": NumberKind.PREMIUM_1860, "1600": NumberKind.SERVICE_1600}
+_TWO_DIGIT_STD = {"11", "22", "33", "44", "40", "80", "20", "79"}
+_MOBILE_START = "6789"
 
 
 @dataclass(frozen=True)
@@ -33,35 +38,62 @@ class ParsedNumber:
         return re.sub(r"\D", "", self.norm)
 
 
-def _service(digits: str) -> tuple[str, NumberKind]:
-    kind = {
-        "1800": NumberKind.TOLLFREE_1800,
-        "1860": NumberKind.PREMIUM_1860,
-        "1600": NumberKind.SERVICE_1600,
-    }[digits[:4]]
-    return digits, kind
+def _strip_prefix(digits: str) -> tuple[str, bool]:
+    """Remove country/trunk prefixes. Returns (subscriber digits, had_explicit_prefix)."""
+    had = False
+    if digits.startswith("0091"):
+        digits, had = digits[4:], True
+    elif digits.startswith("91") and len(digits) in (12, 13) and digits[2:6] not in _SERVICE_PREFIXES:
+        digits, had = digits[2:], True
+    elif digits.startswith("91") and len(digits) in (12, 13, 14) and digits[2:6] in _SERVICE_PREFIXES:
+        digits, had = digits[2:], True
+    if digits.startswith("0") and len(digits) == 11:
+        digits, had = digits[1:], True
+    return digits, had
 
 
-def _classify_digits(digits: str) -> tuple[str, NumberKind] | None:
+def _subscriber_group_lengths(raw: str, subscriber: str) -> list[int]:
+    """Lengths of the digit groups that spell the subscriber part, as written."""
+    groups = _GROUP.findall(raw)
+    flat = "".join(groups)
+    start = flat.find(subscriber)
+    if start < 0:
+        return []
+    end = start + len(subscriber)
+    out: list[int] = []
+    pos = 0
+    for g in groups:
+        g_start, g_end = pos, pos + len(g)
+        overlap = min(g_end, end) - max(g_start, start)
+        if overlap > 0:
+            out.append(overlap)
+        pos = g_end
+    return out
+
+
+def _grouped_like_landline(raw: str, subscriber: str) -> bool:
+    """STD code + number is written as two or three groups whose first has 2–4 digits."""
+    lengths = _subscriber_group_lengths(raw, subscriber)
+    return len(lengths) in (2, 3) and 2 <= lengths[0] <= 4
+
+
+def _classify(digits: str, raw: str) -> tuple[str, NumberKind] | None:
     """Return (canonical, kind) or None if this is not an Indian phone number."""
     if digits[:4] in _SERVICE_PREFIXES and len(digits) in _SERVICE_LENGTHS:
-        return _service(digits)
-    # Strip international / trunk prefixes.
-    if digits.startswith("0091"):
-        digits = digits[4:]
-    elif digits.startswith("91") and len(digits) == 12:
-        digits = digits[2:]
-    elif digits.startswith("0") and len(digits) == 11:
-        digits = digits[1:]
-
-
-    if len(digits) == 10:
-        if digits[0] in "6789":
-            return "+91" + digits, NumberKind.MOBILE
-        if digits[0] in "12345":
-            # Landline with STD code already stripped of the trunk 0 (e.g. 22xxxxxxxx for Mumbai,
-            # 124xxxxxxx for Gurugram). 1xxx numbers other than the service series are landlines.
-            return "+91" + digits, NumberKind.LANDLINE
+        return digits, _SERVICE_KIND[digits[:4]]
+    subscriber, had_prefix = _strip_prefix(digits)
+    if subscriber[:4] in _SERVICE_PREFIXES and len(subscriber) in _SERVICE_LENGTHS:
+        return subscriber, _SERVICE_KIND[subscriber[:4]]
+    if len(subscriber) != 10:
+        return None
+    grouped_like_landline = _grouped_like_landline(raw, subscriber)
+    if subscriber[0] in _MOBILE_START:
+        kind = NumberKind.LANDLINE if grouped_like_landline else NumberKind.MOBILE
+        return "+91" + subscriber, kind
+    if subscriber[0] in "12345" and (had_prefix or grouped_like_landline):
+        # Landlines are written with an STD code (0xx…) or +91; a bare 10-digit run
+        # starting 1-5 is more likely a pincode, an order id or an amount.
+        return "+91" + subscriber, NumberKind.LANDLINE
     return None
 
 
@@ -71,11 +103,39 @@ def normalise(raw: str) -> ParsedNumber | None:
     digits = re.sub(r"\D", "", text)
     if not (_MIN_DIGITS <= len(digits) <= _MAX_DIGITS):
         return None
-    result = _classify_digits(digits)
+    result = _classify(digits, text)
     if result is None:
         return None
     norm, kind = result
     return ParsedNumber(raw=raw.strip(), norm=norm, kind=kind)
+
+
+def _parse_run(run: str) -> list[ParsedNumber]:
+    """Every number inside one run of digit groups, longest valid parse from each group start."""
+    groups = list(_GROUP.finditer(run))
+    out: list[ParsedNumber] = []
+    i = 0
+    while i < len(groups):
+        found: tuple[int, ParsedNumber] | None = None
+        for j in range(len(groups) - 1, i - 1, -1):
+            candidate = run[groups[i].start() : groups[j].end()]
+            if candidate.startswith("+") is False and groups[i].start() > 0 and run[groups[i].start() - 1] == "+":
+                candidate = "+" + candidate
+            ndigits = sum(len(g.group(0)) for g in groups[i : j + 1])
+            if ndigits > _MAX_DIGITS:
+                continue
+            if ndigits < _MIN_DIGITS:
+                break
+            parsed = normalise(candidate)
+            if parsed is not None:
+                found = (j, parsed)
+                break
+        if found is None:
+            i += 1
+            continue
+        out.append(found[1])
+        i = found[0] + 1
+    return out
 
 
 def extract(text: str | None) -> list[ParsedNumber]:
@@ -85,16 +145,13 @@ def extract(text: str | None) -> list[ParsedNumber]:
     text = text.translate(DEVANAGARI_DIGITS)
     seen: set[str] = set()
     out: list[ParsedNumber] = []
-    for match in _CANDIDATE.finditer(text):
-        parsed = normalise(match.group(0))
-        if parsed is None or parsed.norm in seen:
-            continue
-        seen.add(parsed.norm)
-        out.append(parsed)
+    for run in _RUN.finditer(text):
+        for parsed in _parse_run(run.group(0)):
+            if parsed.norm in seen:
+                continue
+            seen.add(parsed.norm)
+            out.append(parsed)
     return out
-
-
-_TWO_DIGIT_STD = {"11", "22", "33", "44", "40", "80", "20", "79"}
 
 
 def _std_split(d: str) -> tuple[str, str]:
@@ -102,11 +159,19 @@ def _std_split(d: str) -> tuple[str, str]:
     return d[:std_len], d[std_len:]
 
 
-def display(norm: str) -> str:
+def _guess_kind(norm: str) -> NumberKind:
+    if norm[:4] in _SERVICE_PREFIXES:
+        return _SERVICE_KIND[norm[:4]]
+    d = norm.removeprefix("+91")
+    return NumberKind.MOBILE if d[:1] in _MOBILE_START else NumberKind.LANDLINE
+
+
+def display(norm: str, kind: NumberKind | None = None) -> str:
     """Human-friendly formatting of a canonical number."""
+    kind = kind or _guess_kind(norm)
     if norm.startswith("+91"):
         d = norm[3:]
-        if d[0] in "6789":
+        if kind == NumberKind.MOBILE:
             return f"+91 {d[:5]} {d[5:]}"
         std, rest = _std_split(d)
         half = len(rest) // 2
@@ -122,6 +187,17 @@ def display(norm: str) -> str:
             i += g
         return " ".join([head, *parts])
     return norm
+
+
+def search_forms(norm: str, kind: NumberKind | None = None) -> list[str]:
+    """The two spellings people write a number in, for an exact-phrase reverse search."""
+    kind = kind or _guess_kind(norm)
+    if norm.startswith("+91"):
+        d = norm[3:]
+        compact = d if kind == NumberKind.MOBILE else "0" + d
+        spaced = display(norm, kind).removeprefix("+91 ")
+        return [compact, spaced]
+    return [norm, display(norm, kind)]
 
 
 def digit_distance(a: str, b: str) -> int:
@@ -145,13 +221,3 @@ def is_transposition(a: str, b: str) -> bool:
         return False
     diffs = [i for i, (p, q) in enumerate(zip(x, y, strict=True)) if p != q]
     return len(diffs) == 2 and diffs[1] == diffs[0] + 1 and x[diffs[0]] == y[diffs[1]] and x[diffs[1]] == y[diffs[0]]
-
-
-def search_forms(norm: str) -> list[str]:
-    """The two spellings people write a number in, for an exact-phrase reverse search."""
-    if norm.startswith("+91"):
-        d = norm[3:]
-        compact = d if d[0] in "6789" else "0" + d
-        spaced = display(norm).removeprefix("+91 ")
-        return [compact, spaced]
-    return [norm, display(norm)]

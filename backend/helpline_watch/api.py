@@ -14,7 +14,7 @@ from fastapi.staticfiles import StaticFiles
 from pydantic import BaseModel
 
 from helpline_watch import __version__
-from helpline_watch.analysis.classify import classify
+from helpline_watch.analysis.classify import classify, merge_analyst_state
 from helpline_watch.config import Settings, load_settings
 from helpline_watch.extract import phones
 from helpline_watch.models import Brand, Verdict
@@ -146,7 +146,7 @@ def create_app(settings: Settings | None = None) -> FastAPI:
             svc.store.upsert_brand(brand)
             obs = [o for f in sweep.findings for o in f.observations]
             cross = svc.store.brands_for_numbers([f.number_norm for f in sweep.findings], exclude_brand_id=brand.id)
-            sweep.findings = classify(brand, obs, cross)
+            sweep.findings = merge_analyst_state(classify(brand, obs, cross), sweep.findings)
             target = next(f for f in sweep.findings if f.number_norm == number)
         if body.in_pack is not None:
             updated = target.model_copy(update={"in_pack": body.in_pack and target.verdict in (Verdict.FAKE, Verdict.REVIEW)})

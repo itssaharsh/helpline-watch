@@ -2,7 +2,7 @@
  "_fixture": {
   "kind": "synthetic",
   "note": "Search · Kolkata · SBI customer care number",
-  "generated_at": "2026-09-23T20:44:56+00:00",
+  "generated_at": "2026-09-23T20:53:40+00:00",
   "params": {
    "engine": "google",
    "q": "SBI customer care number",
@@ -17,11 +17,11 @@
   "search_metadata": {
    "id": "synthetic-dcd4ded0687a1676",
    "status": "Success",
-   "created_at": "2026-09-23 20:44:56 UTC",
-   "processed_at": "2026-09-23 20:44:56 UTC",
+   "created_at": "2026-09-23 20:53:40 UTC",
+   "processed_at": "2026-09-23 20:53:40 UTC",
    "json_endpoint": null,
    "raw_html_file": null,
-   "total_time_taken": 1.79
+   "total_time_taken": 1.6
   },
   "search_parameters": {
    "engine": "google",
@@ -43,8 +43,8 @@
    {
     "position": 2,
     "title": "SBI customer care number 1800 1234 toll free",
-    "link": "https://www.tollfreenumber.in/sbi-customer-care",
-    "displayed_link": "https://www.tollfreenumber.in › sbi-customer-care",
+    "link": "https://www.customercare-numbers.in/sbi-customer-care",
+    "displayed_link": "https://www.customercare-numbers.in › sbi-customer-care",
     "snippet": "SBI customer care number is 1800 1234. Also try the grievance desk on the official website."
    },
    {

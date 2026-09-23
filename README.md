@@ -143,7 +143,7 @@ docs/adr/            four decisions, docs/DESIGN.md, docs/UI-SPEC.md, docs/demo-
 ## Verify it yourself
 
 ```bash
-make test      # 29 unit + API tests (parsers, classifier, store, SSE stream, pack, patching)
+make test      # 39 unit + API tests (parsers, classifier, store, SSE stream, pack, patching)
 make verify    # end-to-end replay with 11 assertions, prints PASS/FAIL
 make eval      # the per-brand table: numbers found, fake, cross-brand, review, calls
 make lint      # ruff · oxlint · tsc

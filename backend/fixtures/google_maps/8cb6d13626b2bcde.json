@@ -2,7 +2,7 @@
  "_fixture": {
   "kind": "synthetic",
   "note": "Maps · Mumbai · IndiGo customer care",
-  "generated_at": "2026-09-23T20:44:57+00:00",
+  "generated_at": "2026-09-23T20:53:40+00:00",
   "params": {
    "engine": "google_maps",
    "type": "search",
@@ -16,11 +16,11 @@
   "search_metadata": {
    "id": "synthetic-8cb6d13626b2bcde",
    "status": "Success",
-   "created_at": "2026-09-23 20:44:57 UTC",
-   "processed_at": "2026-09-23 20:44:57 UTC",
+   "created_at": "2026-09-23 20:53:40 UTC",
+   "processed_at": "2026-09-23 20:53:40 UTC",
    "json_endpoint": null,
    "raw_html_file": null,
-   "total_time_taken": 1.68
+   "total_time_taken": 1.82
   },
   "search_parameters": {
    "engine": "google_maps",
@@ -35,17 +35,17 @@
     "position": 1,
     "title": "IndiGo - Mumbai Main Branch",
     "place_id": "synthetic-indigo-mumbai-branch",
-    "data_id": "0x26a944815699:0x9da78172fc13",
+    "data_id": "0xa69fae4c02d8:0xd771deafd23a",
     "rating": 3.8,
-    "reviews": 887,
+    "reviews": 824,
     "type": "Airline ticket agency",
     "types": [
      "Airline ticket agency"
     ],
     "address": "MG Road, Mumbai",
     "gps_coordinates": {
-     "latitude": 18.075632224211496,
-     "longitude": 81.73851105828196
+     "latitude": 13.663746830304273,
+     "longitude": 85.50839469405211
     },
     "phone": "0124 617 3838",
     "website": "https://www.goindigo.in/"
@@ -54,17 +54,17 @@
     "position": 1,
     "title": "IndiGo Customer Care Number",
     "place_id": "synthetic-indigo-mumbai-care",
-    "data_id": "0xae4c6ae304a5:0xdeafa69f47fe",
+    "data_id": "0xfc83c9ca1a32:0x451684462522",
     "rating": 5.0,
-    "reviews": 3,
+    "reviews": 0,
     "type": "Customer service",
     "types": [
      "Customer service"
     ],
     "address": "Sector 12, Mumbai",
     "gps_coordinates": {
-     "latitude": 25.465105545995733,
-     "longitude": 87.53064129880364
+     "latitude": 23.824922159344425,
+     "longitude": 77.77094380755065
     },
     "phone": "+91 74110 29385",
     "unclaimed_listing": true
@@ -73,17 +73,17 @@
     "position": 1,
     "title": "IndiGo Airport Counter Mumbai",
     "place_id": "synthetic-indigo-mumbai-ctr",
-    "data_id": "0x867ed12a421d:0x96f6adc38a3e",
+    "data_id": "0xd3542fc025:0x9a05ed8aed4f",
     "rating": 4.0,
-    "reviews": 508,
+    "reviews": 281,
     "type": "Airline",
     "types": [
      "Airline"
     ],
     "address": "Airport, Mumbai",
     "gps_coordinates": {
-     "latitude": 22.173762094500557,
-     "longitude": 84.61184143857685
+     "latitude": 15.973950129718647,
+     "longitude": 81.40977246598864
     },
     "phone": "0124 617 3838",
     "website": "https://www.goindigo.in/"

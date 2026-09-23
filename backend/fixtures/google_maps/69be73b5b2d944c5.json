@@ -2,7 +2,7 @@
  "_fixture": {
   "kind": "synthetic",
   "note": "Maps · Bengaluru · Zomato customer care",
-  "generated_at": "2026-09-23T20:44:57+00:00",
+  "generated_at": "2026-09-23T20:53:40+00:00",
   "params": {
    "engine": "google_maps",
    "type": "search",
@@ -16,11 +16,11 @@
   "search_metadata": {
    "id": "synthetic-69be73b5b2d944c5",
    "status": "Success",
-   "created_at": "2026-09-23 20:44:57 UTC",
-   "processed_at": "2026-09-23 20:44:57 UTC",
+   "created_at": "2026-09-23 20:53:40 UTC",
+   "processed_at": "2026-09-23 20:53:40 UTC",
    "json_endpoint": null,
    "raw_html_file": null,
-   "total_time_taken": 1.19
+   "total_time_taken": 2.4
   },
   "search_parameters": {
    "engine": "google_maps",
@@ -35,7 +35,7 @@
     "position": 1,
     "title": "Zomato Hyperpure Warehouse",
     "place_id": "synthetic-zomato-bengaluru-hp",
-    "data_id": "0x1b82a649eae7:0x7c493398eb90",
+    "data_id": "0xee47188d490c:0x9f63a28fc18f",
     "rating": 4.1,
     "reviews": 42,
     "type": "Warehouse",
@@ -44,8 +44,8 @@
     ],
     "address": "Industrial Area, Bengaluru",
     "gps_coordinates": {
-     "latitude": 20.85801242831925,
-     "longitude": 76.30000099646338
+     "latitude": 16.688106437218202,
+     "longitude": 78.66565926986209
     },
     "website": "https://www.zomato.com/hyperpure"
    }

@@ -2,7 +2,7 @@
  "_fixture": {
   "kind": "synthetic",
   "note": "Search · Delhi · IndiGo helpline number",
-  "generated_at": "2026-09-23T20:44:57+00:00",
+  "generated_at": "2026-09-23T20:53:40+00:00",
   "params": {
    "engine": "google",
    "q": "IndiGo helpline number",
@@ -17,11 +17,11 @@
   "search_metadata": {
    "id": "synthetic-d872d8c8e69a8477",
    "status": "Success",
-   "created_at": "2026-09-23 20:44:57 UTC",
-   "processed_at": "2026-09-23 20:44:57 UTC",
+   "created_at": "2026-09-23 20:53:40 UTC",
+   "processed_at": "2026-09-23 20:53:40 UTC",
    "json_endpoint": null,
    "raw_html_file": null,
-   "total_time_taken": 1.63
+   "total_time_taken": 1.15
   },
   "search_parameters": {
    "engine": "google",
@@ -43,8 +43,8 @@
    {
     "position": 2,
     "title": "IndiGo customer care number 0124 617 3838 toll free",
-    "link": "https://www.customercare-numbers.in/indigo-customer-care",
-    "displayed_link": "https://www.customercare-numbers.in › indigo-customer-care",
+    "link": "https://www.tollfreenumber.in/indigo-customer-care",
+    "displayed_link": "https://www.tollfreenumber.in › indigo-customer-care",
     "snippet": "IndiGo customer care number is 0124 617 3838. Also try the grievance desk on the official website."
    },
    {
@@ -57,8 +57,8 @@
    {
     "position": 4,
     "title": "Man loses Rs 90,000 after calling fake IndiGo customer care number",
-    "link": "https://www.deccanherald.com/city/delhi/fake-indigo-helpline",
-    "displayed_link": "https://www.deccanherald.com › city › delhi",
+    "link": "https://www.hindustantimes.com/city/delhi/fake-indigo-helpline",
+    "displayed_link": "https://www.hindustantimes.com › city › delhi",
     "snippet": "The victim searched for IndiGo customer care on Google and dialled a number listed on a business listing. Police said the number was a scam."
    },
    {
@@ -82,7 +82,7 @@
      "position": 1,
      "title": "IndiGo Customer Care Number",
      "place_id": "synthetic-indigo-delhi-care",
-     "data_id": "0xb7609e988c36:0x6cf6ad96eee8",
+     "data_id": "0xc35b12811ebd:0x297959474d7f",
      "rating": 4.8,
      "reviews": 3,
      "type": "Customer service",
@@ -91,8 +91,8 @@
      ],
      "address": "Delhi",
      "gps_coordinates": {
-      "latitude": 13.62436192611708,
-      "longitude": 80.08257671744497
+      "latitude": 20.540675689253383,
+      "longitude": 73.36562448776785
      },
      "phone": "+91 74110 29385"
     }

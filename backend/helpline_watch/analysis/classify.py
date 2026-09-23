@@ -21,6 +21,8 @@ from helpline_watch.models import (
 )
 
 FAKE_THRESHOLD = 3
+# Only surfaces whose URL Google chose can vouch for a domain; listing `website` fields are owner-set.
+DOMAIN_TRUSTED_SURFACES = {Surface.SEARCH_ORGANIC, Surface.SEARCH_ANSWER, Surface.SEARCH_PAA}
 THIN_LISTING_REVIEWS = 5
 MULTI_CITY_MIN = 3
 
@@ -45,7 +47,7 @@ def _helpline_context(obs: list[Observation]) -> bool:
     return False
 
 
-def _signals_for(number: str, kind: NumberKind, obs: list[Observation], brand: Brand, officials: set[str], other_brands: list[str]) -> list[Signal]:
+def _signals_for(number: str, kind: NumberKind, obs: list[Observation], brand: Brand, officials: set[str], other_fake: list[str], other_review: list[str]) -> list[Signal]:
     signals: list[Signal] = [Signal(code="NOT_IN_OFFICIAL_LIST", weight=1, detail=f"Not one of {brand.name}'s {len(officials)} official numbers")]
 
     for off in officials:
@@ -66,8 +68,10 @@ def _signals_for(number: str, kind: NumberKind, obs: list[Observation], brand: B
     if thin:
         signals.append(Signal(code="THIN_OR_UNCLAIMED_LISTING", weight=1, detail="Unclaimed listing or fewer than 5 reviews"))
 
-    if other_brands:
-        signals.append(Signal(code="CROSS_BRAND", weight=3, detail="Same number also posing as " + ", ".join(other_brands)))
+    if other_fake:
+        signals.append(Signal(code="CROSS_BRAND", weight=3, detail="Same number already confirmed fake for " + ", ".join(other_fake)))
+    elif other_review:
+        signals.append(Signal(code="SEEN_FOR_OTHER_BRANDS", weight=1, detail="Same number also seen (unconfirmed) for " + ", ".join(other_review)))
 
     cities = {o.city_id for o in obs if o.city_id}
     if len(cities) >= MULTI_CITY_MIN:
@@ -87,8 +91,12 @@ def _verdict(score: int) -> Verdict:
     return Verdict.FAKE if score >= FAKE_THRESHOLD else Verdict.REVIEW
 
 
-def classify(brand: Brand, observations: list[Observation], cross_brand: dict[str, list[str]] | None = None) -> list[Finding]:
-    """Group observations by number and decide each one. `cross_brand` maps number → other brand names."""
+def classify(brand: Brand, observations: list[Observation], cross_brand: dict[str, dict[str, list[str]]] | None = None) -> list[Finding]:
+    """Group observations by number and decide each one.
+
+    `cross_brand` maps number → {"fake": [brands where it was confirmed fake], "review": [brands where it was only seen]}.
+    Only a confirmed fake elsewhere escalates; two unconfirmed sightings never promote each other.
+    """
     cross_brand = cross_brand or {}
     officials = official_norms(brand)
     grouped: dict[str, list[Observation]] = defaultdict(list)
@@ -105,7 +113,7 @@ def classify(brand: Brand, observations: list[Observation], cross_brand: dict[st
         kind = obs[0].kind
         surfaces = sorted({o.surface for o in obs}, key=lambda s: s.value)
         cities = sorted({o.city_id for o in obs if o.city_id})
-        base = dict(number_norm=number, display=phones.display(number), kind=kind, observations=obs, surfaces=surfaces, city_ids=cities)
+        base = dict(number_norm=number, display=phones.display(number, kind), kind=kind, observations=obs, surfaces=surfaces, city_ids=cities)
 
         if number in officials:
             third_party = [o.source_domain for o in obs if o.source_domain and not is_official_domain(o.source_domain, brand.official_domains)]
@@ -113,16 +121,17 @@ def classify(brand: Brand, observations: list[Observation], cross_brand: dict[st
             findings.append(Finding(**base, verdict=Verdict.OFFICIAL, score=0, signals=[Signal(code="OFFICIAL_MATCH", weight=0, detail=detail)]))
             continue
 
-        on_official_site = [o for o in obs if is_official_domain(o.source_domain, brand.official_domains)]
+        on_official_site = [o for o in obs if o.surface in DOMAIN_TRUSTED_SURFACES and is_official_domain(o.source_domain, brand.official_domains)]
         if on_official_site:
             detail = f"Published on {on_official_site[0].source_domain} but missing from the official list; add it"
             findings.append(Finding(**base, verdict=Verdict.OFFICIAL_UNLISTED, score=0, signals=[Signal(code="ON_OFFICIAL_DOMAIN", weight=0, detail=detail)]))
             continue
 
-        others = cross_brand.get(number, [])
-        signals = _signals_for(number, kind, obs, brand, officials, others)
+        others = cross_brand.get(number) or {}
+        other_fake, other_review = list(others.get("fake") or []), list(others.get("review") or [])
+        signals = _signals_for(number, kind, obs, brand, officials, other_fake, other_review)
         score = sum(s.weight for s in signals)
-        findings.append(Finding(**base, verdict=_verdict(score), score=score, signals=signals, other_brands=others))
+        findings.append(Finding(**base, verdict=_verdict(score), score=score, signals=signals, other_brands=[*other_fake, *other_review]))
 
     order = {Verdict.FAKE: 0, Verdict.REVIEW: 1, Verdict.OFFICIAL_UNLISTED: 2, Verdict.OFFICIAL: 3}
     return sorted(findings, key=lambda f: (order[f.verdict], -f.score, f.number_norm))
@@ -138,3 +147,19 @@ def apply_reverse(finding: Finding, hits: list[ReverseHit]) -> Finding:
     score = sum(s.weight for s in signals)
     verdict = finding.verdict if finding.verdict in (Verdict.OFFICIAL, Verdict.OFFICIAL_UNLISTED) else _verdict(score)
     return finding.model_copy(update={"signals": signals, "score": score, "verdict": verdict, "reverse_hits": hits, "reverse_checked": True})
+
+
+def merge_analyst_state(new: list[Finding], old: list[Finding]) -> list[Finding]:
+    """Re-classification must not erase what the analyst and the reverse lookups already established."""
+    previous = {f.number_norm: f for f in old}
+    merged: list[Finding] = []
+    for f in new:
+        before = previous.get(f.number_norm)
+        if before is None:
+            merged.append(f)
+            continue
+        if before.reverse_checked:
+            f = apply_reverse(f, before.reverse_hits)
+        keep_pack = before.in_pack and f.verdict in (Verdict.FAKE, Verdict.REVIEW)
+        merged.append(f.model_copy(update={"in_pack": keep_pack, "explanation": before.explanation}))
+    return merged
