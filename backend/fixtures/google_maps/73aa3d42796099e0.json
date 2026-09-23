@@ -1,0 +1,74 @@
+{
+ "_fixture": {
+  "kind": "synthetic",
+  "note": "Maps · Kolkata · HDFC Bank customer care",
+  "generated_at": "2026-09-23T20:44:56+00:00",
+  "params": {
+   "engine": "google_maps",
+   "type": "search",
+   "q": "HDFC Bank customer care",
+   "ll": "@22.5726,88.3639,12z",
+   "google_domain": "google.co.in",
+   "hl": "en"
+  }
+ },
+ "response": {
+  "search_metadata": {
+   "id": "synthetic-73aa3d42796099e0",
+   "status": "Success",
+   "created_at": "2026-09-23 20:44:56 UTC",
+   "processed_at": "2026-09-23 20:44:56 UTC",
+   "json_endpoint": null,
+   "raw_html_file": null,
+   "total_time_taken": 1.82
+  },
+  "search_parameters": {
+   "engine": "google_maps",
+   "type": "search",
+   "q": "HDFC Bank customer care",
+   "ll": "@22.5726,88.3639,12z",
+   "google_domain": "google.co.in",
+   "hl": "en"
+  },
+  "local_results": [
+   {
+    "position": 1,
+    "title": "HDFC Bank - Kolkata Main Branch",
+    "place_id": "synthetic-hdfc-bank-kolkata-branch",
+    "data_id": "0x9579907ea80f:0x6eab4e1b29a",
+    "rating": 4.0,
+    "reviews": 779,
+    "type": "Bank",
+    "types": [
+     "Bank"
+    ],
+    "address": "MG Road, Kolkata",
+    "gps_coordinates": {
+     "latitude": 17.766664961809845,
+     "longitude": 82.91112529630601
+    },
+    "phone": "1800 1600 1600",
+    "website": "https://www.hdfcbank.com/"
+   },
+   {
+    "position": 1,
+    "title": "HDFC Bank Customer Care Number",
+    "place_id": "synthetic-hdfc-bank-kolkata-care",
+    "data_id": "0xbbb08d34c8c2:0x1c18dcb61493",
+    "rating": 5.0,
+    "reviews": 2,
+    "type": "Customer service",
+    "types": [
+     "Customer service"
+    ],
+    "address": "Sector 12, Kolkata",
+    "gps_coordinates": {
+     "latitude": 21.8828550281994,
+     "longitude": 78.84584945498217
+    },
+    "phone": "+91 74110 29385",
+    "unclaimed_listing": true
+   }
+  ]
+ }
+}

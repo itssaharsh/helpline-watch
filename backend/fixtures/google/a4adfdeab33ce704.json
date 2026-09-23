@@ -1,0 +1,87 @@
+{
+ "_fixture": {
+  "kind": "synthetic",
+  "note": "Search · Bengaluru · HDFC Bank customer care number",
+  "generated_at": "2026-09-23T20:44:56+00:00",
+  "params": {
+   "engine": "google",
+   "q": "HDFC Bank customer care number",
+   "location": "Bengaluru, Karnataka, India",
+   "google_domain": "google.co.in",
+   "gl": "in",
+   "hl": "en",
+   "num": "10"
+  }
+ },
+ "response": {
+  "search_metadata": {
+   "id": "synthetic-a4adfdeab33ce704",
+   "status": "Success",
+   "created_at": "2026-09-23 20:44:56 UTC",
+   "processed_at": "2026-09-23 20:44:56 UTC",
+   "json_endpoint": null,
+   "raw_html_file": null,
+   "total_time_taken": 2.15
+  },
+  "search_parameters": {
+   "engine": "google",
+   "q": "HDFC Bank customer care number",
+   "location": "Bengaluru, Karnataka, India",
+   "google_domain": "google.co.in",
+   "gl": "in",
+   "hl": "en",
+   "num": "10"
+  },
+  "organic_results": [
+   {
+    "position": 1,
+    "title": "Contact us - HDFC Bank",
+    "link": "https://www.hdfcbank.com/contact-us",
+    "displayed_link": "https://www.hdfcbank.com › contact-us",
+    "snippet": "Call our 24x7 toll-free customer care at 1800 1600 1600. Never share your OTP or card PIN with anyone."
+   },
+   {
+    "position": 2,
+    "title": "HDFC Bank customer care number 1800 1600 1600 toll free",
+    "link": "https://www.helpline-directory.org/hdfc-bank-customer-care",
+    "displayed_link": "https://www.helpline-directory.org › hdfc-bank-customer-care",
+    "snippet": "HDFC Bank customer care number is 1800 1600 1600. Also try the grievance desk on the official website."
+   },
+   {
+    "position": 3,
+    "title": "HDFC Bank helpline number 24x7 - HDFC Bank care",
+    "link": "https://www.helpline-directory.org/hdfc-bank-helpline-24x7",
+    "displayed_link": "https://www.helpline-directory.org › hdfc-bank-helpline-24x7",
+    "snippet": "Updated HDFC Bank helpline number: 1800 1600 1601. Lines open 24 hours for card block, refund and KYC."
+   },
+   {
+    "position": 4,
+    "title": "HDFC Bank - Wikipedia",
+    "link": "https://en.wikipedia.org/wiki/HDFC_Bank",
+    "displayed_link": "https://en.wikipedia.org › wiki › HDFC_Bank",
+    "snippet": "HDFC Bank is an Indian company headquartered in India."
+   }
+  ],
+  "knowledge_graph": {
+   "title": "HDFC Bank",
+   "type": "Company",
+   "phone": "1800 1600 1600",
+   "website": "https://www.hdfcbank.com/",
+   "description": "HDFC Bank customer service"
+  },
+  "related_questions": [
+   {
+    "question": "What is the HDFC Bank customer care number?",
+    "snippet": "The official HDFC Bank customer care number is 1800 1600 1600.",
+    "title": "Contact us - HDFC Bank",
+    "link": "https://www.hdfcbank.com/contact-us"
+   },
+   {
+    "question": "Is 1800 1600 1601 a HDFC Bank number?",
+    "snippet": "Some sites list 1800 1600 1601 as the HDFC Bank helpline. Call it for refunds.",
+    "title": "HDFC Bank helpline FAQ",
+    "link": "https://www.helpline-directory.org/hdfc-bank-faq"
+   }
+  ]
+ }
+}

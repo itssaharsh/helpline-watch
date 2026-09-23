@@ -1,0 +1,93 @@
+{
+ "_fixture": {
+  "kind": "synthetic",
+  "note": "Maps · Bengaluru · SBI customer care",
+  "generated_at": "2026-09-23T20:44:56+00:00",
+  "params": {
+   "engine": "google_maps",
+   "type": "search",
+   "q": "SBI customer care",
+   "ll": "@12.9716,77.5946,12z",
+   "google_domain": "google.co.in",
+   "hl": "en"
+  }
+ },
+ "response": {
+  "search_metadata": {
+   "id": "synthetic-f605a523c51e5d6b",
+   "status": "Success",
+   "created_at": "2026-09-23 20:44:56 UTC",
+   "processed_at": "2026-09-23 20:44:56 UTC",
+   "json_endpoint": null,
+   "raw_html_file": null,
+   "total_time_taken": 1.73
+  },
+  "search_parameters": {
+   "engine": "google_maps",
+   "type": "search",
+   "q": "SBI customer care",
+   "ll": "@12.9716,77.5946,12z",
+   "google_domain": "google.co.in",
+   "hl": "en"
+  },
+  "local_results": [
+   {
+    "position": 1,
+    "title": "SBI - Bengaluru Main Branch",
+    "place_id": "synthetic-sbi-bengaluru-branch",
+    "data_id": "0x9c1a233e21ec:0xe604438e2e92",
+    "rating": 3.4,
+    "reviews": 585,
+    "type": "Bank",
+    "types": [
+     "Bank"
+    ],
+    "address": "MG Road, Bengaluru",
+    "gps_coordinates": {
+     "latitude": 17.16542048632755,
+     "longitude": 76.7878617217271
+    },
+    "phone": "1800 1234",
+    "website": "https://www.sbi.co.in/"
+   },
+   {
+    "position": 1,
+    "title": "SBI Helpline 24x7",
+    "place_id": "synthetic-sbi-bengaluru-help",
+    "data_id": "0x82bdd022b87a:0x959db37e0605",
+    "rating": 4.9,
+    "reviews": 4,
+    "type": "Financial consultant",
+    "types": [
+     "Financial consultant"
+    ],
+    "address": "Near Metro Station, Bengaluru",
+    "gps_coordinates": {
+     "latitude": 27.744516175114427,
+     "longitude": 75.60595470668139
+    },
+    "phone": "+91 63528 40917",
+    "unclaimed_listing": true
+   },
+   {
+    "position": 1,
+    "title": "SBI Toll Free Number",
+    "place_id": "synthetic-sbi-bengaluru-look",
+    "data_id": "0x4bec7a4d75b2:0xa6aaf16776dc",
+    "rating": 5.0,
+    "reviews": 1,
+    "type": "Customer service",
+    "types": [
+     "Customer service"
+    ],
+    "address": "Whitefield, Bengaluru",
+    "gps_coordinates": {
+     "latitude": 19.676245698863905,
+     "longitude": 85.78043674707767
+    },
+    "phone": "1800 1235",
+    "unclaimed_listing": true
+   }
+  ]
+ }
+}

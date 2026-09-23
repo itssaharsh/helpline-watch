@@ -1,0 +1,74 @@
+{
+ "_fixture": {
+  "kind": "synthetic",
+  "note": "Maps · Hyderabad · SBI customer care",
+  "generated_at": "2026-09-23T20:44:56+00:00",
+  "params": {
+   "engine": "google_maps",
+   "type": "search",
+   "q": "SBI customer care",
+   "ll": "@17.3850,78.4867,12z",
+   "google_domain": "google.co.in",
+   "hl": "en"
+  }
+ },
+ "response": {
+  "search_metadata": {
+   "id": "synthetic-c3baa60825ddef5b",
+   "status": "Success",
+   "created_at": "2026-09-23 20:44:56 UTC",
+   "processed_at": "2026-09-23 20:44:56 UTC",
+   "json_endpoint": null,
+   "raw_html_file": null,
+   "total_time_taken": 1.86
+  },
+  "search_parameters": {
+   "engine": "google_maps",
+   "type": "search",
+   "q": "SBI customer care",
+   "ll": "@17.3850,78.4867,12z",
+   "google_domain": "google.co.in",
+   "hl": "en"
+  },
+  "local_results": [
+   {
+    "position": 1,
+    "title": "SBI - Hyderabad Main Branch",
+    "place_id": "synthetic-sbi-hyderabad-branch",
+    "data_id": "0x8254efa93f4:0xd0c7d8d92ee3",
+    "rating": 4.3,
+    "reviews": 878,
+    "type": "Bank",
+    "types": [
+     "Bank"
+    ],
+    "address": "MG Road, Hyderabad",
+    "gps_coordinates": {
+     "latitude": 17.603790767294914,
+     "longitude": 73.07506490654539
+    },
+    "phone": "1800 1234",
+    "website": "https://www.sbi.co.in/"
+   },
+   {
+    "position": 1,
+    "title": "SBI Helpline 24x7",
+    "place_id": "synthetic-sbi-hyderabad-help",
+    "data_id": "0xb5ee97a2ebda:0xa90d61dde6ca",
+    "rating": 4.9,
+    "reviews": 3,
+    "type": "Financial consultant",
+    "types": [
+     "Financial consultant"
+    ],
+    "address": "Near Metro Station, Hyderabad",
+    "gps_coordinates": {
+     "latitude": 23.20313481647955,
+     "longitude": 84.19664970273442
+    },
+    "phone": "+91 63528 40917",
+    "unclaimed_listing": true
+   }
+  ]
+ }
+}

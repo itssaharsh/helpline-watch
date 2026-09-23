@@ -1,0 +1,81 @@
+{
+ "_fixture": {
+  "kind": "synthetic",
+  "note": "Search · Kolkata · Zomato helpline number",
+  "generated_at": "2026-09-23T20:44:57+00:00",
+  "params": {
+   "engine": "google",
+   "q": "Zomato helpline number",
+   "location": "Kolkata, West Bengal, India",
+   "google_domain": "google.co.in",
+   "gl": "in",
+   "hl": "en",
+   "num": "10"
+  }
+ },
+ "response": {
+  "search_metadata": {
+   "id": "synthetic-a15885db0a767dd1",
+   "status": "Success",
+   "created_at": "2026-09-23 20:44:57 UTC",
+   "processed_at": "2026-09-23 20:44:57 UTC",
+   "json_endpoint": null,
+   "raw_html_file": null,
+   "total_time_taken": 1.72
+  },
+  "search_parameters": {
+   "engine": "google",
+   "q": "Zomato helpline number",
+   "location": "Kolkata, West Bengal, India",
+   "google_domain": "google.co.in",
+   "gl": "in",
+   "hl": "en",
+   "num": "10"
+  },
+  "organic_results": [
+   {
+    "position": 1,
+    "title": "Help & support - Zomato",
+    "link": "https://www.zomato.com/contact",
+    "displayed_link": "https://www.zomato.com › contact",
+    "snippet": "Chat with us in the app for order issues. We do not offer phone support."
+   },
+   {
+    "position": 2,
+    "title": "Zomato customer care number - +91 74110 29385",
+    "link": "https://zomato-support-care.in/customer-care",
+    "displayed_link": "https://zomato-support-care.in › customer-care",
+    "snippet": "Call Zomato customer care +91 74110 29385 for instant refund and complaint. Available 24x7."
+   },
+   {
+    "position": 3,
+    "title": "Zomato - Wikipedia",
+    "link": "https://en.wikipedia.org/wiki/Zomato",
+    "displayed_link": "https://en.wikipedia.org › wiki › Zomato",
+    "snippet": "Zomato is an Indian company headquartered in India."
+   }
+  ],
+  "local_results": {
+   "places": [
+    {
+     "position": 1,
+     "title": "Zomato Customer Care Number",
+     "place_id": "synthetic-zomato-kolkata-care",
+     "data_id": "0x4eb810422420:0xbad53fd28716",
+     "rating": 4.8,
+     "reviews": 3,
+     "type": "Customer service",
+     "types": [
+      "Customer service"
+     ],
+     "address": "Kolkata",
+     "gps_coordinates": {
+      "latitude": 17.570757007333548,
+      "longitude": 84.68925057154816
+     },
+     "phone": "+91 74110 29385"
+    }
+   ]
+  }
+ }
+}

@@ -1,0 +1,74 @@
+{
+ "_fixture": {
+  "kind": "synthetic",
+  "note": "Maps · Hyderabad · Paytm customer care",
+  "generated_at": "2026-09-23T20:44:57+00:00",
+  "params": {
+   "engine": "google_maps",
+   "type": "search",
+   "q": "Paytm customer care",
+   "ll": "@17.3850,78.4867,12z",
+   "google_domain": "google.co.in",
+   "hl": "en"
+  }
+ },
+ "response": {
+  "search_metadata": {
+   "id": "synthetic-fdb1d6830799401b",
+   "status": "Success",
+   "created_at": "2026-09-23 20:44:57 UTC",
+   "processed_at": "2026-09-23 20:44:57 UTC",
+   "json_endpoint": null,
+   "raw_html_file": null,
+   "total_time_taken": 1.04
+  },
+  "search_parameters": {
+   "engine": "google_maps",
+   "type": "search",
+   "q": "Paytm customer care",
+   "ll": "@17.3850,78.4867,12z",
+   "google_domain": "google.co.in",
+   "hl": "en"
+  },
+  "local_results": [
+   {
+    "position": 1,
+    "title": "Paytm - Hyderabad Main Branch",
+    "place_id": "synthetic-paytm-hyderabad-branch",
+    "data_id": "0xfa5a1f2d3704:0xba9946555f70",
+    "rating": 4.1,
+    "reviews": 877,
+    "type": "Bank",
+    "types": [
+     "Bank"
+    ],
+    "address": "MG Road, Hyderabad",
+    "gps_coordinates": {
+     "latitude": 27.334663540382348,
+     "longitude": 86.56481306589143
+    },
+    "phone": "0120 445 6456",
+    "website": "https://www.paytm.com/"
+   },
+   {
+    "position": 1,
+    "title": "Paytm Helpline 24x7",
+    "place_id": "synthetic-paytm-hyderabad-help",
+    "data_id": "0x2ebafaa7211b:0xdb7794844a2b",
+    "rating": 4.9,
+    "reviews": 4,
+    "type": "Financial consultant",
+    "types": [
+     "Financial consultant"
+    ],
+    "address": "Near Metro Station, Hyderabad",
+    "gps_coordinates": {
+     "latitude": 22.695845744890747,
+     "longitude": 80.7890544886748
+    },
+    "phone": "+91 63528 40917",
+    "unclaimed_listing": true
+   }
+  ]
+ }
+}

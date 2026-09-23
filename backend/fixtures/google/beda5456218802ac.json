@@ -1,0 +1,87 @@
+{
+ "_fixture": {
+  "kind": "synthetic",
+  "note": "Search · Bengaluru · SBI customer care number",
+  "generated_at": "2026-09-23T20:44:56+00:00",
+  "params": {
+   "engine": "google",
+   "q": "SBI customer care number",
+   "location": "Bengaluru, Karnataka, India",
+   "google_domain": "google.co.in",
+   "gl": "in",
+   "hl": "en",
+   "num": "10"
+  }
+ },
+ "response": {
+  "search_metadata": {
+   "id": "synthetic-beda5456218802ac",
+   "status": "Success",
+   "created_at": "2026-09-23 20:44:56 UTC",
+   "processed_at": "2026-09-23 20:44:56 UTC",
+   "json_endpoint": null,
+   "raw_html_file": null,
+   "total_time_taken": 1.3
+  },
+  "search_parameters": {
+   "engine": "google",
+   "q": "SBI customer care number",
+   "location": "Bengaluru, Karnataka, India",
+   "google_domain": "google.co.in",
+   "gl": "in",
+   "hl": "en",
+   "num": "10"
+  },
+  "organic_results": [
+   {
+    "position": 1,
+    "title": "Contact us - SBI",
+    "link": "https://www.sbi.co.in/contact-us",
+    "displayed_link": "https://www.sbi.co.in › contact-us",
+    "snippet": "Call our 24x7 toll-free customer care at 1800 1234. Never share your OTP or card PIN with anyone."
+   },
+   {
+    "position": 2,
+    "title": "SBI customer care number 1800 1234 toll free",
+    "link": "https://www.helpline-directory.org/sbi-customer-care",
+    "displayed_link": "https://www.helpline-directory.org › sbi-customer-care",
+    "snippet": "SBI customer care number is 1800 1234. Also try the grievance desk on the official website."
+   },
+   {
+    "position": 3,
+    "title": "SBI helpline number 24x7 - SBI care",
+    "link": "https://www.justdial.com/sbi-helpline-24x7",
+    "displayed_link": "https://www.justdial.com › sbi-helpline-24x7",
+    "snippet": "Updated SBI helpline number: 1800 1235. Lines open 24 hours for card block, refund and KYC."
+   },
+   {
+    "position": 4,
+    "title": "SBI - Wikipedia",
+    "link": "https://en.wikipedia.org/wiki/SBI",
+    "displayed_link": "https://en.wikipedia.org › wiki › SBI",
+    "snippet": "SBI is an Indian company headquartered in India."
+   }
+  ],
+  "knowledge_graph": {
+   "title": "SBI",
+   "type": "Company",
+   "phone": "1800 1234",
+   "website": "https://www.sbi.co.in/",
+   "description": "SBI customer service"
+  },
+  "related_questions": [
+   {
+    "question": "What is the SBI customer care number?",
+    "snippet": "The official SBI customer care number is 1800 1234.",
+    "title": "Contact us - SBI",
+    "link": "https://www.sbi.co.in/contact-us"
+   },
+   {
+    "question": "Is 1800 1235 a SBI number?",
+    "snippet": "Some sites list 1800 1235 as the SBI helpline. Call it for refunds.",
+    "title": "SBI helpline FAQ",
+    "link": "https://www.helpline-directory.org/sbi-faq"
+   }
+  ]
+ }
+}

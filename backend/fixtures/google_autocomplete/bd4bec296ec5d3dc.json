@@ -1,0 +1,57 @@
+{
+ "_fixture": {
+  "kind": "synthetic",
+  "note": "autocomplete for Paytm",
+  "generated_at": "2026-09-23T20:44:57+00:00",
+  "params": {
+   "engine": "google_autocomplete",
+   "q": "Paytm customer care",
+   "gl": "in",
+   "hl": "en"
+  }
+ },
+ "response": {
+  "search_metadata": {
+   "id": "synthetic-bd4bec296ec5d3dc",
+   "status": "Success",
+   "created_at": "2026-09-23 20:44:57 UTC",
+   "processed_at": "2026-09-23 20:44:57 UTC",
+   "json_endpoint": null,
+   "raw_html_file": null,
+   "total_time_taken": 1.05
+  },
+  "search_parameters": {
+   "engine": "google_autocomplete",
+   "q": "Paytm customer care",
+   "gl": "in",
+   "hl": "en"
+  },
+  "suggestions": [
+   {
+    "value": "Paytm customer care number",
+    "relevance": 1200,
+    "type": "QUERY"
+   },
+   {
+    "value": "Paytm customer care number toll free",
+    "relevance": 1100,
+    "type": "QUERY"
+   },
+   {
+    "value": "Paytm helpline number 24x7",
+    "relevance": 1000,
+    "type": "QUERY"
+   },
+   {
+    "value": "Paytm complaint number",
+    "relevance": 900,
+    "type": "QUERY"
+   },
+   {
+    "value": "Paytm customer care email",
+    "relevance": 800,
+    "type": "QUERY"
+   }
+  ]
+ }
+}

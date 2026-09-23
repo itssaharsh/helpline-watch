@@ -1,0 +1,43 @@
+{
+ "_fixture": {
+  "kind": "synthetic",
+  "note": "reverse lookup 1800 1600 1601",
+  "generated_at": "2026-09-23T20:44:57+00:00",
+  "params": {
+   "engine": "google",
+   "q": "\"180016001601\" OR \"1800 1600 1601\"",
+   "google_domain": "google.co.in",
+   "gl": "in",
+   "hl": "en",
+   "num": "10"
+  }
+ },
+ "response": {
+  "search_metadata": {
+   "id": "synthetic-ef867fa0fef7b0a5",
+   "status": "Success",
+   "created_at": "2026-09-23 20:44:57 UTC",
+   "processed_at": "2026-09-23 20:44:57 UTC",
+   "json_endpoint": null,
+   "raw_html_file": null,
+   "total_time_taken": 1.71
+  },
+  "search_parameters": {
+   "engine": "google",
+   "q": "\"180016001601\" OR \"1800 1600 1601\"",
+   "google_domain": "google.co.in",
+   "gl": "in",
+   "hl": "en",
+   "num": "10"
+  },
+  "organic_results": [
+   {
+    "position": 1,
+    "title": "No results",
+    "link": "https://example.org/none",
+    "displayed_link": "https://example.org › none",
+    "snippet": ""
+   }
+  ]
+ }
+}

@@ -1,0 +1,74 @@
+{
+ "_fixture": {
+  "kind": "synthetic",
+  "note": "Maps · Mumbai · SBI customer care",
+  "generated_at": "2026-09-23T20:44:56+00:00",
+  "params": {
+   "engine": "google_maps",
+   "type": "search",
+   "q": "SBI customer care",
+   "ll": "@19.0760,72.8777,12z",
+   "google_domain": "google.co.in",
+   "hl": "en"
+  }
+ },
+ "response": {
+  "search_metadata": {
+   "id": "synthetic-212804e8f2148c2a",
+   "status": "Success",
+   "created_at": "2026-09-23 20:44:56 UTC",
+   "processed_at": "2026-09-23 20:44:56 UTC",
+   "json_endpoint": null,
+   "raw_html_file": null,
+   "total_time_taken": 1.79
+  },
+  "search_parameters": {
+   "engine": "google_maps",
+   "type": "search",
+   "q": "SBI customer care",
+   "ll": "@19.0760,72.8777,12z",
+   "google_domain": "google.co.in",
+   "hl": "en"
+  },
+  "local_results": [
+   {
+    "position": 1,
+    "title": "SBI - Mumbai Main Branch",
+    "place_id": "synthetic-sbi-mumbai-branch",
+    "data_id": "0xd0c036ca8c9e:0x118f825e1e7e",
+    "rating": 4.2,
+    "reviews": 198,
+    "type": "Bank",
+    "types": [
+     "Bank"
+    ],
+    "address": "MG Road, Mumbai",
+    "gps_coordinates": {
+     "latitude": 26.084800508927323,
+     "longitude": 86.02817818175693
+    },
+    "phone": "1800 1234",
+    "website": "https://www.sbi.co.in/"
+   },
+   {
+    "position": 1,
+    "title": "SBI Helpline 24x7",
+    "place_id": "synthetic-sbi-mumbai-help",
+    "data_id": "0x69da3bb87df:0x4dd7f740bbbe",
+    "rating": 4.9,
+    "reviews": 1,
+    "type": "Financial consultant",
+    "types": [
+     "Financial consultant"
+    ],
+    "address": "Near Metro Station, Mumbai",
+    "gps_coordinates": {
+     "latitude": 15.476419081771688,
+     "longitude": 78.70174389025519
+    },
+    "phone": "+91 63528 40917",
+    "unclaimed_listing": true
+   }
+  ]
+ }
+}

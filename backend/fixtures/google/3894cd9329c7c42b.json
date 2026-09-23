@@ -1,0 +1,87 @@
+{
+ "_fixture": {
+  "kind": "synthetic",
+  "note": "Search · Bengaluru · IndiGo helpline number",
+  "generated_at": "2026-09-23T20:44:57+00:00",
+  "params": {
+   "engine": "google",
+   "q": "IndiGo helpline number",
+   "location": "Bengaluru, Karnataka, India",
+   "google_domain": "google.co.in",
+   "gl": "in",
+   "hl": "en",
+   "num": "10"
+  }
+ },
+ "response": {
+  "search_metadata": {
+   "id": "synthetic-3894cd9329c7c42b",
+   "status": "Success",
+   "created_at": "2026-09-23 20:44:57 UTC",
+   "processed_at": "2026-09-23 20:44:57 UTC",
+   "json_endpoint": null,
+   "raw_html_file": null,
+   "total_time_taken": 1.31
+  },
+  "search_parameters": {
+   "engine": "google",
+   "q": "IndiGo helpline number",
+   "location": "Bengaluru, Karnataka, India",
+   "google_domain": "google.co.in",
+   "gl": "in",
+   "hl": "en",
+   "num": "10"
+  },
+  "organic_results": [
+   {
+    "position": 1,
+    "title": "Contact us - IndiGo",
+    "link": "https://www.goindigo.in/contact-us",
+    "displayed_link": "https://www.goindigo.in › contact-us",
+    "snippet": "Call our 24x7 toll-free customer care at 0124 617 3838. Never share your OTP or card PIN with anyone."
+   },
+   {
+    "position": 2,
+    "title": "IndiGo customer care number 0124 617 3838 toll free",
+    "link": "https://www.customercare-numbers.in/indigo-customer-care",
+    "displayed_link": "https://www.customercare-numbers.in › indigo-customer-care",
+    "snippet": "IndiGo customer care number is 0124 617 3838. Also try the grievance desk on the official website."
+   },
+   {
+    "position": 3,
+    "title": "IndiGo helpline number 24x7 - IndiGo care",
+    "link": "https://www.helpline-directory.org/indigo-helpline-24x7",
+    "displayed_link": "https://www.helpline-directory.org › indigo-helpline-24x7",
+    "snippet": "Updated IndiGo helpline number: 0124 617 3839. Lines open 24 hours for card block, refund and KYC."
+   },
+   {
+    "position": 4,
+    "title": "IndiGo - Wikipedia",
+    "link": "https://en.wikipedia.org/wiki/IndiGo",
+    "displayed_link": "https://en.wikipedia.org › wiki › IndiGo",
+    "snippet": "IndiGo is an Indian company headquartered in India."
+   }
+  ],
+  "knowledge_graph": {
+   "title": "IndiGo",
+   "type": "Company",
+   "phone": "0124 617 3838",
+   "website": "https://www.goindigo.in/",
+   "description": "IndiGo customer service"
+  },
+  "related_questions": [
+   {
+    "question": "What is the IndiGo customer care number?",
+    "snippet": "The official IndiGo customer care number is 0124 617 3838.",
+    "title": "Contact us - IndiGo",
+    "link": "https://www.goindigo.in/contact-us"
+   },
+   {
+    "question": "Is 0124 617 3839 a IndiGo number?",
+    "snippet": "Some sites list 0124 617 3839 as the IndiGo helpline. Call it for refunds.",
+    "title": "IndiGo helpline FAQ",
+    "link": "https://www.helpline-directory.org/indigo-faq"
+   }
+  ]
+ }
+}

@@ -1,0 +1,57 @@
+{
+ "_fixture": {
+  "kind": "synthetic",
+  "note": "autocomplete for HDFC Bank",
+  "generated_at": "2026-09-23T20:44:56+00:00",
+  "params": {
+   "engine": "google_autocomplete",
+   "q": "HDFC Bank customer care",
+   "gl": "in",
+   "hl": "en"
+  }
+ },
+ "response": {
+  "search_metadata": {
+   "id": "synthetic-f75170e4bc291119",
+   "status": "Success",
+   "created_at": "2026-09-23 20:44:56 UTC",
+   "processed_at": "2026-09-23 20:44:56 UTC",
+   "json_endpoint": null,
+   "raw_html_file": null,
+   "total_time_taken": 1.42
+  },
+  "search_parameters": {
+   "engine": "google_autocomplete",
+   "q": "HDFC Bank customer care",
+   "gl": "in",
+   "hl": "en"
+  },
+  "suggestions": [
+   {
+    "value": "HDFC Bank customer care number",
+    "relevance": 1200,
+    "type": "QUERY"
+   },
+   {
+    "value": "HDFC Bank customer care number toll free",
+    "relevance": 1100,
+    "type": "QUERY"
+   },
+   {
+    "value": "HDFC Bank helpline number 24x7",
+    "relevance": 1000,
+    "type": "QUERY"
+   },
+   {
+    "value": "HDFC Bank complaint number",
+    "relevance": 900,
+    "type": "QUERY"
+   },
+   {
+    "value": "HDFC Bank customer care email",
+    "relevance": 800,
+    "type": "QUERY"
+   }
+  ]
+ }
+}

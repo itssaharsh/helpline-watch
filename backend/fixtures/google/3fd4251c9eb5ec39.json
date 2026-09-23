@@ -1,0 +1,43 @@
+{
+ "_fixture": {
+  "kind": "synthetic",
+  "note": "reverse lookup 0120 445 6457",
+  "generated_at": "2026-09-23T20:44:57+00:00",
+  "params": {
+   "engine": "google",
+   "q": "\"01204456457\" OR \"0120 445 6457\"",
+   "google_domain": "google.co.in",
+   "gl": "in",
+   "hl": "en",
+   "num": "10"
+  }
+ },
+ "response": {
+  "search_metadata": {
+   "id": "synthetic-3fd4251c9eb5ec39",
+   "status": "Success",
+   "created_at": "2026-09-23 20:44:57 UTC",
+   "processed_at": "2026-09-23 20:44:57 UTC",
+   "json_endpoint": null,
+   "raw_html_file": null,
+   "total_time_taken": 2.1
+  },
+  "search_parameters": {
+   "engine": "google",
+   "q": "\"01204456457\" OR \"0120 445 6457\"",
+   "google_domain": "google.co.in",
+   "gl": "in",
+   "hl": "en",
+   "num": "10"
+  },
+  "organic_results": [
+   {
+    "position": 1,
+    "title": "No results",
+    "link": "https://example.org/none",
+    "displayed_link": "https://example.org › none",
+    "snippet": ""
+   }
+  ]
+ }
+}

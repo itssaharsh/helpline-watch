@@ -1,0 +1,93 @@
+{
+ "_fixture": {
+  "kind": "synthetic",
+  "note": "Maps · Bengaluru · Paytm customer care",
+  "generated_at": "2026-09-23T20:44:57+00:00",
+  "params": {
+   "engine": "google_maps",
+   "type": "search",
+   "q": "Paytm customer care",
+   "ll": "@12.9716,77.5946,12z",
+   "google_domain": "google.co.in",
+   "hl": "en"
+  }
+ },
+ "response": {
+  "search_metadata": {
+   "id": "synthetic-b88e53b061af761a",
+   "status": "Success",
+   "created_at": "2026-09-23 20:44:57 UTC",
+   "processed_at": "2026-09-23 20:44:57 UTC",
+   "json_endpoint": null,
+   "raw_html_file": null,
+   "total_time_taken": 0.96
+  },
+  "search_parameters": {
+   "engine": "google_maps",
+   "type": "search",
+   "q": "Paytm customer care",
+   "ll": "@12.9716,77.5946,12z",
+   "google_domain": "google.co.in",
+   "hl": "en"
+  },
+  "local_results": [
+   {
+    "position": 1,
+    "title": "Paytm - Bengaluru Main Branch",
+    "place_id": "synthetic-paytm-bengaluru-branch",
+    "data_id": "0xedd5443d5f2c:0xf70921999ddf",
+    "rating": 3.8,
+    "reviews": 287,
+    "type": "Bank",
+    "types": [
+     "Bank"
+    ],
+    "address": "MG Road, Bengaluru",
+    "gps_coordinates": {
+     "latitude": 17.33387539236826,
+     "longitude": 73.41859506274223
+    },
+    "phone": "0120 445 6456",
+    "website": "https://www.paytm.com/"
+   },
+   {
+    "position": 1,
+    "title": "Paytm Helpline 24x7",
+    "place_id": "synthetic-paytm-bengaluru-help",
+    "data_id": "0x3b1d7808246d:0xbae8d9d3b8f1",
+    "rating": 4.9,
+    "reviews": 4,
+    "type": "Financial consultant",
+    "types": [
+     "Financial consultant"
+    ],
+    "address": "Near Metro Station, Bengaluru",
+    "gps_coordinates": {
+     "latitude": 22.22095733979242,
+     "longitude": 87.79703212688447
+    },
+    "phone": "+91 63528 40917",
+    "unclaimed_listing": true
+   },
+   {
+    "position": 1,
+    "title": "Paytm Toll Free Number",
+    "place_id": "synthetic-paytm-bengaluru-look",
+    "data_id": "0x29612f908d70:0x808e235b2f42",
+    "rating": 5.0,
+    "reviews": 1,
+    "type": "Customer service",
+    "types": [
+     "Customer service"
+    ],
+    "address": "Whitefield, Bengaluru",
+    "gps_coordinates": {
+     "latitude": 22.22682636878038,
+     "longitude": 85.92401616223765
+    },
+    "phone": "0120 445 6457",
+    "unclaimed_listing": true
+   }
+  ]
+ }
+}
