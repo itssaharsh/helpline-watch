@@ -1,6 +1,6 @@
 # Demo video script
 
-Target 150 s, cap 180 s. Recorded from the running app at `http://127.0.0.1:8787/` by `demo/demokit/run.py` on a lockstep virtual clock, narrated with Kokoro (`af_heart`), composed by `demo/demokit/compose.py`. Build outputs land in `demo/build/` (gitignored).
+Target 150 s, cap 180 s. Recorded from the running app on a lockstep virtual clock and narrated with a local text-to-speech model (Kokoro, voice af_heart).
 
 | # | Scene | On screen | Narration |
 |---|---|---|---|

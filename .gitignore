@@ -37,3 +37,12 @@ demo/probe/
 demo/recon/
 demo/voice/
 demo/build/
+
+# local-only working files (agent notes, knowledge graph, demo kit, design specs, form answers)
+graphify-out/
+PRODUCT.md
+CLAUDE.md
+demo/
+docs/DESIGN.md
+docs/UI-SPEC.md
+docs/submission.md

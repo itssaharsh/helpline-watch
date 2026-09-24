@@ -1,0 +1,13 @@
+# One-click: https://render.com/deploy?repo=https://github.com/itssaharsh/helpline-watch
+services:
+  - type: web
+    name: helpline-watch
+    runtime: docker
+    plan: free
+    region: singapore
+    healthCheckPath: /api/health
+    envVars:
+      - key: HELPLINE_MODE
+        value: replay
+      - key: HELPLINE_DATA_DIR
+        value: /srv/data

@@ -1,0 +1,7 @@
+*
+!backend/
+backend/.venv/
+backend/data/
+backend/.pytest_cache/
+backend/.ruff_cache/
+backend/**/__pycache__/
