@@ -14,7 +14,7 @@ function focus(lat: number, lng: number): [number, number] {
 }
 
 /** India-centred globe; markers are the swept cities, sized by fake count, pulsing while their pages return. */
-export function Globe({ markers, sweeping }: { markers: GlobeMarker[]; sweeping: boolean }) {
+export function Globe({ markers, sweeping, centered = false }: { markers: GlobeMarker[]; sweeping: boolean; centered?: boolean }) {
   const ref = useRef<HTMLCanvasElement>(null)
   const markersRef = useRef(markers)
   useEffect(() => { markersRef.current = markers }, [markers])
@@ -24,11 +24,12 @@ export function Globe({ markers, sweeping }: { markers: GlobeMarker[]; sweeping:
     const reduce = window.matchMedia?.('(prefers-reduced-motion: reduce)').matches
     const [phi0, theta] = focus(21, 80)
     let width = canvas.offsetWidth, height = canvas.offsetHeight
-    const offsetFor = (w: number, h: number): [number, number] => (w < 1024 ? [0, h * 2 * 0.36] : [w * 2 * 0.22, h * 2 * 0.06])
+    const offsetFor = (w: number, h: number): [number, number] => (centered ? [0, h * 2 * 0.08] : w < 1024 ? [0, h * 2 * 0.42] : [w * 2 * 0.27, h * 2 * 0.06])
+    const scaleFor = (w: number) => (centered ? 1.55 : w < 1024 ? 1.7 : 2.1)
     const globe = createGlobe(canvas, {
       devicePixelRatio: Math.min(window.devicePixelRatio || 1, 2), width: width * 2, height: height * 2, phi: phi0, theta, dark: 1, diffuse: 1.4,
-      mapSamples: 30000, mapBrightness: 7, baseColor: [0.16, 0.2, 0.3], markerColor: [0.3, 0.79, 0.94], glowColor: [0.08, 0.14, 0.24],
-      scale: width < 1024 ? 1.7 : 2.1, offset: offsetFor(width, height), markers: [],
+      mapSamples: 30000, mapBrightness: 5, baseColor: [0.22, 0.27, 0.36], markerColor: [0.6, 0.84, 0.96], glowColor: [0.07, 0.11, 0.18],
+      scale: scaleFor(width), offset: offsetFor(width, height), markers: [],
     })
     let raf = 0, t = 0
     const tick = () => {
@@ -40,9 +41,9 @@ export function Globe({ markers, sweeping }: { markers: GlobeMarker[]; sweeping:
       globe.update({ phi: phi0 + wobble, markers: ms })
     }
     tick()
-    const ro = new ResizeObserver(() => { width = canvas.offsetWidth; height = canvas.offsetHeight; globe.update({ width: width * 2, height: height * 2, offset: offsetFor(width, height), scale: width < 1024 ? 1.7 : 2.1 }) })
+    const ro = new ResizeObserver(() => { width = canvas.offsetWidth; height = canvas.offsetHeight; globe.update({ width: width * 2, height: height * 2, offset: offsetFor(width, height), scale: scaleFor(width) }) })
     ro.observe(canvas)
     return () => { cancelAnimationFrame(raf); ro.disconnect(); globe.destroy() }
-  }, [])
+  }, [centered])
   return <canvas ref={ref} aria-label={sweeping ? 'Globe: sweeping the selected cities' : 'Globe: swept cities'} style={{ width: '100%', height: '100%', contain: 'layout paint size' }} />
 }

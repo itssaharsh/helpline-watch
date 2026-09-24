@@ -1,6 +1,5 @@
 import { useCallback, useEffect, useMemo, useRef, useState } from 'react'
-import { Box, Button, Callout, Flex, Tabs, Text, Theme } from '@radix-ui/themes'
-import { Warning } from '@phosphor-icons/react'
+import { Box, Text, Theme } from '@radix-ui/themes'
 import { api } from './lib/api'
 import type { Brand, City, Health, NetworkData, Verdict } from './lib/types'
 import { useSweep } from './lib/useSweep'
@@ -9,6 +8,7 @@ import { Evidence } from './components/Evidence'
 import { FindingsPanel } from './components/FindingsPanel'
 import { Hero } from './components/Hero'
 import { Kit } from './components/Kit'
+import { Landing } from './components/Landing'
 import { LogList } from './components/LogList'
 import { Network3D } from './components/Network3D'
 import { Pages } from './components/Pages'
@@ -19,9 +19,11 @@ const FORCED = params.get('state')
 type Tab = 'evidence' | 'pages' | 'network' | 'log'
 
 export default function App() {
+  const path = window.location.pathname
   return (
-    <Theme appearance="dark" accentColor="lime" grayColor="slate" radius="large" scaling="100%" panelBackground="solid">
-      {window.location.pathname === '/_kit' ? <Kit /> : <Workspace />}
+    <Theme appearance="dark" accentColor="gray" grayColor="slate" radius="large" scaling="100%" panelBackground="solid" hasBackground={false}>
+      <div className="bg" aria-hidden />
+      {path === '/_kit' ? <Kit /> : path.startsWith('/app') ? <Workspace /> : <Landing />}
     </Theme>
   )
 }
@@ -76,7 +78,7 @@ function Workspace() {
   const onNetworkNumber = useCallback((n: string) => { if (state.findings.some((f) => f.number_norm === n)) onSelect(n) }, [state.findings, onSelect])
   const when = state.sweep?.started_at ? new Date(state.sweep.started_at).toLocaleString(undefined, { day: 'numeric', month: 'short', hour: '2-digit', minute: '2-digit' }) : null
   const activeTab: Tab = tab === 'evidence' && !finding ? 'pages' : tab
-  const TAB_HUE: Record<Tab, string> = { evidence: '#FF6166', pages: '#4CC9F0', network: '#B48CFF', log: '#A2A69E' }
+  const TABS: { id: Tab; label: string }[] = [{ id: 'evidence', label: 'Evidence' }, { id: 'pages', label: 'Pages' }, { id: 'network', label: 'Across brands' }, { id: 'log', label: 'Log' }]
 
   return (
     <div className="shell">
@@ -86,45 +88,42 @@ function Workspace() {
       <div className="workspace">
         <FindingsPanel findings={state.findings} cities={cities} selected={selected} running={running} onSelect={onSelect} />
         <div className="pane">
-          <Box px={{ initial: '4', md: '6' }} py="5" style={{ maxWidth: 1100 }}>
-            {shownError && <Callout.Root color="ruby" mb="4"><Callout.Icon><Warning size={16} /></Callout.Icon><Callout.Text>{shownError}</Callout.Text><Button size="1" color="lime" onClick={onSweep} disabled={!brandId}>Sweep again</Button></Callout.Root>}
-            {idle && !running ? (
-              <div className="panel" style={{ maxWidth: 560, padding: 24 }}>
-                <div className="display" style={{ fontSize: 20, fontWeight: 700, marginBottom: 8 }}>Nothing swept for {brand?.name ?? 'this brand'} yet</div>
-                <Text as="p" size="2" mb="4" style={{ color: '#A2A69E' }}>A sweep runs every query a victim would type, from each chosen city, across search results, the answer box, People also ask, the local pack, Maps and ads, then marks every number that is not the brand’s.</Text>
-                <Button color="lime" size="3" onClick={onSweep} disabled={!brandId || cityIds.length === 0}>Sweep {brand?.name ?? ''}</Button>
+          {shownError && <div className="glass" role="alert" style={{ padding: '12px 16px', display: 'flex', gap: 12, alignItems: 'center', marginBottom: 16, borderColor: 'rgba(245,138,138,.4)' }}><span style={{ color: 'var(--fake)', fontSize: 14 }}>{shownError}</span><button type="button" className="btn btn-ghost" style={{ height: 32, marginLeft: 'auto' }} onClick={onSweep} disabled={!brandId}>Sweep again</button></div>}
+          {idle && !running ? (
+            <div className="glass" style={{ maxWidth: 560, padding: 24 }}>
+              <div style={{ fontSize: 20, fontWeight: 700, letterSpacing: '-0.02em', marginBottom: 8 }}>Nothing swept for {brand?.name ?? 'this brand'} yet</div>
+              <Text as="p" size="2" mb="4" className="muted">A sweep runs every query a victim would type, from each chosen city, across search results, the answer box, People also ask, the local pack, Maps and ads, then marks every number that is not the brand’s.</Text>
+              <button type="button" className="btn btn-white" onClick={onSweep} disabled={!brandId || cityIds.length === 0}>Sweep {brand?.name ?? ''}</button>
+            </div>
+          ) : (
+            <div>
+              <div className="tabs" role="tablist">
+                {TABS.map((t) => (
+                  <button key={t.id} type="button" role="tab" className="tab" aria-selected={activeTab === t.id} disabled={t.id === 'evidence' && !finding} onClick={() => setTab(t.id)}>
+                    {t.label}
+                    {t.id === 'evidence' && finding ? <span className="num faint">{finding.display}</span> : null}
+                    {t.id === 'log' && running ? <span className="num faint">{progress.done}/{progress.total}</span> : null}
+                  </button>
+                ))}
               </div>
-            ) : (
-              <Tabs.Root value={activeTab} onValueChange={(v) => setTab(v as Tab)}>
-                <Tabs.List size="2" style={{ boxShadow: 'inset 0 -1px 0 rgba(255,255,255,.08)' }}>
-                  {(['evidence', 'pages', 'network', 'log'] as Tab[]).map((t) => (
-                    <Tabs.Trigger key={t} value={t} disabled={t === 'evidence' && !finding} style={{ color: activeTab === t ? TAB_HUE[t] : undefined }}>
-                      <span style={{ width: 8, height: 8, borderRadius: 3, background: TAB_HUE[t], marginRight: 8, opacity: activeTab === t ? 1 : .5 }} />
-                      {t === 'evidence' ? 'Evidence' : t === 'pages' ? 'Pages' : t === 'network' ? 'Across brands' : 'Log'}
-                      {t === 'evidence' && finding ? <span className="num" style={{ marginLeft: 8, color: '#A2A69E' }}>{finding.display}</span> : null}
-                      {t === 'log' && running ? <span className="num" style={{ marginLeft: 8, color: '#A2A69E' }}>{progress.done}/{progress.total}</span> : null}
-                    </Tabs.Trigger>
-                  ))}
-                </Tabs.List>
-                <Box pt="5">
-                  <Tabs.Content value="evidence">{finding && <Evidence finding={finding} cities={cities} snapshots={state.snapshots} verdictOf={verdictOf} busy={busy} onTogglePack={onTogglePack} onMarkOfficial={onMarkOfficial} onNumber={onSelect} />}</Tabs.Content>
-                  <Tabs.Content value="pages"><Pages cities={sweptCities} snapshots={state.snapshots} calls={state.calls} verdictOf={verdictOf} landed={landed} onNumber={onSelect} running={running} fakesByCity={fakesByCity} /></Tabs.Content>
-                  <Tabs.Content value="network">
-                    <Flex direction="column" gap="5">
-                      <Network3D data={network} onNumber={onNetworkNumber} />
-                      {state.advertisers.length > 0 && (
-                        <div className="panel">
-                          <div className="panel-head"><span className="swatch" style={{ background: '#FFB020' }} /><Text weight="bold">Advertising on the brand name</Text><Text size="1" style={{ color: '#A2A69E' }}>Google Ads Transparency Center, India</Text></div>
-                          <div style={{ padding: '4px 16px 8px' }}>{state.advertisers.map((a) => <Flex key={a.advertiser_id ?? a.advertiser} justify="between" py="2" style={{ borderTop: '1px solid rgba(255,255,255,.07)' }}><Text size="2" weight={a.is_brand ? 'regular' : 'bold'}>{a.advertiser}{!a.is_brand && <span className="badge badge-review" style={{ marginLeft: 8, height: 18, fontSize: 11 }}>not the brand</span>}</Text><Text size="2" className="num" style={{ color: '#A2A69E' }}>{a.creatives} {a.creatives === 1 ? 'ad' : 'ads'}</Text></Flex>)}</div>
-                        </div>
-                      )}
-                    </Flex>
-                  </Tabs.Content>
-                  <Tabs.Content value="log"><LogList lines={state.log} running={running} /></Tabs.Content>
-                </Box>
-              </Tabs.Root>
-            )}
-          </Box>
+              <Box pt="5">
+                {activeTab === 'evidence' && finding && <Evidence finding={finding} cities={cities} snapshots={state.snapshots} verdictOf={verdictOf} busy={busy} onTogglePack={onTogglePack} onMarkOfficial={onMarkOfficial} onNumber={onSelect} />}
+                {activeTab === 'pages' && <Pages cities={sweptCities} snapshots={state.snapshots} calls={state.calls} verdictOf={verdictOf} landed={landed} onNumber={onSelect} running={running} fakesByCity={fakesByCity} />}
+                {activeTab === 'network' && (
+                  <div style={{ display: 'flex', flexDirection: 'column', gap: 20 }}>
+                    <Network3D data={network} onNumber={onNetworkNumber} />
+                    {state.advertisers.length > 0 && (
+                      <div className="glass">
+                        <div className="glass-head"><Text weight="bold">Advertising on the brand name</Text><Text size="1" className="muted">Google Ads Transparency Center, India</Text></div>
+                        <div style={{ padding: '4px 16px 8px' }}>{state.advertisers.map((a) => <div key={a.advertiser_id ?? a.advertiser} style={{ display: 'flex', justifyContent: 'space-between', padding: '10px 0', borderTop: '1px solid rgba(255,255,255,.06)', fontSize: 14 }}><span style={{ fontWeight: a.is_brand ? 400 : 600 }}>{a.advertiser}{!a.is_brand && <span className="badge badge-review" style={{ marginLeft: 8 }}>not the brand</span>}</span><span className="num muted">{a.creatives} {a.creatives === 1 ? 'ad' : 'ads'}</span></div>)}</div>
+                      </div>
+                    )}
+                  </div>
+                )}
+                {activeTab === 'log' && <LogList lines={state.log} running={running} />}
+              </Box>
+            </div>
+          )}
         </div>
       </div>
     </div>

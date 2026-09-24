@@ -16,12 +16,14 @@ async function shot(name, width, full = false) {
   await page.screenshot({ path: `qa/${name}-${width}.png`, fullPage: full })
 }
 
-for (const w of [1440, 1024, 390]) { await page.goto(`${base}/`, { waitUntil: 'networkidle' }); await shot('console', w) }
+for (const w of [1440, 1024, 390]) { await page.goto(`${base}/`, { waitUntil: 'networkidle' }); await shot('landing', w, true) }
+console.log('horizontal scroll on landing at 390:', await page.evaluate(() => document.documentElement.scrollWidth > document.documentElement.clientWidth))
+for (const w of [1440, 1024, 390]) { await page.goto(`${base}/app`, { waitUntil: 'networkidle' }); await shot('console', w) }
 const scroll = await page.evaluate(() => document.documentElement.scrollWidth > document.documentElement.clientWidth)
 console.log('horizontal page scroll at 390:', scroll)
 
 await page.setViewportSize({ width: 1440, height: 900 })
-await page.goto(`${base}/?demo=1`, { waitUntil: 'networkidle' })
+await page.goto(`${base}/app?demo=1`, { waitUntil: 'networkidle' })
 await page.waitForTimeout(900)
 await page.screenshot({ path: 'qa/demo-running-1440.png' })
 await page.getByRole('button', { name: 'Sweep again' }).waitFor({ timeout: 30000 })
@@ -43,14 +45,14 @@ await page.waitForTimeout(400)
 await page.screenshot({ path: 'qa/cities-1440.png' })
 await page.keyboard.press('Escape')
 
-for (const [name, url] of [['empty', '/?state=empty'], ['error', '/?state=error'], ['kit', '/_kit']]) {
+for (const [name, url] of [['empty', '/app?state=empty'], ['error', '/app?state=error'], ['kit', '/_kit']]) {
   await page.goto(`${base}${url}`, { waitUntil: 'networkidle' })
   await shot(name, 1440, name === 'kit')
 }
 await page.goto(`${base}/_kit`, { waitUntil: 'networkidle' }); await shot('kit', 390, true)
 
 // keyboard path: Tab to Sweep → Enter → ↓ selects a finding → Esc clears
-await page.goto(`${base}/`, { waitUntil: 'networkidle' })
+await page.goto(`${base}/app`, { waitUntil: 'networkidle' })
 await page.getByRole('button', { name: /Sweep/ }).last().focus(); await page.keyboard.press('Enter')
 await page.getByRole('button', { name: 'Sweep again' }).waitFor({ timeout: 30000 })
 await page.keyboard.press('ArrowDown')

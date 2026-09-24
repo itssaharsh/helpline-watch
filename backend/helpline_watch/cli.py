@@ -28,7 +28,7 @@ def serve(port: int = 8787, host: str = "127.0.0.1", open_browser: bool = typer.
     import uvicorn
 
     if open_browser:
-        webbrowser.open(f"http://{host}:{port}/?demo=1")
+        webbrowser.open(f"http://{host}:{port}/app?demo=1")
     uvicorn.run("helpline_watch.api:app", host=host, port=port, log_level="info")
 
 

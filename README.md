@@ -4,7 +4,9 @@
 
 Built for the [SerpApi India Hackathon 2026](https://serpapi.github.io/serpapi-india-hackathon-2026/) · track: Knowledge & Public Interest · [3-minute demo video](#demo-video) · [`make verify`](#verify-it-yourself) runs the whole proof with no API key.
 
-![The console: an India globe with the swept cities, the lime results slab, findings on the left, and the Google results page a victim in Mumbai is shown with every number marked Fake, Check or Official](docs/screenshots/console.png)
+![The landing page: the pitch, the India globe with the swept cities, and the page a victim is shown](docs/screenshots/landing.png)
+
+![The console: globe and summary, findings on the left, and the Google results page a victim in Mumbai is shown with every number marked Fake, Check or Official](docs/screenshots/console.png)
 
 ## The problem
 
@@ -38,7 +40,7 @@ Requires Python 3.11+ and [`uv`](https://docs.astral.sh/uv/). Node is only neede
 
 ```bash
 make setup     # venv + backend install
-make demo      # seeds five brands from recorded fixtures, serves http://127.0.0.1:8787 and opens it
+make demo      # seeds five brands from recorded fixtures, serves http://127.0.0.1:8787 (landing at /, console at /app) and opens it
 ```
 
 Then press **Sweep again**, watch the globe's city markers pulse as pages return and the fake count climb, click a number marked Fake, orbit the 3D network under Across brands, and download the pack. Arrow keys move through findings, Esc clears. `make verify` prints the proof:
@@ -118,7 +120,7 @@ backend/helpline_watch/
   takedown.py        the ZIP the analyst files
   api.py · cli.py    FastAPI + SSE, and the `helpline-watch` command
 backend/fixtures/    recorded or synthetic SerpApi responses
-frontend/            Vite + React on Radix Themes, cobe globe and a 3D force graph, built into the Python package
+frontend/            Vite + React: landing page at /, console at /app, cobe globe, 3D force graph; built into the Python package
 docs/adr/            four decisions, docs/DESIGN.md, docs/UI-SPEC.md, docs/demo-script.md
 ```
 

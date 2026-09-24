@@ -32,24 +32,24 @@ export function Network3D({ data, onNumber }: { data: NetworkData | null; onNumb
     }, 400)
     return () => clearTimeout(t)
   }, [graph])
-  if (!data || data.nodes.length === 0) return <Text size="2" style={{ color: '#A2A69E' }}>Sweep two or more brands to see numbers that pose as several of them at once.</Text>
+  if (!data || data.nodes.length === 0) return <Text size="2" className="muted">Sweep two or more brands to see numbers that pose as several of them at once.</Text>
   const shared = data.nodes.filter((n) => n.type === 'number' && (n.brands ?? 0) >= 2).length
   return (
     <div>
-      <Text as="p" size="2" mb="3" style={{ color: '#A2A69E' }}>Every suspicious number from the latest sweep of each brand, in 3D. Brands are violet, fakes coral, numbers to check amber. Drag to orbit, click a number to open it. <span className="c-net num">{shared}</span> shared so far.</Text>
+      <Text as="p" size="2" mb="3" className="muted">Every suspicious number from the latest sweep of each brand. White nodes are brands, red are fakes, amber are numbers to check. Drag to orbit, click a number to open it. <span className="num" style={{ color: '#F4F7FA' }}>{shared}</span> shared so far.</Text>
       <div ref={wrap} className="net-wrap" style={{ height: 520 }}>
-        <Suspense fallback={<Text size="2" style={{ color: '#A2A69E', padding: 16, display: 'block' }}>Loading the 3D view.</Text>}>
+        <Suspense fallback={<Text size="2" className="muted" style={{ padding: 16, display: 'block' }}>Loading the 3D view.</Text>}>
           <ForceGraph3D ref={fg} width={size.w} height={size.h} graphData={graph} backgroundColor="rgba(0,0,0,0)" showNavInfo={false} enableNodeDrag={false} nodeRelSize={5} warmupTicks={60} cooldownTicks={120}
-            nodeColor={(n: any) => (n.type === 'brand' ? '#B48CFF' : n.verdict === 'fake' ? '#FF6166' : '#FFB020')} nodeOpacity={0.95}
-            linkColor={() => 'rgba(241,242,238,.28)'} linkWidth={1.2} linkOpacity={0.6}
+            nodeColor={(n: any) => (n.type === 'brand' ? '#DCE7F2' : n.verdict === 'fake' ? '#F58A8A' : '#F2C46B')} nodeOpacity={0.95}
+            linkColor={() => 'rgba(244,247,250,.25)'} linkWidth={1.2} linkOpacity={0.6}
             nodeLabel={(n: any) => `${n.label}${n.type === 'number' && (n.brands ?? 0) >= 2 ? ` · ${n.brands} brands` : ''}`}
             nodeThreeObjectExtend={true}
             nodeThreeObject={(n: any) => {
               if (n.type !== 'brand' && (n.brands ?? 0) < 2) return false as any
               const s = new SpriteText(n.label)
-              s.color = n.type === 'brand' ? '#F1F2EE' : '#FF6166'
-              s.textHeight = n.type === 'brand' ? 8 : 5.5
-              s.fontFace = n.type === 'brand' ? 'Unbounded, sans-serif' : 'Martian Mono, monospace'
+              s.color = n.type === 'brand' ? '#F4F7FA' : '#F58A8A'
+              s.textHeight = n.type === 'brand' ? 9 : 6
+              s.fontFace = 'Host Grotesk, sans-serif'
               s.fontWeight = n.type === 'brand' ? '700' : '600'
               s.position.y = -(n.type === 'brand' ? 15 : 10)
               return s

@@ -31,7 +31,7 @@ export function Pages(p: Props) {
         </div>
       )}
       {!active ? (
-        <div className="sheet">{p.running ? <Flex direction="column" gap="3"><Skeleton width="60%" height="16px" /><Skeleton width="40%" height="12px" /><Skeleton width="85%" height="12px" /></Flex> : <span className="r-text">No pages recorded for {city?.name ?? 'this city'} yet.</span>}</div>
+        <div className="glass" style={{ padding: 24 }}>{p.running ? <Flex direction="column" gap="3"><Skeleton width="60%" height="16px" /><Skeleton width="40%" height="12px" /><Skeleton width="85%" height="12px" /></Flex> : <span className="muted">No pages recorded for {city?.name ?? 'this city'} yet.</span>}</div>
       ) : <Page snapshot={active} city={city} verdictOf={p.verdictOf} landed={p.landed} onNumber={p.onNumber} />}
     </Flex>
   )
