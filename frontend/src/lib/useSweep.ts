@@ -1,6 +1,6 @@
 import { useCallback, useReducer, useRef } from 'react'
 import { api, openSweepStream } from './api'
-import type { Advertiser, CallState, Diff, Finding, LogLine, PlannedCall, Sweep } from './types'
+import type { Advertiser, CallState, Diff, Finding, LogLine, PlannedCall, SerpSnapshot, Sweep } from './types'
 
 export interface SweepState {
   status: 'idle' | 'running' | 'done' | 'error'
@@ -13,6 +13,7 @@ export interface SweepState {
   suggestions: string[]
   findings: Finding[]
   advertisers: Advertiser[]
+  snapshots: SerpSnapshot[]
   sweep: Sweep | null
   diff: Diff | null
   log: LogLine[]
@@ -25,7 +26,7 @@ export interface SweepState {
 
 export const EMPTY: SweepState = {
   status: 'idle', sweepId: null, brandId: null, cityIds: [], mode: null, calls: {}, queries: [], suggestions: [], findings: [],
-  advertisers: [], sweep: null, diff: null, log: [], landed: [], liveCalls: 0, cacheHits: 0, error: null, reverseInFlight: null,
+  advertisers: [], snapshots: [], sweep: null, diff: null, log: [], landed: [], liveCalls: 0, cacheHits: 0, error: null, reverseInFlight: null,
 }
 
 type Action =
@@ -74,16 +75,17 @@ function reducer(state: SweepState, action: Action): SweepState {
     case 'plan': {
       const calls: Record<string, CallState> = {}
       for (const c of action.payload.calls as PlannedCall[]) calls[c.id] = { ...c, status: 'pending' }
-      const text = `Plan: ${action.payload.total} calls (cap ${action.payload.max_calls}) · queries: ${action.payload.queries.join(' · ')}`
+      const text = `Planned ${action.payload.total} searches (cap ${action.payload.max_calls}). Queries: ${action.payload.queries.join('; ')}`
       return { ...state, calls, queries: action.payload.queries, suggestions: action.payload.suggestions, log: keepLog(state.log, log('info', text)) }
     }
     case 'call_done': {
       const p = action.payload
       const prev = state.calls[p.id]
       const call: CallState = { ...(prev ?? { id: p.id, label: p.id, group: 'search', city_id: null }), status: 'done', fixture_kind: p.fixture_kind, numbers: p.numbers, ms: p.ms }
-      const source = p.from_cache ? `cache · ${p.fixture_kind}` : `live · ${p.ms} ms`
-      return { ...state, calls: { ...state.calls, [p.id]: call }, liveCalls: p.live_calls, cacheHits: p.cache_hits,
-        log: keepLog(state.log, log('ok', `${call.label} — ${p.observations} number${p.observations === 1 ? '' : 's'} (${source})`)) }
+      const source = p.from_cache ? `from ${p.fixture_kind === 'synthetic' ? 'a synthetic fixture' : 'the recorded fixture'}` : `live in ${p.ms} ms`
+      const snapshots = p.snapshot ? [...state.snapshots.filter((s) => s.call_id !== p.id), p.snapshot as SerpSnapshot] : state.snapshots
+      return { ...state, calls: { ...state.calls, [p.id]: call }, liveCalls: p.live_calls, cacheHits: p.cache_hits, snapshots,
+        log: keepLog(state.log, log('ok', `${call.label}: ${p.observations} number${p.observations === 1 ? '' : 's'}, ${source}`)) }
     }
     case 'call_failed': {
       const p = action.payload
@@ -98,19 +100,19 @@ function reducer(state: SweepState, action: Action): SweepState {
       return { ...state, findings: incoming, landed: landed.length ? landed : state.landed }
     }
     case 'advertisers':
-      return { ...state, advertisers: action.payload.advertisers, log: keepLog(state.log, log('info', `Ads Transparency — ${action.payload.advertisers.length} advertisers bidding on the brand`)) }
+      return { ...state, advertisers: action.payload.advertisers, log: keepLog(state.log, log('info', `Ads Transparency: ${action.payload.advertisers.length} advertisers bidding on the brand name`)) }
     case 'reverse_started':
       return { ...state, reverseInFlight: action.payload.number, log: keepLog(state.log, log('info', action.payload.label)) }
     case 'reverse_done': {
       const f = action.payload.finding as Finding
       const findings = state.findings.map((x) => (x.number_norm === f.number_norm ? f : x))
-      return { ...state, findings, reverseInFlight: null, log: keepLog(state.log, log(action.payload.flagged ? 'warn' : 'ok', `Reverse lookup ${f.display} — ${action.payload.hits} pages, ${action.payload.flagged} mention fraud → ${f.verdict}`)) }
+      return { ...state, findings, reverseInFlight: null, log: keepLog(state.log, log(action.payload.flagged ? 'warn' : 'ok', `Reverse lookup ${f.display}: ${action.payload.hits} pages, ${action.payload.flagged} mention fraud, verdict ${f.verdict}`)) }
     }
     case 'done': {
       const sweep = action.payload.sweep as Sweep
       const d = action.payload.diff as Diff
-      const summary = `Done: ${action.payload.counts.fake} fake · ${action.payload.counts.review} review · ${action.payload.counts.official + action.payload.counts.official_unlisted} official · ${action.payload.live_calls} live calls, ${action.payload.cache_hits} cache hits`
-      return { ...state, status: 'done', sweep, diff: d, findings: sweep.findings, advertisers: sweep.advertisers, liveCalls: action.payload.live_calls, cacheHits: action.payload.cache_hits, log: keepLog(state.log, log('ok', summary)) }
+      const summary = `Done: ${action.payload.counts.fake} fake, ${action.payload.counts.review} to check, ${action.payload.counts.official + action.payload.counts.official_unlisted} official. ${action.payload.live_calls} live calls, ${action.payload.cache_hits} from fixtures.`
+      return { ...state, status: 'done', sweep, diff: d, findings: sweep.findings, advertisers: sweep.advertisers, snapshots: sweep.snapshots, liveCalls: action.payload.live_calls, cacheHits: action.payload.cache_hits, log: keepLog(state.log, log('ok', summary)) }
     }
     case 'error':
       return { ...state, status: 'error', error: action.payload.message, log: keepLog(state.log, log('fail', action.payload.message)) }
@@ -118,7 +120,7 @@ function reducer(state: SweepState, action: Action): SweepState {
       if (state.status === 'running') return state // a late "load latest" must never overwrite a live sweep
       const s = action.sweep
       return { ...EMPTY, status: 'done', sweepId: s.id, brandId: s.brand_id, cityIds: s.city_ids, mode: s.mode, calls: callsFromSweep(s), queries: s.queries,
-        findings: s.findings, advertisers: s.advertisers, sweep: s, diff: action.diff, liveCalls: s.live_calls ?? 0, cacheHits: s.cache_hits ?? s.calls_made,
+        findings: s.findings, advertisers: s.advertisers, snapshots: s.snapshots ?? [], sweep: s, diff: action.diff, liveCalls: s.live_calls ?? 0, cacheHits: s.cache_hits ?? s.calls_made,
         log: [log('info', `Loaded sweep ${s.id} from ${new Date(s.started_at).toLocaleString()}`)] }
     }
     case 'finding_patched': {

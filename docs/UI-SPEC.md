@@ -1,83 +1,86 @@
 ---
 name: Helpline Watch
 design: ./DESIGN.md
-direction: "Sodium Night, mutated: Schibsted Grotesk display · radius 4·8·12 · accent hue +8°"
+direction: "derived: the annotated printout (grey desk, white search-result sheets, red pen, highlighter, green tick, Kalam pen notes)"
 personality: precise
-dials: { variance: 3, motion: 3, density: 8 }
-stack: { vite: 8, react: 19.2, tailwind: 4.3, motion: 13, d3-force: 3, backend: "FastAPI + SSE" }
-archetype: dashboard
+dials: { variance: 4, motion: 3, density: 7 }
+stack: { vite: 8, react: 19.2, tailwind: 4.3, motion: 13, d3-force: 3, backend: "FastAPI + SSE, SERP snapshots per call" }
+archetype: agent-console with a document hero
 viewports: [390x844, 1024x768, 1440x900]
-signature: "A red chip pulses once as it lands in the city × surface grid; in the network view the edges from one number draw on to three brands"
+signature: "A red pen circle draws itself around a number on the results page the moment the sweep proves it fake; the case file is stamped when the pack is ready"
 demo: { seed: "make seed", flag: "?demo=1", state_param: "?state=", reset: "reload", guest: true }
 deviations:
-  - "No ⌘K palette: three actions total (sweep, open finding, download pack); a palette would be decoration."
-  - "No route transitions: the app is one screen plus a drawer and one alternate view."
+  - "No command palette and no route transitions: one desk, one drawer."
+  - "No KPI tiles: the counts are one sentence in the case file, because big numerals with small labels are the default treatment."
+  - "Result titles and URLs use link blue and a green URL colour inside the sheet only, so the printout reads as a search page; the app chrome never uses them."
 ---
 
 ## 0. Idea brief
-- **User and moment:** a fraud or brand-protection analyst at a bank or fintech, at a desk on a 1440 monitor, before customers start calling a planted number.
+- **User and moment:** a fraud or brand-protection analyst at a bank or fintech, at a desk, before customers start calling a planted number.
 - **Core loop verb:** sweep.
-- **Hero object:** the city × surface grid of phone numbers as victims would see them.
-- **World inventory:** telephone keypad, toll-free 1800 signage, evidence tag, night-shift desk lamp (amber), city map contours.
-- **Moving data:** grid cells fill city by city as searches return; verdict chips land and pulse; the network graph draws edges from one number to several brands.
-- **Wow moment:** one number connected to HDFC Bank, Zomato and IndiGo at once, with a “posing as 3 brands” tag.
-- **Artifact:** the takedown pack (ZIP with CSV, evidence JSON, report with replay links, complaint template).
+- **Hero object:** the Google results page a victim in each city is shown, rendered from SerpApi's blocks (ads, answer box, local pack, knowledge panel, organic results, People also ask, Maps listings).
+- **World inventory:** printed search results, a red pen, a yellow highlighter, a rubber stamp, the cybercrime.gov.in complaint form.
+- **Moving data:** sheets fill city by city as searches return; red circles draw around numbers as verdicts land; the stamp lands when the pack is ready.
+- **Wow moment:** the same number circled on Mumbai's, Delhi's and Kolkata's sheets, then shown touching three brands.
+- **Artifact:** the takedown pack.
 - **Judging:** five unweighted criteria, async 3-minute local-run video, four SerpApi developer advocates.
 
 ## 1. Demo script (≤ 3:00)
-0:00 “1.73 lakh complaints, ₹2,100 crore lost calling numbers found on Google.” Grid already populated for HDFC Bank. · 0:10 click **Sweep now**; cells fill Mumbai → Kolkata; a red chip lands and pulses. · 0:35 click the red chip: drawer shows six named signals, the Maps listing “HDFC Bank Customer Care Number” with 3 reviews, unclaimed, the replay link. · 1:00 Scam network: the same number draws edges to Zomato and IndiGo. · 1:25 unhappy path: the official number republished by an aggregator is green; the newspaper landline is yellow “needs review” and not in the pack. · 1:50 **Download takedown pack** → open report.md. · 2:15 `make verify` prints PASS lines. · 2:40 credits: 22 calls, 0 live, replay badge; “Add a key and `make record` replaces every fixture.”
+0:00 "1.73 lakh complaints, ₹2,100 crore lost calling numbers found on Google." The Mumbai sheet is on screen, already marked. · 0:10 click **Sweep again**; tabs breathe, pages return, a red circle draws around +91 74110 29385 in the Places box. · 0:35 click the circled number: the evidence slip shows seven reasons, the listing, the Hindi page, the replay link. · 1:00 in the case file, hover the number in the cross-brand graph: HDFC Bank, Zomato and IndiGo. · 1:25 the unhappy path: the aggregator's copy of 1800 1600 1600 has a green tick; 022 6160 6161 on hdfcbank.com is dashed green; 033 4040 1188 from a newspaper is highlighted "check" and is not in the pack. · 1:50 the stamp: **Download takedown pack (3)**, open report.md. · 2:15 `make verify`. · 2:40 "22 searches, none live. Add a key and `make record` replaces every fixture."
 
 ## 2. Screen inventory
 | id | route | purpose | entered from | primary action | states |
 |---|---|---|---|---|---|
-| S1 | / | Sweep console | load, ?demo=1 | Sweep now | populated, running, empty, error |
-| S2 | / (drawer) | Finding detail | chip or row click | In takedown pack | fake, review, official, official_unlisted |
-| S3 | / (view=network) | Scam network | top nav | click a number | populated, empty |
-| S4 | /_kit | Component kit | direct | — | every component in every state |
+| S1 | / | The desk: sheets + case file | load, ?demo=1 | Sweep now | populated, running, empty, error |
+| S2 | / (drawer) | Evidence slip for one number | mark, ledger row, graph node | Keep in the takedown pack | fake, review, official, official_unlisted |
+| S3 | /_kit | Component kit | direct | — | every component in every state |
 
 ## 3. Flow map
-S1 --Sweep now--> S1(running) --done--> S1(populated) ; S1 --chip click--> S2 --Esc--> S1 ; S1 --Scam network--> S3 --number click--> S2 ; S1 --Download pack--> zip
+S1 --Sweep now--> S1(running) --done--> S1(populated, stamped) ; S1 --mark click--> S2 --Esc--> S1 ; S1 --city tab--> S1(other sheet) ; S1 --page chip--> S1(other page) ; S1 --Download pack--> zip
 
 ## 4. Screens
-**S1:** top bar 48 · rail 280 (brand list, official numbers, city chips, reverse limit, Sweep button, recent sweeps) · main: KPI strip [Fake][Review][Official][Coverage][Calls] + pack button · grid rows = cities + “National”, columns = Search · People also ask · Maps & local pack · Ads · findings table | network card · run log. First 10 s: the latest stored sweep is on screen; `?demo=1` starts a new sweep at once. Data: `/api/sweeps/stream` (SSE), fixtures in replay.
+**S1:** top strip 56 · heading row (sentence h1, cities and official numbers in prose, "Change brand or cities" toggle, ink button) · optional setup sheet (brand and city choices, earlier sweeps) · folder tabs (one per swept city) · the active sheet · the case file at right (summary sentence, ledger, since last sweep, advertisers, cross-brand graph, takedown pack with stamp, search log). First 10 s: the latest stored sweep with the Mumbai sheet marked; `?demo=1` starts a sweep at once.
 
 ## 5. Components
-### C-01 SweepButton (custom)
-Purpose: start the sweep for the selected brand and cities. Placement: rail, below cities, full width. Size: h40, r-md, Martian Mono label. States: idle “Sweep now” · running “Sweeping… 12/22” (aria-busy, disabled) · after a sweep “Sweep again” · disabled when no city is selected (tooltip “Pick at least one city”). Transitions: idle -CLICK-> running -DONE-> idle(again) ; running -ERROR-> idle with banner. Motion: label morph (T-01).
-### C-02 GridCell
-Purpose: what a victim in this city sees on this surface. States: pending (skeleton 2 bars) · done with chips · done empty (“—”) · failed (danger dashed border + reason). Chips: C-03. Acceptance: `?state=empty` renders an empty grid with the seeded hint.
-### C-03 VerdictChip
-Purpose: one number, one verdict. h24, r-sm, mono 12px, leading 6px dot. Tones: fake (danger 16%), review (warning 14%), official (success 14%), official_unlisted (dashed). `landed` adds one 700 ms pulse (T-02). Click opens C-05.
-### C-04 KpiTile
-Fake / Review / Official / Coverage / Calls. Numbers in mono. Coverage shows “4 / 5 cities” in warning when any call failed.
-### C-05 FindingDrawer
-480 px right drawer on a 40% scrim, spring 0.3/0. Sections: header (display, verdict, score bar) · Why (signals with +weight) · Seen on (observations: surface, city, source link, listing meta, replay link or “synthetic fixture”) · Reverse lookup hits · Actions: switch “In takedown pack” (only fake/review), “Mark as official” (secondary, re-classifies). Esc closes.
-### C-06 NetworkGraph
-SVG, d3-force layout run to rest before paint. Brand nodes amber r18 with labels; number nodes r8 + 4·brands, tone by verdict; edges draw on (T-03). Hover shows label; click opens C-05 when the number is in the current sweep.
-### C-07 RunLog
-Mono 12/18, last 80 lines, auto-scroll, icons ✓ ✗ · ⚠. Each line names the surface, city and query.
-### C-08 PackButton
-“Download takedown pack (3)”; disabled with reason when nothing is in the pack. GET `/api/sweeps/{id}/pack.zip`.
+### C-01 SweepButton (custom, ink)
+States: idle "Sweep now" · running "Sweeping, 12 of 22" (aria-busy, disabled) · after a sweep "Sweep again" · disabled with tooltip "Pick at least one city". Transitions: idle -CLICK-> running -DONE-> again ; running -ERROR-> idle + alert sheet. Motion: label crossfade 180 ms.
+### C-02 CityTab (folder tab)
+States: idle (desk-deep) · selected (paper, connected to the sheet) · pending (breathing dot) · clean (green dot) · fakes (red count) · failed (dashed red border, reason in the sheet). Keyboard: Tab to focus, Enter/Space selects.
+### C-03 PageChip
+One per page of a city: each query, the Hindi search, Google Maps. Selected = ink; a red count shows circled numbers on that page. Pending pages appear as breathing chips; failed pages as dashed red "no result".
+### C-04 Sheet
+The printout. Header line "Searched from Mumbai, Maharashtra, on google.co.in" plus the pen note "demo fixture, not evidence" or the "Replay this search on SerpApi" link. Body: query bar, then blocks in Google's order. Empty: "Nothing on this page." Loading: three skeleton lines. Failed: the page chip shows the reason.
+### C-05 Mark
+A number as the analyst marks it. fake: red ellipse drawn with `pathLength` 0→1 in 420 ms when it lands, Kalam "fake" beside it when the number stands alone; review: highlighter stroke; official: green underline and tick; official_unlisted: dashed green. It is a button; Enter opens C-07.
+### C-06 CaseFile
+Summary sentence · ledger rows (number with its mark, reason, cities, "in pack") · since-last-sweep sentence · advertisers with "not the brand" pen notes · cross-brand graph · takedown pack with the stamp and ink button · collapsible search log.
+### C-07 EvidenceSlip (drawer)
+520 px, spring 0.3/0, scrim 32% ink. Header: number with red circle or highlighter, one-sentence verdict. Sections: Why (pen "+n" per signal), Where it appeared (surface, city, listing, source, quote, replay link), Searching for the number itself, actions: "Keep in the takedown pack" checkbox, "Mark as official" paper button. Esc closes.
+### C-08 Stamp
+Round red stamp "TAKEDOWN PACK / READY TO FILE / n", multiply blend, rotated −9°, enters with scale 1.25→1 in 220 ms once, when a finished sweep has at least one number in the pack.
+### C-09 Network
+d3-force run to rest before paint, compact with x/y forces; brand nodes ink circles, fake numbers red pen ellipses, review numbers highlighter dots; labels with a paper halo; edges draw on with 40 ms stagger. Click a number to open C-07.
 
 ## 6. Choreography
 | id | trigger | from → to | what moves | pattern | timing |
 |---|---|---|---|---|---|
-| T-01 | sweep click / progress | button label | text crossfades, width locked | morphing label | 180 ms |
-| T-02 | findings event | grid cell | new chips fade in 8px, fake chips pulse once | draw-on | 200 ms + 700 ms pulse |
-| T-03 | network mount | SVG edges | stroke draws 0→1, 40 ms stagger | draw-on | 600 ms |
-| T-04 | chip click | drawer | slides in from right on scrim | drawer | spring .3 / 0 |
+| T-01 | sweep click / done | button label | crossfade | morphing label | 180 ms |
+| T-02 | verdict lands | sheet, ledger | red ellipse draws around the number | draw-on | 420 ms ease-out |
+| T-03 | sweep done with pack ≥ 1 | case file | stamp lands | stamp | 220 ms ease-out |
+| T-04 | mark click | drawer | evidence slip slides in on scrim | drawer | spring .3 / 0 |
+| T-05 | graph mount | edges | stroke 0→1, 40 ms stagger | draw-on | 700 ms |
 
 ## 7. State machines
-Sweep: idle → running (SSE open) → done | error. Cell: pending → done | failed. Finding: as classified → (mark official) official → sweep reloaded. Pack toggle: in_pack true/false, only for fake/review.
+Sweep: idle → running (SSE) → done | error. Tab: idle → pending → done (clean | fakes) | failed. Page chip: pending → done | failed. Finding: as classified → (mark official) official, sweep re-checked with pack and reverse evidence kept. Pack: in_pack toggles for fake and review only.
 
 ## 8. Copy deck
-“Sweep now” · “Sweeping… n/N” · “Sweep again” · “Pick at least one city” · “No recorded result for this query yet (replay mode). Add a SerpApi key to fetch it live.” · “No sweeps for this brand yet.” · “Nothing in the pack yet. Open a red finding and keep it in the pack.” · “Same number also posing as Zomato, IndiGo” · “Replay this search on SerpApi” · “Synthetic fixture — demo data, not evidence”.
+"Sweep now", "Sweeping, 12 of 22", "Sweep again", "Pick at least one city", "What a victim searching for HDFC Bank is shown", "Searched from Mumbai, Maharashtra, on google.co.in", "demo fixture, not evidence", "Replay this search on SerpApi", "Nothing swept for HDFC Bank yet.", "Nothing on this page.", "No recorded result for this query yet (replay mode). Add a SerpApi key to fetch it live.", "Not the brand's number", "Not on the list, needs a look", "Keep in the takedown pack", "Mark as official", "Download takedown pack (3)", "Nothing in the pack. Open a circled number and keep it."
 
 ## 9. Brand
-Mark: a handset silhouette with an amber “watch” dot at the earpiece (public/icon.svg, 48-grid, 2 primitives). Wordmark: Schibsted Grotesk 700 “Helpline Watch”. Favicon SVG only (theme-aware).
+Mark: a printout with three ruled lines and a red pen circle (public/icon.svg, 48-grid, three primitives). Wordmark: Host Grotesk 700 "Helpline Watch". Theme colour: the desk.
 
 ## 10. Don'ts
-No red outside the fake verdict. No spinner for the sweep; the grid and log are the progress. No login. No confetti.
+No red outside the pen. No KPI tiles. No uppercase labels outside the stamp. No middle-dot meta strings. No spinner for the sweep: the tabs, page chips and log are the progress.
 
 ## 11. Acceptance
-`?state=empty|error` render; every chip tone visible on `/_kit`; keyboard path: Tab to Sweep now → Enter → Tab to a chip → Enter opens drawer → Esc closes; no console errors; no horizontal page scroll at 390.
+`?state=empty|error` render; every mark tone on `/_kit`; keyboard path Tab → Sweep → Enter → Tab to a circled number → Enter opens the slip → Esc closes; no console errors; no horizontal page scroll at 390; `node scripts/qa.mjs` prints four true/0 lines.

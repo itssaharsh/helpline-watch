@@ -141,3 +141,20 @@ def test_merge_analyst_state_keeps_pack_and_reverse_evidence():
     assert old.verdict == Verdict.FAKE
     [merged] = merge_analyst_state(classify(BRAND, obs), [old])
     assert merged.verdict == Verdict.FAKE and merged.in_pack and merged.reverse_checked
+
+
+def test_snapshot_keeps_page_order_and_locates_numbers():
+    from helpline_watch.extract.surfaces import snapshot
+
+    data = {
+        "ads": [{"title": "HDFC Care", "link": "https://hdfc-help.info", "description": "Call 98765 43210"}],
+        "local_results": {"places": [{"title": "HDFC Bank Customer Care Number", "phone": "+91 91234 56789", "reviews": 2}]},
+        "organic_results": [{"title": "A", "link": "https://a.in", "snippet": "no number"}, {"title": "B", "link": "https://b.in", "snippet": "1800 2600"}, {"title": "C", "link": "https://c.in"}],
+        "related_questions": [{"question": "Which number?", "snippet": "It is 1800 1600 1600."}],
+    }
+    snap = snapshot(result("google", data), "search:mumbai:0", "mumbai", "search")
+    assert [i.kind for i in snap.items] == ["ad", "local", "organic", "organic", "paa", "organic"]
+    assert snap.items[0].numbers == [{"raw": "98765 43210", "norm": "+919876543210"}]
+    assert snap.items[1].numbers[0]["norm"] == "+919123456789"
+    assert snap.items[4].numbers[0]["norm"] == "180016001600"
+    assert snap.archive_link is None  # synthetic

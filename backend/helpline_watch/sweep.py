@@ -24,6 +24,7 @@ from helpline_watch.models import (
     CityCoverage,
     Finding,
     Observation,
+    SerpSnapshot,
     Sweep,
     SweepEvent,
     Verdict,
@@ -79,6 +80,7 @@ class SweepRunner:
         # 2. fetch every planned call concurrently, streaming results as they land
         observations: list[Observation] = []
         advertisers: list[AdvertiserFinding] = []
+        snapshots: list[SerpSnapshot] = []
         coverage: dict[str, CityCoverage] = {c.id: CityCoverage(city_id=c.id, planned=0, completed=0, failed=0) for c in cities}
         for call in plan.calls:
             if call.city_id:
@@ -112,6 +114,9 @@ class SweepRunner:
                 new_obs, new_ads = parsed
                 sweep.fixture_kinds[res.fixture_kind] = sweep.fixture_kinds.get(res.fixture_kind, 0) + 1
                 observations.extend(new_obs)
+                snap = surfaces.snapshot(res, call.id, call.city_id, call.group) if call.engine in ("google", "google_maps") else None
+                if snap is not None:
+                    snapshots.append(snap)
                 if new_ads is not None:
                     advertisers = new_ads
                 if call.city_id:
@@ -120,7 +125,8 @@ class SweepRunner:
                 yield SweepEvent(type="call_done", payload={"id": call.id, "from_cache": res.from_cache, "fixture_kind": res.fixture_kind,
                                                            "observations": len(new_obs), "ms": int(elapsed * 1000),
                                                            "numbers": sorted({o.number_norm for o in new_obs}),
-                                                           "live_calls": budget.live_calls, "cache_hits": budget.cache_hits})
+                                                           "live_calls": budget.live_calls, "cache_hits": budget.cache_hits,
+                                                           "snapshot": snap.model_dump(mode="json") if snap else None})
                 yield SweepEvent(type="findings", payload={"findings": [f.model_dump(mode="json") for f in findings], "partial": True})
                 if new_ads is not None:
                     yield SweepEvent(type="advertisers", payload={"advertisers": [a.model_dump(mode="json") for a in advertisers]})
@@ -153,6 +159,7 @@ class SweepRunner:
         final = sorted(by_number.values(), key=_sort_key)
         sweep.findings = [f.model_copy(update={"in_pack": f.verdict == Verdict.FAKE}) for f in final]
         sweep.advertisers = advertisers
+        sweep.snapshots = snapshots
         sweep.coverage = list(coverage.values())
         sweep.calls_made = budget.live_calls + budget.cache_hits
         sweep.live_calls, sweep.cache_hits = budget.live_calls, budget.cache_hits

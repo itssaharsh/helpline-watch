@@ -25,6 +25,8 @@ from helpline_watch.models import (
     Observation,
     Provenance,
     ReverseHit,
+    SerpItem,
+    SerpSnapshot,
     Surface,
 )
 from helpline_watch.serp.client import SerpResult
@@ -236,3 +238,54 @@ def parse_reverse(result: SerpResult) -> list[ReverseHit]:
 
 def parse_autocomplete(result: SerpResult) -> list[str]:
     return [s.get("value") for s in _dicts(result.data.get("suggestions")) if s.get("value")]
+
+
+def _numbers_in(*parts: Any) -> list[dict]:
+    return [{"raw": p.raw, "norm": p.norm} for p in phones.extract(_joined(*parts))]
+
+
+def _item(kind: str, src: dict, **fields: Any) -> SerpItem:
+    text = fields.pop("text", None)
+    title = fields.pop("title", src.get("title"))
+    item = SerpItem(kind=kind, title=title, link=src.get("link") or src.get("website"), displayed_link=src.get("displayed_link"),
+                    text=text, phone=src.get("phone"), rating=_num(src.get("rating")), reviews=_int(src.get("reviews")),
+                    listing_type=src.get("type"), address=src.get("address"), place_id=src.get("place_id"),
+                    unclaimed=bool(src.get("unclaimed_listing")) if src.get("unclaimed_listing") is not None else None, **fields)
+    return item.model_copy(update={"numbers": _numbers_in(item.title, item.phone, item.text, item.address, item.question)})
+
+
+def snapshot(result: SerpResult, call_id: str, city_id: str | None, group: str) -> SerpSnapshot:
+    """A trimmed copy of the page, in the order Google showed it, for the evidence sheet."""
+    data, p = result.data, result.params
+    items: list[SerpItem] = []
+    engine = p.get("engine", "google")
+    if engine == "google":
+        for ad in _dicts(data.get("ads")):
+            items.append(_item("ad", ad, text=_joined(ad.get("description"), *[s.get("title") for s in _dicts(ad.get("sitelinks"))])))
+        for ab in _dicts(data.get("answer_box"))[:1]:
+            items.append(_item("answer", ab, text=_joined(ab.get("answer"), ab.get("snippet"), *_as_list(ab.get("list")))))
+        local = data.get("local_results")
+        places = local.get("places") if isinstance(local, dict) and "places" in local else local
+        for place in _dicts(places):
+            items.append(_item("local", place, text=place.get("description")))
+        kg = data.get("knowledge_graph")
+        if isinstance(kg, dict) and kg:
+            items.append(_item("knowledge", {**kg, "link": kg.get("website")}, text=_joined(kg.get("type"), kg.get("description"))))
+        organic = _dicts(data.get("organic_results"))
+        paa = _dicts(data.get("related_questions"))
+        for i, org in enumerate(organic):
+            items.append(_item("organic", org, text=org.get("snippet")))
+            if i == 1:
+                for q in paa:
+                    items.append(_item("paa", q, title=q.get("title"), question=q.get("question"), text=q.get("snippet")))
+        if len(organic) < 2:
+            for q in paa:
+                items.append(_item("paa", q, title=q.get("title"), question=q.get("question"), text=q.get("snippet")))
+    elif engine == "google_maps":
+        places = _dicts(data.get("local_results"))
+        if isinstance(data.get("place_results"), dict):
+            places = [data["place_results"], *places]
+        for place in places:
+            items.append(_item("maps", place, text=place.get("description")))
+    return SerpSnapshot(call_id=call_id, city_id=city_id, engine=engine, query=str(p.get("q") or p.get("text") or ""), hl=str(p.get("hl") or "en"),
+                        group=group, fixture_kind=result.fixture_kind, archive_link=result.archive_link, items=items)

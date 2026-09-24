@@ -1,65 +1,64 @@
 ---
 name: Helpline Watch
-description: A fraud desk at night. Dark navy canvas, one amber “act now”, red reserved for a confirmed fake, green for verified official numbers.
+description: The annotated printout. White Google-results sheets on a grey desk, blue-black ink, a red pen for fakes, a yellow highlighter for numbers to check, a green tick for official numbers.
 colors:
-  canvas: "#0E1220"
-  surface-1: "#151A2B"
-  surface-2: "#1D2336"
-  surface-3: "#252C42"
-  line: "#2B3249"
-  ink: "#F3E6CF"
-  ink-muted: "#A69E8F"
-  accent: "#F5AD1F"
-  accent-ink: "#1A1000"
-  success: "#4CC38A"
-  warning: "#FFD24A"
-  danger: "#FF7A7A"
+  desk: "#D8DBD3"
+  desk-deep: "#C6CAC1"
+  paper: "#FFFFFF"
+  paper-2: "#F5F6F3"
+  line: "#D9DBD5"
+  ink: "#1B2233"
+  ink-muted: "#4F5765"
+  red: "#C8102E"
+  highlighter: "#FFE45C"
+  green: "#1E7A4C"
+  link: "#1A0DAB"
+  url: "#0B6B3A"
 typography:
   fontFamily:
-    display: "Schibsted Grotesk"
-    body: "Funnel Sans"
-    mono: "Martian Mono"
-  fontSize: { xs: "11px", sm: "13px", base: "15px", lg: "18px", xl: "22px", "2xl": "28px" }
-  fontWeight: { regular: 400, medium: 500, bold: 700, black: 800 }
-  lineHeight: { tight: 1.1, body: 1.5 }
-  letterSpacing: { display: "-0.02em", label: "0.1em" }
-rounded: { sm: "4px", md: "8px", lg: "12px" }
-spacing: { 1: "4px", 2: "8px", 3: "12px", 4: "16px", 6: "24px", 8: "32px", 12: "48px" }
+    sans: "Host Grotesk"
+    pen: "Kalam"
+    devanagari: "Noto Sans Devanagari"
+  fontSize: { xs: "12px", sm: "13px", base: "15px", lg: "17px", xl: "22px", "2xl": "30px" }
+  fontWeight: { regular: 400, medium: 500, bold: 700 }
+  lineHeight: { tight: 1.2, body: 1.5 }
+  letterSpacing: { display: "-0.015em" }
+rounded: { sm: "2px", md: "6px", lg: "10px" }
+spacing: { 1: "4px", 2: "8px", 3: "12px", 4: "16px", 6: "24px", 8: "32px" }
 components:
-  button-primary: { background: "{colors.accent}", color: "{colors.accent-ink}", rounded: "{rounded.md}", height: "40px" }
-  button-primary-hover: { background: "oklch(from {colors.accent} calc(l - .06) c h)" }
-  button-secondary: { background: "{colors.surface-1}", border: "{colors.line}", color: "{colors.ink}" }
-  chip-fake: { color: "{colors.danger}", background: "color-mix(in oklch, {colors.danger} 16%, transparent)" }
-  chip-review: { color: "{colors.warning}", background: "color-mix(in oklch, {colors.warning} 14%, transparent)" }
-  chip-official: { color: "{colors.success}", background: "color-mix(in oklch, {colors.success} 14%, transparent)" }
-  card: { background: "{colors.surface-1}", border: "{colors.line}", rounded: "{rounded.lg}" }
+  button-ink: { background: "{colors.ink}", color: "{colors.paper}", rounded: "{rounded.md}", height: "40px" }
+  button-paper: { background: "{colors.paper}", border: "#A6AAA2", color: "{colors.ink}" }
+  mark-fake: { stroke: "{colors.red}", note: "Kalam 16px, rotated −7°" }
+  mark-review: { background: "rgba(255,228,92,.6)" }
+  mark-official: { color: "{colors.green}", underline: "2px solid" }
+  sheet: { background: "{colors.paper}", rounded: "{rounded.sm}", shadow: "0 10px 24px -12px rgba(27,34,51,.35)" }
 ---
 
 ## Overview
-Direction: **Sodium Night**, mutated three ways so it is not the library default: display face swapped to Schibsted Grotesk, radius family 4·8·12, accent hue rotated +8° toward yellow amber. Personality: **Precise** (ease-out-quint, 120–200 ms, no bounce). Dials: variance 3, motion 3, density 8 (dashboard/monitoring).
+Derived, not chosen from a library. A fraud analyst prints the search results a victim would see and marks them with a red pen. The app is that desk: grey blotter, white printouts, ink, three marking tools. Boldness is spent once, on the marks drawn directly onto the results page; everything else is quiet.
 
 ## Colors
-Canvas is night navy, never pure black. Elevation is a surface ladder (surface-1 → surface-3), not shadows. The accent is amber and appears only on: the one primary button, the active nav indicator, brand nodes in the network, and the selected-brand rail marker (accent budget ≈ 3% of pixels). Red means one thing: a number the classifier calls **fake**. Yellow `warning` means **needs review**. Green means **official**; a dashed green border means official but unlisted.
+The desk is a cool grey, never cream. Paper is pure white because the object is a printout of a white web page. Ink is blue-black, not tinted black. Red belongs to the pen and means one thing: a number the classifier calls fake. The highlighter (yellow at 60%) means "check this". Green ink means official; a dashed green rule means official but missing from the list. Inside the printout only, result titles use link blue and URLs use a muted green, to read as a search page without imitating one. The primary action is an ink slab, so red is never spent on a button.
 
-Contrast (WCAG 2 on canvas): ink 13.9:1, ink-muted 6.5:1, danger 7.1:1, warning 11.9:1, success 8.4:1, accent-ink on accent 10.6:1.
+Contrast on paper: ink 15.4:1, ink-muted 7.6:1, red 5.8:1, green 5.2:1, link 10.7:1. On the desk: ink 11.2:1, ink-muted 5.5:1.
 
 ## Typography
-Display: Schibsted Grotesk 700/800 at −0.02 em. Body: Funnel Sans 400/500 at 15 px, line-height 1.5. Every phone number, count and timestamp is Martian Mono with tabular numerals. Labels are 11 px uppercase at +0.1 em, at most one per section.
+One family for everything, Host Grotesk, with tabular figures on by default so phone numbers align. Kalam, an Indian handwriting face, is used only for pen notes ("fake", "check", "not the brand", "demo fixture, not evidence") at 14–16 px, rotated 5–8°. Noto Sans Devanagari is the fallback for Hindi results. Headings are sentences, never labels: "What a victim searching for HDFC Bank is shown", "Numbers found", "Since the last sweep". No uppercase eyebrows; the one uppercase text is inside the rubber stamp, which is uppercase because stamps are.
 
 ## Layout
-1440 grid: top bar 48, left rail 280, main column fluid with 16 px gutters. Main stacks: KPI strip → city × surface grid → findings table (60%) | scam network (40%) → run log. Right drawer 480 for a finding. Below 1024 the rail stacks above the main column; at 390 the grid scrolls horizontally inside its card and the drawer is full-width.
+Desk at 1440: top strip 56 with wordmark and mode. Main grid: the printout column (fluid, sheets 720 wide max) and the case file (400) on the right, sticky. Above the sheets: a sentence heading, the swept cities and official numbers in prose, and the one ink button. Folder tabs for cities sit on the desk and connect to the active sheet. Inside a sheet: a page row (each query, the Hindi search, Google Maps), the query bar, then results in the order Google showed them, with the knowledge panel to the right. Below 1280 the case file drops under the sheets; at 390 tabs scroll sideways and the drawer is full width.
 
 ## Elevation & Depth
-No drop shadows on the dark canvas. Layers use surface-1/2/3 plus a 1 px `line` border. The drawer sits on surface-1 with a 40% ink scrim.
+Paper floats on the desk with one soft shadow. Nothing else casts a shadow. Panels inside the case file are separated by 1 px rules, not boxes.
 
 ## Shapes
-Chips 4 px, buttons and inputs 8 px, cards and drawer 12 px.
+Paper corners 2 px, buttons and page chips 6 px, result boxes 8 px (a search page's own vernacular), the stamp is a circle.
 
 ## Components
-Primary button (amber slab, morphing label), secondary, ghost; verdict chips with a leading dot; KPI tiles; grid cells with pending skeleton / done / failed states; findings row; finding drawer; network graph; run log lines.
+Ink button, paper button, quiet button; folder tab with pending, count and failed states; pen marks (fake, check, official, official-unlisted); sheet with query bar, sponsored block, answer box, places box, knowledge panel, results, People also ask, Maps cards; case file ledger rows; rubber stamp; cross-brand network drawn in ink and red pen; evidence-slip drawer; search log.
 
 ## Do's and Don'ts
-- Do open on a populated sweep; never on an empty grid or a spinner.
-- Do animate only state changes: chips landing (pulse once), edges drawing on, label morphs.
-- Don't use red for anything except a fake verdict. Don't add gradients, glass, glows or ✨.
-- Don't animate hover on every card; only chips and rows respond.
+- Do open on a marked-up sheet; never on an empty desk or a spinner.
+- Do draw the circle when a fake lands (400 ms), and stamp the pack once when the sweep ends. Nothing else moves on its own.
+- Don't use red for anything but a fake. Don't add tiles of big numbers, gradients, glass, glows, eyebrows or emoji.
+- Don't let a pen note cover text: notes appear only where the number stands alone (phone lines, ledger, drawer); inside running text the circle is enough.

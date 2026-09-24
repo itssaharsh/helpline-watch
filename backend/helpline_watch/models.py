@@ -149,6 +149,39 @@ class AdvertiserFinding(BaseModel):
     provenance: Provenance
 
 
+class SerpItem(BaseModel):
+    """One result as the victim saw it, with the numbers inside it already located."""
+
+    kind: str  # ad | local | knowledge | answer | paa | organic | maps
+    title: str | None = None
+    link: str | None = None
+    displayed_link: str | None = None
+    text: str | None = None
+    phone: str | None = None
+    rating: float | None = None
+    reviews: int | None = None
+    listing_type: str | None = None
+    address: str | None = None
+    place_id: str | None = None
+    unclaimed: bool | None = None
+    question: str | None = None
+    numbers: list[dict] = Field(default_factory=list)  # [{"raw": ..., "norm": ...}]
+
+
+class SerpSnapshot(BaseModel):
+    """The page for one call: what a victim in that city was shown."""
+
+    call_id: str
+    city_id: str | None
+    engine: str
+    query: str
+    hl: str = "en"
+    group: str
+    fixture_kind: str | None = None
+    archive_link: str | None = None
+    items: list[SerpItem] = Field(default_factory=list)
+
+
 class CityCoverage(BaseModel):
     city_id: str
     planned: int
@@ -173,6 +206,7 @@ class Sweep(BaseModel):
     coverage: list[CityCoverage] = Field(default_factory=list)
     findings: list[Finding] = Field(default_factory=list)
     advertisers: list[AdvertiserFinding] = Field(default_factory=list)
+    snapshots: list[SerpSnapshot] = Field(default_factory=list)
     errors: list[str] = Field(default_factory=list)
 
     @property
