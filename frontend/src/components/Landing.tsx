@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'react'
 import { ArrowRight, GithubLogo } from '@phosphor-icons/react'
 import { api } from '../lib/api'
+import { onInternalClick } from '../lib/nav'
 import type { City, SerpSnapshot, Sweep } from '../lib/types'
 import { Globe } from './Globe'
 import { Page } from './Pages'
@@ -33,7 +34,7 @@ export function Landing() {
         <a href="/" style={{ display: 'flex', alignItems: 'center', gap: 10, color: '#F4F7FA', fontWeight: 700, fontSize: 16 }}><img src="/icon.svg" width={26} height={26} alt="" />Helpline Watch</a>
         <div style={{ flex: 1 }} />
         <div className="nav-links"><a href="#how">How it works</a><a href="#proof">Proof</a><a href="#serpapi">SerpApi</a></div>
-        <a className="btn btn-white" href="/app" style={{ height: 36 }}>Open the console</a>
+        <a className="btn btn-white" href="/app" style={{ height: 36 }} onClick={onInternalClick}>Open the console</a>
       </nav>
 
       <section className="hero-l">
@@ -42,8 +43,8 @@ export function Landing() {
           <h1 className="h1">Find the fake helpline numbers before your customers call them.</h1>
           <p className="lead" style={{ marginTop: 20 }}>Helpline Watch sweeps Google Search, Maps and ads from every Indian city you choose, marks every number that is not the brand’s, and hands you the takedown pack.</p>
           <div style={{ display: 'flex', gap: 12, marginTop: 28, flexWrap: 'wrap' }}>
-            <a className="btn btn-white btn-lg" href="/app?demo=1">Watch a sweep <ArrowRight size={16} weight="bold" /></a>
-            <a className="btn btn-ghost btn-lg" href="/app">Open the console</a>
+            <a className="btn btn-white btn-lg" href="/app?demo=1" onClick={onInternalClick}>Watch a sweep <ArrowRight size={16} weight="bold" /></a>
+            <a className="btn btn-ghost btn-lg" href="/app" onClick={onInternalClick}>Open the console</a>
           </div>
           <div className="stats">
             <div className="stat"><b>₹2,100 crore</b><span>lost to fake customer-care numbers by March 2026</span></div>

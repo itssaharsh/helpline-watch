@@ -1,11 +1,23 @@
-import { lazy, Suspense, useEffect, useMemo, useRef, useState } from 'react'
+import { Component, lazy, Suspense, useEffect, useMemo, useRef, useState, type ReactNode } from 'react'
 import { Text } from '@radix-ui/themes'
 import SpriteText from 'three-spritetext'
 import type { NetworkData } from '../lib/types'
+import { Network2D } from './Network2D'
 
 const ForceGraph3D = lazy(() => import('react-force-graph-3d'))
 
+function hasWebGL(): boolean {
+  try { const c = document.createElement('canvas'); return Boolean(c.getContext('webgl2') || c.getContext('webgl')) } catch { return false }
+}
+
+class Boundary extends Component<{ fallback: ReactNode; children: ReactNode }, { failed: boolean }> {
+  state = { failed: false }
+  static getDerivedStateFromError() { return { failed: true } }
+  render() { return this.state.failed ? this.props.fallback : this.props.children }
+}
+
 export function Network3D({ data, onNumber }: { data: NetworkData | null; onNumber: (n: string) => void }) {
+  const [webgl] = useState(hasWebGL)
   const wrap = useRef<HTMLDivElement>(null)
   const fg = useRef<any>(null)
   const [size, setSize] = useState({ w: 800, h: 520 })
@@ -33,11 +45,13 @@ export function Network3D({ data, onNumber }: { data: NetworkData | null; onNumb
     return () => clearTimeout(t)
   }, [graph])
   if (!data || data.nodes.length === 0) return <Text size="2" className="muted">Sweep two or more brands to see numbers that pose as several of them at once.</Text>
+  if (!webgl) return <div className="glass" style={{ padding: 16 }}><Network2D data={data} onNumber={onNumber} /></div>
   const shared = data.nodes.filter((n) => n.type === 'number' && (n.brands ?? 0) >= 2).length
   return (
     <div>
       <Text as="p" size="2" mb="3" className="muted">Every suspicious number from the latest sweep of each brand. White nodes are brands, red are fakes, amber are numbers to check. Drag to orbit, click a number to open it. <span className="num" style={{ color: '#F4F7FA' }}>{shared}</span> shared so far.</Text>
       <div ref={wrap} className="net-wrap" style={{ height: 520 }}>
+        <Boundary fallback={<div style={{ padding: 16 }}><Network2D data={data} onNumber={onNumber} /></div>}>
         <Suspense fallback={<Text size="2" className="muted" style={{ padding: 16, display: 'block' }}>Loading the 3D view.</Text>}>
           <ForceGraph3D ref={fg} width={size.w} height={size.h} graphData={graph} backgroundColor="rgba(0,0,0,0)" showNavInfo={false} enableNodeDrag={false} nodeRelSize={5} warmupTicks={60} cooldownTicks={120}
             nodeColor={(n: any) => (n.type === 'brand' ? '#DCE7F2' : n.verdict === 'fake' ? '#F58A8A' : '#F2C46B')} nodeOpacity={0.95}
@@ -57,6 +71,7 @@ export function Network3D({ data, onNumber }: { data: NetworkData | null; onNumb
             onNodeClick={(n: any) => { if (n.type === 'number') onNumber(String(n.id).slice(4)) }}
           />
         </Suspense>
+        </Boundary>
       </div>
     </div>
   )

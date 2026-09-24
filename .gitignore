@@ -21,3 +21,11 @@ qa/
 graphify-out/*.html
 # os
 .DS_Store
+# demo video build artefacts (keep storyboard, brief and script)
+demo/build/
+demo/rec/
+demo/probe/
+demo/recon/
+demo/voice/
+demo/setup.log
+demo/*.wav

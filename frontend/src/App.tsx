@@ -13,22 +13,26 @@ import { LogList } from './components/LogList'
 import { Network3D } from './components/Network3D'
 import { Pages } from './components/Pages'
 
-const params = new URLSearchParams(window.location.search)
-const DEMO = params.get('demo') === '1'
-const FORCED = params.get('state')
 type Tab = 'evidence' | 'pages' | 'network' | 'log'
 
 export default function App() {
-  const path = window.location.pathname
+  const [path, setPath] = useState(window.location.pathname)
+  useEffect(() => {
+    const sync = () => setPath(window.location.pathname)
+    window.addEventListener('popstate', sync)
+    window.addEventListener('hw:navigate', sync)
+    return () => { window.removeEventListener('popstate', sync); window.removeEventListener('hw:navigate', sync) }
+  }, [])
   return (
     <Theme appearance="dark" accentColor="gray" grayColor="slate" radius="large" scaling="100%" panelBackground="solid" hasBackground={false}>
       <div className="bg" aria-hidden />
-      {path === '/_kit' ? <Kit /> : path.startsWith('/app') ? <Workspace /> : <Landing />}
+      {path === '/_kit' ? <Kit /> : path.startsWith('/app') ? <Workspace key={window.location.search} /> : <Landing />}
     </Theme>
   )
 }
 
 function Workspace() {
+  const [{ DEMO, FORCED }] = useState(() => { const p = new URLSearchParams(window.location.search); return { DEMO: p.get('demo') === '1', FORCED: p.get('state') } })
   const [health, setHealth] = useState<Health | null>(null)
   const [brands, setBrands] = useState<Brand[]>([])
   const [cities, setCities] = useState<City[]>([])
@@ -53,8 +57,8 @@ function Workspace() {
     let cancelled = false
     api.sweeps(brandId).then((list) => { if (!cancelled && list[0] && FORCED !== 'empty' && !DEMO) load(list[0].id) }).catch(() => undefined)
     return () => { cancelled = true }
-  }, [brandId, load])
-  useEffect(() => { if (DEMO && brandId && cityIds.length && !autoStarted.current) { autoStarted.current = true; start(brandId, cityIds, 6) } }, [brandId, cityIds, start])
+  }, [brandId, load, DEMO, FORCED])
+  useEffect(() => { if (DEMO && brandId && cityIds.length && !autoStarted.current) { autoStarted.current = true; start(brandId, cityIds, 6) } }, [brandId, cityIds, start, DEMO])
   useEffect(() => { if (done) api.network().then(setNetwork).catch(() => undefined) }, [done, state.sweepId])
   useEffect(() => { if (!network) api.network().then(setNetwork).catch(() => undefined) }, [network])
   useEffect(() => { if (state.landed.length) { const t = setTimeout(clearLanded, 1400); return () => clearTimeout(t) } }, [state.landed, clearLanded])
