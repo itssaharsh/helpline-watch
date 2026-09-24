@@ -1,53 +1,64 @@
 ---
 name: Helpline Watch
-description: An analyst's workbench on Radix Themes. Neutral surfaces and near-black actions; red, amber and green appear only as verdicts, on the numbers themselves.
+description: Signal Lime, mutated. A deep navy console where every function owns a hue, lime is a surface, and the only glows sit behind two 3D objects that carry real data, the India globe and the cross-brand network.
 colors:
-  accent: "gray (Radix, high contrast) for actions, selection and focus"
-  gray: "slate"
-  fake: "ruby (Radix ruby-9 solid badge, ruby-11 text, ruby-a3 mark background)"
-  check: "amber (amber-a4 mark background, amber-12 text)"
-  official: "grass (grass-11 text, grass-9 underline)"
-  link-in-page: "blue-11, only inside a rendered result page"
+  canvas: "#0C1018"
+  surface-1: "#111725"
+  surface-2: "#131926"
+  line: "rgba(255,255,255,.08)"
+  ink: "#F1F2EE"
+  ink-muted: "#A2A69E"
+  lime: "#CCFF00"
+  lime-ink: "#121400"
+  fake: "#FF6166"
+  check: "#FFB020"
+  official: "#36C58C"
+  city: "#4CC9F0"
+  network: "#B48CFF"
 typography:
   fontFamily:
-    sans: "Host Grotesk"
+    display: "Unbounded"
+    body: "Hanken Grotesk"
+    mono: "Martian Mono"
     devanagari: "Noto Sans Devanagari"
-  scale: "Radix sizes 1 to 7 (12, 14, 16, 18, 20, 24, 28 px), ratio about 1.15"
-  fontWeight: { regular: 400, medium: 560, bold: 700 }
-  numerals: "tabular everywhere"
-rounded: "Radix radius medium: controls 6 px, cards 8 px, badges 4 px, pills full"
-spacing: "Radix space scale (4 px base); tight groups, generous separation"
+  scale: "display 84 / 34 / 30 / 20, body 15 / 14 / 13 / 12"
+  fontWeight: { regular: 400, semibold: 600, bold: 700 }
+  numerals: "Martian Mono, tabular, for every phone number and count"
+rounded: "controls 8 px, pills full, panels and sheets 12 px"
+spacing: "4 px base; panels padded 16, sheets 24 to 28"
 components:
-  primary-button: "Radix Button highContrast (near-black on light, white on dark), loading state while sweeping"
-  secondary-button: "Radix Button variant soft, color gray"
-  verdict-badge: "Radix Badge: ruby solid for Fake, amber soft for Check, grass soft for Official and Unlisted"
-  mark: ".mark-fake / .mark-review / .mark-official: inline number marks inside rendered pages"
-  page: ".page: result page typography (link blue titles, gray URLs, 14 px snippets, boxed Places and People also ask)"
+  sweep-button: "Radix Button color lime size 3, bold, loading state while sweeping"
+  cities-button: "Radix Button variant soft color cyan"
+  network-tab: "violet dot"
+  badges: ".badge-fake coral solid, .badge-review amber solid, .badge-official mint outline, .badge-official_unlisted mint dashed"
+  pills: ".pill cyan when selected, red count chip"
+  slab: ".slab lime surface with dot grid, Unbounded 84 numeral, black-on-lime pack button"
+  sheet: ".sheet white result page inside the dark console"
 ---
 
 ## Overview
-Operate mode. The tool should disappear into the task, so the vocabulary is a real component system (Radix Themes 3) with one family, a neutral accent and a strict semantic palette. Brand lives in details: tabular numerals on every number, verdict marks drawn onto the rendered page, the progress line under the app bar, themed scrollbars, selection and focus rings. Light and dark follow the system and can be toggled.
+The brief pins it: bold colour, one hue per function, and 3D that carries data. Direction is Signal Lime from the library with three mutations: navy canvas instead of graphite, lime used as a surface (the results slab and the Sweep button), and a cool cyan for everything geographic so the globe, the city picker and the page pills read as one family. Dials: variance 5, motion 5, density 6.
 
 ## Colors
-Neutral slate grays for every surface; the accent is gray with high contrast, so the one primary action per view is near-black and selection is a gray wash with a 3 px ink rule. Red belongs to a confirmed fake and nothing else: the badge, the number, the mark inside a page, the node in the graph. Amber means check. Green means official. Inside a rendered result page only, titles use link blue and URLs gray, so the page reads as a search page without imitating one.
+Canvas is deep navy, never black. Surfaces step up with alpha borders, not shadows. Lime means action: Sweep, the results slab, focus rings, selection. Coral means fake, amber means check, mint means official; those three appear on badges, on the numbers themselves and on the marks inside rendered pages. Cyan is geography: the globe markers, the cities button, the city and page pills. Violet is the cross-brand network. Gray is the log. A tab's dot carries its hue. Glows exist only behind the two 3D objects.
 
 ## Typography
-Host Grotesk for headings, body, controls and data, with Noto Sans Devanagari as the fallback for Hindi results. Radix's fixed rem scale at ratio 1.15. Headings are sentences or names, never labels. Numbers are the loudest text on screen: size 3 in the list, size 7 in the evidence header, always tabular.
+Unbounded for the wordmark, the brand title, the slab numeral and section titles. Hanken Grotesk for everything readable. Martian Mono for every phone number and count, so numbers scan as data. Noto Sans Devanagari falls in for Hindi results. Inside the white result sheet the page keeps its own vernacular: link blue titles, gray URLs, 14 px snippets.
 
 ## Layout
-App shell: 56 px bar (wordmark, brand select, city picker, mode and credits, appearance toggle, Sweep) over a 2 px progress line, then a workspace grid: 384 px findings pane on a second neutral (gray-2) and a fluid detail pane (max 1040 px content) with tabs for Evidence, Pages, Across brands and Log. Below 1024 the panes stack, the findings pane capped at 44 dvh. Everything scrolls inside its pane; the shell is the viewport.
+Shell: 60 px app bar, 3 px progress line, hero band (globe on the left with the brand title and city legend over a scrim, lime results slab 440 px on the right), then the workspace: 420 px findings pane and the tabbed detail pane (Evidence, Pages, Across brands, Log). Below 1024 the hero stacks, the findings pane caps at 52 dvh, and pills wrap.
 
 ## Elevation & Depth
-Radix panels with 1 px alpha borders. Cards only where a group needs a boundary (Why, a sighting, a page). No decorative shadows.
+Panels sit on 1 px alpha lines. The white result sheet floats with one deep tinted shadow. The globe and the network each get one radial glow in their hue. Nothing else glows.
 
 ## Shapes
-Radix radius medium throughout: 6 px controls, 8 px cards, 4 px badges, full pills for the mode badge.
+Controls 8 px, pills full, panels and sheets 12 px, the slab square-edged because it is a surface, not a card.
 
 ## Components
-App bar; findings row (number, badge, meta, reason); segmented filters; page selector (city segmented control, page badges with red counts, pending and failed badges); rendered page (query, blocks in Google's order, knowledge panel aside); marks; evidence view (header with switch and soft button, Why data list, sighting cards, reverse lookup, all sightings); network; log; callout for errors; skeletons for loading; empty-state card.
+App bar; hero with cobe globe (India-centred, cyan markers sized by fake count, pulsing while a city's pages return) and the results slab; findings rows with hue-coloured numbers and badges; filter pills; city and page pills; the white result sheet with inline marks; evidence panel with a hue-tinted header, weighted reasons, sighting sheets, reverse lookup; 3D force graph (violet brands, coral fakes, amber checks, sprite labels, auto-orbit); log panel; error callout; empty panel.
 
 ## Do's and Don'ts
-- Do keep every control from Radix, re-tokened; never invent a control for flavor.
-- Do animate only state: the progress line, the mark flash when a verdict lands, list selection.
-- Don't use red, amber or green for anything that is not a verdict.
-- Don't add eyebrow labels, KPI tiles, gradients, glass or pen metaphors.
+- Do keep each hue on its function everywhere: lime never means fake, coral never means action.
+- Do let the 3D objects carry data and react to the sweep; never add 3D as atmosphere.
+- Don't add gradients on text, glass, or motion that does not report state.
+- Don't use red, amber or green outside verdicts.

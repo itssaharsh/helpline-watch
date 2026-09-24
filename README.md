@@ -4,7 +4,7 @@
 
 Built for the [SerpApi India Hackathon 2026](https://serpapi.github.io/serpapi-india-hackathon-2026/) · track: Knowledge & Public Interest · [3-minute demo video](#demo-video) · [`make verify`](#verify-it-yourself) runs the whole proof with no API key.
 
-![The workbench: findings on the left, and the Google results page a victim in Mumbai is shown on the right with every number marked Fake, Check or Official](docs/screenshots/console.png)
+![The console: an India globe with the swept cities, the lime results slab, findings on the left, and the Google results page a victim in Mumbai is shown with every number marked Fake, Check or Official](docs/screenshots/console.png)
 
 ## The problem
 
@@ -30,9 +30,7 @@ Today the sweep is a person with a spreadsheet, googling from their own desk, mi
 
 ![Evidence for one number: seven weighted reasons, the exact results it appeared in, and the replay link](docs/screenshots/drawer.png)
 
-![Across brands: the same number touching HDFC Bank, Zomato and IndiGo, and who is advertising on the brand name](docs/screenshots/network.png)
-
-![Dark mode follows the system and can be toggled](docs/screenshots/dark.png)
+![Across brands in 3D: the same number touching HDFC Bank, Zomato and IndiGo, and who is advertising on the brand name](docs/screenshots/network.png)
 
 ## Quickstart (no API key needed)
 
@@ -43,7 +41,7 @@ make setup     # venv + backend install
 make demo      # seeds five brands from recorded fixtures, serves http://127.0.0.1:8787 and opens it
 ```
 
-Then press **Sweep again**, watch the findings and pages fill city by city, click a number marked Fake, and download the pack. Arrow keys move through findings, Esc clears. `make verify` prints the proof:
+Then press **Sweep again**, watch the globe's city markers pulse as pages return and the fake count climb, click a number marked Fake, orbit the 3D network under Across brands, and download the pack. Arrow keys move through findings, Esc clears. `make verify` prints the proof:
 
 ```
   PASS  shared planted number is FAKE  · score=12
@@ -120,7 +118,7 @@ backend/helpline_watch/
   takedown.py        the ZIP the analyst files
   api.py · cli.py    FastAPI + SSE, and the `helpline-watch` command
 backend/fixtures/    recorded or synthetic SerpApi responses
-frontend/            Vite + React on Radix Themes, built into the Python package: app bar, findings, pages, evidence, network, log
+frontend/            Vite + React on Radix Themes, cobe globe and a 3D force graph, built into the Python package
 docs/adr/            four decisions, docs/DESIGN.md, docs/UI-SPEC.md, docs/demo-script.md
 ```
 
