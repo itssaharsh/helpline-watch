@@ -21,7 +21,7 @@ export function Hero(p: Props) {
           </Text>
           {p.brand && <Text as="p" size="1" mt="1" style={{ color: '#A2A69E' }}>Official numbers on file: <span className="num">{p.brand.official_numbers.length ? p.brand.official_numbers.join(', ') : 'none'}</span></Text>}
         </div>
-        <div style={{ position: 'absolute', left: 28, bottom: 20, display: 'flex', gap: 14, flexWrap: 'wrap' }}>
+        <div className="hidden lg:flex" style={{ position: 'absolute', left: 28, bottom: 20, gap: 14, flexWrap: 'wrap' }}>
           {p.cities.map((c) => { const m = p.markers.find((x) => x.city.id === c.id); return <span key={c.id} style={{ display: 'inline-flex', alignItems: 'center', gap: 6, fontSize: 13, color: '#F1F2EE' }}><span className={m?.active ? 'breathe' : ''} style={{ width: 8, height: 8, borderRadius: 999, background: '#4CC9F0', boxShadow: '0 0 10px #4CC9F0' }} />{c.name}</span> })}
         </div>
       </div>

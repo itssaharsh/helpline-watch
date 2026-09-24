@@ -24,7 +24,7 @@ export function Globe({ markers, sweeping }: { markers: GlobeMarker[]; sweeping:
     const reduce = window.matchMedia?.('(prefers-reduced-motion: reduce)').matches
     const [phi0, theta] = focus(21, 80)
     let width = canvas.offsetWidth, height = canvas.offsetHeight
-    const offsetFor = (w: number, h: number): [number, number] => (w < 1024 ? [0, h * 2 * 0.3] : [w * 2 * 0.22, h * 2 * 0.06])
+    const offsetFor = (w: number, h: number): [number, number] => (w < 1024 ? [0, h * 2 * 0.48] : [w * 2 * 0.22, h * 2 * 0.06])
     const globe = createGlobe(canvas, {
       devicePixelRatio: Math.min(window.devicePixelRatio || 1, 2), width: width * 2, height: height * 2, phi: phi0, theta, dark: 1, diffuse: 1.4,
       mapSamples: 30000, mapBrightness: 7, baseColor: [0.16, 0.2, 0.3], markerColor: [0.3, 0.79, 0.94], glowColor: [0.08, 0.14, 0.24],
