@@ -65,7 +65,6 @@ function Desk() {
   }, [done, brandId])
   useEffect(() => { if (!network) api.network().then(setNetwork).catch(() => undefined) }, [network])
   useEffect(() => { if (state.landed.length) { const t = setTimeout(clearLanded, 1200); return () => clearTimeout(t) } }, [state.landed, clearLanded])
-  useEffect(() => { if (state.error) setError(state.error) }, [state.error])
 
   const brand = useMemo(() => brands.find((b) => b.id === brandId) ?? null, [brands, brandId])
   const sweptCityIds = running || done ? state.cityIds : cityIds
@@ -87,6 +86,7 @@ function Desk() {
   const onNetworkNumber = useCallback((n: string) => { if (state.findings.some((f) => f.number_norm === n)) setSelected(n) }, [state.findings])
 
   const empty = state.status === 'idle'
+  const shownError = error ?? state.error
   const sweepLabel = running ? `Sweeping, ${progress.done} of ${progress.total}` : done ? 'Sweep again' : 'Sweep now'
   return (
     <div className="min-h-full flex flex-col overflow-x-hidden">
@@ -127,9 +127,9 @@ function Desk() {
             </div>
           )}
 
-          {error && (
+          {shownError && (
             <div role="alert" className="sheet px-5 py-3 text-[14px] flex items-center gap-3 border-l-4 border-red">
-              <span>{error}</span>
+              <span>{shownError}</span>
               <button type="button" className="btn btn-quiet ml-auto" onClick={onSweep} disabled={!brandId}>Sweep again</button>
             </div>
           )}
