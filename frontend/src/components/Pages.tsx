@@ -59,7 +59,7 @@ export function Page({ snapshot, city, verdictOf, landed, onNumber }: { snapshot
           {snapshot.archive_link && <Link size="2" href={snapshot.archive_link} target="_blank" rel="noreferrer" style={{ color: '#1A0DAB' }}>Replay this search on SerpApi <ArrowSquareOut size={12} style={{ display: 'inline', verticalAlign: -1 }} /></Link>}
         </div>
       </div>
-      <div style={kg ? { display: 'grid', gap: 24, gridTemplateColumns: 'minmax(0,1fr) 240px' } : undefined}>
+      <div className={kg ? 'page-grid' : undefined}>
         <div style={{ display: 'flex', flexDirection: 'column', gap: 20, minWidth: 0, maxWidth: 640 }}>
           {isMaps && items.map((it, i) => <MapsCard key={i} item={it} mark={mark} />)}
           {isMaps && items.length === 0 && <span className="r-text">No listings.</span>}
