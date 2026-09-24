@@ -2,7 +2,7 @@
  "project": {
   "name": "Helpline Watch",
   "url": "http://127.0.0.1:8787/",
-  "target_seconds": 150,
+  "target_seconds": 165,
   "max_seconds": 180
  },
  "style": {
@@ -43,7 +43,8 @@
   "Patna": "Put-nah",
   "Maps": "Maps",
   "zomato.com": "Zoh-mah-toe dot com",
-  "Chakala": "Chuh-kah-la"
+  "Chakala": "Chuh-kah-la",
+  "seeded": "seed-ed"
  },
  "setup": [],
  "scenes": [
@@ -63,7 +64,7 @@
   {
    "id": "problem",
    "type": "card",
-   "say": "By March 2026, India had logged one point seven three lakh complaints, and twenty-one hundred crore rupees lost, to fake customer-care numbers found on Google. [[0.3]] The fraud team googles from one desk. The victim in Patna sees a different page.",
+   "say": "India has logged one point seven three lakh complaints, and twenty-one hundred crore rupees lost, to fake customer-care numbers found on Google. [[0.3]] The fraud team googles from one desk. The victim in Patna sees a different page.",
    "card": {
     "layout": "stat",
     "value": "₹2,100 crore",
@@ -117,6 +118,12 @@
     },
     {
      "do": "camera",
+     "focus": ".hero",
+     "zoom": 1.3,
+     "at": "Maps"
+    },
+    {
+     "do": "camera",
      "focus": ".hero > div:nth-child(2)",
      "zoom": 1.5,
      "at": "Eight"
@@ -142,7 +149,9 @@
      "do": "pause",
      "ms": 1500
     }
-   ]
+   ],
+   "lead": 0.3,
+   "wait_max": 0.8
   },
   {
    "id": "evidence",
@@ -219,7 +228,8 @@
      "do": "pause",
      "ms": 900
     }
-   ]
+   ],
+   "tail": 0.4
   },
   {
    "id": "unhappy",
@@ -273,13 +283,14 @@
      "to": "text=Sarojini",
      "offset": 0.3,
      "ms": 1000,
-     "at": "flagged"
+     "at": "unclaimed"
     },
     {
      "do": "pause",
      "ms": 1000
     }
-   ]
+   ],
+   "lead": 0.3
   },
   {
    "id": "pack",
@@ -306,12 +317,13 @@
      "do": "pause",
      "ms": 1200
     }
-   ]
+   ],
+   "lead": 0.2
   },
   {
    "id": "tech",
    "type": "card",
-   "say": "Under the hood, SerpApi's Autocomplete plans the queries victims type. Search, Maps and the Ads Transparency Center return each city's page. Deterministic signals score every number. And the pack is built only from what the analyst keeps.",
+   "say": "SerpApi's Autocomplete plans the queries victims type. Search, Maps and the Ads Transparency Center return each city's page. Deterministic signals score every number, and the pack holds only what the analyst keeps.",
    "card": {
     "layout": "flow",
     "title": "Built on SerpApi, decided by rules",

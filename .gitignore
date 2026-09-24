@@ -29,3 +29,11 @@ demo/recon/
 demo/voice/
 demo/setup.log
 demo/*.wav
+
+# demo kit working files
+demo/*.log
+demo/rec/
+demo/probe/
+demo/recon/
+demo/voice/
+demo/build/

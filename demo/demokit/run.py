@@ -188,10 +188,11 @@ class Rec:
         n = max(2, int(ms / s.step))
         for i in range(1, n + 1):
             y = y0 + (y1 - y0) * ease_io(i / n)
+            # window.scrollTo({top, behavior}) never resolves under paused virtual time; a plain scrollTop assignment does
             if container:
-                await s.page.evaluate("(a)=>{document.querySelector(a[0]).scrollTop=a[1]}", [container, y])
+                await s.pump(s.page.evaluate("(a)=>{document.querySelector(a[0]).scrollTop=a[1]}", [container, y]), wall=False)
             else:
-                await s.page.evaluate("(y)=>window.scrollTo({top:y,behavior:'instant'})", y)
+                await s.pump(s.page.evaluate("(y)=>{document.documentElement.scrollTop=y}", y), wall=False)
             await s.tick()
 
     async def move(s, x, y, ms=None):
@@ -240,6 +241,7 @@ class Rec:
     async def act(s, a, ev):
         do = a["do"]
         sel = a.get("sel")
+        print("  > %s %s  (vt=%.1fs files=%d)" % (do, sel or a.get("to") or a.get("for") or a.get("focus") or "", s.vt / 1000, s.nfile), file=sys.stderr, flush=True)
         if do == "goto":
             await s.pump(s.page.goto(a["url"], wait_until=a.get("until", "load"), timeout=60000))
             ev["compress"] = True
