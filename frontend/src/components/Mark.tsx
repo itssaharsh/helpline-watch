@@ -1,17 +1,14 @@
 import type { ReactNode } from 'react'
+import { Check } from '@phosphor-icons/react'
 import type { Verdict } from '../lib/types'
+import { VERDICT_TAG } from '../lib/labels'
 
-/** A phone number as the analyst would mark it on a printout. */
-export function Mark({ children, verdict, landed, onClick, title, note = true }: { children: ReactNode; verdict: Verdict; landed?: boolean; onClick?: () => void; title?: string; note?: boolean }) {
-  const label = verdict === 'fake' ? 'fake' : verdict === 'review' ? 'check' : 'official'
+export function Mark({ children, verdict, landed, onClick, tag = true }: { children: ReactNode; verdict: Verdict; landed?: boolean; onClick?: () => void; tag?: boolean }) {
   return (
-    <button type="button" className={`mark mark-${verdict} ${landed ? 'landed' : ''}`} onClick={onClick} title={title} aria-label={`${typeof children === 'string' ? children : 'number'}, ${label}`}>
-      {verdict === 'fake' && (
-        <svg className="circle" viewBox="0 0 100 40" preserveAspectRatio="none" aria-hidden><ellipse cx="50" cy="20" rx="48" ry="17" pathLength={1} transform="rotate(-2 50 20)" /></svg>
-      )}
-      {children}
-      {verdict === 'fake' && note && <span className="note" aria-hidden>fake</span>}
-      {verdict === 'official' && <svg className="tick" viewBox="0 0 12 12" aria-hidden><path d="M2 6.5l2.6 2.6L10 3.5" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" /></svg>}
+    <button type="button" className={`mark mark-${verdict} ${landed ? 'landed' : ''}`} onClick={onClick} aria-label={`${typeof children === 'string' ? children : 'number'}, ${VERDICT_TAG[verdict]}`}>
+      <span className="num">{children}</span>
+      {verdict === 'fake' && tag && <span className="tag">FAKE</span>}
+      {verdict === 'official' && <Check size={13} weight="bold" style={{ display: 'inline', marginLeft: 3, verticalAlign: -2 }} />}
     </button>
   )
 }

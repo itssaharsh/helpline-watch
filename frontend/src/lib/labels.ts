@@ -12,7 +12,7 @@ export const SIGNAL_LABEL: Record<string, string> = {
   SCAM_WORDS_IN_CONTEXT: 'fraud words around it', REVERSE_LOOKUP: 'complaints found on reverse lookup', OFFICIAL_MATCH: 'matches the official list', ON_OFFICIAL_DOMAIN: 'on the brand’s own site',
 }
 
-export const VERDICT_WORD: Record<Verdict, string> = { fake: 'fake', review: 'check', official: 'official', official_unlisted: 'official, unlisted' }
+export const VERDICT_TAG: Record<Verdict, string> = { fake: 'Fake', review: 'Check', official: 'Official', official_unlisted: 'Unlisted' }
 
 export function reasonFor(signals: { code: string; weight: number; detail: string }[]): string {
   const strong = [...signals].filter((s) => s.weight > 0).sort((a, b) => b.weight - a.weight)[0]

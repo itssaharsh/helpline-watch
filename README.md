@@ -4,7 +4,7 @@
 
 Built for the [SerpApi India Hackathon 2026](https://serpapi.github.io/serpapi-india-hackathon-2026/) · track: Knowledge & Public Interest · [3-minute demo video](#demo-video) · [`make verify`](#verify-it-yourself) runs the whole proof with no API key.
 
-![The desk: the Google results page a victim in Mumbai is shown, with fake numbers circled in red, official ones ticked in green, and the case file on the right](docs/screenshots/console.png)
+![The workbench: findings on the left, and the Google results page a victim in Mumbai is shown on the right with every number marked Fake, Check or Official](docs/screenshots/console.png)
 
 ## The problem
 
@@ -20,7 +20,7 @@ Today the sweep is a person with a spreadsheet, googling from their own desk, mi
 ## What it does
 
 1. **Plans** the queries victims actually type, using Google Autocomplete, in English and Hindi.
-2. **Sweeps** every surface per city through SerpApi with the `location` parameter: organic results, knowledge panel, answer box, People-also-ask, local pack, Maps listings, search ads, and the Ads Transparency Center for advertisers bidding on the brand name. Each page comes back as a snapshot and is rendered as the printout a victim in that city was shown, with the verdicts marked in place.
+2. **Sweeps** every surface per city through SerpApi with the `location` parameter: organic results, knowledge panel, answer box, People-also-ask, local pack, Maps listings, search ads, and the Ads Transparency Center for advertisers bidding on the brand name. Each page comes back as a snapshot and is rendered as the page a victim in that city was shown, with the verdicts marked on the numbers themselves.
 3. **Extracts and normalises** every Indian phone number (mobile, landline, 1800/1860/1600 series, Devanagari digits) and compares each against the brand's official list.
 4. **Scores** each number with named, weighted signals and gives a verdict: `official`, `official (unlisted)`, `needs review`, or `fake`. No language model anywhere in the verdict path.
 5. **Corroborates** across brands: the same number posing as HDFC Bank, Zomato and IndiGo is one operation, drawn as a network.
@@ -28,9 +28,11 @@ Today the sweep is a person with a spreadsheet, googling from their own desk, mi
 7. **Diffs** against the brand's previous sweep: new, persisting, gone.
 8. **Builds the takedown pack** the analyst files: CSV, evidence JSON, a report with a replayable SerpApi archive link per sighting, the Maps place link, the right Google report form per surface, and a cybercrime.gov.in complaint template. Nothing is filed automatically; a person keeps or removes every finding.
 
-![The evidence slip for one number: seven named reasons, every place it appeared, and the replay link](docs/screenshots/drawer.png)
+![Evidence for one number: seven weighted reasons, the exact results it appeared in, and the replay link](docs/screenshots/drawer.png)
 
-![Kolkata's sheet: the same planted number circled on a different city's results](docs/screenshots/kolkata.png)
+![Across brands: the same number touching HDFC Bank, Zomato and IndiGo, and who is advertising on the brand name](docs/screenshots/network.png)
+
+![Dark mode follows the system and can be toggled](docs/screenshots/dark.png)
 
 ## Quickstart (no API key needed)
 
@@ -41,7 +43,7 @@ make setup     # venv + backend install
 make demo      # seeds five brands from recorded fixtures, serves http://127.0.0.1:8787 and opens it
 ```
 
-Then click **Sweep again**, watch the sheets fill city by city, click a circled number, and download the pack. `make verify` prints the proof:
+Then press **Sweep again**, watch the findings and pages fill city by city, click a number marked Fake, and download the pack. Arrow keys move through findings, Esc clears. `make verify` prints the proof:
 
 ```
   PASS  shared planted number is FAKE  · score=12
@@ -118,7 +120,7 @@ backend/helpline_watch/
   takedown.py        the ZIP the analyst files
   api.py · cli.py    FastAPI + SSE, and the `helpline-watch` command
 backend/fixtures/    recorded or synthetic SerpApi responses
-frontend/            Vite + React + Tailwind, built into the Python package: the desk, sheets, marks, case file, evidence slip
+frontend/            Vite + React on Radix Themes, built into the Python package: app bar, findings, pages, evidence, network, log
 docs/adr/            four decisions, docs/DESIGN.md, docs/UI-SPEC.md, docs/demo-script.md
 ```
 
@@ -132,7 +134,7 @@ docs/adr/            four decisions, docs/DESIGN.md, docs/UI-SPEC.md, docs/demo-
 | Google Autocomplete API | the query variants victims actually type | guesswork |
 | `ads`, `local_results`, `knowledge_graph`, `answer_box`, `related_questions` blocks | every surface a number can hide in, parsed from one response | separate scrapers per block |
 | `search_metadata.id` and the Search Archive | a replayable evidence link for every sighting, valid 31 days | screenshots |
-| the full response blocks per call | the printout itself: every page is redrawn from SerpApi's JSON, in Google's order, so the analyst sees what the victim saw | nothing comparable |
+| the full response blocks per call | the Pages tab: every page is redrawn from SerpApi's JSON, in Google's order, so the analyst sees what the victim saw | nothing comparable |
 | Reverse lookup: the number as the query | complaint pages and other brands the number poses as | nothing comparable |
 
 ## What is real and what is simulated
