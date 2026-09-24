@@ -1,8 +1,7 @@
 {
  "_fixture": {
-  "kind": "synthetic",
-  "note": "Ads Transparency · advertisers bidding on “HDFC Bank”",
-  "generated_at": "2026-09-23T20:53:40+00:00",
+  "kind": "recorded",
+  "recorded_at": "2026-09-24T17:00:36+00:00",
   "params": {
    "engine": "google_ads_transparency_center",
    "text": "HDFC Bank",
@@ -11,65 +10,25 @@
  },
  "response": {
   "search_metadata": {
-   "id": "synthetic-5a49569e4ee8c664",
+   "id": "6ab553eca7d784a7823acb24",
    "status": "Success",
-   "created_at": "2026-09-23 20:53:40 UTC",
-   "processed_at": "2026-09-23 20:53:40 UTC",
-   "json_endpoint": null,
-   "raw_html_file": null,
-   "total_time_taken": 1.34
+   "json_endpoint": "https://serpapi.com/searches/o4T8P1CmbPSafY656RnomgkriFcHS46byW65Gjez7GI/6ab553eca7d784a7823acb24.json",
+   "markdown_endpoint": "https://serpapi.com/searches/o4T8P1CmbPSafY656RnomgkriFcHS46byW65Gjez7GI/6ab553eca7d784a7823acb24.md",
+   "created_at": "2026-09-24 16:46:36 UTC",
+   "processed_at": "2026-09-24 16:46:36 UTC",
+   "google_ads_transparency_center_url": "https://adstransparency.google.com?region=IN&domain=HDFC+Bank",
+   "raw_html_file": "https://serpapi.com/searches/o4T8P1CmbPSafY656RnomgkriFcHS46byW65Gjez7GI/6ab553eca7d784a7823acb24.html",
+   "prettify_html_file": "https://serpapi.com/searches/o4T8P1CmbPSafY656RnomgkriFcHS46byW65Gjez7GI/6ab553eca7d784a7823acb24.prettify",
+   "total_time_taken": 0.42
   },
   "search_parameters": {
    "engine": "google_ads_transparency_center",
    "text": "HDFC Bank",
    "region": "2356"
   },
-  "ad_creatives": [
-   {
-    "advertiser_id": "AR-hdfc-bank-official",
-    "advertiser": "HDFC Bank Limited",
-    "ad_creative_id": "CR-hdfc-bank-0",
-    "format": "text",
-    "first_shown": 1772916820,
-    "last_shown": 1790193220,
-    "details_link": "https://adstransparency.google.com/"
-   },
-   {
-    "advertiser_id": "AR-hdfc-bank-official",
-    "advertiser": "HDFC Bank Limited",
-    "ad_creative_id": "CR-hdfc-bank-1",
-    "format": "text",
-    "first_shown": 1772916820,
-    "last_shown": 1790193220,
-    "details_link": "https://adstransparency.google.com/"
-   },
-   {
-    "advertiser_id": "AR-hdfc-bank-official",
-    "advertiser": "HDFC Bank Limited",
-    "ad_creative_id": "CR-hdfc-bank-2",
-    "format": "text",
-    "first_shown": 1772916820,
-    "last_shown": 1790193220,
-    "details_link": "https://adstransparency.google.com/"
-   },
-   {
-    "advertiser_id": "AR-hdfc-bank-third",
-    "advertiser": "Quick Assist Consultancy Services",
-    "ad_creative_id": "CR-third-hdfc-bank-0",
-    "format": "text",
-    "first_shown": 1789419220,
-    "last_shown": 1790189620,
-    "details_link": "https://adstransparency.google.com/"
-   },
-   {
-    "advertiser_id": "AR-hdfc-bank-third",
-    "advertiser": "Quick Assist Consultancy Services",
-    "ad_creative_id": "CR-third-hdfc-bank-1",
-    "format": "text",
-    "first_shown": 1789505620,
-    "last_shown": 1790189620,
-    "details_link": "https://adstransparency.google.com/"
-   }
-  ]
+  "search_information": {
+   "results_state": "Fully empty"
+  },
+  "no_results": "Google Ads Transparency Center hasn't returned any results for this search."
  }
 }

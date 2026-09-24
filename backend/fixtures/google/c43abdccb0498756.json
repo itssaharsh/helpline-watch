@@ -1,0 +1,391 @@
+{
+ "_fixture": {
+  "kind": "recorded",
+  "recorded_at": "2026-09-24T16:57:05+00:00",
+  "params": {
+   "engine": "google",
+   "q": "Zomato कस्टमर केयर नंबर",
+   "location": "Mumbai,Maharashtra,India",
+   "google_domain": "google.co.in",
+   "gl": "in",
+   "hl": "hi",
+   "num": "10"
+  }
+ },
+ "response": {
+  "search_metadata": {
+   "id": "6ab5564e302394e9bf090bf7",
+   "status": "Success",
+   "json_endpoint": "https://serpapi.com/searches/k_BYSOLupf-grhNHfZo9wlFA1RWIISoGiyF-m7jVwpA/6ab5564e302394e9bf090bf7.json",
+   "markdown_endpoint": "https://serpapi.com/searches/k_BYSOLupf-grhNHfZo9wlFA1RWIISoGiyF-m7jVwpA/6ab5564e302394e9bf090bf7.md",
+   "pixel_position_endpoint": "https://serpapi.com/searches/k_BYSOLupf-grhNHfZo9wlFA1RWIISoGiyF-m7jVwpA/6ab5564e302394e9bf090bf7.json_with_pixel_position",
+   "created_at": "2026-09-24 16:56:46 UTC",
+   "processed_at": "2026-09-24 16:56:46 UTC",
+   "google_url": "https://www.google.co.in/search?q=Zomato+%E0%A4%95%E0%A4%B8%E0%A5%8D%E0%A4%9F%E0%A4%AE%E0%A4%B0+%E0%A4%95%E0%A5%87%E0%A4%AF%E0%A4%B0+%E0%A4%A8%E0%A4%82%E0%A4%AC%E0%A4%B0&oq=Zomato+%E0%A4%95%E0%A4%B8%E0%A5%8D%E0%A4%9F%E0%A4%AE%E0%A4%B0+%E0%A4%95%E0%A5%87%E0%A4%AF%E0%A4%B0+%E0%A4%A8%E0%A4%82%E0%A4%AC%E0%A4%B0&uule=w+CAIQICIYTXVtYmFpLE1haGFyYXNodHJhLEluZGlh&hl=hi&gl=in&sourceid=chrome&ie=UTF-8",
+   "raw_html_file": "https://serpapi.com/searches/k_BYSOLupf-grhNHfZo9wlFA1RWIISoGiyF-m7jVwpA/6ab5564e302394e9bf090bf7.html",
+   "total_time_taken": 18.5
+  },
+  "search_parameters": {
+   "engine": "google",
+   "q": "Zomato कस्टमर केयर नंबर",
+   "location_requested": "Mumbai,Maharashtra,India",
+   "location_used": "Mumbai,Maharashtra,India",
+   "google_domain": "google.co.in",
+   "hl": "hi",
+   "gl": "in",
+   "device": "desktop"
+  },
+  "search_information": {
+   "query_displayed": "Zomato कस्टमर केयर नंबर",
+   "total_results": 55,
+   "time_taken_displayed": 1.52,
+   "organic_results_state": "Results for exact spelling"
+  },
+  "organic_results": [
+   {
+    "position": 1,
+    "title": "Zomato कार्यालय संपर्क (फोन) संख्या और पता डिटेल्स",
+    "link": "https://www.zomato.com/hi/contact",
+    "redirect_link": "https://www.google.co.in/url?sa=t&source=web&rct=j&opi=89978449&url=CAESWQHrOzAVNjcEu_YjDcXl-ZQftKrOn871DHZioK57bGbY9CKRPC9OdsilYo4GC9jI-KfWTjIAL7S0tzkcxENBRhv5A3t6jnOq6_uYS2d8TkkKQ5C5HHLuD99J&ved=2ahUKEwiW0ajp14eXAxWwx-YEHaesAvEQFnoECCEQAQ&uoh=1",
+    "displayed_link": "https://www.zomato.com › contact",
+    "snippet": "By using Zomato's website, you agree to our Cookie … बाइल नंबर (वैकल्पिक) टेक्स्ट टाइप करें प्रतिक्रिया सबमिट. Press Kit हमसे संपर्क करें Zomaverse Zomato Blinkit District फीडिंग",
+    "snippet_highlighted_words": [
+     "Zomato's",
+     "नंबर",
+     "Zomato"
+    ],
+    "about_this_result": {
+     "source": {
+      "description": "By using Zomato's website, you agree to our Cookie … बाइल नंबर (वैकल्पिक) टेक्स्ट टाइप करें प्रतिक्रिया सबमिट. Press Kit हमसे संपर्क करें Zomaverse Zomato Blinkit District फीडिंग",
+      "source_info_link": "https://www.zomato.com/hi/contact",
+      "icon": "https://serpapi.com/images/i/UklGRuwAAABXRUJQVlA4IOAAAABwBQCdASocABwAPtEutFooIagoGAEAGglsAJ0zWj_50BztOYUKajSUqY0nxN_2kmmnO3MgAP6l_pFa1HehfrmOhi8DDnkzYvfS2FA_2MNfDwf-Cq3uUgIr_vILjPrTCBf_jePStpEEESUD77kFWFF9hNgvOYS3TSekcDmUmzIOBGzqNsnrLX_9Kj31aZ7P-CCJ_f9c2MTTC99iz_-ZhAJ7GJ4jboK7Q-E_gBDJO95ASmnr3_tPsjeIePS_PzY21euI7uqBZlYTzB97Cr_NqBBIjBw2DMjP1w7wW3LQ_nQAAA.webp"
+     },
+     "languages": [
+      "hi"
+     ],
+     "regions": [
+      "IN"
+     ]
+    },
+    "about_page_link": "https://www.google.co.in/search/about-this-result?origin=www.google.com&req=CoYBL2dvdG8_dXJsPUNBRVNXUUhyT3pBVk5qY0V1X1lqRGNYbC1aUWZ0S3JPbjg3MURIWmlvSzU3YkdiWTlDS1JQQzlPZHNpbFlvNEdDOWpJLUtmV1RqSUFMN1MwdHprY3hFTkJSaHY1QTN0NmpuT3E2X3VZUzJkOFRra0tRNUM1SEhMdUQ5OUoSBBoCCAAaugkSABoAIgAqADIGCAESAmluOgBCBAgBECNKAFoOCAESCnpvbWF0by5jb21yAHoAgkCICQgjEAAYACAAKjUKBnpvbWF0bxVsceNAGhLgpJzgpYvgpK7gpL7gpJ_gpYsaEuCknOCli-CkruCliOCkn-CliypAChLgpJXgpLjgpY3gpJ_gpK7gpLAVAAAAABoIY3VzdG9tZXIaG-CkueClh-CksuCljeCkquCksuCkvuCkh-CkqCrqAQoM4KSV4KWH4KSv4KSwFQAAAAAaBGNhcmUaCmhlYWx0aGNhcmUaCXRvbGwgZnJlZRoY4KSV4KSC4KSq4KWN4KSy4KWH4KSC4KSfGhvgpJXgpYngpKjgpY3gpJ_gpYjgpJXgpY3gpJ8aGeCkleClieCksiDgpLjgpYfgpILgpJ_gpLAaD-CkluCljeCkr-CkvuCkshoW4KSf4KWL4KSyIOCkq-CljeCksOClgBoP4KSo4KSu4KWN4KSs4KSwGg_gpLngpYfgpLLgpY3gpKoaG-CkueClh-CksuCljeCkquCksuCkvuCkh-CkqCq3AQoM4KSo4KSC4KSs4KSwFc-7gTwaBm51bWJlchoJ4KSF4KSC4KSVGhLgpIfgpILgpKHgpL_gpK_gpL4aDOCkkeCkq-Ckv-CkuBoJ4KSV4KWJ4KSyGgngpKvgpYvgpKgaEuCkruCli-CkrOCkvuCkh-CkshoS4KS44KSC4KSW4KWN4KSv4KS-GhLgpLjgpLDgpY3gpLXgpL_gpLgaG-CkueClh-CksuCljeCkquCksuCkvuCkh-CkqDKGAS9nb3RvP3VybD1DQUVTV1FIck96QVZOamNFdV9ZakRjWGwtWlFmdEtyT244NzFESFppb0s1N2JHYlk5Q0tSUEM5T2RzaWxZbzRHQzlqSS1LZldUaklBTDdTMHR6a2N4RU5CUmh2NUEzdDZqbk9xNl91WVMyZDhUa2tLUTVDNUhITHVEOTlKOn88Yj5ab21hdG88L2I-IOCkleCkvuCksOCljeCkr-CkvuCksuCkryDgpLjgpILgpKrgpLDgpY3gpJUgKOCkq-Cli-CkqCkg4KS44KSC4KSW4KWN4KSv4KS-IOCklOCksCDgpKrgpKTgpL4g4KSh4KS_4KSf4KWH4KSy4KWN4KS4QtMCQnkgdXNpbmcgPGI-Wm9tYXRvJiMzOTtzPC9iPiB3ZWJzaXRlLCB5b3UgYWdyZWUgdG8gb3VyIENvb2tpZSDigKYg4KSs4KS-4KSH4KSyIDxiPuCkqOCkguCkrOCksDwvYj4gKOCkteCliOCkleCksuCljeCkquCkv-CklSkg4KSf4KWH4KSV4KWN4KS44KWN4KSfIOCkn-CkvuCkh-CkqiDgpJXgpLDgpYfgpIIg4KSq4KWN4KSw4KSk4KS_4KSV4KWN4KSw4KS_4KSv4KS-IOCkuOCkrOCkruCkv-Ckny4gUHJlc3MgS2l0IOCkueCkruCkuOClhyDgpLjgpILgpKrgpLDgpY3gpJUg4KSV4KSw4KWH4KSCIFpvbWF2ZXJzZSA8Yj5ab21hdG88L2I-IEJsaW5raXQgRGlzdHJpY3Qg4KSr4KWA4KSh4KS_4KSC4KSXIgIQAUgAWABoAA",
+    "about_page_serpapi_link": "https://serpapi.com/search.json?engine=google_about_this_result&google_domain=google.co.in&req_token=CoYBL2dvdG8_dXJsPUNBRVNXUUhyT3pBVk5qY0V1X1lqRGNYbC1aUWZ0S3JPbjg3MURIWmlvSzU3YkdiWTlDS1JQQzlPZHNpbFlvNEdDOWpJLUtmV1RqSUFMN1MwdHprY3hFTkJSaHY1QTN0NmpuT3E2X3VZUzJkOFRra0tRNUM1SEhMdUQ5OUoSBBoCCAAaugkSABoAIgAqADIGCAESAmluOgBCBAgBECNKAFoOCAESCnpvbWF0by5jb21yAHoAgkCICQgjEAAYACAAKjUKBnpvbWF0bxVsceNAGhLgpJzgpYvgpK7gpL7gpJ_gpYsaEuCknOCli-CkruCliOCkn-CliypAChLgpJXgpLjgpY3gpJ_gpK7gpLAVAAAAABoIY3VzdG9tZXIaG-CkueClh-CksuCljeCkquCksuCkvuCkh-CkqCrqAQoM4KSV4KWH4KSv4KSwFQAAAAAaBGNhcmUaCmhlYWx0aGNhcmUaCXRvbGwgZnJlZRoY4KSV4KSC4KSq4KWN4KSy4KWH4KSC4KSfGhvgpJXgpYngpKjgpY3gpJ_gpYjgpJXgpY3gpJ8aGeCkleClieCksiDgpLjgpYfgpILgpJ_gpLAaD-CkluCljeCkr-CkvuCkshoW4KSf4KWL4KSyIOCkq-CljeCksOClgBoP4KSo4KSu4KWN4KSs4KSwGg_gpLngpYfgpLLgpY3gpKoaG-CkueClh-CksuCljeCkquCksuCkvuCkh-CkqCq3AQoM4KSo4KSC4KSs4KSwFc-7gTwaBm51bWJlchoJ4KSF4KSC4KSVGhLgpIfgpILgpKHgpL_gpK_gpL4aDOCkkeCkq-Ckv-CkuBoJ4KSV4KWJ4KSyGgngpKvgpYvgpKgaEuCkruCli-CkrOCkvuCkh-CkshoS4KS44KSC4KSW4KWN4KSv4KS-GhLgpLjgpLDgpY3gpLXgpL_gpLgaG-CkueClh-CksuCljeCkquCksuCkvuCkh-CkqDKGAS9nb3RvP3VybD1DQUVTV1FIck96QVZOamNFdV9ZakRjWGwtWlFmdEtyT244NzFESFppb0s1N2JHYlk5Q0tSUEM5T2RzaWxZbzRHQzlqSS1LZldUaklBTDdTMHR6a2N4RU5CUmh2NUEzdDZqbk9xNl91WVMyZDhUa2tLUTVDNUhITHVEOTlKOn88Yj5ab21hdG88L2I-IOCkleCkvuCksOCljeCkr-CkvuCksuCkryDgpLjgpILgpKrgpLDgpY3gpJUgKOCkq-Cli-CkqCkg4KS44KSC4KSW4KWN4KSv4KS-IOCklOCksCDgpKrgpKTgpL4g4KSh4KS_4KSf4KWH4KSy4KWN4KS4QtMCQnkgdXNpbmcgPGI-Wm9tYXRvJiMzOTtzPC9iPiB3ZWJzaXRlLCB5b3UgYWdyZWUgdG8gb3VyIENvb2tpZSDigKYg4KSs4KS-4KSH4KSyIDxiPuCkqOCkguCkrOCksDwvYj4gKOCkteCliOCkleCksuCljeCkquCkv-CklSkg4KSf4KWH4KSV4KWN4KS44KWN4KSfIOCkn-CkvuCkh-CkqiDgpJXgpLDgpYfgpIIg4KSq4KWN4KSw4KSk4KS_4KSV4KWN4KSw4KS_4KSv4KS-IOCkuOCkrOCkruCkv-Ckny4gUHJlc3MgS2l0IOCkueCkruCkuOClhyDgpLjgpILgpKrgpLDgpY3gpJUg4KSV4KSw4KWH4KSCIFpvbWF2ZXJzZSA8Yj5ab21hdG88L2I-IEJsaW5raXQgRGlzdHJpY3Qg4KSr4KWA4KSh4KS_4KSC4KSXIgIQAUgAWABoAA",
+    "source": "Zomato"
+   },
+   {
+    "position": 2,
+    "title": "Zomato Customer Service Phone Number 1-815-214-9414 ...",
+    "link": "https://zomato.pissedconsumer.com/customer-service.html",
+    "redirect_link": "https://www.google.co.in/url?sa=t&source=web&rct=j&opi=89978449&url=CAESbwHrOzAVYVdghbCcmE5-dEdAONNxgjZ9cQN3Mqi9to3JaYxIVIzfIL1yZ23px5KWGimJQPyWYVVjUz0p1GTsea3PXhRF32aCBkizCKFEuDM0ggP-D39vvAgb9LxL_G7yp7UwvCpu3_VAswHZrERPlw&ved=2ahUKEwiW0ajp14eXAxWwx-YEHaesAvEQFnoECBEQAQ&uoh=1",
+    "displayed_link": "https://zomato.pissedconsumer.com › ...",
+    "snippet": "Customer Service: +91 226 232 7777 Edition Card Complaints/ Feedback: +91 114 059 2373 Customer Service: nutrition.support@zomato.com",
+    "snippet_highlighted_words": [
+     "Customer Service: +91 226 232 7777"
+    ],
+    "about_this_result": {
+     "source": {
+      "description": "Customer Service: +91 226 232 7777 Edition Card Complaints/ Feedback: +91 114 059 2373 Customer Service: nutrition.support@zomato.com",
+      "source_info_link": "https://zomato.pissedconsumer.com/customer-service.html",
+      "icon": "https://serpapi.com/images/i/UklGRnoBAABXRUJQVlA4IG4BAACQBwCdASocABwAPtE-tFooIigoFAEAGglsAJ0yhHZ-geFHpgG8qleCGT-Mr5wPVLTPR_UECnhL5TMvg-h-GoVPu-ywgAAA_tjWd5tA415NG63X0UTG8KD9i1fdBT0TSOjr4Cl0aZudcLcpYiChfNjwZv2NLFjinOsn11TTXcb5AMXjWfI3_7deSqZQSdwFO_57_czW4UpfBBSaEf_-wd_Pm6Vf-aBsGvmr3Kq7JkO_D_eci-bBI_MMvO5q5PJ-yDciFlCOUfpTRs9_Dj8EeJoDQXnZx_L7VYTGey35By0xP3zZ777BqRQeYEIWk8oU5cqFzyG1Tfuie95xtP_CSOeT6RWOJO4kygrcG9ZUMLNIZWx-q8auFgMX3PztQcc8O0eAbWbX-gdMZQmxU4PN7FQsixwGONlX_63vc4b-7jI7BTud1nG7fK8F3axZqUwZ5sC-SK5wMpkacJYmjE5oPvYQRLNTT2ifL6XyvbAAAAA.webp"
+     },
+     "languages": [
+      "hi"
+     ],
+     "regions": [
+      "IN"
+     ]
+    },
+    "about_page_link": "https://www.google.co.in/search/about-this-result?origin=www.google.com&req=CqQBL2dvdG8_dXJsPUNBRVNid0hyT3pBVllWZGdoYkNjbUU1LWRFZEFPTk54Z2paOWNRTjNNcWk5dG8zSmFZeElWSXpmSUwxeVoyM3B4NUtXR2ltSlFQeVdZVlZqVXowcDFHVHNlYTNQWGhSRjMyYUNCa2l6Q0tGRXVETTBnZ1AtRDM5dnZBZ2I5THhMX0c3eXA3VXd2Q3B1M19WQXN3SFpyRVJQbHcSBBoCCAAayQcSABoAIgAqADIGCAMSAmluOgBCBAgCECNKAFoAcgB6AIJApQcIIxAAGAAgACo1CgZ6b21hdG8V7AbOQBoS4KSc4KWL4KSu4KS-4KSf4KWLGhLgpJzgpYvgpK7gpYjgpJ_gpYsqQAoS4KSV4KS44KWN4KSf4KSu4KSwFQAAAAAaCGN1c3RvbWVyGhvgpLngpYfgpLLgpY3gpKrgpLLgpL7gpIfgpKgq6gEKDOCkleClh-Ckr-CksBUAAAAAGgRjYXJlGgpoZWFsdGhjYXJlGgl0b2xsIGZyZWUaGOCkleCkguCkquCljeCksuClh-CkguCknxob4KSV4KWJ4KSo4KWN4KSf4KWI4KSV4KWN4KSfGhngpJXgpYngpLIg4KS44KWH4KSC4KSf4KSwGg_gpJbgpY3gpK_gpL7gpLIaFuCkn-Cli-CksiDgpKvgpY3gpLDgpYAaD-CkqOCkruCljeCkrOCksBoP4KS54KWH4KSy4KWN4KSqGhvgpLngpYfgpLLgpY3gpKrgpLLgpL7gpIfgpKgqtwEKDOCkqOCkguCkrOCksBUAAAAAGgZudW1iZXIaCeCkheCkguCklRoS4KSH4KSC4KSh4KS_4KSv4KS-GgzgpJHgpKvgpL_gpLgaCeCkleClieCkshoJ4KSr4KWL4KSoGhLgpK7gpYvgpKzgpL7gpIfgpLIaEuCkuOCkguCkluCljeCkr-CkvhoS4KS44KSw4KWN4KS14KS_4KS4GhvgpLngpYfgpLLgpY3gpKrgpLLgpL7gpIfgpKgypAEvZ290bz91cmw9Q0FFU2J3SHJPekFWWVZkZ2hiQ2NtRTUtZEVkQU9OTnhnalo5Y1FOM01xaTl0bzNKYVl4SVZJemZJTDF5WjIzcHg1S1dHaW1KUVB5V1lWVmpVejBwMUdUc2VhM1BYaFJGMzJhQ0JraXpDS0ZFdURNMGdnUC1EMzl2dkFnYjlMeExfRzd5cDdVd3ZDcHUzX1ZBc3dIWnJFUlBsdzpFPGI-Wm9tYXRvIEN1c3RvbWVyPC9iPiBTZXJ2aWNlIFBob25lIDxiPk51bWJlcjwvYj4gMS04MTUtMjE0LTk0MTQgLi4uQowBPGI-Q3VzdG9tZXIgU2VydmljZTogKzkxIDIyNiAyMzIgNzc3NzwvYj4gRWRpdGlvbiBDYXJkIENvbXBsYWludHMvIEZlZWRiYWNrOiArOTEgMTE0IDA1OSAyMzczIEN1c3RvbWVyIFNlcnZpY2U6IG51dHJpdGlvbi5zdXBwb3J0QHpvbWF0by5jb20iAhABSABYAGgA",
+    "about_page_serpapi_link": "https://serpapi.com/search.json?engine=google_about_this_result&google_domain=google.co.in&req_token=CqQBL2dvdG8_dXJsPUNBRVNid0hyT3pBVllWZGdoYkNjbUU1LWRFZEFPTk54Z2paOWNRTjNNcWk5dG8zSmFZeElWSXpmSUwxeVoyM3B4NUtXR2ltSlFQeVdZVlZqVXowcDFHVHNlYTNQWGhSRjMyYUNCa2l6Q0tGRXVETTBnZ1AtRDM5dnZBZ2I5THhMX0c3eXA3VXd2Q3B1M19WQXN3SFpyRVJQbHcSBBoCCAAayQcSABoAIgAqADIGCAMSAmluOgBCBAgCECNKAFoAcgB6AIJApQcIIxAAGAAgACo1CgZ6b21hdG8V7AbOQBoS4KSc4KWL4KSu4KS-4KSf4KWLGhLgpJzgpYvgpK7gpYjgpJ_gpYsqQAoS4KSV4KS44KWN4KSf4KSu4KSwFQAAAAAaCGN1c3RvbWVyGhvgpLngpYfgpLLgpY3gpKrgpLLgpL7gpIfgpKgq6gEKDOCkleClh-Ckr-CksBUAAAAAGgRjYXJlGgpoZWFsdGhjYXJlGgl0b2xsIGZyZWUaGOCkleCkguCkquCljeCksuClh-CkguCknxob4KSV4KWJ4KSo4KWN4KSf4KWI4KSV4KWN4KSfGhngpJXgpYngpLIg4KS44KWH4KSC4KSf4KSwGg_gpJbgpY3gpK_gpL7gpLIaFuCkn-Cli-CksiDgpKvgpY3gpLDgpYAaD-CkqOCkruCljeCkrOCksBoP4KS54KWH4KSy4KWN4KSqGhvgpLngpYfgpLLgpY3gpKrgpLLgpL7gpIfgpKgqtwEKDOCkqOCkguCkrOCksBUAAAAAGgZudW1iZXIaCeCkheCkguCklRoS4KSH4KSC4KSh4KS_4KSv4KS-GgzgpJHgpKvgpL_gpLgaCeCkleClieCkshoJ4KSr4KWL4KSoGhLgpK7gpYvgpKzgpL7gpIfgpLIaEuCkuOCkguCkluCljeCkr-CkvhoS4KS44KSw4KWN4KS14KS_4KS4GhvgpLngpYfgpLLgpY3gpKrgpLLgpL7gpIfgpKgypAEvZ290bz91cmw9Q0FFU2J3SHJPekFWWVZkZ2hiQ2NtRTUtZEVkQU9OTnhnalo5Y1FOM01xaTl0bzNKYVl4SVZJemZJTDF5WjIzcHg1S1dHaW1KUVB5V1lWVmpVejBwMUdUc2VhM1BYaFJGMzJhQ0JraXpDS0ZFdURNMGdnUC1EMzl2dkFnYjlMeExfRzd5cDdVd3ZDcHUzX1ZBc3dIWnJFUlBsdzpFPGI-Wm9tYXRvIEN1c3RvbWVyPC9iPiBTZXJ2aWNlIFBob25lIDxiPk51bWJlcjwvYj4gMS04MTUtMjE0LTk0MTQgLi4uQowBPGI-Q3VzdG9tZXIgU2VydmljZTogKzkxIDIyNiAyMzIgNzc3NzwvYj4gRWRpdGlvbiBDYXJkIENvbXBsYWludHMvIEZlZWRiYWNrOiArOTEgMTE0IDA1OSAyMzczIEN1c3RvbWVyIFNlcnZpY2U6IG51dHJpdGlvbi5zdXBwb3J0QHpvbWF0by5jb20iAhABSABYAGgA",
+    "source": "PissedConsumer"
+   },
+   {
+    "position": 3,
+    "title": "संभावित धोखाधड़ी की रिपोर्ट करें",
+    "link": "https://www.zomato.com/hi/report-fraud",
+    "redirect_link": "https://www.google.co.in/url?sa=t&source=web&rct=j&opi=89978449&url=CAESXgHrOzAVeikw7QjUrlV0UPp_JAb97gpiCRP3fVx6X8tciOMYY3ShM_xeU2pPQXk1l770gJClWJWrjOOVLR1xjHwxpJgMYzsh7P6yMtTu6zl3a7tlapKGc60FzvQ7dto&ved=2ahUKEwiW0ajp14eXAxWwx-YEHaesAvEQFnoECBQQAQ&uoh=1",
+    "displayed_link": "https://www.zomato.com › report-fraud",
+    "snippet": "कृपया चैट विकल्प का उपयोग करके हमारी कस्टमर केयर टीम तक पहुंचें । Zomato उम्मीद है कि इस चैनल. Submit अस्वीकरण कृपया इस फ़ॉर्म का उपयोग केवल संभावित धोखाधड़ी की रिपोर्ट करने के लिए करें.",
+    "snippet_highlighted_words": [
+     "कस्टमर केयर",
+     "Zomato"
+    ],
+    "about_this_result": {
+     "source": {
+      "description": "कृपया चैट विकल्प का उपयोग करके हमारी कस्टमर केयर टीम तक पहुंचें । Zomato उम्मीद है कि इस चैनल. Submit अस्वीकरण कृपया इस फ़ॉर्म का उपयोग केवल संभावित धोखाधड़ी की रिपोर्ट करने के लिए करें.",
+      "source_info_link": "https://www.zomato.com/hi/report-fraud",
+      "icon": "https://serpapi.com/images/i/UklGRuwAAABXRUJQVlA4IOAAAABwBQCdASocABwAPtEutFooIagoGAEAGglsAJ0zWj_50BztOYUKajSUqY0nxN_2kmmnO3MgAP6l_pFa1HehfrmOhi8DDnkzYvfS2FA_2MNfDwf-Cq3uUgIr_vILjPrTCBf_jePStpEEESUD77kFWFF9hNgvOYS3TSekcDmUmzIOBGzqNsnrLX_9Kj31aZ7P-CCJ_f9c2MTTC99iz_-ZhAJ7GJ4jboK7Q-E_gBDJO95ASmnr3_tPsjeIePS_PzY21euI7uqBZlYTzB97Cr_NqBBIjBw2DMjP1w7wW3LQ_nQAAA.webp"
+     },
+     "languages": [
+      "hi"
+     ],
+     "regions": [
+      "IN"
+     ]
+    },
+    "about_page_link": "https://www.google.co.in/search/about-this-result?origin=www.google.com&req=Co0BL2dvdG8_dXJsPUNBRVNYZ0hyT3pBVmVpa3c3UWpVcmxWMFVQcF9KQWI5N2dwaUNSUDNmVng2WDh0Y2lPTVlZM1NoTV94ZVUycFBRWGsxbDc3MGdKQ2xXSldyak9PVkxSMXhqSHd4cEpnTVl6c2g3UDZ5TXRUdTZ6bDNhN3RsYXBLR2M2MEZ6dlE3ZHRvEgQaAggAGqwKEgAaACIAKgAyBggBEgJpbjoAQgQIARAjSgBaDggBEgp6b21hdG8uY29tcgB6AIJA-gkIIxAAGAAgACo1CgZ6b21hdG8Vfpv2QBoS4KSc4KWL4KSu4KS-4KSf4KWLGhLgpJzgpYvgpK7gpYjgpJ_gpYsqQAoS4KSV4KS44KWN4KSf4KSu4KSwFQMQGT8aCGN1c3RvbWVyGhvgpLngpYfgpLLgpY3gpKrgpLLgpL7gpIfgpKgq6gEKDOCkleClh-Ckr-CksBUDEBk_GgRjYXJlGgpoZWFsdGhjYXJlGgl0b2xsIGZyZWUaGOCkleCkguCkquCljeCksuClh-CkguCknxob4KSV4KWJ4KSo4KWN4KSf4KWI4KSV4KWN4KSfGhngpJXgpYngpLIg4KS44KWH4KSC4KSf4KSwGg_gpJbgpY3gpK_gpL7gpLIaFuCkn-Cli-CksiDgpKvgpY3gpLDgpYAaD-CkqOCkruCljeCkrOCksBoP4KS54KWH4KSy4KWN4KSqGhvgpLngpYfgpLLgpY3gpKrgpLLgpL7gpIfgpKgqtwEKDOCkqOCkguCkrOCksBXoeRw9GgZudW1iZXIaCeCkheCkguCklRoS4KSH4KSC4KSh4KS_4KSv4KS-GgzgpJHgpKvgpL_gpLgaCeCkleClieCkshoJ4KSr4KWL4KSoGhLgpK7gpYvgpKzgpL7gpIfgpLIaEuCkuOCkguCkluCljeCkr-CkvhoS4KS44KSw4KWN4KS14KS_4KS4GhvgpLngpYfgpLLgpY3gpKrgpLLgpL7gpIfgpKgyjQEvZ290bz91cmw9Q0FFU1hnSHJPekFWZWlrdzdRalVybFYwVVBwX0pBYjk3Z3BpQ1JQM2ZWeDZYOHRjaU9NWVkzU2hNX3hlVTJwUFFYazFsNzcwZ0pDbFdKV3JqT09WTFIxeGpId3hwSmdNWXpzaDdQNnlNdFR1NnpsM2E3dGxhcEtHYzYwRnp2UTdkdG86YeCkuOCkguCkreCkvuCkteCkv-CkpCDgpKfgpYvgpJbgpL7gpKfgpKHgpLzgpYAg4KSV4KWAIOCksOCkv-CkquCli-CksOCljeCknyDgpJXgpLDgpYfgpIIgLSBab21hdG9C3APgpJXgpYPgpKrgpK_gpL4g4KSa4KWI4KSfIOCkteCkv-CkleCksuCljeCkqiDgpJXgpL4g4KSJ4KSq4KSv4KWL4KSXIOCkleCksOCkleClhyDgpLngpK7gpL7gpLDgpYAgPGI-4KSV4KS44KWN4KSf4KSu4KSwIOCkleClh-Ckr-CksDwvYj4g4KSf4KWA4KSuIOCkpOCklSDgpKrgpLngpYHgpILgpJrgpYfgpIIg4KWkIDxiPlpvbWF0bzwvYj4g4KSJ4KSu4KWN4KSu4KWA4KSmIOCkueCliCDgpJXgpL8g4KSH4KS4IOCkmuCliOCkqOCksi4gU3VibWl0IOCkheCkuOCljeCkteClgOCkleCksOCkoyDgpJXgpYPgpKrgpK_gpL4g4KSH4KS4IOCkq-CkvOClieCksOCljeCkriDgpJXgpL4g4KSJ4KSq4KSv4KWL4KSXIOCkleClh-CkteCksiDgpLjgpILgpK3gpL7gpLXgpL_gpKQg4KSn4KWL4KSW4KS-4KSn4KSh4KS84KWAIOCkleClgCDgpLDgpL_gpKrgpYvgpLDgpY3gpJ8g4KSV4KSw4KSo4KWHIOCkleClhyDgpLLgpL_gpI8g4KSV4KSw4KWH4KSCLiICEAFIAFgAaAA",
+    "about_page_serpapi_link": "https://serpapi.com/search.json?engine=google_about_this_result&google_domain=google.co.in&req_token=Co0BL2dvdG8_dXJsPUNBRVNYZ0hyT3pBVmVpa3c3UWpVcmxWMFVQcF9KQWI5N2dwaUNSUDNmVng2WDh0Y2lPTVlZM1NoTV94ZVUycFBRWGsxbDc3MGdKQ2xXSldyak9PVkxSMXhqSHd4cEpnTVl6c2g3UDZ5TXRUdTZ6bDNhN3RsYXBLR2M2MEZ6dlE3ZHRvEgQaAggAGqwKEgAaACIAKgAyBggBEgJpbjoAQgQIARAjSgBaDggBEgp6b21hdG8uY29tcgB6AIJA-gkIIxAAGAAgACo1CgZ6b21hdG8Vfpv2QBoS4KSc4KWL4KSu4KS-4KSf4KWLGhLgpJzgpYvgpK7gpYjgpJ_gpYsqQAoS4KSV4KS44KWN4KSf4KSu4KSwFQMQGT8aCGN1c3RvbWVyGhvgpLngpYfgpLLgpY3gpKrgpLLgpL7gpIfgpKgq6gEKDOCkleClh-Ckr-CksBUDEBk_GgRjYXJlGgpoZWFsdGhjYXJlGgl0b2xsIGZyZWUaGOCkleCkguCkquCljeCksuClh-CkguCknxob4KSV4KWJ4KSo4KWN4KSf4KWI4KSV4KWN4KSfGhngpJXgpYngpLIg4KS44KWH4KSC4KSf4KSwGg_gpJbgpY3gpK_gpL7gpLIaFuCkn-Cli-CksiDgpKvgpY3gpLDgpYAaD-CkqOCkruCljeCkrOCksBoP4KS54KWH4KSy4KWN4KSqGhvgpLngpYfgpLLgpY3gpKrgpLLgpL7gpIfgpKgqtwEKDOCkqOCkguCkrOCksBXoeRw9GgZudW1iZXIaCeCkheCkguCklRoS4KSH4KSC4KSh4KS_4KSv4KS-GgzgpJHgpKvgpL_gpLgaCeCkleClieCkshoJ4KSr4KWL4KSoGhLgpK7gpYvgpKzgpL7gpIfgpLIaEuCkuOCkguCkluCljeCkr-CkvhoS4KS44KSw4KWN4KS14KS_4KS4GhvgpLngpYfgpLLgpY3gpKrgpLLgpL7gpIfgpKgyjQEvZ290bz91cmw9Q0FFU1hnSHJPekFWZWlrdzdRalVybFYwVVBwX0pBYjk3Z3BpQ1JQM2ZWeDZYOHRjaU9NWVkzU2hNX3hlVTJwUFFYazFsNzcwZ0pDbFdKV3JqT09WTFIxeGpId3hwSmdNWXpzaDdQNnlNdFR1NnpsM2E3dGxhcEtHYzYwRnp2UTdkdG86YeCkuOCkguCkreCkvuCkteCkv-CkpCDgpKfgpYvgpJbgpL7gpKfgpKHgpLzgpYAg4KSV4KWAIOCksOCkv-CkquCli-CksOCljeCknyDgpJXgpLDgpYfgpIIgLSBab21hdG9C3APgpJXgpYPgpKrgpK_gpL4g4KSa4KWI4KSfIOCkteCkv-CkleCksuCljeCkqiDgpJXgpL4g4KSJ4KSq4KSv4KWL4KSXIOCkleCksOCkleClhyDgpLngpK7gpL7gpLDgpYAgPGI-4KSV4KS44KWN4KSf4KSu4KSwIOCkleClh-Ckr-CksDwvYj4g4KSf4KWA4KSuIOCkpOCklSDgpKrgpLngpYHgpILgpJrgpYfgpIIg4KWkIDxiPlpvbWF0bzwvYj4g4KSJ4KSu4KWN4KSu4KWA4KSmIOCkueCliCDgpJXgpL8g4KSH4KS4IOCkmuCliOCkqOCksi4gU3VibWl0IOCkheCkuOCljeCkteClgOCkleCksOCkoyDgpJXgpYPgpKrgpK_gpL4g4KSH4KS4IOCkq-CkvOClieCksOCljeCkriDgpJXgpL4g4KSJ4KSq4KSv4KWL4KSXIOCkleClh-CkteCksiDgpLjgpILgpK3gpL7gpLXgpL_gpKQg4KSn4KWL4KSW4KS-4KSn4KSh4KS84KWAIOCkleClgCDgpLDgpL_gpKrgpYvgpLDgpY3gpJ8g4KSV4KSw4KSo4KWHIOCkleClhyDgpLLgpL_gpI8g4KSV4KSw4KWH4KSCLiICEAFIAFgAaAA",
+    "source": "Zomato"
+   },
+   {
+    "position": 4,
+    "title": "Zomato India Customer Care No.",
+    "link": "https://www.indiacustomercare.com/zomato-customer-care-number",
+    "redirect_link": "https://www.google.co.in/url?sa=t&source=web&rct=j&opi=89978449&url=CAESdQHrOzAV7LuUHjBatK52SxE-FQ1GTLkukvNuapXhCTsxcdBCn1O7KopXfVZyRoei7m36lV_YkKvNL_zCvzV989AE2LUS_zn_UBgh7tok_0Cf1vuunJegY4xhQKP9dd_YR03rT4moKyneR5SaNPeuNI4qv2qgow&ved=2ahUKEwiW0ajp14eXAxWwx-YEHaesAvEQFnoECBUQAQ&uoh=1",
+    "displayed_link": "https://www.indiacustomercare.com › ...",
+    "snippet": "Toll Free: 011-4117 1852 (For Customer Support, Mon-Fri, 9am-6pm) Email help@zomato.com (For General Query/Support)",
+    "snippet_highlighted_words": [
+     "Toll Free: 011-4117 1852"
+    ],
+    "about_this_result": {
+     "source": {
+      "description": "Toll Free: 011-4117 1852 (For Customer Support, Mon-Fri, 9am-6pm) Email help@zomato.com (For General Query/Support)",
+      "source_info_link": "https://www.indiacustomercare.com/zomato-customer-care-number",
+      "icon": "https://serpapi.com/images/i/UklGRtoAAABXRUJQVlA4IM4AAADQBQCdASocABwAPtEutFooIagoGAEAGglsAMHPLBhgmZxf7McLETRfP_PRtSvBFNg4L_xyYgAAAP72B8hX7FAOQi-ckKWa_d5hjYi36GFr0aP-2P9-72yC5kS_eULPdXkcsFCNMflN8dlJ58_FH_wYvpPY6AUklli5Jjr6MC06gmyRYUKTDLn2fmbLAWH_AQ3TRjAP6iW56bE5ItMfzYdYfZohwV9neZ7zyUC4gj9KrD66DbT3nZ8-SicmlXe_HTNjjMWOsBr7Sn1F6TOAAA.webp"
+     },
+     "languages": [
+      "hi"
+     ],
+     "regions": [
+      "IN"
+     ]
+    },
+    "about_page_link": "https://www.google.co.in/search/about-this-result?origin=www.google.com&req=CqwBL2dvdG8_dXJsPUNBRVNkUUhyT3pBVjdMdVVIakJhdEs1MlN4RS1GUTFHVExrdWt2TnVhcFhoQ1RzeGNkQkNuMU83S29wWGZWWnlSb2VpN20zNmxWX1lrS3ZOTF96Q3Z6Vjk4OUFFMkxVU196bl9VQmdoN3Rva18wQ2YxdnV1bkplZ1k0eGhRS1A5ZGRfWVIwM3JUNG1vS3luZVI1U2FOUGV1Tkk0cXYycWdvdxIEGgIIABqlBxIAGgAiACoAMgYIARICaW46AEIECAIQI0oAWgByAHoAgkCBBwgjEAAYACAAKjUKBnpvbWF0bxW6saRAGhLgpJzgpYvgpK7gpL7gpJ_gpYsaEuCknOCli-CkruCliOCkn-CliypAChLgpJXgpLjgpY3gpJ_gpK7gpLAVAAAAABoIY3VzdG9tZXIaG-CkueClh-CksuCljeCkquCksuCkvuCkh-CkqCrqAQoM4KSV4KWH4KSv4KSwFQAAAAAaBGNhcmUaCmhlYWx0aGNhcmUaCXRvbGwgZnJlZRoY4KSV4KSC4KSq4KWN4KSy4KWH4KSC4KSfGhvgpJXgpYngpKjgpY3gpJ_gpYjgpJXgpY3gpJ8aGeCkleClieCksiDgpLjgpYfgpILgpJ_gpLAaD-CkluCljeCkr-CkvuCkshoW4KSf4KWL4KSyIOCkq-CljeCksOClgBoP4KSo4KSu4KWN4KSs4KSwGg_gpLngpYfgpLLgpY3gpKoaG-CkueClh-CksuCljeCkquCksuCkvuCkh-CkqCq3AQoM4KSo4KSC4KSs4KSwFQAAAAAaBm51bWJlchoJ4KSF4KSC4KSVGhLgpIfgpILgpKHgpL_gpK_gpL4aDOCkkeCkq-Ckv-CkuBoJ4KSV4KWJ4KSyGgngpKvgpYvgpKgaEuCkruCli-CkrOCkvuCkh-CkshoS4KS44KSC4KSW4KWN4KSv4KS-GhLgpLjgpLDgpY3gpLXgpL_gpLgaG-CkueClh-CksuCljeCkquCksuCkvuCkh-CkqDKsAS9nb3RvP3VybD1DQUVTZFFIck96QVY3THVVSGpCYXRLNTJTeEUtRlExR1RMa3Vrdk51YXBYaENUc3hjZEJDbjFPN0tvcFhmVlp5Um9laTdtMzZsVl9Za0t2TkxfekN2elY5ODlBRTJMVVNfem5fVUJnaDd0b2tfMENmMXZ1dW5KZWdZNHhoUUtQOWRkX1lSMDNyVDRtb0t5bmVSNVNhTlBldU5JNHF2MnFnb3c6LDxiPlpvbWF0bzwvYj4gSW5kaWEgPGI-Q3VzdG9tZXIgQ2FyZTwvYj4gTm8uQno8Yj5Ub2xsIEZyZWU6IDAxMS00MTE3IDE4NTI8L2I-IChGb3IgQ3VzdG9tZXIgU3VwcG9ydCwgTW9uLUZyaSwgOWFtLTZwbSkgRW1haWwgaGVscEB6b21hdG8uY29tIChGb3IgR2VuZXJhbCBRdWVyeS9TdXBwb3J0KSICEAFIAFgAaAA",
+    "about_page_serpapi_link": "https://serpapi.com/search.json?engine=google_about_this_result&google_domain=google.co.in&req_token=CqwBL2dvdG8_dXJsPUNBRVNkUUhyT3pBVjdMdVVIakJhdEs1MlN4RS1GUTFHVExrdWt2TnVhcFhoQ1RzeGNkQkNuMU83S29wWGZWWnlSb2VpN20zNmxWX1lrS3ZOTF96Q3Z6Vjk4OUFFMkxVU196bl9VQmdoN3Rva18wQ2YxdnV1bkplZ1k0eGhRS1A5ZGRfWVIwM3JUNG1vS3luZVI1U2FOUGV1Tkk0cXYycWdvdxIEGgIIABqlBxIAGgAiACoAMgYIARICaW46AEIECAIQI0oAWgByAHoAgkCBBwgjEAAYACAAKjUKBnpvbWF0bxW6saRAGhLgpJzgpYvgpK7gpL7gpJ_gpYsaEuCknOCli-CkruCliOCkn-CliypAChLgpJXgpLjgpY3gpJ_gpK7gpLAVAAAAABoIY3VzdG9tZXIaG-CkueClh-CksuCljeCkquCksuCkvuCkh-CkqCrqAQoM4KSV4KWH4KSv4KSwFQAAAAAaBGNhcmUaCmhlYWx0aGNhcmUaCXRvbGwgZnJlZRoY4KSV4KSC4KSq4KWN4KSy4KWH4KSC4KSfGhvgpJXgpYngpKjgpY3gpJ_gpYjgpJXgpY3gpJ8aGeCkleClieCksiDgpLjgpYfgpILgpJ_gpLAaD-CkluCljeCkr-CkvuCkshoW4KSf4KWL4KSyIOCkq-CljeCksOClgBoP4KSo4KSu4KWN4KSs4KSwGg_gpLngpYfgpLLgpY3gpKoaG-CkueClh-CksuCljeCkquCksuCkvuCkh-CkqCq3AQoM4KSo4KSC4KSs4KSwFQAAAAAaBm51bWJlchoJ4KSF4KSC4KSVGhLgpIfgpILgpKHgpL_gpK_gpL4aDOCkkeCkq-Ckv-CkuBoJ4KSV4KWJ4KSyGgngpKvgpYvgpKgaEuCkruCli-CkrOCkvuCkh-CkshoS4KS44KSC4KSW4KWN4KSv4KS-GhLgpLjgpLDgpY3gpLXgpL_gpLgaG-CkueClh-CksuCljeCkquCksuCkvuCkh-CkqDKsAS9nb3RvP3VybD1DQUVTZFFIck96QVY3THVVSGpCYXRLNTJTeEUtRlExR1RMa3Vrdk51YXBYaENUc3hjZEJDbjFPN0tvcFhmVlp5Um9laTdtMzZsVl9Za0t2TkxfekN2elY5ODlBRTJMVVNfem5fVUJnaDd0b2tfMENmMXZ1dW5KZWdZNHhoUUtQOWRkX1lSMDNyVDRtb0t5bmVSNVNhTlBldU5JNHF2MnFnb3c6LDxiPlpvbWF0bzwvYj4gSW5kaWEgPGI-Q3VzdG9tZXIgQ2FyZTwvYj4gTm8uQno8Yj5Ub2xsIEZyZWU6IDAxMS00MTE3IDE4NTI8L2I-IChGb3IgQ3VzdG9tZXIgU3VwcG9ydCwgTW9uLUZyaSwgOWFtLTZwbSkgRW1haWwgaGVscEB6b21hdG8uY29tIChGb3IgR2VuZXJhbCBRdWVyeS9TdXBwb3J0KSICEAFIAFgAaAA",
+    "source": "India Customer Care"
+   },
+   {
+    "position": 5,
+    "title": "Report an Accident or Emergency",
+    "link": "https://www.zomato.com/contact/emergency",
+    "redirect_link": "https://www.google.co.in/url?sa=t&source=web&rct=j&opi=89978449&url=CAESYAHrOzAVX3vx1PZXiDW2XHiA0-BkWqaTa8oANfLNOLcq_ajm8dbcBLb3QWTfyIkgRUlmvXMJHrHqeRLeE8W11cFDfG-1nRCU758IC4c7f9SxP3WMN300Vv7Vo-lKt-4-Lw&ved=2ahUKEwiW0ajp14eXAxWwx-YEHaesAvEQFnoECBcQAQ&uoh=1",
+    "displayed_link": "https://www.zomato.com › ...",
+    "snippet": "Disclaimer Please use this page to report a serious incident or accident only. For order related queries, please use our chat support. How can we help you?*",
+    "about_this_result": {
+     "source": {
+      "description": "Disclaimer Please use this page to report a serious incident or accident only. For order related queries, please use our chat support. How can we help you?*",
+      "source_info_link": "https://www.zomato.com/contact/emergency",
+      "icon": "https://serpapi.com/images/i/UklGRuwAAABXRUJQVlA4IOAAAABwBQCdASocABwAPtEutFooIagoGAEAGglsAJ0zWj_50BztOYUKajSUqY0nxN_2kmmnO3MgAP6l_pFa1HehfrmOhi8DDnkzYvfS2FA_2MNfDwf-Cq3uUgIr_vILjPrTCBf_jePStpEEESUD77kFWFF9hNgvOYS3TSekcDmUmzIOBGzqNsnrLX_9Kj31aZ7P-CCJ_f9c2MTTC99iz_-ZhAJ7GJ4jboK7Q-E_gBDJO95ASmnr3_tPsjeIePS_PzY21euI7uqBZlYTzB97Cr_NqBBIjBw2DMjP1w7wW3LQ_nQAAA.webp"
+     },
+     "languages": [
+      "hi"
+     ],
+     "regions": [
+      "IN"
+     ]
+    },
+    "about_page_link": "https://www.google.co.in/search/about-this-result?origin=www.google.com&req=CpABL2dvdG8_dXJsPUNBRVNZQUhyT3pBVlgzdngxUFpYaURXMlhIaUEwLUJrV3FhVGE4b0FOZkxOT0xjcV9ham04ZGJjQkxiM1FXVGZ5SWtnUlVsbXZYTUpIckhxZVJMZUU4VzExY0ZEZkctMW5SQ1U3NThJQzRjN2Y5U3hQM1dNTjMwMFZ2N1ZvLWxLdC00LUx3EgQaAggAGr8HEgIIABoAIgAqADIGCAMSAmluOgBCBAgCECNKAFoOCAESCnpvbWF0by5jb21yAHoAgkCLBwgjEAAYACAAKjUKBnpvbWF0bxXW_txAGhLgpJzgpYvgpK7gpL7gpJ_gpYsaEuCknOCli-CkruCliOCkn-CliypAChLgpJXgpLjgpY3gpJ_gpK7gpLAVAAAAABoIY3VzdG9tZXIaG-CkueClh-CksuCljeCkquCksuCkvuCkh-CkqCrqAQoM4KSV4KWH4KSv4KSwFQAAAAAaBGNhcmUaCmhlYWx0aGNhcmUaCXRvbGwgZnJlZRoY4KSV4KSC4KSq4KWN4KSy4KWH4KSC4KSfGhvgpJXgpYngpKjgpY3gpJ_gpYjgpJXgpY3gpJ8aGeCkleClieCksiDgpLjgpYfgpILgpJ_gpLAaD-CkluCljeCkr-CkvuCkshoW4KSf4KWL4KSyIOCkq-CljeCksOClgBoP4KSo4KSu4KWN4KSs4KSwGg_gpLngpYfgpLLgpY3gpKoaG-CkueClh-CksuCljeCkquCksuCkvuCkh-CkqCq3AQoM4KSo4KSC4KSs4KSwFQAAAAAaBm51bWJlchoJ4KSF4KSC4KSVGhLgpIfgpILgpKHgpL_gpK_gpL4aDOCkkeCkq-Ckv-CkuBoJ4KSV4KWJ4KSyGgngpKvgpYvgpKgaEuCkruCli-CkrOCkvuCkh-CkshoS4KS44KSC4KSW4KWN4KSv4KS-GhLgpLjgpLDgpY3gpLXgpL_gpLgaG-CkueClh-CksuCljeCkquCksuCkvuCkh-CkqDKQAS9nb3RvP3VybD1DQUVTWUFIck96QVZYM3Z4MVBaWGlEVzJYSGlBMC1Ca1dxYVRhOG9BTmZMTk9MY3FfYWptOGRiY0JMYjNRV1RmeUlrZ1JVbG12WE1KSHJIcWVSTGVFOFcxMWNGRGZHLTFuUkNVNzU4SUM0YzdmOVN4UDNXTU4zMDBWdjdWby1sS3QtNC1MdzovUmVwb3J0IGFuIEFjY2lkZW50IG9yIEVtZXJnZW5jeSAtIDxiPlpvbWF0bzwvYj5CnAFEaXNjbGFpbWVyIFBsZWFzZSB1c2UgdGhpcyBwYWdlIHRvIHJlcG9ydCBhIHNlcmlvdXMgaW5jaWRlbnQgb3IgYWNjaWRlbnQgb25seS4gRm9yIG9yZGVyIHJlbGF0ZWQgcXVlcmllcywgcGxlYXNlIHVzZSBvdXIgY2hhdCBzdXBwb3J0LiBIb3cgY2FuIHdlIGhlbHAgeW91PyoiAhABSABYAGgA",
+    "about_page_serpapi_link": "https://serpapi.com/search.json?engine=google_about_this_result&google_domain=google.co.in&req_token=CpABL2dvdG8_dXJsPUNBRVNZQUhyT3pBVlgzdngxUFpYaURXMlhIaUEwLUJrV3FhVGE4b0FOZkxOT0xjcV9ham04ZGJjQkxiM1FXVGZ5SWtnUlVsbXZYTUpIckhxZVJMZUU4VzExY0ZEZkctMW5SQ1U3NThJQzRjN2Y5U3hQM1dNTjMwMFZ2N1ZvLWxLdC00LUx3EgQaAggAGr8HEgIIABoAIgAqADIGCAMSAmluOgBCBAgCECNKAFoOCAESCnpvbWF0by5jb21yAHoAgkCLBwgjEAAYACAAKjUKBnpvbWF0bxXW_txAGhLgpJzgpYvgpK7gpL7gpJ_gpYsaEuCknOCli-CkruCliOCkn-CliypAChLgpJXgpLjgpY3gpJ_gpK7gpLAVAAAAABoIY3VzdG9tZXIaG-CkueClh-CksuCljeCkquCksuCkvuCkh-CkqCrqAQoM4KSV4KWH4KSv4KSwFQAAAAAaBGNhcmUaCmhlYWx0aGNhcmUaCXRvbGwgZnJlZRoY4KSV4KSC4KSq4KWN4KSy4KWH4KSC4KSfGhvgpJXgpYngpKjgpY3gpJ_gpYjgpJXgpY3gpJ8aGeCkleClieCksiDgpLjgpYfgpILgpJ_gpLAaD-CkluCljeCkr-CkvuCkshoW4KSf4KWL4KSyIOCkq-CljeCksOClgBoP4KSo4KSu4KWN4KSs4KSwGg_gpLngpYfgpLLgpY3gpKoaG-CkueClh-CksuCljeCkquCksuCkvuCkh-CkqCq3AQoM4KSo4KSC4KSs4KSwFQAAAAAaBm51bWJlchoJ4KSF4KSC4KSVGhLgpIfgpILgpKHgpL_gpK_gpL4aDOCkkeCkq-Ckv-CkuBoJ4KSV4KWJ4KSyGgngpKvgpYvgpKgaEuCkruCli-CkrOCkvuCkh-CkshoS4KS44KSC4KSW4KWN4KSv4KS-GhLgpLjgpLDgpY3gpLXgpL_gpLgaG-CkueClh-CksuCljeCkquCksuCkvuCkh-CkqDKQAS9nb3RvP3VybD1DQUVTWUFIck96QVZYM3Z4MVBaWGlEVzJYSGlBMC1Ca1dxYVRhOG9BTmZMTk9MY3FfYWptOGRiY0JMYjNRV1RmeUlrZ1JVbG12WE1KSHJIcWVSTGVFOFcxMWNGRGZHLTFuUkNVNzU4SUM0YzdmOVN4UDNXTU4zMDBWdjdWby1sS3QtNC1MdzovUmVwb3J0IGFuIEFjY2lkZW50IG9yIEVtZXJnZW5jeSAtIDxiPlpvbWF0bzwvYj5CnAFEaXNjbGFpbWVyIFBsZWFzZSB1c2UgdGhpcyBwYWdlIHRvIHJlcG9ydCBhIHNlcmlvdXMgaW5jaWRlbnQgb3IgYWNjaWRlbnQgb25seS4gRm9yIG9yZGVyIHJlbGF0ZWQgcXVlcmllcywgcGxlYXNlIHVzZSBvdXIgY2hhdCBzdXBwb3J0LiBIb3cgY2FuIHdlIGhlbHAgeW91PyoiAhABSABYAGgA",
+    "source": "Zomato"
+   },
+   {
+    "position": 6,
+    "title": "After Hours, Delhi NCR, Faridabad",
+    "link": "https://www.zomato.com/hi/ncr/after-hours-nit-faridabad",
+    "redirect_link": "https://www.google.co.in/url?sa=t&source=web&rct=j&opi=89978449&url=CAESbwHrOzAVKaCRpPFHJ47xlVXW9HBUMhTP69ESGVS8KAOmeUgtr8ULaggO4Smf3EPJ77ku_ed3UXIXlt9l5mVmmcDj4VPwwq2VPDTVm_XYuc4vJv_EmKtUIbFKBAoK2uIiCwgxGhN3vqziniqWbXAPew&ved=2ahUKEwiW0ajp14eXAxWwx-YEHaesAvEQFnoECA8QAQ&uoh=1",
+    "displayed_link": "https://www.zomato.com › ... › Faridabad › NIT",
+    "snippet": "zomato customer care, zomato customer care number, zomato customer care ... कॉल करने के लिए एक नंबर पर टैप करें. +919330879344 · + ...",
+    "snippet_highlighted_words": [
+     "919330879344"
+    ],
+    "about_this_result": {
+     "source": {
+      "description": "zomato customer care, zomato customer care number, zomato customer care ... कॉल करने के लिए एक नंबर पर टैप करें. +919330879344 · + ...",
+      "source_info_link": "https://www.zomato.com/hi/ncr/after-hours-nit-faridabad",
+      "icon": "https://serpapi.com/images/i/UklGRuwAAABXRUJQVlA4IOAAAABwBQCdASocABwAPtEutFooIagoGAEAGglsAJ0zWj_50BztOYUKajSUqY0nxN_2kmmnO3MgAP6l_pFa1HehfrmOhi8DDnkzYvfS2FA_2MNfDwf-Cq3uUgIr_vILjPrTCBf_jePStpEEESUD77kFWFF9hNgvOYS3TSekcDmUmzIOBGzqNsnrLX_9Kj31aZ7P-CCJ_f9c2MTTC99iz_-ZhAJ7GJ4jboK7Q-E_gBDJO95ASmnr3_tPsjeIePS_PzY21euI7uqBZlYTzB97Cr_NqBBIjBw2DMjP1w7wW3LQ_nQAAA.webp"
+     },
+     "languages": [
+      "hi"
+     ],
+     "regions": [
+      "IN"
+     ]
+    },
+    "about_page_link": "https://www.google.co.in/search/about-this-result?origin=www.google.com&req=CqQBL2dvdG8_dXJsPUNBRVNid0hyT3pBVkthQ1JwUEZISjQ3eGxWWFc5SEJVTWhUUDY5RVNHVlM4S0FPbWVVZ3RyOFVMYWdnTzRTbWYzRVBKNzdrdV9lZDNVWElYbHQ5bDVtVm1tY0RqNFZQd3dxMlZQRFRWbV9YWXVjNHZKdl9FbUt0VUliRktCQW9LMnVJaUN3Z3hHaE4zdnF6aW5pcVdiWEFQZXcSBBoCCAAahggSABoAIgAqADIGCAESAmluOgBCBAgBECNKAFoOCAESCnpvbWF0by5jb21yAHoAgkDUBwgjEAAYACAAKjUKBnpvbWF0bxU4chNBGhLgpJzgpYvgpK7gpL7gpJ_gpYsaEuCknOCli-CkruCliOCkn-CliypAChLgpJXgpLjgpY3gpJ_gpK7gpLAVAAAAABoIY3VzdG9tZXIaG-CkueClh-CksuCljeCkquCksuCkvuCkh-CkqCrqAQoM4KSV4KWH4KSv4KSwFQAAAAAaBGNhcmUaCmhlYWx0aGNhcmUaCXRvbGwgZnJlZRoY4KSV4KSC4KSq4KWN4KSy4KWH4KSC4KSfGhvgpJXgpYngpKjgpY3gpJ_gpYjgpJXgpY3gpJ8aGeCkleClieCksiDgpLjgpYfgpILgpJ_gpLAaD-CkluCljeCkr-CkvuCkshoW4KSf4KWL4KSyIOCkq-CljeCksOClgBoP4KSo4KSu4KWN4KSs4KSwGg_gpLngpYfgpLLgpY3gpKoaG-CkueClh-CksuCljeCkquCksuCkvuCkh-CkqCq3AQoM4KSo4KSC4KSs4KSwFd6WfT8aBm51bWJlchoJ4KSF4KSC4KSVGhLgpIfgpILgpKHgpL_gpK_gpL4aDOCkkeCkq-Ckv-CkuBoJ4KSV4KWJ4KSyGgngpKvgpYvgpKgaEuCkruCli-CkrOCkvuCkh-CkshoS4KS44KSC4KSW4KWN4KSv4KS-GhLgpLjgpLDgpY3gpLXgpL_gpLgaG-CkueClh-CksuCljeCkquCksuCkvuCkh-CkqDKkAS9nb3RvP3VybD1DQUVTYndIck96QVZLYUNScFBGSEo0N3hsVlhXOUhCVU1oVFA2OUVTR1ZTOEtBT21lVWd0cjhVTGFnZ080U21mM0VQSjc3a3VfZWQzVVhJWGx0OWw1bVZtbWNEajRWUHd3cTJWUERUVm1fWFl1YzR2SnZfRW1LdFVJYkZLQkFvSzJ1SWlDd2d4R2hOM3ZxemluaXFXYlhBUGV3OjFBZnRlciBIb3VycywgRGVsaGkgTkNSLCBGYXJpZGFiYWQgLSA8Yj5ab21hdG88L2I-Qs8Bem9tYXRvIGN1c3RvbWVyIGNhcmUsIHpvbWF0byBjdXN0b21lciBjYXJlIG51bWJlciwgem9tYXRvIGN1c3RvbWVyIGNhcmUgLi4uIOCkleClieCksiDgpJXgpLDgpKjgpYcg4KSV4KWHIOCksuCkv-CkjyDgpI_gpJUg4KSo4KSC4KSs4KSwIOCkquCksCDgpJ_gpYjgpKog4KSV4KSw4KWH4KSCLiArPGI-OTE5MzMwODc5MzQ0PC9iPiAmbWlkZG90OyArJm5ic3A7Li4uIgIQAUgAWABoAA",
+    "about_page_serpapi_link": "https://serpapi.com/search.json?engine=google_about_this_result&google_domain=google.co.in&req_token=CqQBL2dvdG8_dXJsPUNBRVNid0hyT3pBVkthQ1JwUEZISjQ3eGxWWFc5SEJVTWhUUDY5RVNHVlM4S0FPbWVVZ3RyOFVMYWdnTzRTbWYzRVBKNzdrdV9lZDNVWElYbHQ5bDVtVm1tY0RqNFZQd3dxMlZQRFRWbV9YWXVjNHZKdl9FbUt0VUliRktCQW9LMnVJaUN3Z3hHaE4zdnF6aW5pcVdiWEFQZXcSBBoCCAAahggSABoAIgAqADIGCAESAmluOgBCBAgBECNKAFoOCAESCnpvbWF0by5jb21yAHoAgkDUBwgjEAAYACAAKjUKBnpvbWF0bxU4chNBGhLgpJzgpYvgpK7gpL7gpJ_gpYsaEuCknOCli-CkruCliOCkn-CliypAChLgpJXgpLjgpY3gpJ_gpK7gpLAVAAAAABoIY3VzdG9tZXIaG-CkueClh-CksuCljeCkquCksuCkvuCkh-CkqCrqAQoM4KSV4KWH4KSv4KSwFQAAAAAaBGNhcmUaCmhlYWx0aGNhcmUaCXRvbGwgZnJlZRoY4KSV4KSC4KSq4KWN4KSy4KWH4KSC4KSfGhvgpJXgpYngpKjgpY3gpJ_gpYjgpJXgpY3gpJ8aGeCkleClieCksiDgpLjgpYfgpILgpJ_gpLAaD-CkluCljeCkr-CkvuCkshoW4KSf4KWL4KSyIOCkq-CljeCksOClgBoP4KSo4KSu4KWN4KSs4KSwGg_gpLngpYfgpLLgpY3gpKoaG-CkueClh-CksuCljeCkquCksuCkvuCkh-CkqCq3AQoM4KSo4KSC4KSs4KSwFd6WfT8aBm51bWJlchoJ4KSF4KSC4KSVGhLgpIfgpILgpKHgpL_gpK_gpL4aDOCkkeCkq-Ckv-CkuBoJ4KSV4KWJ4KSyGgngpKvgpYvgpKgaEuCkruCli-CkrOCkvuCkh-CkshoS4KS44KSC4KSW4KWN4KSv4KS-GhLgpLjgpLDgpY3gpLXgpL_gpLgaG-CkueClh-CksuCljeCkquCksuCkvuCkh-CkqDKkAS9nb3RvP3VybD1DQUVTYndIck96QVZLYUNScFBGSEo0N3hsVlhXOUhCVU1oVFA2OUVTR1ZTOEtBT21lVWd0cjhVTGFnZ080U21mM0VQSjc3a3VfZWQzVVhJWGx0OWw1bVZtbWNEajRWUHd3cTJWUERUVm1fWFl1YzR2SnZfRW1LdFVJYkZLQkFvSzJ1SWlDd2d4R2hOM3ZxemluaXFXYlhBUGV3OjFBZnRlciBIb3VycywgRGVsaGkgTkNSLCBGYXJpZGFiYWQgLSA8Yj5ab21hdG88L2I-Qs8Bem9tYXRvIGN1c3RvbWVyIGNhcmUsIHpvbWF0byBjdXN0b21lciBjYXJlIG51bWJlciwgem9tYXRvIGN1c3RvbWVyIGNhcmUgLi4uIOCkleClieCksiDgpJXgpLDgpKjgpYcg4KSV4KWHIOCksuCkv-CkjyDgpI_gpJUg4KSo4KSC4KSs4KSwIOCkquCksCDgpJ_gpYjgpKog4KSV4KSw4KWH4KSCLiArPGI-OTE5MzMwODc5MzQ0PC9iPiAmbWlkZG90OyArJm5ic3A7Li4uIgIQAUgAWABoAA",
+    "source": "Zomato"
+   },
+   {
+    "position": 7,
+    "title": "Zomato.com Customer Care Number in Mumbai",
+    "link": "https://www.justdial.com/Mumbai/Zomatocom/022PXX22-XX22-170704134830-T7U1_BZDET",
+    "redirect_link": "https://www.google.co.in/url?sa=t&source=web&rct=j&opi=89978449&url=CAEShwEB6zswFSujcPzvvIARkfAJ9n9Kscqrrmq7entpOnbmk5Ie7AOsyvM6d8YtHJfrkXbsWF0ISYONr6cyc-HOxMQVDfaOKNueaerZcrNdM2pGo3YzwR3BYFUOXMxEnQZ95uPiA25rfeuQbTN6WXukWvyamcnF6vLDj7OUfUYBBWmYre4ieDwryUU&ved=2ahUKEwiW0ajp14eXAxWwx-YEHaesAvEQFnoECCIQAQ&uoh=1",
+    "displayed_link": "https://www.justdial.com › ...",
+    "snippet": "Find Zomato.com Customer Care Number in Mumbai on Justdial. Get helpline numbers, toll-free contact, support details, complaint assistance, working hours, ...",
+    "snippet_highlighted_words": [
+     "Zomato",
+     "Customer Care Number"
+    ],
+    "about_this_result": {
+     "source": {
+      "description": "Find Zomato.com Customer Care Number in Mumbai on Justdial. Get helpline numbers, toll-free contact, support details, complaint assistance, working hours, ...",
+      "source_info_link": "https://www.justdial.com/Mumbai/Zomatocom/022PXX22-XX22-170704134830-T7U1_BZDET",
+      "icon": "https://serpapi.com/images/i/UklGRqgAAABXRUJQVlA4IJwAAADwAgCdASoQABAAAsBMJbACdDiAP0A4CkFq58psin0SkAD--q31jH7d5W1uxfXO5nb8LSdefKaagozfP45QnxuH4vNL1KtsnPCpMJUuGP_FrEFbNoaquFgwJzn34CIyxoWia3lxLLsb-8VB4cmZOAYN_1krQMDF0t8L_p2aqhj9f-w2zUnHUm8H7QdRLxoFBciseJRQuvI02frQAAA.webp"
+     },
+     "languages": [
+      "hi"
+     ],
+     "regions": [
+      "IN"
+     ]
+    },
+    "about_page_link": "https://www.google.co.in/search/about-this-result?origin=www.google.com&req=CsUBL2dvdG8_dXJsPUNBRVNod0VCNnpzd0ZTdWpjUHp2dklBUmtmQUo5bjlLc2NxcnJtcTdlbnRwT25ibWs1SWU3QU9zeXZNNmQ4WXRISmZya1hic1dGMElTWU9OcjZjeWMtSE94TVFWRGZhT0tOdWVhZXJaY3JOZE0ycEdvM1l6d1IzQllGVU9YTXhFblFaOTV1UGlBMjVyZmV1UWJUTjZXWHVrV3Z5YW1jbkY2dkxEajdPVWZVWUJCV21ZcmU0aWVEd3J5VVUSBBoCCAAawwgSABoAIgAqADoAQgQIAhAjSjoIARIy4KSu4KWB4KSu4KWN4KSs4KSILCDgpK7gpLngpL7gpLDgpL7gpLfgpY3gpJ_gpY3gpLAaAggCWgByAHoAgkDtBwgjEAAYACAAKjUKBnpvbWF0bxVusKZAGhLgpJzgpYvgpK7gpL7gpJ_gpYsaEuCknOCli-CkruCliOCkn-CliypAChLgpJXgpLjgpY3gpJ_gpK7gpLAVAAAAABoIY3VzdG9tZXIaG-CkueClh-CksuCljeCkquCksuCkvuCkh-CkqCrqAQoM4KSV4KWH4KSv4KSwFQAAAAAaBGNhcmUaCmhlYWx0aGNhcmUaCXRvbGwgZnJlZRoY4KSV4KSC4KSq4KWN4KSy4KWH4KSC4KSfGhvgpJXgpYngpKjgpY3gpJ_gpYjgpJXgpY3gpJ8aGeCkleClieCksiDgpLjgpYfgpILgpJ_gpLAaD-CkluCljeCkr-CkvuCkshoW4KSf4KWL4KSyIOCkq-CljeCksOClgBoP4KSo4KSu4KWN4KSs4KSwGg_gpLngpYfgpLLgpY3gpKoaG-CkueClh-CksuCljeCkquCksuCkvuCkh-CkqCq3AQoM4KSo4KSC4KSs4KSwFQAAAAAaBm51bWJlchoJ4KSF4KSC4KSVGhLgpIfgpILgpKHgpL_gpK_gpL4aDOCkkeCkq-Ckv-CkuBoJ4KSV4KWJ4KSyGgngpKvgpYvgpKgaEuCkruCli-CkrOCkvuCkh-CkshoS4KS44KSC4KSW4KWN4KSv4KS-GhLgpLjgpLDgpY3gpLXgpL_gpLgaG-CkueClh-CksuCljeCkquCksuCkvuCkh-CkqDLFAS9nb3RvP3VybD1DQUVTaHdFQjZ6c3dGU3VqY1B6dnZJQVJrZkFKOW45S3NjcXJybXE3ZW50cE9uYm1rNUllN0FPc3l2TTZkOFl0SEpmcmtYYnNXRjBJU1lPTnI2Y3ljLUhPeE1RVkRmYU9LTnVlYWVyWmNyTmRNMnBHbzNZendSM0JZRlVPWE14RW5RWjk1dVBpQTI1cmZldVFiVE42V1h1a1d2eWFtY25GNnZMRGo3T1VmVVlCQldtWXJlNGllRHdyeVVVOkc8Yj5ab21hdG88L2I-LmNvbSA8Yj5DdXN0b21lciBDYXJlIE51bWJlcjwvYj4gaW4gTXVtYmFpIC0gSnVzdGRpYWwgKEpkKUKxAUZpbmQgPGI-Wm9tYXRvPC9iPi5jb20gPGI-Q3VzdG9tZXIgQ2FyZSBOdW1iZXI8L2I-IGluIE11bWJhaSBvbiBKdXN0ZGlhbC4gR2V0IGhlbHBsaW5lIG51bWJlcnMsIHRvbGwtZnJlZSBjb250YWN0LCBzdXBwb3J0IGRldGFpbHMsIGNvbXBsYWludCBhc3Npc3RhbmNlLCB3b3JraW5nIGhvdXJzLCZuYnNwOy4uLiICEAFIAFgAaAA",
+    "about_page_serpapi_link": "https://serpapi.com/search.json?engine=google_about_this_result&google_domain=google.co.in&req_token=CsUBL2dvdG8_dXJsPUNBRVNod0VCNnpzd0ZTdWpjUHp2dklBUmtmQUo5bjlLc2NxcnJtcTdlbnRwT25ibWs1SWU3QU9zeXZNNmQ4WXRISmZya1hic1dGMElTWU9OcjZjeWMtSE94TVFWRGZhT0tOdWVhZXJaY3JOZE0ycEdvM1l6d1IzQllGVU9YTXhFblFaOTV1UGlBMjVyZmV1UWJUTjZXWHVrV3Z5YW1jbkY2dkxEajdPVWZVWUJCV21ZcmU0aWVEd3J5VVUSBBoCCAAawwgSABoAIgAqADoAQgQIAhAjSjoIARIy4KSu4KWB4KSu4KWN4KSs4KSILCDgpK7gpLngpL7gpLDgpL7gpLfgpY3gpJ_gpY3gpLAaAggCWgByAHoAgkDtBwgjEAAYACAAKjUKBnpvbWF0bxVusKZAGhLgpJzgpYvgpK7gpL7gpJ_gpYsaEuCknOCli-CkruCliOCkn-CliypAChLgpJXgpLjgpY3gpJ_gpK7gpLAVAAAAABoIY3VzdG9tZXIaG-CkueClh-CksuCljeCkquCksuCkvuCkh-CkqCrqAQoM4KSV4KWH4KSv4KSwFQAAAAAaBGNhcmUaCmhlYWx0aGNhcmUaCXRvbGwgZnJlZRoY4KSV4KSC4KSq4KWN4KSy4KWH4KSC4KSfGhvgpJXgpYngpKjgpY3gpJ_gpYjgpJXgpY3gpJ8aGeCkleClieCksiDgpLjgpYfgpILgpJ_gpLAaD-CkluCljeCkr-CkvuCkshoW4KSf4KWL4KSyIOCkq-CljeCksOClgBoP4KSo4KSu4KWN4KSs4KSwGg_gpLngpYfgpLLgpY3gpKoaG-CkueClh-CksuCljeCkquCksuCkvuCkh-CkqCq3AQoM4KSo4KSC4KSs4KSwFQAAAAAaBm51bWJlchoJ4KSF4KSC4KSVGhLgpIfgpILgpKHgpL_gpK_gpL4aDOCkkeCkq-Ckv-CkuBoJ4KSV4KWJ4KSyGgngpKvgpYvgpKgaEuCkruCli-CkrOCkvuCkh-CkshoS4KS44KSC4KSW4KWN4KSv4KS-GhLgpLjgpLDgpY3gpLXgpL_gpLgaG-CkueClh-CksuCljeCkquCksuCkvuCkh-CkqDLFAS9nb3RvP3VybD1DQUVTaHdFQjZ6c3dGU3VqY1B6dnZJQVJrZkFKOW45S3NjcXJybXE3ZW50cE9uYm1rNUllN0FPc3l2TTZkOFl0SEpmcmtYYnNXRjBJU1lPTnI2Y3ljLUhPeE1RVkRmYU9LTnVlYWVyWmNyTmRNMnBHbzNZendSM0JZRlVPWE14RW5RWjk1dVBpQTI1cmZldVFiVE42V1h1a1d2eWFtY25GNnZMRGo3T1VmVVlCQldtWXJlNGllRHdyeVVVOkc8Yj5ab21hdG88L2I-LmNvbSA8Yj5DdXN0b21lciBDYXJlIE51bWJlcjwvYj4gaW4gTXVtYmFpIC0gSnVzdGRpYWwgKEpkKUKxAUZpbmQgPGI-Wm9tYXRvPC9iPi5jb20gPGI-Q3VzdG9tZXIgQ2FyZSBOdW1iZXI8L2I-IGluIE11bWJhaSBvbiBKdXN0ZGlhbC4gR2V0IGhlbHBsaW5lIG51bWJlcnMsIHRvbGwtZnJlZSBjb250YWN0LCBzdXBwb3J0IGRldGFpbHMsIGNvbXBsYWludCBhc3Npc3RhbmNlLCB3b3JraW5nIGhvdXJzLCZuYnNwOy4uLiICEAFIAFgAaAA",
+    "source": "Justdial"
+   },
+   {
+    "position": 8,
+    "title": "Zomato",
+    "link": "https://m.indiacustomercare.com/category/company-names/zomato?page=1",
+    "redirect_link": "https://www.google.co.in/url?sa=t&source=web&rct=j&opi=89978449&url=CAESfAHrOzAVEOCe3MavHlNB2hxJpC5SI2CjJebCYd9Ug6lGvAUWqeBUwGcCURSDrDh2j-11EyOFpuNtX3atJ77_-A3FY5mGGAq879cieJ3yGMAR7qrJhV9Fy1JMyAMt69E67Iksq4_Bbd58BSlMzjKNdYuGyPGIhKmLmdylJDY&ved=2ahUKEwiW0ajp14eXAxWwx-YEHaesAvEQFnoECBYQAQ&uoh=1",
+    "displayed_link": "https://m.indiacustomercare.com › ...",
+    "date": "24 अग॰ 2026",
+    "snippet": "Zomato All India Number(s): 011-4117 1852 (For Customer Support, Mon-Fri, 9am-6pm) Website: Official Website iOS App: Zomato: Food Delivery & ...",
+    "snippet_highlighted_words": [
+     "011-4117 1852"
+    ],
+    "about_this_result": {
+     "source": {
+      "description": "Zomato All India Number(s): 011-4117 1852 (For Customer Support, Mon-Fri, 9am-6pm) Website: Official Website iOS App: Zomato: Food Delivery & ...",
+      "source_info_link": "https://m.indiacustomercare.com/category/company-names/zomato?page=1",
+      "icon": "https://serpapi.com/images/i/UklGRtoAAABXRUJQVlA4IM4AAADQBQCdASocABwAPtEutFooIagoGAEAGglsAMHPLBhgmZxf7McLETRfP_PRtSvBFNg4L_xyYgAAAP72B8hX7FAOQi-ckKWa_d5hjYi36GFr0aP-2P9-72yC5kS_eULPdXkcsFCNMflN8dlJ58_FH_wYvpPY6AUklli5Jjr6MC06gmyRYUKTDLn2fmbLAWH_AQ3TRjAP6iW56bE5ItMfzYdYfZohwV9neZ7zyUC4gj9KrD66DbT3nZ8-SicmlXe_HTNjjMWOsBr7Sn1F6TOAAA.webp"
+     },
+     "languages": [
+      "hi"
+     ],
+     "regions": [
+      "IN"
+     ]
+    },
+    "about_page_link": "https://www.google.co.in/search/about-this-result?origin=www.google.com&req=CrUBL2dvdG8_dXJsPUNBRVNmQUhyT3pBVkVPQ2UzTWF2SGxOQjJoeEpwQzVTSTJDakplYkNZZDlVZzZsR3ZBVVdxZUJVd0djQ1VSU0RyRGgyai0xMUV5T0ZwdU50WDNhdEo3N18tQTNGWTVtR0dBcTg3OWNpZUozeUdNQVI3cXJKaFY5RnkxSk15QU10NjlFNjdJa3NxNF9CYmQ1OEJTbE16aktOZFl1R3lQR0loS21MbWR5bEpEWRIEGgIIABrUBxIAGgAiACoAMgYIARICaW46AEIECAIQI0oAWgByAHoAgkCwBwgjEAAYACAAKjUKBnpvbWF0bxXiHJNAGhLgpJzgpYvgpK7gpL7gpJ_gpYsaEuCknOCli-CkruCliOCkn-CliypAChLgpJXgpLjgpY3gpJ_gpK7gpLAVAAAAABoIY3VzdG9tZXIaG-CkueClh-CksuCljeCkquCksuCkvuCkh-CkqCrqAQoM4KSV4KWH4KSv4KSwFQAAAAAaBGNhcmUaCmhlYWx0aGNhcmUaCXRvbGwgZnJlZRoY4KSV4KSC4KSq4KWN4KSy4KWH4KSC4KSfGhvgpJXgpYngpKjgpY3gpJ_gpYjgpJXgpY3gpJ8aGeCkleClieCksiDgpLjgpYfgpILgpJ_gpLAaD-CkluCljeCkr-CkvuCkshoW4KSf4KWL4KSyIOCkq-CljeCksOClgBoP4KSo4KSu4KWN4KSs4KSwGg_gpLngpYfgpLLgpY3gpKoaG-CkueClh-CksuCljeCkquCksuCkvuCkh-CkqCq3AQoM4KSo4KSC4KSs4KSwFQAAAAAaBm51bWJlchoJ4KSF4KSC4KSVGhLgpIfgpILgpKHgpL_gpK_gpL4aDOCkkeCkq-Ckv-CkuBoJ4KSV4KWJ4KSyGgngpKvgpYvgpKgaEuCkruCli-CkrOCkvuCkh-CkshoS4KS44KSC4KSW4KWN4KSv4KS-GhLgpLjgpLDgpY3gpLXgpL_gpLgaG-CkueClh-CksuCljeCkquCksuCkvuCkh-CkqDK1AS9nb3RvP3VybD1DQUVTZkFIck96QVZFT0NlM01hdkhsTkIyaHhKcEM1U0kyQ2pKZWJDWWQ5VWc2bEd2QVVXcWVCVXdHY0NVUlNEckRoMmotMTFFeU9GcHVOdFgzYXRKNzdfLUEzRlk1bUdHQXE4NzljaWVKM3lHTUFSN3FySmhWOUZ5MUpNeUFNdDY5RTY3SWtzcTRfQmJkNThCU2xNempLTmRZdUd5UEdJaEttTG1keWxKRFk6KjxiPlpvbWF0bzwvYj4gfCBJbmRpYSA8Yj5DdXN0b21lciBDYXJlPC9iPkKhAVpvbWF0byBBbGwgSW5kaWEgTnVtYmVyKHMpOiA8Yj4wMTEtNDExNyAxODUyPC9iPiAoRm9yIEN1c3RvbWVyIFN1cHBvcnQsIE1vbi1GcmksIDlhbS02cG0pIFdlYnNpdGU6IE9mZmljaWFsIFdlYnNpdGUgaU9TIEFwcDogWm9tYXRvOiBGb29kIERlbGl2ZXJ5ICZhbXA7Jm5ic3A7Li4uIgIQAUgAWABoAA",
+    "about_page_serpapi_link": "https://serpapi.com/search.json?engine=google_about_this_result&google_domain=google.co.in&req_token=CrUBL2dvdG8_dXJsPUNBRVNmQUhyT3pBVkVPQ2UzTWF2SGxOQjJoeEpwQzVTSTJDakplYkNZZDlVZzZsR3ZBVVdxZUJVd0djQ1VSU0RyRGgyai0xMUV5T0ZwdU50WDNhdEo3N18tQTNGWTVtR0dBcTg3OWNpZUozeUdNQVI3cXJKaFY5RnkxSk15QU10NjlFNjdJa3NxNF9CYmQ1OEJTbE16aktOZFl1R3lQR0loS21MbWR5bEpEWRIEGgIIABrUBxIAGgAiACoAMgYIARICaW46AEIECAIQI0oAWgByAHoAgkCwBwgjEAAYACAAKjUKBnpvbWF0bxXiHJNAGhLgpJzgpYvgpK7gpL7gpJ_gpYsaEuCknOCli-CkruCliOCkn-CliypAChLgpJXgpLjgpY3gpJ_gpK7gpLAVAAAAABoIY3VzdG9tZXIaG-CkueClh-CksuCljeCkquCksuCkvuCkh-CkqCrqAQoM4KSV4KWH4KSv4KSwFQAAAAAaBGNhcmUaCmhlYWx0aGNhcmUaCXRvbGwgZnJlZRoY4KSV4KSC4KSq4KWN4KSy4KWH4KSC4KSfGhvgpJXgpYngpKjgpY3gpJ_gpYjgpJXgpY3gpJ8aGeCkleClieCksiDgpLjgpYfgpILgpJ_gpLAaD-CkluCljeCkr-CkvuCkshoW4KSf4KWL4KSyIOCkq-CljeCksOClgBoP4KSo4KSu4KWN4KSs4KSwGg_gpLngpYfgpLLgpY3gpKoaG-CkueClh-CksuCljeCkquCksuCkvuCkh-CkqCq3AQoM4KSo4KSC4KSs4KSwFQAAAAAaBm51bWJlchoJ4KSF4KSC4KSVGhLgpIfgpILgpKHgpL_gpK_gpL4aDOCkkeCkq-Ckv-CkuBoJ4KSV4KWJ4KSyGgngpKvgpYvgpKgaEuCkruCli-CkrOCkvuCkh-CkshoS4KS44KSC4KSW4KWN4KSv4KS-GhLgpLjgpLDgpY3gpLXgpL_gpLgaG-CkueClh-CksuCljeCkquCksuCkvuCkh-CkqDK1AS9nb3RvP3VybD1DQUVTZkFIck96QVZFT0NlM01hdkhsTkIyaHhKcEM1U0kyQ2pKZWJDWWQ5VWc2bEd2QVVXcWVCVXdHY0NVUlNEckRoMmotMTFFeU9GcHVOdFgzYXRKNzdfLUEzRlk1bUdHQXE4NzljaWVKM3lHTUFSN3FySmhWOUZ5MUpNeUFNdDY5RTY3SWtzcTRfQmJkNThCU2xNempLTmRZdUd5UEdJaEttTG1keWxKRFk6KjxiPlpvbWF0bzwvYj4gfCBJbmRpYSA8Yj5DdXN0b21lciBDYXJlPC9iPkKhAVpvbWF0byBBbGwgSW5kaWEgTnVtYmVyKHMpOiA8Yj4wMTEtNDExNyAxODUyPC9iPiAoRm9yIEN1c3RvbWVyIFN1cHBvcnQsIE1vbi1GcmksIDlhbS02cG0pIFdlYnNpdGU6IE9mZmljaWFsIFdlYnNpdGUgaU9TIEFwcDogWm9tYXRvOiBGb29kIERlbGl2ZXJ5ICZhbXA7Jm5ic3A7Li4uIgIQAUgAWABoAA",
+    "source": "India Customer Care"
+   },
+   {
+    "position": 9,
+    "title": "Beware – Stay safe from fake customer care number",
+    "link": "https://www.zomato.com/hi/beware-of-fraud",
+    "redirect_link": "https://www.google.co.in/url?sa=t&source=web&rct=j&opi=89978449&url=CAESYQHrOzAV30Tro8UVz6SvrQDCRQHZdGaLseGXJlka5weB-fCRuff9lqn_HFFKK4iCmduGy7bUpOGWZ8DMbybCl8_BZKXOLixfVvyxfkxhQVfkT7H25ly74E_06u8ltw1GOvI&ved=2ahUKEwiW0ajp14eXAxWwx-YEHaesAvEQFnoECBMQAQ&uoh=1",
+    "displayed_link": "https://www.zomato.com › ...",
+    "snippet": "Zomato does not have any customer care number and we never ask for any banking details like CVV, UPI, or PIN. Beware of fake numbers!",
+    "snippet_highlighted_words": [
+     "Zomato does not have any customer care number"
+    ],
+    "about_this_result": {
+     "source": {
+      "description": "Zomato does not have any customer care number and we never ask for any banking details like CVV, UPI, or PIN. Beware of fake numbers!",
+      "source_info_link": "https://www.zomato.com/hi/beware-of-fraud",
+      "icon": "https://serpapi.com/images/i/UklGRuwAAABXRUJQVlA4IOAAAABwBQCdASocABwAPtEutFooIagoGAEAGglsAJ0zWj_50BztOYUKajSUqY0nxN_2kmmnO3MgAP6l_pFa1HehfrmOhi8DDnkzYvfS2FA_2MNfDwf-Cq3uUgIr_vILjPrTCBf_jePStpEEESUD77kFWFF9hNgvOYS3TSekcDmUmzIOBGzqNsnrLX_9Kj31aZ7P-CCJ_f9c2MTTC99iz_-ZhAJ7GJ4jboK7Q-E_gBDJO95ASmnr3_tPsjeIePS_PzY21euI7uqBZlYTzB97Cr_NqBBIjBw2DMjP1w7wW3LQ_nQAAA.webp"
+     },
+     "languages": [
+      "hi"
+     ],
+     "regions": [
+      "IN"
+     ]
+    },
+    "about_page_link": "https://www.google.co.in/search/about-this-result?origin=www.google.com&req=CpEBL2dvdG8_dXJsPUNBRVNZUUhyT3pBVjMwVHJvOFVWejZTdnJRRENSUUhaZEdhTHNlR1hKbGthNXdlQi1mQ1J1ZmY5bHFuX0hGRktLNGlDbWR1R3k3YlVwT0dXWjhETWJ5YkNsOF9CWktYT0xpeGZWdnl4Zmt4aFFWZmtUN0gyNWx5NzRFXzA2dThsdHcxR092SRIEGgIIABrLBxICCAAaACIAKgAyBggBEgJpbjoAQgQIAhAjSgBaDggBEgp6b21hdG8uY29tcgB6AIJAlwcIIxAAGAAgACo1CgZ6b21hdG8V78HSQBoS4KSc4KWL4KSu4KS-4KSf4KWLGhLgpJzgpYvgpK7gpYjgpJ_gpYsqQAoS4KSV4KS44KWN4KSf4KSu4KSwFQAAAAAaCGN1c3RvbWVyGhvgpLngpYfgpLLgpY3gpKrgpLLgpL7gpIfgpKgq6gEKDOCkleClh-Ckr-CksBUAAAAAGgRjYXJlGgpoZWFsdGhjYXJlGgl0b2xsIGZyZWUaGOCkleCkguCkquCljeCksuClh-CkguCknxob4KSV4KWJ4KSo4KWN4KSf4KWI4KSV4KWN4KSfGhngpJXgpYngpLIg4KS44KWH4KSC4KSf4KSwGg_gpJbgpY3gpK_gpL7gpLIaFuCkn-Cli-CksiDgpKvgpY3gpLDgpYAaD-CkqOCkruCljeCkrOCksBoP4KS54KWH4KSy4KWN4KSqGhvgpLngpYfgpLLgpY3gpKrgpLLgpL7gpIfgpKgqtwEKDOCkqOCkguCkrOCksBUAAAAAGgZudW1iZXIaCeCkheCkguCklRoS4KSH4KSC4KSh4KS_4KSv4KS-GgzgpJHgpKvgpL_gpLgaCeCkleClieCkshoJ4KSr4KWL4KSoGhLgpK7gpYvgpKzgpL7gpIfgpLIaEuCkuOCkguCkluCljeCkr-CkvhoS4KS44KSw4KWN4KS14KS_4KS4GhvgpLngpYfgpLLgpY3gpKrgpLLgpL7gpIfgpKgykQEvZ290bz91cmw9Q0FFU1lRSHJPekFWMzBUcm84VVZ6NlN2clFEQ1JRSFpkR2FMc2VHWEpsa2E1d2VCLWZDUnVmZjlscW5fSEZGS0s0aUNtZHVHeTdiVXBPR1daOERNYnliQ2w4X0JaS1hPTGl4ZlZ2eXhma3hoUVZma1Q3SDI1bHk3NEVfMDZ1OGx0dzFHT3ZJOkpCZXdhcmUg4oCTIFN0YXkgc2FmZSBmcm9tIGZha2UgPGI-Y3VzdG9tZXIgY2FyZSBudW1iZXI8L2I-IC0gPGI-Wm9tYXRvPC9iPkKMATxiPlpvbWF0byBkb2VzIG5vdCBoYXZlIGFueSBjdXN0b21lciBjYXJlIG51bWJlcjwvYj4gYW5kIHdlIG5ldmVyIGFzayBmb3IgYW55IGJhbmtpbmcgZGV0YWlscyBsaWtlIENWViwgVVBJLCBvciBQSU4uIEJld2FyZSBvZiBmYWtlIG51bWJlcnMhIgIQAUgAWABoAA",
+    "about_page_serpapi_link": "https://serpapi.com/search.json?engine=google_about_this_result&google_domain=google.co.in&req_token=CpEBL2dvdG8_dXJsPUNBRVNZUUhyT3pBVjMwVHJvOFVWejZTdnJRRENSUUhaZEdhTHNlR1hKbGthNXdlQi1mQ1J1ZmY5bHFuX0hGRktLNGlDbWR1R3k3YlVwT0dXWjhETWJ5YkNsOF9CWktYT0xpeGZWdnl4Zmt4aFFWZmtUN0gyNWx5NzRFXzA2dThsdHcxR092SRIEGgIIABrLBxICCAAaACIAKgAyBggBEgJpbjoAQgQIAhAjSgBaDggBEgp6b21hdG8uY29tcgB6AIJAlwcIIxAAGAAgACo1CgZ6b21hdG8V78HSQBoS4KSc4KWL4KSu4KS-4KSf4KWLGhLgpJzgpYvgpK7gpYjgpJ_gpYsqQAoS4KSV4KS44KWN4KSf4KSu4KSwFQAAAAAaCGN1c3RvbWVyGhvgpLngpYfgpLLgpY3gpKrgpLLgpL7gpIfgpKgq6gEKDOCkleClh-Ckr-CksBUAAAAAGgRjYXJlGgpoZWFsdGhjYXJlGgl0b2xsIGZyZWUaGOCkleCkguCkquCljeCksuClh-CkguCknxob4KSV4KWJ4KSo4KWN4KSf4KWI4KSV4KWN4KSfGhngpJXgpYngpLIg4KS44KWH4KSC4KSf4KSwGg_gpJbgpY3gpK_gpL7gpLIaFuCkn-Cli-CksiDgpKvgpY3gpLDgpYAaD-CkqOCkruCljeCkrOCksBoP4KS54KWH4KSy4KWN4KSqGhvgpLngpYfgpLLgpY3gpKrgpLLgpL7gpIfgpKgqtwEKDOCkqOCkguCkrOCksBUAAAAAGgZudW1iZXIaCeCkheCkguCklRoS4KSH4KSC4KSh4KS_4KSv4KS-GgzgpJHgpKvgpL_gpLgaCeCkleClieCkshoJ4KSr4KWL4KSoGhLgpK7gpYvgpKzgpL7gpIfgpLIaEuCkuOCkguCkluCljeCkr-CkvhoS4KS44KSw4KWN4KS14KS_4KS4GhvgpLngpYfgpLLgpY3gpKrgpLLgpL7gpIfgpKgykQEvZ290bz91cmw9Q0FFU1lRSHJPekFWMzBUcm84VVZ6NlN2clFEQ1JRSFpkR2FMc2VHWEpsa2E1d2VCLWZDUnVmZjlscW5fSEZGS0s0aUNtZHVHeTdiVXBPR1daOERNYnliQ2w4X0JaS1hPTGl4ZlZ2eXhma3hoUVZma1Q3SDI1bHk3NEVfMDZ1OGx0dzFHT3ZJOkpCZXdhcmUg4oCTIFN0YXkgc2FmZSBmcm9tIGZha2UgPGI-Y3VzdG9tZXIgY2FyZSBudW1iZXI8L2I-IC0gPGI-Wm9tYXRvPC9iPkKMATxiPlpvbWF0byBkb2VzIG5vdCBoYXZlIGFueSBjdXN0b21lciBjYXJlIG51bWJlcjwvYj4gYW5kIHdlIG5ldmVyIGFzayBmb3IgYW55IGJhbmtpbmcgZGV0YWlscyBsaWtlIENWViwgVVBJLCBvciBQSU4uIEJld2FyZSBvZiBmYWtlIG51bWJlcnMhIgIQAUgAWABoAA",
+    "source": "Zomato"
+   },
+   {
+    "position": 10,
+    "title": "Food Delivery 24X7, Raj Nagar Extension, Ghaziabad",
+    "link": "https://www.zomato.com/ncr/food-delivery-24x7-raj-nagar-extension-ghaziabad",
+    "redirect_link": "https://www.google.co.in/url?sa=t&source=web&rct=j&opi=89978449&url=CAESgwEB6zswFYS3gbn85ypDL2-NPErNBiCL4hhbvm6BLdCWonOOVh9lCKawcw2jdO6Ddm163K4vKrYLq3oMGqoYlrC8IGt5QNecobhOlsqAI0GXIbuF7puwxFaIFLrLUQO5fj5-z4q3tvFsT1-2SFH0-pcmsfJ9wbzdvgYKSncd32DGX_ocaA&ved=2ahUKEwiW0ajp14eXAxWwx-YEHaesAvEQFnoECBAQAQ&uoh=1",
+    "displayed_link": "https://www.zomato.com › ...",
+    "snippet": "Tap a number to call. +918287546312. TRY THE ZOMATO APP. Upto 50% off and free delivery on your first order. Switch to the app for exclusive discounts, live ...",
+    "snippet_highlighted_words": [
+     "number",
+     "ZOMATO"
+    ],
+    "about_this_result": {
+     "source": {
+      "description": "Tap a number to call. +918287546312. TRY THE ZOMATO APP. Upto 50% off and free delivery on your first order. Switch to the app for exclusive discounts, live ...",
+      "source_info_link": "https://www.zomato.com/ncr/food-delivery-24x7-raj-nagar-extension-ghaziabad",
+      "icon": "https://serpapi.com/images/i/UklGRuwAAABXRUJQVlA4IOAAAABwBQCdASocABwAPtEutFooIagoGAEAGglsAJ0zWj_50BztOYUKajSUqY0nxN_2kmmnO3MgAP6l_pFa1HehfrmOhi8DDnkzYvfS2FA_2MNfDwf-Cq3uUgIr_vILjPrTCBf_jePStpEEESUD77kFWFF9hNgvOYS3TSekcDmUmzIOBGzqNsnrLX_9Kj31aZ7P-CCJ_f9c2MTTC99iz_-ZhAJ7GJ4jboK7Q-E_gBDJO95ASmnr3_tPsjeIePS_PzY21euI7uqBZlYTzB97Cr_NqBBIjBw2DMjP1w7wW3LQ_nQAAA.webp"
+     },
+     "languages": [
+      "hi"
+     ],
+     "regions": [
+      "IN"
+     ]
+    },
+    "about_page_link": "https://www.google.co.in/search/about-this-result?origin=www.google.com&req=CsABL2dvdG8_dXJsPUNBRVNnd0VCNnpzd0ZZUzNnYm44NXlwREwyLU5QRXJOQmlDTDRoaGJ2bTZCTGRDV29uT09WaDlsQ0thd2N3MmpkTzZEZG0xNjNLNHZLcllMcTNvTUdxb1lsckM4SUd0NVFOZWNvYmhPbHNxQUkwR1hJYnVGN3B1d3hGYUlGTHJMVVFPNWZqNS16NHEzdHZGc1QxLTJTRkgwLXBjbXNmSjl3YnpkdmdZS1NuY2QzMkRHWF9vY2FBEgQaAggAGpcIEgAaACIAKgAyBggBEgJpbjoAQgQIAhAjSgBaDggBEgp6b21hdG8uY29tcgB6AIJA5QcIIxAAGAAgACo1CgZ6b21hdG8VEnMBQRoS4KSc4KWL4KSu4KS-4KSf4KWLGhLgpJzgpYvgpK7gpYjgpJ_gpYsqQAoS4KSV4KS44KWN4KSf4KSu4KSwFQAAAAAaCGN1c3RvbWVyGhvgpLngpYfgpLLgpY3gpKrgpLLgpL7gpIfgpKgq6gEKDOCkleClh-Ckr-CksBUAAAAAGgRjYXJlGgpoZWFsdGhjYXJlGgl0b2xsIGZyZWUaGOCkleCkguCkquCljeCksuClh-CkguCknxob4KSV4KWJ4KSo4KWN4KSf4KWI4KSV4KWN4KSfGhngpJXgpYngpLIg4KS44KWH4KSC4KSf4KSwGg_gpJbgpY3gpK_gpL7gpLIaFuCkn-Cli-CksiDgpKvgpY3gpLDgpYAaD-CkqOCkruCljeCkrOCksBoP4KS54KWH4KSy4KWN4KSqGhvgpLngpYfgpLLgpY3gpKrgpLLgpL7gpIfgpKgqtwEKDOCkqOCkguCkrOCksBUAAAAAGgZudW1iZXIaCeCkheCkguCklRoS4KSH4KSC4KSh4KS_4KSv4KS-GgzgpJHgpKvgpL_gpLgaCeCkleClieCkshoJ4KSr4KWL4KSoGhLgpK7gpYvgpKzgpL7gpIfgpLIaEuCkuOCkguCkluCljeCkr-CkvhoS4KS44KSw4KWN4KS14KS_4KS4GhvgpLngpYfgpLLgpY3gpKrgpLLgpL7gpIfgpKgywAEvZ290bz91cmw9Q0FFU2d3RUI2enN3RllTM2dibjg1eXBETDItTlBFck5CaUNMNGhoYnZtNkJMZENXb25PT1ZoOWxDS2F3Y3cyamRPNkRkbTE2M0s0dktyWUxxM29NR3FvWWxyQzhJR3Q1UU5lY29iaE9sc3FBSTBHWElidUY3cHV3eEZhSUZMckxVUU81Zmo1LXo0cTN0dkZzVDEtMlNGSDAtcGNtc2ZKOXdiemR2Z1lLU25jZDMyREdYX29jYUE6QkZvb2QgRGVsaXZlcnkgMjRYNywgUmFqIE5hZ2FyIEV4dGVuc2lvbiwgR2hhemlhYmFkIC0gPGI-Wm9tYXRvPC9iPkKzAVRhcCBhIDxiPm51bWJlcjwvYj4gdG8gY2FsbC4gKzkxODI4NzU0NjMxMi4gVFJZIFRIRSA8Yj5aT01BVE88L2I-IEFQUC4gVXB0byA1MCUgb2ZmIGFuZCBmcmVlIGRlbGl2ZXJ5IG9uIHlvdXIgZmlyc3Qgb3JkZXIuIFN3aXRjaCB0byB0aGUgYXBwIGZvciBleGNsdXNpdmUgZGlzY291bnRzLCBsaXZlJm5ic3A7Li4uIgIQAUgAWABoAA",
+    "about_page_serpapi_link": "https://serpapi.com/search.json?engine=google_about_this_result&google_domain=google.co.in&req_token=CsABL2dvdG8_dXJsPUNBRVNnd0VCNnpzd0ZZUzNnYm44NXlwREwyLU5QRXJOQmlDTDRoaGJ2bTZCTGRDV29uT09WaDlsQ0thd2N3MmpkTzZEZG0xNjNLNHZLcllMcTNvTUdxb1lsckM4SUd0NVFOZWNvYmhPbHNxQUkwR1hJYnVGN3B1d3hGYUlGTHJMVVFPNWZqNS16NHEzdHZGc1QxLTJTRkgwLXBjbXNmSjl3YnpkdmdZS1NuY2QzMkRHWF9vY2FBEgQaAggAGpcIEgAaACIAKgAyBggBEgJpbjoAQgQIAhAjSgBaDggBEgp6b21hdG8uY29tcgB6AIJA5QcIIxAAGAAgACo1CgZ6b21hdG8VEnMBQRoS4KSc4KWL4KSu4KS-4KSf4KWLGhLgpJzgpYvgpK7gpYjgpJ_gpYsqQAoS4KSV4KS44KWN4KSf4KSu4KSwFQAAAAAaCGN1c3RvbWVyGhvgpLngpYfgpLLgpY3gpKrgpLLgpL7gpIfgpKgq6gEKDOCkleClh-Ckr-CksBUAAAAAGgRjYXJlGgpoZWFsdGhjYXJlGgl0b2xsIGZyZWUaGOCkleCkguCkquCljeCksuClh-CkguCknxob4KSV4KWJ4KSo4KWN4KSf4KWI4KSV4KWN4KSfGhngpJXgpYngpLIg4KS44KWH4KSC4KSf4KSwGg_gpJbgpY3gpK_gpL7gpLIaFuCkn-Cli-CksiDgpKvgpY3gpLDgpYAaD-CkqOCkruCljeCkrOCksBoP4KS54KWH4KSy4KWN4KSqGhvgpLngpYfgpLLgpY3gpKrgpLLgpL7gpIfgpKgqtwEKDOCkqOCkguCkrOCksBUAAAAAGgZudW1iZXIaCeCkheCkguCklRoS4KSH4KSC4KSh4KS_4KSv4KS-GgzgpJHgpKvgpL_gpLgaCeCkleClieCkshoJ4KSr4KWL4KSoGhLgpK7gpYvgpKzgpL7gpIfgpLIaEuCkuOCkguCkluCljeCkr-CkvhoS4KS44KSw4KWN4KS14KS_4KS4GhvgpLngpYfgpLLgpY3gpKrgpLLgpL7gpIfgpKgywAEvZ290bz91cmw9Q0FFU2d3RUI2enN3RllTM2dibjg1eXBETDItTlBFck5CaUNMNGhoYnZtNkJMZENXb25PT1ZoOWxDS2F3Y3cyamRPNkRkbTE2M0s0dktyWUxxM29NR3FvWWxyQzhJR3Q1UU5lY29iaE9sc3FBSTBHWElidUY3cHV3eEZhSUZMckxVUU81Zmo1LXo0cTN0dkZzVDEtMlNGSDAtcGNtc2ZKOXdiemR2Z1lLU25jZDMyREdYX29jYUE6QkZvb2QgRGVsaXZlcnkgMjRYNywgUmFqIE5hZ2FyIEV4dGVuc2lvbiwgR2hhemlhYmFkIC0gPGI-Wm9tYXRvPC9iPkKzAVRhcCBhIDxiPm51bWJlcjwvYj4gdG8gY2FsbC4gKzkxODI4NzU0NjMxMi4gVFJZIFRIRSA8Yj5aT01BVE88L2I-IEFQUC4gVXB0byA1MCUgb2ZmIGFuZCBmcmVlIGRlbGl2ZXJ5IG9uIHlvdXIgZmlyc3Qgb3JkZXIuIFN3aXRjaCB0byB0aGUgYXBwIGZvciBleGNsdXNpdmUgZGlzY291bnRzLCBsaXZlJm5ic3A7Li4uIgIQAUgAWABoAA",
+    "source": "Zomato"
+   }
+  ],
+  "related_searches": [
+   {
+    "block_position": 1,
+    "query": "Zomato refund customer care number",
+    "link": "https://www.google.co.in/search?sca_esv=c9af837ca623c2e6&gl=in&hl=hi&q=Zomato+refund+customer+care+number&sa=X&ved=2ahUKEwiW0ajp14eXAxWwx-YEHaesAvEQ1QJ6BAgKEAE",
+    "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.co.in&hl=hi&location=Mumbai%2CMaharashtra%2CIndia&q=Zomato+refund+customer+care+number"
+   },
+   {
+    "block_position": 1,
+    "query": "Zomato toll free number India 24/7",
+    "link": "https://www.google.co.in/search?sca_esv=c9af837ca623c2e6&gl=in&hl=hi&q=Zomato+toll+free+number+India+24/7&sa=X&ved=2ahUKEwiW0ajp14eXAxWwx-YEHaesAvEQ1QJ6BAggEAE",
+    "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.co.in&hl=hi&location=Mumbai%2CMaharashtra%2CIndia&q=Zomato+toll+free+number+India+24%2F7"
+   },
+   {
+    "block_position": 1,
+    "query": "Zomato helpline number India",
+    "link": "https://www.google.co.in/search?sca_esv=c9af837ca623c2e6&gl=in&hl=hi&q=Zomato+helpline+number+India&sa=X&ved=2ahUKEwiW0ajp14eXAxWwx-YEHaesAvEQ1QJ6BAgdEAE",
+    "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.co.in&hl=hi&location=Mumbai%2CMaharashtra%2CIndia&q=Zomato+helpline+number+India"
+   },
+   {
+    "block_position": 1,
+    "query": "Zomato phone number",
+    "link": "https://www.google.co.in/search?sca_esv=c9af837ca623c2e6&gl=in&hl=hi&q=Zomato+phone+number&sa=X&ved=2ahUKEwiW0ajp14eXAxWwx-YEHaesAvEQ1QJ6BAgaEAE",
+    "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.co.in&hl=hi&location=Mumbai%2CMaharashtra%2CIndia&q=Zomato+phone+number"
+   },
+   {
+    "block_position": 1,
+    "query": "Zomato customer care justdial Number",
+    "link": "https://www.google.co.in/search?sca_esv=c9af837ca623c2e6&gl=in&hl=hi&q=Zomato+customer+care+justdial+Number&sa=X&ved=2ahUKEwiW0ajp14eXAxWwx-YEHaesAvEQ1QJ6BAgYEAE",
+    "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.co.in&hl=hi&location=Mumbai%2CMaharashtra%2CIndia&q=Zomato+customer+care+justdial+Number"
+   },
+   {
+    "block_position": 1,
+    "query": "Zomato delivery partner customer care number",
+    "link": "https://www.google.co.in/search?sca_esv=c9af837ca623c2e6&gl=in&hl=hi&q=Zomato+delivery+partner+customer+care+number&sa=X&ved=2ahUKEwiW0ajp14eXAxWwx-YEHaesAvEQ1QJ6BAgOEAE",
+    "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.co.in&hl=hi&location=Mumbai%2CMaharashtra%2CIndia&q=Zomato+delivery+partner+customer+care+number"
+   },
+   {
+    "block_position": 1,
+    "query": "Zomato कस्टमर केयर नंबर नियर me",
+    "link": "https://www.google.co.in/search?sca_esv=c9af837ca623c2e6&gl=in&hl=hi&q=Zomato+%E0%A4%95%E0%A4%B8%E0%A5%8D%E0%A4%9F%E0%A4%AE%E0%A4%B0+%E0%A4%95%E0%A5%87%E0%A4%AF%E0%A4%B0+%E0%A4%A8%E0%A4%82%E0%A4%AC%E0%A4%B0+%E0%A4%A8%E0%A4%BF%E0%A4%AF%E0%A4%B0+me&sa=X&ved=2ahUKEwiW0ajp14eXAxWwx-YEHaesAvEQ1QJ6BAgMEAE",
+    "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.co.in&hl=hi&location=Mumbai%2CMaharashtra%2CIndia&q=Zomato+%E0%A4%95%E0%A4%B8%E0%A5%8D%E0%A4%9F%E0%A4%AE%E0%A4%B0+%E0%A4%95%E0%A5%87%E0%A4%AF%E0%A4%B0+%E0%A4%A8%E0%A4%82%E0%A4%AC%E0%A4%B0+%E0%A4%A8%E0%A4%BF%E0%A4%AF%E0%A4%B0+me"
+   },
+   {
+    "block_position": 1,
+    "query": "Zomato toll free number India 24/7 Delhi",
+    "link": "https://www.google.co.in/search?sca_esv=c9af837ca623c2e6&gl=in&hl=hi&q=Zomato+toll+free+number+India+24/7+Delhi&sa=X&ved=2ahUKEwiW0ajp14eXAxWwx-YEHaesAvEQ1QJ6BAgLEAE",
+    "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.co.in&hl=hi&location=Mumbai%2CMaharashtra%2CIndia&q=Zomato+toll+free+number+India+24%2F7+Delhi"
+   }
+  ],
+  "pagination": {
+   "current": 1,
+   "next": "https://www.google.co.in/search?q=Zomato+%E0%A4%95%E0%A4%B8%E0%A5%8D%E0%A4%9F%E0%A4%AE%E0%A4%B0+%E0%A4%95%E0%A5%87%E0%A4%AF%E0%A4%B0+%E0%A4%A8%E0%A4%82%E0%A4%AC%E0%A4%B0&sca_esv=c9af837ca623c2e6&gl=in&hl=hi&ei=Xla1apaqObCPm9cPp9mKiA8&start=10&sa=N&sstk=AS6-VmKBqoazuCY94D0ame5g8r1gkPlGlFmUIGSMPexCE8PON2Ov11YssSyd95CeanIpUiWE8upZL35kmiXfiCILAowz6kYQMy1S0Q&ved=2ahUKEwiW0ajp14eXAxWwx-YEHaesAvEQ8NMDegQISBAM",
+   "other_pages": {
+    "2": "https://www.google.co.in/search?q=Zomato+%E0%A4%95%E0%A4%B8%E0%A5%8D%E0%A4%9F%E0%A4%AE%E0%A4%B0+%E0%A4%95%E0%A5%87%E0%A4%AF%E0%A4%B0+%E0%A4%A8%E0%A4%82%E0%A4%AC%E0%A4%B0&sca_esv=c9af837ca623c2e6&gl=in&hl=hi&ei=Xla1apaqObCPm9cPp9mKiA8&start=10&sa=N&sstk=AS6-VmKBqoazuCY94D0ame5g8r1gkPlGlFmUIGSMPexCE8PON2Ov11YssSyd95CeanIpUiWE8upZL35kmiXfiCILAowz6kYQMy1S0Q&ved=2ahUKEwiW0ajp14eXAxWwx-YEHaesAvEQ8tMDegQISBAE",
+    "3": "https://www.google.co.in/search?q=Zomato+%E0%A4%95%E0%A4%B8%E0%A5%8D%E0%A4%9F%E0%A4%AE%E0%A4%B0+%E0%A4%95%E0%A5%87%E0%A4%AF%E0%A4%B0+%E0%A4%A8%E0%A4%82%E0%A4%AC%E0%A4%B0&sca_esv=c9af837ca623c2e6&gl=in&hl=hi&ei=Xla1apaqObCPm9cPp9mKiA8&start=20&sa=N&sstk=AS6-VmKBqoazuCY94D0ame5g8r1gkPlGlFmUIGSMPexCE8PON2Ov11YssSyd95CeanIpUiWE8upZL35kmiXfiCILAowz6kYQMy1S0Q&ved=2ahUKEwiW0ajp14eXAxWwx-YEHaesAvEQ8tMDegQISBAG",
+    "4": "https://www.google.co.in/search?q=Zomato+%E0%A4%95%E0%A4%B8%E0%A5%8D%E0%A4%9F%E0%A4%AE%E0%A4%B0+%E0%A4%95%E0%A5%87%E0%A4%AF%E0%A4%B0+%E0%A4%A8%E0%A4%82%E0%A4%AC%E0%A4%B0&sca_esv=c9af837ca623c2e6&gl=in&hl=hi&ei=Xla1apaqObCPm9cPp9mKiA8&start=30&sa=N&sstk=AS6-VmKBqoazuCY94D0ame5g8r1gkPlGlFmUIGSMPexCE8PON2Ov11YssSyd95CeanIpUiWE8upZL35kmiXfiCILAowz6kYQMy1S0Q&ved=2ahUKEwiW0ajp14eXAxWwx-YEHaesAvEQ8tMDegQISBAI",
+    "5": "https://www.google.co.in/search?q=Zomato+%E0%A4%95%E0%A4%B8%E0%A5%8D%E0%A4%9F%E0%A4%AE%E0%A4%B0+%E0%A4%95%E0%A5%87%E0%A4%AF%E0%A4%B0+%E0%A4%A8%E0%A4%82%E0%A4%AC%E0%A4%B0&sca_esv=c9af837ca623c2e6&gl=in&hl=hi&ei=Xla1apaqObCPm9cPp9mKiA8&start=40&sa=N&sstk=AS6-VmKBqoazuCY94D0ame5g8r1gkPlGlFmUIGSMPexCE8PON2Ov11YssSyd95CeanIpUiWE8upZL35kmiXfiCILAowz6kYQMy1S0Q&ved=2ahUKEwiW0ajp14eXAxWwx-YEHaesAvEQ8tMDegQISBAK"
+   }
+  },
+  "serpapi_pagination": {
+   "current": 1,
+   "next_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.co.in&hl=hi&location=Mumbai%2CMaharashtra%2CIndia&q=Zomato+%E0%A4%95%E0%A4%B8%E0%A5%8D%E0%A4%9F%E0%A4%AE%E0%A4%B0+%E0%A4%95%E0%A5%87%E0%A4%AF%E0%A4%B0+%E0%A4%A8%E0%A4%82%E0%A4%AC%E0%A4%B0&start=10",
+   "next": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.co.in&hl=hi&location=Mumbai%2CMaharashtra%2CIndia&q=Zomato+%E0%A4%95%E0%A4%B8%E0%A5%8D%E0%A4%9F%E0%A4%AE%E0%A4%B0+%E0%A4%95%E0%A5%87%E0%A4%AF%E0%A4%B0+%E0%A4%A8%E0%A4%82%E0%A4%AC%E0%A4%B0&start=10",
+   "other_pages": {
+    "2": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.co.in&hl=hi&location=Mumbai%2CMaharashtra%2CIndia&q=Zomato+%E0%A4%95%E0%A4%B8%E0%A5%8D%E0%A4%9F%E0%A4%AE%E0%A4%B0+%E0%A4%95%E0%A5%87%E0%A4%AF%E0%A4%B0+%E0%A4%A8%E0%A4%82%E0%A4%AC%E0%A4%B0&start=10",
+    "3": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.co.in&hl=hi&location=Mumbai%2CMaharashtra%2CIndia&q=Zomato+%E0%A4%95%E0%A4%B8%E0%A5%8D%E0%A4%9F%E0%A4%AE%E0%A4%B0+%E0%A4%95%E0%A5%87%E0%A4%AF%E0%A4%B0+%E0%A4%A8%E0%A4%82%E0%A4%AC%E0%A4%B0&start=20",
+    "4": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.co.in&hl=hi&location=Mumbai%2CMaharashtra%2CIndia&q=Zomato+%E0%A4%95%E0%A4%B8%E0%A5%8D%E0%A4%9F%E0%A4%AE%E0%A4%B0+%E0%A4%95%E0%A5%87%E0%A4%AF%E0%A4%B0+%E0%A4%A8%E0%A4%82%E0%A4%AC%E0%A4%B0&start=30",
+    "5": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.co.in&hl=hi&location=Mumbai%2CMaharashtra%2CIndia&q=Zomato+%E0%A4%95%E0%A4%B8%E0%A5%8D%E0%A4%9F%E0%A4%AE%E0%A4%B0+%E0%A4%95%E0%A5%87%E0%A4%AF%E0%A4%B0+%E0%A4%A8%E0%A4%82%E0%A4%AC%E0%A4%B0&start=40"
+   }
+  }
+ }
+}

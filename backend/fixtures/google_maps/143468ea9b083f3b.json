@@ -2,7 +2,7 @@
  "_fixture": {
   "kind": "synthetic",
   "note": "Maps · Delhi · SBI customer care",
-  "generated_at": "2026-09-23T20:53:40+00:00",
+  "generated_at": "2026-09-24T16:57:21+00:00",
   "params": {
    "engine": "google_maps",
    "type": "search",
@@ -16,11 +16,11 @@
   "search_metadata": {
    "id": "synthetic-143468ea9b083f3b",
    "status": "Success",
-   "created_at": "2026-09-23 20:53:40 UTC",
-   "processed_at": "2026-09-23 20:53:40 UTC",
+   "created_at": "2026-09-24 16:57:21 UTC",
+   "processed_at": "2026-09-24 16:57:21 UTC",
    "json_endpoint": null,
    "raw_html_file": null,
-   "total_time_taken": 1.11
+   "total_time_taken": 1.22
   },
   "search_parameters": {
    "engine": "google_maps",
@@ -35,20 +35,39 @@
     "position": 1,
     "title": "SBI - Delhi Main Branch",
     "place_id": "synthetic-sbi-delhi-branch",
-    "data_id": "0x1afd8b681ab5:0x57f67a7b4d80",
+    "data_id": "0x112bc0afd32e:0x8a9ed1a101a0",
     "rating": 3.5,
-    "reviews": 393,
+    "reviews": 241,
     "type": "Bank",
     "types": [
      "Bank"
     ],
     "address": "MG Road, Delhi",
     "gps_coordinates": {
-     "latitude": 24.064398466779032,
-     "longitude": 72.3190552346569
+     "latitude": 23.91345805338198,
+     "longitude": 79.03415635234659
     },
     "phone": "1800 1234",
     "website": "https://www.sbi.co.in/"
+   },
+   {
+    "position": 1,
+    "title": "SBI Customer Care Number",
+    "place_id": "synthetic-sbi-delhi-care",
+    "data_id": "0x76bd5c31df0:0x4baf9046f7ae",
+    "rating": 5.0,
+    "reviews": 2,
+    "type": "Customer service",
+    "types": [
+     "Customer service"
+    ],
+    "address": "Sector 12, Delhi",
+    "gps_coordinates": {
+     "latitude": 20.296418223803904,
+     "longitude": 81.09954425341226
+    },
+    "phone": "+91 74110 29385",
+    "unclaimed_listing": true
    }
   ]
  }

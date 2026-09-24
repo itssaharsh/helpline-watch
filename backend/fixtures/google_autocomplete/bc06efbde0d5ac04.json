@@ -1,8 +1,7 @@
 {
  "_fixture": {
-  "kind": "synthetic",
-  "note": "autocomplete for Zomato",
-  "generated_at": "2026-09-23T20:53:40+00:00",
+  "kind": "recorded",
+  "recorded_at": "2026-09-24T16:56:43+00:00",
   "params": {
    "engine": "google_autocomplete",
    "q": "Zomato customer care",
@@ -12,13 +11,16 @@
  },
  "response": {
   "search_metadata": {
-   "id": "synthetic-bc06efbde0d5ac04",
+   "id": "6ab5564a054e5f6c54910bf8",
    "status": "Success",
-   "created_at": "2026-09-23 20:53:40 UTC",
-   "processed_at": "2026-09-23 20:53:40 UTC",
-   "json_endpoint": null,
-   "raw_html_file": null,
-   "total_time_taken": 1.63
+   "json_endpoint": "https://serpapi.com/searches/aFzwXBNI_CYMtEx4Fzex5qdZdSjkXdgl_EJfCah9dSo/6ab5564a054e5f6c54910bf8.json",
+   "markdown_endpoint": "https://serpapi.com/searches/aFzwXBNI_CYMtEx4Fzex5qdZdSjkXdgl_EJfCah9dSo/6ab5564a054e5f6c54910bf8.md",
+   "created_at": "2026-09-24 16:56:42 UTC",
+   "processed_at": "2026-09-24 16:56:42 UTC",
+   "google_autocomplete_url": "https://www.google.com/complete/search?q=Zomato+customer+care&gl=in&hl=en&client=chrome&dpr=1",
+   "raw_html_file": "https://serpapi.com/searches/aFzwXBNI_CYMtEx4Fzex5qdZdSjkXdgl_EJfCah9dSo/6ab5564a054e5f6c54910bf8.html",
+   "prettify_html_file": "https://serpapi.com/searches/aFzwXBNI_CYMtEx4Fzex5qdZdSjkXdgl_EJfCah9dSo/6ab5564a054e5f6c54910bf8.prettify",
+   "total_time_taken": 0.66
   },
   "search_parameters": {
    "engine": "google_autocomplete",
@@ -26,32 +28,101 @@
    "gl": "in",
    "hl": "en"
   },
+  "search_information": {
+   "autocomplete_results_state": "Showing completion results."
+  },
   "suggestions": [
    {
-    "value": "Zomato customer care number",
-    "relevance": 1200,
-    "type": "QUERY"
+    "value": "zomato customer care number",
+    "relevance": 1250,
+    "type": "QUERY",
+    "serpapi_link": "https://serpapi.com/search.json?engine=google_autocomplete&gl=in&hl=en&q=zomato+customer+care+number"
    },
    {
-    "value": "Zomato customer care number toll free",
-    "relevance": 1100,
-    "type": "QUERY"
+    "value": "zomato customer care number 24x7 near me",
+    "relevance": 601,
+    "type": "QUERY",
+    "serpapi_link": "https://serpapi.com/search.json?engine=google_autocomplete&gl=in&hl=en&q=zomato+customer+care+number+24x7+near+me"
    },
    {
-    "value": "Zomato helpline number 24x7",
-    "relevance": 1000,
-    "type": "QUERY"
+    "value": "zomato customer care number delhi",
+    "relevance": 600,
+    "type": "QUERY",
+    "serpapi_link": "https://serpapi.com/search.json?engine=google_autocomplete&gl=in&hl=en&q=zomato+customer+care+number+delhi"
    },
    {
-    "value": "Zomato complaint number",
-    "relevance": 900,
-    "type": "QUERY"
+    "value": "zomato customer care number near me",
+    "relevance": 561,
+    "type": "QUERY",
+    "serpapi_link": "https://serpapi.com/search.json?engine=google_autocomplete&gl=in&hl=en&q=zomato+customer+care+number+near+me"
    },
    {
-    "value": "Zomato customer care email",
-    "relevance": 800,
-    "type": "QUERY"
+    "value": "zomato customer care number hyderabad",
+    "relevance": 560,
+    "type": "QUERY",
+    "serpapi_link": "https://serpapi.com/search.json?engine=google_autocomplete&gl=in&hl=en&q=zomato+customer+care+number+hyderabad"
+   },
+   {
+    "value": "zomato customer care number india 24/7",
+    "relevance": 559,
+    "type": "QUERY",
+    "serpapi_link": "https://serpapi.com/search.json?engine=google_autocomplete&gl=in&hl=en&q=zomato+customer+care+number+india+24%2F7"
+   },
+   {
+    "value": "zomato customer care number 24x7",
+    "relevance": 558,
+    "type": "QUERY",
+    "serpapi_link": "https://serpapi.com/search.json?engine=google_autocomplete&gl=in&hl=en&q=zomato+customer+care+number+24x7"
+   },
+   {
+    "value": "zomato customer care number bangalore",
+    "relevance": 557,
+    "type": "QUERY",
+    "serpapi_link": "https://serpapi.com/search.json?engine=google_autocomplete&gl=in&hl=en&q=zomato+customer+care+number+bangalore"
+   },
+   {
+    "value": "zomato customer care toll free number",
+    "relevance": 556,
+    "type": "QUERY",
+    "serpapi_link": "https://serpapi.com/search.json?engine=google_autocomplete&gl=in&hl=en&q=zomato+customer+care+toll+free+number"
+   },
+   {
+    "value": "zomato customer care number pune",
+    "relevance": 555,
+    "type": "QUERY",
+    "serpapi_link": "https://serpapi.com/search.json?engine=google_autocomplete&gl=in&hl=en&q=zomato+customer+care+number+pune"
+   },
+   {
+    "value": "zomato customer care number mumbai",
+    "relevance": 554,
+    "type": "QUERY",
+    "serpapi_link": "https://serpapi.com/search.json?engine=google_autocomplete&gl=in&hl=en&q=zomato+customer+care+number+mumbai"
+   },
+   {
+    "value": "zomato customer care number chennai",
+    "relevance": 553,
+    "type": "QUERY",
+    "serpapi_link": "https://serpapi.com/search.json?engine=google_autocomplete&gl=in&hl=en&q=zomato+customer+care+number+chennai"
+   },
+   {
+    "value": "zomato customer care number hyderabad 24x7",
+    "relevance": 552,
+    "type": "QUERY",
+    "serpapi_link": "https://serpapi.com/search.json?engine=google_autocomplete&gl=in&hl=en&q=zomato+customer+care+number+hyderabad+24x7"
+   },
+   {
+    "value": "zomato customer care number delhi delhi 24x7",
+    "relevance": 551,
+    "type": "QUERY",
+    "serpapi_link": "https://serpapi.com/search.json?engine=google_autocomplete&gl=in&hl=en&q=zomato+customer+care+number+delhi+delhi+24x7"
+   },
+   {
+    "value": "zomato customer care number bangalore 24x7",
+    "relevance": 550,
+    "type": "QUERY",
+    "serpapi_link": "https://serpapi.com/search.json?engine=google_autocomplete&gl=in&hl=en&q=zomato+customer+care+number+bangalore+24x7"
    }
-  ]
+  ],
+  "verbatim_relevance": 1300
  }
 }

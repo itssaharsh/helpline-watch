@@ -158,3 +158,38 @@ def test_snapshot_keeps_page_order_and_locates_numbers():
     assert snap.items[1].numbers[0]["norm"] == "+919123456789"
     assert snap.items[4].numbers[0]["norm"] == "180016001600"
     assert snap.archive_link is None  # synthetic
+
+
+def test_reverse_hit_on_the_brands_own_domain_pulls_a_suspect_back_to_review():
+    # HDFC's WhatsApp number republished by a third party: the number itself googles to hdfc.bank.in
+    data = {"organic_results": [{"title": "HDFC customer care numbers", "link": "https://indiacustomercare.com/x", "snippet": "HDFC Bank customer care: 70700 22222 (WhatsApp banking, 24x7)"}]}
+    obs = parse_google_search(result("google", data), "delhi")
+    [finding] = classify(BRAND, obs)
+    assert finding.verdict == Verdict.FAKE  # mobile presented as a regulated brand's helpline
+    hits = parse_reverse(result("google", {"organic_results": [
+        {"title": "Chat Banking", "link": "https://www.hdfcbank.com/chat-banking", "snippet": "Save +91 7070022222 in your contacts"},
+        {"title": "Truecaller", "link": "https://www.truecaller.com/x", "snippet": "who called"},
+    ]}, q='"70700 22222"'))
+    updated = apply_reverse(finding, hits, BRAND.official_domains)
+    assert updated.verdict == Verdict.REVIEW
+    assert any(s.code == "REVERSE_ON_OFFICIAL_DOMAIN" and s.weight < 0 for s in updated.signals)
+    assert updated.score >= 0
+
+
+def test_mobile_on_a_user_created_page_of_the_brands_own_domain_is_not_vouched_for():
+    zomato = Brand(id="zomato", name="Zomato", category="food_delivery", regulated=False, official_domains=["zomato.com"], official_numbers=[])
+    data = {"organic_results": [
+        {"title": "Delivery 24x7, Garia, Kolkata", "link": "https://www.zomato.com/kolkata/delivery-24x7-garia", "snippet": "zomato customer care number. Tap a number to call +918240511047"},
+        {"title": "Zomato - Restaurant Partner", "link": "https://www.zomato.com/partners/login", "snippet": "Contact Us +91-97-38383838"},
+    ]}
+    obs = parse_google_search(result("google", data, q="Zomato customer care number"), "kolkata")
+    by = {f.number_norm: f for f in classify(zomato, obs)}
+    listing = by["+918240511047"]
+    assert listing.verdict == Verdict.FAKE and any(s.code == "UGC_ON_OFFICIAL_DOMAIN" for s in listing.signals)
+    assert by["+919738383838"].verdict == Verdict.OFFICIAL_UNLISTED
+
+
+def test_maps_house_number_does_not_extend_the_phone():
+    data = {"local_results": [{"title": "HDFC Bank", "phone": "+91 1800 1601", "address": "10/3/0151, Entrenchment Rd, Secunderabad", "reviews": 40, "rating": 4.1, "place_id": "p1"}]}
+    obs = parse_google_maps(result("google_maps", data), "hyderabad")
+    assert [o.number_norm for o in obs] == ["18001601"]

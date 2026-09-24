@@ -2,7 +2,7 @@
  "_fixture": {
   "kind": "synthetic",
   "note": "reverse lookup +91 74110 29385",
-  "generated_at": "2026-09-23T20:53:40+00:00",
+  "generated_at": "2026-09-24T16:57:21+00:00",
   "params": {
    "engine": "google",
    "q": "\"7411029385\" OR \"74110 29385\"",
@@ -16,11 +16,11 @@
   "search_metadata": {
    "id": "synthetic-fcb67b0f3e702ba7",
    "status": "Success",
-   "created_at": "2026-09-23 20:53:40 UTC",
-   "processed_at": "2026-09-23 20:53:40 UTC",
+   "created_at": "2026-09-24 16:57:21 UTC",
+   "processed_at": "2026-09-24 16:57:21 UTC",
    "json_endpoint": null,
    "raw_html_file": null,
-   "total_time_taken": 1.59
+   "total_time_taken": 1.43
   },
   "search_parameters": {
    "engine": "google",
@@ -33,10 +33,10 @@
   "organic_results": [
    {
     "position": 1,
-    "title": "Beware: +91 74110 29385 is a fake HDFC Bank customer care number",
+    "title": "Beware: +91 74110 29385 is a fake SBI customer care number",
     "link": "https://www.consumercomplaints.in/+917411029385",
     "displayed_link": "https://www.consumercomplaints.in › +917411029385",
-    "snippet": "I called +91 74110 29385 thinking it was HDFC Bank support and lost Rs 48,000. It is a scam, do not call."
+    "snippet": "I called +91 74110 29385 thinking it was SBI support and lost Rs 48,000. It is a scam, do not call."
    },
    {
     "position": 2,
@@ -47,24 +47,24 @@
    },
    {
     "position": 3,
-    "title": "HDFC Bank customer care number +91 74110 29385",
-    "link": "https://hdfc-care-support.in/hdfc-bank",
-    "displayed_link": "https://hdfc-care-support.in › hdfc-bank",
-    "snippet": "HDFC Bank customer care +91 74110 29385, call 24x7."
+    "title": "SBI customer care number +91 74110 29385",
+    "link": "https://sbi-helpdesk-online.co/sbi",
+    "displayed_link": "https://sbi-helpdesk-online.co › sbi",
+    "snippet": "SBI customer care +91 74110 29385, call 24x7."
    },
    {
     "position": 4,
-    "title": "Zomato customer care number +91 74110 29385",
-    "link": "https://zomato-support-care.in/zomato",
-    "displayed_link": "https://zomato-support-care.in › zomato",
-    "snippet": "Zomato customer care +91 74110 29385, call 24x7."
-   },
-   {
-    "position": 5,
     "title": "IndiGo customer care number +91 74110 29385",
     "link": "https://indigo-flightcare.in/indigo",
     "displayed_link": "https://indigo-flightcare.in › indigo",
     "snippet": "IndiGo customer care +91 74110 29385, call 24x7."
+   },
+   {
+    "position": 5,
+    "title": "Paytm customer care number +91 74110 29385",
+    "link": "https://paytm-kyc-help.co/paytm",
+    "displayed_link": "https://paytm-kyc-help.co › paytm",
+    "snippet": "Paytm customer care +91 74110 29385, call 24x7."
    }
   ]
  }

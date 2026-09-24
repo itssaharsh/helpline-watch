@@ -2,7 +2,7 @@
  "_fixture": {
   "kind": "synthetic",
   "note": "Maps · Hyderabad · IndiGo customer care",
-  "generated_at": "2026-09-23T20:53:40+00:00",
+  "generated_at": "2026-09-24T16:57:21+00:00",
   "params": {
    "engine": "google_maps",
    "type": "search",
@@ -16,11 +16,11 @@
   "search_metadata": {
    "id": "synthetic-e16aa57d1fd33f58",
    "status": "Success",
-   "created_at": "2026-09-23 20:53:40 UTC",
-   "processed_at": "2026-09-23 20:53:40 UTC",
+   "created_at": "2026-09-24 16:57:21 UTC",
+   "processed_at": "2026-09-24 16:57:21 UTC",
    "json_endpoint": null,
    "raw_html_file": null,
-   "total_time_taken": 2.25
+   "total_time_taken": 0.93
   },
   "search_parameters": {
    "engine": "google_maps",
@@ -35,36 +35,55 @@
     "position": 1,
     "title": "IndiGo - Hyderabad Main Branch",
     "place_id": "synthetic-indigo-hyderabad-branch",
-    "data_id": "0x87759d3bd225:0x90a0939a5987",
-    "rating": 3.7,
-    "reviews": 443,
+    "data_id": "0x111748f094a2:0xe4bcc37f4b07",
+    "rating": 4.0,
+    "reviews": 640,
     "type": "Airline ticket agency",
     "types": [
      "Airline ticket agency"
     ],
     "address": "MG Road, Hyderabad",
     "gps_coordinates": {
-     "latitude": 14.651627440337943,
-     "longitude": 75.42458697988047
+     "latitude": 20.14043271872879,
+     "longitude": 79.08758386565964
     },
     "phone": "0124 617 3838",
     "website": "https://www.goindigo.in/"
    },
    {
     "position": 1,
+    "title": "IndiGo Helpline 24x7",
+    "place_id": "synthetic-indigo-hyderabad-help",
+    "data_id": "0x84e138b89040:0x52bc1e7fd585",
+    "rating": 4.9,
+    "reviews": 3,
+    "type": "Financial consultant",
+    "types": [
+     "Financial consultant"
+    ],
+    "address": "Near Metro Station, Hyderabad",
+    "gps_coordinates": {
+     "latitude": 14.627817027449609,
+     "longitude": 77.19453860629275
+    },
+    "phone": "+91 63528 40917",
+    "unclaimed_listing": true
+   },
+   {
+    "position": 1,
     "title": "IndiGo Airport Counter Hyderabad",
     "place_id": "synthetic-indigo-hyderabad-ctr",
-    "data_id": "0x95c26df67984:0xb3e266ffabe7",
+    "data_id": "0x370a83a30e5e:0xce63f312cb47",
     "rating": 4.0,
-    "reviews": 338,
+    "reviews": 308,
     "type": "Airline",
     "types": [
      "Airline"
     ],
     "address": "Airport, Hyderabad",
     "gps_coordinates": {
-     "latitude": 12.313143625500024,
-     "longitude": 83.50257873664972
+     "latitude": 26.037602993666276,
+     "longitude": 85.11835043845642
     },
     "phone": "0124 617 3838",
     "website": "https://www.goindigo.in/"

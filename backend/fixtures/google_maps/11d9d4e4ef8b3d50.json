@@ -1,8 +1,7 @@
 {
  "_fixture": {
-  "kind": "synthetic",
-  "note": "Maps · Hyderabad · Zomato customer care",
-  "generated_at": "2026-09-23T20:53:40+00:00",
+  "kind": "recorded",
+  "recorded_at": "2026-09-24T16:57:02+00:00",
   "params": {
    "engine": "google_maps",
    "type": "search",
@@ -14,13 +13,16 @@
  },
  "response": {
   "search_metadata": {
-   "id": "synthetic-11d9d4e4ef8b3d50",
+   "id": "6ab5565d1dcfe290ff13ce28",
    "status": "Success",
-   "created_at": "2026-09-23 20:53:40 UTC",
-   "processed_at": "2026-09-23 20:53:40 UTC",
-   "json_endpoint": null,
-   "raw_html_file": null,
-   "total_time_taken": 1.99
+   "json_endpoint": "https://serpapi.com/searches/DkROcqaafRHFkgF8UY7JKswai_meCYOg-zGyuTRdSKc/6ab5565d1dcfe290ff13ce28.json",
+   "markdown_endpoint": "https://serpapi.com/searches/DkROcqaafRHFkgF8UY7JKswai_meCYOg-zGyuTRdSKc/6ab5565d1dcfe290ff13ce28.md",
+   "created_at": "2026-09-24 16:57:01 UTC",
+   "processed_at": "2026-09-24 16:57:01 UTC",
+   "google_maps_url": "https://www.google.com/maps/search/Zomato+customer+care/@17.3850,78.4867,12z/data=!3m1!4b1!4m2!2m1!6e5?hl=en",
+   "raw_html_file": "https://serpapi.com/searches/DkROcqaafRHFkgF8UY7JKswai_meCYOg-zGyuTRdSKc/6ab5565d1dcfe290ff13ce28.html",
+   "prettify_html_file": "https://serpapi.com/searches/DkROcqaafRHFkgF8UY7JKswai_meCYOg-zGyuTRdSKc/6ab5565d1dcfe290ff13ce28.prettify",
+   "total_time_taken": 0.77
   },
   "search_parameters": {
    "engine": "google_maps",
@@ -30,24 +32,351 @@
    "google_domain": "google.co.in",
    "hl": "en"
   },
+  "search_information": {
+   "local_results_state": "Results for exact spelling",
+   "query_displayed": "Zomato customer care"
+  },
   "local_results": [
    {
     "position": 1,
-    "title": "Zomato Hyperpure Warehouse",
-    "place_id": "synthetic-zomato-hyderabad-hp",
-    "data_id": "0x71163b9a64a8:0xbeb631ae03f6",
+    "title": "Zomato Hyperpure Pvt Ltd జొమోటో ప్రైవేట్ లిమిటెడ్",
+    "place_id": "ChIJ2Q7xUfSRyzsRx6BZiIJC5d8",
+    "data_id": "0x3bcb91f451f10ed9:0xdfe542828859a0c7",
+    "data_cid": "16133374368525426887",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x3bcb91f451f10ed9%3A0xdfe542828859a0c7&engine=google_maps_reviews&hl=en",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x3bcb91f451f10ed9%3A0xdfe542828859a0c7&engine=google_maps_photos&hl=en",
+    "gps_coordinates": {
+     "latitude": 17.4921513,
+     "longitude": 78.4313574
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJ2Q7xUfSRyzsRx6BZiIJC5d8",
+    "provider_id": "/g/11swv11yvc",
     "rating": 4.1,
-    "reviews": 42,
+    "reviews": 140,
     "type": "Warehouse",
     "types": [
      "Warehouse"
     ],
-    "address": "Industrial Area, Hyderabad",
-    "gps_coordinates": {
-     "latitude": 17.324358828486112,
-     "longitude": 76.92000165573432
+    "type_id": "warehouse",
+    "type_ids": [
+     "warehouse"
+    ],
+    "address": "Plot Nos. B-14, A-33 AND A-34, Sy. No. 374, Ground Floor, IDA Kukatpally TSIIC Industrial Area, Quthbullapur Village, Mandal, Quthbullapur, Hyderabad, Telangana 500037, India",
+    "country": "India",
+    "open_state": "Open 24 hours",
+    "hours": "Open 24 hours",
+    "operating_hours": {
+     "thursday": "Open 24 hours",
+     "friday": "Open 24 hours",
+     "saturday": "Open 24 hours",
+     "sunday": "Open 24 hours",
+     "monday": "Open 24 hours",
+     "tuesday": "Open 24 hours",
+     "wednesday": "Open 24 hours"
     },
-    "website": "https://www.zomato.com/hyperpure"
+    "phone": "+91 11 6126 7126",
+    "website": "https://www.hyperpure.com/",
+    "extensions": [
+     {
+      "accessibility": [
+       "Wheelchair accessible entrance",
+       "Wheelchair accessible parking lot"
+      ]
+     },
+     {
+      "recycling": [
+       "Batteries",
+       "Light bulbs"
+      ]
+     }
+    ],
+    "user_review": "\"Best service\"",
+    "thumbnail": "https://lh3.googleusercontent.com/grass-cs/ACvplmOG9_wtjuk2APAdUjDAUgDl55ncy1J_xCUz0wNkYZrbsHocVLxImOb40b149k8f9MsEb68bObl4vcIhYMYoKu-rfqnf9MOWvGU3AY3S9I6TaPL7t1nctT63dvRdn1Imlt3yG0XS=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/ym_Oi3icHcnLDYIwAADQiYDWAoqJhwYM4g-joOKF2IIQKa3SAuqCzuA2Gi_v8j7vUqmbHBsGK5FeCFGwvJV5QwVXOVc6FbVRNGcpNSoN7HY3Voe-k_bq2lYDvMFZfPVwXHjMsjh9wnn6cOMX6NdVcmqInAm6Xz6COiQmINB0qtHFWckpsUckJMzsaFAmq0QsWq253PnvwkPnxwgnaOcEdnTeLIcKcqoiG2XdNuMwqJlCTx8cd5MeAgC08i_V-BexpETC"
+   },
+   {
+    "position": 2,
+    "title": "Zomato Delivery Partner",
+    "place_id": "ChIJlTh9uVGXyzsR35QTvEWN4Rw",
+    "data_id": "0x3bcb9751b97d3895:0x1ce18d45bc1394df",
+    "data_cid": "2081099833469539551",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x3bcb9751b97d3895%3A0x1ce18d45bc1394df&engine=google_maps_reviews&hl=en",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x3bcb9751b97d3895%3A0x1ce18d45bc1394df&engine=google_maps_photos&hl=en",
+    "gps_coordinates": {
+     "latitude": 17.3637568,
+     "longitude": 78.4297472
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJlTh9uVGXyzsR35QTvEWN4Rw",
+    "provider_id": "/g/11q3frlh8p",
+    "rating": 2.8,
+    "reviews": 12,
+    "unclaimed_listing": true,
+    "type": "Unemployment office",
+    "types": [
+     "Unemployment office"
+    ],
+    "type_id": "unemployment_office",
+    "type_ids": [
+     "unemployment_office"
+    ],
+    "address": "Shop No 37 United Arcade, Attapur, Mushk Mahal, Telangana 500048, India",
+    "country": "India",
+    "open_state": "Closed · Opens 10 AM Fri",
+    "hours": "Closed · Opens 10 AM Fri",
+    "operating_hours": {
+     "thursday": "10 AM–7 PM",
+     "friday": "10 AM–7 PM",
+     "saturday": "10 AM–7 PM",
+     "sunday": "Closed",
+     "monday": "10 AM–7 PM",
+     "tuesday": "10 AM–7 PM",
+     "wednesday": "10 AM–7 PM"
+    },
+    "extensions": [
+     {
+      "accessibility": [
+       "Wheelchair accessible parking lot"
+      ]
+     }
+    ],
+    "thumbnail": "https://lh3.googleusercontent.com/grass-cs/ACvplmNOx6k6cz67CAFcBcxgRpB2W_Fk_pCtuxZUPNDoDYessKdhHmRGZq0o6VbrJzdzrSDTqtI2E99PPXXlN3kjhQ5EJvpjcCQOIKCmzjV3UJO5e5UOwvrcbHeZVqTiPI8Sz4ZVuKVh=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/MAY5MXicHcRbjoIwFADQFSEoguMk86HFB5AAPqjKj9FrQ4dXS1uQdIOuwd2YeD7O-0WV4vLXNCtqj3LG8op0kghgjSKNGgGrzVzcpDRAmgvU86qO4sEtXdDuDC3WsIQh3_Pl5HRdl1eOVDdkaRJ5zLsQKcMH3db7TdZazMV3EeiHFgfv2Cp_sprPk-R8riK7LOjOWQU9LwDtYj9EtS6wnQaxQ5w0fvYC7luS4fb4n_g_Bz3NcBdi-vccW5Zl0O9gNB_78EYJ"
+   },
+   {
+    "position": 3,
+    "title": "Zomato customer care",
+    "place_id": "ChIJxzkeSNz9YjkRfBsWd7B_jIg",
+    "data_id": "0x3962fddc481e39c7:0x888c7fb077161b7c",
+    "data_cid": "9839379681786600316",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x3962fddc481e39c7%3A0x888c7fb077161b7c&engine=google_maps_reviews&hl=en",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x3962fddc481e39c7%3A0x888c7fb077161b7c&engine=google_maps_photos&hl=en",
+    "gps_coordinates": {
+     "latitude": 22.6856738,
+     "longitude": 75.8899576
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJxzkeSNz9YjkRfBsWd7B_jIg",
+    "provider_id": "/g/11r8zgdj41",
+    "rating": 3.6,
+    "reviews": 104,
+    "unclaimed_listing": true,
+    "type": "Restaurant",
+    "types": [
+     "Restaurant"
+    ],
+    "type_id": "restaurant",
+    "type_ids": [
+     "restaurant"
+    ],
+    "address": "Palda Naka, Pawanpuri Colony, Musakhedi, Indore, Madhya Pradesh 452001, India",
+    "country": "India",
+    "open_state": "Open 24 hours",
+    "hours": "Open 24 hours",
+    "operating_hours": {
+     "thursday": "Open 24 hours",
+     "friday": "Open 24 hours",
+     "saturday": "Open 24 hours",
+     "sunday": "Open 24 hours",
+     "monday": "Open 24 hours",
+     "tuesday": "Open 24 hours",
+     "wednesday": "Open 24 hours"
+    },
+    "extensions": [
+     {
+      "service_options": [
+       "Outdoor seating",
+       "Delivery",
+       "Drive-through",
+       "Takeout",
+       "Dine-in"
+      ]
+     },
+     {
+      "highlights": [
+       "Fireplace",
+       "Great tea selection"
+      ]
+     },
+     {
+      "popular_for": [
+       "Solo dining"
+      ]
+     },
+     {
+      "accessibility": [
+       "Wheelchair accessible entrance",
+       "Wheelchair accessible parking lot",
+       "Wheelchair accessible restroom",
+       "Wheelchair accessible seating"
+      ]
+     },
+     {
+      "offerings": [
+       "All you can eat",
+       "Coffee",
+       "Late-night food",
+       "Quick bite",
+       "Small plates"
+      ]
+     },
+     {
+      "dining_options": [
+       "Dessert",
+       "Seating",
+       "Table service"
+      ]
+     },
+     {
+      "amenities": [
+       "Restroom"
+      ]
+     },
+     {
+      "atmosphere": [
+       "Casual",
+       "Trendy"
+      ]
+     },
+     {
+      "crowd": [
+       "College students",
+       "Groups"
+      ]
+     },
+     {
+      "planning": [
+       "Accepts reservations"
+      ]
+     },
+     {
+      "payments": [
+       "NFC mobile payments"
+      ]
+     },
+     {
+      "children": [
+       "Good for kids",
+       "High chairs",
+       "Kids' menu"
+      ]
+     },
+     {
+      "parking": [
+       "Free street parking"
+      ]
+     }
+    ],
+    "service_options": {
+     "dine_in": true,
+     "drive_through": true,
+     "delivery": true
+    },
+    "user_review": "\"Yes 👍 nice service\"",
+    "thumbnail": "https://lh3.googleusercontent.com/grass-cs/ACvplmMzFd2tvkRkaBsQWr24cInArr1Gd5u9mBfBd1tuXNvv0Uaf7cO_74ybecA-2i1t0hyUPrbH5K_2GgetTEZsom-L3Cic8LL4Cj56Z6jdpteQwzAFjFKUaIC4g7S2ueZFawWR2HDaY5P97jo=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/uR87mHicHcRLDoIwFADAE1VKBVETF4CiRvxLVDamllpEoKR9QOSQ7r2NibOY7ycFqPTYMPK03xNSipzXmismS-Al9JgsDKGo1ohpw_WbKi_WXZAQaF6HF_X0_qyIxZalq5Q5T-x6VHgPLzGhvmyaBkf04bDtzbHed85cRJ4m4PQd7dR9Ya9uZC44nGaxlgUK-_6TDcPQ8jN7EA-ypAK-bzs3yIJVRJe-JZwjqXkc0PZ8IIspvdq7kZPJSWtijFH6n6HyB6sTRs4"
+   },
+   {
+    "position": 4,
+    "title": "Zomato Office Hyderabad",
+    "place_id": "ChIJ2woBcfKRyzsRnmr6SdIzWe4",
+    "data_id": "0x3bcb91f271010adb:0xee5933d249fa6a9e",
+    "data_cid": "17174815632231393950",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x3bcb91f271010adb%3A0xee5933d249fa6a9e&engine=google_maps_reviews&hl=en",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x3bcb91f271010adb%3A0xee5933d249fa6a9e&engine=google_maps_photos&hl=en",
+    "gps_coordinates": {
+     "latitude": 17.423774599999998,
+     "longitude": 78.4326722
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJ2woBcfKRyzsRnmr6SdIzWe4",
+    "provider_id": "/g/11rzwpp28f",
+    "rating": 3.1,
+    "reviews": 195,
+    "unclaimed_listing": true,
+    "type": "Training center",
+    "types": [
+     "Training center"
+    ],
+    "type_id": "training_center",
+    "type_ids": [
+     "training_center"
+    ],
+    "address": "GAR Laxmi, BNR Colony, BN Reddy Colony, Banjara Hills, Hyderabad, Telangana 500034, India",
+    "country": "India",
+    "open_state": "Permanently closed",
+    "hours": "Permanently closed",
+    "website": "https://www.zomato.com/deliver-food/",
+    "extensions": [
+     {
+      "accessibility": [
+       "Wheelchair accessible entrance",
+       "Wheelchair accessible parking lot"
+      ]
+     },
+     {
+      "parking": [
+       "Free parking lot"
+      ]
+     }
+    ],
+    "user_review": "\"Customer care to any concerned is missing.\"",
+    "thumbnail": "https://lh3.googleusercontent.com/grass-cs/ACvplmNwNjihke2rMdzLUDCt-75neg-MN-U8ti2HmF1O0E46LOpQeN7mmFO-6llXdlZza5xKVA9iQ4uQJoob2NlJYFCBLHREY2Imilt-pXdpdhSWATjIG4aDb8gXaTlFJeBgmyZUTXX4zzf_fR-w=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/C7sienicHcTLcoIwFADQL7qCFB91pgtEqVIMg0Ib3XQQYoK9IRkSpeUnXfdvOtOzOL8PYa02C8dB8TTiSnFkN8O6SrWWtXZUKenwrjQGKuME4V2jJD25NuKLed2uHpJiFVqYTVrGYUegmNvG28honLprf5qkOmNkJmWUwhSR1ngaysn323vw3GT-LYuVOnsE42MULpPNfn30trJBC5rWuhaHjyC_bl_9cnWec1rmGMVsyeXPqcgp9Yfh8nnZQ__Sj13XBfF_Be0fnTRHUQ"
+   },
+   {
+    "position": 5,
+    "title": "Zomato joining office",
+    "place_id": "ChIJf55-pk6XyzsRIBnpKkFigL8",
+    "data_id": "0x3bcb974ea67e9e7f:0xbf8062412ae91920",
+    "data_cid": "13799137290295515424",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x3bcb974ea67e9e7f%3A0xbf8062412ae91920&engine=google_maps_reviews&hl=en",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x3bcb974ea67e9e7f%3A0xbf8062412ae91920&engine=google_maps_photos&hl=en",
+    "gps_coordinates": {
+     "latitude": 17.3636048,
+     "longitude": 78.4297066
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJf55-pk6XyzsRIBnpKkFigL8",
+    "provider_id": "/g/11q3l7cn8q",
+    "rating": 4.3,
+    "reviews": 16,
+    "type": "Employment center",
+    "types": [
+     "Employment center"
+    ],
+    "type_id": "employment_center",
+    "type_ids": [
+     "employment_center"
+    ],
+    "address": "Shop no 17&37 united arcade colplex, attapur, Hyderabad, Telangana 500048, India",
+    "country": "India",
+    "open_state": "Temporarily closed",
+    "hours": "Temporarily closed",
+    "phone": "+91 79970 90927",
+    "extensions": [
+     {
+      "service_options": [
+       "Online appointments",
+       "Onsite services"
+      ]
+     },
+     {
+      "accessibility": [
+       "Wheelchair accessible restroom",
+       "Wheelchair accessible seating"
+      ]
+     },
+     {
+      "amenities": [
+       "Gender-neutral restroom",
+       "Restroom"
+      ]
+     }
+    ],
+    "service_options": {
+     "online_appointments": true,
+     "onsite_services": true
+    },
+    "user_review": "\"Helpful services\"",
+    "thumbnail": "https://lh3.googleusercontent.com/grass-cs/ACvplmMrNgo7V1jVbkpF1yQEt65-XGNrNJeBAWIqSeV2OWvgz4x-MzihEMV4bX9L4pVVdh6qhipdk7F_-hhAL5pH--4BQ3dKrTjTbttFCZWWiq2NtnttkOqBZCcGFVWrFEBINeCarlGc=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/nlhIpnicHcTdDoIgGADQJyK1rFZbF-rE_qS1GrRuWiID0wTh6_cFe4bepq1zcb4fBWDc1PMaNehJrWUjbk5YrlsQLfS4vnrSnp1D3HlRcjfNNbdE6jENLrSoDQ5e2xRGQ3TIiCVLEUds0e0E7W_YXb7DJ8rflUpzGhaHyTo0lJZq1KnKlPUYn5BS0Xpo5giF8XZQruz-si8AcHJkrOr6BFqAetPFx4RnmDKL03hBRHK2TcZnj8D3faT-c9T-AIuWROI"
    }
   ]
  }

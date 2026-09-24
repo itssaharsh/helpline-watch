@@ -3,12 +3,19 @@
 # sweep; the app treats this list as the analyst's ground truth and lets you edit it.
 # `regulated: true` means an RBI/SEBI/IRDAI/PFRDA-regulated entity, which TRAI's
 # direction of 19 Nov 2025 requires to use 1600-series numbers for service calls.
+- id: zomato
+  name: Zomato
+  category: food_delivery
+  regulated: false
+  official_domains: [zomato.com]
+  official_numbers: []
+  aliases: ["Zomato order", "Zomato delivery"]
 - id: hdfc-bank
   name: HDFC Bank
   category: bank
   regulated: true
-  official_domains: [hdfcbank.com]
-  official_numbers: ["1800 1600 1600", "1800 2600", "1860 267 6161"]
+  official_domains: [hdfc.bank.in, hdfcbank.com]
+  official_numbers: ["1800 1600", "1800 2600", "1800 202 6161", "1860 267 6161", "+91 22 6160 6160", "1800 266 4060", "1800 210 0018", "+91 70700 22222", "+91 72900 30000"]
   aliases: ["HDFC", "HDFC Bank credit card"]
 - id: sbi
   name: SBI
@@ -17,13 +24,6 @@
   official_domains: [sbi.co.in, onlinesbi.sbi, sbicard.com]
   official_numbers: ["1800 1234", "1800 2100", "1800 425 3800", "1800 11 2211"]
   aliases: ["State Bank of India", "SBI card"]
-- id: zomato
-  name: Zomato
-  category: food_delivery
-  regulated: false
-  official_domains: [zomato.com]
-  official_numbers: []
-  aliases: ["Zomato order", "Zomato delivery"]
 - id: indigo
   name: IndiGo
   category: airline

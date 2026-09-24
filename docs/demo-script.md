@@ -1,16 +1,22 @@
-# Demo video — shot list (target 2:45, under the 3:00 limit)
+# Demo video script
 
-Record at 1440×900, browser zoom 100%, `make demo` already running, HDFC Bank selected, `make seed` done so the network has five brands. Narration optional; captions recommended. Speed up any waiting.
+Target 150 s, cap 180 s. Recorded from the running app at `http://127.0.0.1:8787/` by `demo/demokit/run.py` on a lockstep virtual clock, narrated with Kokoro (`af_heart`), composed by `demo/demokit/compose.py`. Build outputs land in `demo/build/` (gitignored).
 
-| time | on screen | say / caption |
-|---|---|---|
-| 0:00–0:10 | The landing page: headline, the globe, then click **Watch a sweep** | "1.73 lakh complaints and over ₹2,100 crore lost in India to fake customer-care numbers found on Google. Scammers plant them where victims search. This is the page a victim in Mumbai sees, marked up." |
-| 0:10–0:35 | The console sweeps on its own: the progress line runs, the globe markers pulse Mumbai to Kolkata, findings appear on the left, the count reaches 3, and `+91 74110 29385` flashes with a FAKE mark in the Places box | "One brand, five cities, every surface: search results, the answer box, People also ask, the local pack, Maps, ads. Every number a victim would be shown, compared with the bank's official list, marked in place." |
-| 0:35–1:00 | Click the marked number. The Evidence tab: seven weighted reasons, the exact results it appeared in (the Hindi page, the listing with 3 reviews), the keep-in-pack switch | "Every circle explains itself: a mobile number posing as a bank helpline, on a listing named like no bank names its branches, planted in three cities, already confirmed fake for two other brands." |
-| 1:00–1:25 | Across brands tab: the 3D graph orbits; hover the shared number touching HDFC Bank, Zomato, IndiGo; below it, who is advertising on the brand name | "The same number is posing as three brands at once. That is one operation, not three coincidences." |
-| 1:25–1:50 | Pages tab, Kolkata: the green tick on the aggregator's `1800 1600 1600`, the Unlisted badge on `022 6160 6161` from hdfcbank.com, the amber Check on `033 4040 1188` from a newspaper | "It does not cry wolf. The official number on a third-party site gets a tick; a number on the bank's own site is flagged for the list; an unknown landline in a news story is highlighted to check, never filed." |
-| 1:50–2:15 | Click **Download takedown pack (3)** in the summary card; open `report.md` and `complaint_template.txt` | "The output is a takedown pack: CSV, evidence JSON, a report with a replayable SerpApi archive link per sighting and the right Google form per surface, and a cybercrime.gov.in complaint template." |
-| 2:15–2:35 | Terminal: `make verify` scrolls PASS lines | "Eleven assertions run against recorded fixtures with no key: the before-and-after a judge just watched." |
-| 2:35–2:45 | The summary line: 22 searches, none live, Replay badge. Terminal: `make record` | "Twenty-two SerpApi searches per sweep, all cached here. Add a key and one command replaces every synthetic fixture with live Google results." |
+| # | Scene | On screen | Narration |
+|---|---|---|---|
+| 1 | hook | clip of the aha moment under “Fake helplines, found before the call.” | Scammers plant fake bank helplines on Google, and people call them. Helpline Watch finds them first. |
+| 2 | problem | card: ₹2,100 crore | By March 2026, India had logged one point seven three lakh complaints, and twenty-one hundred crore rupees lost, to fake customer-care numbers found on Google. The fraud team googles from one desk. The victim in Patna sees a different page. |
+| 3 | landing | camera .globe-hero; click text=Watch a sweep | Helpline Watch searches Google the way victims do, from every Indian city you choose, then marks every number that isn't the brand's. Let's sweep Zomato, which publishes no phone number at all. |
+| 4 | sweep | camera .hero; camera .hero > div:nth-child(2); scroll text=After Hours, Delhi NCR; camera button.mark-fake:has-text('9330879344') | Twenty-eight searches from five cities: results, the answer box, People also ask, the local pack, Maps, and ads, each made through SerpApi's location parameter. Eight fakes, from Google as it is today. And here's the surprise: five of them sit on zomato.com itself. Restaurant listings named to rank for customer care, each carrying a personal mobile. |
+| 5 | evidence | click button.mark-fake:has-text('9330879344'); camera .pane .glass; scroll text=Where it appeared; camera text=Replay on SerpApi | Every verdict explains itself. Named signals: not one of Zomato's numbers, a personal mobile presented as customer care, and a page on Zomato's own domain that is not about Zomato. No language model anywhere. And every sighting keeps its SerpApi link, so anyone can replay the search. |
+| 6 | network | click button:has-text('Across brands'); camera svg[role='img']; camera svg[role='img'] | Across brands, the graph joins every number seen for more than one brand. On the three seeded demo brands, one mobile is sold as three helplines at once. That's one operation, not three coincidences. |
+| 7 | unhappy | click .brand-select; click [role='option']:has-text('HDFC Bank'); click button:has-text('Pages'); camera .sheet; scroll text=bankbazaar.com; click button.pill:has-text('Delhi'); click button.pill:has-text('Google Maps'); scroll text=Sarojini | It doesn't cry wolf. Switch to HDFC Bank: the real eighteen-hundred sixteen-hundred gets a green tick wherever an aggregator republishes it, and numbers on the bank's own site go to the list, not to takedown. Only an unclaimed branch listing with a personal mobile is flagged. |
+| 8 | pack | scroll top; camera .hero > div:nth-child(2); click a:has-text('Download takedown pack') | The output is a takedown pack: a CSV, evidence with a SerpApi replay link for every sighting, the right Google form per surface, and a complaint template for the cybercrime portal. A person keeps or removes every number first. |
+| 9 | tech | card: Built on SerpApi, decided by rules → Autocomplete → Search, Maps, Ads → Named signals → Takedown pack | Under the hood, SerpApi's Autocomplete plans the queries victims type. Search, Maps and the Ads Transparency Center return each city's page. Deterministic signals score every number. And the pack is built only from what the analyst keeps. |
+| 10 | end | clip of the aha moment under “Helpline Watch” | Helpline Watch. Runs locally from recorded searches with no key, and live with one. Built with SerpApi. |
 
-Before recording: `make clean && make seed`, reload, incognito check of the repo and video links, and re-run `make verify`.
+## Notes for a live retake
+
+- Everything shown for Zomato and HDFC Bank is a recorded SerpApi response from 24 Sep 2026 (the UI badge says so); SBI, IndiGo and Paytm are the labelled synthetic brands that carry the cross-brand graph.
+- `?demo=1` starts a sweep on load; `?brand=<id>` picks the brand; `?state=empty|error` shows those states.
+- The globe and the 3D graph need WebGL; without it the app shows a still globe and a 2D graph, which is what the recorder captured.

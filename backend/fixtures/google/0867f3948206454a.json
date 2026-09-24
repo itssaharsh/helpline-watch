@@ -1,0 +1,243 @@
+{
+ "_fixture": {
+  "kind": "recorded",
+  "recorded_at": "2026-09-24T17:04:25+00:00",
+  "params": {
+   "engine": "google",
+   "q": "\"1800160113\" OR \"1800 160 113\"",
+   "google_domain": "google.co.in",
+   "gl": "in",
+   "hl": "en",
+   "num": "10"
+  }
+ },
+ "response": {
+  "search_metadata": {
+   "id": "6ab55818b6a86744ec402c8a",
+   "status": "Success",
+   "json_endpoint": "https://serpapi.com/searches/rR28b51PNOvVAzIkh-w93w5AvTvB7dGg-Ocko96qB9c/6ab55818b6a86744ec402c8a.json",
+   "markdown_endpoint": "https://serpapi.com/searches/rR28b51PNOvVAzIkh-w93w5AvTvB7dGg-Ocko96qB9c/6ab55818b6a86744ec402c8a.md",
+   "pixel_position_endpoint": "https://serpapi.com/searches/rR28b51PNOvVAzIkh-w93w5AvTvB7dGg-Ocko96qB9c/6ab55818b6a86744ec402c8a.json_with_pixel_position",
+   "created_at": "2026-09-24 17:04:24 UTC",
+   "processed_at": "2026-09-24 17:04:24 UTC",
+   "google_url": "https://www.google.co.in/search?q=%221800160113%22+OR+%221800+160+113%22&oq=%221800160113%22+OR+%221800+160+113%22&hl=en&gl=in&sourceid=chrome&ie=UTF-8",
+   "raw_html_file": "https://serpapi.com/searches/rR28b51PNOvVAzIkh-w93w5AvTvB7dGg-Ocko96qB9c/6ab55818b6a86744ec402c8a.html",
+   "total_time_taken": 0.31
+  },
+  "search_parameters": {
+   "engine": "google",
+   "q": "\"1800160113\" OR \"1800 160 113\"",
+   "google_domain": "google.co.in",
+   "hl": "en",
+   "gl": "in",
+   "device": "desktop"
+  },
+  "search_information": {
+   "query_displayed": "\"1800160113\" OR \"1800 160 113\"",
+   "total_results": 6,
+   "time_taken_displayed": 0.17,
+   "organic_results_state": "Results for exact spelling"
+  },
+  "organic_results": [
+   {
+    "position": 1,
+    "title": "Κυριότερες ειδήσεις μέχρι τις 18:00(16/01/13)",
+    "link": "https://www.sigmalive.com/news/local/25809/kyrioteres-eidiseis-mexri-tis-1800160113",
+    "redirect_link": "https://www.google.co.in/url?sa=t&source=web&rct=j&opi=89978449&url=CAESiwEB6zswFYAZTDBlY9qWNbAEgHfQaeL61DSYXdF8x691WOS3lp0cFNFUMZKnL93K_zAlkq9YqLGN7rqbpoiw2_Lzlt1q16S5wqi0gRK4DUg2ZUf9yx17_q5CPDC8cMHEe2BQsvX9hvYLwBxG0C63xYzd2H8umwL09UxevHkIJuucjeO518GuMr7FAN1Y&ved=2ahUKEwjSoe272YeXAxXqrokEHc_0Ag0QFnoECB8QAQ&uoh=1",
+    "displayed_link": "https://www.sigmalive.com › local",
+    "date": "16 Jan 2013",
+    "snippet": "Η ΡΑΕΚ έδωσε εντολή στην ΑΗΚ για αναστολή της αύξησης στα τιμολόγια ρεύματος, που επιβλήθηκε στους μηνιαίους καταναλωτές Δεκεμβρίου 2012 και ...",
+    "about_this_result": {
+     "source": {
+      "description": "Η ΡΑΕΚ έδωσε εντολή στην ΑΗΚ για αναστολή της αύξησης στα τιμολόγια ρεύματος, που επιβλήθηκε στους μηνιαίους καταναλωτές Δεκεμβρίου 2012 και ...",
+      "source_info_link": "https://www.sigmalive.com/news/local/25809/kyrioteres-eidiseis-mexri-tis-1800160113",
+      "icon": "https://serpapi.com/images/i/UklGRlQBAABXRUJQVlA4IEgBAACwBgCdASocABwAPtEutFooIagoGAEAGglsAKwogKZu8kAwATMAv9liXpc-GHp85-m7Jpy11k4dyv2d-rFAAAD-9glwsLXlwaVilZVlwazFZpUSc1X5eZUEF4BfKiKe2UEpnvxAqpy3_1hvo9Xqo8aQGpuTU_x_pUvZPL4ybqv2oiOupzzrf8H0cR5pGLHT-NuX3Ly92jaGHkb8EUzzSa-LeUFIlrz_Z5tK8_pIz3WMZUb9CI_qOMVwWZxWRaJKRWSlZXne4__8nVIPt5qx857Q7Q-OqaFuonoqaEu_-l4fR5F9LP_qjbopem7VSGYQOry821sv_X_jwjDut11d6_vdxzrr9fDbChq5qyY6H6Z9yk11gpy_6iTvuB_JC-VsBdzmfz_ygSUt9_yzJJZK-pmgwC-529AlyVbHtlC7Uwkv2CfOuqI5GQAA.webp"
+     },
+     "languages": [
+      "en"
+     ],
+     "regions": [
+      "IN"
+     ]
+    },
+    "about_page_link": "https://www.google.co.in/search/about-this-result?origin=www.google.com&req=CsoBL2dvdG8_dXJsPUNBRVNpd0VCNnpzd0ZZQVpUREJsWTlxV05iQUVnSGZRYWVMNjFEU1lYZEY4eDY5MVdPUzNscDBjRk5GVU1aS25MOTNLX3pBbGtxOVlxTEdON3JxYnBvaXcyX0x6bHQxcTE2UzV3cWkwZ1JLNERVZzJaVWY5eXgxN19xNUNQREM4Y01IRWUyQlFzdlg5aHZZTHdCeEcwQzYzeFl6ZDJIOHVtd0wwOVV4ZXZIa0lKdXVjamVPNTE4R3VNcjdGQU4xWRIEGgIIABr6BBIAGgAiACoAMgYIAhICaW46AEIECAIQAEoAWgByAHoAgkDWBAgAEAAYACAAKh8KCjE4MDAxNjAxMTMVAAAAPxoMMTgwMCAxNjAgMTEzMsoBL2dvdG8_dXJsPUNBRVNpd0VCNnpzd0ZZQVpUREJsWTlxV05iQUVnSGZRYWVMNjFEU1lYZEY4eDY5MVdPUzNscDBjRk5GVU1aS25MOTNLX3pBbGtxOVlxTEdON3JxYnBvaXcyX0x6bHQxcTE2UzV3cWkwZ1JLNERVZzJaVWY5eXgxN19xNUNQREM4Y01IRWUyQlFzdlg5aHZZTHdCeEcwQzYzeFl6ZDJIOHVtd0wwOVV4ZXZIa0lKdXVjamVPNTE4R3VNcjdGQU4xWTpTzprPhc-BzrnPjM-EzrXPgc61z4IgzrXOuc60zq7Pg861zrnPgiDOvM6tz4fPgc65IM-EzrnPgiAxODowMCgxNi8wMS8xMykgLSBTaWdtYWxpdmVCiALOlyDOoc6RzpXOmiDOrc60z4nPg861IM61zr3PhM6_zrvOriDPg8-EzrfOvSDOkc6XzpogzrPOuc6xIM6xzr3Osc-Dz4TOv867zq4gz4TOt8-CIM6xz43Ovs63z4POt8-CIM-Dz4TOsSDPhM65zrzOv867z4zOs865zrEgz4HOtc-NzrzOsc-Ezr_Pgiwgz4DOv8-FIM61z4DOuc6yzrvOrs64zrfOus61IM-Dz4TOv8-Fz4IgzrzOt869zrnOsc6vzr_Phc-CIM66zrHPhM6xzr3Osc67z4nPhM6tz4IgzpTOtc66zrXOvM6yz4HOr86_z4UgMjAxMiDOus6xzrkmbmJzcDsuLi4iAhABSABYAGgA",
+    "about_page_serpapi_link": "https://serpapi.com/search.json?engine=google_about_this_result&google_domain=google.co.in&req_token=CsoBL2dvdG8_dXJsPUNBRVNpd0VCNnpzd0ZZQVpUREJsWTlxV05iQUVnSGZRYWVMNjFEU1lYZEY4eDY5MVdPUzNscDBjRk5GVU1aS25MOTNLX3pBbGtxOVlxTEdON3JxYnBvaXcyX0x6bHQxcTE2UzV3cWkwZ1JLNERVZzJaVWY5eXgxN19xNUNQREM4Y01IRWUyQlFzdlg5aHZZTHdCeEcwQzYzeFl6ZDJIOHVtd0wwOVV4ZXZIa0lKdXVjamVPNTE4R3VNcjdGQU4xWRIEGgIIABr6BBIAGgAiACoAMgYIAhICaW46AEIECAIQAEoAWgByAHoAgkDWBAgAEAAYACAAKh8KCjE4MDAxNjAxMTMVAAAAPxoMMTgwMCAxNjAgMTEzMsoBL2dvdG8_dXJsPUNBRVNpd0VCNnpzd0ZZQVpUREJsWTlxV05iQUVnSGZRYWVMNjFEU1lYZEY4eDY5MVdPUzNscDBjRk5GVU1aS25MOTNLX3pBbGtxOVlxTEdON3JxYnBvaXcyX0x6bHQxcTE2UzV3cWkwZ1JLNERVZzJaVWY5eXgxN19xNUNQREM4Y01IRWUyQlFzdlg5aHZZTHdCeEcwQzYzeFl6ZDJIOHVtd0wwOVV4ZXZIa0lKdXVjamVPNTE4R3VNcjdGQU4xWTpTzprPhc-BzrnPjM-EzrXPgc61z4IgzrXOuc60zq7Pg861zrnPgiDOvM6tz4fPgc65IM-EzrnPgiAxODowMCgxNi8wMS8xMykgLSBTaWdtYWxpdmVCiALOlyDOoc6RzpXOmiDOrc60z4nPg861IM61zr3PhM6_zrvOriDPg8-EzrfOvSDOkc6XzpogzrPOuc6xIM6xzr3Osc-Dz4TOv867zq4gz4TOt8-CIM6xz43Ovs63z4POt8-CIM-Dz4TOsSDPhM65zrzOv867z4zOs865zrEgz4HOtc-NzrzOsc-Ezr_Pgiwgz4DOv8-FIM61z4DOuc6yzrvOrs64zrfOus61IM-Dz4TOv8-Fz4IgzrzOt869zrnOsc6vzr_Phc-CIM66zrHPhM6xzr3Osc67z4nPhM6tz4IgzpTOtc66zrXOvM6yz4HOr86_z4UgMjAxMiDOus6xzrkmbmJzcDsuLi4iAhABSABYAGgA",
+    "source": "Sigmalive",
+    "read_more_link": "https://www.sigmalive.com/news/local/25809/kyrioteres-eidiseis-mexri-tis-1800160113#:~:text=%CE%97%20%CE%A1%CE%91%CE%95%CE%9A%20%CE%AD%CE%B4%CF%89%CF%83%CE%B5%20%CE%B5%CE%BD%CF%84%CE%BF%CE%BB%CE%AE%20%CF%83%CF%84%CE%B7%CE%BD,%CF%84%CE%B7%CF%82%20%CF%84%CE%B9%CE%BC%CE%AE%CF%82%20%CE%BA%CE%B1%CF%85%CF%83%CE%AF%CE%BC%CF%89%CE%BD%20%CE%9D%CE%BF%CE%B5%CE%BC%CE%B2%CF%81%CE%AF%CE%BF%CF%85%202012."
+   },
+   {
+    "position": 2,
+    "title": "the list",
+    "link": "https://www.yumpu.com/xx/document/view/29673620/the-list",
+    "redirect_link": "https://www.google.co.in/url?sa=t&source=web&rct=j&opi=89978449&url=CAEScAHrOzAVz4uqyG6f2pNHb8U5Z1OCNTt1WXMZosFjXSGgeJI4GQSrWSCTC_fbrL8Hi8l2yCHrrM8xV885kwXsuPyiSFMWQynlFtyPVKs8_afTW9zMWs5JVNJ3javBtdknzWwDUe4OqXtPt5b0X3DiwwA&ved=2ahUKEwjSoe272YeXAxXqrokEHc_0Ag0QFnoECCAQAQ&uoh=1",
+    "displayed_link": "https://www.yumpu.com › document › view › the-list",
+    "date": "19 Apr 2014",
+    "snippet": "1800160113 JITENDER KUMAR<br />. 1800160553 KUNDAN KUMAR LAL<br />. 1800160872 SHAILESH KUMAR<br />. 1800160979 VIKAS KUMAR<br />. 1800161119 ...",
+    "snippet_highlighted_words": [
+     "1800160113"
+    ],
+    "about_this_result": {
+     "source": {
+      "description": "1800160113 JITENDER KUMAR<br />. 1800160553 KUNDAN KUMAR LAL<br />. 1800160872 SHAILESH KUMAR<br />. 1800160979 VIKAS KUMAR<br />. 1800161119 ...",
+      "source_info_link": "https://www.yumpu.com/xx/document/view/29673620/the-list",
+      "icon": "https://serpapi.com/images/i/UklGRroAAABXRUJQVlA4IK4AAAAQBQCdASocABwAPtEutFooIagoGAEAGglpAAPksgbGhqTKUJ4n_mkaW-TpTBe5U9YAAP71HjO423Bd1ZZCp7kYi_34eGIYMO7Jstm_fjOMsP33KYu4EMCvpTDwpxAQduclI3KUmtZGr_S7S39YLr7UqM_SR_UiuESWp_g35Q_qUhhUZYsx1CBSiGG4k33RxJJ_vB3SxR-r6RvGJPqo4aGDjjBy65KTfV4Ilp2AAAA.webp"
+     },
+     "languages": [
+      "en"
+     ],
+     "regions": [
+      "IN"
+     ]
+    },
+    "about_page_link": "https://www.google.co.in/search/about-this-result?origin=www.google.com&req=CqUBL2dvdG8_dXJsPUNBRVNjQUhyT3pBVno0dXF5RzZmMnBOSGI4VTVaMU9DTlR0MVdYTVpvc0ZqWFNHZ2VKSTRHUVNyV1NDVENfZmJyTDhIaThsMnlDSHJyTTh4Vjg4NWt3WHN1UHlpU0ZNV1F5bmxGdHlQVktzOF9hZlRXOXpNV3M1SlZOSjNqYXZCdGRrbnpXd0RVZTRPcVh0UHQ1YjBYM0Rpd3dBEgQaAggAGr8DEgAaACIAKgAyBggBEgJpbjoAQgQIARAASgBaAHIAegCCQJsDCAAQABgAIAAqHwoKMTgwMDE2MDExMxWkwek8GgwxODAwIDE2MCAxMTMypQEvZ290bz91cmw9Q0FFU2NBSHJPekFWejR1cXlHNmYycE5IYjhVNVoxT0NOVHQxV1hNWm9zRmpYU0dnZUpJNEdRU3JXU0NUQ19mYnJMOEhpOGwyeUNIcnJNOHhWODg1a3dYc3VQeWlTRk1XUXlubEZ0eVBWS3M4X2FmVFc5ek1XczVKVk5KM2phdkJ0ZGtueld3RFVlNE9xWHRQdDViMFgzRGl3d0E6EHRoZSBsaXN0IC0gWVVNUFVCtQE8Yj4xODAwMTYwMTEzPC9iPiBKSVRFTkRFUiBLVU1BUiZsdDticiAvJmd0Oy4gMTgwMDE2MDU1MyBLVU5EQU4gS1VNQVIgTEFMJmx0O2JyIC8mZ3Q7LiAxODAwMTYwODcyIFNIQUlMRVNIIEtVTUFSJmx0O2JyIC8mZ3Q7LiAxODAwMTYwOTc5IFZJS0FTIEtVTUFSJmx0O2JyIC8mZ3Q7LiAxODAwMTYxMTE5Jm5ic3A7Li4uIgIQAUgAWABoAA",
+    "about_page_serpapi_link": "https://serpapi.com/search.json?engine=google_about_this_result&google_domain=google.co.in&req_token=CqUBL2dvdG8_dXJsPUNBRVNjQUhyT3pBVno0dXF5RzZmMnBOSGI4VTVaMU9DTlR0MVdYTVpvc0ZqWFNHZ2VKSTRHUVNyV1NDVENfZmJyTDhIaThsMnlDSHJyTTh4Vjg4NWt3WHN1UHlpU0ZNV1F5bmxGdHlQVktzOF9hZlRXOXpNV3M1SlZOSjNqYXZCdGRrbnpXd0RVZTRPcVh0UHQ1YjBYM0Rpd3dBEgQaAggAGr8DEgAaACIAKgAyBggBEgJpbjoAQgQIARAASgBaAHIAegCCQJsDCAAQABgAIAAqHwoKMTgwMDE2MDExMxWkwek8GgwxODAwIDE2MCAxMTMypQEvZ290bz91cmw9Q0FFU2NBSHJPekFWejR1cXlHNmYycE5IYjhVNVoxT0NOVHQxV1hNWm9zRmpYU0dnZUpJNEdRU3JXU0NUQ19mYnJMOEhpOGwyeUNIcnJNOHhWODg1a3dYc3VQeWlTRk1XUXlubEZ0eVBWS3M4X2FmVFc5ek1XczVKVk5KM2phdkJ0ZGtueld3RFVlNE9xWHRQdDViMFgzRGl3d0E6EHRoZSBsaXN0IC0gWVVNUFVCtQE8Yj4xODAwMTYwMTEzPC9iPiBKSVRFTkRFUiBLVU1BUiZsdDticiAvJmd0Oy4gMTgwMDE2MDU1MyBLVU5EQU4gS1VNQVIgTEFMJmx0O2JyIC8mZ3Q7LiAxODAwMTYwODcyIFNIQUlMRVNIIEtVTUFSJmx0O2JyIC8mZ3Q7LiAxODAwMTYwOTc5IFZJS0FTIEtVTUFSJmx0O2JyIC8mZ3Q7LiAxODAwMTYxMTE5Jm5ic3A7Li4uIgIQAUgAWABoAA",
+    "source": "YUMPU",
+    "read_more_link": "https://www.yumpu.com/xx/document/view/29673620/the-list#:~:text=1800160113%20JITENDER%20KUMAR%3Cbr%20%2F%3E,1800161119%20VIPIN%20KUMAR%3Cbr%20%2F%3E"
+   },
+   {
+    "position": 3,
+    "title": "Probationary Officers List | PDF",
+    "link": "https://www.scribd.com/doc/105224951/PO-Interview-List-of-Candidates-Called-11-12-1-xls",
+    "redirect_link": "https://www.google.co.in/url?sa=t&source=web&rct=j&opi=89978449&url=CAESjwEB6zswFcCu9j4gkVRh_IIsUmP2QAHvRFswSk6cS4B-tYkDPd8g-l5eXmHExxRykXLNfkLxkXVF8qx8MjH7sjxFaTRZSrtRBhfG8W0fNXmMbMYSkfsCyK_IWH5x1rvzq3bJLcSptsgnH084n4SCNpfUMdrdhRvj_s5cQKDSXLsS31zXIfKCTwOQ_RV_Ke7vbA&ved=2ahUKEwjSoe272YeXAxXqrokEHc_0Ag0QFnoECB0QAQ&uoh=1",
+    "displayed_link": "https://www.scribd.com › doc › PO-Interview-List-of-C...",
+    "snippet": "... 1800160113 1800160243 1800160259 1800160594 1800160716 1800160720 1800160979 1800161119 1460500990 1460501223 1800509858 1800509880 1800510035 1800510571 ...",
+    "snippet_highlighted_words": [
+     "1800160113"
+    ],
+    "about_this_result": {
+     "source": {
+      "description": "... 1800160113 1800160243 1800160259 1800160594 1800160716 1800160720 1800160979 1800161119 1460500990 1460501223 1800509858 1800509880 1800510035 1800510571 ...",
+      "source_info_link": "https://www.scribd.com/doc/105224951/PO-Interview-List-of-Candidates-Called-11-12-1-xls",
+      "icon": "https://serpapi.com/images/i/UklGRigBAABXRUJQVlA4IBwBAAAwBgCdASocABwAPrUurVanIacnG_DgFolsALsNcA6TAiSRiU0ciNsNw4-ckvZckbI8Q0Lri0nWvPTAAP6fWoc5hI1waVpH4HPI-z3W07wkXNBNlhQO9hAKmOv8njeniRb9FCg1c1JmF3efXUUmw2bU_zMmv4y8p_nL016PcG2_Kkra3QUXk6GbHsoOEa89zFXoAnXirQsiNRzPXeKrniAu0unVpGtsEeMjevYRjJ48Bp-DMJ4D_R_y1f316ypJ0S_9mXgcgm8VoTywUh86jiUV9Al4I6yaumsUkda-7a6L12tg8hgBlh0gWv0-rnf3aeCVRG6cfsuzLtT0ruwHdbHm1C0wW2RxRakx4lXvH-JOfzi7UEbqOQ5wVHgAAA.webp"
+     },
+     "languages": [
+      "en"
+     ],
+     "regions": [
+      "IN"
+     ]
+    },
+    "about_page_link": "https://www.google.co.in/search/about-this-result?origin=www.google.com&req=CtABL2dvdG8_dXJsPUNBRVNqd0VCNnpzd0ZjQ3U5ajRna1ZSaF9JSXNVbVAyUUFIdlJGc3dTazZjUzRCLXRZa0RQZDhnLWw1ZVhtSEV4eFJ5a1hMTmZrTHhrWFZGOHF4OE1qSDdzanhGYVRSWlNydFJCaGZHOFcwZk5YbU1iTVlTa2ZzQ3lLX0lXSDV4MXJ2enEzYkpMY1NwdHNnbkgwODRuNFNDTnBmVU1kcmRoUnZqX3M1Y1FLRFNYTHNTMzF6WElmS0NUd09RX1JWX0tlN3ZiQRIEGgIIABr9AxICCAAaACIAKgAyBggBEgJpbjoAQgQIARAASgBaAHIAegCCQNcDCAAQABgAIAAqHwoKMTgwMDE2MDExMxUEq4U7GgwxODAwIDE2MCAxMTMy0AEvZ290bz91cmw9Q0FFU2p3RUI2enN3RmNDdTlqNGdrVlJoX0lJc1VtUDJRQUh2UkZzd1NrNmNTNEItdFlrRFBkOGctbDVlWG1IRXh4UnlrWExOZmtMeGtYVkY4cXg4TWpIN3NqeEZhVFJaU3J0UkJoZkc4VzBmTlhtTWJNWVNrZnNDeUtfSVdINXgxcnZ6cTNiSkxjU3B0c2duSDA4NG40U0NOcGZVTWRyZGhSdmpfczVjUUtEU1hMc1MzMXpYSWZLQ1R3T1FfUlZfS2U3dmJBOilQcm9iYXRpb25hcnkgT2ZmaWNlcnMgTGlzdCB8IFBERiAtIFNjcmliZEKtAS4uLiA8Yj4xODAwMTYwMTEzPC9iPiAxODAwMTYwMjQzIDE4MDAxNjAyNTkgMTgwMDE2MDU5NCAxODAwMTYwNzE2IDE4MDAxNjA3MjAgMTgwMDE2MDk3OSAxODAwMTYxMTE5IDE0NjA1MDA5OTAgMTQ2MDUwMTIyMyAxODAwNTA5ODU4IDE4MDA1MDk4ODAgMTgwMDUxMDAzNSAxODAwNTEwNTcxJm5ic3A7Li4uIgIQAUgAWABoAA",
+    "about_page_serpapi_link": "https://serpapi.com/search.json?engine=google_about_this_result&google_domain=google.co.in&req_token=CtABL2dvdG8_dXJsPUNBRVNqd0VCNnpzd0ZjQ3U5ajRna1ZSaF9JSXNVbVAyUUFIdlJGc3dTazZjUzRCLXRZa0RQZDhnLWw1ZVhtSEV4eFJ5a1hMTmZrTHhrWFZGOHF4OE1qSDdzanhGYVRSWlNydFJCaGZHOFcwZk5YbU1iTVlTa2ZzQ3lLX0lXSDV4MXJ2enEzYkpMY1NwdHNnbkgwODRuNFNDTnBmVU1kcmRoUnZqX3M1Y1FLRFNYTHNTMzF6WElmS0NUd09RX1JWX0tlN3ZiQRIEGgIIABr9AxICCAAaACIAKgAyBggBEgJpbjoAQgQIARAASgBaAHIAegCCQNcDCAAQABgAIAAqHwoKMTgwMDE2MDExMxUEq4U7GgwxODAwIDE2MCAxMTMy0AEvZ290bz91cmw9Q0FFU2p3RUI2enN3RmNDdTlqNGdrVlJoX0lJc1VtUDJRQUh2UkZzd1NrNmNTNEItdFlrRFBkOGctbDVlWG1IRXh4UnlrWExOZmtMeGtYVkY4cXg4TWpIN3NqeEZhVFJaU3J0UkJoZkc4VzBmTlhtTWJNWVNrZnNDeUtfSVdINXgxcnZ6cTNiSkxjU3B0c2duSDA4NG40U0NOcGZVTWRyZGhSdmpfczVjUUtEU1hMc1MzMXpYSWZLQ1R3T1FfUlZfS2U3dmJBOilQcm9iYXRpb25hcnkgT2ZmaWNlcnMgTGlzdCB8IFBERiAtIFNjcmliZEKtAS4uLiA8Yj4xODAwMTYwMTEzPC9iPiAxODAwMTYwMjQzIDE4MDAxNjAyNTkgMTgwMDE2MDU5NCAxODAwMTYwNzE2IDE4MDAxNjA3MjAgMTgwMDE2MDk3OSAxODAwMTYxMTE5IDE0NjA1MDA5OTAgMTQ2MDUwMTIyMyAxODAwNTA5ODU4IDE4MDA1MDk4ODAgMTgwMDUxMDAzNSAxODAwNTEwNTcxJm5ic3A7Li4uIgIQAUgAWABoAA",
+    "source": "Scribd",
+    "read_more_link": "https://www.scribd.com/doc/105224951/PO-Interview-List-of-Candidates-Called-11-12-1-xls#:~:text=1430100479%201800100901%201800107607%201800157284%201800158348,1800568631%201800568665%201800568889%201800568941%201800569005"
+   },
+   {
+    "position": 4,
+    "title": "Roll No. NAME 1120504285 ANILKUMAR PONNALURI ...",
+    "link": "https://images.jagran.com/jagranjosh/allahabad-bank-po-selected-candidates-list-2012-13.pdf",
+    "redirect_link": "https://www.google.co.in/url?sa=t&source=web&rct=j&opi=89978449&url=CAESkwEB6zswFSjg2Q7X839pCKy5BqKgRg7_m6unaiWqfnx0ahrOYaixoFH1hAw-KX6RX0WNJCUVYUHhu8rxKls7D_m2UfAJw2d9fY3YodrFjzVT3XIt8obQI4xksNPUrl59vQHDQP3B0IUo_X7Ts3LDmqETP96pEJ_lu_HSq5WWa3Sozdvr2trueqNz3FbY_DI6RLqOdGs&ved=2ahUKEwjSoe272YeXAxXqrokEHc_0Ag0QFnoECC4QAQ&uoh=1",
+    "displayed_link": "https://images.jagran.com › jagranjosh › allahabad...",
+    "date": "31 May 2012",
+    "snippet": "1800160113. JITENDER KUMAR. 1800160553. KUNDAN KUMAR LAL. 1800160872. SHAILESH KUMAR. 1800160979. VIKAS KUMAR. 1800161119. VIPIN KUMAR.",
+    "snippet_highlighted_words": [
+     "1800160113"
+    ],
+    "rich_snippet": {
+     "top": {
+      "detected_extensions": {
+       "pages": 35
+      },
+      "extensions": [
+       "35 pages"
+      ]
+     }
+    },
+    "about_this_result": {
+     "source": {
+      "description": "1800160113. JITENDER KUMAR. 1800160553. KUNDAN KUMAR LAL. 1800160872. SHAILESH KUMAR. 1800160979. VIKAS KUMAR. 1800161119. VIPIN KUMAR.",
+      "source_info_link": "https://images.jagran.com/jagranjosh/allahabad-bank-po-selected-candidates-list-2012-13.pdf"
+     },
+     "languages": [
+      "en"
+     ],
+     "regions": [
+      "IN"
+     ]
+    },
+    "about_page_link": "https://www.google.co.in/search/about-this-result?origin=www.google.com&req=CtUBL2dvdG8_dXJsPUNBRVNrd0VCNnpzd0ZTamcyUTdYODM5cENLeTVCcUtnUmc3X202dW5haVdxZm54MGFock9ZYWl4b0ZIMWhBdy1LWDZSWDBXTkpDVVZZVUhodThyeEtsczdEX20yVWZBSncyZDlmWTNZb2RyRmp6VlQzWEl0OG9iUUk0eGtzTlBVcmw1OXZRSERRUDNCMElVb19YN1RzM0xEbXFFVFA5NnBFSl9sdV9IU3E1V1dhM1NvemR2cjJ0cnVlcU56M0ZiWV9ESTZSTHFPZEdzEgQaAggAGugDEgAaACIAKgAyBggBEgJpbjoAQgQIARAASgBaAHIAegCCQMQDCAAQABgAIAAqHwoKMTgwMDE2MDExMxWCRgY9GgwxODAwIDE2MCAxMTMy1QEvZ290bz91cmw9Q0FFU2t3RUI2enN3RlNqZzJRN1g4MzlwQ0t5NUJxS2dSZzdfbTZ1bmFpV3FmbngwYWhyT1lhaXhvRkgxaEF3LUtYNlJYMFdOSkNVVllVSGh1OHJ4S2xzN0RfbTJVZkFKdzJkOWZZM1lvZHJGanpWVDNYSXQ4b2JRSTR4a3NOUFVybDU5dlFIRFFQM0IwSVVvX1g3VHMzTERtcUVUUDk2cEVKX2x1X0hTcTVXV2EzU296ZHZyMnRydWVxTnozRmJZX0RJNlJMcU9kR3M6MFJvbGwgTm8uIE5BTUUgMTEyMDUwNDI4NSBBTklMS1VNQVIgUE9OTkFMVVJJIC4uLkKOATxiPjE4MDAxNjAxMTM8L2I-LiBKSVRFTkRFUiBLVU1BUi4gMTgwMDE2MDU1My4gS1VOREFOIEtVTUFSIExBTC4gMTgwMDE2MDg3Mi4gU0hBSUxFU0ggS1VNQVIuIDE4MDAxNjA5NzkuIFZJS0FTIEtVTUFSLiAxODAwMTYxMTE5LiBWSVBJTiBLVU1BUi4iAhABSABYAGgA",
+    "about_page_serpapi_link": "https://serpapi.com/search.json?engine=google_about_this_result&google_domain=google.co.in&req_token=CtUBL2dvdG8_dXJsPUNBRVNrd0VCNnpzd0ZTamcyUTdYODM5cENLeTVCcUtnUmc3X202dW5haVdxZm54MGFock9ZYWl4b0ZIMWhBdy1LWDZSWDBXTkpDVVZZVUhodThyeEtsczdEX20yVWZBSncyZDlmWTNZb2RyRmp6VlQzWEl0OG9iUUk0eGtzTlBVcmw1OXZRSERRUDNCMElVb19YN1RzM0xEbXFFVFA5NnBFSl9sdV9IU3E1V1dhM1NvemR2cjJ0cnVlcU56M0ZiWV9ESTZSTHFPZEdzEgQaAggAGugDEgAaACIAKgAyBggBEgJpbjoAQgQIARAASgBaAHIAegCCQMQDCAAQABgAIAAqHwoKMTgwMDE2MDExMxWCRgY9GgwxODAwIDE2MCAxMTMy1QEvZ290bz91cmw9Q0FFU2t3RUI2enN3RlNqZzJRN1g4MzlwQ0t5NUJxS2dSZzdfbTZ1bmFpV3FmbngwYWhyT1lhaXhvRkgxaEF3LUtYNlJYMFdOSkNVVllVSGh1OHJ4S2xzN0RfbTJVZkFKdzJkOWZZM1lvZHJGanpWVDNYSXQ4b2JRSTR4a3NOUFVybDU5dlFIRFFQM0IwSVVvX1g3VHMzTERtcUVUUDk2cEVKX2x1X0hTcTVXV2EzU296ZHZyMnRydWVxTnozRmJZX0RJNlJMcU9kR3M6MFJvbGwgTm8uIE5BTUUgMTEyMDUwNDI4NSBBTklMS1VNQVIgUE9OTkFMVVJJIC4uLkKOATxiPjE4MDAxNjAxMTM8L2I-LiBKSVRFTkRFUiBLVU1BUi4gMTgwMDE2MDU1My4gS1VOREFOIEtVTUFSIExBTC4gMTgwMDE2MDg3Mi4gU0hBSUxFU0ggS1VNQVIuIDE4MDAxNjA5NzkuIFZJS0FTIEtVTUFSLiAxODAwMTYxMTE5LiBWSVBJTiBLVU1BUi4iAhABSABYAGgA",
+    "source": "Jagran",
+    "read_more_link": "https://images.jagran.com/jagranjosh/allahabad-bank-po-selected-candidates-list-2012-13.pdf#:~:text=1800160113,VIPIN%20KUMAR"
+   },
+   {
+    "position": 5,
+    "title": "Student Enrollment List | PDF",
+    "link": "https://www.scribd.com/document/532416504/Diploma-Final-Merit-List-Only-CO-IT",
+    "redirect_link": "https://www.google.co.in/url?sa=t&source=web&rct=j&opi=89978449&url=CAEShQEB6zswFfF8V-7k1UCIYihOQ4iurVPvElvI0shGgace5nakvy5RUFcmUQFai_iYA1AdPldwG2NRCerKXNwj6bZqRKWZckkawo6vQNMbi4qrSRS-dkHtMIMIMZsXCY1iwVGDWbeRQonQ0CwSOJHbPIAct2PQvIKaSRQF2G9PjQ9VTtGU8S26&ved=2ahUKEwjSoe272YeXAxXqrokEHc_0Ag0QFnoECCIQAQ&uoh=1",
+    "displayed_link": "https://www.scribd.com › document › Diploma-Final-M...",
+    "snippet": "... 1800160113 CHOLKHANE SWAPNIL RAJESH 8565 1911990354 JANVI TOTE 8566 1709680119 CHILLAL ANJALI CHANDRAKANT 8567 1916460006 DEODHAR NIMISH PARASHURAM 8568 ...",
+    "snippet_highlighted_words": [
+     "1800160113"
+    ],
+    "rich_snippet": {
+     "top": {
+      "detected_extensions": {
+       "rating": 1.0,
+       "reviews": 1
+      },
+      "extensions": [
+       "1.0(1)"
+      ]
+     }
+    },
+    "about_this_result": {
+     "source": {
+      "description": "... 1800160113 CHOLKHANE SWAPNIL RAJESH 8565 1911990354 JANVI TOTE 8566 1709680119 CHILLAL ANJALI CHANDRAKANT 8567 1916460006 DEODHAR NIMISH PARASHURAM 8568 ...",
+      "source_info_link": "https://www.scribd.com/document/532416504/Diploma-Final-Merit-List-Only-CO-IT",
+      "icon": "https://serpapi.com/images/i/UklGRigBAABXRUJQVlA4IBwBAAAwBgCdASocABwAPrUurVanIacnG_DgFolsALsNcA6TAiSRiU0ciNsNw4-ckvZckbI8Q0Lri0nWvPTAAP6fWoc5hI1waVpH4HPI-z3W07wkXNBNlhQO9hAKmOv8njeniRb9FCg1c1JmF3efXUUmw2bU_zMmv4y8p_nL016PcG2_Kkra3QUXk6GbHsoOEa89zFXoAnXirQsiNRzPXeKrniAu0unVpGtsEeMjevYRjJ48Bp-DMJ4D_R_y1f316ypJ0S_9mXgcgm8VoTywUh86jiUV9Al4I6yaumsUkda-7a6L12tg8hgBlh0gWv0-rnf3aeCVRG6cfsuzLtT0ruwHdbHm1C0wW2RxRakx4lXvH-JOfzi7UEbqOQ5wVHgAAA.webp"
+     },
+     "languages": [
+      "en"
+     ],
+     "regions": [
+      "IN"
+     ]
+    },
+    "about_page_link": "https://www.google.co.in/search/about-this-result?origin=www.google.com&req=CsIBL2dvdG8_dXJsPUNBRVNoUUVCNnpzd0ZmRjhWLTdrMVVDSVlpaE9RNGl1clZQdkVsdkkwc2hHZ2FjZTVuYWt2eTVSVUZjbVVRRmFpX2lZQTFBZFBsZHdHMk5SQ2VyS1hOd2o2YlpxUktXWmNra2F3bzZ2UU5NYmk0cXJTUlMtZGtIdE1JTUlNWnNYQ1kxaXdWR0RXYmVSUW9uUTBDd1NPSkhiUElBY3QyUFF2SUthU1JRRjJHOVBqUTlWVHRHVThTMjYSBBoCCAAa6wMSAggAGgAiACoAMgYIARICaW46AEIECAEQAEoAWgByAHoAgkDFAwgAEAAYACAAKh8KCjE4MDAxNjAxMTMVAI--OhoMMTgwMCAxNjAgMTEzMsIBL2dvdG8_dXJsPUNBRVNoUUVCNnpzd0ZmRjhWLTdrMVVDSVlpaE9RNGl1clZQdkVsdkkwc2hHZ2FjZTVuYWt2eTVSVUZjbVVRRmFpX2lZQTFBZFBsZHdHMk5SQ2VyS1hOd2o2YlpxUktXWmNra2F3bzZ2UU5NYmk0cXJTUlMtZGtIdE1JTUlNWnNYQ1kxaXdWR0RXYmVSUW9uUTBDd1NPSkhiUElBY3QyUFF2SUthU1JRRjJHOVBqUTlWVHRHVThTMjY6JlN0dWRlbnQgRW5yb2xsbWVudCBMaXN0IHwgUERGIC0gU2NyaWJkQqwBLi4uIDxiPjE4MDAxNjAxMTM8L2I-IENIT0xLSEFORSBTV0FQTklMIFJBSkVTSCA4NTY1IDE5MTE5OTAzNTQgSkFOVkkgVE9URSA4NTY2IDE3MDk2ODAxMTkgQ0hJTExBTCBBTkpBTEkgQ0hBTkRSQUtBTlQgODU2NyAxOTE2NDYwMDA2IERFT0RIQVIgTklNSVNIIFBBUkFTSFVSQU0gODU2OCZuYnNwOy4uLiICEAFIAFgAaAA",
+    "about_page_serpapi_link": "https://serpapi.com/search.json?engine=google_about_this_result&google_domain=google.co.in&req_token=CsIBL2dvdG8_dXJsPUNBRVNoUUVCNnpzd0ZmRjhWLTdrMVVDSVlpaE9RNGl1clZQdkVsdkkwc2hHZ2FjZTVuYWt2eTVSVUZjbVVRRmFpX2lZQTFBZFBsZHdHMk5SQ2VyS1hOd2o2YlpxUktXWmNra2F3bzZ2UU5NYmk0cXJTUlMtZGtIdE1JTUlNWnNYQ1kxaXdWR0RXYmVSUW9uUTBDd1NPSkhiUElBY3QyUFF2SUthU1JRRjJHOVBqUTlWVHRHVThTMjYSBBoCCAAa6wMSAggAGgAiACoAMgYIARICaW46AEIECAEQAEoAWgByAHoAgkDFAwgAEAAYACAAKh8KCjE4MDAxNjAxMTMVAI--OhoMMTgwMCAxNjAgMTEzMsIBL2dvdG8_dXJsPUNBRVNoUUVCNnpzd0ZmRjhWLTdrMVVDSVlpaE9RNGl1clZQdkVsdkkwc2hHZ2FjZTVuYWt2eTVSVUZjbVVRRmFpX2lZQTFBZFBsZHdHMk5SQ2VyS1hOd2o2YlpxUktXWmNra2F3bzZ2UU5NYmk0cXJTUlMtZGtIdE1JTUlNWnNYQ1kxaXdWR0RXYmVSUW9uUTBDd1NPSkhiUElBY3QyUFF2SUthU1JRRjJHOVBqUTlWVHRHVThTMjY6JlN0dWRlbnQgRW5yb2xsbWVudCBMaXN0IHwgUERGIC0gU2NyaWJkQqwBLi4uIDxiPjE4MDAxNjAxMTM8L2I-IENIT0xLSEFORSBTV0FQTklMIFJBSkVTSCA4NTY1IDE5MTE5OTAzNTQgSkFOVkkgVE9URSA4NTY2IDE3MDk2ODAxMTkgQ0hJTExBTCBBTkpBTEkgQ0hBTkRSQUtBTlQgODU2NyAxOTE2NDYwMDA2IERFT0RIQVIgTklNSVNIIFBBUkFTSFVSQU0gODU2OCZuYnNwOy4uLiICEAFIAFgAaAA",
+    "source": "Scribd",
+    "read_more_link": "https://www.scribd.com/document/532416504/Diploma-Final-Merit-List-Only-CO-IT#:~:text=8564%201800160113%20CHOLKHANE%20SWAPNIL%20RAJESH,8568%201815010261%20SURADKAR%20UDYAN%20DEEPAK"
+   },
+   {
+    "position": 6,
+    "title": "Catálogo de Rodamientos y Soportes | PDF",
+    "link": "https://es.scribd.com/document/463278406/CATALOGO-Tipos-de-Rodamientos-pdf",
+    "redirect_link": "https://www.google.co.in/url?sa=t&source=web&rct=j&opi=89978449&url=CAESggEB6zswFUX1IK1I_OJFfVmJoa8LjgxmKKMBd1mdK4YeNfkmevknANlKGqJWCFcPTn70xXjJyFIMNym5CMKHnLsu1n-p7Dl605V4lcJwPh1wuM8pKKz4LnF93qyCP6FEBVWA97OSIZXjnvAINM67sZz8gTnxngAavIw1vW1TI4hAePw0&ved=2ahUKEwjSoe272YeXAxXqrokEHc_0Ag0QFnoECCEQAQ&uoh=1",
+    "displayed_link": "https://es.scribd.com › document",
+    "snippet": "... 1800 160 113 2,41 187 63 2 51322MP 275 720 950 1400 190 113 7,7 230 95 3 51422FP 415 1140 700 950 225 113 20,8 120 155 25 1 51124 90 310 1500 2200 155 122 1 ...",
+    "snippet_highlighted_words": [
+     "1800 160 113"
+    ],
+    "rich_snippet": {
+     "top": {
+      "detected_extensions": {
+       "rating": 5.0,
+       "reviews": 1
+      },
+      "extensions": [
+       "5.0(1)"
+      ]
+     }
+    },
+    "about_this_result": {
+     "source": {
+      "description": "... 1800 160 113 2,41 187 63 2 51322MP 275 720 950 1400 190 113 7,7 230 95 3 51422FP 415 1140 700 950 225 113 20,8 120 155 25 1 51124 90 310 1500 2200 155 122 1 ...",
+      "source_info_link": "https://es.scribd.com/document/463278406/CATALOGO-Tipos-de-Rodamientos-pdf",
+      "icon": "https://serpapi.com/images/i/UklGRigBAABXRUJQVlA4IBwBAAAwBgCdASocABwAPrUurVanIacnG_DgFolsALsNcA6TAiSRiU0ciNsNw4-ckvZckbI8Q0Lri0nWvPTAAP6fWoc5hI1waVpH4HPI-z3W07wkXNBNlhQO9hAKmOv8njeniRb9FCg1c1JmF3efXUUmw2bU_zMmv4y8p_nL016PcG2_Kkra3QUXk6GbHsoOEa89zFXoAnXirQsiNRzPXeKrniAu0unVpGtsEeMjevYRjJ48Bp-DMJ4D_R_y1f316ypJ0S_9mXgcgm8VoTywUh86jiUV9Al4I6yaumsUkda-7a6L12tg8hgBlh0gWv0-rnf3aeCVRG6cfsuzLtT0ruwHdbHm1C0wW2RxRakx4lXvH-JOfzi7UEbqOQ5wVHgAAA.webp"
+     },
+     "languages": [
+      "en"
+     ],
+     "regions": [
+      "IN"
+     ]
+    },
+    "about_page_link": "https://www.google.co.in/search/about-this-result?origin=www.google.com&req=Cr4BL2dvdG8_dXJsPUNBRVNnZ0VCNnpzd0ZVWDFJSzFJX09KRmZWbUpvYThMamd4bUtLTUJkMW1kSzRZZU5ma21ldmtuQU5sS0dxSldDRmNQVG43MHhYakp5RklNTnltNUNNS0huTHN1MW4tcDdEbDYwNVY0bGNKd1BoMXd1TThwS0t6NExuRjkzcXlDUDZGRUJWV0E5N09TSVpYam52QUlOTTY3c1p6OGdUbnhuZ0Fhdkl3MXZXMVRJNGhBZVB3MBIEGgIIABr3AxICCAAaACIAKgAyBggCEgJpbjoAQgQIAhAASgBaAHIAegCCQNEDCAAQABgAIAAqHwoKMTgwMDE2MDExMxX1f8U6GgwxODAwIDE2MCAxMTMyvgEvZ290bz91cmw9Q0FFU2dnRUI2enN3RlVYMUlLMUlfT0pGZlZtSm9hOExqZ3htS0tNQmQxbWRLNFllTmZrbWV2a25BTmxLR3FKV0NGY1BUbjcweFhqSnlGSU1OeW01Q01LSG5Mc3Uxbi1wN0RsNjA1VjRsY0p3UGgxd3VNOHBLS3o0TG5GOTNxeUNQNkZFQlZXQTk3T1NJWlhqbnZBSU5NNjdzWno4Z1RueG5nQWF2SXcxdlcxVEk0aEFlUHcwOjJDYXTDoWxvZ28gZGUgUm9kYW1pZW50b3MgeSBTb3BvcnRlcyB8IFBERiAtIFNjcmliZEKwAS4uLiA8Yj4xODAwIDE2MCAxMTM8L2I-IDIsNDEgMTg3IDYzIDIgNTEzMjJNUCAyNzUgNzIwIDk1MCAxNDAwIDE5MCAxMTMgNyw3IDIzMCA5NSAzIDUxNDIyRlAgNDE1IDExNDAgNzAwIDk1MCAyMjUgMTEzIDIwLDggMTIwIDE1NSAyNSAxIDUxMTI0IDkwIDMxMCAxNTAwIDIyMDAgMTU1IDEyMiAxJm5ic3A7Li4uIgIQAUgAWABoAA",
+    "about_page_serpapi_link": "https://serpapi.com/search.json?engine=google_about_this_result&google_domain=google.co.in&req_token=Cr4BL2dvdG8_dXJsPUNBRVNnZ0VCNnpzd0ZVWDFJSzFJX09KRmZWbUpvYThMamd4bUtLTUJkMW1kSzRZZU5ma21ldmtuQU5sS0dxSldDRmNQVG43MHhYakp5RklNTnltNUNNS0huTHN1MW4tcDdEbDYwNVY0bGNKd1BoMXd1TThwS0t6NExuRjkzcXlDUDZGRUJWV0E5N09TSVpYam52QUlOTTY3c1p6OGdUbnhuZ0Fhdkl3MXZXMVRJNGhBZVB3MBIEGgIIABr3AxICCAAaACIAKgAyBggCEgJpbjoAQgQIAhAASgBaAHIAegCCQNEDCAAQABgAIAAqHwoKMTgwMDE2MDExMxX1f8U6GgwxODAwIDE2MCAxMTMyvgEvZ290bz91cmw9Q0FFU2dnRUI2enN3RlVYMUlLMUlfT0pGZlZtSm9hOExqZ3htS0tNQmQxbWRLNFllTmZrbWV2a25BTmxLR3FKV0NGY1BUbjcweFhqSnlGSU1OeW01Q01LSG5Mc3Uxbi1wN0RsNjA1VjRsY0p3UGgxd3VNOHBLS3o0TG5GOTNxeUNQNkZFQlZXQTk3T1NJWlhqbnZBSU5NNjdzWno4Z1RueG5nQWF2SXcxdlcxVEk0aEFlUHcwOjJDYXTDoWxvZ28gZGUgUm9kYW1pZW50b3MgeSBTb3BvcnRlcyB8IFBERiAtIFNjcmliZEKwAS4uLiA8Yj4xODAwIDE2MCAxMTM8L2I-IDIsNDEgMTg3IDYzIDIgNTEzMjJNUCAyNzUgNzIwIDk1MCAxNDAwIDE5MCAxMTMgNyw3IDIzMCA5NSAzIDUxNDIyRlAgNDE1IDExNDAgNzAwIDk1MCAyMjUgMTEzIDIwLDggMTIwIDE1NSAyNSAxIDUxMTI0IDkwIDMxMCAxNTAwIDIyMDAgMTU1IDEyMiAxJm5ic3A7Li4uIgIQAUgAWABoAA",
+    "source": "Scribd",
+    "read_more_link": "https://es.scribd.com/document/463278406/CATALOGO-Tipos-de-Rodamientos-pdf#:~:text=160%2038%201%2C1%2051222%20129,1500%202200%20155%20122%201%2C59"
+   }
+  ]
+ }
+}

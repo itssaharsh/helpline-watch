@@ -1,0 +1,127 @@
+{
+ "_fixture": {
+  "kind": "synthetic",
+  "note": "Search · Delhi · SBI customer care number",
+  "generated_at": "2026-09-24T16:57:21+00:00",
+  "params": {
+   "engine": "google",
+   "q": "SBI customer care number",
+   "location": "Delhi,Delhi,India",
+   "google_domain": "google.co.in",
+   "gl": "in",
+   "hl": "en",
+   "num": "10"
+  }
+ },
+ "response": {
+  "search_metadata": {
+   "id": "synthetic-fea1bf3e1dbce10c",
+   "status": "Success",
+   "created_at": "2026-09-24 16:57:21 UTC",
+   "processed_at": "2026-09-24 16:57:21 UTC",
+   "json_endpoint": null,
+   "raw_html_file": null,
+   "total_time_taken": 2.17
+  },
+  "search_parameters": {
+   "engine": "google",
+   "q": "SBI customer care number",
+   "location": "Delhi,Delhi,India",
+   "google_domain": "google.co.in",
+   "gl": "in",
+   "hl": "en",
+   "num": "10"
+  },
+  "organic_results": [
+   {
+    "position": 1,
+    "title": "Contact us - SBI",
+    "link": "https://www.sbi.co.in/contact-us",
+    "displayed_link": "https://www.sbi.co.in › contact-us",
+    "snippet": "Call our 24x7 toll-free customer care at 1800 1234. Never share your OTP or card PIN with anyone."
+   },
+   {
+    "position": 2,
+    "title": "SBI customer care number 1800 1234 toll free",
+    "link": "https://www.justdial.com/sbi-customer-care",
+    "displayed_link": "https://www.justdial.com › sbi-customer-care",
+    "snippet": "SBI customer care number is 1800 1234. Also try the grievance desk on the official website."
+   },
+   {
+    "position": 3,
+    "title": "Grievance redressal - SBI",
+    "link": "https://sbi.co.in/web/customer-care/grievance-redressal",
+    "displayed_link": "https://sbi.co.in › web › customer-care",
+    "snippet": "Nodal officer: write to us or call 022 2274 0841 between 9 AM and 6 PM."
+   },
+   {
+    "position": 4,
+    "title": "SBI customer care number - +91 74110 29385",
+    "link": "https://sbi-helpdesk-online.co/customer-care",
+    "displayed_link": "https://sbi-helpdesk-online.co › customer-care",
+    "snippet": "Call SBI customer care +91 74110 29385 for instant refund and complaint. Available 24x7."
+   },
+   {
+    "position": 5,
+    "title": "Man loses Rs 90,000 after calling fake SBI customer care number",
+    "link": "https://www.hindustantimes.com/city/delhi/fake-sbi-helpline",
+    "displayed_link": "https://www.hindustantimes.com › city › delhi",
+    "snippet": "The victim searched for SBI customer care on Google and dialled a number listed on a business listing. Police said the number was a scam."
+   },
+   {
+    "position": 6,
+    "title": "SBI - Wikipedia",
+    "link": "https://en.wikipedia.org/wiki/SBI",
+    "displayed_link": "https://en.wikipedia.org › wiki › SBI",
+    "snippet": "SBI is an Indian company headquartered in India."
+   }
+  ],
+  "knowledge_graph": {
+   "title": "SBI",
+   "type": "Company",
+   "phone": "1800 1234",
+   "website": "https://www.sbi.co.in/",
+   "description": "SBI customer service"
+  },
+  "ads": [
+   {
+    "position": 1,
+    "block_position": "top",
+    "title": "SBI Customer Care 24x7 - Call Now",
+    "link": "https://sbi-helpdesk-online.co/",
+    "displayed_link": "https://sbi-helpdesk-online.co › care",
+    "description": "Instant support for card block, refund & KYC. Call +91 98301 77462 now. Toll free assistance."
+   }
+  ],
+  "local_results": {
+   "places": [
+    {
+     "position": 1,
+     "title": "SBI Customer Care Number",
+     "place_id": "synthetic-sbi-delhi-care",
+     "data_id": "0xc06025886cfd:0x2c7aad9d71c1",
+     "rating": 4.8,
+     "reviews": 3,
+     "type": "Customer service",
+     "types": [
+      "Customer service"
+     ],
+     "address": "Delhi",
+     "gps_coordinates": {
+      "latitude": 22.063829952533958,
+      "longitude": 82.49299174673239
+     },
+     "phone": "+91 74110 29385"
+    }
+   ]
+  },
+  "related_questions": [
+   {
+    "question": "What is the SBI customer care number?",
+    "snippet": "The official SBI customer care number is 1800 1234.",
+    "title": "Contact us - SBI",
+    "link": "https://www.sbi.co.in/contact-us"
+   }
+  ]
+ }
+}

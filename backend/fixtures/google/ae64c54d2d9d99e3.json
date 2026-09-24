@@ -1,0 +1,351 @@
+{
+ "_fixture": {
+  "kind": "recorded",
+  "recorded_at": "2026-09-24T17:00:37+00:00",
+  "params": {
+   "engine": "google",
+   "q": "\"18001601\" OR \"1800 1601\"",
+   "google_domain": "google.co.in",
+   "gl": "in",
+   "hl": "en",
+   "num": "10"
+  }
+ },
+ "response": {
+  "search_metadata": {
+   "id": "6ab55734f5c2f84ef8cdbbbf",
+   "status": "Success",
+   "json_endpoint": "https://serpapi.com/searches/2mboDaxPaB_JRKVbpfBx57ExffLD3N992OV8qjQecaw/6ab55734f5c2f84ef8cdbbbf.json",
+   "markdown_endpoint": "https://serpapi.com/searches/2mboDaxPaB_JRKVbpfBx57ExffLD3N992OV8qjQecaw/6ab55734f5c2f84ef8cdbbbf.md",
+   "pixel_position_endpoint": "https://serpapi.com/searches/2mboDaxPaB_JRKVbpfBx57ExffLD3N992OV8qjQecaw/6ab55734f5c2f84ef8cdbbbf.json_with_pixel_position",
+   "created_at": "2026-09-24 17:00:36 UTC",
+   "processed_at": "2026-09-24 17:00:36 UTC",
+   "google_url": "https://www.google.co.in/search?q=%2218001601%22+OR+%221800+1601%22&oq=%2218001601%22+OR+%221800+1601%22&hl=en&gl=in&sourceid=chrome&ie=UTF-8",
+   "raw_html_file": "https://serpapi.com/searches/2mboDaxPaB_JRKVbpfBx57ExffLD3N992OV8qjQecaw/6ab55734f5c2f84ef8cdbbbf.html",
+   "total_time_taken": 0.5
+  },
+  "search_parameters": {
+   "engine": "google",
+   "q": "\"18001601\" OR \"1800 1601\"",
+   "google_domain": "google.co.in",
+   "hl": "en",
+   "gl": "in",
+   "device": "desktop"
+  },
+  "search_information": {
+   "query_displayed": "\"18001601\" OR \"1800 1601\"",
+   "total_results": 34200,
+   "time_taken_displayed": 0.28,
+   "organic_results_state": "Results for exact spelling"
+  },
+  "organic_results": [
+   {
+    "position": 1,
+    "title": "19-18001601-A-G SNV | hg19",
+    "link": "https://varsome.com/variant/hg19/19-18001601-A-G",
+    "redirect_link": "https://www.google.co.in/url?sa=t&source=web&rct=j&opi=89978449&url=CAESaAHrOzAVTJczG0bYtf4uhtO3i0hROwoUhUzHIWXA80IqB9xjjF0qiDITlzCg4FS4fgZyFWQ0bZWVItFEZV9sbttD_QIE6YO5GVm4EOw6y07pkgvE7Z0Mhb_4Jnd9XtrBFhbG1ynomC5f&ved=2ahUKEwjOlJnP2IeXAxUa0PACHS7WHLgQFnoECAcQAQ&uoh=1",
+    "displayed_link": "https://varsome.com › variant › 19-18001601-A-G",
+    "snippet": "SNV Variant: Chromosome 19, Position 18001601, A G | hg19VarSome, the Human Genomics Community.",
+    "snippet_highlighted_words": [
+     "18001601"
+    ],
+    "about_this_result": {
+     "source": {
+      "description": "SNV Variant: Chromosome 19, Position 18001601, A G | hg19VarSome, the Human Genomics Community.",
+      "source_info_link": "https://varsome.com/variant/hg19/19-18001601-A-G",
+      "icon": "https://serpapi.com/images/i/UklGRuAAAABXRUJQVlA4INQAAABQBQCdASocABwAPtE-tFooIigoFAEAGglsALfEEfIiY8eZgjVNFR_iQVeqPSBZQC7K8IAA_v0qb6opR4gSCj1nz-pOQyFsUnFQmXjybMgO4MHQJXGmGwx6l_-d_8xvm749mT-_iE502ZgiFrf5MUC4-vWa_3yWqXPQEX2s500MTd6wUmNzt19a9fKTsnhzoaaOt0mQUr6y5vTfLKL4Pz9aepc7kwwuqo4FvoTv9OyDXHqFaGTuyi9Tt9_8P9Uqq_oL5tKGYpMPsDxCZ-gPlbxhO4AAAA.webp"
+     },
+     "languages": [
+      "en"
+     ],
+     "regions": [
+      "IN"
+     ]
+    },
+    "about_page_link": "https://www.google.co.in/search/about-this-result?origin=www.google.com&req=CpoBL2dvdG8_dXJsPUNBRVNhQUhyT3pBVlRKY3pHMGJZdGY0dWh0TzNpMGhST3dvVWhVekhJV1hBODBJcUI5eGpqRjBxaURJVGx6Q2c0RlM0ZmdaeUZXUTBiWldWSXRGRVpWOXNidHREX1FJRTZZTzVHVm00RU93NnkwN3BrZ3ZFN1owTWhiXzRKbmQ5WHRyQkZoYkcxeW5vbUM1ZhIEGgIIABr8AhICCAAaACIAKgAyBggCEgJpbjoAQgQIARAASgBaAHIAegCCQNYCCAAQABgAIAAqGgoIMTgwMDE2MDEVEjRgQBoJMTgwMCAxNjAxMpoBL2dvdG8_dXJsPUNBRVNhQUhyT3pBVlRKY3pHMGJZdGY0dWh0TzNpMGhST3dvVWhVekhJV1hBODBJcUI5eGpqRjBxaURJVGx6Q2c0RlM0ZmdaeUZXUTBiWldWSXRGRVpWOXNidHREX1FJRTZZTzVHVm00RU93NnkwN3BrZ3ZFN1owTWhiXzRKbmQ5WHRyQkZoYkcxeW5vbUM1ZjorMTktPGI-MTgwMDE2MDE8L2I-LUEtRyBTTlYgfCBoZzE5IC0gVmFyU29tZUJmU05WIFZhcmlhbnQ6IENocm9tb3NvbWUgMTksIFBvc2l0aW9uIDxiPjE4MDAxNjAxPC9iPiwgQSBHIHwgaGcxOVZhclNvbWUsIHRoZSBIdW1hbiBHZW5vbWljcyBDb21tdW5pdHkuIgIQAUgAWABoAA",
+    "about_page_serpapi_link": "https://serpapi.com/search.json?engine=google_about_this_result&google_domain=google.co.in&req_token=CpoBL2dvdG8_dXJsPUNBRVNhQUhyT3pBVlRKY3pHMGJZdGY0dWh0TzNpMGhST3dvVWhVekhJV1hBODBJcUI5eGpqRjBxaURJVGx6Q2c0RlM0ZmdaeUZXUTBiWldWSXRGRVpWOXNidHREX1FJRTZZTzVHVm00RU93NnkwN3BrZ3ZFN1owTWhiXzRKbmQ5WHRyQkZoYkcxeW5vbUM1ZhIEGgIIABr8AhICCAAaACIAKgAyBggCEgJpbjoAQgQIARAASgBaAHIAegCCQNYCCAAQABgAIAAqGgoIMTgwMDE2MDEVEjRgQBoJMTgwMCAxNjAxMpoBL2dvdG8_dXJsPUNBRVNhQUhyT3pBVlRKY3pHMGJZdGY0dWh0TzNpMGhST3dvVWhVekhJV1hBODBJcUI5eGpqRjBxaURJVGx6Q2c0RlM0ZmdaeUZXUTBiWldWSXRGRVpWOXNidHREX1FJRTZZTzVHVm00RU93NnkwN3BrZ3ZFN1owTWhiXzRKbmQ5WHRyQkZoYkcxeW5vbUM1ZjorMTktPGI-MTgwMDE2MDE8L2I-LUEtRyBTTlYgfCBoZzE5IC0gVmFyU29tZUJmU05WIFZhcmlhbnQ6IENocm9tb3NvbWUgMTksIFBvc2l0aW9uIDxiPjE4MDAxNjAxPC9iPiwgQSBHIHwgaGcxOVZhclNvbWUsIHRoZSBIdW1hbiBHZW5vbWljcyBDb21tdW5pdHkuIgIQAUgAWABoAA",
+    "source": "VarSome"
+   },
+   {
+    "position": 2,
+    "title": "SOT-DIV23LF-02-1800-1601-FD - IRC / TT Electronics Part Detail",
+    "link": "https://www.ttieurope.com/content/ttieurope/en/apps/part-detail.html?partsNumber=SOT-DIV23LF-02-1800-1601-FD&productId=1773706927&srsltid=AU7gw4WYhpYS2FkEX1r5gMNLjRVWcacuutI3qN1xyLTJ4nu6bqdxfX8h",
+    "redirect_link": "https://www.google.co.in/url?sa=t&source=web&rct=j&opi=89978449&url=CAES-wEB6zswFdRNvEB2wPKZZuI6v8y7sNhnmUb8tQL9mRY9SnelFauMtNYEkCyvqakhztLfTWgFjVfWIU4SDQ-fSVaF1KM_inTAEzc_PjGOtIb2dG0zx9YnThcTOIzivttFGHmG8gUeRG3YAoU-eB4yaqR8smAPZ_l5uvTxL0UFSx4Ws9Yr2sd4QwX80mtwagNa3p_lVTJOwdMENOyEYfGRL7GRHKkrdWb4SN54FyVDm9zR5ZmjMljCDCNo4cFDlMSVlclZaBRp_NmKZZBh5zK3FqT5KJ4UviXBT5GF_ASiYMAPh2l4Ng6wRa3rwsn3lhUE5uP4Z2j9fjb07YzeDA&ved=2ahUKEwjOlJnP2IeXAxUa0PACHS7WHLgQFnoECAoQAQ&uoh=1",
+    "displayed_link": "https://www.ttieurope.com › content › ttieurope › apps",
+    "snippet": "SOT-DIV23LF-02-1800-1601-FD IRC / TT Electronics Resistor Networks & Arrays datasheets, pricing, and inventory.",
+    "snippet_highlighted_words": [
+     "1800-1601"
+    ],
+    "about_this_result": {
+     "source": {
+      "description": "SOT-DIV23LF-02-1800-1601-FD IRC / TT Electronics Resistor Networks & Arrays datasheets, pricing, and inventory.",
+      "source_info_link": "https://www.ttieurope.com/content/ttieurope/en/apps/part-detail.html?partsNumber=SOT-DIV23LF-02-1800-1601-FD&productId=1773706927&srsltid=AU7gw4WYhpYS2FkEX1r5gMNLjRVWcacuutI3qN1xyLTJ4nu6bqdxfX8h",
+      "icon": "https://serpapi.com/images/i/UklGRmoBAABXRUJQVlA4IF4BAACQBwCdASocABwAPrkurlcnIacnG_DgFwliAJ0zkeINM1tVJFYjivuN53GgHNZ3wAtULXqbXRL3WBmY-kQItPZCtM14FwAA_vCxyHb9ddQCWf_QzjxD4Aew8np0O03fbXl_5t9DhDGCCLKO2U1r6Zy1M9EfDvSoQtxzqlLBvTBdVcrqMn5fWyeQ35Pxmhli7KD_8RDNH1L_CvjWgmzztuV9cJueLXEWsEz1WBtgz5Eye8X31AvJ__HodKn35uhNvnHePkXQ7nt2uzNuLpmioU3QRM83KfGPa7_tQ3T48AVhztP34-DiOebYk2gq-fZPFZqeMVWRgwNVWMxBDW7B7Vbdz2rLYIlCTvU-Pff9xIX-a8Q-wzc9bWmG3Y9_EtWZ9J7qoXg9bqtzLWpdD3TKd6vxBsX2MD2BFzHSlejycgfNDwHfjpW8LV5eZEEw60WLeVAm-bAGzfb3y6xevAAAAA.webp"
+     },
+     "languages": [
+      "en"
+     ],
+     "regions": [
+      "IN"
+     ]
+    },
+    "about_page_link": "https://www.google.co.in/search/about-this-result?origin=www.google.com&req=CuACL2dvdG8_dXJsPUNBRVMtd0VCNnpzd0ZkUk52RUIyd1BLWlp1STZ2OHk3c05obm1VYjh0UUw5bVJZOVNuZWxGYXVNdE5ZRWtDeXZxYWtoenRMZlRXZ0ZqVmZXSVU0U0RRLWZTVmFGMUtNX2luVEFFemNfUGpHT3RJYjJkRzB6eDlZblRoY1RPSXppdnR0RkdIbUc4Z1VlUkczWUFvVS1lQjR5YXFSOHNtQVBaX2w1dXZUeEwwVUZTeDRXczlZcjJzZDRRd1g4MG10d2FnTmEzcF9sVlRKT3dkTUVOT3lFWWZHUkw3R1JIS2tyZFdiNFNONTRGeVZEbTl6UjVabWpNbGpDRENObzRjRkRsTVNWbGNsWmFCUnBfTm1LWlpCaDV6SzNGcVQ1S0o0VXZpWEJUNUdGX0FTaVlNQVBoMmw0Tmc2d1JhM3J3c24zbGhVRTV1UDRaMmo5ZmpiMDdZemVEQRIEGgIIABqbBBIAGgAiACoAMgYIAxICaW46AEIECAEQAEoAWgByAHoAgkD3AwgAEAAYACAAKhoKCDE4MDAxNjAxFdbpTUAaCTE4MDAgMTYwMTKJAi9nb3RvP3VybD1DQUVTdWdFQjZ6c3dGWUZkZHUwVDZFUW5BUHVoV3VTNlRsWTF2Nl9Pd21DTUZkSWk1R1c4U0RfeGdFQ0p4WVZqOEcwWENHLXdyVUc2a3VmaGF5dHlBWWlFQW1ZSEJ5aXo5T0EwcUZVRzZfSWJodXF5akNQdWJpZE15WkpRRVRFT3hqNjFENC1KUWpSeEdIdFg3QS1DakJvU3JrUXUxTjdKLTVSSDlhZUNaSEl2NndzNl9tbmt6N05CV2djSGFIV0tKcnI4MGtFdlRtSzBERkhWaTFwUVplaTZraFJrQ1hHeGh4YXlaWUp5blNiN1AwakpnOEhPblEwTURaSENxUTA6SVNPVC1ESVYyM0xGLTAyLTxiPjE4MDAtMTYwMTwvYj4tRkQgLSBJUkMgLyBUVCBFbGVjdHJvbmljcyBQYXJ0IERldGFpbCAuLi5CelNPVC1ESVYyM0xGLTAyLTxiPjE4MDAtMTYwMTwvYj4tRkQgSVJDIC8gVFQgRWxlY3Ryb25pY3MgUmVzaXN0b3IgTmV0d29ya3MgJmFtcDsgQXJyYXlzIGRhdGFzaGVldHMsIHByaWNpbmcsIGFuZCBpbnZlbnRvcnkuIgIQAUgAWABoAA",
+    "about_page_serpapi_link": "https://serpapi.com/search.json?engine=google_about_this_result&google_domain=google.co.in&req_token=CuACL2dvdG8_dXJsPUNBRVMtd0VCNnpzd0ZkUk52RUIyd1BLWlp1STZ2OHk3c05obm1VYjh0UUw5bVJZOVNuZWxGYXVNdE5ZRWtDeXZxYWtoenRMZlRXZ0ZqVmZXSVU0U0RRLWZTVmFGMUtNX2luVEFFemNfUGpHT3RJYjJkRzB6eDlZblRoY1RPSXppdnR0RkdIbUc4Z1VlUkczWUFvVS1lQjR5YXFSOHNtQVBaX2w1dXZUeEwwVUZTeDRXczlZcjJzZDRRd1g4MG10d2FnTmEzcF9sVlRKT3dkTUVOT3lFWWZHUkw3R1JIS2tyZFdiNFNONTRGeVZEbTl6UjVabWpNbGpDRENObzRjRkRsTVNWbGNsWmFCUnBfTm1LWlpCaDV6SzNGcVQ1S0o0VXZpWEJUNUdGX0FTaVlNQVBoMmw0Tmc2d1JhM3J3c24zbGhVRTV1UDRaMmo5ZmpiMDdZemVEQRIEGgIIABqbBBIAGgAiACoAMgYIAxICaW46AEIECAEQAEoAWgByAHoAgkD3AwgAEAAYACAAKhoKCDE4MDAxNjAxFdbpTUAaCTE4MDAgMTYwMTKJAi9nb3RvP3VybD1DQUVTdWdFQjZ6c3dGWUZkZHUwVDZFUW5BUHVoV3VTNlRsWTF2Nl9Pd21DTUZkSWk1R1c4U0RfeGdFQ0p4WVZqOEcwWENHLXdyVUc2a3VmaGF5dHlBWWlFQW1ZSEJ5aXo5T0EwcUZVRzZfSWJodXF5akNQdWJpZE15WkpRRVRFT3hqNjFENC1KUWpSeEdIdFg3QS1DakJvU3JrUXUxTjdKLTVSSDlhZUNaSEl2NndzNl9tbmt6N05CV2djSGFIV0tKcnI4MGtFdlRtSzBERkhWaTFwUVplaTZraFJrQ1hHeGh4YXlaWUp5blNiN1AwakpnOEhPblEwTURaSENxUTA6SVNPVC1ESVYyM0xGLTAyLTxiPjE4MDAtMTYwMTwvYj4tRkQgLSBJUkMgLyBUVCBFbGVjdHJvbmljcyBQYXJ0IERldGFpbCAuLi5CelNPVC1ESVYyM0xGLTAyLTxiPjE4MDAtMTYwMTwvYj4tRkQgSVJDIC8gVFQgRWxlY3Ryb25pY3MgUmVzaXN0b3IgTmV0d29ya3MgJmFtcDsgQXJyYXlzIGRhdGFzaGVldHMsIHByaWNpbmcsIGFuZCBpbnZlbnRvcnkuIgIQAUgAWABoAA",
+    "source": "TTI Europe"
+   },
+   {
+    "position": 3,
+    "title": "HDFC Bank - Iyyattilmukku",
+    "link": "https://www.hdfc.bank.in/branch-locator/kerala/ernakulam/hdfcbank-branch-iyyattilmukku",
+    "redirect_link": "https://www.google.co.in/url?sa=t&source=web&rct=j&opi=89978449&url=CAESjgEB6zswFeCrZPGK-pSemuDPYlR7BKvY5VImREgq0U88ycJQvWjfmiMG8GyTRNSCeqXqCiqYTJ7A2IS1SrqQ0XDMiCMZ8P9Fwps6uG3xuSyHru3qEzU9BENYvUQQuXY89olJ5Zs7WLMiKwpqzNJ0xrQriwkd_IgeCpWQi38Zvt0R370SzBdxY6m3tlU-N4qm&ved=2ahUKEwjOlJnP2IeXAxUa0PACHS7WHLgQFnoECBIQAQ&uoh=1",
+    "displayed_link": "https://www.hdfc.bank.in › kerala › ernakulam › hdfcba...",
+    "snippet": "Basic Details ; Branch · Iyyattilmukku ; Address · Regent Towers Chittoor Road Ernakulam Kerala 682011 ; IFSC Code · HDFC0001510 ; Phone No. · 18001601.",
+    "snippet_highlighted_words": [
+     "18001601"
+    ],
+    "about_this_result": {
+     "source": {
+      "description": "Basic Details ; Branch · Iyyattilmukku ; Address · Regent Towers Chittoor Road Ernakulam Kerala 682011 ; IFSC Code · HDFC0001510 ; Phone No. · 18001601.",
+      "source_info_link": "https://www.hdfc.bank.in/branch-locator/kerala/ernakulam/hdfcbank-branch-iyyattilmukku",
+      "icon": "https://serpapi.com/images/i/UklGRsYAAABXRUJQVlA4ILoAAADQAgCdASoQABAAAsBMJbACdHMAmzcGLFjlaFjhUUQAAPyP9teCXBj-RQq1foqDpwlIO1WzwVb4IKBMaqDdXfmeQoQxw_xLipsf9ynWrn3VvDKDO4TtF57i8RzEjZ6xXBq7Y378UGemT2YxTrDBpkV6YI8wHI_2JKInxjnyDDFmd8Mlga1q0eZIPvfa8TnvMT82OKenmFBf3_8dBj9zKL6iP_jV0j90lF9RH_nOOY4aaRnAl9IZSVlAAAA.webp"
+     },
+     "languages": [
+      "en"
+     ],
+     "regions": [
+      "IN"
+     ]
+    },
+    "about_page_link": "https://www.google.co.in/search/about-this-result?origin=www.google.com&req=Cs4BL2dvdG8_dXJsPUNBRVNqZ0VCNnpzd0ZlQ3JaUEdLLXBTZW11RFBZbFI3Qkt2WTVWSW1SRWdxMFU4OHljSlF2V2pmbWlNRzhHeVRSTlNDZXFYcUNpcVlUSjdBMklTMVNycVEwWERNaUNNWjhQOUZ3cHM2dUczeHVTeUhydTNxRXpVOUJFTll2VVFRdVhZODlvbEo1WnM3V0xNaUt3cHF6TkoweHJRcml3a2RfSWdlQ3BXUWkzOFp2dDBSMzcwU3pCZHhZNm0zdGxVLU40cW0SBBoCCAAa9AMSAggAGgAiACoAMgYIARICaW46AEIECAEQAEoAWgByAHoAgkDOAwgAEAAYACAAKhoKCDE4MDAxNjAxFRleGzsaCTE4MDAgMTYwMTLOAS9nb3RvP3VybD1DQUVTamdFQjZ6c3dGZUNyWlBHSy1wU2VtdURQWWxSN0JLdlk1VkltUkVncTBVODh5Y0pRdldqZm1pTUc4R3lUUk5TQ2VxWHFDaXFZVEo3QTJJUzFTcnFRMFhETWlDTVo4UDlGd3BzNnVHM3h1U3lIcnUzcUV6VTlCRU5ZdlVRUXVYWTg5b2xKNVpzN1dMTWlLd3Bxek5KMHhyUXJpd2tkX0lnZUNwV1FpMzhadnQwUjM3MFN6QmR4WTZtM3RsVS1ONHFtOhlIREZDIEJhbmsgLSBJeXlhdHRpbG11a2t1QrsBQmFzaWMgRGV0YWlscyA7IEJyYW5jaCAmbWlkZG90OyBJeXlhdHRpbG11a2t1IDsgQWRkcmVzcyAmbWlkZG90OyBSZWdlbnQgVG93ZXJzIENoaXR0b29yIFJvYWQgRXJuYWt1bGFtIEtlcmFsYSA2ODIwMTEgOyBJRlNDIENvZGUgJm1pZGRvdDsgSERGQzAwMDE1MTAgOyBQaG9uZSBOby4gJm1pZGRvdDsgPGI-MTgwMDE2MDE8L2I-LiICEAFIAFgAaAA",
+    "about_page_serpapi_link": "https://serpapi.com/search.json?engine=google_about_this_result&google_domain=google.co.in&req_token=Cs4BL2dvdG8_dXJsPUNBRVNqZ0VCNnpzd0ZlQ3JaUEdLLXBTZW11RFBZbFI3Qkt2WTVWSW1SRWdxMFU4OHljSlF2V2pmbWlNRzhHeVRSTlNDZXFYcUNpcVlUSjdBMklTMVNycVEwWERNaUNNWjhQOUZ3cHM2dUczeHVTeUhydTNxRXpVOUJFTll2VVFRdVhZODlvbEo1WnM3V0xNaUt3cHF6TkoweHJRcml3a2RfSWdlQ3BXUWkzOFp2dDBSMzcwU3pCZHhZNm0zdGxVLU40cW0SBBoCCAAa9AMSAggAGgAiACoAMgYIARICaW46AEIECAEQAEoAWgByAHoAgkDOAwgAEAAYACAAKhoKCDE4MDAxNjAxFRleGzsaCTE4MDAgMTYwMTLOAS9nb3RvP3VybD1DQUVTamdFQjZ6c3dGZUNyWlBHSy1wU2VtdURQWWxSN0JLdlk1VkltUkVncTBVODh5Y0pRdldqZm1pTUc4R3lUUk5TQ2VxWHFDaXFZVEo3QTJJUzFTcnFRMFhETWlDTVo4UDlGd3BzNnVHM3h1U3lIcnUzcUV6VTlCRU5ZdlVRUXVYWTg5b2xKNVpzN1dMTWlLd3Bxek5KMHhyUXJpd2tkX0lnZUNwV1FpMzhadnQwUjM3MFN6QmR4WTZtM3RsVS1ONHFtOhlIREZDIEJhbmsgLSBJeXlhdHRpbG11a2t1QrsBQmFzaWMgRGV0YWlscyA7IEJyYW5jaCAmbWlkZG90OyBJeXlhdHRpbG11a2t1IDsgQWRkcmVzcyAmbWlkZG90OyBSZWdlbnQgVG93ZXJzIENoaXR0b29yIFJvYWQgRXJuYWt1bGFtIEtlcmFsYSA2ODIwMTEgOyBJRlNDIENvZGUgJm1pZGRvdDsgSERGQzAwMDE1MTAgOyBQaG9uZSBOby4gJm1pZGRvdDsgPGI-MTgwMDE2MDE8L2I-LiICEAFIAFgAaAA",
+    "source": "HDFC Bank",
+    "read_more_link": "https://www.hdfc.bank.in/branch-locator/kerala/ernakulam/hdfcbank-branch-iyyattilmukku#:~:text=Basic%20Details&text=Branch%20%2D&text=Iyyattilmukku&text=Address%20%2D&text=Regent%20Towers%20Chittoor%20Road%20Ernakulam,Kerala%20682011&text=IFSC%20Code%20%2D&text=HDFC0001510&text=Phone%20No.%20%2D&text=18001601"
+   },
+   {
+    "position": 4,
+    "title": "Pt Coupling 18001601 | A-Adapter, 6 Inch Size, Type A, FNPT, Iron",
+    "link": "https://eu.raptorsupplies.com/pd/pt-coupling/18001601",
+    "redirect_link": "https://www.google.co.in/url?sa=t&source=web&rct=j&opi=89978449&url=CAESbQHrOzAVDXnm_pPB7gCEoz9rIuyV9YS-Jyo7c9gIrAaakC6R8dYyBKlW2KLxQVR_ukVTe6dDNYMjeWFrYWtut9IOiwW8Sxo9bh8rMWmXpy9GS7yU0LgidcoBVahB6an0TYC9xcwQkTV1NgmUag0&ved=2ahUKEwjOlJnP2IeXAxUa0PACHS7WHLgQFnoECAwQAQ&uoh=1",
+    "displayed_link": "https://eu.raptorsupplies.com › pt-coupling › 18001601",
+    "snippet": "PT COUPLING 18001601 A-Adapter, 6 Inch Size, Type A, FNPT, Iron ; Height (cm), 22.86 ; Length (cm), 21.59 ; Width (cm), 22.86 ; Weight (kg), 4.8150 ; KVK number ...",
+    "snippet_highlighted_words": [
+     "18001601"
+    ],
+    "about_this_result": {
+     "source": {
+      "description": "PT COUPLING 18001601 A-Adapter, 6 Inch Size, Type A, FNPT, Iron ; Height (cm), 22.86 ; Length (cm), 21.59 ; Width (cm), 22.86 ; Weight (kg), 4.8150 ; KVK number ...",
+      "source_info_link": "https://eu.raptorsupplies.com/pd/pt-coupling/18001601",
+      "icon": "https://serpapi.com/images/i/UklGRlIBAABXRUJQVlA4IEYBAAAQCACdASocABwAPtE-tFooIigoFAEAGglsAJ0vOXrvCEu9wANstdl-8l1wBkAmYQvY9-vfeCPX536Q6hNowyVjqbIHdleiWkQAAP72B_OBrqI43UUOzNU4_4XNO6FbVFj_2ZgPNbiOcms3_oNyxtSBGpZscUlT3PLS6lQ9OZfFeuEqcsLPUqfXnbcTwLhHQ2bwUv2epc6lSqOvyo890diTtIH9yGKIn9hE01x1Vl9PgBUC5oZKeNH0NCXbfsJOIXRMUpn6yWpWcPUwX7XVtnX-2zxfYv0uFlbYkV5Rv4qwaQrMKmdQDxWrrYix_rsL2mQic5vZFOCCYCbHdevErc8z8MA4rVofvj55xt0XxvSSwrsah1HAYTcdFGOygyZ6VZYGHlFLZfZ6JjvPKYZnisg3EfAV-dlMkkduHQCdkY_0YbjLECoAAA.webp"
+     },
+     "languages": [
+      "en"
+     ],
+     "regions": [
+      "IN"
+     ]
+    },
+    "about_page_link": "https://www.google.co.in/search/about-this-result?origin=www.google.com&req=CqEBL2dvdG8_dXJsPUNBRVNiUUhyT3pBVkRYbm1fcFBCN2dDRW96OXJJdXlWOVlTLUp5bzdjOWdJckFhYWtDNlI4ZFl5QktsVzJLTHhRVlJfdWtWVGU2ZEROWU1qZVdGcllXdHV0OUlPaXdXOFN4bzliaDhyTVdtWHB5OUdTN3lVMExnaWRjb0JWYWhCNmFuMFRZQzl4Y3dRa1RWMU5nbVVhZzASBBoCCAAa7wMSAggAGgAiACoAMgYIAhICaW46AEIECAEQAEoAWgByAHoAgkDJAwgAEAAYACAAKhoKCDE4MDAxNjAxFYTcfkAaCTE4MDAgMTYwMTKhAS9nb3RvP3VybD1DQUVTYlFIck96QVZEWG5tX3BQQjdnQ0VvejlySXV5VjlZUy1KeW83YzlnSXJBYWFrQzZSOGRZeUJLbFcyS0x4UVZSX3VrVlRlNmRETllNamVXRnJZV3R1dDlJT2l3VzhTeG85Ymg4ck1XbVhweTlHUzd5VTBMZ2lkY29CVmFoQjZhbjBUWUM5eGN3UWtUVjFOZ21VYWcwOkxQdCBDb3VwbGluZyA8Yj4xODAwMTYwMTwvYj4gfCBBLUFkYXB0ZXIsIDYgSW5jaCBTaXplLCBUeXBlIEEsIEZOUFQsIElyb24gLi4uQrABUFQgQ09VUExJTkcgPGI-MTgwMDE2MDE8L2I-IEEtQWRhcHRlciwgNiBJbmNoIFNpemUsIFR5cGUgQSwgRk5QVCwgSXJvbiA7IEhlaWdodCAoY20pLCAyMi44NiA7IExlbmd0aCAoY20pLCAyMS41OSA7IFdpZHRoIChjbSksIDIyLjg2IDsgV2VpZ2h0IChrZyksIDQuODE1MCA7IEtWSyBudW1iZXImbmJzcDsuLi4iAhABSABYAGgA",
+    "about_page_serpapi_link": "https://serpapi.com/search.json?engine=google_about_this_result&google_domain=google.co.in&req_token=CqEBL2dvdG8_dXJsPUNBRVNiUUhyT3pBVkRYbm1fcFBCN2dDRW96OXJJdXlWOVlTLUp5bzdjOWdJckFhYWtDNlI4ZFl5QktsVzJLTHhRVlJfdWtWVGU2ZEROWU1qZVdGcllXdHV0OUlPaXdXOFN4bzliaDhyTVdtWHB5OUdTN3lVMExnaWRjb0JWYWhCNmFuMFRZQzl4Y3dRa1RWMU5nbVVhZzASBBoCCAAa7wMSAggAGgAiACoAMgYIAhICaW46AEIECAEQAEoAWgByAHoAgkDJAwgAEAAYACAAKhoKCDE4MDAxNjAxFYTcfkAaCTE4MDAgMTYwMTKhAS9nb3RvP3VybD1DQUVTYlFIck96QVZEWG5tX3BQQjdnQ0VvejlySXV5VjlZUy1KeW83YzlnSXJBYWFrQzZSOGRZeUJLbFcyS0x4UVZSX3VrVlRlNmRETllNamVXRnJZV3R1dDlJT2l3VzhTeG85Ymg4ck1XbVhweTlHUzd5VTBMZ2lkY29CVmFoQjZhbjBUWUM5eGN3UWtUVjFOZ21VYWcwOkxQdCBDb3VwbGluZyA8Yj4xODAwMTYwMTwvYj4gfCBBLUFkYXB0ZXIsIDYgSW5jaCBTaXplLCBUeXBlIEEsIEZOUFQsIElyb24gLi4uQrABUFQgQ09VUExJTkcgPGI-MTgwMDE2MDE8L2I-IEEtQWRhcHRlciwgNiBJbmNoIFNpemUsIFR5cGUgQSwgRk5QVCwgSXJvbiA7IEhlaWdodCAoY20pLCAyMi44NiA7IExlbmd0aCAoY20pLCAyMS41OSA7IFdpZHRoIChjbSksIDIyLjg2IDsgV2VpZ2h0IChrZyksIDQuODE1MCA7IEtWSyBudW1iZXImbmJzcDsuLi4iAhABSABYAGgA",
+    "source": "Raptor Supplies EU"
+   },
+   {
+    "position": 5,
+    "title": "MuMeLadder 2020 (1800-1601) - playlist by 1rene78",
+    "link": "https://open.spotify.com/playlist/1T5Qwa2VPww8UxnohVcmP4",
+    "redirect_link": "https://www.google.co.in/url?sa=t&source=web&rct=j&opi=89978449&url=CAEScAHrOzAV_7RL42ZPGp3DRvhBb34Ck7WU94OUZFpeEdtg7-2B4Cuzh7Ik7STFQQ41nQmya6Z2_iqKHr56QlTEaYen4skf6RDdVTf-KO3N3J_z6Ds_vPJn3EHgq3uu59osuz31wRfPt8bs596NGPBuJ_0&ved=2ahUKEwjOlJnP2IeXAxUa0PACHS7WHLgQFnoECA4QAQ&uoh=1",
+    "displayed_link": "https://open.spotify.com › playlist",
+    "snippet": "MuMeLadder 2020 (1800-1601) ; Turn · Travis ; Spoonman · Soundgarden ; Map of the Problematique · Muse ; Don't Stop The Dance · Bryan Ferry ; Stay Together - Long ...",
+    "snippet_highlighted_words": [
+     "1800-1601"
+    ],
+    "about_this_result": {
+     "source": {
+      "description": "MuMeLadder 2020 (1800-1601) ; Turn · Travis ; Spoonman · Soundgarden ; Map of the Problematique · Muse ; Don't Stop The Dance · Bryan Ferry ; Stay Together - Long ...",
+      "source_info_link": "https://open.spotify.com/playlist/1T5Qwa2VPww8UxnohVcmP4",
+      "icon": "https://serpapi.com/images/i/UklGRnQBAABXRUJQVlA4IGgBAACQCACdASogACAAPtE-tFooIigoFAEAGglsAJ0yhHUHuluHaCQM-gDbn8_H0TOSqPmquyDARP_1agggGFzgQB8osttxU9gBfJjKYo2aUAD-_S_b4i0jrK3Tim9uQNYtcnB4kKZbc3Ags-H22ZA2Ie8aa2ELSmXD9d05ZlfCfc5Air_yc4nz_WQ_vqQ7_xnjUas7IO85fMyQ83J6B-5lFFnZh1uTpS_8vrdfdr_iF1femSzoknZ9bnXPuuH_CR98GtzP0Sn3sEgLoRPcr2QIs_IZfA5lRB0VQtS8cucaxg48nL_x_3zRv7n_x_c7iSAaukKLPSeX7PpHzhJ4_6bnVtqxOZs-euCGF8_jLVEzXlPFjj1MH34x3_jTwaB_EZP5kFzLZf_vHtzTMR_GG5E6tUvXhk-A0MC4KfDbjf1R-7scJmDaH3opQP4CbV8AP-VauXqW2qcZrYDvxAVeb63hEIEj0Mwsqml0AAA.webp"
+     },
+     "languages": [
+      "en"
+     ],
+     "regions": [
+      "IN"
+     ]
+    },
+    "about_page_link": "https://www.google.co.in/search/about-this-result?origin=www.google.com&req=CqUBL2dvdG8_dXJsPUNBRVNjQUhyT3pBVl83Ukw0MlpQR3AzRFJ2aEJiMzRDazdXVTk0T1VaRnBlRWR0ZzctMkI0Q3V6aDdJazdTVEZRUTQxblFteWE2WjJfaXFLSHI1NlFsVEVhWWVuNHNrZjZSRGRWVGYtS08zTjNKX3o2RHNfdlBKbjNFSGdxM3V1NTlvc3V6MzF3UmZQdDhiczU5Nk5HUEJ1Sl8wEgQaAggAGokEEgAaACIAKgAyBggCEgJpbjoAQgQIARAASgBaAHIAegCCQOUDCAAQABgAIAAqGgoIMTgwMDE2MDEVmrNOQBoJMTgwMCAxNjAxMqUBL2dvdG8_dXJsPUNBRVNjQUhyT3pBVl83Ukw0MlpQR3AzRFJ2aEJiMzRDazdXVTk0T1VaRnBlRWR0ZzctMkI0Q3V6aDdJazdTVEZRUTQxblFteWE2WjJfaXFLSHI1NlFsVEVhWWVuNHNrZjZSRGRWVGYtS08zTjNKX3o2RHNfdlBKbjNFSGdxM3V1NTlvc3V6MzF3UmZQdDhiczU5Nk5HUEJ1Sl8wOkJNdU1lTGFkZGVyIDIwMjAgKDxiPjE4MDAtMTYwMTwvYj4pIC0gcGxheWxpc3QgYnkgMXJlbmU3OCB8IFNwb3RpZnlC0gFNdU1lTGFkZGVyIDIwMjAgKDxiPjE4MDAtMTYwMTwvYj4pIDsgVHVybiAmbWlkZG90OyBUcmF2aXMgOyBTcG9vbm1hbiAmbWlkZG90OyBTb3VuZGdhcmRlbiA7IE1hcCBvZiB0aGUgUHJvYmxlbWF0aXF1ZSAmbWlkZG90OyBNdXNlIDsgRG9uJiMzOTt0IFN0b3AgVGhlIERhbmNlICZtaWRkb3Q7IEJyeWFuIEZlcnJ5IDsgU3RheSBUb2dldGhlciAtIExvbmcmbmJzcDsuLi4iAhABSABYAGgA",
+    "about_page_serpapi_link": "https://serpapi.com/search.json?engine=google_about_this_result&google_domain=google.co.in&req_token=CqUBL2dvdG8_dXJsPUNBRVNjQUhyT3pBVl83Ukw0MlpQR3AzRFJ2aEJiMzRDazdXVTk0T1VaRnBlRWR0ZzctMkI0Q3V6aDdJazdTVEZRUTQxblFteWE2WjJfaXFLSHI1NlFsVEVhWWVuNHNrZjZSRGRWVGYtS08zTjNKX3o2RHNfdlBKbjNFSGdxM3V1NTlvc3V6MzF3UmZQdDhiczU5Nk5HUEJ1Sl8wEgQaAggAGokEEgAaACIAKgAyBggCEgJpbjoAQgQIARAASgBaAHIAegCCQOUDCAAQABgAIAAqGgoIMTgwMDE2MDEVmrNOQBoJMTgwMCAxNjAxMqUBL2dvdG8_dXJsPUNBRVNjQUhyT3pBVl83Ukw0MlpQR3AzRFJ2aEJiMzRDazdXVTk0T1VaRnBlRWR0ZzctMkI0Q3V6aDdJazdTVEZRUTQxblFteWE2WjJfaXFLSHI1NlFsVEVhWWVuNHNrZjZSRGRWVGYtS08zTjNKX3o2RHNfdlBKbjNFSGdxM3V1NTlvc3V6MzF3UmZQdDhiczU5Nk5HUEJ1Sl8wOkJNdU1lTGFkZGVyIDIwMjAgKDxiPjE4MDAtMTYwMTwvYj4pIC0gcGxheWxpc3QgYnkgMXJlbmU3OCB8IFNwb3RpZnlC0gFNdU1lTGFkZGVyIDIwMjAgKDxiPjE4MDAtMTYwMTwvYj4pIDsgVHVybiAmbWlkZG90OyBUcmF2aXMgOyBTcG9vbm1hbiAmbWlkZG90OyBTb3VuZGdhcmRlbiA7IE1hcCBvZiB0aGUgUHJvYmxlbWF0aXF1ZSAmbWlkZG90OyBNdXNlIDsgRG9uJiMzOTt0IFN0b3AgVGhlIERhbmNlICZtaWRkb3Q7IEJyeWFuIEZlcnJ5IDsgU3RheSBUb2dldGhlciAtIExvbmcmbmJzcDsuLi4iAhABSABYAGgA",
+    "source": "Spotify"
+   },
+   {
+    "position": 6,
+    "title": "HDFC Bank Home Loan Branch - New Delhi (Kasturba ...",
+    "link": "https://nagpur.cataloxy.in/firms/hdfc.bank.in.htm",
+    "redirect_link": "https://www.google.co.in/url?sa=t&source=web&rct=j&opi=89978449&url=CAESaQHrOzAVxkKrZSR0cxpMG-VjRyoF1O4zHArVpZTUpze6Ojc0uJIwoXGalrD9_nRiABnioM4uuZyMljrXGPAsZdtKDhkMSl37gUBBViTZOvFTEvNPYnoNi_qP_TedAjSHJgKeqRVf3Cv_Tw&ved=2ahUKEwjOlJnP2IeXAxUa0PACHS7WHLgQFnoECBAQAQ&uoh=1",
+    "displayed_link": "https://nagpur.cataloxy.in › ... › Banks",
+    "snippet": "Phone: +91 1800 1601, 18001600 show. 1st Floor, Vanita Vishram, opposite ... Phone: 18001601, 18001600 show. No 1/111/3/B, Pranavtej Towers Main Road ...",
+    "snippet_highlighted_words": [
+     "1800 1601",
+     "18001601"
+    ],
+    "about_this_result": {
+     "source": {
+      "description": "Phone: +91 1800 1601, 18001600 show. 1st Floor, Vanita Vishram, opposite ... Phone: 18001601, 18001600 show. No 1/111/3/B, Pranavtej Towers Main Road ...",
+      "source_info_link": "https://nagpur.cataloxy.in/firms/hdfc.bank.in.htm",
+      "icon": "https://serpapi.com/images/i/UklGRtQAAABXRUJQVlA4IMgAAADwBQCdASocABwAPtEutFooIagoGAEAGglsAJ0vQr-vYDbXgOXfPL6D0btgtANcCwzB55BzDDIKAAD-9gnQVoty9tvXhNC9L5KbchZLKzp9y4jRUFfKAld1srgG1IIEgSBbBPnBQoJT7vu6IeDV4xGpnpy3Xjf-dSkiT60gAJ-TrNfBA50Kqy_9snmirFkQF4hljtjtxJiAY3CqCftZRiwOZF86OaC_shf8bLG5Xa1exHCO9Qre5_SUUhLHz5PCtVyPbw66wAAAAA.webp"
+     },
+     "languages": [
+      "en"
+     ],
+     "regions": [
+      "IN"
+     ]
+    },
+    "about_page_link": "https://www.google.co.in/search/about-this-result?origin=www.google.com&req=CpwBL2dvdG8_dXJsPUNBRVNhUUhyT3pBVnhrS3JaU1IwY3hwTUctVmpSeW9GMU80ekhBclZwWlRVcHplNk9qYzB1Skl3b1hHYWxyRDlfblJpQUJuaW9NNHV1WnlNbGpyWEdQQXNaZHRLRGhrTVNsMzdnVUJCVmlUWk92RlRFdk5QWW5vTmlfcVBfVGVkQWpTSEpnS2VxUlZmM0N2X1R3EgQaAggAGs8DEgAaACIAKgAyBggBEgJpbjoAQgQIARAASgBaAHIAegCCQKsDCAAQABgAIAAqGgoIMTgwMDE2MDEV2FlzPxoJMTgwMCAxNjAxMpwBL2dvdG8_dXJsPUNBRVNhUUhyT3pBVnhrS3JaU1IwY3hwTUctVmpSeW9GMU80ekhBclZwWlRVcHplNk9qYzB1Skl3b1hHYWxyRDlfblJpQUJuaW9NNHV1WnlNbGpyWEdQQXNaZHRLRGhrTVNsMzdnVUJCVmlUWk92RlRFdk5QWW5vTmlfcVBfVGVkQWpTSEpnS2VxUlZmM0N2X1R3OjdIREZDIEJhbmsgSG9tZSBMb2FuIEJyYW5jaCAtIE5ldyBEZWxoaSAoS2FzdHVyYmEgTmFnYXIpQqwBUGhvbmU6ICs5MSA8Yj4xODAwIDE2MDE8L2I-LCAxODAwMTYwMCBzaG93LiAxc3QgRmxvb3IsIFZhbml0YSBWaXNocmFtLCBvcHBvc2l0ZSAuLi4gUGhvbmU6IDxiPjE4MDAxNjAxPC9iPiwgMTgwMDE2MDAgc2hvdy4gTm8gMS8xMTEvMy9CLCBQcmFuYXZ0ZWogVG93ZXJzIE1haW4gUm9hZCZuYnNwOy4uLiICEAFIAFgAaAA",
+    "about_page_serpapi_link": "https://serpapi.com/search.json?engine=google_about_this_result&google_domain=google.co.in&req_token=CpwBL2dvdG8_dXJsPUNBRVNhUUhyT3pBVnhrS3JaU1IwY3hwTUctVmpSeW9GMU80ekhBclZwWlRVcHplNk9qYzB1Skl3b1hHYWxyRDlfblJpQUJuaW9NNHV1WnlNbGpyWEdQQXNaZHRLRGhrTVNsMzdnVUJCVmlUWk92RlRFdk5QWW5vTmlfcVBfVGVkQWpTSEpnS2VxUlZmM0N2X1R3EgQaAggAGs8DEgAaACIAKgAyBggBEgJpbjoAQgQIARAASgBaAHIAegCCQKsDCAAQABgAIAAqGgoIMTgwMDE2MDEV2FlzPxoJMTgwMCAxNjAxMpwBL2dvdG8_dXJsPUNBRVNhUUhyT3pBVnhrS3JaU1IwY3hwTUctVmpSeW9GMU80ekhBclZwWlRVcHplNk9qYzB1Skl3b1hHYWxyRDlfblJpQUJuaW9NNHV1WnlNbGpyWEdQQXNaZHRLRGhrTVNsMzdnVUJCVmlUWk92RlRFdk5QWW5vTmlfcVBfVGVkQWpTSEpnS2VxUlZmM0N2X1R3OjdIREZDIEJhbmsgSG9tZSBMb2FuIEJyYW5jaCAtIE5ldyBEZWxoaSAoS2FzdHVyYmEgTmFnYXIpQqwBUGhvbmU6ICs5MSA8Yj4xODAwIDE2MDE8L2I-LCAxODAwMTYwMCBzaG93LiAxc3QgRmxvb3IsIFZhbml0YSBWaXNocmFtLCBvcHBvc2l0ZSAuLi4gUGhvbmU6IDxiPjE4MDAxNjAxPC9iPiwgMTgwMDE2MDAgc2hvdy4gTm8gMS8xMTEvMy9CLCBQcmFuYXZ0ZWogVG93ZXJzIE1haW4gUm9hZCZuYnNwOy4uLiICEAFIAFgAaAA",
+    "source": "nagpur.cataloxy.in",
+    "read_more_link": "https://nagpur.cataloxy.in/firms/hdfc.bank.in.htm#:~:text=Phone%3A%20%2B91%201800%201601%2C%2018001600,Surat%2C%20Gujarat%20395001%20(Athwa%20Gate)&text=show%20all%20addresses%20(still%2081)"
+   },
+   {
+    "position": 7,
+    "title": "Atm near Doda - Google Maps",
+    "link": "https://www.google.com/maps/search/atm+near+Doda",
+    "redirect_link": "https://www.google.co.in/url?sa=t&source=web&rct=j&opi=89978449&url=https://www.google.com/maps/search/atm%2Bnear%2BDoda&ved=2ahUKEwjOlJnP2IeXAxUa0PACHS7WHLgQFnoECAsQAQ",
+    "displayed_link": "https://www.google.com › maps › search › atm+near+Do...",
+    "snippet": "+91 1800 1601. HDFC Bank ATM. Ground Floor, NHPC Road, near Bew Bus Stand, Thalanga, Doda, Jammu and Kashmir 182204. +91 1800 1601. J&K Bank - ATM. Ground Floor ...",
+    "snippet_highlighted_words": [
+     "1800 1601",
+     "1800 1601"
+    ],
+    "about_this_result": {
+     "source": {
+      "description": "+91 1800 1601. HDFC Bank ATM. Ground Floor, NHPC Road, near Bew Bus Stand, Thalanga, Doda, Jammu and Kashmir 182204. +91 1800 1601. J&K Bank - ATM. Ground Floor ...",
+      "source_info_link": "https://www.google.com/maps/search/atm+near+Doda",
+      "icon": "https://serpapi.com/images/i/UklGRooBAABXRUJQVlA4IH4BAACwCACdASogACAAPrkurlcnIacnG_DgFwlsAJ0yhHUHrvDucAmEEIDbNXbBvPvkzNFdpt_wBTP-mqc1krmr0Q-DgqGI5AiTTFlAwFnWCgwA_vfxIXPjl4VLIaTPoS3QPhdvtceGRZLFFhAG6WgKLnkHogT82c17uwZf7Oji39R4z2PAtd6Kb3DoOtNiUPa_ewG0aGlVB4gzUl2_Dy3PjPKEMGff2CIuZFGA1zb3dyyOPj9JNypYOM_zx0uUt0UDLa2-r-_r_jXyav6EpjUiQqv-mJciehxcyOZe0maO_vaph_k8_8D8r9JEf35X6ajo71ah8Ap_fOjI52HyC9oyQdXYZEaNtS5zUMfMBelYsNOE2HxDK-jjkkpu_IPMUJ6P_ceCHXjvF_fh9h8K9nyPq1Jxc6DRXOJe5vdZzRJPTgwF0t9hXad4OB9pahCEo0PMIVScgb06ClG7gSGdhGwhoynFC3vAZZGADDfdGH_3MmGr1I_LjzH4TIHUvRnvsAAA.webp"
+     },
+     "languages": [
+      "en"
+     ],
+     "regions": [
+      "IN"
+     ]
+    },
+    "about_page_link": "https://www.google.co.in/search/about-this-result?origin=www.google.com&req=CjBodHRwczovL3d3dy5nb29nbGUuY29tL21hcHMvc2VhcmNoL2F0bStuZWFyK0RvZGESBBoCCAAa1wISAggAGgAiACoAMgYIAxICaW46AEIECAEQAEoAWgByAHoAgkCxAggAEAAYACAAKhoKCDE4MDAxNjAxFeO0MD8aCTE4MDAgMTYwMTIwaHR0cHM6Ly93d3cuZ29vZ2xlLmNvbS9tYXBzL3NlYXJjaC9hdG0rbmVhcitEb2RhOhtBdG0gbmVhciBEb2RhIC0gR29vZ2xlIE1hcHNCuwErOTEgPGI-MTgwMCAxNjAxPC9iPi4gSERGQyBCYW5rIEFUTS4gR3JvdW5kIEZsb29yLCBOSFBDIFJvYWQsIG5lYXIgQmV3IEJ1cyBTdGFuZCwgVGhhbGFuZ2EsIERvZGEsIEphbW11IGFuZCBLYXNobWlyIDE4MjIwNC4gKzkxIDxiPjE4MDAgMTYwMTwvYj4uIEomYW1wO0sgQmFuayAtIEFUTS4gR3JvdW5kIEZsb29yJm5ic3A7Li4uIgIQAUgAWABoAA",
+    "about_page_serpapi_link": "https://serpapi.com/search.json?engine=google_about_this_result&google_domain=google.co.in&req_token=CjBodHRwczovL3d3dy5nb29nbGUuY29tL21hcHMvc2VhcmNoL2F0bStuZWFyK0RvZGESBBoCCAAa1wISAggAGgAiACoAMgYIAxICaW46AEIECAEQAEoAWgByAHoAgkCxAggAEAAYACAAKhoKCDE4MDAxNjAxFeO0MD8aCTE4MDAgMTYwMTIwaHR0cHM6Ly93d3cuZ29vZ2xlLmNvbS9tYXBzL3NlYXJjaC9hdG0rbmVhcitEb2RhOhtBdG0gbmVhciBEb2RhIC0gR29vZ2xlIE1hcHNCuwErOTEgPGI-MTgwMCAxNjAxPC9iPi4gSERGQyBCYW5rIEFUTS4gR3JvdW5kIEZsb29yLCBOSFBDIFJvYWQsIG5lYXIgQmV3IEJ1cyBTdGFuZCwgVGhhbGFuZ2EsIERvZGEsIEphbW11IGFuZCBLYXNobWlyIDE4MjIwNC4gKzkxIDxiPjE4MDAgMTYwMTwvYj4uIEomYW1wO0sgQmFuayAtIEFUTS4gR3JvdW5kIEZsb29yJm5ic3A7Li4uIgIQAUgAWABoAA",
+    "source": "Google",
+    "read_more_link": "https://www.google.com/maps/search/atm+near+Doda#:~:text=%2B91%201800%201601,Doda%2C%20Jammu%20and%20Kashmir%20182202"
+   },
+   {
+    "position": 8,
+    "title": "Dell Store SM City Cebu's post",
+    "link": "https://www.facebook.com/Dellstorecebu/posts/contact-our-premium-support-1800-1601-0061or-632-8540-1268-minimizing-downtime-a/726082742868876/",
+    "redirect_link": "https://www.google.co.in/url?sa=t&source=web&rct=j&opi=89978449&url=CAESxwEB6zswFR0qvmi34CeqjGgu21ZLYj2jZwF0094vfY89QSRS59nCS16a5KMKdHHd_SND7uvp83wfshzmPPf1mC98M-JJNN0JgNgkLwDfkK6BI-RVjt_ZZdXbDkDfJ9HvSpmGLyBHHumInF1D7fWVkYmkcTalEzGAdpj7RB72zaPqIRgXEn8WI5risjXbfhkjJkFb6P6udPPaTA7ARMenEQHlk-cSma4selbjdj79m0z43-hAJaW2suQsdskqsBQ2sYAcvvEYrGy1&ved=2ahUKEwjOlJnP2IeXAxUa0PACHS7WHLgQFnoECC4QAQ&uoh=1",
+    "displayed_link": "1 reaction · 3 years ago",
+    "snippet": "Contact our Premium Support: 1800-1601-0061 or (+632) 8540 1268 Minimizing downtime and maximizing convenience!",
+    "snippet_highlighted_words": [
+     "1800-1601"
+    ],
+    "about_this_result": {
+     "source": {
+      "description": "Contact our Premium Support: 1800-1601-0061 or (+632) 8540 1268 Minimizing downtime and maximizing convenience!",
+      "source_info_link": "https://www.facebook.com/Dellstorecebu/posts/contact-our-premium-support-1800-1601-0061or-632-8540-1268-minimizing-downtime-a/726082742868876/",
+      "icon": "https://serpapi.com/images/i/UklGRqoBAABXRUJQVlA4IJ4BAABwCQCdASocABwAPtEutFooIagoGAEAGglsAJ0yhHA3lfFBO1wAOUA_QD3LbivzzOpj3kDygCma-Rh7ANX--unhjJOlma5yFBwxABGtbBmfGruNiAAA_vYOb16QPF2AohybdBK44SXhExiRjqi-kNM3hHu_Yw7AJrL-7rM8d_rijdiRy0j-ZeW7w6RIRuMqgm_RO4f6lRIhYknlxf6mMoXAQaj6_tRkMRwBV5EdP_uMw4kqy2ZhqPi3PG5PpxthXgQWj6H4uUXexYHFqh3xYBX5dL6Dsx0kaiR__FvN_6m7_QiD5ix90ybowZPZ4EJjzU2ag7SQJ4wrf_2kwO1hPlzmly6sn4r0HSBDYT_CBJqgzjphFkqJAiVh_RCXqM9h1YZk1Q4HA5xuHo3rNsBGkg4DVoQb6lPRqlYEs1YLGkTSOA-pXnCCv-FX4cz9i_E71o22GBeX206C3AI8KMZxPikjU93MZF-5b_bVPypp2kWlnV7cYdOVJ_T0iqe1D8CmirqI-Ktb5K_S123btql4LlRpp_0gELOp_50DZ4WlAAA.webp"
+     },
+     "languages": [
+      "en"
+     ],
+     "regions": [
+      "IN"
+     ]
+    },
+    "about_page_link": "https://www.google.co.in/search/about-this-result?origin=www.google.com&req=CpoCL2dvdG8_dXJsPUNBRVN4d0VCNnpzd0ZSMHF2bWkzNENlcWpHZ3UyMVpMWWoyalp3RjAwOTR2Zlk4OVFTUlM1OW5DUzE2YTVLTUtkSEhkX1NORDd1dnA4M3dmc2h6bVBQZjFtQzk4TS1KSk5OMEpnTmdrTHdEZmtLNkJJLVJWanRfWlpkWGJEa0RmSjlIdlNwbUdMeUJISHVtSW5GMUQ3ZldWa1lta2NUYWxFekdBZHBqN1JCNzJ6YVBxSVJnWEVuOFdJNXJpc2pYYmZoa2pKa0ZiNlA2dWRQUGFUQTdBUk1lbkVRSGxrLWNTbWE0c2VsYmpkajc5bTB6NDMtaEFKYVcyc3VRc2Rza3FzQlEyc1lBY3Z2RVlyR3kxEgQaAggAGowEEgAaACIAKgAyBggCEgJpbjoAQgQIARAASgBaAHIAegCCQOgDCAAQABgAIAAqGgoIMTgwMDE2MDEV7QJPQBoJMTgwMCAxNjAxMpoCL2dvdG8_dXJsPUNBRVN4d0VCNnpzd0ZSMHF2bWkzNENlcWpHZ3UyMVpMWWoyalp3RjAwOTR2Zlk4OVFTUlM1OW5DUzE2YTVLTUtkSEhkX1NORDd1dnA4M3dmc2h6bVBQZjFtQzk4TS1KSk5OMEpnTmdrTHdEZmtLNkJJLVJWanRfWlpkWGJEa0RmSjlIdlNwbUdMeUJISHVtSW5GMUQ3ZldWa1lta2NUYWxFekdBZHBqN1JCNzJ6YVBxSVJnWEVuOFdJNXJpc2pYYmZoa2pKa0ZiNlA2dWRQUGFUQTdBUk1lbkVRSGxrLWNTbWE0c2VsYmpkajc5bTB6NDMtaEFKYVcyc3VRc2Rza3FzQlEyc1lBY3Z2RVlyR3kxOi1EZWxsIFN0b3JlIFNNIENpdHkgQ2VidSYjMzk7cyBwb3N0IC0gRmFjZWJvb2tCdkNvbnRhY3Qgb3VyIFByZW1pdW0gU3VwcG9ydDogPGI-MTgwMC0xNjAxPC9iPi0wMDYxIG9yICgrNjMyKSA4NTQwIDEyNjggTWluaW1pemluZyBkb3dudGltZSBhbmQgbWF4aW1pemluZyBjb252ZW5pZW5jZSEiAhABSABYAGgA",
+    "about_page_serpapi_link": "https://serpapi.com/search.json?engine=google_about_this_result&google_domain=google.co.in&req_token=CpoCL2dvdG8_dXJsPUNBRVN4d0VCNnpzd0ZSMHF2bWkzNENlcWpHZ3UyMVpMWWoyalp3RjAwOTR2Zlk4OVFTUlM1OW5DUzE2YTVLTUtkSEhkX1NORDd1dnA4M3dmc2h6bVBQZjFtQzk4TS1KSk5OMEpnTmdrTHdEZmtLNkJJLVJWanRfWlpkWGJEa0RmSjlIdlNwbUdMeUJISHVtSW5GMUQ3ZldWa1lta2NUYWxFekdBZHBqN1JCNzJ6YVBxSVJnWEVuOFdJNXJpc2pYYmZoa2pKa0ZiNlA2dWRQUGFUQTdBUk1lbkVRSGxrLWNTbWE0c2VsYmpkajc5bTB6NDMtaEFKYVcyc3VRc2Rza3FzQlEyc1lBY3Z2RVlyR3kxEgQaAggAGowEEgAaACIAKgAyBggCEgJpbjoAQgQIARAASgBaAHIAegCCQOgDCAAQABgAIAAqGgoIMTgwMDE2MDEV7QJPQBoJMTgwMCAxNjAxMpoCL2dvdG8_dXJsPUNBRVN4d0VCNnpzd0ZSMHF2bWkzNENlcWpHZ3UyMVpMWWoyalp3RjAwOTR2Zlk4OVFTUlM1OW5DUzE2YTVLTUtkSEhkX1NORDd1dnA4M3dmc2h6bVBQZjFtQzk4TS1KSk5OMEpnTmdrTHdEZmtLNkJJLVJWanRfWlpkWGJEa0RmSjlIdlNwbUdMeUJISHVtSW5GMUQ3ZldWa1lta2NUYWxFekdBZHBqN1JCNzJ6YVBxSVJnWEVuOFdJNXJpc2pYYmZoa2pKa0ZiNlA2dWRQUGFUQTdBUk1lbkVRSGxrLWNTbWE0c2VsYmpkajc5bTB6NDMtaEFKYVcyc3VRc2Rza3FzQlEyc1lBY3Z2RVlyR3kxOi1EZWxsIFN0b3JlIFNNIENpdHkgQ2VidSYjMzk7cyBwb3N0IC0gRmFjZWJvb2tCdkNvbnRhY3Qgb3VyIFByZW1pdW0gU3VwcG9ydDogPGI-MTgwMC0xNjAxPC9iPi0wMDYxIG9yICgrNjMyKSA4NTQwIDEyNjggTWluaW1pemluZyBkb3dudGltZSBhbmQgbWF4aW1pemluZyBjb252ZW5pZW5jZSEiAhABSABYAGgA",
+    "source": "Facebook · Dell Store SM City Cebu"
+   },
+   {
+    "position": 9,
+    "title": "GLASS PEARL TRANSLUCENT 6mm LT.LILAC 20in 80 PCS ...",
+    "link": "https://www.johnbead.com/glass-pearl-translucent-6mm-lt-lilac-20-80-1.html",
+    "redirect_link": "https://www.google.co.in/url?sa=t&source=web&rct=j&opi=89978449&url=CAESggEB6zswFSZJya6wd2rOh7rwKkSsXOwn_AUldcOuj_78nztt4MT5rVLE5XC3GAUuOYI1YjCsvl2abOVwVS0myJCV2zxKzN-3H1gSnlAZrZM2sGHIKbeJRzcoqYc5gQc3nZk9N3H09XjYK1N8-cFw-yaZIhibL87bas0lwNid36ZxT-3J&ved=2ahUKEwjOlJnP2IeXAxUa0PACHS7WHLgQFnoECA0QAQ&uoh=1",
+    "displayed_link": "https://www.johnbead.com › Beads › Pearls",
+    "snippet": "GLASS PEARL TRANSLUCENT 6mm LT.LILAC 20in 80 PCS/STRING | 18001601-06S. ... 18001601-06S. Size, 6mm. Colour, Lilac. Color, Purples. UPC Code, 623840973039. Retail ...",
+    "snippet_highlighted_words": [
+     "18001601",
+     "18001601"
+    ],
+    "about_this_result": {
+     "source": {
+      "description": "GLASS PEARL TRANSLUCENT 6mm LT.LILAC 20in 80 PCS/STRING | 18001601-06S. ... 18001601-06S. Size, 6mm. Colour, Lilac. Color, Purples. UPC Code, 623840973039. Retail ...",
+      "source_info_link": "https://www.johnbead.com/glass-pearl-translucent-6mm-lt-lilac-20-80-1.html",
+      "icon": "https://serpapi.com/images/i/UklGRrwAAABXRUJQVlA4ILAAAABQBQCdASocABwAPtE-tFooIigoFAEAGglnAMoBinfnzUK_1mDs1vmMC9WdS3ra_b68VgAA_vKWs31T-r0907_h-7MkxkKBP47WkvwRnAWnbMa1AkGKEVnzZO1-B1_z-aICAPg7mSmv1w7PYOB-Pr51F1XK7Gei-bq1FEv-oQL5h-ga0-msPfDtqXqXlxVK6_EuQpzXMOjfFqTBthL_HczfHRFniMbL2Hjri2XC8QAAAA.webp"
+     },
+     "languages": [
+      "en"
+     ],
+     "regions": [
+      "IN"
+     ]
+    },
+    "about_page_link": "https://www.google.co.in/search/about-this-result?origin=www.google.com&req=Cr4BL2dvdG8_dXJsPUNBRVNnZ0VCNnpzd0ZTWkp5YTZ3ZDJyT2g3cndLa1NzWE93bl9BVWxkY091al83OG56dHQ0TVQ1clZMRTVYQzNHQVV1T1lJMVlqQ3N2bDJhYk9Wd1ZTMG15SkNWMnp4S3pOLTNIMWdTbmxBWnJaTTJzR0hJS2JlSlJ6Y29xWWM1Z1FjM25aazlOM0gwOVhqWUsxTjgtY0Z3LXlhWkloaWJMODdiYXMwbHdOaWQzNlp4VC0zShIEGgIIABr7AxIAGgAiACoAMgYIAhICaW46AEIECAEQAEoAWgByAHoAgkDXAwgAEAAYACAAKhoKCDE4MDAxNjAxFSKdHUAaCTE4MDAgMTYwMTK-AS9nb3RvP3VybD1DQUVTZ2dFQjZ6c3dGU1pKeWE2d2Qyck9oN3J3S2tTc1hPd25fQVVsZGNPdWpfNzhuenR0NE1UNXJWTEU1WEMzR0FVdU9ZSTFZakNzdmwyYWJPVndWUzBteUpDVjJ6eEt6Ti0zSDFnU25sQVpyWk0yc0dISUtiZUpSemNvcVljNWdRYzNuWms5TjNIMDlYallLMU44LWNGdy15YVpJaGliTDg3YmFzMGx3TmlkMzZaeFQtM0o6NEdMQVNTIFBFQVJMIFRSQU5TTFVDRU5UIDZtbSBMVC5MSUxBQyAyMGluIDgwIFBDUyAuLi5CuQFHTEFTUyBQRUFSTCBUUkFOU0xVQ0VOVCA2bW0gTFQuTElMQUMgMjBpbiA4MCBQQ1MvU1RSSU5HIHwgPGI-MTgwMDE2MDE8L2I-LTA2Uy4gLi4uIDxiPjE4MDAxNjAxPC9iPi0wNlMuIFNpemUsIDZtbS4gQ29sb3VyLCBMaWxhYy4gQ29sb3IsIFB1cnBsZXMuIFVQQyBDb2RlLCA2MjM4NDA5NzMwMzkuIFJldGFpbCZuYnNwOy4uLiICEAFIAFgAaAA",
+    "about_page_serpapi_link": "https://serpapi.com/search.json?engine=google_about_this_result&google_domain=google.co.in&req_token=Cr4BL2dvdG8_dXJsPUNBRVNnZ0VCNnpzd0ZTWkp5YTZ3ZDJyT2g3cndLa1NzWE93bl9BVWxkY091al83OG56dHQ0TVQ1clZMRTVYQzNHQVV1T1lJMVlqQ3N2bDJhYk9Wd1ZTMG15SkNWMnp4S3pOLTNIMWdTbmxBWnJaTTJzR0hJS2JlSlJ6Y29xWWM1Z1FjM25aazlOM0gwOVhqWUsxTjgtY0Z3LXlhWkloaWJMODdiYXMwbHdOaWQzNlp4VC0zShIEGgIIABr7AxIAGgAiACoAMgYIAhICaW46AEIECAEQAEoAWgByAHoAgkDXAwgAEAAYACAAKhoKCDE4MDAxNjAxFSKdHUAaCTE4MDAgMTYwMTK-AS9nb3RvP3VybD1DQUVTZ2dFQjZ6c3dGU1pKeWE2d2Qyck9oN3J3S2tTc1hPd25fQVVsZGNPdWpfNzhuenR0NE1UNXJWTEU1WEMzR0FVdU9ZSTFZakNzdmwyYWJPVndWUzBteUpDVjJ6eEt6Ti0zSDFnU25sQVpyWk0yc0dISUtiZUpSemNvcVljNWdRYzNuWms5TjNIMDlYallLMU44LWNGdy15YVpJaGliTDg3YmFzMGx3TmlkMzZaeFQtM0o6NEdMQVNTIFBFQVJMIFRSQU5TTFVDRU5UIDZtbSBMVC5MSUxBQyAyMGluIDgwIFBDUyAuLi5CuQFHTEFTUyBQRUFSTCBUUkFOU0xVQ0VOVCA2bW0gTFQuTElMQUMgMjBpbiA4MCBQQ1MvU1RSSU5HIHwgPGI-MTgwMDE2MDE8L2I-LTA2Uy4gLi4uIDxiPjE4MDAxNjAxPC9iPi0wNlMuIFNpemUsIDZtbS4gQ29sb3VyLCBMaWxhYy4gQ29sb3IsIFB1cnBsZXMuIFVQQyBDb2RlLCA2MjM4NDA5NzMwMzkuIFJldGFpbCZuYnNwOy4uLiICEAFIAFgAaAA",
+    "source": "John Bead"
+   },
+   {
+    "position": 10,
+    "title": "IRT 2da Ed Cerrados por Categorias 1800-1601 - Santa Fe 2023",
+    "link": "https://ratings.fide.com/tournament_information.phtml?event=334415",
+    "redirect_link": "https://www.google.co.in/url?sa=t&source=web&rct=j&opi=89978449&url=CAESegHrOzAVBcbEnc6a7WVBvOyyhDhFs9BkSB3c_XKT0aoAnKZIrB3DjPzJmBDczIblp9xlLxzluo0_slbxexffMwqiIjzE-CW62jJ6wj1IM-Do8PrB0VULRNfWu0PbfqVTUV4KUNvVQCcM1PLKKX4Sq4sCJAyJ0j8KPdcb&ved=2ahUKEwjOlJnP2IeXAxUa0PACHS7WHLgQFnoECA8QAQ&uoh=1",
+    "displayed_link": "https://ratings.fide.com › tournament_information",
+    "snippet": "Event code, 334415 ; Tournament Name, IRT 2da Ed Cerrados por Categorias 1800-1601 - Santa Fe 2023 ; City, Santa Fe ; Country, ARG ; Number of players, 6.",
+    "snippet_highlighted_words": [
+     "1800-1601"
+    ],
+    "about_this_result": {
+     "source": {
+      "description": "Event code, 334415 ; Tournament Name, IRT 2da Ed Cerrados por Categorias 1800-1601 - Santa Fe 2023 ; City, Santa Fe ; Country, ARG ; Number of players, 6.",
+      "source_info_link": "https://ratings.fide.com/tournament_information.phtml?event=334415",
+      "icon": "https://serpapi.com/images/i/UklGRjYBAABXRUJQVlA4ICoBAAAQBwCdASocABwAPtE-tFooIigoFAEAGgliAK4isuRk7UFMU8S-oN0cA422aOdpk--K4D6_DRpT2BNjZ2j6zwUSgAD-82v_BKeABGxHyhu1utJHtjLKVOSE4uKtJPPSSbH3gprFiSMiHFNv4Wjr1q6xMgdm7OAgQmAUjUa8s2llUnpf7FOO0PK9rLNX7hlKFq_ekpaqPB0WjD5zWrwfEDvS-v0RH0Cy4D4z5uoN16Tk_chAuCSJN_r_s9I1DeNu47MH0yd7g76p9GNnnsTFezmsPoH7aZjAXPgid-8ktjr2vCrBGcmfR-zqXqIM28T70DT-k7aTYJSfPDmERtNn6snFYr3SGLZn4xrwt6eMiambTsowOx-ut6l8IM1YAh14uarS4ARglAXpgAAA.webp"
+     },
+     "languages": [
+      "en"
+     ],
+     "regions": [
+      "IN"
+     ]
+    },
+    "about_page_link": "https://www.google.co.in/search/about-this-result?origin=www.google.com&req=CrIBL2dvdG8_dXJsPUNBRVNlZ0hyT3pBVkJjYkVuYzZhN1dWQnZPeXloRGhGczlCa1NCM2NfWEtUMGFvQW5LWklyQjNEalB6Sm1CRGN6SWJscDl4bEx4emx1bzBfc2xieGV4ZmZNd3FpSWp6RS1DVzYyako2d2oxSU0tRG84UHJCMFZVTFJOZld1MFBiZnFWVFVWNEtVTnZWUUNjTTFQTEtLWDRTcTRzQ0pBeUowajhLUGRjYhIEGgIIABrqAxIAGgAiACoAMgYIAxICaW46AEIECAEQAEoAWgByAHoAgkDGAwgAEAAYACAAKhoKCDE4MDAxNjAxFdzIbkAaCTE4MDAgMTYwMTKyAS9nb3RvP3VybD1DQUVTZWdIck96QVZCY2JFbmM2YTdXVkJ2T3l5aERoRnM5QmtTQjNjX1hLVDBhb0FuS1pJckIzRGpQekptQkRjeklibHA5eGxMeHpsdW8wX3NsYnhleGZmTXdxaUlqekUtQ1c2MmpKNndqMUlNLURvOFByQjBWVUxSTmZXdTBQYmZxVlRVVjRLVU52VlFDY00xUExLS1g0U3E0c0NKQXlKMGo4S1BkY2I6R0lSVCAyZGEgRWQgQ2VycmFkb3MgcG9yIENhdGVnb3JpYXMgPGI-MTgwMC0xNjAxPC9iPiAtIFNhbnRhIEZlIDIwMjMgLi4uQqEBRXZlbnQgY29kZSwgMzM0NDE1IDsgVG91cm5hbWVudCBOYW1lLCBJUlQgMmRhIEVkIENlcnJhZG9zIHBvciBDYXRlZ29yaWFzIDxiPjE4MDAtMTYwMTwvYj4gLSBTYW50YSBGZSAyMDIzIDsgQ2l0eSwgU2FudGEgRmUgOyBDb3VudHJ5LCBBUkcgOyBOdW1iZXIgb2YgcGxheWVycywgNi4iAhABSABYAGgA",
+    "about_page_serpapi_link": "https://serpapi.com/search.json?engine=google_about_this_result&google_domain=google.co.in&req_token=CrIBL2dvdG8_dXJsPUNBRVNlZ0hyT3pBVkJjYkVuYzZhN1dWQnZPeXloRGhGczlCa1NCM2NfWEtUMGFvQW5LWklyQjNEalB6Sm1CRGN6SWJscDl4bEx4emx1bzBfc2xieGV4ZmZNd3FpSWp6RS1DVzYyako2d2oxSU0tRG84UHJCMFZVTFJOZld1MFBiZnFWVFVWNEtVTnZWUUNjTTFQTEtLWDRTcTRzQ0pBeUowajhLUGRjYhIEGgIIABrqAxIAGgAiACoAMgYIAxICaW46AEIECAEQAEoAWgByAHoAgkDGAwgAEAAYACAAKhoKCDE4MDAxNjAxFdzIbkAaCTE4MDAgMTYwMTKyAS9nb3RvP3VybD1DQUVTZWdIck96QVZCY2JFbmM2YTdXVkJ2T3l5aERoRnM5QmtTQjNjX1hLVDBhb0FuS1pJckIzRGpQekptQkRjeklibHA5eGxMeHpsdW8wX3NsYnhleGZmTXdxaUlqekUtQ1c2MmpKNndqMUlNLURvOFByQjBWVUxSTmZXdTBQYmZxVlRVVjRLVU52VlFDY00xUExLS1g0U3E0c0NKQXlKMGo4S1BkY2I6R0lSVCAyZGEgRWQgQ2VycmFkb3MgcG9yIENhdGVnb3JpYXMgPGI-MTgwMC0xNjAxPC9iPiAtIFNhbnRhIEZlIDIwMjMgLi4uQqEBRXZlbnQgY29kZSwgMzM0NDE1IDsgVG91cm5hbWVudCBOYW1lLCBJUlQgMmRhIEVkIENlcnJhZG9zIHBvciBDYXRlZ29yaWFzIDxiPjE4MDAtMTYwMTwvYj4gLSBTYW50YSBGZSAyMDIzIDsgQ2l0eSwgU2FudGEgRmUgOyBDb3VudHJ5LCBBUkcgOyBOdW1iZXIgb2YgcGxheWVycywgNi4iAhABSABYAGgA",
+    "source": "FIDE"
+   }
+  ],
+  "pagination": {
+   "current": 1,
+   "next": "https://www.google.co.in/search?q=%2218001601%22+OR+%221800+1601%22&sca_esv=4011b64f3e834313&hl=en&gl=in&sxsrf=APpeQnvbezvUXaVg7d7QwuqV7AzVITLl4A:1790269236604&ei=NFe1as6qJJqgw8cPrqzzwAs&start=10&sa=N&sstk=AS6-VmIEbVZrBcGaFhBwmVBlw_fzO3AI-kX15nehslHp4b2Qby9Kwdp58PlZ3XT_8pUb8u5M3ywgvevpCecPoWhtoA7mozya1cuPkA&ved=2ahUKEwjOlJnP2IeXAxUa0PACHS7WHLgQ8NMDegQIPhAW",
+   "other_pages": {
+    "2": "https://www.google.co.in/search?q=%2218001601%22+OR+%221800+1601%22&sca_esv=4011b64f3e834313&hl=en&gl=in&sxsrf=APpeQnvbezvUXaVg7d7QwuqV7AzVITLl4A:1790269236604&ei=NFe1as6qJJqgw8cPrqzzwAs&start=10&sa=N&sstk=AS6-VmIEbVZrBcGaFhBwmVBlw_fzO3AI-kX15nehslHp4b2Qby9Kwdp58PlZ3XT_8pUb8u5M3ywgvevpCecPoWhtoA7mozya1cuPkA&ved=2ahUKEwjOlJnP2IeXAxUa0PACHS7WHLgQ8tMDegQIPhAE",
+    "3": "https://www.google.co.in/search?q=%2218001601%22+OR+%221800+1601%22&sca_esv=4011b64f3e834313&hl=en&gl=in&sxsrf=APpeQnvbezvUXaVg7d7QwuqV7AzVITLl4A:1790269236604&ei=NFe1as6qJJqgw8cPrqzzwAs&start=20&sa=N&sstk=AS6-VmIEbVZrBcGaFhBwmVBlw_fzO3AI-kX15nehslHp4b2Qby9Kwdp58PlZ3XT_8pUb8u5M3ywgvevpCecPoWhtoA7mozya1cuPkA&ved=2ahUKEwjOlJnP2IeXAxUa0PACHS7WHLgQ8tMDegQIPhAG",
+    "4": "https://www.google.co.in/search?q=%2218001601%22+OR+%221800+1601%22&sca_esv=4011b64f3e834313&hl=en&gl=in&sxsrf=APpeQnvbezvUXaVg7d7QwuqV7AzVITLl4A:1790269236604&ei=NFe1as6qJJqgw8cPrqzzwAs&start=30&sa=N&sstk=AS6-VmIEbVZrBcGaFhBwmVBlw_fzO3AI-kX15nehslHp4b2Qby9Kwdp58PlZ3XT_8pUb8u5M3ywgvevpCecPoWhtoA7mozya1cuPkA&ved=2ahUKEwjOlJnP2IeXAxUa0PACHS7WHLgQ8tMDegQIPhAI",
+    "5": "https://www.google.co.in/search?q=%2218001601%22+OR+%221800+1601%22&sca_esv=4011b64f3e834313&hl=en&gl=in&sxsrf=APpeQnvbezvUXaVg7d7QwuqV7AzVITLl4A:1790269236604&ei=NFe1as6qJJqgw8cPrqzzwAs&start=40&sa=N&sstk=AS6-VmIEbVZrBcGaFhBwmVBlw_fzO3AI-kX15nehslHp4b2Qby9Kwdp58PlZ3XT_8pUb8u5M3ywgvevpCecPoWhtoA7mozya1cuPkA&ved=2ahUKEwjOlJnP2IeXAxUa0PACHS7WHLgQ8tMDegQIPhAK",
+    "6": "https://www.google.co.in/search?q=%2218001601%22+OR+%221800+1601%22&sca_esv=4011b64f3e834313&hl=en&gl=in&sxsrf=APpeQnvbezvUXaVg7d7QwuqV7AzVITLl4A:1790269236604&ei=NFe1as6qJJqgw8cPrqzzwAs&start=50&sa=N&sstk=AS6-VmIEbVZrBcGaFhBwmVBlw_fzO3AI-kX15nehslHp4b2Qby9Kwdp58PlZ3XT_8pUb8u5M3ywgvevpCecPoWhtoA7mozya1cuPkA&ved=2ahUKEwjOlJnP2IeXAxUa0PACHS7WHLgQ8tMDegQIPhAM",
+    "7": "https://www.google.co.in/search?q=%2218001601%22+OR+%221800+1601%22&sca_esv=4011b64f3e834313&hl=en&gl=in&sxsrf=APpeQnvbezvUXaVg7d7QwuqV7AzVITLl4A:1790269236604&ei=NFe1as6qJJqgw8cPrqzzwAs&start=60&sa=N&sstk=AS6-VmIEbVZrBcGaFhBwmVBlw_fzO3AI-kX15nehslHp4b2Qby9Kwdp58PlZ3XT_8pUb8u5M3ywgvevpCecPoWhtoA7mozya1cuPkA&ved=2ahUKEwjOlJnP2IeXAxUa0PACHS7WHLgQ8tMDegQIPhAO",
+    "8": "https://www.google.co.in/search?q=%2218001601%22+OR+%221800+1601%22&sca_esv=4011b64f3e834313&hl=en&gl=in&sxsrf=APpeQnvbezvUXaVg7d7QwuqV7AzVITLl4A:1790269236604&ei=NFe1as6qJJqgw8cPrqzzwAs&start=70&sa=N&sstk=AS6-VmIEbVZrBcGaFhBwmVBlw_fzO3AI-kX15nehslHp4b2Qby9Kwdp58PlZ3XT_8pUb8u5M3ywgvevpCecPoWhtoA7mozya1cuPkA&ved=2ahUKEwjOlJnP2IeXAxUa0PACHS7WHLgQ8tMDegQIPhAQ",
+    "9": "https://www.google.co.in/search?q=%2218001601%22+OR+%221800+1601%22&sca_esv=4011b64f3e834313&hl=en&gl=in&sxsrf=APpeQnvbezvUXaVg7d7QwuqV7AzVITLl4A:1790269236604&ei=NFe1as6qJJqgw8cPrqzzwAs&start=80&sa=N&sstk=AS6-VmIEbVZrBcGaFhBwmVBlw_fzO3AI-kX15nehslHp4b2Qby9Kwdp58PlZ3XT_8pUb8u5M3ywgvevpCecPoWhtoA7mozya1cuPkA&ved=2ahUKEwjOlJnP2IeXAxUa0PACHS7WHLgQ8tMDegQIPhAS",
+    "10": "https://www.google.co.in/search?q=%2218001601%22+OR+%221800+1601%22&sca_esv=4011b64f3e834313&hl=en&gl=in&sxsrf=APpeQnvbezvUXaVg7d7QwuqV7AzVITLl4A:1790269236604&ei=NFe1as6qJJqgw8cPrqzzwAs&start=90&sa=N&sstk=AS6-VmIEbVZrBcGaFhBwmVBlw_fzO3AI-kX15nehslHp4b2Qby9Kwdp58PlZ3XT_8pUb8u5M3ywgvevpCecPoWhtoA7mozya1cuPkA&ved=2ahUKEwjOlJnP2IeXAxUa0PACHS7WHLgQ8tMDegQIPhAU"
+   }
+  },
+  "serpapi_pagination": {
+   "current": 1,
+   "next_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.co.in&hl=en&q=%2218001601%22+OR+%221800+1601%22&start=10",
+   "next": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.co.in&hl=en&q=%2218001601%22+OR+%221800+1601%22&start=10",
+   "other_pages": {
+    "2": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.co.in&hl=en&q=%2218001601%22+OR+%221800+1601%22&start=10",
+    "3": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.co.in&hl=en&q=%2218001601%22+OR+%221800+1601%22&start=20",
+    "4": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.co.in&hl=en&q=%2218001601%22+OR+%221800+1601%22&start=30",
+    "5": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.co.in&hl=en&q=%2218001601%22+OR+%221800+1601%22&start=40",
+    "6": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.co.in&hl=en&q=%2218001601%22+OR+%221800+1601%22&start=50",
+    "7": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.co.in&hl=en&q=%2218001601%22+OR+%221800+1601%22&start=60",
+    "8": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.co.in&hl=en&q=%2218001601%22+OR+%221800+1601%22&start=70",
+    "9": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.co.in&hl=en&q=%2218001601%22+OR+%221800+1601%22&start=80",
+    "10": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.co.in&hl=en&q=%2218001601%22+OR+%221800+1601%22&start=90"
+   }
+  }
+ }
+}

@@ -159,6 +159,9 @@ class SerpClient:
                 raise SerpApiError(f"SerpApi HTTP {resp.status_code}: {resp.text[:200]}")
             data = resp.json()
             if data.get("error"):
+                if "hasn't returned any results" in str(data["error"]):
+                    # SerpApi reports an empty page as an error; for a sweep it is a valid answer: nothing there.
+                    return {k: v for k, v in data.items() if k != "error"} | {"no_results": str(data["error"])}
                 raise SerpApiError(str(data["error"]))
             return data
         finally:

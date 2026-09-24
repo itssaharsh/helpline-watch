@@ -1,0 +1,348 @@
+{
+ "_fixture": {
+  "kind": "recorded",
+  "recorded_at": "2026-09-24T16:47:17+00:00",
+  "params": {
+   "engine": "google",
+   "q": "\"02261606160\" OR \"022 6160 6160\"",
+   "google_domain": "google.co.in",
+   "gl": "in",
+   "hl": "en",
+   "num": "10"
+  }
+ },
+ "response": {
+  "search_metadata": {
+   "id": "6ab554131290d9cb446482b3",
+   "status": "Success",
+   "json_endpoint": "https://serpapi.com/searches/5pxe1jytjY-3s7EkxlA9I792pcAFD1CnX6HHORxp5p4/6ab554131290d9cb446482b3.json",
+   "markdown_endpoint": "https://serpapi.com/searches/5pxe1jytjY-3s7EkxlA9I792pcAFD1CnX6HHORxp5p4/6ab554131290d9cb446482b3.md",
+   "pixel_position_endpoint": "https://serpapi.com/searches/5pxe1jytjY-3s7EkxlA9I792pcAFD1CnX6HHORxp5p4/6ab554131290d9cb446482b3.json_with_pixel_position",
+   "created_at": "2026-09-24 16:47:15 UTC",
+   "processed_at": "2026-09-24 16:47:15 UTC",
+   "google_url": "https://www.google.co.in/search?q=%2202261606160%22+OR+%22022+6160+6160%22&oq=%2202261606160%22+OR+%22022+6160+6160%22&hl=en&gl=in&sourceid=chrome&ie=UTF-8",
+   "raw_html_file": "https://serpapi.com/searches/5pxe1jytjY-3s7EkxlA9I792pcAFD1CnX6HHORxp5p4/6ab554131290d9cb446482b3.html",
+   "total_time_taken": 1.72
+  },
+  "search_parameters": {
+   "engine": "google",
+   "q": "\"02261606160\" OR \"022 6160 6160\"",
+   "google_domain": "google.co.in",
+   "hl": "en",
+   "gl": "in",
+   "device": "desktop"
+  },
+  "search_information": {
+   "query_displayed": "\"02261606160\" OR \"022 6160 6160\"",
+   "total_results": 178,
+   "time_taken_displayed": 0.5,
+   "organic_results_state": "Results for exact spelling"
+  },
+  "organic_results": [
+   {
+    "position": 1,
+    "title": "+912261606160 | Check who called you from 022 6160 ...",
+    "link": "https://www.truecaller.com/who-called-me/912261606160",
+    "redirect_link": "https://www.google.co.in/url?sa=t&source=web&rct=j&opi=89978449&url=CAESbQHrOzAVLj5lwJvQOCeWcuoKl68dN3UnA0Tof4en3UOESrTErN9ebzENZ5bZywe-PC2OGNETgGrP5AtWpUT-iFCPgr8sABcAR_uWbEVQA5y1XsEs-b7sWjcH73_W48CrXfKyysjkFBoT3mREdP8&ved=2ahUKEwiymLPR1YeXAxUooWMGHeaKAO4QFnoECA8QAQ&uoh=1",
+    "displayed_link": "https://www.truecaller.com › who-called-me",
+    "snippet": "022 6160 6160. Other numbers in India. Recently Reviewed. 912231226230. 2,805 · 918047206581. 2,395 · 918047206581. 2,395 · 918047206581. 2,395 · 918633514408.",
+    "snippet_highlighted_words": [
+     "022 6160 6160"
+    ],
+    "about_this_result": {
+     "source": {
+      "description": "022 6160 6160. Other numbers in India. Recently Reviewed. 912231226230. 2,805 · 918047206581. 2,395 · 918047206581. 2,395 · 918047206581. 2,395 · 918633514408.",
+      "source_info_link": "https://www.truecaller.com/who-called-me/912261606160",
+      "icon": "https://serpapi.com/images/i/UklGRuABAABXRUJQVlA4INQBAABQCgCdASogACAAPrUurVanIacnG_DgFolsAJ0yhHUHo1MBwANsBoQH8A6wD0APLQ9kWY1bP02mGCmieRh8ATv-eZU99nxvRxiSmpBtLAPsoqY4rM9mWrb1w74AAP74uluyV7LzbbrJECZTJbP-OB9cc86Wja-n39DnPCCcxsZ_NuS7WQpkokx-NmstzdOeHJawv6h9lkjsJ7QpSMWqTBGr-ARoPOu4p3j3ss1fe2N_OAy_YT4UBDODjTu2Dj_uTaXxykX6hrniSa59Gqhu5WGkfZ1YmISTp5wllwfw2tDx4PTA2ES6vpO1yVNECcOvUDRGI71I83S6cGopXs0_mnbpftnEl7f7peslHFhdvr-Pn_T0AhrFMQh6Ak0XKD-DF0sy0cYlmrd8T7k3WZWQkN0xr_ZyXKDaoDekhGMfwPdrEuKzCjskTUuKdO--eHgREdknuSn4bOO60bUbujwygOLI2e8yWTsb780xsSH8OAoAJQcIfQX2Iyx_lUYiyw36DC1ukuwl89K82zxhlh7nyLEri8MZ1CuTncDlrtPeJkyKNmMc9m2iXHboF1DsB2UV8TUqikPy5JsBlSkFttyYmDa1CRFPdXCVcao-PJqq4h2TcYtgAAA.webp"
+     },
+     "languages": [
+      "en"
+     ],
+     "regions": [
+      "IN"
+     ]
+    },
+    "about_page_link": "https://www.google.co.in/search/about-this-result?origin=www.google.com&req=CqEBL2dvdG8_dXJsPUNBRVNiUUhyT3pBVkxqNWx3SnZRT0NlV2N1b0tsNjhkTjNVbkEwVG9mNGVuM1VPRVNyVEVyTjllYnpFTlo1Ylp5d2UtUEMyT0dORVRnR3JQNUF0V3BVVC1pRkNQZ3I4c0FCY0FSX3VXYkVWUUE1eTFYc0VzLWI3c1dqY0g3M19XNDhDclhmS3l5c2prRkJvVDNtUkVkUDgSBBoCCAAa_wMSABoAIgAqADIGCAMSAmluOgBCBAgBEABKAFoAcgB6AIJA2wMIABAAGAAgACohCgswMjI2MTYwNjE2MBV0CSVAGg0wMjIgNjE2MCA2MTYwMqEBL2dvdG8_dXJsPUNBRVNiUUhyT3pBVkxqNWx3SnZRT0NlV2N1b0tsNjhkTjNVbkEwVG9mNGVuM1VPRVNyVEVyTjllYnpFTlo1Ylp5d2UtUEMyT0dORVRnR3JQNUF0V3BVVC1pRkNQZ3I4c0FCY0FSX3VXYkVWUUE1eTFYc0VzLWI3c1dqY0g3M19XNDhDclhmS3l5c2prRkJvVDNtUkVkUDg6RSs5MTIyNjE2MDYxNjAgfCBDaGVjayB3aG8gY2FsbGVkIHlvdSBmcm9tIDxiPjAyMjwvYj4gLi4uIC0gVHJ1ZWNhbGxlckLCATxiPjAyMiA2MTYwIDYxNjA8L2I-LiBPdGhlciBudW1iZXJzIGluIEluZGlhLiBSZWNlbnRseSBSZXZpZXdlZC4gOTEyMjMxMjI2MjMwLiAyLDgwNSAmbWlkZG90OyA5MTgwNDcyMDY1ODEuIDIsMzk1ICZtaWRkb3Q7IDkxODA0NzIwNjU4MS4gMiwzOTUgJm1pZGRvdDsgOTE4MDQ3MjA2NTgxLiAyLDM5NSAmbWlkZG90OyA5MTg2MzM1MTQ0MDguIgIQAUgAWABoAA",
+    "about_page_serpapi_link": "https://serpapi.com/search.json?engine=google_about_this_result&google_domain=google.co.in&req_token=CqEBL2dvdG8_dXJsPUNBRVNiUUhyT3pBVkxqNWx3SnZRT0NlV2N1b0tsNjhkTjNVbkEwVG9mNGVuM1VPRVNyVEVyTjllYnpFTlo1Ylp5d2UtUEMyT0dORVRnR3JQNUF0V3BVVC1pRkNQZ3I4c0FCY0FSX3VXYkVWUUE1eTFYc0VzLWI3c1dqY0g3M19XNDhDclhmS3l5c2prRkJvVDNtUkVkUDgSBBoCCAAa_wMSABoAIgAqADIGCAMSAmluOgBCBAgBEABKAFoAcgB6AIJA2wMIABAAGAAgACohCgswMjI2MTYwNjE2MBV0CSVAGg0wMjIgNjE2MCA2MTYwMqEBL2dvdG8_dXJsPUNBRVNiUUhyT3pBVkxqNWx3SnZRT0NlV2N1b0tsNjhkTjNVbkEwVG9mNGVuM1VPRVNyVEVyTjllYnpFTlo1Ylp5d2UtUEMyT0dORVRnR3JQNUF0V3BVVC1pRkNQZ3I4c0FCY0FSX3VXYkVWUUE1eTFYc0VzLWI3c1dqY0g3M19XNDhDclhmS3l5c2prRkJvVDNtUkVkUDg6RSs5MTIyNjE2MDYxNjAgfCBDaGVjayB3aG8gY2FsbGVkIHlvdSBmcm9tIDxiPjAyMjwvYj4gLi4uIC0gVHJ1ZWNhbGxlckLCATxiPjAyMiA2MTYwIDYxNjA8L2I-LiBPdGhlciBudW1iZXJzIGluIEluZGlhLiBSZWNlbnRseSBSZXZpZXdlZC4gOTEyMjMxMjI2MjMwLiAyLDgwNSAmbWlkZG90OyA5MTgwNDcyMDY1ODEuIDIsMzk1ICZtaWRkb3Q7IDkxODA0NzIwNjU4MS4gMiwzOTUgJm1pZGRvdDsgOTE4MDQ3MjA2NTgxLiAyLDM5NSAmbWlkZG90OyA5MTg2MzM1MTQ0MDguIgIQAUgAWABoAA",
+    "source": "Truecaller",
+    "read_more_link": "https://www.truecaller.com/who-called-me/912261606160#:~:text=022%206160%206160,918633514408"
+   },
+   {
+    "position": 2,
+    "title": "Policy for Issuance and Conduct of Credit Cards",
+    "link": "https://www.hdfc.bank.in/content/dam/hdfcbankpws/in/en/personal-banking/discover-products/cards-services/credit-card-policy.pdf",
+    "redirect_link": "https://www.google.co.in/url?sa=t&source=web&rct=j&opi=89978449&url=CAEStwEB6zswFR0TN4wW9cGZPlQUUb0oLGmxzk6wINlwoa6tpSmo-BMVJJuXR0M9nspE6JQhMMdmkCTv0NnO1QCPxIPkTujPFOrA6uPUQioshG9YZMn9wAxaZaoWnXU9Cp5XCBKeorpqvxQ_WPOF-7ep8Yu91ev_vmFOplNHWwFHY9rh1kigESD3tkylMWB201o6IlI2Gve6Lt5SDCiEk_MIGIZP33UDnnul8t-II4ZbHAeEjs_IKHsZmdM&ved=2ahUKEwiymLPR1YeXAxUooWMGHeaKAO4QFnoECBAQAQ&uoh=1",
+    "displayed_link": "https://www.hdfc.bank.in › dam › cards-services",
+    "snippet": "Call us- 18001600/18002600 (within India)/ 02261606160 (for overseas assistance), Customers of. Imperia Account, Diners Black Credit Card and Infinia Credit ...",
+    "snippet_highlighted_words": [
+     "02261606160"
+    ],
+    "rich_snippet": {
+     "top": {
+      "detected_extensions": {
+       "pages": 10
+      },
+      "extensions": [
+       "10 pages"
+      ]
+     }
+    },
+    "about_this_result": {
+     "source": {
+      "description": "Call us- 18001600/18002600 (within India)/ 02261606160 (for overseas assistance), Customers of. Imperia Account, Diners Black Credit Card and Infinia Credit ...",
+      "source_info_link": "https://www.hdfc.bank.in/content/dam/hdfcbankpws/in/en/personal-banking/discover-products/cards-services/credit-card-policy.pdf",
+      "icon": "https://serpapi.com/images/i/UklGRsYAAABXRUJQVlA4ILoAAADQAgCdASoQABAAAsBMJbACdHMAmzcGLFjlaFjhUUQAAPyP9teCXBj-RQq1foqDpwlIO1WzwVb4IKBMaqDdXfmeQoQxw_xLipsf9ynWrn3VvDKDO4TtF57i8RzEjZ6xXBq7Y378UGemT2YxTrDBpkV6YI8wHI_2JKInxjnyDDFmd8Mlga1q0eZIPvfa8TnvMT82OKenmFBf3_8dBj9zKL6iP_jV0j90lF9RH_nOOY4aaRnAl9IZSVlAAAA.webp"
+     },
+     "languages": [
+      "en"
+     ],
+     "regions": [
+      "IN"
+     ]
+    },
+    "about_page_link": "https://www.google.co.in/search/about-this-result?origin=www.google.com&req=CoUCL2dvdG8_dXJsPUNBRVN0d0VCNnpzd0ZSMFRONHdXOWNHWlBsUVVVYjBvTEdteHprNndJTmx3b2E2dHBTbW8tQk1WSkp1WFIwTTluc3BFNkpRaE1NZG1rQ1R2ME5uTzFRQ1B4SVBrVHVqUEZPckE2dVBVUWlvc2hHOVlaTW45d0F4YVphb1duWFU5Q3A1WENCS2VvcnBxdnhRX1dQT0YtN2VwOFl1OTFldl92bUZPcGxOSFd3RkhZOXJoMWtpZ0VTRDN0a3lsTVdCMjAxbzZJbEkyR3ZlNkx0NVNEQ2lFa19NSUdJWlAzM1VEbm51bDh0LUlJNFpiSEFlRWpzX0lLSHNabWRNEgQaAggAGsUEEgIIABoAIgAqADIGCAESAmluOgBCBAgBEABKAFoAcgB6AIJAnwQIABAAGAAgACohCgswMjI2MTYwNjE2MBXxJBw9Gg0wMjIgNjE2MCA2MTYwMoUCL2dvdG8_dXJsPUNBRVN0d0VCNnpzd0ZSMFRONHdXOWNHWlBsUVVVYjBvTEdteHprNndJTmx3b2E2dHBTbW8tQk1WSkp1WFIwTTluc3BFNkpRaE1NZG1rQ1R2ME5uTzFRQ1B4SVBrVHVqUEZPckE2dVBVUWlvc2hHOVlaTW45d0F4YVphb1duWFU5Q3A1WENCS2VvcnBxdnhRX1dQT0YtN2VwOFl1OTFldl92bUZPcGxOSFd3RkhZOXJoMWtpZ0VTRDN0a3lsTVdCMjAxbzZJbEkyR3ZlNkx0NVNEQ2lFa19NSUdJWlAzM1VEbm51bDh0LUlJNFpiSEFlRWpzX0lLSHNabWRNOjtQb2xpY3kgZm9yIElzc3VhbmNlIGFuZCBDb25kdWN0IG9mIENyZWRpdCBDYXJkcyB8IEhERkMgQmFua0KsAUNhbGwgdXMtIDE4MDAxNjAwLzE4MDAyNjAwICh3aXRoaW4gSW5kaWEpLyA8Yj4wMjI2MTYwNjE2MDwvYj4gKGZvciBvdmVyc2VhcyBhc3Npc3RhbmNlKSwgQ3VzdG9tZXJzIG9mLiBJbXBlcmlhIEFjY291bnQsIERpbmVycyBCbGFjayBDcmVkaXQgQ2FyZCBhbmQgSW5maW5pYSBDcmVkaXQmbmJzcDsuLi4iAhABSABYAGgA",
+    "about_page_serpapi_link": "https://serpapi.com/search.json?engine=google_about_this_result&google_domain=google.co.in&req_token=CoUCL2dvdG8_dXJsPUNBRVN0d0VCNnpzd0ZSMFRONHdXOWNHWlBsUVVVYjBvTEdteHprNndJTmx3b2E2dHBTbW8tQk1WSkp1WFIwTTluc3BFNkpRaE1NZG1rQ1R2ME5uTzFRQ1B4SVBrVHVqUEZPckE2dVBVUWlvc2hHOVlaTW45d0F4YVphb1duWFU5Q3A1WENCS2VvcnBxdnhRX1dQT0YtN2VwOFl1OTFldl92bUZPcGxOSFd3RkhZOXJoMWtpZ0VTRDN0a3lsTVdCMjAxbzZJbEkyR3ZlNkx0NVNEQ2lFa19NSUdJWlAzM1VEbm51bDh0LUlJNFpiSEFlRWpzX0lLSHNabWRNEgQaAggAGsUEEgIIABoAIgAqADIGCAESAmluOgBCBAgBEABKAFoAcgB6AIJAnwQIABAAGAAgACohCgswMjI2MTYwNjE2MBXxJBw9Gg0wMjIgNjE2MCA2MTYwMoUCL2dvdG8_dXJsPUNBRVN0d0VCNnpzd0ZSMFRONHdXOWNHWlBsUVVVYjBvTEdteHprNndJTmx3b2E2dHBTbW8tQk1WSkp1WFIwTTluc3BFNkpRaE1NZG1rQ1R2ME5uTzFRQ1B4SVBrVHVqUEZPckE2dVBVUWlvc2hHOVlaTW45d0F4YVphb1duWFU5Q3A1WENCS2VvcnBxdnhRX1dQT0YtN2VwOFl1OTFldl92bUZPcGxOSFd3RkhZOXJoMWtpZ0VTRDN0a3lsTVdCMjAxbzZJbEkyR3ZlNkx0NVNEQ2lFa19NSUdJWlAzM1VEbm51bDh0LUlJNFpiSEFlRWpzX0lLSHNabWRNOjtQb2xpY3kgZm9yIElzc3VhbmNlIGFuZCBDb25kdWN0IG9mIENyZWRpdCBDYXJkcyB8IEhERkMgQmFua0KsAUNhbGwgdXMtIDE4MDAxNjAwLzE4MDAyNjAwICh3aXRoaW4gSW5kaWEpLyA8Yj4wMjI2MTYwNjE2MDwvYj4gKGZvciBvdmVyc2VhcyBhc3Npc3RhbmNlKSwgQ3VzdG9tZXJzIG9mLiBJbXBlcmlhIEFjY291bnQsIERpbmVycyBCbGFjayBDcmVkaXQgQ2FyZCBhbmQgSW5maW5pYSBDcmVkaXQmbmJzcDsuLi4iAhABSABYAGgA",
+    "source": "HDFC Bank",
+    "read_more_link": "https://www.hdfc.bank.in/content/dam/hdfcbankpws/in/en/personal-banking/discover-products/cards-services/credit-card-policy.pdf#:~:text=Call%20us%2D%2018001600%2F18002600%20(within%20India)%2F,reach%20us%20on%20our%20dedicated"
+   },
+   {
+    "position": 3,
+    "title": "Sachin Sharma's Post",
+    "link": "https://www.linkedin.com/posts/sachindirector_financesecretary-hdfcbank-customerexperience-activity-7503100139197190144-cU0E",
+    "redirect_link": "https://www.google.co.in/url?sa=t&source=web&rct=j&opi=89978449&url=CAEStAEB6zswFTngeMj7eSNXz8wbngh27mOjuYtPF10mpw3Z1ObCmnhDSuFhYODi0C9afoklPDxdBGmW7iKxOq8OkOZxhgk6DiZV2lmM4cU_cueuPaDJaOw9LJy4dMUQjZ4LX4-FaCNkIk-Zgq3Q0Zy-bZeZ9-7Jw4XFwvwrib1pSSeuu_c6ed-zYzl17YR6k4PpqIQfqhaHqvevvEgARlfT46KRfZFluQhIDhHcMh8NrFRkddwg-p0&ved=2ahUKEwiymLPR1YeXAxUooWMGHeaKAO4QFnoECBMQAQ&uoh=1",
+    "displayed_link": "20+ reactions · 2 weeks ago",
+    "snippet": "... 022 6160 6160 For more information, pl. refer to the *FAQs.* *TnC Apply HDFC says my Infinia will be discontinued because I did not meet ...",
+    "snippet_highlighted_words": [
+     "022 6160 6160"
+    ],
+    "about_this_result": {
+     "source": {
+      "description": "... 022 6160 6160 For more information, pl. refer to the *FAQs.* *TnC Apply HDFC says my Infinia will be discontinued because I did not meet ...",
+      "source_info_link": "https://www.linkedin.com/posts/sachindirector_financesecretary-hdfcbank-customerexperience-activity-7503100139197190144-cU0E",
+      "icon": "https://serpapi.com/images/i/UklGRsAAAABXRUJQVlA4ILQAAABQAwCdASoQABAAAsBMJbACdLoBLf4oANRJj6d2SZLhF7_ohAD-4n1FofdRna1o8FCt-OiJvVc8lzO8Rt17R6yr0CRJL0FBwsd8OIDxQ356R55Xei0KcLjbfh5C05X1nTKIh8X8ekP3RBUogy_jZ3kCUPbBWjzINpJUmDhbtDZS1e3a8_aUBwnkYz0mnTj4n4__aq6btWmAus7Zjw7JLZ_kNfUgtaLPXB6k1U8MVzX5_C1AAAA.webp"
+     },
+     "languages": [
+      "en"
+     ],
+     "regions": [
+      "IN"
+     ]
+    },
+    "about_page_link": "https://www.google.co.in/search/about-this-result?origin=www.google.com&req=CoECL2dvdG8_dXJsPUNBRVN0QUVCNnpzd0ZUbmdlTWo3ZVNOWHo4d2JuZ2gyN21PanVZdFBGMTBtcHczWjFPYkNtbmhEU3VGaFlPRGkwQzlhZm9rbFBEeGRCR21XN2lLeE9xOE9rT1p4aGdrNkRpWlYybG1NNGNVX2N1ZXVQYURKYU93OUxKeTRkTVVRalo0TFg0LUZhQ05rSWstWmdxM1EwWnktYlplWjktN0p3NFhGd3Z3cmliMXBTU2V1dV9jNmVkLXpZemwxN1lSNms0UHBxSVFmcWhhSHF2ZXZ2RWdBUmxmVDQ2S1JmWkZsdVFoSURoSGNNaDhOckZSa2Rkd2ctcDASBBoCCAAalwQSABoAIgAqADIGCAMSAmluOgBCBAgBEABKAFoAcgB6AIJA8wMIABAAGAAgACohCgswMjI2MTYwNjE2MBUqCZM-Gg0wMjIgNjE2MCA2MTYwMoECL2dvdG8_dXJsPUNBRVN0QUVCNnpzd0ZUbmdlTWo3ZVNOWHo4d2JuZ2gyN21PanVZdFBGMTBtcHczWjFPYkNtbmhEU3VGaFlPRGkwQzlhZm9rbFBEeGRCR21XN2lLeE9xOE9rT1p4aGdrNkRpWlYybG1NNGNVX2N1ZXVQYURKYU93OUxKeTRkTVVRalo0TFg0LUZhQ05rSWstWmdxM1EwWnktYlplWjktN0p3NFhGd3Z3cmliMXBTU2V1dV9jNmVkLXpZemwxN1lSNms0UHBxSVFmcWhhSHF2ZXZ2RWdBUmxmVDQ2S1JmWkZsdVFoSURoSGNNaDhOckZSa2Rkd2ctcDA6I1NhY2hpbiBTaGFybWEmIzM5O3MgUG9zdCAtIExpbmtlZEluQpwBLi4uIDxiPjAyMiA2MTYwIDYxNjA8L2I-IEZvciBtb3JlIGluZm9ybWF0aW9uLCBwbC4gcmVmZXIgdG8gdGhlICpGQVFzLiogKlRuQyBBcHBseSBIREZDIHNheXMgbXkgSW5maW5pYSB3aWxsIGJlIGRpc2NvbnRpbnVlZCBiZWNhdXNlIEkgZGlkIG5vdCBtZWV0Jm5ic3A7Li4uIgIQAUgAWABoAA",
+    "about_page_serpapi_link": "https://serpapi.com/search.json?engine=google_about_this_result&google_domain=google.co.in&req_token=CoECL2dvdG8_dXJsPUNBRVN0QUVCNnpzd0ZUbmdlTWo3ZVNOWHo4d2JuZ2gyN21PanVZdFBGMTBtcHczWjFPYkNtbmhEU3VGaFlPRGkwQzlhZm9rbFBEeGRCR21XN2lLeE9xOE9rT1p4aGdrNkRpWlYybG1NNGNVX2N1ZXVQYURKYU93OUxKeTRkTVVRalo0TFg0LUZhQ05rSWstWmdxM1EwWnktYlplWjktN0p3NFhGd3Z3cmliMXBTU2V1dV9jNmVkLXpZemwxN1lSNms0UHBxSVFmcWhhSHF2ZXZ2RWdBUmxmVDQ2S1JmWkZsdVFoSURoSGNNaDhOckZSa2Rkd2ctcDASBBoCCAAalwQSABoAIgAqADIGCAMSAmluOgBCBAgBEABKAFoAcgB6AIJA8wMIABAAGAAgACohCgswMjI2MTYwNjE2MBUqCZM-Gg0wMjIgNjE2MCA2MTYwMoECL2dvdG8_dXJsPUNBRVN0QUVCNnpzd0ZUbmdlTWo3ZVNOWHo4d2JuZ2gyN21PanVZdFBGMTBtcHczWjFPYkNtbmhEU3VGaFlPRGkwQzlhZm9rbFBEeGRCR21XN2lLeE9xOE9rT1p4aGdrNkRpWlYybG1NNGNVX2N1ZXVQYURKYU93OUxKeTRkTVVRalo0TFg0LUZhQ05rSWstWmdxM1EwWnktYlplWjktN0p3NFhGd3Z3cmliMXBTU2V1dV9jNmVkLXpZemwxN1lSNms0UHBxSVFmcWhhSHF2ZXZ2RWdBUmxmVDQ2S1JmWkZsdVFoSURoSGNNaDhOckZSa2Rkd2ctcDA6I1NhY2hpbiBTaGFybWEmIzM5O3MgUG9zdCAtIExpbmtlZEluQpwBLi4uIDxiPjAyMiA2MTYwIDYxNjA8L2I-IEZvciBtb3JlIGluZm9ybWF0aW9uLCBwbC4gcmVmZXIgdG8gdGhlICpGQVFzLiogKlRuQyBBcHBseSBIREZDIHNheXMgbXkgSW5maW5pYSB3aWxsIGJlIGRpc2NvbnRpbnVlZCBiZWNhdXNlIEkgZGlkIG5vdCBtZWV0Jm5ic3A7Li4uIgIQAUgAWABoAA",
+    "source": "LinkedIn · Sachin Sharma"
+   },
+   {
+    "position": 4,
+    "title": "+912261606160 | देखें कि आपको 022 6160 ...",
+    "link": "https://www.truecaller.com/hi-in/who-called-me/912261606160",
+    "redirect_link": "https://www.google.co.in/url?sa=t&source=web&rct=j&opi=89978449&url=CAEScwHrOzAVS6uneMufe2CK6FHkbrxKWW3jwOTGia4Qg8Bx32MNZerw6i6yX2lUbOljkz4iYB01LSNK8McotyJBxHLA4JTo14pAy7qwB_6HlbODxuDLU7f9zV22a3V2OYYXS32OcIlGx0QBoDqCi9UowRpqUDs&ved=2ahUKEwiymLPR1YeXAxUooWMGHeaKAO4QFnoECBEQAQ&uoh=1",
+    "displayed_link": "https://www.truecaller.com › hi-in",
+    "snippet": "022 6160 6160. India में अन्य फ़ोन नंबर. हाल ही में रिव्यु किए गए फ़ोन नंबर. 911408364258. 23,064 · 918047206581.",
+    "snippet_highlighted_words": [
+     "022 6160 6160"
+    ],
+    "about_this_result": {
+     "source": {
+      "description": "022 6160 6160. India में अन्य फ़ोन नंबर. हाल ही में रिव्यु किए गए फ़ोन नंबर. 911408364258. 23,064 · 918047206581.",
+      "source_info_link": "https://www.truecaller.com/hi-in/who-called-me/912261606160",
+      "icon": "https://serpapi.com/images/i/UklGRuABAABXRUJQVlA4INQBAABQCgCdASogACAAPrUurVanIacnG_DgFolsAJ0yhHUHo1MBwANsBoQH8A6wD0APLQ9kWY1bP02mGCmieRh8ATv-eZU99nxvRxiSmpBtLAPsoqY4rM9mWrb1w74AAP74uluyV7LzbbrJECZTJbP-OB9cc86Wja-n39DnPCCcxsZ_NuS7WQpkokx-NmstzdOeHJawv6h9lkjsJ7QpSMWqTBGr-ARoPOu4p3j3ss1fe2N_OAy_YT4UBDODjTu2Dj_uTaXxykX6hrniSa59Gqhu5WGkfZ1YmISTp5wllwfw2tDx4PTA2ES6vpO1yVNECcOvUDRGI71I83S6cGopXs0_mnbpftnEl7f7peslHFhdvr-Pn_T0AhrFMQh6Ak0XKD-DF0sy0cYlmrd8T7k3WZWQkN0xr_ZyXKDaoDekhGMfwPdrEuKzCjskTUuKdO--eHgREdknuSn4bOO60bUbujwygOLI2e8yWTsb780xsSH8OAoAJQcIfQX2Iyx_lUYiyw36DC1ukuwl89K82zxhlh7nyLEri8MZ1CuTncDlrtPeJkyKNmMc9m2iXHboF1DsB2UV8TUqikPy5JsBlSkFttyYmDa1CRFPdXCVcao-PJqq4h2TcYtgAAA.webp"
+     },
+     "languages": [
+      "en"
+     ],
+     "regions": [
+      "IN"
+     ]
+    },
+    "about_page_link": "https://www.google.co.in/search/about-this-result?origin=www.google.com&req=CqkBL2dvdG8_dXJsPUNBRVNjd0hyT3pBVlM2dW5lTXVmZTJDSzZGSGticnhLV1czandPVEdpYTRRZzhCeDMyTU5aZXJ3Nmk2eVgybFViT2xqa3o0aVlCMDFMU05LOE1jb3R5SkJ4SExBNEpUbzE0cEF5N3F3Ql82SGxiT0R4dURMVTdmOXpWMjJhM1YyT1lZWFMzMk9jSWxHeDBRQm9EcUNpOVVvd1JwcVVEcxIEGgIIABqjBBIAGgAiACoAMgYIARICaW46AEIECAIQAEoAWgByAHoAgkD_AwgAEAAYACAAKiEKCzAyMjYxNjA2MTYwFXEGKEAaDTAyMiA2MTYwIDYxNjAyqQEvZ290bz91cmw9Q0FFU2N3SHJPekFWUzZ1bmVNdWZlMkNLNkZIa2JyeEtXVzNqd09UR2lhNFFnOEJ4MzJNTlplcnc2aTZ5WDJsVWJPbGprejRpWUIwMUxTTks4TWNvdHlKQnhITEE0SlRvMTRwQXk3cXdCXzZIbGJPRHh1RExVN2Y5elYyMmEzVjJPWVlYUzMyT2NJbEd4MFFCb0RxQ2k5VW93UnBxVURzOlArOTEyMjYxNjA2MTYwIHwg4KSm4KWH4KSW4KWH4KSCIOCkleCkvyDgpIbgpKrgpJXgpYsgPGI-MDIyIDYxNjAgNjE2MDwvYj4gLyArIC4uLkLTATxiPjAyMiA2MTYwIDYxNjA8L2I-LiBJbmRpYSDgpK7gpYfgpIIg4KSF4KSo4KWN4KSvIOCkq-CkvOCli-CkqCDgpKjgpILgpKzgpLAuIOCkueCkvuCksiDgpLngpYAg4KSu4KWH4KSCIOCksOCkv-CkteCljeCkr-ClgSDgpJXgpL_gpI8g4KSX4KSPIOCkq-CkvOCli-CkqCDgpKjgpILgpKzgpLAuIDkxMTQwODM2NDI1OC4gMjMsMDY0ICZtaWRkb3Q7IDkxODA0NzIwNjU4MS4iAhABSABYAGgA",
+    "about_page_serpapi_link": "https://serpapi.com/search.json?engine=google_about_this_result&google_domain=google.co.in&req_token=CqkBL2dvdG8_dXJsPUNBRVNjd0hyT3pBVlM2dW5lTXVmZTJDSzZGSGticnhLV1czandPVEdpYTRRZzhCeDMyTU5aZXJ3Nmk2eVgybFViT2xqa3o0aVlCMDFMU05LOE1jb3R5SkJ4SExBNEpUbzE0cEF5N3F3Ql82SGxiT0R4dURMVTdmOXpWMjJhM1YyT1lZWFMzMk9jSWxHeDBRQm9EcUNpOVVvd1JwcVVEcxIEGgIIABqjBBIAGgAiACoAMgYIARICaW46AEIECAIQAEoAWgByAHoAgkD_AwgAEAAYACAAKiEKCzAyMjYxNjA2MTYwFXEGKEAaDTAyMiA2MTYwIDYxNjAyqQEvZ290bz91cmw9Q0FFU2N3SHJPekFWUzZ1bmVNdWZlMkNLNkZIa2JyeEtXVzNqd09UR2lhNFFnOEJ4MzJNTlplcnc2aTZ5WDJsVWJPbGprejRpWUIwMUxTTks4TWNvdHlKQnhITEE0SlRvMTRwQXk3cXdCXzZIbGJPRHh1RExVN2Y5elYyMmEzVjJPWVlYUzMyT2NJbEd4MFFCb0RxQ2k5VW93UnBxVURzOlArOTEyMjYxNjA2MTYwIHwg4KSm4KWH4KSW4KWH4KSCIOCkleCkvyDgpIbgpKrgpJXgpYsgPGI-MDIyIDYxNjAgNjE2MDwvYj4gLyArIC4uLkLTATxiPjAyMiA2MTYwIDYxNjA8L2I-LiBJbmRpYSDgpK7gpYfgpIIg4KSF4KSo4KWN4KSvIOCkq-CkvOCli-CkqCDgpKjgpILgpKzgpLAuIOCkueCkvuCksiDgpLngpYAg4KSu4KWH4KSCIOCksOCkv-CkteCljeCkr-ClgSDgpJXgpL_gpI8g4KSX4KSPIOCkq-CkvOCli-CkqCDgpKjgpILgpKzgpLAuIDkxMTQwODM2NDI1OC4gMjMsMDY0ICZtaWRkb3Q7IDkxODA0NzIwNjU4MS4iAhABSABYAGgA",
+    "source": "Truecaller",
+    "read_more_link": "https://www.truecaller.com/hi-in/who-called-me/912261606160#:~:text=022%206160%206160,918047206581"
+   },
+   {
+    "position": 5,
+    "title": "HDFC Credit Card Customer Care Number: 24x7 Toll-Free ...",
+    "link": "https://www.loansjagat.com/credit-card/hdfc-credit-card-customer-care-number",
+    "redirect_link": "https://www.google.co.in/url?sa=t&source=web&rct=j&opi=89978449&url=CAEShAEB6zswFfgvMwGv23grq7wqZ5JRVLld9B1I2lGAp0VqkyjX7ymU772WL_AL76fR7t_N0RlcE0oGDFjzx27tB1lgu_FruMsoaEB1y9j0yAvLbY_TclIROoYcS4x4Sm6-HLZSmlVqs6Z-VD1771prF0VwsWjFwgimJx0mQ7RI-Gl6A2Wf-Gk&ved=2ahUKEwiymLPR1YeXAxUooWMGHeaKAO4QFnoECA4QAQ&uoh=1",
+    "displayed_link": "https://www.loansjagat.com › Credit Card",
+    "date": "27 Aug 2026",
+    "snippet": "Call 1800 1600 or 1800 2600 for credit card queries, complaints, or anything urgent. Travelling overseas? 022 6160 6160 is the number set aside ...",
+    "snippet_highlighted_words": [
+     "022 6160 6160"
+    ],
+    "about_this_result": {
+     "source": {
+      "description": "Call 1800 1600 or 1800 2600 for credit card queries, complaints, or anything urgent. Travelling overseas? 022 6160 6160 is the number set aside ...",
+      "source_info_link": "https://www.loansjagat.com/credit-card/hdfc-credit-card-customer-care-number",
+      "icon": "https://serpapi.com/images/i/UklGRngBAABXRUJQVlA4IGwBAACwBgCdASocABoAPtE-tFooIigoFAEAGglsAKwVAC7Jd5GK8D24_TIYSADVP6FAw73W_cI3vJ3ZgtMbVCQGgAD-9glwq066Fo7JYBmckIbT8677nPgvGLzJksJwAQUaOYP3kcj0c52i30LMbt0IBFbPfjuzVk70Kf8rliFnL5qG78WaVKg9qIaztN137bDYRBXoH87eb3beEMDQxmopQCFXl2ZAgip5rm9SF9j7pP7LuTJdi73aXeGMJI1kSuQZLJDAeCZOxNc9LZlXRJRFAUdauMPyQGk1pq5YMf0iByvUh1G9zYQvJOnw8h1tTLH1PnUj4_-11InqrkJp520JOqkRO_0pNf0h6S0fBHrHsFqb584K4XRMrPcsMPmNZvV2N9nu2DFpbc1ZsFu_X8_tRSjNdmVhz4-YMyt9amuDak7pvfZnbLCnF5kzRx7W4t70HTeF7qaL3R8Kxh-QDUB7HS70eTruviswb8jwAAAA.webp"
+     },
+     "languages": [
+      "en"
+     ],
+     "regions": [
+      "IN"
+     ]
+    },
+    "about_page_link": "https://www.google.co.in/search/about-this-result?origin=www.google.com&req=CsEBL2dvdG8_dXJsPUNBRVNoQUVCNnpzd0ZmZ3ZNd0d2MjNncnE3d3FaNUpSVkxsZDlCMUkybEdBcDBWcWt5alg3eW1VNzcyV0xfQUw3NmZSN3RfTjBSbGNFMG9HREZqengyN3RCMWxndV9GcnVNc29hRUIxeTlqMHlBdkxiWV9UY2xJUk9vWWNTNHg0U202LUhMWlNtbFZxczZaLVZEMTc3MXByRjBWd3NXakZ3Z2ltSngwbVE3UkktR2w2QTJXZi1HaxIEGgIIABrwAxIAGgAiACoAMgYIARICaW46AEIECAEQAEoAWgByAHoAgkDMAwgAEAAYACAAKiEKCzAyMjYxNjA2MTYwFWJ-3j0aDTAyMiA2MTYwIDYxNjAywQEvZ290bz91cmw9Q0FFU2hBRUI2enN3RmZndk13R3YyM2dycTd3cVo1SlJWTGxkOUIxSTJsR0FwMFZxa3lqWDd5bVU3NzJXTF9BTDc2ZlI3dF9OMFJsY0Uwb0dERmp6eDI3dEIxbGd1X0ZydU1zb2FFQjF5OWoweUF2TGJZX1RjbElST29ZY1M0eDRTbTYtSExaU21sVnFzNlotVkQxNzcxcHJGMFZ3c1dqRndnaW1KeDBtUTdSSS1HbDZBMldmLUdrOjlIREZDIENyZWRpdCBDYXJkIEN1c3RvbWVyIENhcmUgTnVtYmVyOiAyNHg3IFRvbGwtRnJlZSAuLi5CnwFDYWxsIDE4MDAgMTYwMCBvciAxODAwIDI2MDAgZm9yIGNyZWRpdCBjYXJkIHF1ZXJpZXMsIGNvbXBsYWludHMsIG9yIGFueXRoaW5nIHVyZ2VudC4gVHJhdmVsbGluZyBvdmVyc2Vhcz8gPGI-MDIyIDYxNjAgNjE2MDwvYj4gaXMgdGhlIG51bWJlciBzZXQgYXNpZGUmbmJzcDsuLi4iAhABSABYAGgA",
+    "about_page_serpapi_link": "https://serpapi.com/search.json?engine=google_about_this_result&google_domain=google.co.in&req_token=CsEBL2dvdG8_dXJsPUNBRVNoQUVCNnpzd0ZmZ3ZNd0d2MjNncnE3d3FaNUpSVkxsZDlCMUkybEdBcDBWcWt5alg3eW1VNzcyV0xfQUw3NmZSN3RfTjBSbGNFMG9HREZqengyN3RCMWxndV9GcnVNc29hRUIxeTlqMHlBdkxiWV9UY2xJUk9vWWNTNHg0U202LUhMWlNtbFZxczZaLVZEMTc3MXByRjBWd3NXakZ3Z2ltSngwbVE3UkktR2w2QTJXZi1HaxIEGgIIABrwAxIAGgAiACoAMgYIARICaW46AEIECAEQAEoAWgByAHoAgkDMAwgAEAAYACAAKiEKCzAyMjYxNjA2MTYwFWJ-3j0aDTAyMiA2MTYwIDYxNjAywQEvZ290bz91cmw9Q0FFU2hBRUI2enN3RmZndk13R3YyM2dycTd3cVo1SlJWTGxkOUIxSTJsR0FwMFZxa3lqWDd5bVU3NzJXTF9BTDc2ZlI3dF9OMFJsY0Uwb0dERmp6eDI3dEIxbGd1X0ZydU1zb2FFQjF5OWoweUF2TGJZX1RjbElST29ZY1M0eDRTbTYtSExaU21sVnFzNlotVkQxNzcxcHJGMFZ3c1dqRndnaW1KeDBtUTdSSS1HbDZBMldmLUdrOjlIREZDIENyZWRpdCBDYXJkIEN1c3RvbWVyIENhcmUgTnVtYmVyOiAyNHg3IFRvbGwtRnJlZSAuLi5CnwFDYWxsIDE4MDAgMTYwMCBvciAxODAwIDI2MDAgZm9yIGNyZWRpdCBjYXJkIHF1ZXJpZXMsIGNvbXBsYWludHMsIG9yIGFueXRoaW5nIHVyZ2VudC4gVHJhdmVsbGluZyBvdmVyc2Vhcz8gPGI-MDIyIDYxNjAgNjE2MDwvYj4gaXMgdGhlIG51bWJlciBzZXQgYXNpZGUmbmJzcDsuLi4iAhABSABYAGgA",
+    "source": "LoansJagat",
+    "read_more_link": "https://www.loansjagat.com/credit-card/hdfc-credit-card-customer-care-number#:~:text=Call%201800%201600%20or%201800,set%20aside%20specifically%20for%20that."
+   },
+   {
+    "position": 6,
+    "title": "Infinia Closure Message : r/CreditCardsIndia",
+    "link": "https://www.reddit.com/r/CreditCardsIndia/comments/1wd4uoz/infinia_closure_message/",
+    "redirect_link": "https://www.google.co.in/url?sa=t&source=web&rct=j&opi=89978449&url=CAESiwEB6zswFdr5dd9FioNirKK4mmlzuH8b1jJcWkyHFpfyToSQ_kR06HW0URpDtb8rIJ7x6TjoIgOO2N6lqB-Asc4kdxQq_MPd8jKLl0wgEKDvcMX63eGSFV6_184c8cWUgn71MDtULegT9JFD4CKJfoH7GJaDs2JxDH6Ie5McYJFgiu6N0wBwalIx3JWo&ved=2ahUKEwiymLPR1YeXAxUooWMGHeaKAO4QFnoECBYQAQ&uoh=1",
+    "displayed_link": "30+ comments · 1 week ago",
+    "snippet": "contact Infinia Desk: 1800 1600 / 022 6160 6160. For more information, pl. refer to the FAQs. *TnC Apply. TomorrowAdvanced2749. •. 10d ago.",
+    "snippet_highlighted_words": [
+     "022 6160 6160"
+    ],
+    "about_this_result": {
+     "source": {
+      "description": "contact Infinia Desk: 1800 1600 / 022 6160 6160. For more information, pl. refer to the FAQs. *TnC Apply. TomorrowAdvanced2749. •. 10d ago.",
+      "source_info_link": "https://www.reddit.com/r/CreditCardsIndia/comments/1wd4uoz/infinia_closure_message/",
+      "icon": "https://serpapi.com/images/i/UklGRsgBAABXRUJQVlA4ILwBAABwCQCdASocABwAPrkurlcnIacnG_DgFwlsAJ0yhHmfjXFVOG9mcZ4QDxYP1m7Cm8NegB0qRXs-2xc_4RyNjKICSZ0GQliSROqR1wWiqSCHqbbO0wAA_vfwH4_riQbrKqktUHZQIXSB7cgfDG2XxRU1t3H2qzarEsy1mUvxybokwYpSVKzHnZ-izG5PYwBHsc1GtRcEZoZGf_6u28fsi_cWb4W-9i2bp_kRTmnuqM-BBD2L8-VOJcPOsfd1DB1l8_s_3IvanbQ3-krp22uWGcFAQ0Qx0IVfaFDbMfkeuTg04P8lvHyLNiFX4K-OPAt_D6D2n53jjz9MP6rCcImkST0rmUe510C8p7V5A03Xqh32Q8S4mUzVbW_5VoXr0-sfR4z_zJaQkvouwq_D_r7Egp_FPrFkVJXi7GPrP-f_IsNcCBvRKHMAM5dgcrzXOCJypnNnfv_oVmPx-9Y2rFO8yR1NQl_md3OtZBDsOZKkRFnfCN7_-XVBD4_74J8CFdRTTBZ4SXohYcnVS4zEUUs-SViDs_npDYUK3i7eDykmgeM2Y6cC5MAMXkzfFaXcRuCDi0lv5PSzrZbCDAqNAAA.webp"
+     },
+     "languages": [
+      "en"
+     ],
+     "regions": [
+      "IN"
+     ]
+    },
+    "about_page_link": "https://www.google.co.in/search/about-this-result?origin=www.google.com&req=CsoBL2dvdG8_dXJsPUNBRVNpd0VCNnpzd0ZkcjVkZDlGaW9OaXJLSzRtbWx6dUg4YjFqSmNXa3lIRnBmeVRvU1Ffa1IwNkhXMFVScER0YjhySUo3eDZUam9JZ09PMk42bHFCLUFzYzRrZHhRcV9NUGQ4aktMbDB3Z0VLRHZjTVg2M2VHU0ZWNl8xODRjOGNXVWduNzFNRHRVTGVnVDlKRkQ0Q0tKZm9IN0dKYURzMkp4REg2SWU1TWNZSkZnaXU2TjB3QndhbEl4M0pXbxIEGgIIABrqAxIAGgAiACoAMgYIAxICaW46AEIECAEQAEoAWgByAHoAgkDGAwgAEAAYACAAKiEKCzAyMjYxNjA2MTYwFQobmD4aDTAyMiA2MTYwIDYxNjAyygEvZ290bz91cmw9Q0FFU2l3RUI2enN3RmRyNWRkOUZpb05pcktLNG1tbHp1SDhiMWpKY1dreUhGcGZ5VG9TUV9rUjA2SFcwVVJwRHRiOHJJSjd4NlRqb0lnT08yTjZscUItQXNjNGtkeFFxX01QZDhqS0xsMHdnRUtEdmNNWDYzZUdTRlY2XzE4NGM4Y1dVZ243MU1EdFVMZWdUOUpGRDRDS0pmb0g3R0phRHMySnhESDZJZTVNY1lKRmdpdTZOMHdCd2FsSXgzSldvOjVJbmZpbmlhIENsb3N1cmUgTWVzc2FnZSA6IHIvQ3JlZGl0Q2FyZHNJbmRpYSAtIFJlZGRpdEKUAWNvbnRhY3QgSW5maW5pYSBEZXNrOiAxODAwIDE2MDAgLyA8Yj4wMjIgNjE2MCA2MTYwPC9iPi4gRm9yIG1vcmUgaW5mb3JtYXRpb24sIHBsLiByZWZlciB0byB0aGUgRkFRcy4gKlRuQyBBcHBseS4gVG9tb3Jyb3dBZHZhbmNlZDI3NDkuIOKAoi4gMTBkIGFnby4iAhABSABYAGgA",
+    "about_page_serpapi_link": "https://serpapi.com/search.json?engine=google_about_this_result&google_domain=google.co.in&req_token=CsoBL2dvdG8_dXJsPUNBRVNpd0VCNnpzd0ZkcjVkZDlGaW9OaXJLSzRtbWx6dUg4YjFqSmNXa3lIRnBmeVRvU1Ffa1IwNkhXMFVScER0YjhySUo3eDZUam9JZ09PMk42bHFCLUFzYzRrZHhRcV9NUGQ4aktMbDB3Z0VLRHZjTVg2M2VHU0ZWNl8xODRjOGNXVWduNzFNRHRVTGVnVDlKRkQ0Q0tKZm9IN0dKYURzMkp4REg2SWU1TWNZSkZnaXU2TjB3QndhbEl4M0pXbxIEGgIIABrqAxIAGgAiACoAMgYIAxICaW46AEIECAEQAEoAWgByAHoAgkDGAwgAEAAYACAAKiEKCzAyMjYxNjA2MTYwFQobmD4aDTAyMiA2MTYwIDYxNjAyygEvZ290bz91cmw9Q0FFU2l3RUI2enN3RmRyNWRkOUZpb05pcktLNG1tbHp1SDhiMWpKY1dreUhGcGZ5VG9TUV9rUjA2SFcwVVJwRHRiOHJJSjd4NlRqb0lnT08yTjZscUItQXNjNGtkeFFxX01QZDhqS0xsMHdnRUtEdmNNWDYzZUdTRlY2XzE4NGM4Y1dVZ243MU1EdFVMZWdUOUpGRDRDS0pmb0g3R0phRHMySnhESDZJZTVNY1lKRmdpdTZOMHdCd2FsSXgzSldvOjVJbmZpbmlhIENsb3N1cmUgTWVzc2FnZSA6IHIvQ3JlZGl0Q2FyZHNJbmRpYSAtIFJlZGRpdEKUAWNvbnRhY3QgSW5maW5pYSBEZXNrOiAxODAwIDE2MDAgLyA8Yj4wMjIgNjE2MCA2MTYwPC9iPi4gRm9yIG1vcmUgaW5mb3JtYXRpb24sIHBsLiByZWZlciB0byB0aGUgRkFRcy4gKlRuQyBBcHBseS4gVG9tb3Jyb3dBZHZhbmNlZDI3NDkuIOKAoi4gMTBkIGFnby4iAhABSABYAGgA",
+    "source": "Reddit · r/CreditCardsIndia",
+    "read_more_link": "https://www.reddit.com/r/CreditCardsIndia/comments/1wd4uoz/infinia_closure_message/#:~:text=contact%20Infinia%20Desk%3A%201800%201600,10d%20ago"
+   },
+   {
+    "position": 7,
+    "title": "How can I deactivate my HDFC credit card?",
+    "link": "https://www.quora.com/How-can-I-deactivate-my-HDFC-credit-card",
+    "redirect_link": "https://www.google.co.in/url?sa=t&source=web&rct=j&opi=89978449&url=CAESdgHrOzAVK4o0LphkLy7nemI56C5WFt917looR4FZ3I0I-YlsFJsC3aI6YD6TbNTvzOoWSoIrgQeiK0Lv2z_q5TW5q7WDnwzvaiAxZO11CzejdrFJm4A2kxtATbY9rXTAVyXXOr11BFAus5gP-vKZKd7rKufjeH4&ved=2ahUKEwiymLPR1YeXAxUooWMGHeaKAO4QFnoECBoQAQ&uoh=1",
+    "displayed_link": "50+ answers",
+    "snippet": "How can I deactivate my HDFC credit card?",
+    "about_this_result": {
+     "source": {
+      "description": "How to do it? You can log on to HDFC mycards and close the card by navigating to Card control -> Services -> Other Action -> Card Closure. Alternatively , ...",
+      "source_info_link": "https://www.quora.com/How-can-I-deactivate-my-HDFC-credit-card",
+      "icon": "https://serpapi.com/images/i/UklGRhIBAABXRUJQVlA4IAYBAABQBgCdASocABwAPtFAtFooIqgoFAEAGglsAKwvbT-f9FJVdngA428vxQCq0R4c9f62YZeYiGEtoRRDAAD-9gm4RWs70tP3biIu3O7VV8QI7DMqIqprw_f2Aoh6P3X8JbZDl7t0lZ2r6sObHH1Z7IUn40739orMTtT8A6LquGEbxI0kN0_5vH8j2m4-9vzIZ7iPm8NCoINzGw-u1pvZrAWdy6w2UivRxEpBBRxPG1gI6mTZO_XhJ5jNP3dnQY2e8_2lJT8rFkj6fqGXPywcyH8ho_i77YxvVXtwoQ8aPdayuatAHFSeE-0i7UxCTuYeJzk11WsfnFWKYNSX_T-HQ3TWKwo4rAAA.webp"
+     },
+     "languages": [
+      "en"
+     ],
+     "regions": [
+      "IN"
+     ]
+    },
+    "about_page_link": "https://www.google.co.in/search/about-this-result?origin=www.google.com&req=Cq0BL2dvdG8_dXJsPUNBRVNkZ0hyT3pBVks0bzBMcGhrTHk3bmVtSTU2QzVXRnQ5MTdsb29SNEZaM0kwSS1ZbHNGSnNDM2FJNllENlRiTlR2ek9vV1NvSXJnUWVpSzBMdjJ6X3E1VFc1cTdXRG53enZhaUF4Wk8xMUN6ZWpkckZKbTRBMmt4dEFUYlk5clhUQVZ5WFhPcjExQkZBdXM1Z1AtdktaS2Q3ckt1ZmplSDQSBBoCCAAa4QMSABoAIgAqADIGCAESAmluOgBCBAgBEABKAFoAcgB6AIJAvQMIABAAGAAgACohCgswMjI2MTYwNjE2MBWyA-w7Gg0wMjIgNjE2MCA2MTYwMq0BL2dvdG8_dXJsPUNBRVNkZ0hyT3pBVks0bzBMcGhrTHk3bmVtSTU2QzVXRnQ5MTdsb29SNEZaM0kwSS1ZbHNGSnNDM2FJNllENlRiTlR2ek9vV1NvSXJnUWVpSzBMdjJ6X3E1VFc1cTdXRG53enZhaUF4Wk8xMUN6ZWpkckZKbTRBMmt4dEFUYlk5clhUQVZ5WFhPcjExQkZBdXM1Z1AtdktaS2Q3ckt1ZmplSDQ6MUhvdyBjYW4gSSBkZWFjdGl2YXRlIG15IEhERkMgY3JlZGl0IGNhcmQ_IC0gUXVvcmFCrAFIb3cgdG8gZG8gaXQ_IFlvdSBjYW4gbG9nIG9uIHRvIEhERkMgbXljYXJkcyBhbmQgY2xvc2UgdGhlIGNhcmQgYnkgbmF2aWdhdGluZyB0byBDYXJkIGNvbnRyb2wgLSZndDsgU2VydmljZXMgLSZndDsgT3RoZXIgQWN0aW9uIC0mZ3Q7IENhcmQgQ2xvc3VyZS4gQWx0ZXJuYXRpdmVseSAsJm5ic3A7Li4uIgIQAUgAWABoAA",
+    "about_page_serpapi_link": "https://serpapi.com/search.json?engine=google_about_this_result&google_domain=google.co.in&req_token=Cq0BL2dvdG8_dXJsPUNBRVNkZ0hyT3pBVks0bzBMcGhrTHk3bmVtSTU2QzVXRnQ5MTdsb29SNEZaM0kwSS1ZbHNGSnNDM2FJNllENlRiTlR2ek9vV1NvSXJnUWVpSzBMdjJ6X3E1VFc1cTdXRG53enZhaUF4Wk8xMUN6ZWpkckZKbTRBMmt4dEFUYlk5clhUQVZ5WFhPcjExQkZBdXM1Z1AtdktaS2Q3ckt1ZmplSDQSBBoCCAAa4QMSABoAIgAqADIGCAESAmluOgBCBAgBEABKAFoAcgB6AIJAvQMIABAAGAAgACohCgswMjI2MTYwNjE2MBWyA-w7Gg0wMjIgNjE2MCA2MTYwMq0BL2dvdG8_dXJsPUNBRVNkZ0hyT3pBVks0bzBMcGhrTHk3bmVtSTU2QzVXRnQ5MTdsb29SNEZaM0kwSS1ZbHNGSnNDM2FJNllENlRiTlR2ek9vV1NvSXJnUWVpSzBMdjJ6X3E1VFc1cTdXRG53enZhaUF4Wk8xMUN6ZWpkckZKbTRBMmt4dEFUYlk5clhUQVZ5WFhPcjExQkZBdXM1Z1AtdktaS2Q3ckt1ZmplSDQ6MUhvdyBjYW4gSSBkZWFjdGl2YXRlIG15IEhERkMgY3JlZGl0IGNhcmQ_IC0gUXVvcmFCrAFIb3cgdG8gZG8gaXQ_IFlvdSBjYW4gbG9nIG9uIHRvIEhERkMgbXljYXJkcyBhbmQgY2xvc2UgdGhlIGNhcmQgYnkgbmF2aWdhdGluZyB0byBDYXJkIGNvbnRyb2wgLSZndDsgU2VydmljZXMgLSZndDsgT3RoZXIgQWN0aW9uIC0mZ3Q7IENhcmQgQ2xvc3VyZS4gQWx0ZXJuYXRpdmVseSAsJm5ic3A7Li4uIgIQAUgAWABoAA",
+    "source": "Quora"
+   },
+   {
+    "position": 8,
+    "title": "HDFC Forex Card Load 5X Reward Points Offer | Page 28",
+    "link": "https://technofino.in/community/threads/hdfc-forex-card-load-5x-reward-points-offer.37561/page-28",
+    "redirect_link": "https://www.google.co.in/url?sa=t&source=web&rct=j&opi=89978449&url=CAESmQEB6zswFeFTwrR2wXpgEWyv0NrB-LLWAsPg3KaY5SsDfZ6_UZjZrwMuheApEPQ8uQVD6gkQ6wx3oVMIVwOKQc1PrqfF4C0tnpG9uNRvsaY0hXV06PFnVHMjFhJ8n-PQfXts_2KW8EhMae9vTdsKgaAFhxGbtOugW10ooEzIa1DSgojoC7LwSInplgWqCh3ngX5viVGf2hXwzLM&ved=2ahUKEwiymLPR1YeXAxUooWMGHeaKAO4QFnoECBIQAQ&uoh=1",
+    "displayed_link": "https://technofino.in › ... › Offers › Credit Card Offers",
+    "date": "26 Mar 2025",
+    "snippet": "02261606160 Call this number. Connect to Forex Prepaid. Most branch don't know the process. Like. Reactions: sunit123 · Avatar Aang.",
+    "snippet_highlighted_words": [
+     "02261606160"
+    ],
+    "about_this_result": {
+     "source": {
+      "description": "02261606160 Call this number. Connect to Forex Prepaid. Most branch don't know the process. Like. Reactions: sunit123 · Avatar Aang.",
+      "source_info_link": "https://technofino.in/community/threads/hdfc-forex-card-load-5x-reward-points-offer.37561/page-28",
+      "icon": "https://serpapi.com/images/i/UklGRvgBAABXRUJQVlA4IOwBAADQCQCdASogACAAPtEutFooIagoGAEAGglpABRgfE3wB79iLv8xXaywNJHMO8ZX0L_0fcK_MLrzejh-xyo0_88e92bZHkxxPv_a-oTOZkmWPBRkayjztAAA_v7DmqHWeIcssmEXHu-LPAITfsPxgwiw0edX_dBe6tkEanYy5J9tg1vf8JZtVvfiW2Aj_tGofaOYL2rnV3EGh3I-pJj8Jr77rs8JKvng7GRfOjn_aCF_4O5f7NJz4Z6jkXTn_lKDyjAfC08wMNzIE8UMk2me6RUPWT63u2s94Pio2ZUdrzbk7_EpCLNt56_ojcz8EbIHuUozgFRoZjwsh9fYA8ZsOGMipiVpX2sRJffNk86XvM3PvKG_w7bZ20mVbHQdcOXuTYTN88d_31C1fBgpzQVbCeUq7oHevqvd25_3T5Mg4rSL3_y71kirTxpjCX4EoSzH8EmHEvbTaCrGVE90xoXBqzB0deWwA8kz2_nlty0VC7hX0cHYTZv8q6TQNuTKqhA4WbWkCiE03txe2FStw34hmZ3qFuTr-1iPRgxNC-E5KNbKQFffAijo54lAwm9sYsvw09OfDevnO-6UP487fPtZao9nIhSAC_Wdc8SH4Ez6aMVeVPwjFF2pKIJeN5F5eTlE7bJx99LR9zs8DmEAAAA.webp"
+     },
+     "languages": [
+      "en"
+     ],
+     "regions": [
+      "IN"
+     ]
+    },
+    "about_page_link": "https://www.google.co.in/search/about-this-result?origin=www.google.com&req=Ct0BL2dvdG8_dXJsPUNBRVNtUUVCNnpzd0ZlRlR3clIyd1hwZ0VXeXYwTnJCLUxMV0FzUGczS2FZNVNzRGZaNl9VWmpacndNdWhlQXBFUFE4dVFWRDZna1E2d3gzb1ZNSVZ3T0tRYzFQcnFmRjRDMHRucEc5dU5SdnNhWTBoWFYwNlBGblZITWpGaEo4bi1QUWZYdHNfMktXOEVoTWFlOXZUZHNLZ2FBRmh4R2J0T3VnVzEwb29FeklhMURTZ29qb0M3THdTSW5wbGdXcUNoM25nWDV2aVZHZjJoWHd6TE0SBBoCCAAaggQSABoAIgAqADIGCAESAmluOgBCBAgBEABKAFoAcgB6AIJA3gMIABAAGAAgACohCgswMjI2MTYwNjE2MBX1KKQ9Gg0wMjIgNjE2MCA2MTYwMt0BL2dvdG8_dXJsPUNBRVNtUUVCNnpzd0ZlRlR3clIyd1hwZ0VXeXYwTnJCLUxMV0FzUGczS2FZNVNzRGZaNl9VWmpacndNdWhlQXBFUFE4dVFWRDZna1E2d3gzb1ZNSVZ3T0tRYzFQcnFmRjRDMHRucEc5dU5SdnNhWTBoWFYwNlBGblZITWpGaEo4bi1QUWZYdHNfMktXOEVoTWFlOXZUZHNLZ2FBRmh4R2J0T3VnVzEwb29FeklhMURTZ29qb0M3THdTSW5wbGdXcUNoM25nWDV2aVZHZjJoWHd6TE06OEhERkMgRm9yZXggQ2FyZCBMb2FkIDVYIFJld2FyZCBQb2ludHMgT2ZmZXIgLSBUZWNobm9GaW5vQpYBPGI-MDIyNjE2MDYxNjA8L2I-IENhbGwgdGhpcyBudW1iZXIuIENvbm5lY3QgdG8gRm9yZXggUHJlcGFpZC4gTW9zdCBicmFuY2ggZG9uJiMzOTt0IGtub3cgdGhlIHByb2Nlc3MuIExpa2UuIFJlYWN0aW9uczogc3VuaXQxMjMgJm1pZGRvdDsgQXZhdGFyIEFhbmcuIgIQAUgAWABoAA",
+    "about_page_serpapi_link": "https://serpapi.com/search.json?engine=google_about_this_result&google_domain=google.co.in&req_token=Ct0BL2dvdG8_dXJsPUNBRVNtUUVCNnpzd0ZlRlR3clIyd1hwZ0VXeXYwTnJCLUxMV0FzUGczS2FZNVNzRGZaNl9VWmpacndNdWhlQXBFUFE4dVFWRDZna1E2d3gzb1ZNSVZ3T0tRYzFQcnFmRjRDMHRucEc5dU5SdnNhWTBoWFYwNlBGblZITWpGaEo4bi1QUWZYdHNfMktXOEVoTWFlOXZUZHNLZ2FBRmh4R2J0T3VnVzEwb29FeklhMURTZ29qb0M3THdTSW5wbGdXcUNoM25nWDV2aVZHZjJoWHd6TE0SBBoCCAAaggQSABoAIgAqADIGCAESAmluOgBCBAgBEABKAFoAcgB6AIJA3gMIABAAGAAgACohCgswMjI2MTYwNjE2MBX1KKQ9Gg0wMjIgNjE2MCA2MTYwMt0BL2dvdG8_dXJsPUNBRVNtUUVCNnpzd0ZlRlR3clIyd1hwZ0VXeXYwTnJCLUxMV0FzUGczS2FZNVNzRGZaNl9VWmpacndNdWhlQXBFUFE4dVFWRDZna1E2d3gzb1ZNSVZ3T0tRYzFQcnFmRjRDMHRucEc5dU5SdnNhWTBoWFYwNlBGblZITWpGaEo4bi1QUWZYdHNfMktXOEVoTWFlOXZUZHNLZ2FBRmh4R2J0T3VnVzEwb29FeklhMURTZ29qb0M3THdTSW5wbGdXcUNoM25nWDV2aVZHZjJoWHd6TE06OEhERkMgRm9yZXggQ2FyZCBMb2FkIDVYIFJld2FyZCBQb2ludHMgT2ZmZXIgLSBUZWNobm9GaW5vQpYBPGI-MDIyNjE2MDYxNjA8L2I-IENhbGwgdGhpcyBudW1iZXIuIENvbm5lY3QgdG8gRm9yZXggUHJlcGFpZC4gTW9zdCBicmFuY2ggZG9uJiMzOTt0IGtub3cgdGhlIHByb2Nlc3MuIExpa2UuIFJlYWN0aW9uczogc3VuaXQxMjMgJm1pZGRvdDsgQXZhdGFyIEFhbmcuIgIQAUgAWABoAA",
+    "source": "TechnoFino",
+    "read_more_link": "https://technofino.in/community/threads/hdfc-forex-card-load-5x-reward-points-offer.37561/page-28#:~:text=02261606160%20Call%20this%20number.%20Connect,Avatar%20Aang"
+   },
+   {
+    "position": 9,
+    "title": "HDFC Bank Senior Leadership Accessibility Concerns",
+    "link": "https://www.linkedin.com/posts/sachindirector_it-is-surprising-that-several-senior-management-activity-7503322099718000640-o9p8",
+    "redirect_link": "https://www.google.co.in/url?sa=t&source=web&rct=j&opi=89978449&url=CAEStwEB6zswFervvr2P9NfDzeYd6Stt8vzyb_KlCX8sept_UBL29hymzyD38J2zHrLgw147XukHbu544vfZ88Ka3ej5rq04KKm8m5OR5R_wNrvV4BhrF5GDdrHx2MCzLwcnlOrBS35OpdQqwkZcjePxQrvIZRJKBJ-kTIKrbhSiR52HTX24l-zcrFmr49Z-NEpflUa3ZbH6OlTUzpYrYngpgFwfawmJCcWUeeFlVoqaMqdZWCfIVr_-ezQ&ved=2ahUKEwiymLPR1YeXAxUooWMGHeaKAO4QFnoECBQQAQ&uoh=1",
+    "displayed_link": "3 reactions · 2 weeks ago",
+    "snippet": "contact Infinia Desk: 1800 1600 / 022 6160 6160 For more information, pl. refer to the *FAQs.* *TnC Apply HDFC says my Infinia will be ...",
+    "snippet_highlighted_words": [
+     "022 6160 6160"
+    ],
+    "about_this_result": {
+     "source": {
+      "description": "contact Infinia Desk: 1800 1600 / 022 6160 6160 For more information, pl. refer to the *FAQs.* *TnC Apply HDFC says my Infinia will be ...",
+      "source_info_link": "https://www.linkedin.com/posts/sachindirector_it-is-surprising-that-several-senior-management-activity-7503322099718000640-o9p8",
+      "icon": "https://serpapi.com/images/i/UklGRsAAAABXRUJQVlA4ILQAAABQAwCdASoQABAAAsBMJbACdLoBLf4oANRJj6d2SZLhF7_ohAD-4n1FofdRna1o8FCt-OiJvVc8lzO8Rt17R6yr0CRJL0FBwsd8OIDxQ356R55Xei0KcLjbfh5C05X1nTKIh8X8ekP3RBUogy_jZ3kCUPbBWjzINpJUmDhbtDZS1e3a8_aUBwnkYz0mnTj4n4__aq6btWmAus7Zjw7JLZ_kNfUgtaLPXB6k1U8MVzX5_C1AAAA.webp"
+     },
+     "languages": [
+      "en"
+     ],
+     "regions": [
+      "IN"
+     ]
+    },
+    "about_page_link": "https://www.google.co.in/search/about-this-result?origin=www.google.com&req=CoUCL2dvdG8_dXJsPUNBRVN0d0VCNnpzd0ZlcnZ2cjJQOU5mRHplWWQ2U3R0OHZ6eWJfS2xDWDhzZXB0X1VCTDI5aHltenlEMzhKMnpIckxndzE0N1h1a0hidTU0NHZmWjg4S2EzZWo1cnEwNEtLbThtNU9SNVJfd05ydlY0QmhyRjVHRGRySHgyTUN6THdjbmxPckJTMzVPcGRRcXdrWmNqZVB4UXJ2SVpSSktCSi1rVElLcmJoU2lSNTJIVFgyNGwtemNyRm1yNDlaLU5FcGZsVWEzWmJINk9sVFV6cFlyWW5ncGdGd2Zhd21KQ2NXVWVlRmxWb3FhTXFkWldDZklWcl8tZXpREgQaAggAGqQEEgAaACIAKgAyBggDEgJpbjoAQgQIARAASgBaAHIAegCCQIAECAAQABgAIAAqIQoLMDIyNjE2MDYxNjAV9oW2PRoNMDIyIDYxNjAgNjE2MDKFAi9nb3RvP3VybD1DQUVTdHdFQjZ6c3dGZXJ2dnIyUDlOZkR6ZVlkNlN0dDh2enliX0tsQ1g4c2VwdF9VQkwyOWh5bXp5RDM4SjJ6SHJMZ3cxNDdYdWtIYnU1NDR2Zlo4OEthM2VqNXJxMDRLS204bTVPUjVSX3dOcnZWNEJockY1R0Rkckh4Mk1Dekx3Y25sT3JCUzM1T3BkUXF3a1pjamVQeFFydklaUkpLQkota1RJS3JiaFNpUjUySFRYMjRsLXpjckZtcjQ5Wi1ORXBmbFVhM1piSDZPbFRVenBZclluZ3BnRndmYXdtSkNjV1VlZUZsVm9xYU1xZFpXQ2ZJVnJfLWV6UToySERGQyBCYW5rIFNlbmlvciBMZWFkZXJzaGlwIEFjY2Vzc2liaWxpdHkgQ29uY2VybnNClgFjb250YWN0IEluZmluaWEgRGVzazogMTgwMCAxNjAwIC8gPGI-MDIyIDYxNjAgNjE2MDwvYj4gRm9yIG1vcmUgaW5mb3JtYXRpb24sIHBsLiByZWZlciB0byB0aGUgKkZBUXMuKiAqVG5DIEFwcGx5IEhERkMgc2F5cyBteSBJbmZpbmlhIHdpbGwgYmUmbmJzcDsuLi4iAhABSABYAGgA",
+    "about_page_serpapi_link": "https://serpapi.com/search.json?engine=google_about_this_result&google_domain=google.co.in&req_token=CoUCL2dvdG8_dXJsPUNBRVN0d0VCNnpzd0ZlcnZ2cjJQOU5mRHplWWQ2U3R0OHZ6eWJfS2xDWDhzZXB0X1VCTDI5aHltenlEMzhKMnpIckxndzE0N1h1a0hidTU0NHZmWjg4S2EzZWo1cnEwNEtLbThtNU9SNVJfd05ydlY0QmhyRjVHRGRySHgyTUN6THdjbmxPckJTMzVPcGRRcXdrWmNqZVB4UXJ2SVpSSktCSi1rVElLcmJoU2lSNTJIVFgyNGwtemNyRm1yNDlaLU5FcGZsVWEzWmJINk9sVFV6cFlyWW5ncGdGd2Zhd21KQ2NXVWVlRmxWb3FhTXFkWldDZklWcl8tZXpREgQaAggAGqQEEgAaACIAKgAyBggDEgJpbjoAQgQIARAASgBaAHIAegCCQIAECAAQABgAIAAqIQoLMDIyNjE2MDYxNjAV9oW2PRoNMDIyIDYxNjAgNjE2MDKFAi9nb3RvP3VybD1DQUVTdHdFQjZ6c3dGZXJ2dnIyUDlOZkR6ZVlkNlN0dDh2enliX0tsQ1g4c2VwdF9VQkwyOWh5bXp5RDM4SjJ6SHJMZ3cxNDdYdWtIYnU1NDR2Zlo4OEthM2VqNXJxMDRLS204bTVPUjVSX3dOcnZWNEJockY1R0Rkckh4Mk1Dekx3Y25sT3JCUzM1T3BkUXF3a1pjamVQeFFydklaUkpLQkota1RJS3JiaFNpUjUySFRYMjRsLXpjckZtcjQ5Wi1ORXBmbFVhM1piSDZPbFRVenBZclluZ3BnRndmYXdtSkNjV1VlZUZsVm9xYU1xZFpXQ2ZJVnJfLWV6UToySERGQyBCYW5rIFNlbmlvciBMZWFkZXJzaGlwIEFjY2Vzc2liaWxpdHkgQ29uY2VybnNClgFjb250YWN0IEluZmluaWEgRGVzazogMTgwMCAxNjAwIC8gPGI-MDIyIDYxNjAgNjE2MDwvYj4gRm9yIG1vcmUgaW5mb3JtYXRpb24sIHBsLiByZWZlciB0byB0aGUgKkZBUXMuKiAqVG5DIEFwcGx5IEhERkMgc2F5cyBteSBJbmZpbmlhIHdpbGwgYmUmbmJzcDsuLi4iAhABSABYAGgA",
+    "source": "LinkedIn · Sachin Sharma",
+    "read_more_link": "https://www.linkedin.com/posts/sachindirector_it-is-surprising-that-several-senior-management-activity-7503322099718000640-o9p8#:~:text=contact%20Infinia%20Desk%3A%201800%201600,says%20my%20Infinia%20will%20be"
+   },
+   {
+    "position": 10,
+    "title": "HDFC Bank",
+    "link": "https://www.facebook.com/HDFC.bank/posts/this-festive-season-make-an-auspicious-new-beginning-invest-in-sovereign-gold-bo/2046890632021165/",
+    "redirect_link": "https://www.google.co.in/url?sa=t&source=web&rct=j&opi=89978449&url=CAESxAEB6zswFV2xizYndMqlafnsExgwxLE_PlLC-KXWu1jdHMZDFq5nUmacdoryW55ZYZYBN6i2UPHe6j1Cp9-1-NQ5tKlNQKkpiVx2PVzisWyZ32rZrdVzVYinrGk8tEJ87espOV3AC_0xfZMAM4am30EQWBoaJGFdyLRWcA4jwLYxJkXki3nqO7u4Rut6ewVGIYMENPH8GN_km6zw-fqdWMuwPsg8L74-FrWmby5oOjMzoZSaS_5fWnvc3fqtdQgyn4_HoQqJ&ved=2ahUKEwiymLPR1YeXAxUooWMGHeaKAO4QFnoECBUQAQ&uoh=1",
+    "displayed_link": "200+ reactions · 7 years ago",
+    "snippet": "I had called the helpline number 022 6160 6160. My call was not connected to any customer service agent for almost 54 minutes. I finally had ...",
+    "snippet_highlighted_words": [
+     "022 6160 6160"
+    ],
+    "about_this_result": {
+     "source": {
+      "description": "I had called the helpline number 022 6160 6160. My call was not connected to any customer service agent for almost 54 minutes. I finally had ...",
+      "source_info_link": "https://www.facebook.com/HDFC.bank/posts/this-festive-season-make-an-auspicious-new-beginning-invest-in-sovereign-gold-bo/2046890632021165/",
+      "icon": "https://serpapi.com/images/i/UklGRqoBAABXRUJQVlA4IJ4BAABwCQCdASocABwAPtEutFooIagoGAEAGglsAJ0yhHA3lfFBO1wAOUA_QD3LbivzzOpj3kDygCma-Rh7ANX--unhjJOlma5yFBwxABGtbBmfGruNiAAA_vYOb16QPF2AohybdBK44SXhExiRjqi-kNM3hHu_Yw7AJrL-7rM8d_rijdiRy0j-ZeW7w6RIRuMqgm_RO4f6lRIhYknlxf6mMoXAQaj6_tRkMRwBV5EdP_uMw4kqy2ZhqPi3PG5PpxthXgQWj6H4uUXexYHFqh3xYBX5dL6Dsx0kaiR__FvN_6m7_QiD5ix90ybowZPZ4EJjzU2ag7SQJ4wrf_2kwO1hPlzmly6sn4r0HSBDYT_CBJqgzjphFkqJAiVh_RCXqM9h1YZk1Q4HA5xuHo3rNsBGkg4DVoQb6lPRqlYEs1YLGkTSOA-pXnCCv-FX4cz9i_E71o22GBeX206C3AI8KMZxPikjU93MZF-5b_bVPypp2kWlnV7cYdOVJ_T0iqe1D8CmirqI-Ktb5K_S123btql4LlRpp_0gELOp_50DZ4WlAAA.webp"
+     },
+     "languages": [
+      "en"
+     ],
+     "regions": [
+      "IN"
+     ]
+    },
+    "about_page_link": "https://www.google.co.in/search/about-this-result?origin=www.google.com&req=CpYCL2dvdG8_dXJsPUNBRVN4QUVCNnpzd0ZWMnhpelluZE1xbGFmbnNFeGd3eExFX1BsTEMtS1hXdTFqZEhNWkRGcTVuVW1hY2RvcnlXNTVaWVpZQk42aTJVUEhlNmoxQ3A5LTEtTlE1dEtsTlFLa3BpVngyUFZ6aXNXeVozMnJacmRWelZZaW5yR2s4dEVKODdlc3BPVjNBQ18weGZaTUFNNGFtMzBFUVdCb2FKR0ZkeUxSV2NBNGp3TFl4SmtYa2kzbnFPN3U0UnV0NmV3VkdJWU1FTlBIOEdOX2ttNnp3LWZxZFdNdXdQc2c4TDc0LUZyV21ieTVvT2pNem9aU2FTXzVmV252YzNmcXRkUWd5bjRfSG9RcUoSBBoCCAAanQQSABoAIgAqADIGCAESAmluOgBCBAgBEABKAFoAcgB6AIJA-QMIABAAGAAgACohCgswMjI2MTYwNjE2MBUUsSc9Gg0wMjIgNjE2MCA2MTYwMpYCL2dvdG8_dXJsPUNBRVN4QUVCNnpzd0ZWMnhpelluZE1xbGFmbnNFeGd3eExFX1BsTEMtS1hXdTFqZEhNWkRGcTVuVW1hY2RvcnlXNTVaWVpZQk42aTJVUEhlNmoxQ3A5LTEtTlE1dEtsTlFLa3BpVngyUFZ6aXNXeVozMnJacmRWelZZaW5yR2s4dEVKODdlc3BPVjNBQ18weGZaTUFNNGFtMzBFUVdCb2FKR0ZkeUxSV2NBNGp3TFl4SmtYa2kzbnFPN3U0UnV0NmV3VkdJWU1FTlBIOEdOX2ttNnp3LWZxZFdNdXdQc2c4TDc0LUZyV21ieTVvT2pNem9aU2FTXzVmV252YzNmcXRkUWd5bjRfSG9RcUo6FEhERkMgQmFuayAtIEZhY2Vib29rQpwBSSBoYWQgY2FsbGVkIHRoZSBoZWxwbGluZSBudW1iZXIgPGI-MDIyIDYxNjAgNjE2MDwvYj4uIE15IGNhbGwgd2FzIG5vdCBjb25uZWN0ZWQgdG8gYW55IGN1c3RvbWVyIHNlcnZpY2UgYWdlbnQgZm9yIGFsbW9zdCA1NCBtaW51dGVzLiBJIGZpbmFsbHkgaGFkJm5ic3A7Li4uIgIQAUgAWABoAA",
+    "about_page_serpapi_link": "https://serpapi.com/search.json?engine=google_about_this_result&google_domain=google.co.in&req_token=CpYCL2dvdG8_dXJsPUNBRVN4QUVCNnpzd0ZWMnhpelluZE1xbGFmbnNFeGd3eExFX1BsTEMtS1hXdTFqZEhNWkRGcTVuVW1hY2RvcnlXNTVaWVpZQk42aTJVUEhlNmoxQ3A5LTEtTlE1dEtsTlFLa3BpVngyUFZ6aXNXeVozMnJacmRWelZZaW5yR2s4dEVKODdlc3BPVjNBQ18weGZaTUFNNGFtMzBFUVdCb2FKR0ZkeUxSV2NBNGp3TFl4SmtYa2kzbnFPN3U0UnV0NmV3VkdJWU1FTlBIOEdOX2ttNnp3LWZxZFdNdXdQc2c4TDc0LUZyV21ieTVvT2pNem9aU2FTXzVmV252YzNmcXRkUWd5bjRfSG9RcUoSBBoCCAAanQQSABoAIgAqADIGCAESAmluOgBCBAgBEABKAFoAcgB6AIJA-QMIABAAGAAgACohCgswMjI2MTYwNjE2MBUUsSc9Gg0wMjIgNjE2MCA2MTYwMpYCL2dvdG8_dXJsPUNBRVN4QUVCNnpzd0ZWMnhpelluZE1xbGFmbnNFeGd3eExFX1BsTEMtS1hXdTFqZEhNWkRGcTVuVW1hY2RvcnlXNTVaWVpZQk42aTJVUEhlNmoxQ3A5LTEtTlE1dEtsTlFLa3BpVngyUFZ6aXNXeVozMnJacmRWelZZaW5yR2s4dEVKODdlc3BPVjNBQ18weGZaTUFNNGFtMzBFUVdCb2FKR0ZkeUxSV2NBNGp3TFl4SmtYa2kzbnFPN3U0UnV0NmV3VkdJWU1FTlBIOEdOX2ttNnp3LWZxZFdNdXdQc2c4TDc0LUZyV21ieTVvT2pNem9aU2FTXzVmV252YzNmcXRkUWd5bjRfSG9RcUo6FEhERkMgQmFuayAtIEZhY2Vib29rQpwBSSBoYWQgY2FsbGVkIHRoZSBoZWxwbGluZSBudW1iZXIgPGI-MDIyIDYxNjAgNjE2MDwvYj4uIE15IGNhbGwgd2FzIG5vdCBjb25uZWN0ZWQgdG8gYW55IGN1c3RvbWVyIHNlcnZpY2UgYWdlbnQgZm9yIGFsbW9zdCA1NCBtaW51dGVzLiBJIGZpbmFsbHkgaGFkJm5ic3A7Li4uIgIQAUgAWABoAA",
+    "source": "Facebook · HDFC Bank",
+    "read_more_link": "https://www.facebook.com/HDFC.bank/posts/this-festive-season-make-an-auspicious-new-beginning-invest-in-sovereign-gold-bo/2046890632021165/#:~:text=I%20had%20called%20the%20helpline,had%20to%20disconnect%20the%20call."
+   }
+  ],
+  "pagination": {
+   "current": 1,
+   "next": "https://www.google.co.in/search?q=%2202261606160%22+OR+%22022+6160+6160%22&sca_esv=c9af837ca623c2e6&hl=en&gl=in&ei=E1S1avLCN6jCjuMP5pWC8A4&start=10&sa=N&sstk=AS6-VmLE5JJVMb0hBagu6cBleFWouuZ129fMnuMCKkhg9xfW2nlAF5VP6u3iWSrhScEF05MURFDa2QpZwR17hB8B1zzCuR1GyeFvVQ&ved=2ahUKEwiymLPR1YeXAxUooWMGHeaKAO4Q8NMDegQIQBAI",
+   "other_pages": {
+    "2": "https://www.google.co.in/search?q=%2202261606160%22+OR+%22022+6160+6160%22&sca_esv=c9af837ca623c2e6&hl=en&gl=in&ei=E1S1avLCN6jCjuMP5pWC8A4&start=10&sa=N&sstk=AS6-VmLE5JJVMb0hBagu6cBleFWouuZ129fMnuMCKkhg9xfW2nlAF5VP6u3iWSrhScEF05MURFDa2QpZwR17hB8B1zzCuR1GyeFvVQ&ved=2ahUKEwiymLPR1YeXAxUooWMGHeaKAO4Q8tMDegQIQBAE",
+    "3": "https://www.google.co.in/search?q=%2202261606160%22+OR+%22022+6160+6160%22&sca_esv=c9af837ca623c2e6&hl=en&gl=in&ei=E1S1avLCN6jCjuMP5pWC8A4&start=20&sa=N&sstk=AS6-VmLE5JJVMb0hBagu6cBleFWouuZ129fMnuMCKkhg9xfW2nlAF5VP6u3iWSrhScEF05MURFDa2QpZwR17hB8B1zzCuR1GyeFvVQ&ved=2ahUKEwiymLPR1YeXAxUooWMGHeaKAO4Q8tMDegQIQBAG"
+   }
+  },
+  "serpapi_pagination": {
+   "current": 1,
+   "next_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.co.in&hl=en&q=%2202261606160%22+OR+%22022+6160+6160%22&start=10",
+   "next": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.co.in&hl=en&q=%2202261606160%22+OR+%22022+6160+6160%22&start=10",
+   "other_pages": {
+    "2": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.co.in&hl=en&q=%2202261606160%22+OR+%22022+6160+6160%22&start=10",
+    "3": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.co.in&hl=en&q=%2202261606160%22+OR+%22022+6160+6160%22&start=20"
+   }
+  }
+ }
+}

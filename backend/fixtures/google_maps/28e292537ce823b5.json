@@ -1,8 +1,7 @@
 {
  "_fixture": {
-  "kind": "synthetic",
-  "note": "Maps · Mumbai · Zomato customer care",
-  "generated_at": "2026-09-23T20:53:40+00:00",
+  "kind": "recorded",
+  "recorded_at": "2026-09-24T16:56:48+00:00",
   "params": {
    "engine": "google_maps",
    "type": "search",
@@ -14,13 +13,16 @@
  },
  "response": {
   "search_metadata": {
-   "id": "synthetic-28e292537ce823b5",
+   "id": "6ab5564ffd81c8dc8b7eafa9",
    "status": "Success",
-   "created_at": "2026-09-23 20:53:40 UTC",
-   "processed_at": "2026-09-23 20:53:40 UTC",
-   "json_endpoint": null,
-   "raw_html_file": null,
-   "total_time_taken": 1.06
+   "json_endpoint": "https://serpapi.com/searches/eB5Pgy_cmuWxyc4N2HwPicn4zS3K5HPOnq7dXIxqYfU/6ab5564ffd81c8dc8b7eafa9.json",
+   "markdown_endpoint": "https://serpapi.com/searches/eB5Pgy_cmuWxyc4N2HwPicn4zS3K5HPOnq7dXIxqYfU/6ab5564ffd81c8dc8b7eafa9.md",
+   "created_at": "2026-09-24 16:56:47 UTC",
+   "processed_at": "2026-09-24 16:56:47 UTC",
+   "google_maps_url": "https://www.google.com/maps/search/Zomato+customer+care/@19.0760,72.8777,12z/data=!3m1!4b1!4m2!2m1!6e5?hl=en",
+   "raw_html_file": "https://serpapi.com/searches/eB5Pgy_cmuWxyc4N2HwPicn4zS3K5HPOnq7dXIxqYfU/6ab5564ffd81c8dc8b7eafa9.html",
+   "prettify_html_file": "https://serpapi.com/searches/eB5Pgy_cmuWxyc4N2HwPicn4zS3K5HPOnq7dXIxqYfU/6ab5564ffd81c8dc8b7eafa9.prettify",
+   "total_time_taken": 1.02
   },
   "search_parameters": {
    "engine": "google_maps",
@@ -30,43 +32,176 @@
    "google_domain": "google.co.in",
    "hl": "en"
   },
+  "search_information": {
+   "local_results_state": "Results for exact spelling",
+   "query_displayed": "Zomato customer care"
+  },
   "local_results": [
    {
     "position": 1,
-    "title": "Zomato Customer Care Number",
-    "place_id": "synthetic-zomato-mumbai-care",
-    "data_id": "0x111748f094a2:0xe4bcc37f4b07",
-    "rating": 5.0,
-    "reviews": 2,
-    "type": "Customer service",
-    "types": [
-     "Customer service"
-    ],
-    "address": "Sector 12, Mumbai",
+    "title": "Zomato office",
+    "place_id": "ChIJIZ0bkVrJ5zsRQBb8Om8E0Qs",
+    "data_id": "0x3be7c95a911b9d21:0xbd1046f3afc1640",
+    "data_cid": "851466680327214656",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x3be7c95a911b9d21%3A0xbd1046f3afc1640&engine=google_maps_reviews&hl=en",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x3be7c95a911b9d21%3A0xbd1046f3afc1640&engine=google_maps_photos&hl=en",
     "gps_coordinates": {
-     "latitude": 20.14043271872879,
-     "longitude": 79.08758386565964
+     "latitude": 19.1295187,
+     "longitude": 72.863924
     },
-    "phone": "+91 74110 29385",
-    "unclaimed_listing": true
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJIZ0bkVrJ5zsRQBb8Om8E0Qs",
+    "provider_id": "/g/11rn7v2_p9",
+    "rating": 2.5,
+    "reviews": 42,
+    "unclaimed_listing": true,
+    "type": "Restaurant",
+    "types": [
+     "Restaurant"
+    ],
+    "type_id": "restaurant",
+    "type_ids": [
+     "restaurant"
+    ],
+    "address": "286-272, Sai Baba Ln, Madhukunj Society, Maharashtra Housing and Area Development Authority Colony, Sher E Punjab Colony, Andheri East, Mumbai, Maharashtra 400093, India",
+    "country": "India",
+    "open_state": "Open 24 hours",
+    "hours": "Open 24 hours",
+    "operating_hours": {
+     "thursday": "Open 24 hours",
+     "friday": "Open 24 hours",
+     "saturday": "Open 24 hours",
+     "sunday": "Open 24 hours",
+     "monday": "Open 24 hours",
+     "tuesday": "Open 24 hours",
+     "wednesday": "Open 24 hours"
+    },
+    "extensions": [
+     {
+      "service_options": [
+       "Delivery",
+       "Takeout",
+       "Dine-in"
+      ]
+     },
+     {
+      "offerings": [
+       "Small plates"
+      ]
+     }
+    ],
+    "service_options": {
+     "dine_in": true,
+     "takeout": true,
+     "delivery": true
+    },
+    "thumbnail": "https://lh3.googleusercontent.com/grass-cs/ACvplmOFzcdYSg_1sm_SXwShktwCoG5DBUVsKhmo0VSD8lf0gBkbPCL1i_OLx_kVNc3sfSiCUmsG2a0GJyJU2bgvOj0iD41pMJXernhHyzljw1pO0quVFu4G058PGgK3cAOkJzgjI6lFmlJWPw-Q=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/NrFxCnicHcTBboIwGADgJ0L-ihqzZAeF0K3qytKA7kS0wxZoKaPFTl5y572Nid_h-_-TzvX2JQyVjGbCGKGq0VYDN52rOjfjRodiOFsbcBtu4luvNE0n_v3FRImsLtnJM9k6Hxu8TLZ5YXdSGyhYslZXENv2ksV7VJd0_1u2xQeP7JXVca4tnp8BkzvJ5xdxow3UyQL1B3Kqhk6-3SfVeNRT-BmLdFxgWK4zLHYR39CWTKJ5X6lUK3LMfPD56hEABPI5D7oHVMJIXQ"
    },
    {
-    "position": 1,
-    "title": "Zomato Hyperpure Warehouse",
-    "place_id": "synthetic-zomato-mumbai-hp",
-    "data_id": "0x38b87a917a0e:0x1e7f84e174a6",
-    "rating": 4.1,
-    "reviews": 42,
-    "type": "Warehouse",
-    "types": [
-     "Warehouse"
-    ],
-    "address": "Industrial Area, Mumbai",
+    "position": 2,
+    "title": "Zomato office",
+    "place_id": "ChIJsyASaijJ5zsRhEASmkWaPPU",
+    "data_id": "0x3be7c9286a1220b3:0xf53c9a459a124084",
+    "data_cid": "17671168661623292036",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x3be7c9286a1220b3%3A0xf53c9a459a124084&engine=google_maps_reviews&hl=en",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x3be7c9286a1220b3%3A0xf53c9a459a124084&engine=google_maps_photos&hl=en",
     "gps_coordinates": {
-     "latitude": 17.17101361325247,
-     "longitude": 87.0240003257583
+     "latitude": 19.0993686,
+     "longitude": 72.89000899999999
     },
-    "website": "https://www.zomato.com/hyperpure"
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJsyASaijJ5zsRhEASmkWaPPU",
+    "provider_id": "/g/11rnjz__7w",
+    "rating": 3,
+    "reviews": 30,
+    "price": "₹200–400",
+    "extracted_price": 200,
+    "unclaimed_listing": true,
+    "type": "Restaurant",
+    "types": [
+     "Restaurant"
+    ],
+    "type_id": "restaurant",
+    "type_ids": [
+     "restaurant"
+    ],
+    "address": "3VXR+P2R, Sainath Wadi, Lokmanya Tilak Nagar, Saki Naka, Mumbai, Maharashtra 400072, India",
+    "country": "India",
+    "open_state": "Permanently closed",
+    "hours": "Permanently closed",
+    "phone": "+91 96286 43451",
+    "extensions": [
+     {
+      "service_options": [
+       "Delivery",
+       "Takeout",
+       "Dine-in"
+      ]
+     },
+     {
+      "offerings": [
+       "Small plates"
+      ]
+     },
+     {
+      "dining_options": [
+       "Breakfast"
+      ]
+     },
+     {
+      "atmosphere": [
+       "Casual"
+      ]
+     }
+    ],
+    "service_options": {
+     "delivery": true,
+     "takeout": true,
+     "dine_in": true
+    },
+    "thumbnail": "https://lh3.googleusercontent.com/grass-cs/ACvplmOQ8_wYsAmXvb8OcJVS1JVz74-XDqp3LFpL-jIX7mUGNRUyyrHl4qvgX_ln8LmPTHZbzzk-wELh-LZZPagp_jo-hnqHnRfutA-Qdd2-ydl2oN4ZK3PLRwNK7yWg_ip1tj5urXKKXg=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/bUNyd3icHcTdboIwGADQJ_oEBANZsgsypygNIpvacUO0sHasf9ACgTfcI-xtluxcnN8fZq02T47Dmb-iSlHeDKbpiZK2kXZFlHBofzcGiHHil1FzcTpH1fRhYoHHR3Qix-ubd7wuYQB422kf7TSC9oBDcdlnxWWe-4QH3UhxxWWERP6elI9l-YbpFTFAZZnfqa5aBUx2iSw-BxvDua7XMNd8rbKgTP0cFVOWhvONVl_as-1m6HGaYvo8ea7rAvufgPwDbslGog"
+   },
+   {
+    "position": 3,
+    "title": "Zomato office",
+    "place_id": "ChIJIX1LX5rJ5zsR4dV3m7Jcwuk",
+    "data_id": "0x3be7c99a5f4b7d21:0xe9c25cb29b77d5e1",
+    "data_cid": "16844127478501332449",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x3be7c99a5f4b7d21%3A0xe9c25cb29b77d5e1&engine=google_maps_reviews&hl=en",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x3be7c99a5f4b7d21%3A0xe9c25cb29b77d5e1&engine=google_maps_photos&hl=en",
+    "gps_coordinates": {
+     "latitude": 19.1115536,
+     "longitude": 72.8616479
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJIX1LX5rJ5zsR4dV3m7Jcwuk",
+    "provider_id": "/g/11my9b36w5",
+    "rating": 3.3,
+    "reviews": 10,
+    "unclaimed_listing": true,
+    "type": "Restaurant",
+    "types": [
+     "Restaurant"
+    ],
+    "type_id": "restaurant",
+    "type_ids": [
+     "restaurant"
+    ],
+    "address": "B-2, Guru Hargovindji Rd, Dr. Charatsingh Colony, S B Singh Colony, J B Nagar, Andheri East, Mumbai, Maharashtra 400093, India",
+    "country": "India",
+    "open_state": "Temporarily closed",
+    "hours": "Temporarily closed",
+    "extensions": [
+     {
+      "service_options": [
+       "Delivery"
+      ]
+     }
+    ],
+    "service_options": {
+     "delivery": true
+    },
+    "thumbnail": "https://lh3.googleusercontent.com/grass-cs/ACvplmN1QQQ1HRSrU9hipe80NjJiU--_tb0TBoCEjXKLt_enLrokorK3KNifvGXDWKFlYf99KnRsP_Vg2s42jhuIZJQqUCtJe6drOwnEilI0Uw_QsRVQabczZiDgOnyCSAbN6DR0TshHr9U1yUrT=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/m9h6qnicHcTBbsIgGADgJ8JSXcxqsoO2Oi2mSi1OvTSWIVAROn60cS-5895myb7D9_ujQuhgEkVGjQbSOWnEHYTnzgZhw4C7WyT9GQBxiKbpozO3IqaUxsty51midCdecdHmmiFUhwZXM5fO2wNZh1rYtXdX58mIFPryeD9kH2RhjpckIbaEbb2XQ3gZtuq-OuX0i6UhF-NPv-ntXJsVZn1NodzTc8O_TzqTG_tMd9OmGGclrkAtfcLiJ_PVWx9jjJH6nyP7B_eHSFE"
    }
   ]
  }

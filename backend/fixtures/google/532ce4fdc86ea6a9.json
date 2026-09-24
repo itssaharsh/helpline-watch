@@ -1,0 +1,43 @@
+{
+ "_fixture": {
+  "kind": "recorded",
+  "recorded_at": "2026-09-24T17:00:38+00:00",
+  "params": {
+   "engine": "google",
+   "q": "\"180021000181\" OR \"1800 2100 0181\"",
+   "google_domain": "google.co.in",
+   "gl": "in",
+   "hl": "en",
+   "num": "10"
+  }
+ },
+ "response": {
+  "search_metadata": {
+   "id": "6ab557351cff1976f942d972",
+   "status": "Success",
+   "json_endpoint": "https://serpapi.com/searches/KcuuJSypzHiil8feO_wl-3QdAaR05Y-uCE7rUz8IhLg/6ab557351cff1976f942d972.json",
+   "markdown_endpoint": "https://serpapi.com/searches/KcuuJSypzHiil8feO_wl-3QdAaR05Y-uCE7rUz8IhLg/6ab557351cff1976f942d972.md",
+   "pixel_position_endpoint": "https://serpapi.com/searches/KcuuJSypzHiil8feO_wl-3QdAaR05Y-uCE7rUz8IhLg/6ab557351cff1976f942d972.json_with_pixel_position",
+   "created_at": "2026-09-24 17:00:37 UTC",
+   "processed_at": "2026-09-24 17:00:37 UTC",
+   "google_url": "https://www.google.co.in/search?q=%22180021000181%22+OR+%221800+2100+0181%22&oq=%22180021000181%22+OR+%221800+2100+0181%22&hl=en&gl=in&sourceid=chrome&ie=UTF-8",
+   "raw_html_file": "https://serpapi.com/searches/KcuuJSypzHiil8feO_wl-3QdAaR05Y-uCE7rUz8IhLg/6ab557351cff1976f942d972.html",
+   "total_time_taken": 0.38
+  },
+  "search_parameters": {
+   "engine": "google",
+   "q": "\"180021000181\" OR \"1800 2100 0181\"",
+   "google_domain": "google.co.in",
+   "hl": "en",
+   "gl": "in",
+   "device": "desktop"
+  },
+  "search_information": {
+   "query_displayed": "\"180021000181\" OR \"1800 2100 0181\"",
+   "total_results": 0,
+   "time_taken_displayed": 0.23,
+   "organic_results_state": "Fully empty"
+  },
+  "no_results": "Google hasn't returned any results for this query."
+ }
+}

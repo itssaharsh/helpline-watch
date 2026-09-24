@@ -1,0 +1,328 @@
+{
+ "_fixture": {
+  "kind": "recorded",
+  "recorded_at": "2026-09-24T17:04:24+00:00",
+  "params": {
+   "engine": "google",
+   "q": "\"1800160110\" OR \"1800 160 110\"",
+   "google_domain": "google.co.in",
+   "gl": "in",
+   "hl": "en",
+   "num": "10"
+  }
+ },
+ "response": {
+  "search_metadata": {
+   "id": "6ab55817b9e869af2a8b0b68",
+   "status": "Success",
+   "json_endpoint": "https://serpapi.com/searches/dGeYSQs5jhy02bQjVgqMbKX47I6kdg7alRHDDMlWZIY/6ab55817b9e869af2a8b0b68.json",
+   "markdown_endpoint": "https://serpapi.com/searches/dGeYSQs5jhy02bQjVgqMbKX47I6kdg7alRHDDMlWZIY/6ab55817b9e869af2a8b0b68.md",
+   "pixel_position_endpoint": "https://serpapi.com/searches/dGeYSQs5jhy02bQjVgqMbKX47I6kdg7alRHDDMlWZIY/6ab55817b9e869af2a8b0b68.json_with_pixel_position",
+   "created_at": "2026-09-24 17:04:23 UTC",
+   "processed_at": "2026-09-24 17:04:23 UTC",
+   "google_url": "https://www.google.co.in/search?q=%221800160110%22+OR+%221800+160+110%22&oq=%221800160110%22+OR+%221800+160+110%22&hl=en&gl=in&sourceid=chrome&ie=UTF-8",
+   "raw_html_file": "https://serpapi.com/searches/dGeYSQs5jhy02bQjVgqMbKX47I6kdg7alRHDDMlWZIY/6ab55817b9e869af2a8b0b68.html",
+   "total_time_taken": 0.59
+  },
+  "search_parameters": {
+   "engine": "google",
+   "q": "\"1800160110\" OR \"1800 160 110\"",
+   "google_domain": "google.co.in",
+   "hl": "en",
+   "gl": "in",
+   "device": "desktop"
+  },
+  "search_information": {
+   "query_displayed": "\"1800160110\" OR \"1800 160 110\"",
+   "total_results": 241,
+   "time_taken_displayed": 0.2,
+   "organic_results_state": "Results for exact spelling"
+  },
+  "organic_results": [
+   {
+    "position": 1,
+    "title": "Tere Saath Chal Raha Hoon - Single - Album by Faisal A Rehman",
+    "link": "https://music.apple.com/gb/album/tere-saath-chal-raha-hoon-single/1800160110",
+    "redirect_link": "https://www.google.co.in/url?sa=t&source=web&rct=j&opi=89978449&url=CAEShAEB6zswFdJPq1huMvhQTYaJcarB_zplQIqPzbyTggbiQszhUpCz9gWDcbnlzgnt6nS0YDQ43UYm4xL3vZl0Vs6wPZHg6anLI91nWGuR1iCZ_Pxaf7wxkJSZHoYe1TtpCxAvpeWij38_MsGtjydKPO2gQ436KF4qEI8nNP8Owz3EubG-jtQ&ved=2ahUKEwiu77W72YeXAxXmJkQIHchlJIAQFnoECAwQAQ&uoh=1",
+    "displayed_link": "https://music.apple.com › album › 1800160110",
+    "snippet": "Listen to Tere Saath Chal Raha Hoon - Single by Faisal A Rehman on Apple Music. 2025. 1 Song. Duration: 3 minutes.",
+    "about_this_result": {
+     "source": {
+      "description": "Listen to Tere Saath Chal Raha Hoon - Single by Faisal A Rehman on Apple Music. 2025. 1 Song. Duration: 3 minutes.",
+      "source_info_link": "https://music.apple.com/gb/album/tere-saath-chal-raha-hoon-single/1800160110",
+      "icon": "https://serpapi.com/images/i/UklGRkYBAABXRUJQVlA4IDoBAABwBgCdASocABwAPtE-tFooIigoFAEAGglsAJ0OIA3kAlVvkbekpL1CiLe98wsgLuUshCRIr9dYedyz-AAA_vQWQRo8lXrrHFpsdLF1brHVknPeNg0TV86whnmuhGyLkLr8lvBWYo9DhjL3OdZBAp_6HeRr1E__x1FX7m4gZ-f_6Vj5ZeD-4_4__FWZzxl6HXzihEvsE3kdIOq4tgnM97eBZiYMTPJ5WNq6BiNmOUCL1ZhZEJn0Hl-ko8HYshf5NNOQl-CVHA78yV9_ECNR74lsZSd_uHSaOnXfWXIYr4oWPUgl6_J8V3GZN8NWaqsBnTfejv4Nn_IE3Bwv57GRlGJFAC3Zw6uO8Q--nFH9ClM3vKRRRnqHuySXgNVXZRfskWibFyR0cIMTZJgf13WK7i6_-Ieft3k-2b_AAA.webp"
+     },
+     "languages": [
+      "en"
+     ],
+     "regions": [
+      "IN"
+     ]
+    },
+    "about_page_link": "https://www.google.co.in/search/about-this-result?origin=www.google.com&req=CsEBL2dvdG8_dXJsPUNBRVNoQUVCNnpzd0ZkSlBxMWh1TXZoUVRZYUpjYXJCX3pwbFFJcVB6YnlUZ2diaVFzemhVcEN6OWdXRGNibmx6Z250Nm5TMFlEUTQzVVltNHhMM3ZabDBWczZ3UFpIZzZhbkxJOTFuV0d1UjFpQ1pfUHhhZjd3eGtKU1pIb1llMVR0cEN4QXZwZVdpajM4X01zR3RqeWRLUE8yZ1E0MzZLRjRxRUk4bk5QOE93ejNFdWJHLWp0URIEGgIIABrLAxIAGgAiACoAMgYIAxICaW46AEIECAEQAEoAWgByAHoAgkCnAwgAEAAYACAAKh8KCjE4MDAxNjAxMTAVAAAAPxoMMTgwMCAxNjAgMTEwMsEBL2dvdG8_dXJsPUNBRVNoQUVCNnpzd0ZkSlBxMWh1TXZoUVRZYUpjYXJCX3pwbFFJcVB6YnlUZ2diaVFzemhVcEN6OWdXRGNibmx6Z250Nm5TMFlEUTQzVVltNHhMM3ZabDBWczZ3UFpIZzZhbkxJOTFuV0d1UjFpQ1pfUHhhZjd3eGtKU1pIb1llMVR0cEN4QXZwZVdpajM4X01zR3RqeWRLUE8yZ1E0MzZLRjRxRUk4bk5QOE93ejNFdWJHLWp0UTpE4oCOVGVyZSBTYWF0aCBDaGFsIFJhaGEgSG9vbiAtIFNpbmdsZSAtIEFsYnVtIGJ5IEZhaXNhbCBBIFJlaG1hbiAuLi5Cckxpc3RlbiB0byBUZXJlIFNhYXRoIENoYWwgUmFoYSBIb29uIC0gU2luZ2xlIGJ5IEZhaXNhbCBBIFJlaG1hbiBvbiBBcHBsZSBNdXNpYy4gMjAyNS4gMSBTb25nLiBEdXJhdGlvbjogMyBtaW51dGVzLiICEAFIAFgAaAA",
+    "about_page_serpapi_link": "https://serpapi.com/search.json?engine=google_about_this_result&google_domain=google.co.in&req_token=CsEBL2dvdG8_dXJsPUNBRVNoQUVCNnpzd0ZkSlBxMWh1TXZoUVRZYUpjYXJCX3pwbFFJcVB6YnlUZ2diaVFzemhVcEN6OWdXRGNibmx6Z250Nm5TMFlEUTQzVVltNHhMM3ZabDBWczZ3UFpIZzZhbkxJOTFuV0d1UjFpQ1pfUHhhZjd3eGtKU1pIb1llMVR0cEN4QXZwZVdpajM4X01zR3RqeWRLUE8yZ1E0MzZLRjRxRUk4bk5QOE93ejNFdWJHLWp0URIEGgIIABrLAxIAGgAiACoAMgYIAxICaW46AEIECAEQAEoAWgByAHoAgkCnAwgAEAAYACAAKh8KCjE4MDAxNjAxMTAVAAAAPxoMMTgwMCAxNjAgMTEwMsEBL2dvdG8_dXJsPUNBRVNoQUVCNnpzd0ZkSlBxMWh1TXZoUVRZYUpjYXJCX3pwbFFJcVB6YnlUZ2diaVFzemhVcEN6OWdXRGNibmx6Z250Nm5TMFlEUTQzVVltNHhMM3ZabDBWczZ3UFpIZzZhbkxJOTFuV0d1UjFpQ1pfUHhhZjd3eGtKU1pIb1llMVR0cEN4QXZwZVdpajM4X01zR3RqeWRLUE8yZ1E0MzZLRjRxRUk4bk5QOE93ejNFdWJHLWp0UTpE4oCOVGVyZSBTYWF0aCBDaGFsIFJhaGEgSG9vbiAtIFNpbmdsZSAtIEFsYnVtIGJ5IEZhaXNhbCBBIFJlaG1hbiAuLi5Cckxpc3RlbiB0byBUZXJlIFNhYXRoIENoYWwgUmFoYSBIb29uIC0gU2luZ2xlIGJ5IEZhaXNhbCBBIFJlaG1hbiBvbiBBcHBsZSBNdXNpYy4gMjAyNS4gMSBTb25nLiBEdXJhdGlvbjogMyBtaW51dGVzLiICEAFIAFgAaAA",
+    "source": "Apple Music"
+   },
+   {
+    "position": 2,
+    "title": "June's Journey France Club shares Sweep The Board ...",
+    "link": "https://www.facebook.com/groups/359877648522489/posts/1751439819366258/",
+    "redirect_link": "https://www.google.co.in/url?sa=t&source=web&rct=j&opi=89978449&url=CAESfwHrOzAVJNZFFqYx6aOnYBA-paHOslwjbIsDGpsEoAjPHeQ2OxijnLinviRXPWL4aH8mMmf101OLmDoEUkqhekz1ZdlsK7sdApgMbkSIeru9RlxKBJOfHCqzJbDVT1lyzzbFdkkG7pLJi6Vz7i8vOKIWNYFF3Olb0LLGeTYKymw&ved=2ahUKEwiu77W72YeXAxXmJkQIHchlJIAQFnoECBQQAQ&uoh=1",
+    "displayed_link": "1 comment · 3 months ago",
+    "snippet": "... 1800 160 110 120 1400 55 steps 140 2000 180 2 6 100 Tasia Nan Tasia Van lasia Tasia Nan asia June's JOURNEY Tasia item release: Jun2 2025 ...",
+    "snippet_highlighted_words": [
+     "1800 160 110"
+    ],
+    "about_this_result": {
+     "source": {
+      "description": "... 1800 160 110 120 1400 55 steps 140 2000 180 2 6 100 Tasia Nan Tasia Van lasia Tasia Nan asia June's JOURNEY Tasia item release: Jun2 2025 ...",
+      "source_info_link": "https://www.facebook.com/groups/359877648522489/posts/1751439819366258/",
+      "icon": "https://serpapi.com/images/i/UklGRqoBAABXRUJQVlA4IJ4BAABwCQCdASocABwAPtEutFooIagoGAEAGglsAJ0yhHA3lfFBO1wAOUA_QD3LbivzzOpj3kDygCma-Rh7ANX--unhjJOlma5yFBwxABGtbBmfGruNiAAA_vYOb16QPF2AohybdBK44SXhExiRjqi-kNM3hHu_Yw7AJrL-7rM8d_rijdiRy0j-ZeW7w6RIRuMqgm_RO4f6lRIhYknlxf6mMoXAQaj6_tRkMRwBV5EdP_uMw4kqy2ZhqPi3PG5PpxthXgQWj6H4uUXexYHFqh3xYBX5dL6Dsx0kaiR__FvN_6m7_QiD5ix90ybowZPZ4EJjzU2ag7SQJ4wrf_2kwO1hPlzmly6sn4r0HSBDYT_CBJqgzjphFkqJAiVh_RCXqM9h1YZk1Q4HA5xuHo3rNsBGkg4DVoQb6lPRqlYEs1YLGkTSOA-pXnCCv-FX4cz9i_E71o22GBeX206C3AI8KMZxPikjU93MZF-5b_bVPypp2kWlnV7cYdOVJ_T0iqe1D8CmirqI-Ktb5K_S123btql4LlRpp_0gELOp_50DZ4WlAAA.webp"
+     },
+     "languages": [
+      "en"
+     ],
+     "regions": [
+      "IN"
+     ]
+    },
+    "about_page_link": "https://www.google.co.in/search/about-this-result?origin=www.google.com&req=CrkBL2dvdG8_dXJsPUNBRVNmd0hyT3pBVkpOWkZGcVl4NmFPbllCQS1wYUhPc2x3amJJc0RHcHNFb0FqUEhlUTJPeGlqbkxpbnZpUlhQV0w0YUg4bU1tZjEwMU9MbURvRVVrcWhla3oxWmRsc0s3c2RBcGdNYmtTSWVydTlSbHhLQkpPZkhDcXpKYkRWVDFseXp6YkZka2tHN3BMSmk2Vno3aTh2T0tJV05ZRkYzT2xiMExMR2VUWUt5bXcSBBoCCAAa7gMSABoAIgAqADIGCAISAmluOgBCBAgBEABKAFoAcgB6AIJAygMIABAAGAAgACofCgoxODAwMTYwMTEwFSsTDD8aDDE4MDAgMTYwIDExMDK5AS9nb3RvP3VybD1DQUVTZndIck96QVZKTlpGRnFZeDZhT25ZQkEtcGFIT3Nsd2piSXNER3BzRW9BalBIZVEyT3hpam5MaW52aVJYUFdMNGFIOG1NbWYxMDFPTG1Eb0VVa3FoZWt6MVpkbHNLN3NkQXBnTWJrU0llcnU5Umx4S0JKT2ZIQ3F6SmJEVlQxbHl6emJGZGtrRzdwTEppNlZ6N2k4dk9LSVdOWUZGM09sYjBMTEdlVFlLeW13Oj9KdW5lJiMzOTtzIEpvdXJuZXkgRnJhbmNlIENsdWIgc2hhcmVzIFN3ZWVwIFRoZSBCb2FyZCByZXNvdXJjZXNCoQEuLi4gPGI-MTgwMCAxNjAgMTEwPC9iPiAxMjAgMTQwMCA1NSBzdGVwcyAxNDAgMjAwMCAxODAgMiA2IDEwMCBUYXNpYSBOYW4gVGFzaWEgVmFuIGxhc2lhIFRhc2lhIE5hbiBhc2lhIEp1bmUmIzM5O3MgSk9VUk5FWSBUYXNpYSBpdGVtIHJlbGVhc2U6IEp1bjIgMjAyNSZuYnNwOy4uLiICEAFIAFgAaAA",
+    "about_page_serpapi_link": "https://serpapi.com/search.json?engine=google_about_this_result&google_domain=google.co.in&req_token=CrkBL2dvdG8_dXJsPUNBRVNmd0hyT3pBVkpOWkZGcVl4NmFPbllCQS1wYUhPc2x3amJJc0RHcHNFb0FqUEhlUTJPeGlqbkxpbnZpUlhQV0w0YUg4bU1tZjEwMU9MbURvRVVrcWhla3oxWmRsc0s3c2RBcGdNYmtTSWVydTlSbHhLQkpPZkhDcXpKYkRWVDFseXp6YkZka2tHN3BMSmk2Vno3aTh2T0tJV05ZRkYzT2xiMExMR2VUWUt5bXcSBBoCCAAa7gMSABoAIgAqADIGCAISAmluOgBCBAgBEABKAFoAcgB6AIJAygMIABAAGAAgACofCgoxODAwMTYwMTEwFSsTDD8aDDE4MDAgMTYwIDExMDK5AS9nb3RvP3VybD1DQUVTZndIck96QVZKTlpGRnFZeDZhT25ZQkEtcGFIT3Nsd2piSXNER3BzRW9BalBIZVEyT3hpam5MaW52aVJYUFdMNGFIOG1NbWYxMDFPTG1Eb0VVa3FoZWt6MVpkbHNLN3NkQXBnTWJrU0llcnU5Umx4S0JKT2ZIQ3F6SmJEVlQxbHl6emJGZGtrRzdwTEppNlZ6N2k4dk9LSVdOWUZGM09sYjBMTEdlVFlLeW13Oj9KdW5lJiMzOTtzIEpvdXJuZXkgRnJhbmNlIENsdWIgc2hhcmVzIFN3ZWVwIFRoZSBCb2FyZCByZXNvdXJjZXNCoQEuLi4gPGI-MTgwMCAxNjAgMTEwPC9iPiAxMjAgMTQwMCA1NSBzdGVwcyAxNDAgMjAwMCAxODAgMiA2IDEwMCBUYXNpYSBOYW4gVGFzaWEgVmFuIGxhc2lhIFRhc2lhIE5hbiBhc2lhIEp1bmUmIzM5O3MgSk9VUk5FWSBUYXNpYSBpdGVtIHJlbGVhc2U6IEp1bjIgMjAyNSZuYnNwOy4uLiICEAFIAFgAaAA",
+    "source": "Facebook · June’s Journey France club",
+    "read_more_link": "https://www.facebook.com/groups/359877648522489/posts/1751439819366258/#:~:text=1800%20160%20110%20120%201400,Tasia%20item%20release%3A%20Jun2%202025"
+   },
+   {
+    "position": 3,
+    "title": "RENK PLS & PWS Marine Gear Systems | PDF",
+    "link": "https://www.scribd.com/document/638430114/Renk-Planetary-Gears-Type-Pls-Pws",
+    "redirect_link": "https://www.google.co.in/url?sa=t&source=web&rct=j&opi=89978449&url=CAESgwEB6zswFXZRNHWRPJdNvnBae1u8Og_lfXNwzKd0h3DNonu8a8mpy1SrpL6DforpwYAsVqGL7JY_g7N6pH1OVk5e_SS-g3yoTh855a2dr1wmSgmdZPVrWH_GWSJ5Rea4eCx-4cngInkzGPPUD85pn3T-6AL8dBJ3_iP9M1xUm8sPJxEiDg&ved=2ahUKEwiu77W72YeXAxXmJkQIHchlJIAQFnoECBIQAQ&uoh=1",
+    "displayed_link": "https://www.scribd.com › document › Renk-Planetary-...",
+    "snippet": "... 1,800 160 110 35.5 1,120 1,000 250 600 670 710 900 1,060 1,400 100 500 2,800 2,450 200 130 50 1,250 1,120 280 670 750 800 1,000 1,180 1,600 115 560 3,600 ...",
+    "snippet_highlighted_words": [
+     "1,800 160 110"
+    ],
+    "about_this_result": {
+     "source": {
+      "description": "... 1,800 160 110 35.5 1,120 1,000 250 600 670 710 900 1,060 1,400 100 500 2,800 2,450 200 130 50 1,250 1,120 280 670 750 800 1,000 1,180 1,600 115 560 3,600 ...",
+      "source_info_link": "https://www.scribd.com/document/638430114/Renk-Planetary-Gears-Type-Pls-Pws",
+      "icon": "https://serpapi.com/images/i/UklGRigBAABXRUJQVlA4IBwBAAAwBgCdASocABwAPrUurVanIacnG_DgFolsALsNcA6TAiSRiU0ciNsNw4-ckvZckbI8Q0Lri0nWvPTAAP6fWoc5hI1waVpH4HPI-z3W07wkXNBNlhQO9hAKmOv8njeniRb9FCg1c1JmF3efXUUmw2bU_zMmv4y8p_nL016PcG2_Kkra3QUXk6GbHsoOEa89zFXoAnXirQsiNRzPXeKrniAu0unVpGtsEeMjevYRjJ48Bp-DMJ4D_R_y1f316ypJ0S_9mXgcgm8VoTywUh86jiUV9Al4I6yaumsUkda-7a6L12tg8hgBlh0gWv0-rnf3aeCVRG6cfsuzLtT0ruwHdbHm1C0wW2RxRakx4lXvH-JOfzi7UEbqOQ5wVHgAAA.webp"
+     },
+     "languages": [
+      "en"
+     ],
+     "regions": [
+      "IN"
+     ]
+    },
+    "about_page_link": "https://www.google.co.in/search/about-this-result?origin=www.google.com&req=CsABL2dvdG8_dXJsPUNBRVNnd0VCNnpzd0ZYWlJOSFdSUEpkTnZuQmFlMXU4T2dfbGZYTnd6S2QwaDNETm9udThhOG1weTFTcnBMNkRmb3Jwd1lBc1ZxR0w3SllfZzdONnBIMU9WazVlX1NTLWczeW9UaDg1NWEyZHIxd21TZ21kWlBWcldIX0dXU0o1UmVhNGVDeC00Y25nSW5rekdQUFVEODVwbjNULTZBTDhkQkozX2lQOU0xeFVtOHNQSnhFaURnEgQaAggAGvkDEgIIABoAIgAqADIGCAMSAmluOgBCBAgBEABKAFoAcgB6AIJA0wMIABAAGAAgACofCgoxODAwMTYwMTEwFSlFIj0aDDE4MDAgMTYwIDExMDLAAS9nb3RvP3VybD1DQUVTZ3dFQjZ6c3dGWFpSTkhXUlBKZE52bkJhZTF1OE9nX2xmWE53ektkMGgzRE5vbnU4YThtcHkxU3JwTDZEZm9ycHdZQXNWcUdMN0pZX2c3TjZwSDFPVms1ZV9TUy1nM3lvVGg4NTVhMmRyMXdtU2dtZFpQVnJXSF9HV1NKNVJlYTRlQ3gtNGNuZ0lua3pHUFBVRDg1cG4zVC02QUw4ZEJKM19pUDlNMXhVbThzUEp4RWlEZzo1UkVOSyBQTFMgJmFtcDsgUFdTIE1hcmluZSBHZWFyIFN5c3RlbXMgfCBQREYgLSBTY3JpYmRCrQEuLi4gPGI-MSw4MDAgMTYwIDExMDwvYj4gMzUuNSAxLDEyMCAxLDAwMCAyNTAgNjAwIDY3MCA3MTAgOTAwIDEsMDYwIDEsNDAwIDEwMCA1MDAgMiw4MDAgMiw0NTAgMjAwIDEzMCA1MCAxLDI1MCAxLDEyMCAyODAgNjcwIDc1MCA4MDAgMSwwMDAgMSwxODAgMSw2MDAgMTE1IDU2MCAzLDYwMCZuYnNwOy4uLiICEAFIAFgAaAA",
+    "about_page_serpapi_link": "https://serpapi.com/search.json?engine=google_about_this_result&google_domain=google.co.in&req_token=CsABL2dvdG8_dXJsPUNBRVNnd0VCNnpzd0ZYWlJOSFdSUEpkTnZuQmFlMXU4T2dfbGZYTnd6S2QwaDNETm9udThhOG1weTFTcnBMNkRmb3Jwd1lBc1ZxR0w3SllfZzdONnBIMU9WazVlX1NTLWczeW9UaDg1NWEyZHIxd21TZ21kWlBWcldIX0dXU0o1UmVhNGVDeC00Y25nSW5rekdQUFVEODVwbjNULTZBTDhkQkozX2lQOU0xeFVtOHNQSnhFaURnEgQaAggAGvkDEgIIABoAIgAqADIGCAMSAmluOgBCBAgBEABKAFoAcgB6AIJA0wMIABAAGAAgACofCgoxODAwMTYwMTEwFSlFIj0aDDE4MDAgMTYwIDExMDLAAS9nb3RvP3VybD1DQUVTZ3dFQjZ6c3dGWFpSTkhXUlBKZE52bkJhZTF1OE9nX2xmWE53ektkMGgzRE5vbnU4YThtcHkxU3JwTDZEZm9ycHdZQXNWcUdMN0pZX2c3TjZwSDFPVms1ZV9TUy1nM3lvVGg4NTVhMmRyMXdtU2dtZFpQVnJXSF9HV1NKNVJlYTRlQ3gtNGNuZ0lua3pHUFBVRDg1cG4zVC02QUw4ZEJKM19pUDlNMXhVbThzUEp4RWlEZzo1UkVOSyBQTFMgJmFtcDsgUFdTIE1hcmluZSBHZWFyIFN5c3RlbXMgfCBQREYgLSBTY3JpYmRCrQEuLi4gPGI-MSw4MDAgMTYwIDExMDwvYj4gMzUuNSAxLDEyMCAxLDAwMCAyNTAgNjAwIDY3MCA3MTAgOTAwIDEsMDYwIDEsNDAwIDEwMCA1MDAgMiw4MDAgMiw0NTAgMjAwIDEzMCA1MCAxLDI1MCAxLDEyMCAyODAgNjcwIDc1MCA4MDAgMSwwMDAgMSwxODAgMSw2MDAgMTE1IDU2MCAzLDYwMCZuYnNwOy4uLiICEAFIAFgAaAA",
+    "source": "Scribd",
+    "read_more_link": "https://www.scribd.com/document/638430114/Renk-Planetary-Gears-Type-Pls-Pws#:~:text=25%201%2C000%20900%20225%20530,560%203%2C600%203%2C200%20250%20150"
+   },
+   {
+    "position": 4,
+    "title": "#Fbreel #vedioviral #shortsvideos | Quetta Brands",
+    "link": "https://www.facebook.com/quetta.brands/videos/watch-of-the-day-parts-147/1744001050068372/",
+    "redirect_link": "https://www.google.co.in/url?sa=t&source=web&rct=j&opi=89978449&url=CAESkgEB6zswFZk3BMHf3SP8tllOwgdtVqKmEplnJZJD-7fT9Q90KW01O3hTBsqwvhD2l5ZwxSqYrhhZKkAk3mOytWqumV92oQMr7wftJ4pyucSsi3aw25gAJGfxRlhBqEBAMGf7L6RzH1DXjs5VMLvAqb0TCk_kJsNIrUF4bpdMdoAY76jFWln6VI5jp448ASWlLOgjTA&ved=2ahUKEwiu77W72YeXAxXmJkQIHchlJIAQFnoECA4QAQ&uoh=1",
+    "displayed_link": "https://www.facebook.com › ... › Quetta Brands › Videos",
+    "snippet": "GR BRAND MALL ... No photo description available. Saeed Time Center. Jewelry & Watches Store.",
+    "about_this_result": {
+     "source": {
+      "description": "GR BRAND MALL ... No photo description available. Saeed Time Center. Jewelry & Watches Store.",
+      "source_info_link": "https://www.facebook.com/quetta.brands/videos/watch-of-the-day-parts-147/1744001050068372/",
+      "icon": "https://serpapi.com/images/i/UklGRqoBAABXRUJQVlA4IJ4BAABwCQCdASocABwAPtEutFooIagoGAEAGglsAJ0yhHA3lfFBO1wAOUA_QD3LbivzzOpj3kDygCma-Rh7ANX--unhjJOlma5yFBwxABGtbBmfGruNiAAA_vYOb16QPF2AohybdBK44SXhExiRjqi-kNM3hHu_Yw7AJrL-7rM8d_rijdiRy0j-ZeW7w6RIRuMqgm_RO4f6lRIhYknlxf6mMoXAQaj6_tRkMRwBV5EdP_uMw4kqy2ZhqPi3PG5PpxthXgQWj6H4uUXexYHFqh3xYBX5dL6Dsx0kaiR__FvN_6m7_QiD5ix90ybowZPZ4EJjzU2ag7SQJ4wrf_2kwO1hPlzmly6sn4r0HSBDYT_CBJqgzjphFkqJAiVh_RCXqM9h1YZk1Q4HA5xuHo3rNsBGkg4DVoQb6lPRqlYEs1YLGkTSOA-pXnCCv-FX4cz9i_E71o22GBeX206C3AI8KMZxPikjU93MZF-5b_bVPypp2kWlnV7cYdOVJ_T0iqe1D8CmirqI-Ktb5K_S123btql4LlRpp_0gELOp_50DZ4WlAAA.webp"
+     },
+     "languages": [
+      "en"
+     ],
+     "regions": [
+      "IN"
+     ]
+    },
+    "about_page_link": "https://www.google.co.in/search/about-this-result?origin=www.google.com&req=CtQBL2dvdG8_dXJsPUNBRVNrZ0VCNnpzd0ZaazNCTUhmM1NQOHRsbE93Z2R0VnFLbUVwbG5KWkpELTdmVDlROTBLVzAxTzNoVEJzcXd2aEQybDVad3hTcVlyaGhaS2tBazNtT3l0V3F1bVY5Mm9RTXI3d2Z0SjRweXVjU3NpM2F3MjVnQUpHZnhSbGhCcUVCQU1HZjdMNlJ6SDFEWGpzNVZNTHZBcWIwVENrX2tKc05JclVGNGJwZE1kb0FZNzZqRldsbjZWSTVqcDQ0OEFTV2xMT2dqVEESBBoCCAAaxQMSABoAIgAqADIGCAISAmluOgBCBAgCEABKAFoAcgB6AIJAoQMIABAAGAAgACofCgoxODAwMTYwMTEwFVvZNz8aDDE4MDAgMTYwIDExMDLUAS9nb3RvP3VybD1DQUVTa2dFQjZ6c3dGWmszQk1IZjNTUDh0bGxPd2dkdFZxS21FcGxuSlpKRC03ZlQ5UTkwS1cwMU8zaFRCc3F3dmhEMmw1Wnd4U3FZcmhoWktrQWszbU95dFdxdW1WOTJvUU1yN3dmdEo0cHl1Y1NzaTNhdzI1Z0FKR2Z4UmxoQnFFQkFNR2Y3TDZSekgxRFhqczVWTUx2QXFiMFRDa19rSnNOSXJVRjRicGRNZG9BWTc2akZXbG42Vkk1anA0NDhBU1dsTE9nalRBOjwjRmJyZWVsICN2ZWRpb3ZpcmFsICNzaG9ydHN2aWRlb3MgfCBRdWV0dGEgQnJhbmRzIC0gRmFjZWJvb2tCYUdSIEJSQU5EIE1BTEwgLi4uIE5vIHBob3RvIGRlc2NyaXB0aW9uIGF2YWlsYWJsZS4gU2FlZWQgVGltZSBDZW50ZXIuIEpld2VscnkgJmFtcDsgV2F0Y2hlcyBTdG9yZS4iAhABSABYAGgA",
+    "about_page_serpapi_link": "https://serpapi.com/search.json?engine=google_about_this_result&google_domain=google.co.in&req_token=CtQBL2dvdG8_dXJsPUNBRVNrZ0VCNnpzd0ZaazNCTUhmM1NQOHRsbE93Z2R0VnFLbUVwbG5KWkpELTdmVDlROTBLVzAxTzNoVEJzcXd2aEQybDVad3hTcVlyaGhaS2tBazNtT3l0V3F1bVY5Mm9RTXI3d2Z0SjRweXVjU3NpM2F3MjVnQUpHZnhSbGhCcUVCQU1HZjdMNlJ6SDFEWGpzNVZNTHZBcWIwVENrX2tKc05JclVGNGJwZE1kb0FZNzZqRldsbjZWSTVqcDQ0OEFTV2xMT2dqVEESBBoCCAAaxQMSABoAIgAqADIGCAISAmluOgBCBAgCEABKAFoAcgB6AIJAoQMIABAAGAAgACofCgoxODAwMTYwMTEwFVvZNz8aDDE4MDAgMTYwIDExMDLUAS9nb3RvP3VybD1DQUVTa2dFQjZ6c3dGWmszQk1IZjNTUDh0bGxPd2dkdFZxS21FcGxuSlpKRC03ZlQ5UTkwS1cwMU8zaFRCc3F3dmhEMmw1Wnd4U3FZcmhoWktrQWszbU95dFdxdW1WOTJvUU1yN3dmdEo0cHl1Y1NzaTNhdzI1Z0FKR2Z4UmxoQnFFQkFNR2Y3TDZSekgxRFhqczVWTUx2QXFiMFRDa19rSnNOSXJVRjRicGRNZG9BWTc2akZXbG42Vkk1anA0NDhBU1dsTE9nalRBOjwjRmJyZWVsICN2ZWRpb3ZpcmFsICNzaG9ydHN2aWRlb3MgfCBRdWV0dGEgQnJhbmRzIC0gRmFjZWJvb2tCYUdSIEJSQU5EIE1BTEwgLi4uIE5vIHBob3RvIGRlc2NyaXB0aW9uIGF2YWlsYWJsZS4gU2FlZWQgVGltZSBDZW50ZXIuIEpld2VscnkgJmFtcDsgV2F0Y2hlcyBTdG9yZS4iAhABSABYAGgA",
+    "source": "Facebook"
+   },
+   {
+    "position": 5,
+    "title": "怀化学院2022年大学生志愿服务西部计划人员名单公示-怀化学院团委",
+    "link": "http://lianpp.com/hhtc/smu_ytw/info/1021/13352.htm",
+    "redirect_link": "https://www.google.co.in/url?sa=t&source=web&rct=j&opi=89978449&url=CAESagHrOzAVw8VkbaWWKXzJ4_rvk2d8gj5d5Yn6YTEij1VuzKGxn6-gZtyN31Yxk7Z8aBRtl0Wkt5bD8yMbKZdtqGYGwmOSklkcPZLWkmCjOlKH6Wg9EY6b6cWNij8M7jJL_Hr5UP_-EJ9GSLc&ved=2ahUKEwiu77W72YeXAxXmJkQIHchlJIAQFnoECBAQAQ&uoh=1",
+    "displayed_link": "http://lianpp.com › smu_ytw › info",
+    "snippet": "... 物理学院. 1800090213. 10. 陈杰. 男. 预备党员. 汉族. 音乐舞蹈学院. 1800160110. 11. 袁麒婷. 女. 共青团员. 汉族. 教育科学学院. 1800041615. 12. 邓秀娟. 女. 共青团员.",
+    "snippet_highlighted_words": [
+     "1800160110"
+    ],
+    "about_this_result": {
+     "source": {
+      "description": "... 物理学院. 1800090213. 10. 陈杰. 男. 预备党员. 汉族. 音乐舞蹈学院. 1800160110. 11. 袁麒婷. 女. 共青团员. 汉族. 教育科学学院. 1800041615. 12. 邓秀娟. 女. 共青团员.",
+      "source_info_link": "http://lianpp.com/hhtc/smu_ytw/info/1021/13352.htm",
+      "icon": "https://serpapi.com/images/i/UklGRsYAAABXRUJQVlA4ILoAAABwBACdASogACAAPrUurVanIacnG_DgFolAGRxEZjklsH_zmLoPoaZm2qMNYAD-68XFzyLv36O_ULJYTfZFVUllxhg2JeM7ijdF-h_-5O3W60763w2936BlworsGEv74hGt4yA74RdkmOc1iVRS_MMGDH5Z7V5HM3XwUpoa3lzB6f_lYiNEZe64O9Q31_DXzSfGtJQwStkcw21IoVsT9fv35xT6-WvNOErtfdOvBgG_K_aYICfShHlgAAA.webp"
+     },
+     "languages": [
+      "en"
+     ],
+     "regions": [
+      "IN"
+     ]
+    },
+    "about_page_link": "https://www.google.co.in/search/about-this-result?origin=www.google.com&req=Cp0BL2dvdG8_dXJsPUNBRVNhZ0hyT3pBVnc4VmtiYVdXS1h6SjRfcnZrMmQ4Z2o1ZDVZbjZZVEVpajFWdXpLR3huNi1nWnR5TjMxWXhrN1o4YUJSdGwwV2t0NWJEOHlNYktaZHRxR1lHd21PU2tsa2NQWkxXa21Dak9sS0g2V2c5RVk2YjZjV05pajhNN2pKTF9IcjVVUF8tRUo5R1NMYxIEGgIIABqiBBIAGgAiACoAMgYIAhICaW46AEIECAIQAEoAWgByAHoAgkD-AwgAEAAYACAAKh8KCjE4MDAxNjAxMTAV5ScoPhoMMTgwMCAxNjAgMTEwMp0BL2dvdG8_dXJsPUNBRVNhZ0hyT3pBVnc4VmtiYVdXS1h6SjRfcnZrMmQ4Z2o1ZDVZbjZZVEVpajFWdXpLR3huNi1nWnR5TjMxWXhrN1o4YUJSdGwwV2t0NWJEOHlNYktaZHRxR1lHd21PU2tsa2NQWkxXa21Dak9sS0g2V2c5RVk2YjZjV05pajhNN2pKTF9IcjVVUF8tRUo5R1NMYzpZ5oCA5YyW5a2m6ZmiMjAyMuW5tOWkp-WtpueUn-W_l-aEv-acjeWKoeilv-mDqOiuoeWIkuS6uuWRmOWQjeWNleWFrOekui3mgIDljJblrabpmaLlm6Llp5RC1wEuLi4g54mp55CG5a2m6ZmiLiAxODAwMDkwMjEzLiAxMC4g6ZmI5p2wLiDnlLcuIOmihOWkh-WFmuWRmC4g5rGJ5pePLiDpn7PkuZDoiJ7ouYjlrabpmaIuIDxiPjE4MDAxNjAxMTA8L2I-LiAxMS4g6KKB6bqS5am3LiDlpbMuIOWFsemdkuWbouWRmC4g5rGJ5pePLiDmlZnogrLnp5HlrablrabpmaIuIDE4MDAwNDE2MTUuIDEyLiDpgpPnp4DlqJ8uIOWlsy4g5YWx6Z2S5Zui5ZGYLiICEAFIAFgAaAA",
+    "about_page_serpapi_link": "https://serpapi.com/search.json?engine=google_about_this_result&google_domain=google.co.in&req_token=Cp0BL2dvdG8_dXJsPUNBRVNhZ0hyT3pBVnc4VmtiYVdXS1h6SjRfcnZrMmQ4Z2o1ZDVZbjZZVEVpajFWdXpLR3huNi1nWnR5TjMxWXhrN1o4YUJSdGwwV2t0NWJEOHlNYktaZHRxR1lHd21PU2tsa2NQWkxXa21Dak9sS0g2V2c5RVk2YjZjV05pajhNN2pKTF9IcjVVUF8tRUo5R1NMYxIEGgIIABqiBBIAGgAiACoAMgYIAhICaW46AEIECAIQAEoAWgByAHoAgkD-AwgAEAAYACAAKh8KCjE4MDAxNjAxMTAV5ScoPhoMMTgwMCAxNjAgMTEwMp0BL2dvdG8_dXJsPUNBRVNhZ0hyT3pBVnc4VmtiYVdXS1h6SjRfcnZrMmQ4Z2o1ZDVZbjZZVEVpajFWdXpLR3huNi1nWnR5TjMxWXhrN1o4YUJSdGwwV2t0NWJEOHlNYktaZHRxR1lHd21PU2tsa2NQWkxXa21Dak9sS0g2V2c5RVk2YjZjV05pajhNN2pKTF9IcjVVUF8tRUo5R1NMYzpZ5oCA5YyW5a2m6ZmiMjAyMuW5tOWkp-WtpueUn-W_l-aEv-acjeWKoeilv-mDqOiuoeWIkuS6uuWRmOWQjeWNleWFrOekui3mgIDljJblrabpmaLlm6Llp5RC1wEuLi4g54mp55CG5a2m6ZmiLiAxODAwMDkwMjEzLiAxMC4g6ZmI5p2wLiDnlLcuIOmihOWkh-WFmuWRmC4g5rGJ5pePLiDpn7PkuZDoiJ7ouYjlrabpmaIuIDxiPjE4MDAxNjAxMTA8L2I-LiAxMS4g6KKB6bqS5am3LiDlpbMuIOWFsemdkuWbouWRmC4g5rGJ5pePLiDmlZnogrLnp5HlrablrabpmaIuIDE4MDAwNDE2MTUuIDEyLiDpgpPnp4DlqJ8uIOWlsy4g5YWx6Z2S5Zui5ZGYLiICEAFIAFgAaAA",
+    "source": "lianpp.com"
+   },
+   {
+    "position": 6,
+    "title": "#reelschallenge #reelsviralfb #viralshorts",
+    "link": "https://www.instagram.com/reel/DLlEBievT2j/",
+    "redirect_link": "https://www.google.co.in/url?sa=t&source=web&rct=j&opi=89978449&url=CAESYwHrOzAVZ3TLFRap2qXb0oLvvodNKJeAUTJVeD8iVYJqQRZEl7LN_tIVEgou_sucxpkbA5axgV4HVENHOWdbVJ38ssGMpw97XE8VXP7v9Ljh9aL2IC9UErcqq-bI8k-Y1zR3XQ&ved=2ahUKEwiu77W72YeXAxXmJkQIHchlJIAQFnoECBUQAQ&uoh=1",
+    "displayed_link": "https://www.instagram.com › reel",
+    "snippet": "... 222110111 . 03333572774 TACHYMETER 400 EDIFICE APPHIRE 1800 160 110 ملل 120 140 . 03333572774. quettabrands's profile picture · quettabrands. •. Follow.",
+    "snippet_highlighted_words": [
+     "1800 160 110"
+    ],
+    "about_this_result": {
+     "source": {
+      "description": "... 222110111 . 03333572774 TACHYMETER 400 EDIFICE APPHIRE 1800 160 110 ملل 120 140 . 03333572774. quettabrands's profile picture · quettabrands. •. Follow.",
+      "source_info_link": "https://www.instagram.com/reel/DLlEBievT2j/",
+      "icon": "https://serpapi.com/images/i/UklGRrQBAABXRUJQVlA4IKgBAABwCACdASocABwAPrUurVanIacnG_DgFolsAJ0yhHp_qvDn8INhnGwwG2i5ADWgPQA6TAiNSWpNpaKsXIF39bGj3Qd8pbRqOqkClBeAAP5tEoJlJoIDKX9SM7Zcd-n9JzxjUyFwXhzwPaTeFm2SeuMf1qLVq3t4wI3Sjh-TwPMqC3IvNj-0iGrCQSLYH_-G79_n_WM3XsPcVuoDF5Qv72r9Pf808tOK5Udv-Td9HMGptvnvxKOoa_2nDyZ2ppkSa2bNDL-K8pl3NhKk0sDV6BtpvNMgPb8dFSIrV0bFXaXgk5e0X-zIfxi-75avphrtEjwdvibNuQxApMkfs-CMi8mkD-o9_Rjb7y57vXTZx0h5MRX7n1JX-MenGUk5E4XC7vzHzXwfTDhRIb4bBfoSZiSNQ4UQGB7jAg92d64S_P_CCBANUoR3tplweT0RfxTAFGtV0vGjuwbJ25X1m04VXMMJ8Q3QzEsyD8w7jnAm5jqpKUZtVe-82LngE828BL78VksB9boYA1KjkUFty8pEW9876P84D7-A_J3doJbl9U3F-cBP_D9uzAAA.webp"
+     },
+     "languages": [
+      "en"
+     ],
+     "regions": [
+      "IN"
+     ]
+    },
+    "about_page_link": "https://www.google.co.in/search/about-this-result?origin=www.google.com&req=CpQBL2dvdG8_dXJsPUNBRVNZd0hyT3pBVlozVExGUmFwMnFYYjBvTHZ2b2ROS0plQVVUSlZlRDhpVllKcVFSWkVsN0xOX3RJVkVnb3Vfc3VjeHBrYkE1YXhnVjRIVkVOSE9XZGJWSjM4c3NHTXB3OTdYRThWWFA3djlMamg5YUwySUM5VUVyY3FxLWJJOGstWTF6UjNYURIEGgIIABrSAxIAGgAiACoAMgYIAxICaW46AEIECAIQAEoAWgByAHoAgkCuAwgAEAAYACAAKh8KCjE4MDAxNjAxMTAVSnhAPRoMMTgwMCAxNjAgMTEwMpQBL2dvdG8_dXJsPUNBRVNZd0hyT3pBVlozVExGUmFwMnFYYjBvTHZ2b2ROS0plQVVUSlZlRDhpVllKcVFSWkVsN0xOX3RJVkVnb3Vfc3VjeHBrYkE1YXhnVjRIVkVOSE9XZGJWSjM4c3NHTXB3OTdYRThWWFA3djlMamg5YUwySUM5VUVyY3FxLWJJOGstWTF6UjNYUTo2I3JlZWxzY2hhbGxlbmdlICNyZWVsc3ZpcmFsZmIgI3ZpcmFsc2hvcnRzIC0gSW5zdGFncmFtQrMBLi4uIDIyMjExMDExMSAuIDAzMzMzNTcyNzc0IFRBQ0hZTUVURVIgNDAwIEVESUZJQ0UgQVBQSElSRSA8Yj4xODAwIDE2MCAxMTA8L2I-INmF2YTZhCAxMjAgMTQwIC4gMDMzMzM1NzI3NzQuIHF1ZXR0YWJyYW5kcyYjMzk7cyBwcm9maWxlIHBpY3R1cmUgJm1pZGRvdDsgcXVldHRhYnJhbmRzLiDigKIuIEZvbGxvdy4iAhABSABYAGgA",
+    "about_page_serpapi_link": "https://serpapi.com/search.json?engine=google_about_this_result&google_domain=google.co.in&req_token=CpQBL2dvdG8_dXJsPUNBRVNZd0hyT3pBVlozVExGUmFwMnFYYjBvTHZ2b2ROS0plQVVUSlZlRDhpVllKcVFSWkVsN0xOX3RJVkVnb3Vfc3VjeHBrYkE1YXhnVjRIVkVOSE9XZGJWSjM4c3NHTXB3OTdYRThWWFA3djlMamg5YUwySUM5VUVyY3FxLWJJOGstWTF6UjNYURIEGgIIABrSAxIAGgAiACoAMgYIAxICaW46AEIECAIQAEoAWgByAHoAgkCuAwgAEAAYACAAKh8KCjE4MDAxNjAxMTAVSnhAPRoMMTgwMCAxNjAgMTEwMpQBL2dvdG8_dXJsPUNBRVNZd0hyT3pBVlozVExGUmFwMnFYYjBvTHZ2b2ROS0plQVVUSlZlRDhpVllKcVFSWkVsN0xOX3RJVkVnb3Vfc3VjeHBrYkE1YXhnVjRIVkVOSE9XZGJWSjM4c3NHTXB3OTdYRThWWFA3djlMamg5YUwySUM5VUVyY3FxLWJJOGstWTF6UjNYUTo2I3JlZWxzY2hhbGxlbmdlICNyZWVsc3ZpcmFsZmIgI3ZpcmFsc2hvcnRzIC0gSW5zdGFncmFtQrMBLi4uIDIyMjExMDExMSAuIDAzMzMzNTcyNzc0IFRBQ0hZTUVURVIgNDAwIEVESUZJQ0UgQVBQSElSRSA8Yj4xODAwIDE2MCAxMTA8L2I-INmF2YTZhCAxMjAgMTQwIC4gMDMzMzM1NzI3NzQuIHF1ZXR0YWJyYW5kcyYjMzk7cyBwcm9maWxlIHBpY3R1cmUgJm1pZGRvdDsgcXVldHRhYnJhbmRzLiDigKIuIEZvbGxvdy4iAhABSABYAGgA",
+    "source": "Instagram"
+   },
+   {
+    "position": 7,
+    "title": "#Original #vedioviralreel #vedioviral #shortsvideos #wristwatch",
+    "link": "https://www.instagram.com/reel/Da8pT0HjgNQ/",
+    "redirect_link": "https://www.google.co.in/url?sa=t&source=web&rct=j&opi=89978449&url=CAESYwHrOzAVqsNqsyxQDtJRsquTbi7mcunuocm65xK_WlhlXrh1GKofTcumMJjgPBMIVjbr9AP0GaALvR8D64rLY6BDqTBHdng_lNg6hMAd2obmNPz6oZ-YtRjlANNSqnpBQYTEXQ&ved=2ahUKEwiu77W72YeXAxXmJkQIHchlJIAQFnoECBYQAQ&uoh=1",
+    "displayed_link": "https://www.instagram.com › reel",
+    "snippet": "03333572774 TACHYMETER 400 EDIFICE APPHIRE 1800 160 110 ملل 120 140 . 03333572774. sumalaniwatchcenter's profile picture · sumalaniwatchcenter. •. Follow.",
+    "snippet_highlighted_words": [
+     "1800 160 110"
+    ],
+    "about_this_result": {
+     "source": {
+      "description": "03333572774 TACHYMETER 400 EDIFICE APPHIRE 1800 160 110 ملل 120 140 . 03333572774. sumalaniwatchcenter's profile picture · sumalaniwatchcenter. •. Follow.",
+      "source_info_link": "https://www.instagram.com/reel/Da8pT0HjgNQ/",
+      "icon": "https://serpapi.com/images/i/UklGRrQBAABXRUJQVlA4IKgBAABwCACdASocABwAPrUurVanIacnG_DgFolsAJ0yhHp_qvDn8INhnGwwG2i5ADWgPQA6TAiNSWpNpaKsXIF39bGj3Qd8pbRqOqkClBeAAP5tEoJlJoIDKX9SM7Zcd-n9JzxjUyFwXhzwPaTeFm2SeuMf1qLVq3t4wI3Sjh-TwPMqC3IvNj-0iGrCQSLYH_-G79_n_WM3XsPcVuoDF5Qv72r9Pf808tOK5Udv-Td9HMGptvnvxKOoa_2nDyZ2ppkSa2bNDL-K8pl3NhKk0sDV6BtpvNMgPb8dFSIrV0bFXaXgk5e0X-zIfxi-75avphrtEjwdvibNuQxApMkfs-CMi8mkD-o9_Rjb7y57vXTZx0h5MRX7n1JX-MenGUk5E4XC7vzHzXwfTDhRIb4bBfoSZiSNQ4UQGB7jAg92d64S_P_CCBANUoR3tplweT0RfxTAFGtV0vGjuwbJ25X1m04VXMMJ8Q3QzEsyD8w7jnAm5jqpKUZtVe-82LngE828BL78VksB9boYA1KjkUFty8pEW9876P84D7-A_J3doJbl9U3F-cBP_D9uzAAA.webp"
+     },
+     "languages": [
+      "en"
+     ],
+     "regions": [
+      "IN"
+     ]
+    },
+    "about_page_link": "https://www.google.co.in/search/about-this-result?origin=www.google.com&req=CpQBL2dvdG8_dXJsPUNBRVNZd0hyT3pBVnFzTnFzeXhRRHRKUnNxdVRiaTdtY3VudW9jbTY1eEtfV2xobFhyaDFHS29mVGN1bU1KamdQQk1JVmpicjlBUDBHYUFMdlI4RDY0ckxZNkJEcVRCSGRuZ19sTmc2aE1BZDJvYm1OUHo2b1otWXRSamxBTk5TcW5wQlFZVEVYURIEGgIIABrZAxIAGgAiACoAMgYIAxICaW46AEIECAIQAEoAWgByAHoAgkC1AwgAEAAYACAAKh8KCjE4MDAxNjAxMTAVXMQvPRoMMTgwMCAxNjAgMTEwMpQBL2dvdG8_dXJsPUNBRVNZd0hyT3pBVnFzTnFzeXhRRHRKUnNxdVRiaTdtY3VudW9jbTY1eEtfV2xobFhyaDFHS29mVGN1bU1KamdQQk1JVmpicjlBUDBHYUFMdlI4RDY0ckxZNkJEcVRCSGRuZ19sTmc2aE1BZDJvYm1OUHo2b1otWXRSamxBTk5TcW5wQlFZVEVYUTo_I09yaWdpbmFsICN2ZWRpb3ZpcmFscmVlbCAjdmVkaW92aXJhbCAjc2hvcnRzdmlkZW9zICN3cmlzdHdhdGNoQrEBMDMzMzM1NzI3NzQgVEFDSFlNRVRFUiA0MDAgRURJRklDRSBBUFBISVJFIDxiPjE4MDAgMTYwIDExMDwvYj4g2YXZhNmEIDEyMCAxNDAgLiAwMzMzMzU3Mjc3NC4gc3VtYWxhbml3YXRjaGNlbnRlciYjMzk7cyBwcm9maWxlIHBpY3R1cmUgJm1pZGRvdDsgc3VtYWxhbml3YXRjaGNlbnRlci4g4oCiLiBGb2xsb3cuIgIQAUgAWABoAA",
+    "about_page_serpapi_link": "https://serpapi.com/search.json?engine=google_about_this_result&google_domain=google.co.in&req_token=CpQBL2dvdG8_dXJsPUNBRVNZd0hyT3pBVnFzTnFzeXhRRHRKUnNxdVRiaTdtY3VudW9jbTY1eEtfV2xobFhyaDFHS29mVGN1bU1KamdQQk1JVmpicjlBUDBHYUFMdlI4RDY0ckxZNkJEcVRCSGRuZ19sTmc2aE1BZDJvYm1OUHo2b1otWXRSamxBTk5TcW5wQlFZVEVYURIEGgIIABrZAxIAGgAiACoAMgYIAxICaW46AEIECAIQAEoAWgByAHoAgkC1AwgAEAAYACAAKh8KCjE4MDAxNjAxMTAVXMQvPRoMMTgwMCAxNjAgMTEwMpQBL2dvdG8_dXJsPUNBRVNZd0hyT3pBVnFzTnFzeXhRRHRKUnNxdVRiaTdtY3VudW9jbTY1eEtfV2xobFhyaDFHS29mVGN1bU1KamdQQk1JVmpicjlBUDBHYUFMdlI4RDY0ckxZNkJEcVRCSGRuZ19sTmc2aE1BZDJvYm1OUHo2b1otWXRSamxBTk5TcW5wQlFZVEVYUTo_I09yaWdpbmFsICN2ZWRpb3ZpcmFscmVlbCAjdmVkaW92aXJhbCAjc2hvcnRzdmlkZW9zICN3cmlzdHdhdGNoQrEBMDMzMzM1NzI3NzQgVEFDSFlNRVRFUiA0MDAgRURJRklDRSBBUFBISVJFIDxiPjE4MDAgMTYwIDExMDwvYj4g2YXZhNmEIDEyMCAxNDAgLiAwMzMzMzU3Mjc3NC4gc3VtYWxhbml3YXRjaGNlbnRlciYjMzk7cyBwcm9maWxlIHBpY3R1cmUgJm1pZGRvdDsgc3VtYWxhbml3YXRjaGNlbnRlci4g4oCiLiBGb2xsb3cuIgIQAUgAWABoAA",
+    "source": "Instagram"
+   },
+   {
+    "position": 8,
+    "title": "Untitled",
+    "link": "https://data.colorado.gov/api/views/bs93-ddcs/rows.rdf?accessType=DOWNLOAD",
+    "redirect_link": "https://www.google.co.in/url?sa=t&source=web&rct=j&opi=89978449&url=CAESggEB6zswFUsTmakhjD_Gix6g1sD9I-wYY7cS2vbWg-ATV0H1-thfW0mFhIRJ5ZUoj_v77WP8DjC490fpnoH0cwTS08_BrM7gsT4GNLlQdW_PWgX_qYY_kevgDlcV37jt4Djxy0qfPVMf2C9TCET9VuZ9wBoydveOkvqfIZLd2cY76Keq&ved=2ahUKEwiu77W72YeXAxXmJkQIHchlJIAQFnoECA0QAQ&uoh=1",
+    "displayed_link": "https://data.colorado.gov › api › views › bs93-ddcs › rows",
+    "snippet": "... 1800 160 110 2022 2022 0 4 116 2019-04-02T00:00:00 1975 1995 0 0 77290 COLORADO BD 1200 120TH AV N 128TH AV 84214571161F4094B62FA69DAA341B69 160.64997 row ...",
+    "snippet_highlighted_words": [
+     "1800 160 110"
+    ],
+    "about_this_result": {
+     "source": {
+      "description": "... 1800 160 110 2022 2022 0 4 116 2019-04-02T00:00:00 1975 1995 0 0 77290 COLORADO BD 1200 120TH AV N 128TH AV 84214571161F4094B62FA69DAA341B69 160.64997 row ...",
+      "source_info_link": "https://data.colorado.gov/api/views/bs93-ddcs/rows.rdf?accessType=DOWNLOAD"
+     },
+     "languages": [
+      "en"
+     ],
+     "regions": [
+      "IN"
+     ]
+    },
+    "about_page_link": "https://www.google.co.in/search/about-this-result?origin=www.google.com&req=Cr4BL2dvdG8_dXJsPUNBRVNnZ0VCNnpzd0ZVc1RtYWtoakRfR2l4Nmcxc0Q5SS13WVk3Y1MydmJXZy1BVFYwSDEtdGhmVzBtRmhJUko1WlVval92NzdXUDhEakM0OTBmcG5vSDBjd1RTMDhfQnJNN2dzVDRHTkxsUWRXX1BXZ1hfcVlZX2tldmdEbGNWMzdqdDREanh5MHFmUFZNZjJDOVRDRVQ5VnVaOXdCb3lkdmVPa3ZxZklaTGQyY1k3NktlcRIEGgIIABrBAxIAGgAiACoAMgYIAhICaW46AEIECAEQAEoAWgByAHoAgkCdAwgAEAAYACAAKh8KCjE4MDAxNjAxMTAVqmXoPBoMMTgwMCAxNjAgMTEwMr4BL2dvdG8_dXJsPUNBRVNnZ0VCNnpzd0ZVc1RtYWtoakRfR2l4Nmcxc0Q5SS13WVk3Y1MydmJXZy1BVFYwSDEtdGhmVzBtRmhJUko1WlVval92NzdXUDhEakM0OTBmcG5vSDBjd1RTMDhfQnJNN2dzVDRHTkxsUWRXX1BXZ1hfcVlZX2tldmdEbGNWMzdqdDREanh5MHFmUFZNZjJDOVRDRVQ5VnVaOXdCb3lkdmVPa3ZxZklaTGQyY1k3NktlcToAQq4BLi4uIDxiPjE4MDAgMTYwIDExMDwvYj4gMjAyMiAyMDIyIDAgNCAxMTYgMjAxOS0wNC0wMlQwMDowMDowMCAxOTc1IDE5OTUgMCAwIDc3MjkwIENPTE9SQURPIEJEIDEyMDAgMTIwVEggQVYgTiAxMjhUSCBBViA4NDIxNDU3MTE2MUY0MDk0QjYyRkE2OURBQTM0MUI2OSAxNjAuNjQ5OTcgcm93Jm5ic3A7Li4uIgIQAUgAWABoAA",
+    "about_page_serpapi_link": "https://serpapi.com/search.json?engine=google_about_this_result&google_domain=google.co.in&req_token=Cr4BL2dvdG8_dXJsPUNBRVNnZ0VCNnpzd0ZVc1RtYWtoakRfR2l4Nmcxc0Q5SS13WVk3Y1MydmJXZy1BVFYwSDEtdGhmVzBtRmhJUko1WlVval92NzdXUDhEakM0OTBmcG5vSDBjd1RTMDhfQnJNN2dzVDRHTkxsUWRXX1BXZ1hfcVlZX2tldmdEbGNWMzdqdDREanh5MHFmUFZNZjJDOVRDRVQ5VnVaOXdCb3lkdmVPa3ZxZklaTGQyY1k3NktlcRIEGgIIABrBAxIAGgAiACoAMgYIAhICaW46AEIECAEQAEoAWgByAHoAgkCdAwgAEAAYACAAKh8KCjE4MDAxNjAxMTAVqmXoPBoMMTgwMCAxNjAgMTEwMr4BL2dvdG8_dXJsPUNBRVNnZ0VCNnpzd0ZVc1RtYWtoakRfR2l4Nmcxc0Q5SS13WVk3Y1MydmJXZy1BVFYwSDEtdGhmVzBtRmhJUko1WlVval92NzdXUDhEakM0OTBmcG5vSDBjd1RTMDhfQnJNN2dzVDRHTkxsUWRXX1BXZ1hfcVlZX2tldmdEbGNWMzdqdDREanh5MHFmUFZNZjJDOVRDRVQ5VnVaOXdCb3lkdmVPa3ZxZklaTGQyY1k3NktlcToAQq4BLi4uIDxiPjE4MDAgMTYwIDExMDwvYj4gMjAyMiAyMDIyIDAgNCAxMTYgMjAxOS0wNC0wMlQwMDowMDowMCAxOTc1IDE5OTUgMCAwIDc3MjkwIENPTE9SQURPIEJEIDEyMDAgMTIwVEggQVYgTiAxMjhUSCBBViA4NDIxNDU3MTE2MUY0MDk0QjYyRkE2OURBQTM0MUI2OSAxNjAuNjQ5OTcgcm93Jm5ic3A7Li4uIgIQAUgAWABoAA",
+    "source": "Colorado Information Marketplace (.gov)"
+   },
+   {
+    "position": 9,
+    "title": "Member Salaam5 Sapphire Black BMW M5 E60 | BMW M5 Forum ...",
+    "link": "https://www.m5board.com/threads/member-salaam5-sapphire-black-bmw-m5-e60.172696/latest",
+    "redirect_link": "https://www.google.co.in/url?sa=t&source=web&rct=j&opi=89978449&url=CAESjgEB6zswFY6iwsklasUFXFFZKSw7NRclrmuH95tm2Eq4CDnXSLoRlhbQtiF-AyrIcuDhSecHUT3ArAf8MaTOy1LtYDxhScTehVbJP9uBjvg7wntEg2aL79Lkauk5k0Xnr2cdo2ogJ9V0uKX5DsWpkY1PkjKJ5L9mUJ2EElUHFmzQWfyN_03sB5UUTeVM6I3-&ved=2ahUKEwiu77W72YeXAxXmJkQIHchlJIAQFnoECA8QAQ&uoh=1",
+    "displayed_link": "https://www.m5board.com › threads › latest",
+    "snippet": "RACING DYNAMICS SWAY BAR KIT 1968160110. ANTI SWAY-BAR KIT 30.2/22.2mm HOLLOW ADJUSTABLE ; RACING DYNAMICS 380MM BRAKE SYSTEM 1800160110. BRAKE SYSTEM FA 6P 380/ ...",
+    "snippet_highlighted_words": [
+     "1800160110"
+    ],
+    "about_this_result": {
+     "source": {
+      "description": "RACING DYNAMICS SWAY BAR KIT 1968160110. ANTI SWAY-BAR KIT 30.2/22.2mm HOLLOW ADJUSTABLE ; RACING DYNAMICS 380MM BRAKE SYSTEM 1800160110. BRAKE SYSTEM FA 6P 380/ ...",
+      "source_info_link": "https://www.m5board.com/threads/member-salaam5-sapphire-black-bmw-m5-e60.172696/latest",
+      "icon": "https://serpapi.com/images/i/UklGRswAAABXRUJQVlA4IMAAAADQBACdASocABwAPtEutFooIagoGAEAGglqAMgEyCCvF_rNJw8BNjqWafEiBbvgAAD-93IkZe_ocZZjqUjP3OTE5jSD5nEMcct16jyVi2Os2BOprRVhtdv621xTIjmpXsXmex6FvzaYZ8SRfopr2FgAp9f06g0HWgQoT3H-YPOKHoBfO_uf6H9i1eB6ugwX6HHYFw-iEV7yB-T-D_1s2jcadwOHV-_uVbig43s-F55UwjLrSFrcMAoYENm2aIggAAA.webp"
+     },
+     "languages": [
+      "en"
+     ],
+     "regions": [
+      "IN"
+     ]
+    },
+    "about_page_link": "https://www.google.co.in/search/about-this-result?origin=www.google.com&req=Cs4BL2dvdG8_dXJsPUNBRVNqZ0VCNnpzd0ZZNml3c2tsYXNVRlhGRlpLU3c3TlJjbHJtdUg5NXRtMkVxNENEblhTTG9SbGhiUXRpRi1BeXJJY3VEaFNlY0hVVDNBckFmOE1hVE95MUx0WUR4aFNjVGVoVmJKUDl1Qmp2Zzd3bnRFZzJhTDc5TGthdWs1azBYbnIyY2RvMm9nSjlWMHVLWDVEc1dwa1kxUGtqS0o1TDltVUoyRUVsVUhGbXpRV2Z5Tl8wM3NCNVVVVGVWTTZJMy0SBBoCCAAajwQSABoAIgAqADIGCAISAmluOgBCBAgBEABKAFoAcgB6AIJA6wMIABAAGAAgACofCgoxODAwMTYwMTEwFUwAFj0aDDE4MDAgMTYwIDExMDLOAS9nb3RvP3VybD1DQUVTamdFQjZ6c3dGWTZpd3NrbGFzVUZYRkZaS1N3N05SY2xybXVIOTV0bTJFcTRDRG5YU0xvUmxoYlF0aUYtQXlySWN1RGhTZWNIVVQzQXJBZjhNYVRPeTFMdFlEeGhTY1RlaFZiSlA5dUJqdmc3d250RWcyYUw3OUxrYXVrNWswWG5yMmNkbzJvZ0o5VjB1S1g1RHNXcGtZMVBraktKNUw5bVVKMkVFbFVIRm16UVdmeU5fMDNzQjVVVVRlVk02STMtOjtNZW1iZXIgU2FsYWFtNSBTYXBwaGlyZSBCbGFjayBCTVcgTTUgRTYwIHwgQk1XIE01IEZvcnVtIC4uLkKxAVJBQ0lORyBEWU5BTUlDUyBTV0FZIEJBUiBLSVQgMTk2ODE2MDExMC4gQU5USSBTV0FZLUJBUiBLSVQgMzAuMi8yMi4ybW0gSE9MTE9XIEFESlVTVEFCTEUgOyBSQUNJTkcgRFlOQU1JQ1MgMzgwTU0gQlJBS0UgU1lTVEVNIDxiPjE4MDAxNjAxMTA8L2I-LiBCUkFLRSBTWVNURU0gRkEgNlAgMzgwLyZuYnNwOy4uLiICEAFIAFgAaAA",
+    "about_page_serpapi_link": "https://serpapi.com/search.json?engine=google_about_this_result&google_domain=google.co.in&req_token=Cs4BL2dvdG8_dXJsPUNBRVNqZ0VCNnpzd0ZZNml3c2tsYXNVRlhGRlpLU3c3TlJjbHJtdUg5NXRtMkVxNENEblhTTG9SbGhiUXRpRi1BeXJJY3VEaFNlY0hVVDNBckFmOE1hVE95MUx0WUR4aFNjVGVoVmJKUDl1Qmp2Zzd3bnRFZzJhTDc5TGthdWs1azBYbnIyY2RvMm9nSjlWMHVLWDVEc1dwa1kxUGtqS0o1TDltVUoyRUVsVUhGbXpRV2Z5Tl8wM3NCNVVVVGVWTTZJMy0SBBoCCAAajwQSABoAIgAqADIGCAISAmluOgBCBAgBEABKAFoAcgB6AIJA6wMIABAAGAAgACofCgoxODAwMTYwMTEwFUwAFj0aDDE4MDAgMTYwIDExMDLOAS9nb3RvP3VybD1DQUVTamdFQjZ6c3dGWTZpd3NrbGFzVUZYRkZaS1N3N05SY2xybXVIOTV0bTJFcTRDRG5YU0xvUmxoYlF0aUYtQXlySWN1RGhTZWNIVVQzQXJBZjhNYVRPeTFMdFlEeGhTY1RlaFZiSlA5dUJqdmc3d250RWcyYUw3OUxrYXVrNWswWG5yMmNkbzJvZ0o5VjB1S1g1RHNXcGtZMVBraktKNUw5bVVKMkVFbFVIRm16UVdmeU5fMDNzQjVVVVRlVk02STMtOjtNZW1iZXIgU2FsYWFtNSBTYXBwaGlyZSBCbGFjayBCTVcgTTUgRTYwIHwgQk1XIE01IEZvcnVtIC4uLkKxAVJBQ0lORyBEWU5BTUlDUyBTV0FZIEJBUiBLSVQgMTk2ODE2MDExMC4gQU5USSBTV0FZLUJBUiBLSVQgMzAuMi8yMi4ybW0gSE9MTE9XIEFESlVTVEFCTEUgOyBSQUNJTkcgRFlOQU1JQ1MgMzgwTU0gQlJBS0UgU1lTVEVNIDxiPjE4MDAxNjAxMTA8L2I-LiBCUkFLRSBTWVNURU0gRkEgNlAgMzgwLyZuYnNwOy4uLiICEAFIAFgAaAA",
+    "source": "m5board.com"
+   },
+   {
+    "position": 10,
+    "title": "Spiraalgefelste buis en hulpstukken 2 Rookgasafvoer 7 ...",
+    "link": "https://www.yumpu.com/nl/document/view/13884631/spiraalgefelste-buis-en-hulpstukken-2-rookgasafvoer-7-ventilatie-14-",
+    "redirect_link": "https://www.google.co.in/url?sa=t&source=web&rct=j&opi=89978449&url=CAESrAEB6zswFcyMwJLs8Shi0h_E1Rqa51UFJGStuL7YgiwKCOijOs2TvFXqkupq7Zen6QJIjHobhXiRLGmC6O-T8sIA97G57sJui-ljvW-r3_5bmo04-yuJW6mdLNqm7L0fF8ndjXGDIEp8SZRCP72BPE9Wpl0-pF-76gn_8ljTajryJ8Xg1wFsvIYX7zxIKffljfJIKe37kCCmTESA1h8ko4vexmSXVJHsKwGYH7O3&ved=2ahUKEwiu77W72YeXAxXmJkQIHchlJIAQFnoECBMQAQ&uoh=1",
+    "displayed_link": "https://www.yumpu.com › view",
+    "date": "2 May 2013",
+    "snippet": "1800 160 110 80 50 0,19<br />. 2375 260 210 160 110 50 0,35<br />. 1500 190 130 100 60 0,20<br />. 2270 320 260 200 <strong>14</strong>0 80 0 ...",
+    "snippet_highlighted_words": [
+     "1800 160 110"
+    ],
+    "about_this_result": {
+     "source": {
+      "description": "1800 160 110 80 50 0,19<br />. 2375 260 210 160 110 50 0,35<br />. 1500 190 130 100 60 0,20<br />. 2270 320 260 200 <strong>14</strong>0 80 0 ...",
+      "source_info_link": "https://www.yumpu.com/nl/document/view/13884631/spiraalgefelste-buis-en-hulpstukken-2-rookgasafvoer-7-ventilatie-14-",
+      "icon": "https://serpapi.com/images/i/UklGRroAAABXRUJQVlA4IK4AAAAQBQCdASocABwAPtEutFooIagoGAEAGglpAAPksgbGhqTKUJ4n_mkaW-TpTBe5U9YAAP71HjO423Bd1ZZCp7kYi_34eGIYMO7Jstm_fjOMsP33KYu4EMCvpTDwpxAQduclI3KUmtZGr_S7S39YLr7UqM_SR_UiuESWp_g35Q_qUhhUZYsx1CBSiGG4k33RxJJ_vB3SxR-r6RvGJPqo4aGDjjBy65KTfV4Ilp2AAAA.webp"
+     },
+     "languages": [
+      "en"
+     ],
+     "regions": [
+      "IN"
+     ]
+    },
+    "about_page_link": "https://www.google.co.in/search/about-this-result?origin=www.google.com&req=CvYBL2dvdG8_dXJsPUNBRVNyQUVCNnpzd0ZjeU13SkxzOFNoaTBoX0UxUnFhNTFVRkpHU3R1TDdZZ2l3S0NPaWpPczJUdkZYcWt1cHE3WmVuNlFKSWpIb2JoWGlSTEdtQzZPLVQ4c0lBOTdHNTdzSnVpLWxqdlctcjNfNWJtbzA0LXl1Slc2bWRMTnFtN0wwZkY4bmRqWEdESUVwOFNaUkNQNzJCUEU5V3BsMC1wRi03NmduXzhsalRhanJ5SjhYZzF3RnN2SVlYN3p4SUtmZmxqZkpJS2UzN2tDQ21URVNBMWg4a280dmV4bVNYVkpIc0t3R1lIN08zEgQaAggAGr8EEgAaACIAKgAyBggCEgJpbjoAQgQIAhAASgBaAHIAegCCQJsECAAQABgAIAAqHwoKMTgwMDE2MDExMBUwRNk7GgwxODAwIDE2MCAxMTAy9gEvZ290bz91cmw9Q0FFU3JBRUI2enN3RmN5TXdKTHM4U2hpMGhfRTFScWE1MVVGSkdTdHVMN1lnaXdLQ09pak9zMlR2Rlhxa3VwcTdaZW42UUpJakhvYmhYaVJMR21DNk8tVDhzSUE5N0c1N3NKdWktbGp2Vy1yM181Ym1vMDQteXVKVzZtZExOcW03TDBmRjhuZGpYR0RJRXA4U1pSQ1A3MkJQRTlXcGwwLXBGLTc2Z25fOGxqVGFqcnlKOFhnMXdGc3ZJWVg3enhJS2ZmbGpmSklLZTM3a0NDbVRFU0ExaDhrbzR2ZXhtU1hWSkhzS3dHWUg3TzM6OVNwaXJhYWxnZWZlbHN0ZSBidWlzIGVuIGh1bHBzdHVra2VuIDIgUm9va2dhc2Fmdm9lciA3IC4uLkK7ATxiPjE4MDAgMTYwIDExMDwvYj4gODAgNTAgMCwxOSZsdDticiAvJmd0Oy4gMjM3NSAyNjAgMjEwIDE2MCAxMTAgNTAgMCwzNSZsdDticiAvJmd0Oy4gMTUwMCAxOTAgMTMwIDEwMCA2MCAwLDIwJmx0O2JyIC8mZ3Q7LiAyMjcwIDMyMCAyNjAgMjAwICZsdDtzdHJvbmcmZ3Q7MTQmbHQ7L3N0cm9uZyZndDswIDgwIDAmbmJzcDsuLi4iAhABSABYAGgA",
+    "about_page_serpapi_link": "https://serpapi.com/search.json?engine=google_about_this_result&google_domain=google.co.in&req_token=CvYBL2dvdG8_dXJsPUNBRVNyQUVCNnpzd0ZjeU13SkxzOFNoaTBoX0UxUnFhNTFVRkpHU3R1TDdZZ2l3S0NPaWpPczJUdkZYcWt1cHE3WmVuNlFKSWpIb2JoWGlSTEdtQzZPLVQ4c0lBOTdHNTdzSnVpLWxqdlctcjNfNWJtbzA0LXl1Slc2bWRMTnFtN0wwZkY4bmRqWEdESUVwOFNaUkNQNzJCUEU5V3BsMC1wRi03NmduXzhsalRhanJ5SjhYZzF3RnN2SVlYN3p4SUtmZmxqZkpJS2UzN2tDQ21URVNBMWg4a280dmV4bVNYVkpIc0t3R1lIN08zEgQaAggAGr8EEgAaACIAKgAyBggCEgJpbjoAQgQIAhAASgBaAHIAegCCQJsECAAQABgAIAAqHwoKMTgwMDE2MDExMBUwRNk7GgwxODAwIDE2MCAxMTAy9gEvZ290bz91cmw9Q0FFU3JBRUI2enN3RmN5TXdKTHM4U2hpMGhfRTFScWE1MVVGSkdTdHVMN1lnaXdLQ09pak9zMlR2Rlhxa3VwcTdaZW42UUpJakhvYmhYaVJMR21DNk8tVDhzSUE5N0c1N3NKdWktbGp2Vy1yM181Ym1vMDQteXVKVzZtZExOcW03TDBmRjhuZGpYR0RJRXA4U1pSQ1A3MkJQRTlXcGwwLXBGLTc2Z25fOGxqVGFqcnlKOFhnMXdGc3ZJWVg3enhJS2ZmbGpmSklLZTM3a0NDbVRFU0ExaDhrbzR2ZXhtU1hWSkhzS3dHWUg3TzM6OVNwaXJhYWxnZWZlbHN0ZSBidWlzIGVuIGh1bHBzdHVra2VuIDIgUm9va2dhc2Fmdm9lciA3IC4uLkK7ATxiPjE4MDAgMTYwIDExMDwvYj4gODAgNTAgMCwxOSZsdDticiAvJmd0Oy4gMjM3NSAyNjAgMjEwIDE2MCAxMTAgNTAgMCwzNSZsdDticiAvJmd0Oy4gMTUwMCAxOTAgMTMwIDEwMCA2MCAwLDIwJmx0O2JyIC8mZ3Q7LiAyMjcwIDMyMCAyNjAgMjAwICZsdDtzdHJvbmcmZ3Q7MTQmbHQ7L3N0cm9uZyZndDswIDgwIDAmbmJzcDsuLi4iAhABSABYAGgA",
+    "source": "YUMPU",
+    "read_more_link": "https://www.yumpu.com/nl/document/view/13884631/spiraalgefelste-buis-en-hulpstukken-2-rookgasafvoer-7-ventilatie-14-#:~:text=1800%20160%20110%2080%2050,200%20%3Cstrong%3E14%3C%2Fstrong%3E0%2080%200%2C38%3Cbr%20%2F%3E"
+   }
+  ],
+  "pagination": {
+   "current": 1,
+   "next": "https://www.google.co.in/search?q=%221800160110%22+OR+%221800+160+110%22&sca_esv=4011b64f3e834313&gl=in&hl=en&sxsrf=APpeQntG4ldI97CEQhtmxhfjOT_guRWFEg:1790269463566&ei=F1i1au6HIubNkPIPyMuRgQg&start=10&sa=N&sstk=AS6-VmI3zRgwzMnh9B-W3Qt5XpAprbSk3cN09ooE8A-8fmea7MTzakWMCWTR4t1TTfGNqHRXBTp8PSSPlhBM_R3Is8gpL0aQzsqUiA&ved=2ahUKEwiu77W72YeXAxXmJkQIHchlJIAQ8NMDegQIRxAI",
+   "other_pages": {
+    "2": "https://www.google.co.in/search?q=%221800160110%22+OR+%221800+160+110%22&sca_esv=4011b64f3e834313&gl=in&hl=en&sxsrf=APpeQntG4ldI97CEQhtmxhfjOT_guRWFEg:1790269463566&ei=F1i1au6HIubNkPIPyMuRgQg&start=10&sa=N&sstk=AS6-VmI3zRgwzMnh9B-W3Qt5XpAprbSk3cN09ooE8A-8fmea7MTzakWMCWTR4t1TTfGNqHRXBTp8PSSPlhBM_R3Is8gpL0aQzsqUiA&ved=2ahUKEwiu77W72YeXAxXmJkQIHchlJIAQ8tMDegQIRxAE",
+    "3": "https://www.google.co.in/search?q=%221800160110%22+OR+%221800+160+110%22&sca_esv=4011b64f3e834313&gl=in&hl=en&sxsrf=APpeQntG4ldI97CEQhtmxhfjOT_guRWFEg:1790269463566&ei=F1i1au6HIubNkPIPyMuRgQg&start=20&sa=N&sstk=AS6-VmI3zRgwzMnh9B-W3Qt5XpAprbSk3cN09ooE8A-8fmea7MTzakWMCWTR4t1TTfGNqHRXBTp8PSSPlhBM_R3Is8gpL0aQzsqUiA&ved=2ahUKEwiu77W72YeXAxXmJkQIHchlJIAQ8tMDegQIRxAG"
+   }
+  },
+  "serpapi_pagination": {
+   "current": 1,
+   "next_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.co.in&hl=en&q=%221800160110%22+OR+%221800+160+110%22&start=10",
+   "next": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.co.in&hl=en&q=%221800160110%22+OR+%221800+160+110%22&start=10",
+   "other_pages": {
+    "2": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.co.in&hl=en&q=%221800160110%22+OR+%221800+160+110%22&start=10",
+    "3": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.co.in&hl=en&q=%221800160110%22+OR+%221800+160+110%22&start=20"
+   }
+  }
+ }
+}

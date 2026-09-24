@@ -1,0 +1,95 @@
+{
+ "_fixture": {
+  "kind": "recorded",
+  "recorded_at": "2026-09-24T17:00:29+00:00",
+  "params": {
+   "engine": "google",
+   "q": "\"7355602929\" OR \"73556 02929\"",
+   "google_domain": "google.co.in",
+   "gl": "in",
+   "hl": "en",
+   "num": "10"
+  }
+ },
+ "response": {
+  "search_metadata": {
+   "id": "6ab55722fbbeb5ca46324aa2",
+   "status": "Success",
+   "json_endpoint": "https://serpapi.com/searches/RUsMFcPSMj8dyZilHM1zREFIvtAa449_Eu0UWSUo4MA/6ab55722fbbeb5ca46324aa2.json",
+   "markdown_endpoint": "https://serpapi.com/searches/RUsMFcPSMj8dyZilHM1zREFIvtAa449_Eu0UWSUo4MA/6ab55722fbbeb5ca46324aa2.md",
+   "pixel_position_endpoint": "https://serpapi.com/searches/RUsMFcPSMj8dyZilHM1zREFIvtAa449_Eu0UWSUo4MA/6ab55722fbbeb5ca46324aa2.json_with_pixel_position",
+   "created_at": "2026-09-24 17:00:18 UTC",
+   "processed_at": "2026-09-24 17:00:18 UTC",
+   "google_url": "https://www.google.co.in/search?q=%227355602929%22+OR+%2273556+02929%22&oq=%227355602929%22+OR+%2273556+02929%22&hl=en&gl=in&sourceid=chrome&ie=UTF-8",
+   "raw_html_file": "https://serpapi.com/searches/RUsMFcPSMj8dyZilHM1zREFIvtAa449_Eu0UWSUo4MA/6ab55722fbbeb5ca46324aa2.html",
+   "total_time_taken": 10.73
+  },
+  "search_parameters": {
+   "engine": "google",
+   "q": "\"7355602929\" OR \"73556 02929\"",
+   "google_domain": "google.co.in",
+   "hl": "en",
+   "gl": "in",
+   "device": "desktop"
+  },
+  "search_information": {
+   "query_displayed": "\"7355602929\" OR \"73556 02929\"",
+   "total_results": 2,
+   "time_taken_displayed": 0.22,
+   "organic_results_state": "Results for exact spelling"
+  },
+  "organic_results": [
+   {
+    "position": 1,
+    "title": "Untitled",
+    "link": "https://d3e3dx0sqnem5r.cloudfront.net/",
+    "redirect_link": "https://www.google.co.in/url?sa=t&source=web&rct=j&opi=89978449&url=CAESXgHrOzAVyCRrf5kjoQ4hs_H9L5EugWy1SaGeU1jpY-pTt9wALfFX5m5PfcLYnTUlGfWxUJ2n8K_RPGQIfFFT2nzcFRBC5K0H_olZx3rE1CpFa0rrtBYy4HhtU-eZRT0&ved=2ahUKEwjt06bL2IeXAxUEf_UHHZwMJMgQFnoECBkQAQ&uoh=1",
+    "displayed_link": "https://d3e3dx0sqnem5r.cloudfront.net",
+    "snippet": "... 7355602929 / (4519660864 / 6587782694 / 5904046827 / 3552598453 / 2439131002 / 1829222351 / 9634301844 / 8943931849 / 7525566382) Murray Theater Groups ...",
+    "snippet_highlighted_words": [
+     "7355602929"
+    ],
+    "about_this_result": {
+     "source": {
+      "description": "... 7355602929 / (4519660864 / 6587782694 / 5904046827 / 3552598453 / 2439131002 / 1829222351 / 9634301844 / 8943931849 / 7525566382) Murray Theater Groups ...",
+      "source_info_link": "https://d3e3dx0sqnem5r.cloudfront.net/"
+     },
+     "languages": [
+      "en"
+     ],
+     "regions": [
+      "IN"
+     ]
+    },
+    "about_page_link": "https://www.google.co.in/search/about-this-result?origin=www.google.com&req=Co0BL2dvdG8_dXJsPUNBRVNYZ0hyT3pBVnlDUnJmNWtqb1E0aHNfSDlMNUV1Z1d5MVNhR2VVMWpwWS1wVHQ5d0FMZkZYNW01UGZjTFluVFVsR2ZXeFVKMm44S19SUEdRSWZGRlQybnpjRlJCQzVLMEhfb2xaeDNyRTFDcEZhMHJydEJZeTRIaHRVLWVaUlQwEgQaAggAGowDEgAaACIAKgAyBggCEgJpbjoAQgQIARAASgBaAHIAegCCQOgCCAAQABgAIAAqHgoKNzM1NTYwMjkyORVd4gE7Ggs3MzU1NiAwMjkyOTKNAS9nb3RvP3VybD1DQUVTWGdIck96QVZ5Q1JyZjVram9RNGhzX0g5TDVFdWdXeTFTYUdlVTFqcFktcFR0OXdBTGZGWDVtNVBmY0xZblRVbEdmV3hVSjJuOEtfUlBHUUlmRkZUMm56Y0ZSQkM1SzBIX29sWngzckUxQ3BGYTBycnRCWXk0SGh0VS1lWlJUMDoAQqsBLi4uIDxiPjczNTU2MDI5Mjk8L2I-IC8gKDQ1MTk2NjA4NjQgLyA2NTg3NzgyNjk0IC8gNTkwNDA0NjgyNyAvIDM1NTI1OTg0NTMgLyAyNDM5MTMxMDAyIC8gMTgyOTIyMjM1MSAvIDk2MzQzMDE4NDQgLyA4OTQzOTMxODQ5IC8gNzUyNTU2NjM4MikgTXVycmF5IFRoZWF0ZXIgR3JvdXBzJm5ic3A7Li4uIgIQAUgAWABoAA",
+    "about_page_serpapi_link": "https://serpapi.com/search.json?engine=google_about_this_result&google_domain=google.co.in&req_token=Co0BL2dvdG8_dXJsPUNBRVNYZ0hyT3pBVnlDUnJmNWtqb1E0aHNfSDlMNUV1Z1d5MVNhR2VVMWpwWS1wVHQ5d0FMZkZYNW01UGZjTFluVFVsR2ZXeFVKMm44S19SUEdRSWZGRlQybnpjRlJCQzVLMEhfb2xaeDNyRTFDcEZhMHJydEJZeTRIaHRVLWVaUlQwEgQaAggAGowDEgAaACIAKgAyBggCEgJpbjoAQgQIARAASgBaAHIAegCCQOgCCAAQABgAIAAqHgoKNzM1NTYwMjkyORVd4gE7Ggs3MzU1NiAwMjkyOTKNAS9nb3RvP3VybD1DQUVTWGdIck96QVZ5Q1JyZjVram9RNGhzX0g5TDVFdWdXeTFTYUdlVTFqcFktcFR0OXdBTGZGWDVtNVBmY0xZblRVbEdmV3hVSjJuOEtfUlBHUUlmRkZUMm56Y0ZSQkM1SzBIX29sWngzckUxQ3BGYTBycnRCWXk0SGh0VS1lWlJUMDoAQqsBLi4uIDxiPjczNTU2MDI5Mjk8L2I-IC8gKDQ1MTk2NjA4NjQgLyA2NTg3NzgyNjk0IC8gNTkwNDA0NjgyNyAvIDM1NTI1OTg0NTMgLyAyNDM5MTMxMDAyIC8gMTgyOTIyMjM1MSAvIDk2MzQzMDE4NDQgLyA4OTQzOTMxODQ5IC8gNzUyNTU2NjM4MikgTXVycmF5IFRoZWF0ZXIgR3JvdXBzJm5ic3A7Li4uIgIQAUgAWABoAA",
+    "source": "cloudfront.net",
+    "read_more_link": "https://d3e3dx0sqnem5r.cloudfront.net/#:~:text=7355602929%20%2F%20(4519660864%20%2F%206587782694,%2F%207525566382)%20Murray%20Theater%20Groups"
+   },
+   {
+    "position": 2,
+    "title": "Maverick Family Health Pertech Llc",
+    "link": "https://z-gbbbpfah.blogspot.com/index.html?8774280&m=1",
+    "redirect_link": "https://www.google.co.in/url?sa=t&source=web&rct=j&opi=89978449&url=CAESbgHrOzAVUbbKFz_gYV7vLCy7O7jef-wgvdY4LWWTgMH7ioKc3_v1zIff_e0ibger9Oh4S6qvM8apR6sfw8izcoS199vrLvzghenSHo0O75bqdYH8NlHYqvMJpkV1bUmHSdkRoacK4Jyynw3btiOE&ved=2ahUKEwjt06bL2IeXAxUEf_UHHZwMJMgQFnoECBoQAQ&uoh=1",
+    "displayed_link": "https://z-gbbbpfah.blogspot.com › ...",
+    "snippet": "How to understand who called you, scammers, organizations, medical institutions or someone else. You can determine the region from which you received a call ...",
+    "about_this_result": {
+     "source": {
+      "description": "How to understand who called you, scammers, organizations, medical institutions or someone else. You can determine the region from which you received a call ...",
+      "source_info_link": "https://z-gbbbpfah.blogspot.com/index.html?8774280&m=1",
+      "icon": "https://serpapi.com/images/i/iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y-mAAAAKlBMVEVHcEz-ZgL-___-ZgL-WwD-49j-vJD-6-H-8-3-gzP-oXD-eiD-2cj-xKXrGQLoAAAAAnRSTlMARXAleCcAAACpSURBVCiRpdPZDsQgCAVQK-CC-v-_O2Ksa21mMjz2BHsrVKkLDnWps4meDeA7xFqPyCYSUTQeN0Sja7nkV2yWy8yIPJgmP2NpdPmVRXlGeWg5hJAE04wkjex9KK2Wa-SO2llra2KXcMEp1E8ox-ZyTyiBpNgtKCFJPiUXS6o44H0JcvXlWNMReA10vPjWuI9ssDZshDLsMm-45913CHHblD-273Wp336HDzfYCtDpHI3hAAAAAElFTkSuQmCC.png"
+     },
+     "languages": [
+      "en"
+     ],
+     "regions": [
+      "IN"
+     ]
+    },
+    "about_page_link": "https://www.google.co.in/search/about-this-result?origin=www.google.com&req=CqIBL2dvdG8_dXJsPUNBRVNiZ0hyT3pBVlViYktGel9nWVY3dkxDeTdPN2plZi13Z3ZkWTRMV1dUZ01IN2lvS2MzX3YxeklmZl9lMGliZ2VyOU9oNFM2cXZNOGFwUjZzZnc4aXpjb1MxOTl2ckx2emdoZW5TSG8wTzc1YnFkWUg4TmxIWXF2TUpwa1YxYlVtSFNka1JvYWNLNEp5eW53M2J0aU9FEgQaAggAGssDEgAaACIAKgAyBggCEgJpbjoAQgQIARAASgBaAHIAegCCQKcDCAAQABgAIAAqHgoKNzM1NTYwMjkyORVdwxg3Ggs3MzU1NiAwMjkyOTKiAS9nb3RvP3VybD1DQUVTYmdIck96QVZVYmJLRnpfZ1lWN3ZMQ3k3TzdqZWYtd2d2ZFk0TFdXVGdNSDdpb0tjM192MXpJZmZfZTBpYmdlcjlPaDRTNnF2TThhcFI2c2Z3OGl6Y29TMTk5dnJMdnpnaGVuU0hvME83NWJxZFlIOE5sSFlxdk1KcGtWMWJVbUhTZGtSb2FjSzRKeXludzNidGlPRTowTWF2ZXJpY2sgRmFtaWx5IEhlYWx0aCBQZXJ0ZWNoIExsYyAtIEJsb2dnZXIuY29tQqUBSG93IHRvIHVuZGVyc3RhbmQgd2hvIGNhbGxlZCB5b3UsIHNjYW1tZXJzLCBvcmdhbml6YXRpb25zLCBtZWRpY2FsIGluc3RpdHV0aW9ucyBvciBzb21lb25lIGVsc2UuIFlvdSBjYW4gZGV0ZXJtaW5lIHRoZSByZWdpb24gZnJvbSB3aGljaCB5b3UgcmVjZWl2ZWQgYSBjYWxsJm5ic3A7Li4uIgIQAUgAWABoAA",
+    "about_page_serpapi_link": "https://serpapi.com/search.json?engine=google_about_this_result&google_domain=google.co.in&req_token=CqIBL2dvdG8_dXJsPUNBRVNiZ0hyT3pBVlViYktGel9nWVY3dkxDeTdPN2plZi13Z3ZkWTRMV1dUZ01IN2lvS2MzX3YxeklmZl9lMGliZ2VyOU9oNFM2cXZNOGFwUjZzZnc4aXpjb1MxOTl2ckx2emdoZW5TSG8wTzc1YnFkWUg4TmxIWXF2TUpwa1YxYlVtSFNka1JvYWNLNEp5eW53M2J0aU9FEgQaAggAGssDEgAaACIAKgAyBggCEgJpbjoAQgQIARAASgBaAHIAegCCQKcDCAAQABgAIAAqHgoKNzM1NTYwMjkyORVdwxg3Ggs3MzU1NiAwMjkyOTKiAS9nb3RvP3VybD1DQUVTYmdIck96QVZVYmJLRnpfZ1lWN3ZMQ3k3TzdqZWYtd2d2ZFk0TFdXVGdNSDdpb0tjM192MXpJZmZfZTBpYmdlcjlPaDRTNnF2TThhcFI2c2Z3OGl6Y29TMTk5dnJMdnpnaGVuU0hvME83NWJxZFlIOE5sSFlxdk1KcGtWMWJVbUhTZGtSb2FjSzRKeXludzNidGlPRTowTWF2ZXJpY2sgRmFtaWx5IEhlYWx0aCBQZXJ0ZWNoIExsYyAtIEJsb2dnZXIuY29tQqUBSG93IHRvIHVuZGVyc3RhbmQgd2hvIGNhbGxlZCB5b3UsIHNjYW1tZXJzLCBvcmdhbml6YXRpb25zLCBtZWRpY2FsIGluc3RpdHV0aW9ucyBvciBzb21lb25lIGVsc2UuIFlvdSBjYW4gZGV0ZXJtaW5lIHRoZSByZWdpb24gZnJvbSB3aGljaCB5b3UgcmVjZWl2ZWQgYSBjYWxsJm5ic3A7Li4uIgIQAUgAWABoAA",
+    "source": "Blogger.com"
+   }
+  ]
+ }
+}

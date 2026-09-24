@@ -83,7 +83,8 @@ def _observations_from_text(
 
 
 def _joined(*parts: Any) -> str:
-    return " ".join(str(p) for p in parts if p)
+    # "|" cannot sit inside a digit run, so a phone never swallows the house number that follows it
+    return " | ".join(str(p) for p in parts if p)
 
 
 def _as_list(value: Any) -> list:

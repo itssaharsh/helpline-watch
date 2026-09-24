@@ -1,8 +1,7 @@
 {
  "_fixture": {
-  "kind": "synthetic",
-  "note": "Maps · Kolkata · HDFC Bank customer care",
-  "generated_at": "2026-09-23T20:53:40+00:00",
+  "kind": "recorded",
+  "recorded_at": "2026-09-24T16:46:44+00:00",
   "params": {
    "engine": "google_maps",
    "type": "search",
@@ -14,13 +13,16 @@
  },
  "response": {
   "search_metadata": {
-   "id": "synthetic-73aa3d42796099e0",
+   "id": "6ab553f1af5fdc7c2861788d",
    "status": "Success",
-   "created_at": "2026-09-23 20:53:40 UTC",
-   "processed_at": "2026-09-23 20:53:40 UTC",
-   "json_endpoint": null,
-   "raw_html_file": null,
-   "total_time_taken": 2.08
+   "json_endpoint": "https://serpapi.com/searches/2uAYpGWVrQCyNqDvVb8PZikp2KSjafJSENeFT3x0Arc/6ab553f1af5fdc7c2861788d.json",
+   "markdown_endpoint": "https://serpapi.com/searches/2uAYpGWVrQCyNqDvVb8PZikp2KSjafJSENeFT3x0Arc/6ab553f1af5fdc7c2861788d.md",
+   "created_at": "2026-09-24 16:46:41 UTC",
+   "processed_at": "2026-09-24 16:46:41 UTC",
+   "google_maps_url": "https://www.google.com/maps/search/HDFC+Bank+customer+care/@22.5726,88.3639,12z/data=!3m1!4b1!4m2!2m1!6e5?hl=en",
+   "raw_html_file": "https://serpapi.com/searches/2uAYpGWVrQCyNqDvVb8PZikp2KSjafJSENeFT3x0Arc/6ab553f1af5fdc7c2861788d.html",
+   "prettify_html_file": "https://serpapi.com/searches/2uAYpGWVrQCyNqDvVb8PZikp2KSjafJSENeFT3x0Arc/6ab553f1af5fdc7c2861788d.prettify",
+   "total_time_taken": 2.89
   },
   "search_parameters": {
    "engine": "google_maps",
@@ -30,45 +32,1337 @@
    "google_domain": "google.co.in",
    "hl": "en"
   },
+  "search_information": {
+   "local_results_state": "Results for exact spelling",
+   "query_displayed": "HDFC Bank customer care"
+  },
   "local_results": [
    {
     "position": 1,
-    "title": "HDFC Bank - Kolkata Main Branch",
-    "place_id": "synthetic-hdfc-bank-kolkata-branch",
-    "data_id": "0xc09c9e202c94:0x813e6d889966",
+    "title": "HDFC Bank Home Loan Branch - Kolkata (Sector V)",
+    "place_id": "ChIJT_Db1uN1AjoRjxbYB8SFu8w",
+    "data_id": "0x3a0275e3d6dbf04f:0xccbb85c407d8168f",
+    "data_cid": "14752532081373877903",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x3a0275e3d6dbf04f%3A0xccbb85c407d8168f&engine=google_maps_reviews&hl=en",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x3a0275e3d6dbf04f%3A0xccbb85c407d8168f&engine=google_maps_photos&hl=en",
+    "gps_coordinates": {
+     "latitude": 22.5703054,
+     "longitude": 88.43007539999999
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJT_Db1uN1AjoRjxbYB8SFu8w",
+    "provider_id": "/g/11bzrhtkx6",
+    "rating": 4.8,
+    "reviews": 606,
+    "type": "Loan agency",
+    "types": [
+     "Loan agency"
+    ],
+    "type_id": "loan_agency",
+    "type_ids": [
+     "loan_agency"
+    ],
+    "address": "Ground Floor, Block:, Salt Lake Electronics Complex, Bengal Intelligent Park, Building “Omega, EP & GP, Sector V, Bidhannagar, Kolkata, West Bengal 700091, India",
+    "country": "India",
+    "open_state": "Closed · Opens 9:30 AM Fri",
+    "hours": "Closed · Opens 9:30 AM Fri",
+    "operating_hours": {
+     "thursday": "9:30 AM–3:30 PM",
+     "friday": "9:30 AM–3:30 PM",
+     "saturday": "9:30 AM–3:30 PM",
+     "sunday": "Closed",
+     "monday": "9:30 AM–3:30 PM",
+     "tuesday": "9:30 AM–3:30 PM",
+     "wednesday": "9:30 AM–3:30 PM"
+    },
+    "phone": "+91 1800 210 0018",
+    "website": "https://www.hdfc.bank.in/branch-locator/westbengal/kolkata/hdfcbank-branch-kolkatasaltlakecityhomeloan",
+    "user_review": "\"Thanks to HDFC Bank staffs here for making the process smooth and easy.\"",
+    "thumbnail": "https://lh3.googleusercontent.com/grass-cs/ACvplmO0EBN430KjnMlZlM6kuhZpnbn24_UyEWlH6bBSXstYyiD1nEtei7fdHTvmUgXmMThMmkSO6R-QDUdTr6GPupHeLN4lRf3hTx4pBvdAaqhnezTyXpMR6Sh1QA6pHbC_0V4o2bFk6vsV0VQ=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/OIBANXicHcTNboIwAADgJ0KKNF2yZAdQJomrChRkXoxApY7-SQuKD7m7b2Pid_ie_8xabT5dlzN_1irVcjoY2tdKWirtrFbCbfuTMU5t3GAxai62IAo30AfrP4n5gWPUDeygZSXn8JhP0Z7HqAqz0tjf6bL0ZGTp5ePcxGQUeVsKTBgWXbZFqZMs84b0aLUbdEx_NpCnZ5-RO9Th2ASnK5P0QaZS4xRlzEsCpONqcQQFVPPqu0OjKUCRfN08AIDD3teOfAHNikfI"
+   },
+   {
+    "position": 2,
+    "title": "HDFC Bank Home Loan Branch - Kolkata (Shakespeare Sarani)",
+    "place_id": "ChIJIbVfLBd3AjoRSUuTrKRgUoQ",
+    "data_id": "0x3a0277172c5fb521:0x845260a4ac934b49",
+    "data_cid": "9534789621482998601",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x3a0277172c5fb521%3A0x845260a4ac934b49&engine=google_maps_reviews&hl=en",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x3a0277172c5fb521%3A0x845260a4ac934b49&engine=google_maps_photos&hl=en",
+    "gps_coordinates": {
+     "latitude": 22.545404299999998,
+     "longitude": 88.3482114
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJIbVfLBd3AjoRSUuTrKRgUoQ",
+    "provider_id": "/g/11b5pjz7tq",
+    "rating": 4.5,
+    "reviews": 487,
+    "type": "Loan agency",
+    "types": [
+     "Loan agency"
+    ],
+    "type_id": "loan_agency",
+    "type_ids": [
+     "loan_agency"
+    ],
+    "address": "2nd floor, Brooke House, Shakespeare Sarani, Elgin, Kolkata, West Bengal 700071, India",
+    "country": "India",
+    "open_state": "Closed · Opens 9:30 AM Fri",
+    "hours": "Closed · Opens 9:30 AM Fri",
+    "operating_hours": {
+     "thursday": "9:30 AM–3:30 PM",
+     "friday": "9:30 AM–3:30 PM",
+     "saturday": "9:30 AM–3:30 PM",
+     "sunday": "Closed",
+     "monday": "9:30 AM–3:30 PM",
+     "tuesday": "9:30 AM–3:30 PM",
+     "wednesday": "9:30 AM–3:30 PM"
+    },
+    "phone": "+91 1800 1601",
+    "website": "https://www.hdfc.bank.in/branch-locator/westbengal/kolkata/hdfcbank-branch-brookehousehomeloan",
+    "user_review": "\"Assisted by Ms. Reeti Singh and explained all HDFC norms very well\"",
+    "thumbnail": "https://lh3.googleusercontent.com/grass-cs/ACvplmOs7LcPSVq0CIGrh7uDkFtHmp5InwQEJskNmth3QKJvKGomRrqu9GdBO8Qzjuj5ocMNFT6pX8OkLvmvQHMnMBnfGxT119tNO5rl04k_ce0EpamHRLGhEwoTbgPvwvmeArRppSI=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/x9-yZHicHcRJDoIwAADAFyEliKKJBxcsIIssMd6M1kojdKEtxfhA_-BvTJzDfD9Ea6GWtt0Rd9Jw3nR4UFgizjRmeoI4tRt5VcpCyl5vjehoruYJOlanHmwjKMl82LV7HVLhRWwsgli1GdXELQ6xOUBOS9kPC3jf5H7xfg5Pj6M029czcfbzNjHUFGHK0g17wFftOAud5Z7swLS9IAwCcaVhmUASjLy-NUczGorXshSiilajAwCwyH9ksR_B5UYt"
+   },
+   {
+    "position": 3,
+    "title": "HDFC Bank",
+    "place_id": "ChIJwcpNraV3AjoRPpvKC6evFcQ",
+    "data_id": "0x3a0277a5ad4dcac1:0xc415afa70bca9b3e",
+    "data_cid": "14129392537937025854",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x3a0277a5ad4dcac1%3A0xc415afa70bca9b3e&engine=google_maps_reviews&hl=en",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x3a0277a5ad4dcac1%3A0xc415afa70bca9b3e&engine=google_maps_photos&hl=en",
+    "gps_coordinates": {
+     "latitude": 22.5471276,
+     "longitude": 88.3610513
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJwcpNraV3AjoRPpvKC6evFcQ",
+    "provider_id": "/g/124ynx59t",
+    "rating": 4,
+    "reviews": 116,
+    "type": "Bank",
+    "types": [
+     "Bank",
+     "ATM",
+     "Car finance and loan company",
+     "Financial institution",
+     "Insurance company",
+     "Investment service",
+     "Loan agency",
+     "Private sector bank",
+     "Savings bank"
+    ],
+    "type_id": "bank",
+    "type_ids": [
+     "bank",
+     "atm",
+     "car_finance_and_loan_company",
+     "financial_institution",
+     "insurance_company",
+     "investment_service",
+     "loan_agency",
+     "private_sector_bank",
+     "savings_bank"
+    ],
+    "address": "Patel House, 131, Park St, beside Berger House, Mullick Bazar, Park Street area, Kolkata, West Bengal 700017, India",
+    "country": "India",
+    "open_state": "Closed · Opens 9:30 AM Fri",
+    "hours": "Closed · Opens 9:30 AM Fri",
+    "operating_hours": {
+     "thursday": "9:30 AM–3:30 PM",
+     "friday": "9:30 AM–3:30 PM",
+     "saturday": "9:30 AM–3:30 PM",
+     "sunday": "Closed",
+     "monday": "9:30 AM–3:30 PM",
+     "tuesday": "9:30 AM–3:30 PM",
+     "wednesday": "9:30 AM–3:30 PM"
+    },
+    "phone": "+91 1800 1601",
+    "website": "https://www.hdfc.bank.in/branch-locator/westbengal/kolkata/hdfcbank-branch-parkstreetmallickbazar",
+    "extensions": [
+     {
+      "service_options": [
+       "Drive-through",
+       "Onsite services"
+      ]
+     },
+     {
+      "amenities": [
+       "ATM"
+      ]
+     }
+    ],
+    "unsupported_extensions": [
+     {
+      "accessibility": [
+       "Wheelchair accessible entrance"
+      ]
+     }
+    ],
+    "service_options": {
+     "drive_through": true
+    },
+    "user_review": "\"Customer freindly branch and excellent service from all staff.\"",
+    "thumbnail": "https://lh3.googleusercontent.com/grass-cs/ACvplmMWUJWGZV_iBx8VJ7ehxGr3YgOEa2tM9QJlJGdChEE5uzInq4ECQXJvNZBhPjNXsef0AtgkpCd-eQsHpHr2GLcS5u5yF3GnsV8C275_CY3BWWYAu7LyAOnyYV9baMCS4VoFfa_h=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/pjiHJnicHcRRDoIgAADQE5mmOa2tD2WGsdRcC7MfZ0RQGZhgZRfsDN2mrffxvh-udatmptlwZ8SkZA3tFe2IFJoKPSLyZrKuVsogygzAo21uSbFFBdzj6hy-fIw8yl-wc0qWRbWtk2mOGgSPgEeR27-X4j6JQL5Dj3Qf8vUl3Sl6sgLNri04GjRXcRt3NlyRjdu7w8KBQmEf2J5bgdIJi6IMem81BJkYSjw91AnYTLBcnOqKz59jy7IM_p8Y4gdyYUQ5"
+   },
+   {
+    "position": 4,
+    "title": "HDFC Bank",
+    "place_id": "ChIJAxjgAY13AjoRy9OnQQvGJ_c",
+    "data_id": "0x3a02778d01e01803:0xf727c60b41a7d3cb",
+    "data_cid": "17809421003108373451",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x3a02778d01e01803%3A0xf727c60b41a7d3cb&engine=google_maps_reviews&hl=en",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x3a02778d01e01803%3A0xf727c60b41a7d3cb&engine=google_maps_photos&hl=en",
+    "gps_coordinates": {
+     "latitude": 22.5870255,
+     "longitude": 88.32158749999999
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJAxjgAY13AjoRy9OnQQvGJ_c",
+    "provider_id": "/g/11dz4vwvnc",
     "rating": 4.2,
-    "reviews": 830,
+    "reviews": 87,
+    "type": "Bank",
+    "types": [
+     "Bank",
+     "ATM",
+     "Car finance and loan company",
+     "Financial institution",
+     "Insurance company",
+     "Investment service",
+     "Loan agency",
+     "Private sector bank",
+     "Savings bank"
+    ],
+    "type_id": "bank",
+    "type_ids": [
+     "bank",
+     "atm",
+     "car_finance_and_loan_company",
+     "financial_institution",
+     "insurance_company",
+     "investment_service",
+     "loan_agency",
+     "private_sector_bank",
+     "savings_bank"
+    ],
+    "address": "70, Deshapran Shasmal Rd, Kadam Tala, Howrah, West Bengal 711101, India",
+    "country": "India",
+    "open_state": "Closed · Opens 9:30 AM Fri",
+    "hours": "Closed · Opens 9:30 AM Fri",
+    "operating_hours": {
+     "thursday": "9:30 AM–3:30 PM",
+     "friday": "9:30 AM–3:30 PM",
+     "saturday": "9:30 AM–3:30 PM",
+     "sunday": "Closed",
+     "monday": "9:30 AM–3:30 PM",
+     "tuesday": "9:30 AM–3:30 PM",
+     "wednesday": "9:30 AM–3:30 PM"
+    },
+    "phone": "+91 1800 1601",
+    "website": "https://www.hdfc.bank.in/branch-locator/westbengal/howrah/hdfcbank-branch-howrahpanchanantala",
+    "extensions": [
+     {
+      "service_options": [
+       "Drive-through",
+       "Onsite services"
+      ]
+     },
+     {
+      "amenities": [
+       "ATM"
+      ]
+     }
+    ],
+    "service_options": {
+     "drive_through": true
+    },
+    "user_review": "\"Good service This branch and all time helpful branch manager and all stap\"",
+    "thumbnail": "https://lh3.googleusercontent.com/grass-cs/ACvplmPesSVBT6TlQExalPi2A-t6f2liZN-YtkbW9jiMathOqVUxFna35oodq3Hcnrs56zSfhCV1y2bOPJO4Ze6RB8Dg6qFvKVDFj7_ub9XdWrcB_YHMMT7nJVOntI2xHom7bjQiGmlFiYKWdaBW=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/UuVwiHicHcTBboIwAADQL6ogzDJNPIiOoYaBimV4MaVUWlZaoVXRn_Ts3yzxHd7ryYw564llCeYOKqUqQS-adkRJQ6UZENVYVYe1BkRbs_n1LJqE6h3yU5iKzVePRcKdGTDw5Ah--AG5-Suycc0jbFjcon0fSOyOlCpbNySy0yP42J3YHA3vThEnq_jjQOHW_1xUsA2ua7QIau94Kca_ZdYR_5iHUZR6coViaZZOH6rGK-oN_25EwPN1VmI_m96Gtm0D9p4A-Q8Yg0gs"
+   },
+   {
+    "position": 5,
+    "title": "HDFC Bank",
+    "place_id": "ChIJpZkoIK51AjoROElfJGGqNPU",
+    "data_id": "0x3a0275ae202899a5:0xf534aa61245f4938",
+    "data_cid": "17668934572280072504",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x3a0275ae202899a5%3A0xf534aa61245f4938&engine=google_maps_reviews&hl=en",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x3a0275ae202899a5%3A0xf534aa61245f4938&engine=google_maps_photos&hl=en",
+    "gps_coordinates": {
+     "latitude": 22.5720232,
+     "longitude": 88.43079829999999
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJpZkoIK51AjoROElfJGGqNPU",
+    "provider_id": "/g/11c0q0dpc4",
+    "rating": 3.6,
+    "reviews": 61,
+    "type": "Bank",
+    "types": [
+     "Bank",
+     "ATM",
+     "Car finance and loan company",
+     "Financial institution",
+     "Insurance company",
+     "Investment service",
+     "Loan agency",
+     "Private sector bank",
+     "Savings bank"
+    ],
+    "type_id": "bank",
+    "type_ids": [
+     "bank",
+     "atm",
+     "car_finance_and_loan_company",
+     "financial_institution",
+     "insurance_company",
+     "investment_service",
+     "loan_agency",
+     "private_sector_bank",
+     "savings_bank"
+    ],
+    "address": "Asyst Park, GN 37/1, Salt Lake Bypass, GN Block, Sector V, Kolkata, Bidhannagar, West Bengal 700091, India",
+    "country": "India",
+    "open_state": "Closed · Opens 9:30 AM Fri",
+    "hours": "Closed · Opens 9:30 AM Fri",
+    "operating_hours": {
+     "thursday": "9:30 AM–3:30 PM",
+     "friday": "9:30 AM–3:30 PM",
+     "saturday": "9:30 AM–3:30 PM",
+     "sunday": "Closed",
+     "monday": "9:30 AM–3:30 PM",
+     "tuesday": "9:30 AM–3:30 PM",
+     "wednesday": "9:30 AM–3:30 PM"
+    },
+    "phone": "+91 1800 1601",
+    "website": "https://www.hdfc.bank.in/branch-locator/westbengal/kolkata/hdfcbank-branch-asystparksectorv",
+    "extensions": [
+     {
+      "service_options": [
+       "Drive-through",
+       "Onsite services"
+      ]
+     },
+     {
+      "accessibility": [
+       "Wheelchair accessible parking lot"
+      ]
+     },
+     {
+      "amenities": [
+       "ATM"
+      ]
+     }
+    ],
+    "service_options": {
+     "drive_through": true
+    },
+    "user_review": "\"Very user friendly and co-operative branch.\"",
+    "thumbnail": "https://lh3.googleusercontent.com/grass-cs/ACvplmOJJBcbVkliahdbaduLY6O7LBOAdyNx-9mzMtwYRZKJ5JyxO3hYSKjRszoHDlcIHNZweiIbLNbrPXLwh-9Vcsh-MKZqT2vnjo7npU8TCT5Lt5Hr93hrfGvfLN_aRx40KELLC4YR4Tg3z8qL=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/tZSKTXicHcRBjoIwFADQE1VwAJVJXCgaEb5gGDTCxkBBqpYW2wrIJWftbUx8i_f-J0o18lfTKDFGFecVLZ-yFJgzVTI1wrzWKpFJibDUFk7b0Dr0vCXOj3d6zUiRZ8UTkkk4hWW4KF5Bj-x62KkuiVLfs7xXHxok-fNvkRy4u6J46wZpV163OQS52J-gI8g-YknQzk8f8U_LbnzKmsMsdmILlOUK2yDismkvEJyzqDd1fw3gmElkxpUxzB4w78a6riPyHSP2AVlASC8"
+   },
+   {
+    "position": 6,
+    "title": "HDFC Bank",
+    "place_id": "ChIJNZLwdmN2AjoRJhjR3fM42ks",
+    "data_id": "0x3a02766376f09235:0x4bda38f3ddd11826",
+    "data_cid": "5465743717817194534",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x3a02766376f09235%3A0x4bda38f3ddd11826&engine=google_maps_reviews&hl=en",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x3a02766376f09235%3A0x4bda38f3ddd11826&engine=google_maps_photos&hl=en",
+    "gps_coordinates": {
+     "latitude": 22.5661707,
+     "longitude": 88.38942689999999
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJNZLwdmN2AjoRJhjR3fM42ks",
+    "provider_id": "/g/11df76n96x",
+    "rating": 3.8,
+    "reviews": 38,
+    "type": "Bank",
+    "types": [
+     "Bank",
+     "ATM",
+     "Car finance and loan company",
+     "Financial institution",
+     "Insurance company",
+     "Investment service",
+     "Loan agency",
+     "Private sector bank",
+     "Savings bank"
+    ],
+    "type_id": "bank",
+    "type_ids": [
+     "bank",
+     "atm",
+     "car_finance_and_loan_company",
+     "financial_institution",
+     "insurance_company",
+     "investment_service",
+     "loan_agency",
+     "private_sector_bank",
+     "savings_bank"
+    ],
+    "address": "149, Raja Rajendra Lal Mitra Rd, Subhas Sarobar Park, Phoolbagan, Beleghata, Kolkata, West Bengal 700010, India",
+    "country": "India",
+    "open_state": "Closed · Opens 9:30 AM Fri",
+    "hours": "Closed · Opens 9:30 AM Fri",
+    "operating_hours": {
+     "thursday": "9:30 AM–3:30 PM",
+     "friday": "9:30 AM–3:30 PM",
+     "saturday": "9:30 AM–3:30 PM",
+     "sunday": "Closed",
+     "monday": "9:30 AM–3:30 PM",
+     "tuesday": "9:30 AM–3:30 PM",
+     "wednesday": "9:30 AM–3:30 PM"
+    },
+    "phone": "+91 1800 1601",
+    "website": "https://www.hdfc.bank.in/branch-locator/westbengal/kolkata/hdfcbank-branch-beliaghata",
+    "extensions": [
+     {
+      "service_options": [
+       "Drive-through",
+       "Onsite services"
+      ]
+     },
+     {
+      "amenities": [
+       "ATM"
+      ]
+     }
+    ],
+    "service_options": {
+     "drive_through": true
+    },
+    "user_review": "\"Best service and employee behavior is very good\"",
+    "thumbnail": "https://lh3.googleusercontent.com/grass-cs/ACvplmMLdCcxQEznUGQcJrbwo_GS2CvAGHyHldiGjP3c0DkgA4-AON53TS3wYYu8XZlIhEyROXe_TwjndV8_c654gNqZ9fwb8jIlgPNTEvAE5yM2Ldk8CGnmC5UqBOvaWpQurYsD2VvOhsUq6aKm=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/TVt4FnicHcTBboIwAADQL0IYiGFLdqiVVKeCTHDihWDBViwtUGjFn_Ts35jsHd7rSfu-kV-myagzIUIQVg6y7LDgfcn7CRa1SbpcSgNLE0DVsHq7KSC-R_6DJyjCP91ZiwztbagAWo5LVlxRtXOwtbgRMDVAGLhOvHd0mg7e8cRW1B9_w2OZxbrixcHL8MydkqA9fV702atWjOyC2FfAd8etvSluHkS8hm7SzkOV_zXR0KVyYR9USGXSzvJ1_a0_LMsy6P_Y4G_6gUgX"
+   },
+   {
+    "position": 7,
+    "title": "HDFC Bank",
+    "place_id": "ChIJXbgeQY93AjoRBIupsaOPRlw",
+    "data_id": "0x3a02778f411eb85d:0x5c468fa3b1a98b04",
+    "data_cid": "6649159833082235652",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x3a02778f411eb85d%3A0x5c468fa3b1a98b04&engine=google_maps_reviews&hl=en",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x3a02778f411eb85d%3A0x5c468fa3b1a98b04&engine=google_maps_photos&hl=en",
+    "gps_coordinates": {
+     "latitude": 22.573986299999998,
+     "longitude": 88.32866369999999
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJXbgeQY93AjoRBIupsaOPRlw",
+    "provider_id": "/g/1ptw2r5kz",
+    "rating": 3.4,
+    "reviews": 53,
     "type": "Bank",
     "types": [
      "Bank"
     ],
-    "address": "MG Road, Kolkata",
-    "gps_coordinates": {
-     "latitude": 21.845124016636028,
-     "longitude": 81.34753159859865
+    "type_id": "bank",
+    "type_ids": [
+     "bank"
+    ],
+    "address": "No 493, C/A, GT Rd, Vivek Vihar, Choura Bustee, Shibpur, Howrah, West Bengal 711102, India",
+    "country": "India",
+    "open_state": "Closed · Opens 9:30 AM Fri",
+    "hours": "Closed · Opens 9:30 AM Fri",
+    "operating_hours": {
+     "thursday": "9:30 AM–3:30 PM",
+     "friday": "9:30 AM–3:30 PM",
+     "saturday": "9:30 AM–3:30 PM",
+     "sunday": "Closed",
+     "monday": "9:30 AM–3:30 PM",
+     "tuesday": "9:30 AM–3:30 PM",
+     "wednesday": "9:30 AM–3:30 PM"
     },
-    "phone": "1800 1600 1600",
-    "website": "https://www.hdfcbank.com/"
+    "phone": "+91 1800 1601",
+    "website": "https://www.hdfc.bank.in/branch-locator/westbengal/howrah/hdfcbank-branch-howrahshibpur",
+    "extensions": [
+     {
+      "service_options": [
+       "Drive-through",
+       "Onsite services"
+      ]
+     },
+     {
+      "amenities": [
+       "ATM"
+      ]
+     }
+    ],
+    "service_options": {
+     "drive_through": true
+    },
+    "user_review": "\"Employees are very supportive.\"",
+    "thumbnail": "https://lh3.googleusercontent.com/grass-cs/ACvplmNTWU6_-deh9apBukGAjNsaIIsVEgMZ-5n2fXvnl2f2YlWY5dYRF7onmWuS_M8bkZee0N0MUsX-SRNjnkRasgMVeXTo6E_rgTbvlMkM-eNlJwGWGwta1LXYWtPIsCnk3TSQERZVZiqIMl49=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/vH2g2XicHcTdboIwGADQJ6pUnH9LvFDDCIttNkAK3JCKtcyWFvkKPOaufRsTz8V5_jfOdfDpebpZzKS1UosBRF9b44Rxs9q2nuw5AKrB2x_HTrc0ZedVha6i2fLuMKhwf6fAowiyQJISLY1_y0ej_ZtfaFYsr0X8tbamZUNSkc1FlUJgiskZcpTE9G5UzEGSTOSpXQVVL9PLqIkiSFD9PYUsnByfn_KCuZ8IjkYt0uQ3iMus_HtERH9sd9McY4ya9zUyLycRSHY"
    },
    {
-    "position": 1,
-    "title": "HDFC Bank Customer Care Number",
-    "place_id": "synthetic-hdfc-bank-kolkata-care",
-    "data_id": "0x82f681235142:0x3a174ba1a8e5",
-    "rating": 5.0,
-    "reviews": 3,
-    "type": "Customer service",
-    "types": [
-     "Customer service"
-    ],
-    "address": "Sector 12, Kolkata",
+    "position": 8,
+    "title": "HDFC Bank",
+    "place_id": "ChIJ0yzfDWV2AjoRmV27UszhI_s",
+    "data_id": "0x3a0276650ddf2cd3:0xfb23e1cc52bb5d99",
+    "data_cid": "18096555995382373785",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x3a0276650ddf2cd3%3A0xfb23e1cc52bb5d99&engine=google_maps_reviews&hl=en",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x3a0276650ddf2cd3%3A0xfb23e1cc52bb5d99&engine=google_maps_photos&hl=en",
     "gps_coordinates": {
-     "latitude": 14.443929055712466,
-     "longitude": 77.54393816813567
+     "latitude": 22.5779149,
+     "longitude": 88.3901047
     },
-    "phone": "+91 74110 29385",
-    "unclaimed_listing": true
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJ0yzfDWV2AjoRmV27UszhI_s",
+    "provider_id": "/g/1ptybsssk",
+    "rating": 3.4,
+    "reviews": 42,
+    "type": "Bank",
+    "types": [
+     "Bank"
+    ],
+    "type_id": "bank",
+    "type_ids": [
+     "bank"
+    ],
+    "address": "No P/313, Scheme No 6, M.C.I.T Rd, near Kakurgachi Post Office, Phoolbagan, Kankurgachi, Kolkata, West Bengal 700054, India",
+    "country": "India",
+    "open_state": "Closed · Opens 9:30 AM Fri",
+    "hours": "Closed · Opens 9:30 AM Fri",
+    "operating_hours": {
+     "thursday": "9:30 AM–3:30 PM",
+     "friday": "9:30 AM–3:30 PM",
+     "saturday": "9:30 AM–3:30 PM",
+     "sunday": "Closed",
+     "monday": "9:30 AM–3:30 PM",
+     "tuesday": "9:30 AM–3:30 PM",
+     "wednesday": "9:30 AM–3:30 PM"
+    },
+    "phone": "+91 1800 1601",
+    "website": "https://www.hdfc.bank.in/branch-locator/westbengal/kolkata/hdfcbank-branch-kakurgachi",
+    "extensions": [
+     {
+      "service_options": [
+       "Drive-through",
+       "Onsite services"
+      ]
+     },
+     {
+      "amenities": [
+       "ATM"
+      ]
+     }
+    ],
+    "unsupported_extensions": [
+     {
+      "accessibility": [
+       "Wheelchair accessible entrance"
+      ]
+     }
+    ],
+    "service_options": {
+     "drive_through": true
+    },
+    "user_review": "\"Great service and very much customer friendly\"",
+    "thumbnail": "https://lh3.googleusercontent.com/grass-cs/ACvplmM1x-pHHncY8FFO4CctZtinn-9L8WFemo7MAMggJrex99sToLvTsn6hu6UdndP7t0L2Ef7qH8OZspTTWw-PbmM4zdYFU7zciGZ8iZWhumi8Z4cmbg4UaFRZPze8lSk8JI4r5ko5Tw=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/qy2QoHicHcRRDoIgAADQE5FWlNjWR3ORNV2ucE7-EglcAiaYzRt2hG7T1vt43490rrMbz2vlciaMES0fLO-Z0Y5rN2NGeaK_WQuY9XbRq2tVOn-DLo41KxHGZxgxR12jNQgTVGCuTJDuUiFOPX-HoSUmeRGr13JY57Wus8D5yWJ_D54xOlPbEVKMIKtUCqe6xHkwseZAUUMLOagGUchUJWB-wxeaTRy11wc6HWG_epgVGbfj3Pd9IP8zoH9A_EYC"
+   },
+   {
+    "position": 9,
+    "title": "HDFC Bank",
+    "place_id": "ChIJwcpNraV3AjoRuXUGS8upnuQ",
+    "data_id": "0x3a0277a5ad4dcac1:0xe49ea9cb4b0675b9",
+    "data_cid": "16473791177570022841",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x3a0277a5ad4dcac1%3A0xe49ea9cb4b0675b9&engine=google_maps_reviews&hl=en",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x3a0277a5ad4dcac1%3A0xe49ea9cb4b0675b9&engine=google_maps_photos&hl=en",
+    "gps_coordinates": {
+     "latitude": 22.539286699999998,
+     "longitude": 88.35503159999999
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJwcpNraV3AjoRuXUGS8upnuQ",
+    "provider_id": "/g/12q4pwfm7",
+    "rating": 4.2,
+    "reviews": 133,
+    "type": "Bank",
+    "types": [
+     "Bank"
+    ],
+    "type_id": "bank",
+    "type_ids": [
+     "bank"
+    ],
+    "address": "Minto Park, Central Plaza, Sarat Bose Rd, Sreepally, Ballygunge, Kolkata, West Bengal 700020, India",
+    "country": "India",
+    "open_state": "Closed · Opens 9:30 AM Fri",
+    "hours": "Closed · Opens 9:30 AM Fri",
+    "operating_hours": {
+     "thursday": "9:30 AM–3:30 PM",
+     "friday": "9:30 AM–3:30 PM",
+     "saturday": "9:30 AM–3:30 PM",
+     "sunday": "Closed",
+     "monday": "9:30 AM–3:30 PM",
+     "tuesday": "9:30 AM–3:30 PM",
+     "wednesday": "9:30 AM–3:30 PM"
+    },
+    "phone": "+91 1800 1601",
+    "website": "https://near-me.hdfcbank.com/branch-atm-locator/hdfc-bank-central-plaza-banks-central-plaza-kolkata-6964/Home?utm_source=locator&utm_medium=googleplaces",
+    "extensions": [
+     {
+      "service_options": [
+       "Drive-through",
+       "Onsite services"
+      ]
+     },
+     {
+      "accessibility": [
+       "Wheelchair accessible entrance",
+       "Wheelchair accessible parking lot"
+      ]
+     },
+     {
+      "amenities": [
+       "ATM"
+      ]
+     }
+    ],
+    "service_options": {
+     "drive_through": true
+    },
+    "user_review": "\"Clean and good quality bank.\"",
+    "thumbnail": "https://lh3.googleusercontent.com/grass-cs/ACvplmNc48Evv0gJH5fy5OEZaFTOG5gFZ3kiVKYdoJAPx3n8W5z382dY0fufUWBwG9NAF6ZxuBCh6DIiVvU1WDlciQ5AWmv9wsyBNH9_ySHf3Dbv6v5-LN-xPWwwPrtPFr4zoWd41Bh_bpCxCQO7=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/--rIYHicHcTNboIwAADgJ6qUlSIs2YEfkbkFMJs2cjFaoCUCJbS04EvuvLdZsu_w_f5wpUb5alkdRxsmBOvqWdYTFYOqB7WhorfYdJMSUGkFkR67PqOOt9MaskOKmxXnu_KWfOd7zJISPdrzx6USh6BY0OAR_ETeS3WBzdycSGj2fhYkbrnMYcTd-L0965NN4o62RxyQXvtGrmGW-tf1K21QfNeuxuAzA0tBjCkmVSST8xSkcuyQX-9jtETHfPtmbAgh4P9TMPwBZgJGqw"
+   },
+   {
+    "position": 10,
+    "title": "HDFC Bank",
+    "place_id": "ChIJnU-raqV3AjoRcyxkhByNlOA",
+    "data_id": "0x3a0277a56aab4f9d:0xe0948d1c84642c73",
+    "data_cid": "16182714514668792947",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x3a0277a56aab4f9d%3A0xe0948d1c84642c73&engine=google_maps_reviews&hl=en",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x3a0277a56aab4f9d%3A0xe0948d1c84642c73&engine=google_maps_photos&hl=en",
+    "gps_coordinates": {
+     "latitude": 22.575330899999997,
+     "longitude": 88.351871
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJnU-raqV3AjoRcyxkhByNlOA",
+    "provider_id": "/g/1q67czyqv",
+    "rating": 2.6,
+    "reviews": 66,
+    "type": "Bank",
+    "types": [
+     "Bank"
+    ],
+    "type_id": "bank",
+    "type_ids": [
+     "bank"
+    ],
+    "address": "Brabourne Rd, next to Tea Board, Chitpur, Barabazar Market, Kolkata, West Bengal 700001, India",
+    "country": "India",
+    "open_state": "Closed · Opens 9:30 AM Fri",
+    "hours": "Closed · Opens 9:30 AM Fri",
+    "operating_hours": {
+     "thursday": "9:30 AM–3:30 PM",
+     "friday": "9:30 AM–3:30 PM",
+     "saturday": "9:30 AM–3:30 PM",
+     "sunday": "Closed",
+     "monday": "9:30 AM–3:30 PM",
+     "tuesday": "9:30 AM–3:30 PM",
+     "wednesday": "9:30 AM–3:30 PM"
+    },
+    "phone": "+91 1800 1601",
+    "website": "https://www.hdfc.bank.in/branch-locator/westbengal/kolkata/hdfcbank-branch-indiaexchangeplace",
+    "extensions": [
+     {
+      "service_options": [
+       "Drive-through",
+       "Onsite services"
+      ]
+     },
+     {
+      "amenities": [
+       "ATM"
+      ]
+     }
+    ],
+    "service_options": {
+     "drive_through": true
+    },
+    "user_review": "\"Good staff behaviour..tellers counter people also very helpful\"",
+    "thumbnail": "https://lh3.googleusercontent.com/grass-cs/ACvplmMH2NapnxwMwlJgQwHsdyWaGDAalfXhUgE3BIGkHyAIJ2__cNcwgbwiVNSN9-TVzIPBxgAMGTDlPH0-Iv5B8gRYax_-flnD8lFOg9PlcXXrWECkPOFJLCILwHaZzwPSAjoQv1IVVFqARWXz=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/QGeTgHicHcTdboIwGADQJ6qgZoku8aKA0BLB-jNg3pDaYZl-towyirzkrvc2Jp6L8_9Xd11j3h0H6vlEai2h-jVVK7TqKtVNhL47suXGIGEc7PcN3BMyS3mjBptYiOXOEvP1yHkUYA6Xov6Q67lHoxt5YBrPylKkwsqz_c7SQ7pEx2ykzBskTqJjAIy4iPZv3kLuP_lQoguoYAHhVi4ZiKJo87V_Y9sw3vh0Ywk_jZYd8FXv-inNsvAH7_NiXNmp67qofi2QegI300gr"
+   },
+   {
+    "position": 11,
+    "title": "HDFC Bank",
+    "place_id": "ChIJBQrbL2oH6DsRHCzj7WAbBeA",
+    "data_id": "0x3be8076a2fdb0a05:0xe0051b60ede32c1c",
+    "data_cid": "16142338542501309468",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x3be8076a2fdb0a05%3A0xe0051b60ede32c1c&engine=google_maps_reviews&hl=en",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x3be8076a2fdb0a05%3A0xe0051b60ede32c1c&engine=google_maps_photos&hl=en",
+    "gps_coordinates": {
+     "latitude": 22.5769709,
+     "longitude": 88.3501926
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJBQrbL2oH6DsRHCzj7WAbBeA",
+    "provider_id": "/g/1ptwdvdn0",
+    "rating": 4.4,
+    "reviews": 137,
+    "type": "Bank",
+    "types": [
+     "Bank",
+     "ATM",
+     "Car finance and loan company",
+     "Financial institution",
+     "Insurance company",
+     "Investment service",
+     "Loan agency",
+     "Private sector bank",
+     "Savings bank"
+    ],
+    "type_id": "bank",
+    "type_ids": [
+     "bank",
+     "atm",
+     "car_finance_and_loan_company",
+     "financial_institution",
+     "insurance_company",
+     "investment_service",
+     "loan_agency",
+     "private_sector_bank",
+     "savings_bank"
+    ],
+    "address": "No 4, Jardine House, Clive Row, Murgighata, B.B.D. Bagh, Kolkata, West Bengal 700001, India",
+    "country": "India",
+    "open_state": "Closed · Opens 9:30 AM Fri",
+    "hours": "Closed · Opens 9:30 AM Fri",
+    "operating_hours": {
+     "thursday": "9:30 AM–3:30 PM",
+     "friday": "9:30 AM–3:30 PM",
+     "saturday": "9:30 AM–3:30 PM",
+     "sunday": "Closed",
+     "monday": "9:30 AM–3:30 PM",
+     "tuesday": "9:30 AM–3:30 PM",
+     "wednesday": "9:30 AM–3:30 PM"
+    },
+    "phone": "+91 1800 1601",
+    "website": "https://www.hdfc.bank.in/branch-locator/westbengal/kolkata/hdfcbank-branch-dalhousiecliverow",
+    "extensions": [
+     {
+      "service_options": [
+       "Drive-through",
+       "Onsite services"
+      ]
+     },
+     {
+      "amenities": [
+       "ATM"
+      ]
+     }
+    ],
+    "unsupported_extensions": [
+     {
+      "accessibility": [
+       "Wheelchair accessible entrance"
+      ]
+     }
+    ],
+    "service_options": {
+     "drive_through": true
+    },
+    "user_review": "\"Good..neat & clean branch.Good support by staffs\"",
+    "thumbnail": "https://lh3.googleusercontent.com/grass-cs/ACvplmMAxgnu7oVCjcEkLxolFhVqCRk5FIzg88v0MBnBc_j9GCdnm4jr9fXZQV5ThmC0GjvARQewn02emqk7Jbj13CiUzwXXfzYYOOuMQ1bJMBUAw0lUq36TbiSYjpoS_b5qNiP1aupz=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/UQX833icHcRJDoIwAADAFyFFxC3xAI0ajaioEPBCpNaW0gUoi-GDvsHfmDiH-X5o05R6aZqc2iOiFOG41bhGSjZYNiOkhEnqh9YG0qYLu5IL330T2c5UBBlaF4e34hsaVfBSOJvdQObzDvie9FDKFlv4lGLC6sUrvgeRc6MCgi3r3EuAewnGWFTFbJ8xy4Z5OPRx_BqS5HRq_cDK9r4Xuj3gYWVPb1l-TViprmnmVMf8bD3aclj1FgDAoP-RIX8E5EYl"
+   },
+   {
+    "position": 12,
+    "title": "HDFC Bank",
+    "place_id": "ChIJBxu526R3AjoRPsJ-RzupgN8",
+    "data_id": "0x3a0277a4dbb91b07:0xdf80a93b477ec23e",
+    "data_cid": "16105058339544547902",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x3a0277a4dbb91b07%3A0xdf80a93b477ec23e&engine=google_maps_reviews&hl=en",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x3a0277a4dbb91b07%3A0xdf80a93b477ec23e&engine=google_maps_photos&hl=en",
+    "gps_coordinates": {
+     "latitude": 22.5743692,
+     "longitude": 88.35005249999999
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJBxu526R3AjoRPsJ-RzupgN8",
+    "provider_id": "/g/1pzsf1q1k",
+    "rating": 4.5,
+    "reviews": 28,
+    "type": "Bank",
+    "types": [
+     "Bank",
+     "ATM",
+     "Car finance and loan company",
+     "Financial institution",
+     "Insurance company",
+     "Investment service",
+     "Loan agency",
+     "Private sector bank",
+     "Savings bank"
+    ],
+    "type_id": "bank",
+    "type_ids": [
+     "bank",
+     "atm",
+     "car_finance_and_loan_company",
+     "financial_institution",
+     "insurance_company",
+     "investment_service",
+     "loan_agency",
+     "private_sector_bank",
+     "savings_bank"
+    ],
+    "address": "1st Floor, Megacity Chambers 1 India Exchange Place, Lyons Range, Kolkata, West Bengal 700001, India",
+    "country": "India",
+    "open_state": "Closed · Opens 9:30 AM Fri",
+    "hours": "Closed · Opens 9:30 AM Fri",
+    "operating_hours": {
+     "thursday": "9:30 AM–3:30 PM",
+     "friday": "9:30 AM–3:30 PM",
+     "saturday": "9:30 AM–3:30 PM",
+     "sunday": "Closed",
+     "monday": "9:30 AM–3:30 PM",
+     "tuesday": "9:30 AM–3:30 PM",
+     "wednesday": "9:30 AM–3:30 PM"
+    },
+    "phone": "+91 1800 1601",
+    "website": "https://www.hdfc.bank.in/branch-locator/westbengal/kolkata/hdfcbank-branch-lyonsrange",
+    "extensions": [
+     {
+      "service_options": [
+       "Drive-through",
+       "Onsite services"
+      ]
+     },
+     {
+      "amenities": [
+       "ATM"
+      ]
+     }
+    ],
+    "unsupported_extensions": [
+     {
+      "accessibility": [
+       "Wheelchair accessible entrance"
+      ]
+     }
+    ],
+    "service_options": {
+     "drive_through": true
+    },
+    "user_review": "\"Excellent service and well organized branch.\"",
+    "thumbnail": "https://lh3.googleusercontent.com/grass-cs/ACvplmPhDTSZ1WcsonIhneos0CWQAPUuK4SzC0opGF8lUhuELIoIfROhFDoBBO1Kp3pNU8uq8Qg9F_6m_AUI6UG4R0PKxQ2g_KPirXwe52wJVp4VEABSOYGrnUFNc9J-fJZzmSWqSwqgerriTBUo=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/4l5u3XicHcTBCoIwGADgJzJnWVjQQS1FjdTWsrpIjLUFun9umtFLdu5tgr7D9_2IvldmZduNmE04AG_YYJimIHsm-wmF1ub6ZoxFje2HT9W0hdgc8dWpqAGZCMnAoLAq_YIMmYvfIQIVR15DxLDdJZDcD7mINhAEuZOpmdoTb-i8ki-jetHWPkkWJHYPqMhe5ZTXWfHQ55HNp2N6Uu5p6wc4v8RakmhPl6l1T6_vFlcdHjvOtH4cAwLr0UEIWeI_teQPx7FHjg"
+   },
+   {
+    "position": 13,
+    "title": "HDFC Bank",
+    "place_id": "ChIJrZB5c0GT-DkRhrhMRPPT19g",
+    "data_id": "0x39f89341737990ad:0xd8d7d3f3444cb886",
+    "data_cid": "15625190473961617542",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x39f89341737990ad%3A0xd8d7d3f3444cb886&engine=google_maps_reviews&hl=en",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x39f89341737990ad%3A0xd8d7d3f3444cb886&engine=google_maps_photos&hl=en",
+    "gps_coordinates": {
+     "latitude": 22.5698182,
+     "longitude": 88.33106389999999
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJrZB5c0GT-DkRhrhMRPPT19g",
+    "provider_id": "/g/11jnvpp711",
+    "rating": 3,
+    "reviews": 23,
+    "type": "Bank",
+    "types": [
+     "Bank",
+     "ATM",
+     "Car finance and loan company",
+     "Financial institution",
+     "Insurance company",
+     "Investment service",
+     "Loan agency",
+     "Private sector bank",
+     "Savings bank"
+    ],
+    "type_id": "bank",
+    "type_ids": [
+     "bank",
+     "atm",
+     "car_finance_and_loan_company",
+     "financial_institution",
+     "insurance_company",
+     "investment_service",
+     "loan_agency",
+     "private_sector_bank",
+     "savings_bank"
+    ],
+    "address": "No 55, Ground Floor, Bandel Station Road, Choura Bustee, Chinsura, Bandel, Howrah, West Bengal 711102, India",
+    "country": "India",
+    "open_state": "Closed · Opens 9:30 AM Fri",
+    "hours": "Closed · Opens 9:30 AM Fri",
+    "operating_hours": {
+     "thursday": "9:30 AM–3:30 PM",
+     "friday": "9:30 AM–3:30 PM",
+     "saturday": "9:30 AM–3:30 PM",
+     "sunday": "Closed",
+     "monday": "9:30 AM–3:30 PM",
+     "tuesday": "9:30 AM–3:30 PM",
+     "wednesday": "9:30 AM–3:30 PM"
+    },
+    "phone": "+91 1800 1601",
+    "website": "https://www.hdfc.bank.in/branch-locator/westbengal/hooghly/hdfcbank-branch-bandel",
+    "extensions": [
+     {
+      "service_options": [
+       "Drive-through"
+      ]
+     },
+     {
+      "accessibility": [
+       "Wheelchair accessible parking lot"
+      ]
+     },
+     {
+      "amenities": [
+       "ATM"
+      ]
+     }
+    ],
+    "service_options": {
+     "drive_through": true
+    },
+    "thumbnail": "https://lh3.googleusercontent.com/grass-cs/ACvplmPOUkql1HD4sp4_eHNpmsGRMnhaQWN60twYRehUHHCMe8Q-Fed5T46kUqeaex_TTN_KQKHgluZZZqrKcMHUn0vmLsptVJhThqxhQ-xqKHWyscKhb8FaKaAv0akAWO1CPGYYGgk8EQ=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/FnEWYXicHcRRboMgGADgE1Exc41p0gfjVsmYtjQ6oy-GMcKfiAhCrTtij9DbLNn38D0fEIL1hyjS8LJT86y0vHm5iNkEacJOzFOkFu49Ej7K8tXq6XJuRqdj8pZ4mwySVHbyxbU0wFlb7XG4d1cJDSF5KVOGTvLntU72Y-Mkl9tQ19VAGSVK3_q-dwsVJWkMXqdPb8PXB9TgNmBoc5S0v15Q-E5PnPJsxXzM2nOcX4quK9SYvrPjPcYYI_hfIPMHiwpGnA"
+   },
+   {
+    "position": 14,
+    "title": "HDFC Bank",
+    "place_id": "ChIJJdmPRRd4AjoRkNlR4r28qvg",
+    "data_id": "0x3a027817458fd925:0xf8aabcbde251d990",
+    "data_cid": "17918341591178795408",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x3a027817458fd925%3A0xf8aabcbde251d990&engine=google_maps_reviews&hl=en",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x3a027817458fd925%3A0xf8aabcbde251d990&engine=google_maps_photos&hl=en",
+    "gps_coordinates": {
+     "latitude": 22.586886,
+     "longitude": 88.3170318
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJJdmPRRd4AjoRkNlR4r28qvg",
+    "provider_id": "/g/11lnp19wtg",
+    "rating": 4.8,
+    "reviews": 26,
+    "type": "Bank",
+    "types": [
+     "Bank",
+     "ATM",
+     "Car finance and loan company",
+     "Financial institution",
+     "Insurance company",
+     "Investment service",
+     "Loan agency",
+     "Private sector bank",
+     "Savings bank"
+    ],
+    "type_id": "bank",
+    "type_ids": [
+     "bank",
+     "atm",
+     "car_finance_and_loan_company",
+     "financial_institution",
+     "insurance_company",
+     "investment_service",
+     "loan_agency",
+     "private_sector_bank",
+     "savings_bank"
+    ],
+    "address": "Ground Floor, Premises No 58/1, Ashim Roy Sarani, Kadamtala, Bantra, Ichapur, Howrah, West Bengal 711101, India",
+    "country": "India",
+    "phone": "+91 1800 1601",
+    "website": "https://near-me.hdfcbank.com/branch-atm-locator/hdfc-bank-kadamtala-banks-bantra-howrah-260640/Home?utm_source=locator&utm_medium=googleplaces",
+    "extensions": [
+     {
+      "service_options": [
+       "Drive-through"
+      ]
+     }
+    ],
+    "service_options": {
+     "drive_through": true
+    },
+    "user_review": "\"All staffs are cooperative\"",
+    "thumbnail": "https://lh3.googleusercontent.com/grass-cs/ACvplmOQJufEqXbCYFITEFJbkGl9FMhhVC5KUds37YiqvOppLmnm229ow37nbcAnent1RZqyHhXy5nj12ayq4Z5vLkGurjoCMby1JUd4-NqTdJmbA-KG15xeWQ7md0yTRADPZPoZ9ZEx8SnrmZVA=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/CAiQIHicHcxLcoIwAADQE0UIyCCd6SKDQMUfWPxlZwIlKkkIATSndN3btOPmLd_vi_V9qz8sq2HupJaybqpBVx2Voq9EP6GSW3V30RpQbaFwbBu-zdPhJ1InEp7jRRHFKbknTRCvGTuE3nJfatc_X9W4bdsVF9xxAvlwfUEoEv8h3GFlvtjJeOIGnYtRU-yNq3sydDcZromB6b6cgo0qypQTBJYJ9J7VMfd5aZtih-YZziQOcPScfYuO4wP6fEDbtgF7S4H4AxlvSAo"
+   },
+   {
+    "position": 15,
+    "title": "HDFC Bank",
+    "place_id": "ChIJjQxcHax3AjoRPSaHi7uTMTQ",
+    "data_id": "0x3a0277ac1d5c0c8d:0x343193bb8b87263d",
+    "data_cid": "3760949597540132413",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x3a0277ac1d5c0c8d%3A0x343193bb8b87263d&engine=google_maps_reviews&hl=en",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x3a0277ac1d5c0c8d%3A0x343193bb8b87263d&engine=google_maps_photos&hl=en",
+    "gps_coordinates": {
+     "latitude": 22.5769332,
+     "longitude": 88.3642993
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJjQxcHax3AjoRPSaHi7uTMTQ",
+    "provider_id": "/g/1ptvzhpmm",
+    "rating": 3.3,
+    "reviews": 54,
+    "type": "Bank",
+    "types": [
+     "Bank"
+    ],
+    "type_id": "bank",
+    "type_ids": [
+     "bank"
+    ],
+    "address": "No 57, Mahatma Gandhi Rd, College Square West, College Row, College Street, Kolkata, West Bengal 700073, India",
+    "country": "India",
+    "open_state": "Closed · Opens 9:30 AM Fri",
+    "hours": "Closed · Opens 9:30 AM Fri",
+    "operating_hours": {
+     "thursday": "9:30 AM–3:30 PM",
+     "friday": "9:30 AM–3:30 PM",
+     "saturday": "9:30 AM–3:30 PM",
+     "sunday": "Closed",
+     "monday": "9:30 AM–3:30 PM",
+     "tuesday": "9:30 AM–3:30 PM",
+     "wednesday": "9:30 AM–3:30 PM"
+    },
+    "website": "https://www.hdfc.bank.in/branch-locator/westbengal/kolkata/hdfcbank-branch-collegestreet",
+    "extensions": [
+     {
+      "service_options": [
+       "Drive-through",
+       "Onsite services"
+      ]
+     },
+     {
+      "amenities": [
+       "ATM"
+      ]
+     }
+    ],
+    "service_options": {
+     "drive_through": true
+    },
+    "thumbnail": "https://lh3.googleusercontent.com/grass-cs/ACvplmPaUmH3FZlGgY2TosmOr62SOwRX6RqPkcGe-3rIx-cTNkA7YTenXCNg4Jg504xum1NzFJk0kd0bPqpm6MlH4dDxoi8EChs6lKBGdtyUEksr2E1U73tSitT5xgvBeq96OhNdnpe-05GxHcey=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/upjhHnicHcRLjoIwAADQE1XKrzqTzEIRQY1AFBKdnZamNf1BW7V6SddzG5N5i_f3Zs4N9jsIBIsnVGsqyM0Sg7VyRLkJ1jKg5mwtwDaYZ_dByObcyTJe_YqCnqJWW1kbFB3qx_6I9mPDcUFAbNYe4Lbi8-mpJeqYVTTZ0BQm_ibD6rXacMh7eGnGQaKdKJN-6fV1lmfMIrFdFL17djm3JsrDbhq7w9W1qaf3BRm_UM2qXg0EwLTwJSbPn0cIIQTsfwzUB9HRR6Q"
+   },
+   {
+    "position": 16,
+    "title": "HDFC Bank Kasba Branch",
+    "place_id": "ChIJ1-4dE01xAjoRoXZ7XN-Tn0c",
+    "data_id": "0x3a02714d131deed7:0x479f93df5c7b76a1",
+    "data_cid": "5161006285528463009",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x3a02714d131deed7%3A0x479f93df5c7b76a1&engine=google_maps_reviews&hl=en",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x3a02714d131deed7%3A0x479f93df5c7b76a1&engine=google_maps_photos&hl=en",
+    "gps_coordinates": {
+     "latitude": 22.5147382,
+     "longitude": 88.3913601
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJ1-4dE01xAjoRoXZ7XN-Tn0c",
+    "provider_id": "/g/1ptyrws_w",
+    "rating": 3.8,
+    "reviews": 132,
+    "type": "Bank",
+    "types": [
+     "Bank"
+    ],
+    "type_id": "bank",
+    "type_ids": [
+     "bank"
+    ],
+    "address": "No 241, Rajdanga Nabapally Ln, Rajdanga Nabapalli, Sector A, Kasba, Kolkata, West Bengal 700107, India",
+    "country": "India",
+    "open_state": "Closed · Opens 9:30 AM Fri",
+    "hours": "Closed · Opens 9:30 AM Fri",
+    "operating_hours": {
+     "thursday": "9:30 AM–3:30 PM",
+     "friday": "9:30 AM–3:30 PM",
+     "saturday": "9:30 AM–3:30 PM",
+     "sunday": "Closed",
+     "monday": "9:30 AM–3:30 PM",
+     "tuesday": "9:30 AM–3:30 PM",
+     "wednesday": "9:30 AM–3:30 PM"
+    },
+    "phone": "+91 1800 1601",
+    "website": "https://www.hdfc.bank.in/branch-locator/westbengal/kolkata/hdfcbank-branch-kasba",
+    "extensions": [
+     {
+      "service_options": [
+       "Onsite services"
+      ]
+     },
+     {
+      "amenities": [
+       "ATM"
+      ]
+     }
+    ],
+    "unsupported_extensions": [
+     {
+      "accessibility": [
+       "Wheelchair accessible entrance"
+      ]
+     }
+    ],
+    "service_options": {
+     "onsite_services": true
+    },
+    "user_review": "\"Very professionally managed bank with personal care.\"",
+    "thumbnail": "https://lh3.googleusercontent.com/grass-cs/ACvplmNd4AowwZcJDNbtq0RPjod27RC3AIXFu4eN2SHVW8BSinXL9Bahs6ivw5DOevwh7hRASpgZL0n-DR8kOpYPQNVHcAzaoAqEJ1PZOP5tgNlzdfKqUuJBTAKCkT_CSD6n-CxUDxOtrtkResG5=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/s9ZvMHicHcTNboIwAADgJ6rUH9Qt2aG0c4qmsKLOcVmwdK2CLdBCjS-5895myb7D9_ujnGvscxDUajqSxsha9FZ03GgntBtxcwtkV1gLuA0QHpr6RssZMt7nPCb07FrI0qspJwuGp2hzWvUzQSfZ-vixjLKLPu2eokLZ-WXwIUnE4NVCMZQ1Mt9BDQhbVknzmb7T45qjR2FQ-xqP0zxJQydp_Si_t-2hj6M92uJq_4UzMtcA3w_knrjOVUzYt_DFjyGEQP3Pgf4Dx_xHnA"
+   },
+   {
+    "position": 17,
+    "title": "HDFC Bank - Ballygunge Branch",
+    "place_id": "ChIJ34KHkCJ3AjoRmpa_HyU59jE",
+    "data_id": "0x3a027722908782df:0x31f639251fbf969a",
+    "data_cid": "3600127783738513050",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x3a027722908782df%3A0x31f639251fbf969a&engine=google_maps_reviews&hl=en",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x3a027722908782df%3A0x31f639251fbf969a&engine=google_maps_photos&hl=en",
+    "gps_coordinates": {
+     "latitude": 22.5259359,
+     "longitude": 88.3642325
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJ34KHkCJ3AjoRmpa_HyU59jE",
+    "provider_id": "/g/1ths_wh1",
+    "rating": 4,
+    "reviews": 73,
+    "type": "Bank",
+    "types": [
+     "Bank"
+    ],
+    "type_id": "bank",
+    "type_ids": [
+     "bank"
+    ],
+    "address": "No 54/1A, 1st Floor, Hazra Rd, opposite Hazra Law College, Dover Terrace, Navjivan, Kolkata, West Bengal 700019, India",
+    "country": "India",
+    "open_state": "Closed · Opens 9:30 AM Fri",
+    "hours": "Closed · Opens 9:30 AM Fri",
+    "operating_hours": {
+     "thursday": "9:30 AM–3:30 PM",
+     "friday": "9:30 AM–3:30 PM",
+     "saturday": "9:30 AM–3:30 PM",
+     "sunday": "Closed",
+     "monday": "9:30 AM–3:30 PM",
+     "tuesday": "9:30 AM–3:30 PM",
+     "wednesday": "9:30 AM–3:30 PM"
+    },
+    "phone": "+91 1800 1601",
+    "website": "https://www.hdfc.bank.in/branch-locator/westbengal/kolkata/hdfcbank-branch-ballygunge",
+    "extensions": [
+     {
+      "service_options": [
+       "Drive-through",
+       "Onsite services"
+      ]
+     },
+     {
+      "amenities": [
+       "ATM"
+      ]
+     }
+    ],
+    "unsupported_extensions": [
+     {
+      "accessibility": [
+       "Wheelchair accessible entrance",
+       "Wheelchair accessible parking lot"
+      ]
+     }
+    ],
+    "service_options": {
+     "drive_through": true
+    },
+    "user_review": "\"The staffs are very polite and the bank officials are very helpful.\"",
+    "thumbnail": "https://lh3.googleusercontent.com/grass-cs/ACvplmPCiHxkCjmb-grOIkRlfExNTixpQiDkBm8_lz3E_mLamXRSPU-0iDC3FF95ogk_S5b9oiPeoDQy-XLmw6NckFGErisW_f2v9A4_mj2CXmCnYuNyCxeAoJCti5KwVXPrrFGAgMZRdSKfJ2NM=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/Dl-aXXicHcTLUoMwFADQL0pBkE5xxgUGqH0hBR_oJtOmIaTJJUySFupPuvZvnPEszu9P59xgHzxPdeGMa80Vu1hmqO4d692MavC4OViLqPUSfB0UlFg8TxKf4Yi4eVnJSrXZVLyKadiLVD7BgqjvMCOwPUBT1eUb8kWKwzyPI80lqaNjrEXJdLq_oWYL47ygMl9mRtgP0gbXOLkncA5wA7j_vBQ3PLFEr7ET0WZ8b0pj8mXCd1_Vqd6066DYPY53vu-j7n-K-j9PUEhy"
+   },
+   {
+    "position": 18,
+    "title": "HDFC Bank",
+    "place_id": "ChIJnX6xeAii-DkRHpaMIsuBu98",
+    "data_id": "0x39f8a20878b17e9d:0xdfbb81cb228c961e",
+    "data_cid": "16121622000560805406",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x39f8a20878b17e9d%3A0xdfbb81cb228c961e&engine=google_maps_reviews&hl=en",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x39f8a20878b17e9d%3A0xdfbb81cb228c961e&engine=google_maps_photos&hl=en",
+    "gps_coordinates": {
+     "latitude": 22.7200408,
+     "longitude": 88.48120589999999
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJnX6xeAii-DkRHpaMIsuBu98",
+    "provider_id": "/g/1pzsj7c4f",
+    "rating": 3.6,
+    "reviews": 55,
+    "type": "Bank",
+    "types": [
+     "Bank"
+    ],
+    "type_id": "bank",
+    "type_ids": [
+     "bank"
+    ],
+    "address": "No N/39, 1st Floor, KNC Rd, opposite Bidhan Cinema, Gupta Colony, Barasat, Kolkata, Barasat, West Bengal 700124, India",
+    "country": "India",
+    "open_state": "Closed · Opens 9:30 AM Fri",
+    "hours": "Closed · Opens 9:30 AM Fri",
+    "operating_hours": {
+     "thursday": "9:30 AM–3:30 PM",
+     "friday": "9:30 AM–3:30 PM",
+     "saturday": "9:30 AM–3:30 PM",
+     "sunday": "Closed",
+     "monday": "9:30 AM–3:30 PM",
+     "tuesday": "9:30 AM–3:30 PM",
+     "wednesday": "9:30 AM–3:30 PM"
+    },
+    "phone": "+91 1800 1601",
+    "website": "https://www.hdfc.bank.in/branch-locator/westbengal/kolkata/hdfcbank-branch-barasat",
+    "extensions": [
+     {
+      "service_options": [
+       "Drive-through",
+       "Onsite services"
+      ]
+     },
+     {
+      "amenities": [
+       "ATM"
+      ]
+     }
+    ],
+    "unsupported_extensions": [
+     {
+      "accessibility": [
+       "Wheelchair accessible entrance"
+      ]
+     }
+    ],
+    "service_options": {
+     "drive_through": true
+    },
+    "user_review": "\"Customer friendly bank, compared to sbi\"",
+    "thumbnail": "https://lh3.googleusercontent.com/grass-cs/ACvplmMkQbdwQURyB2FyTQowVPeEoAAECxFr3QiZ-Ftufi2VC1WEIIQOAYlZneX1qX1SlcMqvqHZKi-tr2xPMF3ud-avkExCcJ_k5DJooMMcJBBVS9VqnRkyVYXC6iFexI_p_3NE7KOn=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/NhAnunicHcTbboIwAADQL6rcosYle4DaRjBVq1tFXojWCoTaAi23L9w37G-W7Dyc35_S2sZ8OI4sg0WhdSFFb0THtbJC2QXXb6fo7sYAbpwQDo18k5o-niP9Ps-Rj-cvqkd2EkiHIYIT7gJaZQDb_lX5DHpXFMf0GN5kpkTqtal3kZy0Q7vL9hWwnT-dCA76J7gPNZogT_J6uU20JoQnUcQuG9aqcz2zWwpXFRZTnDd5cEDr_VF9jp7ruqD8nwP1B9F8RU8"
+   },
+   {
+    "position": 19,
+    "title": "HDFC Bank",
+    "place_id": "ChIJg8ZGS6R3AjoR3EUv16pVf_w",
+    "data_id": "0x3a0277a44b46c683:0xfc7f55aad72f45dc",
+    "data_cid": "18194355211843093980",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x3a0277a44b46c683%3A0xfc7f55aad72f45dc&engine=google_maps_reviews&hl=en",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x3a0277a44b46c683%3A0xfc7f55aad72f45dc&engine=google_maps_photos&hl=en",
+    "gps_coordinates": {
+     "latitude": 22.571153499999998,
+     "longitude": 88.3505454
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJg8ZGS6R3AjoR3EUv16pVf_w",
+    "provider_id": "/g/11b6gdjzhh",
+    "rating": 4.7,
+    "reviews": 346,
+    "type": "Bank",
+    "types": [
+     "Bank"
+    ],
+    "type_id": "bank",
+    "type_ids": [
+     "bank"
+    ],
+    "address": "4, Stephen House, 4, Binoy Badal Dinesh Bag E, Lal Bazar, Kolkata, West Bengal 700001, India",
+    "country": "India",
+    "open_state": "Closed · Opens 9:30 AM Fri",
+    "hours": "Closed · Opens 9:30 AM Fri",
+    "operating_hours": {
+     "thursday": "9:30 AM–3:30 PM",
+     "friday": "9:30 AM–3:30 PM",
+     "saturday": "9:30 AM–3:30 PM",
+     "sunday": "Closed",
+     "monday": "9:30 AM–3:30 PM",
+     "tuesday": "9:30 AM–3:30 PM",
+     "wednesday": "9:30 AM–3:30 PM"
+    },
+    "phone": "+91 1800 1601",
+    "website": "https://www.hdfc.bank.in/branch-locator/westbengal/kolkata/hdfcbank-branch-stephenhouse",
+    "extensions": [
+     {
+      "service_options": [
+       "Drive-through",
+       "Onsite services"
+      ]
+     }
+    ],
+    "service_options": {
+     "drive_through": true
+    },
+    "user_review": "\"Service of hdfc bank staff is very good & they are very cooperative\"",
+    "thumbnail": "https://lh3.googleusercontent.com/grass-cs/ACvplmMpeUIdV6g3cnfEsvNjjycZEAPtq925eWrPDAR8SxTVSNY6NmyFSbNJQS2n6Gu7xEkveJLnYrqIIv3vpAyyWMg3FPVLadqpNI1Ct0Ftw0Iap-MD00Kd2TeWfrUY6y4qRXHj-Ms=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/sQ7qnXicHcRRkoIgAADQE5GkZVsz--GUFm0ybpZmf4aEY4oIRHHB7tBtmul9vPer1lqoheO0tTdifc9aeldUkp5ryvWI9J3DZKkUIMoJlka0XSzoEVWZzzzCr6EyuGksOYdBooe5O6W5TFbB_id9HrIUFz7ubJRe8PY_dbm_vs-e4c3Q7Y4XckDIeEYE1uYx86Ik25XVIDAaLzWM9AOiUoB4BeFf5R5ofpXHwreTYX_aNCBWv48xhBDU3wngH5W_RNU"
+   },
+   {
+    "position": 20,
+    "title": "HDFC Bank",
+    "place_id": "ChIJQ2l5AS52AjoRZqyOsoWDZ70",
+    "data_id": "0x3a02762e01796943:0xbd678385b28eac66",
+    "data_cid": "13648021806019161190",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x3a02762e01796943%3A0xbd678385b28eac66&engine=google_maps_reviews&hl=en",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x3a02762e01796943%3A0xbd678385b28eac66&engine=google_maps_photos&hl=en",
+    "gps_coordinates": {
+     "latitude": 22.5999132,
+     "longitude": 88.36793929999999
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJQ2l5AS52AjoRZqyOsoWDZ70",
+    "provider_id": "/g/1ptxshgby",
+    "rating": 4.2,
+    "reviews": 120,
+    "type": "Bank",
+    "types": [
+     "Bank"
+    ],
+    "type_id": "bank",
+    "type_ids": [
+     "bank"
+    ],
+    "address": "Metro Station, 55/1, Bhupendra Bose Ave, Shyambazar, Hati Bagan, Kolkata, West Bengal 700004, India",
+    "country": "India",
+    "open_state": "Closed · Opens 9:30 AM Fri",
+    "hours": "Closed · Opens 9:30 AM Fri",
+    "operating_hours": {
+     "thursday": "9:30 AM–3:30 PM",
+     "friday": "9:30 AM–3:30 PM",
+     "saturday": "9:30 AM–3:30 PM",
+     "sunday": "Closed",
+     "monday": "9:30 AM–3:30 PM",
+     "tuesday": "9:30 AM–3:30 PM",
+     "wednesday": "9:30 AM–3:30 PM"
+    },
+    "phone": "+91 1800 1601",
+    "website": "https://www.hdfc.bank.in/branch-locator/westbengal/kolkata/hdfcbank-branch-shyambazar",
+    "extensions": [
+     {
+      "service_options": [
+       "Drive-through",
+       "Onsite services"
+      ]
+     },
+     {
+      "amenities": [
+       "ATM"
+      ]
+     }
+    ],
+    "unsupported_extensions": [
+     {
+      "accessibility": [
+       "Wheelchair accessible entrance",
+       "Wheelchair accessible parking lot"
+      ]
+     }
+    ],
+    "service_options": {
+     "drive_through": true
+    },
+    "user_review": "\"Very humbled behavior of staff well trained,and prompt service\"",
+    "thumbnail": "https://lh3.googleusercontent.com/grass-cs/ACvplmOwaNV0EiNP32EpmFCOo-9lsMsIHqhmvUB0iS4-w1dXXgQESBztYjerEtJn2F7uVdDiiYc2w7vjWi6QbZzgUwRzrR5KsntaezcMzX6D3m4JOwlfpVrEdp8STw6_CfMipOz-sXnB1Q=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/v1a4IXicHcRdboIwAADgE1UKKG5L9iBYMzXIEGW4F8NKLTX9W1tp0hvuCLvNkn0P3-_P6Jy2L1HEx3RGlaKcPCwxWElHpJthJSJqemsBttGqmDQXle8PLUTs8J4mSItNUSnwzG1pt2_fo5jOOWTNHPh46DpaoyYP7nInBrmdTDbLRzusGbvgxC-n-wfL6q_PQM_-GMxxsbfS9STgMnTZOhXzXeX5TbcGDfqpOfnsWtxKpqsAbCfzuH71MYQQjP9jIP8Af5RHCA"
    }
-  ]
+  ],
+  "serpapi_pagination": {
+   "next": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.co.in&hl=en&ll=%4022.5726%2C88.3639%2C12z&q=HDFC+Bank+customer+care&start=20&type=search"
+  }
  }
 }

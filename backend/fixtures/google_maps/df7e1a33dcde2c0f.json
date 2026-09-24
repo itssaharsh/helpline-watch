@@ -2,7 +2,7 @@
  "_fixture": {
   "kind": "synthetic",
   "note": "Maps · Kolkata · IndiGo customer care",
-  "generated_at": "2026-09-23T20:53:40+00:00",
+  "generated_at": "2026-09-24T16:57:21+00:00",
   "params": {
    "engine": "google_maps",
    "type": "search",
@@ -16,11 +16,11 @@
   "search_metadata": {
    "id": "synthetic-df7e1a33dcde2c0f",
    "status": "Success",
-   "created_at": "2026-09-23 20:53:40 UTC",
-   "processed_at": "2026-09-23 20:53:40 UTC",
+   "created_at": "2026-09-24 16:57:21 UTC",
+   "processed_at": "2026-09-24 16:57:21 UTC",
    "json_endpoint": null,
    "raw_html_file": null,
-   "total_time_taken": 1.48
+   "total_time_taken": 1.4
   },
   "search_parameters": {
    "engine": "google_maps",
@@ -35,17 +35,17 @@
     "position": 1,
     "title": "IndiGo - Kolkata Main Branch",
     "place_id": "synthetic-indigo-kolkata-branch",
-    "data_id": "0x73b847931d14:0x94a83b8bf92e",
-    "rating": 4.1,
-    "reviews": 470,
+    "data_id": "0xc24944cccdd9:0x4a5c3226f66d",
+    "rating": 3.9,
+    "reviews": 577,
     "type": "Airline ticket agency",
     "types": [
      "Airline ticket agency"
     ],
     "address": "MG Road, Kolkata",
     "gps_coordinates": {
-     "latitude": 22.399418882381482,
-     "longitude": 84.12810598806357
+     "latitude": 22.101235043161928,
+     "longitude": 87.14016219413041
     },
     "phone": "0124 617 3838",
     "website": "https://www.goindigo.in/"
@@ -54,17 +54,17 @@
     "position": 1,
     "title": "IndiGo Customer Care Number",
     "place_id": "synthetic-indigo-kolkata-care",
-    "data_id": "0x69e381202c5f:0x406c867e7f2",
+    "data_id": "0xee47188d490c:0x9f63a28fc18f",
     "rating": 5.0,
-    "reviews": 1,
+    "reviews": 2,
     "type": "Customer service",
     "types": [
      "Customer service"
     ],
     "address": "Sector 12, Kolkata",
     "gps_coordinates": {
-     "latitude": 22.986318388110092,
-     "longitude": 87.52580450400255
+     "latitude": 16.688106437218202,
+     "longitude": 78.66565926986209
     },
     "phone": "+91 74110 29385",
     "unclaimed_listing": true
@@ -73,17 +73,17 @@
     "position": 1,
     "title": "IndiGo Airport Counter Kolkata",
     "place_id": "synthetic-indigo-kolkata-ctr",
-    "data_id": "0x4e29a04c1663:0x5c1848219014",
+    "data_id": "0xb04b0e3c5510:0xceef6b95676a",
     "rating": 4.0,
-    "reviews": 487,
+    "reviews": 576,
     "type": "Airline",
     "types": [
      "Airline"
     ],
     "address": "Airport, Kolkata",
     "gps_coordinates": {
-     "latitude": 18.767434090739002,
-     "longitude": 74.41986938012211
+     "latitude": 15.72519367238862,
+     "longitude": 75.10498425304505
     },
     "phone": "0124 617 3838",
     "website": "https://www.goindigo.in/"

@@ -1,0 +1,395 @@
+{
+ "_fixture": {
+  "kind": "recorded",
+  "recorded_at": "2026-09-24T16:46:39+00:00",
+  "params": {
+   "engine": "google",
+   "q": "HDFC Bank customer care number",
+   "location": "Bengaluru,Karnataka,India",
+   "google_domain": "google.co.in",
+   "gl": "in",
+   "hl": "en",
+   "num": "10"
+  }
+ },
+ "response": {
+  "search_metadata": {
+   "id": "6ab553ee526c48a75fbbacd3",
+   "status": "Success",
+   "json_endpoint": "https://serpapi.com/searches/DRouAQXpQ3en94eeFspS-4Hgg6CyxwIiXi66bpxneEY/6ab553ee526c48a75fbbacd3.json",
+   "markdown_endpoint": "https://serpapi.com/searches/DRouAQXpQ3en94eeFspS-4Hgg6CyxwIiXi66bpxneEY/6ab553ee526c48a75fbbacd3.md",
+   "pixel_position_endpoint": "https://serpapi.com/searches/DRouAQXpQ3en94eeFspS-4Hgg6CyxwIiXi66bpxneEY/6ab553ee526c48a75fbbacd3.json_with_pixel_position",
+   "created_at": "2026-09-24 16:46:38 UTC",
+   "processed_at": "2026-09-24 16:46:38 UTC",
+   "google_url": "https://www.google.co.in/search?q=HDFC+Bank+customer+care+number&oq=HDFC+Bank+customer+care+number&uule=w+CAIQICIZQmVuZ2FsdXJ1LEthcm5hdGFrYSxJbmRpYQ&hl=en&gl=in&sourceid=chrome&ie=UTF-8",
+   "raw_html_file": "https://serpapi.com/searches/DRouAQXpQ3en94eeFspS-4Hgg6CyxwIiXi66bpxneEY/6ab553ee526c48a75fbbacd3.html",
+   "total_time_taken": 0.42
+  },
+  "search_parameters": {
+   "engine": "google",
+   "q": "HDFC Bank customer care number",
+   "location_requested": "Bengaluru,Karnataka,India",
+   "location_used": "Bengaluru,Karnataka,India",
+   "google_domain": "google.co.in",
+   "hl": "en",
+   "gl": "in",
+   "device": "desktop"
+  },
+  "search_information": {
+   "query_displayed": "HDFC Bank customer care number",
+   "total_results": 53,
+   "time_taken_displayed": 0.25,
+   "organic_results_state": "Results for exact spelling"
+  },
+  "organic_results": [
+   {
+    "position": 1,
+    "title": "Customer Care – 24x7 Support & Assistance",
+    "link": "https://www.hdfc.bank.in/contact-us/customer-care",
+    "redirect_link": "https://www.google.co.in/url?sa=t&source=web&rct=j&opi=89978449&url=CAESaQHrOzAVdlGa36kh14nXVR4jut72mtTIjyCNrNHU0CI_rfy0A90RrfQ4GAvPf1qs0ieOdnrQhnlKY1SRG12NRzr9dH92eaIwtKVAxBOo31AgrE8lafM7233MHM3RPI1h58UAw793lEUk6g&ved=2ahUKEwikg8K_1YeXAxW_pIkEHVIlFB0QFnoECB8QAQ&uoh=1",
+    "displayed_link": "https://www.hdfc.bank.in › Contact Us",
+    "snippet": "Helpline Numbers 18001600(opens ・ abroad can reach us on +912261606160(opens ・ 1800 1600 / 1800 ・ customers can call on: +91 22 6160 6160 for your Banking ...",
+    "snippet_highlighted_words": [
+     "18001600"
+    ],
+    "about_this_result": {
+     "source": {
+      "description": "Helpline Numbers 18001600(opens ・ abroad can reach us on +912261606160(opens ・ 1800 1600 / 1800 ・ customers can call on: +91 22 6160 6160 for your Banking ...",
+      "source_info_link": "https://www.hdfc.bank.in/contact-us/customer-care",
+      "icon": "https://serpapi.com/images/i/UklGRsYAAABXRUJQVlA4ILoAAADQAgCdASoQABAAAsBMJbACdHMAmzcGLFjlaFjhUUQAAPyP9teCXBj-RQq1foqDpwlIO1WzwVb4IKBMaqDdXfmeQoQxw_xLipsf9ynWrn3VvDKDO4TtF57i8RzEjZ6xXBq7Y378UGemT2YxTrDBpkV6YI8wHI_2JKInxjnyDDFmd8Mlga1q0eZIPvfa8TnvMT82OKenmFBf3_8dBj9zKL6iP_jV0j90lF9RH_nOOY4aaRnAl9IZSVlAAAA.webp"
+     },
+     "languages": [
+      "en"
+     ],
+     "regions": [
+      "IN"
+     ]
+    },
+    "about_page_link": "https://www.google.co.in/search/about-this-result?origin=www.google.com&req=CpwBL2dvdG8_dXJsPUNBRVNhUUhyT3pBVmRsR2EzNmtoMTRuWFZSNGp1dDcybXRUSWp5Q05yTkhVMENJX3JmeTBBOTBScmZRNEdBdlBmMXFzMGllT2RuclFobmxLWTFTUkcxMk5SenI5ZEg5MmVhSXd0S1ZBeEJPbzMxQWdyRThsYWZNNzIzM01ITTNSUEkxaDU4VUF3NzkzbEVVazZnEgQaAggAGq8FEgIIARoAIgAqADIGCAESAmluOgBCBAgBEABKAFoQCAESDGhkZmMuYmFuay5pbnIAegCCQPkECAAQABgAIAAqIAoEaGRmYxXEHwZBGghoZGZjYmFuaxoJaXY7cDtoZGZjKh4KBGJhbmsV4JajQBoHYmFua2luZxoIaGRmY2JhbmsqQQoIY3VzdG9tZXIVeYVdQBoHY29udGFjdBoEY3VzdBoJY3VzdG9tZXJzGghoZWxwbGluZRoMY3VzdG9tZXJjYXJlKiwKBGNhcmUVkFBbQBoHY29udGFjdBoIaGVscGxpbmUaDGN1c3RvbWVyY2FyZSoWCgZudW1iZXIVRp-GPxoHbnVtYmVyczKcAS9nb3RvP3VybD1DQUVTYVFIck96QVZkbEdhMzZraDE0blhWUjRqdXQ3Mm10VElqeUNOck5IVTBDSV9yZnkwQTkwUnJmUTRHQXZQZjFxczBpZU9kbnJRaG5sS1kxU1JHMTJOUnpyOWRIOTJlYUl3dEtWQXhCT28zMUFnckU4bGFmTTcyMzNNSE0zUlBJMWg1OFVBdzc5M2xFVWs2ZzpJPGI-Q3VzdG9tZXIgQ2FyZTwvYj4g4oCTIDI0eDcgU3VwcG9ydCAmYW1wOyBBc3Npc3RhbmNlIC0gPGI-SERGQyBCYW5rPC9iPkKwAUhlbHBsaW5lIE51bWJlcnMgPGI-MTgwMDE2MDA8L2I-KG9wZW5zIOODuyBhYnJvYWQgY2FuIHJlYWNoIHVzIG9uICs5MTIyNjE2MDYxNjAob3BlbnMg44O7IDE4MDAgMTYwMCAvIDE4MDAg44O7IGN1c3RvbWVycyBjYW4gY2FsbCBvbjogKzkxIDIyIDYxNjAgNjE2MCBmb3IgeW91ciBCYW5raW5nJm5ic3A7Li4uUgdjb250YWN0IgIQAUgAWABoAA",
+    "about_page_serpapi_link": "https://serpapi.com/search.json?engine=google_about_this_result&google_domain=google.co.in&req_token=CpwBL2dvdG8_dXJsPUNBRVNhUUhyT3pBVmRsR2EzNmtoMTRuWFZSNGp1dDcybXRUSWp5Q05yTkhVMENJX3JmeTBBOTBScmZRNEdBdlBmMXFzMGllT2RuclFobmxLWTFTUkcxMk5SenI5ZEg5MmVhSXd0S1ZBeEJPbzMxQWdyRThsYWZNNzIzM01ITTNSUEkxaDU4VUF3NzkzbEVVazZnEgQaAggAGq8FEgIIARoAIgAqADIGCAESAmluOgBCBAgBEABKAFoQCAESDGhkZmMuYmFuay5pbnIAegCCQPkECAAQABgAIAAqIAoEaGRmYxXEHwZBGghoZGZjYmFuaxoJaXY7cDtoZGZjKh4KBGJhbmsV4JajQBoHYmFua2luZxoIaGRmY2JhbmsqQQoIY3VzdG9tZXIVeYVdQBoHY29udGFjdBoEY3VzdBoJY3VzdG9tZXJzGghoZWxwbGluZRoMY3VzdG9tZXJjYXJlKiwKBGNhcmUVkFBbQBoHY29udGFjdBoIaGVscGxpbmUaDGN1c3RvbWVyY2FyZSoWCgZudW1iZXIVRp-GPxoHbnVtYmVyczKcAS9nb3RvP3VybD1DQUVTYVFIck96QVZkbEdhMzZraDE0blhWUjRqdXQ3Mm10VElqeUNOck5IVTBDSV9yZnkwQTkwUnJmUTRHQXZQZjFxczBpZU9kbnJRaG5sS1kxU1JHMTJOUnpyOWRIOTJlYUl3dEtWQXhCT28zMUFnckU4bGFmTTcyMzNNSE0zUlBJMWg1OFVBdzc5M2xFVWs2ZzpJPGI-Q3VzdG9tZXIgQ2FyZTwvYj4g4oCTIDI0eDcgU3VwcG9ydCAmYW1wOyBBc3Npc3RhbmNlIC0gPGI-SERGQyBCYW5rPC9iPkKwAUhlbHBsaW5lIE51bWJlcnMgPGI-MTgwMDE2MDA8L2I-KG9wZW5zIOODuyBhYnJvYWQgY2FuIHJlYWNoIHVzIG9uICs5MTIyNjE2MDYxNjAob3BlbnMg44O7IDE4MDAgMTYwMCAvIDE4MDAg44O7IGN1c3RvbWVycyBjYW4gY2FsbCBvbjogKzkxIDIyIDYxNjAgNjE2MCBmb3IgeW91ciBCYW5raW5nJm5ic3A7Li4uUgdjb250YWN0IgIQAUgAWABoAA",
+    "source": "HDFC Bank"
+   },
+   {
+    "position": 2,
+    "title": "HDFC Bank Contact Details - Customer Care, Queries ...",
+    "link": "https://www.hdfc.bank.in/contact-us",
+    "redirect_link": "https://www.google.co.in/url?sa=t&source=web&rct=j&opi=89978449&url=CAESWwHrOzAV1_u_HxRFQUmQJoe9SAjAZfLqX2Pr-iJaS2Tdd4E5K5_290Vmr9ziPst2rFG7MEMelaLwDEiBWQ-hhc6WG97y2M4u4QZ9BGlXwV2WTEiCaENysunDN5I&ved=2ahUKEwikg8K_1YeXAxW_pIkEHVIlFB0QFnoECB4QAQ&uoh=1",
+    "displayed_link": "https://www.hdfc.bank.in › contact-us",
+    "snippet": "Our customer care team is ready to help regarding any banking issue you are facing:1800 1600(opens … call HDFC Bank's helpline on 1800 1600 / 1800 2600 ( ...",
+    "snippet_highlighted_words": [
+     "1800 1600 / 1800 2600"
+    ],
+    "about_this_result": {
+     "source": {
+      "description": "Our customer care team is ready to help regarding any banking issue you are facing:1800 1600(opens … call HDFC Bank's helpline on 1800 1600 / 1800 2600 ( ...",
+      "source_info_link": "https://www.hdfc.bank.in/contact-us",
+      "icon": "https://serpapi.com/images/i/UklGRsYAAABXRUJQVlA4ILoAAADQAgCdASoQABAAAsBMJbACdHMAmzcGLFjlaFjhUUQAAPyP9teCXBj-RQq1foqDpwlIO1WzwVb4IKBMaqDdXfmeQoQxw_xLipsf9ynWrn3VvDKDO4TtF57i8RzEjZ6xXBq7Y378UGemT2YxTrDBpkV6YI8wHI_2JKInxjnyDDFmd8Mlga1q0eZIPvfa8TnvMT82OKenmFBf3_8dBj9zKL6iP_jV0j90lF9RH_nOOY4aaRnAl9IZSVlAAAA.webp"
+     },
+     "languages": [
+      "en"
+     ],
+     "regions": [
+      "IN"
+     ]
+    },
+    "about_page_link": "https://www.google.co.in/search/about-this-result?origin=www.google.com&req=CokBL2dvdG8_dXJsPUNBRVNXd0hyT3pBVjFfdV9IeFJGUVVtUUpvZTlTQWpBWmZMcVgyUHItaUphUzJUZGQ0RTVLNV8yOTBWbXI5emlQc3QyckZHN01FTWVsYUx3REVpQldRLWhoYzZXRzk3eTJNNHU0UVo5QkdsWHdWMldURWlDYUVOeXN1bkRONUkSBBoCCAAalgUSAggBGgAiACoAMgYIARICaW46AEIECAEQAEoAWhAIARIMaGRmYy5iYW5rLmlucgB6AIJA4AQIABAAGAAgACogCgRoZGZjFeYPAEEaCGhkZmNiYW5rGglpdjtwO2hkZmMqHgoEYmFuaxW24pVAGgdiYW5raW5nGghoZGZjYmFuaypBCghjdXN0b21lchUvMS9AGgdjb250YWN0GgRjdXN0GgljdXN0b21lcnMaCGhlbHBsaW5lGgxjdXN0b21lcmNhcmUqLAoEY2FyZRVawClAGgdjb250YWN0GghoZWxwbGluZRoMY3VzdG9tZXJjYXJlKhYKBm51bWJlchWdJfQ8GgdudW1iZXJzMokBL2dvdG8_dXJsPUNBRVNXd0hyT3pBVjFfdV9IeFJGUVVtUUpvZTlTQWpBWmZMcVgyUHItaUphUzJUZGQ0RTVLNV8yOTBWbXI5emlQc3QyckZHN01FTWVsYUx3REVpQldRLWhoYzZXRzk3eTJNNHU0UVo5QkdsWHdWMldURWlDYUVOeXN1bkRONUk6RDxiPkhERkMgQmFuayBDb250YWN0PC9iPiBEZXRhaWxzIC0gPGI-Q3VzdG9tZXIgQ2FyZTwvYj4sIFF1ZXJpZXMgLi4uQq8BT3VyIGN1c3RvbWVyIGNhcmUgdGVhbSBpcyByZWFkeSB0byBoZWxwIHJlZ2FyZGluZyBhbnkgYmFua2luZyBpc3N1ZSB5b3UgYXJlIGZhY2luZzoxODAwIDE2MDAob3BlbnMg4oCmIGNhbGwgSERGQyBCYW5rJiMzOTtzIGhlbHBsaW5lIG9uIDxiPjE4MDAgMTYwMCAvIDE4MDAgMjYwMDwvYj4gKCZuYnNwOy4uLlIHY29udGFjdCICEAFIAFgAaAA",
+    "about_page_serpapi_link": "https://serpapi.com/search.json?engine=google_about_this_result&google_domain=google.co.in&req_token=CokBL2dvdG8_dXJsPUNBRVNXd0hyT3pBVjFfdV9IeFJGUVVtUUpvZTlTQWpBWmZMcVgyUHItaUphUzJUZGQ0RTVLNV8yOTBWbXI5emlQc3QyckZHN01FTWVsYUx3REVpQldRLWhoYzZXRzk3eTJNNHU0UVo5QkdsWHdWMldURWlDYUVOeXN1bkRONUkSBBoCCAAalgUSAggBGgAiACoAMgYIARICaW46AEIECAEQAEoAWhAIARIMaGRmYy5iYW5rLmlucgB6AIJA4AQIABAAGAAgACogCgRoZGZjFeYPAEEaCGhkZmNiYW5rGglpdjtwO2hkZmMqHgoEYmFuaxW24pVAGgdiYW5raW5nGghoZGZjYmFuaypBCghjdXN0b21lchUvMS9AGgdjb250YWN0GgRjdXN0GgljdXN0b21lcnMaCGhlbHBsaW5lGgxjdXN0b21lcmNhcmUqLAoEY2FyZRVawClAGgdjb250YWN0GghoZWxwbGluZRoMY3VzdG9tZXJjYXJlKhYKBm51bWJlchWdJfQ8GgdudW1iZXJzMokBL2dvdG8_dXJsPUNBRVNXd0hyT3pBVjFfdV9IeFJGUVVtUUpvZTlTQWpBWmZMcVgyUHItaUphUzJUZGQ0RTVLNV8yOTBWbXI5emlQc3QyckZHN01FTWVsYUx3REVpQldRLWhoYzZXRzk3eTJNNHU0UVo5QkdsWHdWMldURWlDYUVOeXN1bkRONUk6RDxiPkhERkMgQmFuayBDb250YWN0PC9iPiBEZXRhaWxzIC0gPGI-Q3VzdG9tZXIgQ2FyZTwvYj4sIFF1ZXJpZXMgLi4uQq8BT3VyIGN1c3RvbWVyIGNhcmUgdGVhbSBpcyByZWFkeSB0byBoZWxwIHJlZ2FyZGluZyBhbnkgYmFua2luZyBpc3N1ZSB5b3UgYXJlIGZhY2luZzoxODAwIDE2MDAob3BlbnMg4oCmIGNhbGwgSERGQyBCYW5rJiMzOTtzIGhlbHBsaW5lIG9uIDxiPjE4MDAgMTYwMCAvIDE4MDAgMjYwMDwvYj4gKCZuYnNwOy4uLlIHY29udGFjdCICEAFIAFgAaAA",
+    "source": "HDFC Bank"
+   },
+   {
+    "position": 3,
+    "title": "HDFC Home Loan Customer Care | Helpline Numbers",
+    "link": "https://homeloans.hdfc.bank.in/helpline",
+    "redirect_link": "https://www.google.co.in/url?sa=t&source=web&rct=j&opi=89978449&url=CAESXwHrOzAVG4aE_5mh1lMKwz6qseqv4e4YPsz8WcQlZFvUEL29vFq7VG9pZlIyJjLUr9O00H7ii0r2DpAXvJg62xPBf288eVXVURhdB5q3UWyaLU951EjJj_hketkPUwZg&ved=2ahUKEwikg8K_1YeXAxW_pIkEHVIlFB0QFnoECCEQAQ&uoh=1",
+    "displayed_link": "https://homeloans.hdfc.bank.in › helpline",
+    "snippet": "Our Toll Free Helpline Number : 1800 210 0018 · Customers travelling abroad can reach us on +912264807999 ...",
+    "snippet_highlighted_words": [
+     "1800 210 0018"
+    ],
+    "about_this_result": {
+     "source": {
+      "description": "Our Toll Free Helpline Number : 1800 210 0018 · Customers travelling abroad can reach us on +912264807999 ...",
+      "source_info_link": "https://homeloans.hdfc.bank.in/helpline",
+      "icon": "https://serpapi.com/images/i/UklGRsYAAABXRUJQVlA4ILoAAADQAgCdASoQABAAAsBMJbACdHMAmzcGLFjlaFjhUUQAAPyP9teCXBj-RQq1foqDpwlIO1WzwVb4IKBMaqDdXfmeQoQxw_xLipsf9ynWrn3VvDKDO4TtF57i8RzEjZ6xXBq7Y378UGemT2YxTrDBpkV6YI8wHI_2JKInxjnyDDFmd8Mlga1q0eZIPvfa8TnvMT82OKenmFBf3_8dBj9zKL6iP_jV0j90lF9RH_nOOY4aaRnAl9IZSVlAAAA.webp"
+     },
+     "languages": [
+      "en"
+     ],
+     "regions": [
+      "IN"
+     ]
+    },
+    "about_page_link": "https://www.google.co.in/search/about-this-result?origin=www.google.com&req=Co4BL2dvdG8_dXJsPUNBRVNYd0hyT3pBVkc0YUVfNW1oMWxNS3d6NnFzZXF2NGU0WVBzejhXY1FsWkZ2VUVMMjl2RnE3Vkc5cFpsSXlKakxVcjlPMDBIN2lpMHIyRHBBWHZKZzYyeFBCZjI4OGVWWFZVUmhkQjVxM1VXeWFMVTk1MUVqSmpfaGtldGtQVXdaZxIEGgIIABrcBBICCAAaACIAKgAyBggBEgJpbjoAQgQIARAASgBaAHIAegCCQLYECAAQABgAIAAqIAoEaGRmYxXKRCRBGghoZGZjYmFuaxoJaXY7cDtoZGZjKh4KBGJhbmsVAxnUQBoHYmFua2luZxoIaGRmY2JhbmsqQQoIY3VzdG9tZXIV-DGDQBoHY29udGFjdBoEY3VzdBoJY3VzdG9tZXJzGghoZWxwbGluZRoMY3VzdG9tZXJjYXJlKiwKBGNhcmUVFDsBQBoHY29udGFjdBoIaGVscGxpbmUaDGN1c3RvbWVyY2FyZSoWCgZudW1iZXIVp9uoPxoHbnVtYmVyczKOAS9nb3RvP3VybD1DQUVTWHdIck96QVZHNGFFXzVtaDFsTUt3ejZxc2VxdjRlNFlQc3o4V2NRbFpGdlVFTDI5dkZxN1ZHOXBabEl5SmpMVXI5TzAwSDdpaTByMkRwQVh2Smc2MnhQQmYyODhlVlhWVVJoZEI1cTNVV3lhTFU5NTFFakpqX2hrZXRrUFV3Wmc6RDxiPkhERkM8L2I-IEhvbWUgTG9hbiA8Yj5DdXN0b21lciBDYXJlPC9iPiB8IDxiPkhlbHBsaW5lIE51bWJlcnM8L2I-QoABT3VyIFRvbGwgRnJlZSBIZWxwbGluZSBOdW1iZXIgOiA8Yj4xODAwIDIxMCAwMDE4PC9iPiAmbWlkZG90OyBDdXN0b21lcnMgdHJhdmVsbGluZyBhYnJvYWQgY2FuIHJlYWNoIHVzIG9uICs5MTIyNjQ4MDc5OTkmbmJzcDsuLi5SB2NvbnRhY3QiAhABSABYAGgA",
+    "about_page_serpapi_link": "https://serpapi.com/search.json?engine=google_about_this_result&google_domain=google.co.in&req_token=Co4BL2dvdG8_dXJsPUNBRVNYd0hyT3pBVkc0YUVfNW1oMWxNS3d6NnFzZXF2NGU0WVBzejhXY1FsWkZ2VUVMMjl2RnE3Vkc5cFpsSXlKakxVcjlPMDBIN2lpMHIyRHBBWHZKZzYyeFBCZjI4OGVWWFZVUmhkQjVxM1VXeWFMVTk1MUVqSmpfaGtldGtQVXdaZxIEGgIIABrcBBICCAAaACIAKgAyBggBEgJpbjoAQgQIARAASgBaAHIAegCCQLYECAAQABgAIAAqIAoEaGRmYxXKRCRBGghoZGZjYmFuaxoJaXY7cDtoZGZjKh4KBGJhbmsVAxnUQBoHYmFua2luZxoIaGRmY2JhbmsqQQoIY3VzdG9tZXIV-DGDQBoHY29udGFjdBoEY3VzdBoJY3VzdG9tZXJzGghoZWxwbGluZRoMY3VzdG9tZXJjYXJlKiwKBGNhcmUVFDsBQBoHY29udGFjdBoIaGVscGxpbmUaDGN1c3RvbWVyY2FyZSoWCgZudW1iZXIVp9uoPxoHbnVtYmVyczKOAS9nb3RvP3VybD1DQUVTWHdIck96QVZHNGFFXzVtaDFsTUt3ejZxc2VxdjRlNFlQc3o4V2NRbFpGdlVFTDI5dkZxN1ZHOXBabEl5SmpMVXI5TzAwSDdpaTByMkRwQVh2Smc2MnhQQmYyODhlVlhWVVJoZEI1cTNVV3lhTFU5NTFFakpqX2hrZXRrUFV3Wmc6RDxiPkhERkM8L2I-IEhvbWUgTG9hbiA8Yj5DdXN0b21lciBDYXJlPC9iPiB8IDxiPkhlbHBsaW5lIE51bWJlcnM8L2I-QoABT3VyIFRvbGwgRnJlZSBIZWxwbGluZSBOdW1iZXIgOiA8Yj4xODAwIDIxMCAwMDE4PC9iPiAmbWlkZG90OyBDdXN0b21lcnMgdHJhdmVsbGluZyBhYnJvYWQgY2FuIHJlYWNoIHVzIG9uICs5MTIyNjQ4MDc5OTkmbmJzcDsuLi5SB2NvbnRhY3QiAhABSABYAGgA",
+    "source": "HDFC Bank",
+    "read_more_link": "https://homeloans.hdfc.bank.in/helpline#:~:text=Our%20Toll%20Free%20Helpline%20Number,%3A%201800%20210%200018&text=Customers%20travelling%20abroad%20can%20reach,us%20on%20%2B912264807999"
+   },
+   {
+    "position": 4,
+    "title": "Call us to Perform a Range of Phone Banking Transactions",
+    "link": "https://www.hdfc.bank.in/ways-to-bank/digital-banking/phone-banking/call-us",
+    "redirect_link": "https://www.google.co.in/url?sa=t&source=web&rct=j&opi=89978449&url=CAESgwEB6zswFYu3_TuUT09Ksnxpofa939FCdHzspd4LigTxzm-JgKIq5X7_hqm8m33NGhBAWYEV-XIWEdcbRa4ySRwdbkH6KakYS8g1hTsAHfKVS4MQAAB4MJTkI1skn9gYlpilISt21W2ycD8xyVP2Kyn0QSjn0QZm5yyJeAvanUOMXnKZvQ&ved=2ahUKEwikg8K_1YeXAxW_pIkEHVIlFB0QFnoECC4QAQ&uoh=1",
+    "displayed_link": "https://www.hdfc.bank.in › ... › Phone Banking",
+    "snippet": "Stay Safe with HDFC Bank's Official 1600 & 140 Numbers. Better Money Choice. Stay Safe with HDFC Bank's Official 1600 & 140 Numbers. Read Now. SmartBuy.",
+    "snippet_highlighted_words": [
+     "HDFC Bank's Official 1600 & 140 Numbers"
+    ],
+    "about_this_result": {
+     "source": {
+      "description": "Stay Safe with HDFC Bank's Official 1600 & 140 Numbers. Better Money Choice. Stay Safe with HDFC Bank's Official 1600 & 140 Numbers. Read Now. SmartBuy.",
+      "source_info_link": "https://www.hdfc.bank.in/ways-to-bank/digital-banking/phone-banking/call-us",
+      "icon": "https://serpapi.com/images/i/UklGRsYAAABXRUJQVlA4ILoAAADQAgCdASoQABAAAsBMJbACdHMAmzcGLFjlaFjhUUQAAPyP9teCXBj-RQq1foqDpwlIO1WzwVb4IKBMaqDdXfmeQoQxw_xLipsf9ynWrn3VvDKDO4TtF57i8RzEjZ6xXBq7Y378UGemT2YxTrDBpkV6YI8wHI_2JKInxjnyDDFmd8Mlga1q0eZIPvfa8TnvMT82OKenmFBf3_8dBj9zKL6iP_jV0j90lF9RH_nOOY4aaRnAl9IZSVlAAAA.webp"
+     },
+     "languages": [
+      "en"
+     ],
+     "regions": [
+      "IN"
+     ]
+    },
+    "about_page_link": "https://www.google.co.in/search/about-this-result?origin=www.google.com&req=CsABL2dvdG8_dXJsPUNBRVNnd0VCNnpzd0ZZdTNfVHVVVDA5S3NueHBvZmE5MzlGQ2RIenNwZDRMaWdUeHptLUpnS0lxNVg3X2hxbThtMzNOR2hCQVdZRVYtWElXRWRjYlJhNHlTUndkYmtINktha1lTOGcxaFRzQUhmS1ZTNE1RQUFCNE1KVGtJMXNrbjlnWWxwaWxJU3QyMVcyeWNEOHh5VlAyS3luMFFTam4wUVptNXl5SmVBdmFuVU9NWG5LWnZREgQaAggAGsgFEgIIABoAIgAqADIGCAESAmluOgBCBAgBEABKAFoQCAESDGhkZmMuYmFuay5pbnIAegCCQJIFCAAQABgAIAAqIAoEaGRmYxUXwNpAGghoZGZjYmFuaxoJaXY7cDtoZGZjKh4KBGJhbmsV0JBQQBoHYmFua2luZxoIaGRmY2JhbmsqQQoIY3VzdG9tZXIVVP1WPhoHY29udGFjdBoEY3VzdBoJY3VzdG9tZXJzGghoZWxwbGluZRoMY3VzdG9tZXJjYXJlKiwKBGNhcmUVtk6wPRoHY29udGFjdBoIaGVscGxpbmUaDGN1c3RvbWVyY2FyZSoWCgZudW1iZXIVn2CiPBoHbnVtYmVyczLAAS9nb3RvP3VybD1DQUVTZ3dFQjZ6c3dGWXUzX1R1VVQwOUtzbnhwb2ZhOTM5RkNkSHpzcGQ0TGlnVHh6bS1KZ0tJcTVYN19ocW04bTMzTkdoQkFXWUVWLVhJV0VkY2JSYTR5U1J3ZGJrSDZLYWtZUzhnMWhUc0FIZktWUzRNUUFBQjRNSlRrSTFza245Z1lscGlsSVN0MjFXMnljRDh4eVZQMkt5bjBRU2puMFFabTV5eUplQXZhblVPTVhuS1p2UTo_Q2FsbCB1cyB0byBQZXJmb3JtIGEgUmFuZ2Ugb2YgUGhvbmUgPGI-QmFua2luZzwvYj4gVHJhbnNhY3Rpb25zQq8BU3RheSBTYWZlIHdpdGggPGI-SERGQyBCYW5rJiMzOTtzIE9mZmljaWFsIDE2MDAgJmFtcDsgMTQwIE51bWJlcnM8L2I-LiBCZXR0ZXIgTW9uZXkgQ2hvaWNlLiBTdGF5IFNhZmUgd2l0aCBIREZDIEJhbmsmIzM5O3MgT2ZmaWNpYWwgMTYwMCAmYW1wOyAxNDAgTnVtYmVycy4gUmVhZCBOb3cuIFNtYXJ0QnV5LlIHY29udGFjdCICEAFIAFgAaAA",
+    "about_page_serpapi_link": "https://serpapi.com/search.json?engine=google_about_this_result&google_domain=google.co.in&req_token=CsABL2dvdG8_dXJsPUNBRVNnd0VCNnpzd0ZZdTNfVHVVVDA5S3NueHBvZmE5MzlGQ2RIenNwZDRMaWdUeHptLUpnS0lxNVg3X2hxbThtMzNOR2hCQVdZRVYtWElXRWRjYlJhNHlTUndkYmtINktha1lTOGcxaFRzQUhmS1ZTNE1RQUFCNE1KVGtJMXNrbjlnWWxwaWxJU3QyMVcyeWNEOHh5VlAyS3luMFFTam4wUVptNXl5SmVBdmFuVU9NWG5LWnZREgQaAggAGsgFEgIIABoAIgAqADIGCAESAmluOgBCBAgBEABKAFoQCAESDGhkZmMuYmFuay5pbnIAegCCQJIFCAAQABgAIAAqIAoEaGRmYxUXwNpAGghoZGZjYmFuaxoJaXY7cDtoZGZjKh4KBGJhbmsV0JBQQBoHYmFua2luZxoIaGRmY2JhbmsqQQoIY3VzdG9tZXIVVP1WPhoHY29udGFjdBoEY3VzdBoJY3VzdG9tZXJzGghoZWxwbGluZRoMY3VzdG9tZXJjYXJlKiwKBGNhcmUVtk6wPRoHY29udGFjdBoIaGVscGxpbmUaDGN1c3RvbWVyY2FyZSoWCgZudW1iZXIVn2CiPBoHbnVtYmVyczLAAS9nb3RvP3VybD1DQUVTZ3dFQjZ6c3dGWXUzX1R1VVQwOUtzbnhwb2ZhOTM5RkNkSHpzcGQ0TGlnVHh6bS1KZ0tJcTVYN19ocW04bTMzTkdoQkFXWUVWLVhJV0VkY2JSYTR5U1J3ZGJrSDZLYWtZUzhnMWhUc0FIZktWUzRNUUFBQjRNSlRrSTFza245Z1lscGlsSVN0MjFXMnljRDh4eVZQMkt5bjBRU2puMFFabTV5eUplQXZhblVPTVhuS1p2UTo_Q2FsbCB1cyB0byBQZXJmb3JtIGEgUmFuZ2Ugb2YgUGhvbmUgPGI-QmFua2luZzwvYj4gVHJhbnNhY3Rpb25zQq8BU3RheSBTYWZlIHdpdGggPGI-SERGQyBCYW5rJiMzOTtzIE9mZmljaWFsIDE2MDAgJmFtcDsgMTQwIE51bWJlcnM8L2I-LiBCZXR0ZXIgTW9uZXkgQ2hvaWNlLiBTdGF5IFNhZmUgd2l0aCBIREZDIEJhbmsmIzM5O3MgT2ZmaWNpYWwgMTYwMCAmYW1wOyAxNDAgTnVtYmVycy4gUmVhZCBOb3cuIFNtYXJ0QnV5LlIHY29udGFjdCICEAFIAFgAaAA",
+    "source": "HDFC Bank",
+    "read_more_link": "https://www.hdfc.bank.in/ways-to-bank/digital-banking/phone-banking/call-us#:~:text=Login"
+   },
+   {
+    "position": 5,
+    "title": "Banking Customer Helpdesk",
+    "link": "https://www.hdfc.bank.in/about-us/corporate-governance/banking-customer-helpdesk",
+    "redirect_link": "https://www.google.co.in/url?sa=t&source=web&rct=j&opi=89978449&url=CAESiAEB6zswFWSdKgY9y4mN7p6k9UU4pkrYlGwnbXFYta_bYLLbCw5LGc974pP3lAhUjsZWcaq6lPFdTiNV0Cpb3sOHBMN447mhHdj8aZeyuM4oesAucH7SH6mMC16YMOGxbLA4_K9If-acj-gUV0J-WQvQCLd71S5rs9Yux5_s9ht4ABt6MrOMgEZU&ved=2ahUKEwikg8K_1YeXAxW_pIkEHVIlFB0QFnoECCAQAQ&uoh=1",
+    "displayed_link": "https://www.hdfc.bank.in › ... › Corporate Governance",
+    "snippet": "Call at: Our customer care (Phone Banking) numbers. Location wise list of customer care numbers(opens. Email: support@hdfc.bank.in Write to us online(opens. ...",
+    "snippet_highlighted_words": [
+     "customer care (Phone Banking) numbers"
+    ],
+    "about_this_result": {
+     "source": {
+      "description": "Call at: Our customer care (Phone Banking) numbers. Location wise list of customer care numbers(opens. Email: support@hdfc.bank.in Write to us online(opens. ...",
+      "source_info_link": "https://www.hdfc.bank.in/about-us/corporate-governance/banking-customer-helpdesk",
+      "icon": "https://serpapi.com/images/i/UklGRsYAAABXRUJQVlA4ILoAAADQAgCdASoQABAAAsBMJbACdHMAmzcGLFjlaFjhUUQAAPyP9teCXBj-RQq1foqDpwlIO1WzwVb4IKBMaqDdXfmeQoQxw_xLipsf9ynWrn3VvDKDO4TtF57i8RzEjZ6xXBq7Y378UGemT2YxTrDBpkV6YI8wHI_2JKInxjnyDDFmd8Mlga1q0eZIPvfa8TnvMT82OKenmFBf3_8dBj9zKL6iP_jV0j90lF9RH_nOOY4aaRnAl9IZSVlAAAA.webp"
+     },
+     "languages": [
+      "en"
+     ],
+     "regions": [
+      "IN"
+     ]
+    },
+    "about_page_link": "https://www.google.co.in/search/about-this-result?origin=www.google.com&req=CsYBL2dvdG8_dXJsPUNBRVNpQUVCNnpzd0ZXU2RLZ1k5eTRtTjdwNms5VVU0cGtyWWxHd25iWEZZdGFfYllMTGJDdzVMR2M5NzRwUDNsQWhVanNaV2NhcTZsUEZkVGlOVjBDcGIzc09IQk1ONDQ3bWhIZGo4YVpleXVNNG9lc0F1Y0g3U0g2bU1DMTZZTU9HeGJMQTRfSzlJZi1hY2otZ1VWMEotV1F2UUNMZDcxUzVyczlZdXg1X3M5aHQ0QUJ0Nk1yT01nRVpVEgQaAggAGskFEgIIABoAIgAqADIGCAESAmluOgBCBAgBEABKAFoQCAESDGhkZmMuYmFuay5pbnIAegCCQJMFCAAQABgAIAAqIAoEaGRmYxVwOPRAGghoZGZjYmFuaxoJaXY7cDtoZGZjKh4KBGJhbmsVuqqKQBoHYmFua2luZxoIaGRmY2JhbmsqQQoIY3VzdG9tZXIVqGDDPxoHY29udGFjdBoEY3VzdBoJY3VzdG9tZXJzGghoZWxwbGluZRoMY3VzdG9tZXJjYXJlKiwKBGNhcmUVpkwbPxoHY29udGFjdBoIaGVscGxpbmUaDGN1c3RvbWVyY2FyZSoWCgZudW1iZXIVRvB-PhoHbnVtYmVyczLGAS9nb3RvP3VybD1DQUVTaUFFQjZ6c3dGV1NkS2dZOXk0bU43cDZrOVVVNHBrcllsR3duYlhGWXRhX2JZTExiQ3c1TEdjOTc0cFAzbEFoVWpzWldjYXE2bFBGZFRpTlYwQ3BiM3NPSEJNTjQ0N21oSGRqOGFaZXl1TTRvZXNBdWNIN1NINm1NQzE2WU1PR3hiTEE0X0s5SWYtYWNqLWdVVjBKLVdRdlFDTGQ3MVM1cnM5WXV4NV9zOWh0NEFCdDZNck9NZ0VaVTo9T25saW5lIEhlbHAgRGVzayB0byBTb2x2ZSBhbGwgWW91ciBRdWVyaWVzIHwgPGI-SERGQyBCYW5rPC9iPkKsAUNhbGwgYXQ6IE91ciA8Yj5jdXN0b21lciBjYXJlIChQaG9uZSBCYW5raW5nKSBudW1iZXJzPC9iPi4gTG9jYXRpb24gd2lzZSBsaXN0IG9mIGN1c3RvbWVyIGNhcmUgbnVtYmVycyhvcGVucy4gRW1haWw6IHN1cHBvcnRAaGRmYy5iYW5rLmluIFdyaXRlIHRvIHVzIG9ubGluZShvcGVucy4mbmJzcDsuLi5SB2NvbnRhY3QiAhABSABYAGgA",
+    "about_page_serpapi_link": "https://serpapi.com/search.json?engine=google_about_this_result&google_domain=google.co.in&req_token=CsYBL2dvdG8_dXJsPUNBRVNpQUVCNnpzd0ZXU2RLZ1k5eTRtTjdwNms5VVU0cGtyWWxHd25iWEZZdGFfYllMTGJDdzVMR2M5NzRwUDNsQWhVanNaV2NhcTZsUEZkVGlOVjBDcGIzc09IQk1ONDQ3bWhIZGo4YVpleXVNNG9lc0F1Y0g3U0g2bU1DMTZZTU9HeGJMQTRfSzlJZi1hY2otZ1VWMEotV1F2UUNMZDcxUzVyczlZdXg1X3M5aHQ0QUJ0Nk1yT01nRVpVEgQaAggAGskFEgIIABoAIgAqADIGCAESAmluOgBCBAgBEABKAFoQCAESDGhkZmMuYmFuay5pbnIAegCCQJMFCAAQABgAIAAqIAoEaGRmYxVwOPRAGghoZGZjYmFuaxoJaXY7cDtoZGZjKh4KBGJhbmsVuqqKQBoHYmFua2luZxoIaGRmY2JhbmsqQQoIY3VzdG9tZXIVqGDDPxoHY29udGFjdBoEY3VzdBoJY3VzdG9tZXJzGghoZWxwbGluZRoMY3VzdG9tZXJjYXJlKiwKBGNhcmUVpkwbPxoHY29udGFjdBoIaGVscGxpbmUaDGN1c3RvbWVyY2FyZSoWCgZudW1iZXIVRvB-PhoHbnVtYmVyczLGAS9nb3RvP3VybD1DQUVTaUFFQjZ6c3dGV1NkS2dZOXk0bU43cDZrOVVVNHBrcllsR3duYlhGWXRhX2JZTExiQ3c1TEdjOTc0cFAzbEFoVWpzWldjYXE2bFBGZFRpTlYwQ3BiM3NPSEJNTjQ0N21oSGRqOGFaZXl1TTRvZXNBdWNIN1NINm1NQzE2WU1PR3hiTEE0X0s5SWYtYWNqLWdVVjBKLVdRdlFDTGQ3MVM1cnM5WXV4NV9zOWh0NEFCdDZNck9NZ0VaVTo9T25saW5lIEhlbHAgRGVzayB0byBTb2x2ZSBhbGwgWW91ciBRdWVyaWVzIHwgPGI-SERGQyBCYW5rPC9iPkKsAUNhbGwgYXQ6IE91ciA8Yj5jdXN0b21lciBjYXJlIChQaG9uZSBCYW5raW5nKSBudW1iZXJzPC9iPi4gTG9jYXRpb24gd2lzZSBsaXN0IG9mIGN1c3RvbWVyIGNhcmUgbnVtYmVycyhvcGVucy4gRW1haWw6IHN1cHBvcnRAaGRmYy5iYW5rLmluIFdyaXRlIHRvIHVzIG9ubGluZShvcGVucy4mbmJzcDsuLi5SB2NvbnRhY3QiAhABSABYAGgA",
+    "source": "HDFC Bank"
+   },
+   {
+    "position": 6,
+    "title": "HDFC Bank Customer Care Number in Bangalore",
+    "link": "https://www.justdial.com/Bangalore/HDFC-Bank/080PXX80-XX80-180110133703-E2V3_BZDET",
+    "redirect_link": "https://www.google.co.in/url?sa=t&source=web&rct=j&opi=89978449&url=CAESigEB6zswFfAH68zx78LoH5nzwSjWNogvv4qJq6M92q2XW6Cjw_UWYyWEpza9iCumNoRqNcbVx8vsx2mAPvktfI0FKl4UMHygJB4wVhOR4GW-P3Kb4JL0R7GlMkQOwdOxKXfxaucuZRwPkeWIT8YSaskHYEJwn13l92Oy9Ld5-sViQN8ntTTuUaHHmCk&ved=2ahUKEwikg8K_1YeXAxW_pIkEHVIlFB0QFnoECCQQAQ&uoh=1",
+    "displayed_link": "https://www.justdial.com › ... › Banks In Bangalore",
+    "snippet": "Find HDFC Bank Customer Care Number in Bangalore on Justdial. Get helpline numbers, toll-free contact, support details, complaint assistance, working hours, ...",
+    "snippet_highlighted_words": [
+     "HDFC Bank Customer Care Number"
+    ],
+    "about_this_result": {
+     "source": {
+      "description": "Find HDFC Bank Customer Care Number in Bangalore on Justdial. Get helpline numbers, toll-free contact, support details, complaint assistance, working hours, ...",
+      "source_info_link": "https://www.justdial.com/Bangalore/HDFC-Bank/080PXX80-XX80-180110133703-E2V3_BZDET",
+      "icon": "https://serpapi.com/images/i/UklGRqgAAABXRUJQVlA4IJwAAADwAgCdASoQABAAAsBMJbACdDiAP0A4CkFq58psin0SkAD--q31jH7d5W1uxfXO5nb8LSdefKaagozfP45QnxuH4vNL1KtsnPCpMJUuGP_FrEFbNoaquFgwJzn34CIyxoWia3lxLLsb-8VB4cmZOAYN_1krQMDF0t8L_p2aqhj9f-w2zUnHUm8H7QdRLxoFBciseJRQuvI02frQAAA.webp"
+     },
+     "languages": [
+      "en"
+     ],
+     "regions": [
+      "IN"
+     ]
+    },
+    "about_page_link": "https://www.google.co.in/search/about-this-result?origin=www.google.com&req=CskBL2dvdG8_dXJsPUNBRVNpZ0VCNnpzd0ZmQUg2OHp4NzhMb0g1bnp3U2pXTm9ndnY0cUpxNk05MnEyWFc2Q2p3X1VXWXlXRXB6YTlpQ3VtTm9ScU5jYlZ4OHZzeDJtQVB2a3RmSTBGS2w0VU1IeWdKQjR3VmhPUjRHVy1QM0tiNEpMMFI3R2xNa1FPd2RPeEtYZnhhdWN1WlJ3UGtlV0lUOFlTYXNrSFlFSnduMTNsOTJPeTlMZDUtc1ZpUU44bnRUVHVVYUhIbUNrEgQaAggAGtMFEgAaACIAKgA6AEIECAEQAEocCAESFEJlbmdhbHVydSwgS2FybmF0YWthGgIIAloAcgB6AIJAmwUIABAAGAAgACogCgRoZGZjFRSc3UAaCGhkZmNiYW5rGglpdjtwO2hkZmMqHgoEYmFuaxVJhNFAGgdiYW5raW5nGghoZGZjYmFuaypBCghjdXN0b21lchVKzYlAGgdjb250YWN0GgRjdXN0GgljdXN0b21lcnMaCGhlbHBsaW5lGgxjdXN0b21lcmNhcmUqLAoEY2FyZRUwfm9AGgdjb250YWN0GghoZWxwbGluZRoMY3VzdG9tZXJjYXJlKhYKBm51bWJlchU7KJFAGgdudW1iZXJzMskBL2dvdG8_dXJsPUNBRVNpZ0VCNnpzd0ZmQUg2OHp4NzhMb0g1bnp3U2pXTm9ndnY0cUpxNk05MnEyWFc2Q2p3X1VXWXlXRXB6YTlpQ3VtTm9ScU5jYlZ4OHZzeDJtQVB2a3RmSTBGS2w0VU1IeWdKQjR3VmhPUjRHVy1QM0tiNEpMMFI3R2xNa1FPd2RPeEtYZnhhdWN1WlJ3UGtlV0lUOFlTYXNrSFlFSnduMTNsOTJPeTlMZDUtc1ZpUU44bnRUVHVVYUhIbUNrOkI8Yj5IREZDIEJhbmsgQ3VzdG9tZXIgQ2FyZSBOdW1iZXI8L2I-IGluIEJhbmdhbG9yZSAtIEp1c3RkaWFsIChKZClCrAFGaW5kIDxiPkhERkMgQmFuayBDdXN0b21lciBDYXJlIE51bWJlcjwvYj4gaW4gQmFuZ2Fsb3JlIG9uIEp1c3RkaWFsLiBHZXQgaGVscGxpbmUgbnVtYmVycywgdG9sbC1mcmVlIGNvbnRhY3QsIHN1cHBvcnQgZGV0YWlscywgY29tcGxhaW50IGFzc2lzdGFuY2UsIHdvcmtpbmcgaG91cnMsJm5ic3A7Li4uUgdjb250YWN0IgIQAUgAWABoAA",
+    "about_page_serpapi_link": "https://serpapi.com/search.json?engine=google_about_this_result&google_domain=google.co.in&req_token=CskBL2dvdG8_dXJsPUNBRVNpZ0VCNnpzd0ZmQUg2OHp4NzhMb0g1bnp3U2pXTm9ndnY0cUpxNk05MnEyWFc2Q2p3X1VXWXlXRXB6YTlpQ3VtTm9ScU5jYlZ4OHZzeDJtQVB2a3RmSTBGS2w0VU1IeWdKQjR3VmhPUjRHVy1QM0tiNEpMMFI3R2xNa1FPd2RPeEtYZnhhdWN1WlJ3UGtlV0lUOFlTYXNrSFlFSnduMTNsOTJPeTlMZDUtc1ZpUU44bnRUVHVVYUhIbUNrEgQaAggAGtMFEgAaACIAKgA6AEIECAEQAEocCAESFEJlbmdhbHVydSwgS2FybmF0YWthGgIIAloAcgB6AIJAmwUIABAAGAAgACogCgRoZGZjFRSc3UAaCGhkZmNiYW5rGglpdjtwO2hkZmMqHgoEYmFuaxVJhNFAGgdiYW5raW5nGghoZGZjYmFuaypBCghjdXN0b21lchVKzYlAGgdjb250YWN0GgRjdXN0GgljdXN0b21lcnMaCGhlbHBsaW5lGgxjdXN0b21lcmNhcmUqLAoEY2FyZRUwfm9AGgdjb250YWN0GghoZWxwbGluZRoMY3VzdG9tZXJjYXJlKhYKBm51bWJlchU7KJFAGgdudW1iZXJzMskBL2dvdG8_dXJsPUNBRVNpZ0VCNnpzd0ZmQUg2OHp4NzhMb0g1bnp3U2pXTm9ndnY0cUpxNk05MnEyWFc2Q2p3X1VXWXlXRXB6YTlpQ3VtTm9ScU5jYlZ4OHZzeDJtQVB2a3RmSTBGS2w0VU1IeWdKQjR3VmhPUjRHVy1QM0tiNEpMMFI3R2xNa1FPd2RPeEtYZnhhdWN1WlJ3UGtlV0lUOFlTYXNrSFlFSnduMTNsOTJPeTlMZDUtc1ZpUU44bnRUVHVVYUhIbUNrOkI8Yj5IREZDIEJhbmsgQ3VzdG9tZXIgQ2FyZSBOdW1iZXI8L2I-IGluIEJhbmdhbG9yZSAtIEp1c3RkaWFsIChKZClCrAFGaW5kIDxiPkhERkMgQmFuayBDdXN0b21lciBDYXJlIE51bWJlcjwvYj4gaW4gQmFuZ2Fsb3JlIG9uIEp1c3RkaWFsLiBHZXQgaGVscGxpbmUgbnVtYmVycywgdG9sbC1mcmVlIGNvbnRhY3QsIHN1cHBvcnQgZGV0YWlscywgY29tcGxhaW50IGFzc2lzdGFuY2UsIHdvcmtpbmcgaG91cnMsJm5ic3A7Li4uUgdjb250YWN0IgIQAUgAWABoAA",
+    "source": "Justdial"
+   },
+   {
+    "position": 7,
+    "title": "HDFC Bank Customer Care | 24×7 Toll-Free Number",
+    "link": "https://www.paisabazaar.com/hdfc-bank/customer-care/",
+    "redirect_link": "https://www.google.co.in/url?sa=t&source=web&rct=j&opi=89978449&url=CAESbAHrOzAVHfDQSCYsVL7Dnevgkzdyz6Hq-denEPUGDPrn-l2h68ZBP2go3NmG-SNizss52CS32uhQLN2wGKtVAzN1rTgaAg8cs7OVQ8cFHI7GWGTSXwmwlvH9qG_VqYENBBFEnvNX1SkvdMqlJw&ved=2ahUKEwikg8K_1YeXAxW_pIkEHVIlFB0QFnoECCYQAQ&uoh=1",
+    "displayed_link": "https://www.paisabazaar.com › ... › HDFC Debit Card",
+    "date": "10 May 2026",
+    "snippet": "HDFC Customer Care Number 24×7 · 1800-1600 / 1800-2600 · +9122-6160-6160. To know about HDFC Bank credit card customer care, click here ...",
+    "snippet_highlighted_words": [
+     "1800-1600 / 1800-2600"
+    ],
+    "about_this_result": {
+     "source": {
+      "description": "HDFC Customer Care Number 24×7 · 1800-1600 / 1800-2600 · +9122-6160-6160. To know about HDFC Bank credit card customer care, click here ...",
+      "source_info_link": "https://www.paisabazaar.com/hdfc-bank/customer-care/",
+      "icon": "https://serpapi.com/images/i/UklGRo4AAABXRUJQVlA4IIIAAACQAgCdASoQABAAAsBMJbACdLoB-AACnPvwjd_AoAD-iI6y7Qn9XDNAQWoYSuSxM4-vPj7mAbBha-xem6T_gduNqcqcE-T9anZ4RR8VEUMVPtJhNtPf2I9c6VSMpQsUyFsGSX_56qGY5jxnT3r58tkv3qxOQf-LS0yONgZK_OauuuAA.webp"
+     },
+     "languages": [
+      "en"
+     ],
+     "regions": [
+      "IN"
+     ]
+    },
+    "about_page_link": "https://www.google.co.in/search/about-this-result?origin=www.google.com&req=CqABL2dvdG8_dXJsPUNBRVNiQUhyT3pBVkhmRFFTQ1lzVkw3RG5ldmdremR5ejZIcS1kZW5FUFVHRFBybi1sMmg2OFpCUDJnbzNObUctU05penNzNTJDUzMydWhRTE4yd0dLdFZBek4xclRnYUFnOGNzN09WUThjRkhJN0dXR1RTWHdtd2x2SDlxR19WcVlFTkJCRkVudk5YMVNrdmRNcWxKdxIEGgIIABqOBRICCAAaACIAKgAyBggBEgJpbjoAQgQIARAASgBaAHIAegCCQOgECAAQABgAIAAqIAoEaGRmYxV9_LxAGghoZGZjYmFuaxoJaXY7cDtoZGZjKh4KBGJhbmsVzcJ5QBoHYmFua2luZxoIaGRmY2JhbmsqQQoIY3VzdG9tZXIVyBfMQBoHY29udGFjdBoEY3VzdBoJY3VzdG9tZXJzGghoZWxwbGluZRoMY3VzdG9tZXJjYXJlKiwKBGNhcmUVrLu4QBoHY29udGFjdBoIaGVscGxpbmUaDGN1c3RvbWVyY2FyZSoWCgZudW1iZXIVhzyxQBoHbnVtYmVyczKgAS9nb3RvP3VybD1DQUVTYkFIck96QVZIZkRRU0NZc1ZMN0RuZXZna3pkeXo2SHEtZGVuRVBVR0RQcm4tbDJoNjhaQlAyZ28zTm1HLVNOaXpzczUyQ1MzMnVoUUxOMndHS3RWQXpOMXJUZ2FBZzhjczdPVlE4Y0ZISTdHV0dUU1h3bXdsdkg5cUdfVnFZRU5CQkZFbnZOWDFTa3ZkTXFsSnc6PjxiPkhERkMgQmFuayBDdXN0b21lciBDYXJlPC9iPiB8IDI0w5c3IFRvbGwtRnJlZSA8Yj5OdW1iZXI8L2I-QqYBSERGQyBDdXN0b21lciBDYXJlIE51bWJlciAyNMOXNyAmbWlkZG90OyA8Yj4xODAwLTE2MDAgLyAxODAwLTI2MDA8L2I-ICZtaWRkb3Q7ICs5MTIyLTYxNjAtNjE2MC4gVG8ga25vdyBhYm91dCBIREZDIEJhbmsgY3JlZGl0IGNhcmQgY3VzdG9tZXIgY2FyZSwgY2xpY2sgaGVyZSZuYnNwOy4uLlIHY29udGFjdCICEAFIAFgAaAA",
+    "about_page_serpapi_link": "https://serpapi.com/search.json?engine=google_about_this_result&google_domain=google.co.in&req_token=CqABL2dvdG8_dXJsPUNBRVNiQUhyT3pBVkhmRFFTQ1lzVkw3RG5ldmdremR5ejZIcS1kZW5FUFVHRFBybi1sMmg2OFpCUDJnbzNObUctU05penNzNTJDUzMydWhRTE4yd0dLdFZBek4xclRnYUFnOGNzN09WUThjRkhJN0dXR1RTWHdtd2x2SDlxR19WcVlFTkJCRkVudk5YMVNrdmRNcWxKdxIEGgIIABqOBRICCAAaACIAKgAyBggBEgJpbjoAQgQIARAASgBaAHIAegCCQOgECAAQABgAIAAqIAoEaGRmYxV9_LxAGghoZGZjYmFuaxoJaXY7cDtoZGZjKh4KBGJhbmsVzcJ5QBoHYmFua2luZxoIaGRmY2JhbmsqQQoIY3VzdG9tZXIVyBfMQBoHY29udGFjdBoEY3VzdBoJY3VzdG9tZXJzGghoZWxwbGluZRoMY3VzdG9tZXJjYXJlKiwKBGNhcmUVrLu4QBoHY29udGFjdBoIaGVscGxpbmUaDGN1c3RvbWVyY2FyZSoWCgZudW1iZXIVhzyxQBoHbnVtYmVyczKgAS9nb3RvP3VybD1DQUVTYkFIck96QVZIZkRRU0NZc1ZMN0RuZXZna3pkeXo2SHEtZGVuRVBVR0RQcm4tbDJoNjhaQlAyZ28zTm1HLVNOaXpzczUyQ1MzMnVoUUxOMndHS3RWQXpOMXJUZ2FBZzhjczdPVlE4Y0ZISTdHV0dUU1h3bXdsdkg5cUdfVnFZRU5CQkZFbnZOWDFTa3ZkTXFsSnc6PjxiPkhERkMgQmFuayBDdXN0b21lciBDYXJlPC9iPiB8IDI0w5c3IFRvbGwtRnJlZSA8Yj5OdW1iZXI8L2I-QqYBSERGQyBDdXN0b21lciBDYXJlIE51bWJlciAyNMOXNyAmbWlkZG90OyA8Yj4xODAwLTE2MDAgLyAxODAwLTI2MDA8L2I-ICZtaWRkb3Q7ICs5MTIyLTYxNjAtNjE2MC4gVG8ga25vdyBhYm91dCBIREZDIEJhbmsgY3JlZGl0IGNhcmQgY3VzdG9tZXIgY2FyZSwgY2xpY2sgaGVyZSZuYnNwOy4uLlIHY29udGFjdCICEAFIAFgAaAA",
+    "source": "Paisabazaar",
+    "read_more_link": "https://www.paisabazaar.com/hdfc-bank/customer-care/#:~:text=HDFC%20Customer%20Care%20Number%2024%C3%977&text=1800%2D1600%20%2F%201800%2D2600&text=%2B9122%2D6160%2D6160,card%20customer%20care%2C%20click%20here"
+   },
+   {
+    "position": 8,
+    "title": "Chat Banking",
+    "link": "https://www.hdfc.bank.in/ways-to-bank/chat-banking",
+    "redirect_link": "https://www.google.co.in/url?sa=t&source=web&rct=j&opi=89978449&url=CAESagHrOzAVWW14p8jFRJx7rwyNuknmN0_iZxT3825BqCPbiMCmIgnyvZnjQkv1BofNaFQOz4QPg_i5ydTunY-sw_unHPoYPWx1r-WMlZoF89hEd1NU-7_jbfZPJz-XtBH8zDB32GT9Fg53ckw&ved=2ahUKEwikg8K_1YeXAxW_pIkEHVIlFB0QFnoECDwQAQ&uoh=1",
+    "displayed_link": "https://www.hdfc.bank.in › Ways to Bank",
+    "snippet": "Save the number +91 7070022222 in your contacts & just send \"Hi\" or \"Register\" on WhatsApp from your bank-registered mobile number to +91 7070022222 and you ...",
+    "snippet_highlighted_words": [
+     "91 7070022222"
+    ],
+    "about_this_result": {
+     "source": {
+      "description": "Save the number +91 7070022222 in your contacts & just send \"Hi\" or \"Register\" on WhatsApp from your bank-registered mobile number to +91 7070022222 and you ...",
+      "source_info_link": "https://www.hdfc.bank.in/ways-to-bank/chat-banking",
+      "icon": "https://serpapi.com/images/i/UklGRsYAAABXRUJQVlA4ILoAAADQAgCdASoQABAAAsBMJbACdHMAmzcGLFjlaFjhUUQAAPyP9teCXBj-RQq1foqDpwlIO1WzwVb4IKBMaqDdXfmeQoQxw_xLipsf9ynWrn3VvDKDO4TtF57i8RzEjZ6xXBq7Y378UGemT2YxTrDBpkV6YI8wHI_2JKInxjnyDDFmd8Mlga1q0eZIPvfa8TnvMT82OKenmFBf3_8dBj9zKL6iP_jV0j90lF9RH_nOOY4aaRnAl9IZSVlAAAA.webp"
+     },
+     "languages": [
+      "en"
+     ],
+     "regions": [
+      "IN"
+     ]
+    },
+    "about_page_link": "https://www.google.co.in/search/about-this-result?origin=www.google.com&req=Cp0BL2dvdG8_dXJsPUNBRVNhZ0hyT3pBVldXMTRwOGpGUkp4N3J3eU51a25tTjBfaVp4VDM4MjVCcUNQYmlNQ21JZ255dlpualFrdjFCb2ZOYUZRT3o0UVBnX2k1eWRUdW5ZLXN3X3VuSFBvWVBXeDFyLVdNbFpvRjg5aEVkMU5VLTdfamJmWlBKei1YdEJIOHpEQjMyR1Q5Rmc1M2NrdxIEGgIIABqYBRIAGgAiACoAMgYIARICaW46AEIECAEQAEoAWhAIARIMaGRmYy5iYW5rLmlucgB6AIJA5AQIABAAGAAgACogCgRoZGZjFb5WrEAaCGhkZmNiYW5rGglpdjtwO2hkZmMqHgoEYmFuaxWDBc4_GgdiYW5raW5nGghoZGZjYmFuaypBCghjdXN0b21lchVYrtU-Ggdjb250YWN0GgRjdXN0GgljdXN0b21lcnMaCGhlbHBsaW5lGgxjdXN0b21lcmNhcmUqLAoEY2FyZRXtHPU9Ggdjb250YWN0GghoZWxwbGluZRoMY3VzdG9tZXJjYXJlKhYKBm51bWJlchUH_CU-GgdudW1iZXJzMp0BL2dvdG8_dXJsPUNBRVNhZ0hyT3pBVldXMTRwOGpGUkp4N3J3eU51a25tTjBfaVp4VDM4MjVCcUNQYmlNQ21JZ255dlpualFrdjFCb2ZOYUZRT3o0UVBnX2k1eWRUdW5ZLXN3X3VuSFBvWVBXeDFyLVdNbFpvRjg5aEVkMU5VLTdfamJmWlBKei1YdEJIOHpEQjMyR1Q5Rmc1M2NrdzofQ2hhdCBCYW5raW5nIC0gPGI-SERGQyBCYW5rPC9iPkLEAVNhdmUgdGhlIG51bWJlciArPGI-OTEgNzA3MDAyMjIyMjwvYj4gaW4geW91ciBjb250YWN0cyAmYW1wOyBqdXN0IHNlbmQgJnF1b3Q7SGkmcXVvdDsgb3IgJnF1b3Q7UmVnaXN0ZXImcXVvdDsgb24gV2hhdHNBcHAgZnJvbSB5b3VyIGJhbmstcmVnaXN0ZXJlZCBtb2JpbGUgbnVtYmVyIHRvICs5MSA3MDcwMDIyMjIyIGFuZCB5b3UmbmJzcDsuLi5SB2NvbnRhY3QiAhABSABYAGgA",
+    "about_page_serpapi_link": "https://serpapi.com/search.json?engine=google_about_this_result&google_domain=google.co.in&req_token=Cp0BL2dvdG8_dXJsPUNBRVNhZ0hyT3pBVldXMTRwOGpGUkp4N3J3eU51a25tTjBfaVp4VDM4MjVCcUNQYmlNQ21JZ255dlpualFrdjFCb2ZOYUZRT3o0UVBnX2k1eWRUdW5ZLXN3X3VuSFBvWVBXeDFyLVdNbFpvRjg5aEVkMU5VLTdfamJmWlBKei1YdEJIOHpEQjMyR1Q5Rmc1M2NrdxIEGgIIABqYBRIAGgAiACoAMgYIARICaW46AEIECAEQAEoAWhAIARIMaGRmYy5iYW5rLmlucgB6AIJA5AQIABAAGAAgACogCgRoZGZjFb5WrEAaCGhkZmNiYW5rGglpdjtwO2hkZmMqHgoEYmFuaxWDBc4_GgdiYW5raW5nGghoZGZjYmFuaypBCghjdXN0b21lchVYrtU-Ggdjb250YWN0GgRjdXN0GgljdXN0b21lcnMaCGhlbHBsaW5lGgxjdXN0b21lcmNhcmUqLAoEY2FyZRXtHPU9Ggdjb250YWN0GghoZWxwbGluZRoMY3VzdG9tZXJjYXJlKhYKBm51bWJlchUH_CU-GgdudW1iZXJzMp0BL2dvdG8_dXJsPUNBRVNhZ0hyT3pBVldXMTRwOGpGUkp4N3J3eU51a25tTjBfaVp4VDM4MjVCcUNQYmlNQ21JZ255dlpualFrdjFCb2ZOYUZRT3o0UVBnX2k1eWRUdW5ZLXN3X3VuSFBvWVBXeDFyLVdNbFpvRjg5aEVkMU5VLTdfamJmWlBKei1YdEJIOHpEQjMyR1Q5Rmc1M2NrdzofQ2hhdCBCYW5raW5nIC0gPGI-SERGQyBCYW5rPC9iPkLEAVNhdmUgdGhlIG51bWJlciArPGI-OTEgNzA3MDAyMjIyMjwvYj4gaW4geW91ciBjb250YWN0cyAmYW1wOyBqdXN0IHNlbmQgJnF1b3Q7SGkmcXVvdDsgb3IgJnF1b3Q7UmVnaXN0ZXImcXVvdDsgb24gV2hhdHNBcHAgZnJvbSB5b3VyIGJhbmstcmVnaXN0ZXJlZCBtb2JpbGUgbnVtYmVyIHRvICs5MSA3MDcwMDIyMjIyIGFuZCB5b3UmbmJzcDsuLi5SB2NvbnRhY3QiAhABSABYAGgA",
+    "source": "HDFC Bank",
+    "read_more_link": "https://www.hdfc.bank.in/ways-to-bank/chat-banking#:~:text=Here's%20how%20to%20reach%20us"
+   },
+   {
+    "position": 9,
+    "title": "HDFC Credit Card Customer Care Numbers Bangalore",
+    "link": "https://www.bankbazaar.com/credit-card/hdfc-customer-care-bangalore.html",
+    "redirect_link": "https://www.google.co.in/url?sa=t&source=web&rct=j&opi=89978449&url=CAESgAEB6zswFdKo-G8dPGzEFc00qMn1qdhuByRQhnKhu16R4ZwgRnsnGUN22WFI30PTWSBsHqNqgGkDEbMEXQ72cJbs6gNXi-At5N6nmQeHbPBvZIjicTmW_HOX_cNVVxYxOXkJG1dxODHNUEEfaWYgEHfJkZTSiKwQt3ShE5aKNrptyg&ved=2ahUKEwikg8K_1YeXAxW_pIkEHVIlFB0QFnoECD0QAQ&uoh=1",
+    "displayed_link": "https://www.bankbazaar.com › Credit Cards",
+    "snippet": "You can also call 1800 202 6161 / 1860 267 6161. HDFC Bank Bangalore customer care. HDFC Credit Card Customer Care Number Bangalore - To Report Unauthorised ...",
+    "snippet_highlighted_words": [
+     "1800 202 6161 / 1860 267 6161"
+    ],
+    "about_this_result": {
+     "source": {
+      "description": "You can also call 1800 202 6161 / 1860 267 6161. HDFC Bank Bangalore customer care. HDFC Credit Card Customer Care Number Bangalore - To Report Unauthorised ...",
+      "source_info_link": "https://www.bankbazaar.com/credit-card/hdfc-customer-care-bangalore.html",
+      "icon": "https://serpapi.com/images/i/UklGRh4BAABXRUJQVlA4IBIBAABQBgCdASocABwAPtEutFooIagoGAEAGglsAJ0yhILIqqqCwAOk88oAmfQ07Cr62OpSBYd_SQj4xjFMAADiK45EAHsartgilhVOanRS0WmX3Gzrn-pkY6trZiCp7__4IS7bUd8q_fpKyHD_UquGX7HBQNz39KydGQT0XgYzCiZpYWXPmHfGN1_3X_lsDFDm7Q_SHW9AT5xolnzf_yIR9N05tgiujtW7qf9ieG_Iu17kDGA8lKebVE1XfNyE7KVf1mRDhk3_N1HkYRYi60pLBtucIeF7vavSOqoWOVHXqv_31ip8_E-SchuK3vp2ZF6jfMfv_igv1F_89PvyBvA5eQhGekC4f18x-9AfpZUlDvVvQAAA.webp"
+     },
+     "languages": [
+      "en"
+     ],
+     "regions": [
+      "IN"
+     ]
+    },
+    "about_page_link": "https://www.google.co.in/search/about-this-result?origin=www.google.com&req=CrwBL2dvdG8_dXJsPUNBRVNnQUVCNnpzd0ZkS28tRzhkUEd6RUZjMDBxTW4xcWRodUJ5UlFobktodTE2UjRad2dSbnNuR1VOMjJXRkkzMFBUV1NCc0hxTnFnR2tERWJNRVhRNzJjSmJzNmdOWGktQXQ1TjZubVFlSGJQQnZaSWppY1RtV19IT1hfY05WVnhZeE9Ya0pHMWR4T0RITlVFRWZhV1lnRUhmSmtaVFNpS3dRdDNTaEU1YUtOcnB0eWcSBBoCCAAaywUSABoAIgAqADoAQgQIARAAShwIARIUQmVuZ2FsdXJ1LCBLYXJuYXRha2EaAggCWgByAHoAgkCTBQgAEAAYACAAKiAKBGhkZmMVizD9QBoIaGRmY2JhbmsaCWl2O3A7aGRmYyoeCgRiYW5rFZJEu0AaB2JhbmtpbmcaCGhkZmNiYW5rKkEKCGN1c3RvbWVyFfRBAEEaB2NvbnRhY3QaBGN1c3QaCWN1c3RvbWVycxoIaGVscGxpbmUaDGN1c3RvbWVyY2FyZSosCgRjYXJlFdiG90AaB2NvbnRhY3QaCGhlbHBsaW5lGgxjdXN0b21lcmNhcmUqFgoGbnVtYmVyFYbfh0AaB251bWJlcnMyvAEvZ290bz91cmw9Q0FFU2dBRUI2enN3RmRLby1HOGRQR3pFRmMwMHFNbjFxZGh1QnlSUWhuS2h1MTZSNFp3Z1Juc25HVU4yMldGSTMwUFRXU0JzSHFOcWdHa0RFYk1FWFE3MmNKYnM2Z05YaS1BdDVONm5tUWVIYlBCdlpJamljVG1XX0hPWF9jTlZWeFl4T1hrSkcxZHhPREhOVUVFZmFXWWdFSGZKa1pUU2lLd1F0M1NoRTVhS05ycHR5ZzpHPGI-SERGQzwvYj4gQ3JlZGl0IENhcmQgPGI-Q3VzdG9tZXIgQ2FyZTwvYj4gQmFuZ2Fsb3JlIC0gMjQqNyBBdmFpbGFibGVCrAFZb3UgY2FuIGFsc28gY2FsbCA8Yj4xODAwIDIwMiA2MTYxIC8gMTg2MCAyNjcgNjE2MTwvYj4uIEhERkMgQmFuayBCYW5nYWxvcmUgY3VzdG9tZXIgY2FyZS4gSERGQyBDcmVkaXQgQ2FyZCBDdXN0b21lciBDYXJlIE51bWJlciBCYW5nYWxvcmUgLSBUbyBSZXBvcnQgVW5hdXRob3Jpc2VkJm5ic3A7Li4uUgdjb250YWN0IgIQAUgAWABoAA",
+    "about_page_serpapi_link": "https://serpapi.com/search.json?engine=google_about_this_result&google_domain=google.co.in&req_token=CrwBL2dvdG8_dXJsPUNBRVNnQUVCNnpzd0ZkS28tRzhkUEd6RUZjMDBxTW4xcWRodUJ5UlFobktodTE2UjRad2dSbnNuR1VOMjJXRkkzMFBUV1NCc0hxTnFnR2tERWJNRVhRNzJjSmJzNmdOWGktQXQ1TjZubVFlSGJQQnZaSWppY1RtV19IT1hfY05WVnhZeE9Ya0pHMWR4T0RITlVFRWZhV1lnRUhmSmtaVFNpS3dRdDNTaEU1YUtOcnB0eWcSBBoCCAAaywUSABoAIgAqADoAQgQIARAAShwIARIUQmVuZ2FsdXJ1LCBLYXJuYXRha2EaAggCWgByAHoAgkCTBQgAEAAYACAAKiAKBGhkZmMVizD9QBoIaGRmY2JhbmsaCWl2O3A7aGRmYyoeCgRiYW5rFZJEu0AaB2JhbmtpbmcaCGhkZmNiYW5rKkEKCGN1c3RvbWVyFfRBAEEaB2NvbnRhY3QaBGN1c3QaCWN1c3RvbWVycxoIaGVscGxpbmUaDGN1c3RvbWVyY2FyZSosCgRjYXJlFdiG90AaB2NvbnRhY3QaCGhlbHBsaW5lGgxjdXN0b21lcmNhcmUqFgoGbnVtYmVyFYbfh0AaB251bWJlcnMyvAEvZ290bz91cmw9Q0FFU2dBRUI2enN3RmRLby1HOGRQR3pFRmMwMHFNbjFxZGh1QnlSUWhuS2h1MTZSNFp3Z1Juc25HVU4yMldGSTMwUFRXU0JzSHFOcWdHa0RFYk1FWFE3MmNKYnM2Z05YaS1BdDVONm5tUWVIYlBCdlpJamljVG1XX0hPWF9jTlZWeFl4T1hrSkcxZHhPREhOVUVFZmFXWWdFSGZKa1pUU2lLd1F0M1NoRTVhS05ycHR5ZzpHPGI-SERGQzwvYj4gQ3JlZGl0IENhcmQgPGI-Q3VzdG9tZXIgQ2FyZTwvYj4gQmFuZ2Fsb3JlIC0gMjQqNyBBdmFpbGFibGVCrAFZb3UgY2FuIGFsc28gY2FsbCA8Yj4xODAwIDIwMiA2MTYxIC8gMTg2MCAyNjcgNjE2MTwvYj4uIEhERkMgQmFuayBCYW5nYWxvcmUgY3VzdG9tZXIgY2FyZS4gSERGQyBDcmVkaXQgQ2FyZCBDdXN0b21lciBDYXJlIE51bWJlciBCYW5nYWxvcmUgLSBUbyBSZXBvcnQgVW5hdXRob3Jpc2VkJm5ic3A7Li4uUgdjb250YWN0IgIQAUgAWABoAA",
+    "source": "BankBazaar",
+    "read_more_link": "https://www.bankbazaar.com/credit-card/hdfc-customer-care-bangalore.html#:~:text=You%20can%20also%20call%201800,%2D%20To%20Report%20Unauthorised%20Transactions"
+   },
+   {
+    "position": 10,
+    "title": "Banking Products and Depository Services",
+    "link": "https://www.hdfc.bank.in/need-help/banking-products-and-depository-services",
+    "redirect_link": "https://www.google.co.in/url?sa=t&source=web&rct=j&opi=89978449&url=CAESgwEB6zswFVyC3G_bb9JUMHiltOTTcDP1ByUseJVZCE7lO3nhqgv7xbAzsBUcDTlbmvclBbA9A3f4appERPPF5PNRU3riVGKC9iTJ5GE7YOR53fp4CNeCdKFCHGM0EpGFOByYTlaGHPXdOF4Z43M-II6vLM79AwsqipsjCq1bPmeZ83P42w&ved=2ahUKEwikg8K_1YeXAxW_pIkEHVIlFB0QFnoECEEQAQ&uoh=1",
+    "displayed_link": "https://www.hdfc.bank.in › Need Help",
+    "snippet": "Grievance Redressal Cell, HDFC Bank Limited, 1st Floor, Empire Plaza - 1, Lal Bahadur Shastri Marg, Chandan Nagar, Vikroli West, Mumbai – 400083 · 1800 266 4060 ...",
+    "snippet_highlighted_words": [
+     "1800 266 4060"
+    ],
+    "about_this_result": {
+     "source": {
+      "description": "Grievance Redressal Cell, HDFC Bank Limited, 1st Floor, Empire Plaza - 1, Lal Bahadur Shastri Marg, Chandan Nagar, Vikroli West, Mumbai – 400083 · 1800 266 4060 ...",
+      "source_info_link": "https://www.hdfc.bank.in/need-help/banking-products-and-depository-services",
+      "icon": "https://serpapi.com/images/i/UklGRsYAAABXRUJQVlA4ILoAAADQAgCdASoQABAAAsBMJbACdHMAmzcGLFjlaFjhUUQAAPyP9teCXBj-RQq1foqDpwlIO1WzwVb4IKBMaqDdXfmeQoQxw_xLipsf9ynWrn3VvDKDO4TtF57i8RzEjZ6xXBq7Y378UGemT2YxTrDBpkV6YI8wHI_2JKInxjnyDDFmd8Mlga1q0eZIPvfa8TnvMT82OKenmFBf3_8dBj9zKL6iP_jV0j90lF9RH_nOOY4aaRnAl9IZSVlAAAA.webp"
+     },
+     "languages": [
+      "en"
+     ],
+     "regions": [
+      "IN"
+     ]
+    },
+    "about_page_link": "https://www.google.co.in/search/about-this-result?origin=www.google.com&req=CsABL2dvdG8_dXJsPUNBRVNnd0VCNnpzd0ZWeUMzR19iYjlKVU1IaWx0T1RUY0RQMUJ5VXNlSlZaQ0U3bE8zbmhxZ3Y3eGJBenNCVWNEVGxibXZjbEJiQTlBM2Y0YXBwRVJQUEY1UE5SVTNyaVZHS0M5aVRKNUdFN1lPUjUzZnA0Q05lQ2RLRkNIR00wRXBHRk9CeVlUbGFHSFBYZE9GNFo0M00tSUk2dkxNNzlBd3NxaXBzakNxMWJQbWVaODNQNDJ3EgQaAggAGswFEgAaACIAKgAyBggBEgJpbjoAQgQIARAASgBaEAgBEgxoZGZjLmJhbmsuaW5yAHoAgkCYBQgAEAAYACAAKiAKBGhkZmMVJvOsQBoIaGRmY2JhbmsaCWl2O3A7aGRmYyoeCgRiYW5rFfyHzT8aB2JhbmtpbmcaCGhkZmNiYW5rKkEKCGN1c3RvbWVyFeFwLD4aB2NvbnRhY3QaBGN1c3QaCWN1c3RvbWVycxoIaGVscGxpbmUaDGN1c3RvbWVyY2FyZSosCgRjYXJlFRhqjT0aB2NvbnRhY3QaCGhlbHBsaW5lGgxjdXN0b21lcmNhcmUqFgoGbnVtYmVyFYc1_jwaB251bWJlcnMywAEvZ290bz91cmw9Q0FFU2d3RUI2enN3RlZ5QzNHX2JiOUpVTUhpbHRPVFRjRFAxQnlVc2VKVlpDRTdsTzNuaHFndjd4YkF6c0JVY0RUbGJtdmNsQmJBOUEzZjRhcHBFUlBQRjVQTlJVM3JpVkdLQzlpVEo1R0U3WU9SNTNmcDRDTmVDZEtGQ0hHTTBFcEdGT0J5WVRsYUdIUFhkT0Y0WjQzTS1JSTZ2TE03OUF3c3FpcHNqQ3ExYlBtZVo4M1A0Mnc6O0JhbmtpbmcgUHJvZHVjdHMgYW5kIERlcG9zaXRvcnkgU2VydmljZXMgLSA8Yj5IREZDIEJhbms8L2I-QrkBR3JpZXZhbmNlIFJlZHJlc3NhbCBDZWxsLCBIREZDIEJhbmsgTGltaXRlZCwgMXN0IEZsb29yLCBFbXBpcmUgUGxhemEgLSAxLCBMYWwgQmFoYWR1ciBTaGFzdHJpIE1hcmcsIENoYW5kYW4gTmFnYXIsIFZpa3JvbGkgV2VzdCwgTXVtYmFpIOKAkyA0MDAwODMgJm1pZGRvdDsgPGI-MTgwMCAyNjYgNDA2MDwvYj4mbmJzcDsuLi5SB2NvbnRhY3QiAhABSABYAGgA",
+    "about_page_serpapi_link": "https://serpapi.com/search.json?engine=google_about_this_result&google_domain=google.co.in&req_token=CsABL2dvdG8_dXJsPUNBRVNnd0VCNnpzd0ZWeUMzR19iYjlKVU1IaWx0T1RUY0RQMUJ5VXNlSlZaQ0U3bE8zbmhxZ3Y3eGJBenNCVWNEVGxibXZjbEJiQTlBM2Y0YXBwRVJQUEY1UE5SVTNyaVZHS0M5aVRKNUdFN1lPUjUzZnA0Q05lQ2RLRkNIR00wRXBHRk9CeVlUbGFHSFBYZE9GNFo0M00tSUk2dkxNNzlBd3NxaXBzakNxMWJQbWVaODNQNDJ3EgQaAggAGswFEgAaACIAKgAyBggBEgJpbjoAQgQIARAASgBaEAgBEgxoZGZjLmJhbmsuaW5yAHoAgkCYBQgAEAAYACAAKiAKBGhkZmMVJvOsQBoIaGRmY2JhbmsaCWl2O3A7aGRmYyoeCgRiYW5rFfyHzT8aB2JhbmtpbmcaCGhkZmNiYW5rKkEKCGN1c3RvbWVyFeFwLD4aB2NvbnRhY3QaBGN1c3QaCWN1c3RvbWVycxoIaGVscGxpbmUaDGN1c3RvbWVyY2FyZSosCgRjYXJlFRhqjT0aB2NvbnRhY3QaCGhlbHBsaW5lGgxjdXN0b21lcmNhcmUqFgoGbnVtYmVyFYc1_jwaB251bWJlcnMywAEvZ290bz91cmw9Q0FFU2d3RUI2enN3RlZ5QzNHX2JiOUpVTUhpbHRPVFRjRFAxQnlVc2VKVlpDRTdsTzNuaHFndjd4YkF6c0JVY0RUbGJtdmNsQmJBOUEzZjRhcHBFUlBQRjVQTlJVM3JpVkdLQzlpVEo1R0U3WU9SNTNmcDRDTmVDZEtGQ0hHTTBFcEdGT0J5WVRsYUdIUFhkT0Y0WjQzTS1JSTZ2TE03OUF3c3FpcHNqQ3ExYlBtZVo4M1A0Mnc6O0JhbmtpbmcgUHJvZHVjdHMgYW5kIERlcG9zaXRvcnkgU2VydmljZXMgLSA8Yj5IREZDIEJhbms8L2I-QrkBR3JpZXZhbmNlIFJlZHJlc3NhbCBDZWxsLCBIREZDIEJhbmsgTGltaXRlZCwgMXN0IEZsb29yLCBFbXBpcmUgUGxhemEgLSAxLCBMYWwgQmFoYWR1ciBTaGFzdHJpIE1hcmcsIENoYW5kYW4gTmFnYXIsIFZpa3JvbGkgV2VzdCwgTXVtYmFpIOKAkyA0MDAwODMgJm1pZGRvdDsgPGI-MTgwMCAyNjYgNDA2MDwvYj4mbmJzcDsuLi5SB2NvbnRhY3QiAhABSABYAGgA",
+    "source": "HDFC Bank",
+    "read_more_link": "https://www.hdfc.bank.in/need-help/banking-products-and-depository-services#:~:text=Grievance%20Redressal%20Cell%2C%20HDFC%20Bank,Vikroli%20West%2C%20Mumbai%20%E2%80%93%20400083&text=1800%20266%204060"
+   }
+  ],
+  "related_searches": [
+   {
+    "block_position": 1,
+    "query": "hdfc bank customer care number near whitefield, bengaluru",
+    "link": "https://www.google.co.in/search?sca_esv=c9af837ca623c2e6&hl=en&gl=in&sxsrf=APpeQnvTnesEPo7T9uJW6Nc9Ti5aoY7JjA:1790268398410&q=hdfc+bank+customer+care+number+near+whitefield,+bengaluru&sa=X&ved=2ahUKEwikg8K_1YeXAxW_pIkEHVIlFB0Q1QJ6BAg7EAE",
+    "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.co.in&hl=en&location=Bengaluru%2CKarnataka%2CIndia&q=hdfc+bank+customer+care+number+near+whitefield%2C+bengaluru"
+   },
+   {
+    "block_position": 1,
+    "query": "HDFC Credit Card customer care 24x7 toll free number",
+    "link": "https://www.google.co.in/search?sca_esv=c9af837ca623c2e6&hl=en&gl=in&sxsrf=APpeQnvTnesEPo7T9uJW6Nc9Ti5aoY7JjA:1790268398410&q=HDFC+Credit+Card+customer+care+24x7+toll+free+number&sa=X&ved=2ahUKEwikg8K_1YeXAxW_pIkEHVIlFB0Q1QJ6BAhJEAE",
+    "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.co.in&hl=en&location=Bengaluru%2CKarnataka%2CIndia&q=HDFC+Credit+Card+customer+care+24x7+toll+free+number"
+   },
+   {
+    "block_position": 1,
+    "query": "Is HDFC customer care 24x7 toll free number",
+    "link": "https://www.google.co.in/search?sca_esv=c9af837ca623c2e6&hl=en&gl=in&sxsrf=APpeQnvTnesEPo7T9uJW6Nc9Ti5aoY7JjA:1790268398410&q=Is+HDFC+customer+care+24x7+toll+free+number&sa=X&ved=2ahUKEwikg8K_1YeXAxW_pIkEHVIlFB0Q1QJ6BAhIEAE",
+    "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.co.in&hl=en&location=Bengaluru%2CKarnataka%2CIndia&q=Is+HDFC+customer+care+24x7+toll+free+number"
+   },
+   {
+    "block_position": 1,
+    "query": "HDFC Credit Card customer care number",
+    "link": "https://www.google.co.in/search?sca_esv=c9af837ca623c2e6&hl=en&gl=in&sxsrf=APpeQnvTnesEPo7T9uJW6Nc9Ti5aoY7JjA:1790268398410&q=HDFC+Credit+Card+customer+care+number&sa=X&ved=2ahUKEwikg8K_1YeXAxW_pIkEHVIlFB0Q1QJ6BAhFEAE",
+    "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.co.in&hl=en&location=Bengaluru%2CKarnataka%2CIndia&q=HDFC+Credit+Card+customer+care+number"
+   },
+   {
+    "block_position": 1,
+    "query": "HDFC Customer Care 1800",
+    "link": "https://www.google.co.in/search?sca_esv=c9af837ca623c2e6&hl=en&gl=in&sxsrf=APpeQnvTnesEPo7T9uJW6Nc9Ti5aoY7JjA:1790268398410&q=HDFC+Customer+Care+1800&sa=X&ved=2ahUKEwikg8K_1YeXAxW_pIkEHVIlFB0Q1QJ6BAhCEAE",
+    "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.co.in&hl=en&location=Bengaluru%2CKarnataka%2CIndia&q=HDFC+Customer+Care+1800"
+   },
+   {
+    "block_position": 1,
+    "query": "HDFC customer care toll free number 24x7 near bengaluru karnataka",
+    "link": "https://www.google.co.in/search?sca_esv=c9af837ca623c2e6&hl=en&gl=in&sxsrf=APpeQnvTnesEPo7T9uJW6Nc9Ti5aoY7JjA:1790268398410&q=HDFC+customer+care+toll+free+number+24x7+near+bengaluru+karnataka&sa=X&ved=2ahUKEwikg8K_1YeXAxW_pIkEHVIlFB0Q1QJ6BAhAEAE",
+    "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.co.in&hl=en&location=Bengaluru%2CKarnataka%2CIndia&q=HDFC+customer+care+toll+free+number+24x7+near+bengaluru+karnataka"
+   },
+   {
+    "block_position": 1,
+    "query": "Is HDFC customer Care 24x7 near me",
+    "link": "https://www.google.co.in/search?sca_esv=c9af837ca623c2e6&hl=en&gl=in&sxsrf=APpeQnvTnesEPo7T9uJW6Nc9Ti5aoY7JjA:1790268398410&q=Is+HDFC+customer+Care+24x7+near+me&sa=X&ved=2ahUKEwikg8K_1YeXAxW_pIkEHVIlFB0Q1QJ6BAg_EAE",
+    "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.co.in&hl=en&location=Bengaluru%2CKarnataka%2CIndia&q=Is+HDFC+customer+Care+24x7+near+me"
+   },
+   {
+    "block_position": 1,
+    "query": "HDFC customer care email ID",
+    "link": "https://www.google.co.in/search?sca_esv=c9af837ca623c2e6&hl=en&gl=in&sxsrf=APpeQnvTnesEPo7T9uJW6Nc9Ti5aoY7JjA:1790268398410&q=HDFC+customer+care+email+ID&sa=X&ved=2ahUKEwikg8K_1YeXAxW_pIkEHVIlFB0Q1QJ6BAg-EAE",
+    "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.co.in&hl=en&location=Bengaluru%2CKarnataka%2CIndia&q=HDFC+customer+care+email+ID"
+   }
+  ],
+  "pagination": {
+   "current": 1,
+   "next": "https://www.google.co.in/search?q=HDFC+Bank+customer+care+number&sca_esv=c9af837ca623c2e6&hl=en&gl=in&sxsrf=APpeQnvTnesEPo7T9uJW6Nc9Ti5aoY7JjA:1790268398410&ei=7lO1aqTUGL_JptQP0srQ6AE&start=10&sa=N&sstk=AS6-VmLFaWvCTlxq3SZ-oROp9U-TNZINKCDiYQeDTRu3uX1f-QuXLragh0aXwcZxHLb0ZPicYnvEiP6E_T-ljmltVyh75OKhpVPSTQ&ved=2ahUKEwikg8K_1YeXAxW_pIkEHVIlFB0Q8NMDegQINRAM",
+   "other_pages": {
+    "2": "https://www.google.co.in/search?q=HDFC+Bank+customer+care+number&sca_esv=c9af837ca623c2e6&hl=en&gl=in&sxsrf=APpeQnvTnesEPo7T9uJW6Nc9Ti5aoY7JjA:1790268398410&ei=7lO1aqTUGL_JptQP0srQ6AE&start=10&sa=N&sstk=AS6-VmLFaWvCTlxq3SZ-oROp9U-TNZINKCDiYQeDTRu3uX1f-QuXLragh0aXwcZxHLb0ZPicYnvEiP6E_T-ljmltVyh75OKhpVPSTQ&ved=2ahUKEwikg8K_1YeXAxW_pIkEHVIlFB0Q8tMDegQINRAE",
+    "3": "https://www.google.co.in/search?q=HDFC+Bank+customer+care+number&sca_esv=c9af837ca623c2e6&hl=en&gl=in&sxsrf=APpeQnvTnesEPo7T9uJW6Nc9Ti5aoY7JjA:1790268398410&ei=7lO1aqTUGL_JptQP0srQ6AE&start=20&sa=N&sstk=AS6-VmLFaWvCTlxq3SZ-oROp9U-TNZINKCDiYQeDTRu3uX1f-QuXLragh0aXwcZxHLb0ZPicYnvEiP6E_T-ljmltVyh75OKhpVPSTQ&ved=2ahUKEwikg8K_1YeXAxW_pIkEHVIlFB0Q8tMDegQINRAG",
+    "4": "https://www.google.co.in/search?q=HDFC+Bank+customer+care+number&sca_esv=c9af837ca623c2e6&hl=en&gl=in&sxsrf=APpeQnvTnesEPo7T9uJW6Nc9Ti5aoY7JjA:1790268398410&ei=7lO1aqTUGL_JptQP0srQ6AE&start=30&sa=N&sstk=AS6-VmLFaWvCTlxq3SZ-oROp9U-TNZINKCDiYQeDTRu3uX1f-QuXLragh0aXwcZxHLb0ZPicYnvEiP6E_T-ljmltVyh75OKhpVPSTQ&ved=2ahUKEwikg8K_1YeXAxW_pIkEHVIlFB0Q8tMDegQINRAI",
+    "5": "https://www.google.co.in/search?q=HDFC+Bank+customer+care+number&sca_esv=c9af837ca623c2e6&hl=en&gl=in&sxsrf=APpeQnvTnesEPo7T9uJW6Nc9Ti5aoY7JjA:1790268398410&ei=7lO1aqTUGL_JptQP0srQ6AE&start=40&sa=N&sstk=AS6-VmLFaWvCTlxq3SZ-oROp9U-TNZINKCDiYQeDTRu3uX1f-QuXLragh0aXwcZxHLb0ZPicYnvEiP6E_T-ljmltVyh75OKhpVPSTQ&ved=2ahUKEwikg8K_1YeXAxW_pIkEHVIlFB0Q8tMDegQINRAK"
+   }
+  },
+  "serpapi_pagination": {
+   "current": 1,
+   "next_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.co.in&hl=en&location=Bengaluru%2CKarnataka%2CIndia&q=HDFC+Bank+customer+care+number&start=10",
+   "next": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.co.in&hl=en&location=Bengaluru%2CKarnataka%2CIndia&q=HDFC+Bank+customer+care+number&start=10",
+   "other_pages": {
+    "2": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.co.in&hl=en&location=Bengaluru%2CKarnataka%2CIndia&q=HDFC+Bank+customer+care+number&start=10",
+    "3": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.co.in&hl=en&location=Bengaluru%2CKarnataka%2CIndia&q=HDFC+Bank+customer+care+number&start=20",
+    "4": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.co.in&hl=en&location=Bengaluru%2CKarnataka%2CIndia&q=HDFC+Bank+customer+care+number&start=30",
+    "5": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.co.in&hl=en&location=Bengaluru%2CKarnataka%2CIndia&q=HDFC+Bank+customer+care+number&start=40"
+   }
+  }
+ }
+}

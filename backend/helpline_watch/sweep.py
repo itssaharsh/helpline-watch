@@ -148,7 +148,7 @@ class SweepRunner:
                 res = await self.client.search(call.params, budget)
                 sweep.fixture_kinds[res.fixture_kind] = sweep.fixture_kinds.get(res.fixture_kind, 0) + 1
                 hits = surfaces.parse_reverse(res)
-                by_number[suspect.number_norm] = apply_reverse(suspect, hits)
+                by_number[suspect.number_norm] = apply_reverse(suspect, hits, brand.official_domains)
                 yield SweepEvent(type="reverse_done", payload={"number": suspect.number_norm, "hits": len(hits), "flagged": sum(1 for h in hits if h.scam_words),
                                                               "finding": by_number[suspect.number_norm].model_dump(mode="json")})
             except Exception as err:  # noqa: BLE001

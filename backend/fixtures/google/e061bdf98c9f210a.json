@@ -1,0 +1,161 @@
+{
+ "_fixture": {
+  "kind": "recorded",
+  "recorded_at": "2026-09-24T16:57:25+00:00",
+  "params": {
+   "engine": "google",
+   "q": "\"9628643451\" OR \"96286 43451\"",
+   "google_domain": "google.co.in",
+   "gl": "in",
+   "hl": "en",
+   "num": "10"
+  }
+ },
+ "response": {
+  "search_metadata": {
+   "id": "6ab5567319c5f69bb5651156",
+   "status": "Success",
+   "json_endpoint": "https://serpapi.com/searches/MMiC3CWbS0bAazOkGp___St5H9Y_An26jtCSRk98p6I/6ab5567319c5f69bb5651156.json",
+   "markdown_endpoint": "https://serpapi.com/searches/MMiC3CWbS0bAazOkGp___St5H9Y_An26jtCSRk98p6I/6ab5567319c5f69bb5651156.md",
+   "pixel_position_endpoint": "https://serpapi.com/searches/MMiC3CWbS0bAazOkGp___St5H9Y_An26jtCSRk98p6I/6ab5567319c5f69bb5651156.json_with_pixel_position",
+   "created_at": "2026-09-24 16:57:23 UTC",
+   "processed_at": "2026-09-24 16:57:23 UTC",
+   "google_url": "https://www.google.co.in/search?q=%229628643451%22+OR+%2296286+43451%22&oq=%229628643451%22+OR+%2296286+43451%22&hl=en&gl=in&sourceid=chrome&ie=UTF-8",
+   "raw_html_file": "https://serpapi.com/searches/MMiC3CWbS0bAazOkGp___St5H9Y_An26jtCSRk98p6I/6ab5567319c5f69bb5651156.html",
+   "total_time_taken": 1.27
+  },
+  "search_parameters": {
+   "engine": "google",
+   "q": "\"9628643451\" OR \"96286 43451\"",
+   "google_domain": "google.co.in",
+   "hl": "en",
+   "gl": "in",
+   "device": "desktop"
+  },
+  "search_information": {
+   "query_displayed": "\"9628643451\" OR \"96286 43451\"",
+   "total_results": 4,
+   "time_taken_displayed": 0.2,
+   "organic_results_state": "Results for exact spelling"
+  },
+  "organic_results": [
+   {
+    "position": 1,
+    "title": "9628643, Sensor Tech Conglomerate SARL",
+    "link": "https://searchbookphonedgm.s3-fips.dualstack.us-west-1.amazonaws.com/index.html?9628643",
+    "redirect_link": "https://www.google.co.in/url?sa=t&source=web&rct=j&opi=89978449&url=CAESjwEB6zswFSsfswzrZ2jJ6MAes4YGdAwTWkkaoV1jfHBgYsUCIQQLEn8MkkmTwqfKJxXq0gXNjMoTl2roN0wAqg-OYQ-8UTHGpkWG4TTjItNrPFXOAf8EsOGLFh8vn6mTjFGu5olcCMg5US52gheemSNtflJHM1MI_9VvJJ_E-X-B-tU1g0xMYViPhjx9cv2NsQ&ved=2ahUKEwi4jcnz14eXAxXDEVkFHdcxIngQFnoECB4QAQ&uoh=1",
+    "displayed_link": "https://searchbookphonedgm.s3-fips.dualstack.us-west-1.amazonaws.com › ...",
+    "snippet": "9628643181, 962-864-3181, 9628643451, 962-864-3451, 9628643683, 962-864-3683, 9628643097, 962-864-3097, 9628643328, 962-864-3328, 9628643661, 962-864-3661 ...",
+    "snippet_highlighted_words": [
+     "9628643451"
+    ],
+    "about_this_result": {
+     "source": {
+      "description": "9628643181, 962-864-3181, 9628643451, 962-864-3451, 9628643683, 962-864-3683, 9628643097, 962-864-3097, 9628643328, 962-864-3328, 9628643661, 962-864-3661 ...",
+      "source_info_link": "https://searchbookphonedgm.s3-fips.dualstack.us-west-1.amazonaws.com/index.html?9628643"
+     },
+     "languages": [
+      "en"
+     ],
+     "regions": [
+      "IN"
+     ]
+    },
+    "about_page_link": "https://www.google.co.in/search/about-this-result?origin=www.google.com&req=CtABL2dvdG8_dXJsPUNBRVNqd0VCNnpzd0ZTc2Zzd3pyWjJqSjZNQWVzNFlHZEF3VFdra2FvVjFqZkhCZ1lzVUNJUVFMRW44TWtrbVR3cWZLSnhYcTBnWE5qTW9UbDJyb04wd0FxZy1PWVEtOFVUSEdwa1dHNFRUakl0TnJQRlhPQWY4RXNPR0xGaDh2bjZtVGpGR3U1b2xjQ01nNVVTNTJnaGVlbVNOdGZsSkhNMU1JXzlWdkpKX0UtWC1CLXRVMWcweE1ZVmlQaGp4OWN2Mk5zURIEGgIIABr6AxIAGgAiACoAMgYIAhICaW46AEIECAEQAEoAWgByAHoAgkDWAwgAEAAYACAAKh4KCjk2Mjg2NDM0NTEV4NSSPhoLOTYyODYgNDM0NTEy0AEvZ290bz91cmw9Q0FFU2p3RUI2enN3RlNzZnN3enJaMmpKNk1BZXM0WUdkQXdUV2trYW9WMWpmSEJnWXNVQ0lRUUxFbjhNa2ttVHdxZktKeFhxMGdYTmpNb1RsMnJvTjB3QXFnLU9ZUS04VVRIR3BrV0c0VFRqSXROclBGWE9BZjhFc09HTEZoOHZuNm1UakZHdTVvbGNDTWc1VVM1MmdoZWVtU050ZmxKSE0xTUlfOVZ2SkpfRS1YLUItdFUxZzB4TVlWaVBoang5Y3YyTnNROiw5NjI4NjQzLCBTZW5zb3IgVGVjaCBDb25nbG9tZXJhdGUgU0FSTCAtIEFXU0KqATk2Mjg2NDMxODEsIDk2Mi04NjQtMzE4MSwgPGI-OTYyODY0MzQ1MTwvYj4sIDk2Mi04NjQtMzQ1MSwgOTYyODY0MzY4MywgOTYyLTg2NC0zNjgzLCA5NjI4NjQzMDk3LCA5NjItODY0LTMwOTcsIDk2Mjg2NDMzMjgsIDk2Mi04NjQtMzMyOCwgOTYyODY0MzY2MSwgOTYyLTg2NC0zNjYxJm5ic3A7Li4uIgIQAUgAWABoAA",
+    "about_page_serpapi_link": "https://serpapi.com/search.json?engine=google_about_this_result&google_domain=google.co.in&req_token=CtABL2dvdG8_dXJsPUNBRVNqd0VCNnpzd0ZTc2Zzd3pyWjJqSjZNQWVzNFlHZEF3VFdra2FvVjFqZkhCZ1lzVUNJUVFMRW44TWtrbVR3cWZLSnhYcTBnWE5qTW9UbDJyb04wd0FxZy1PWVEtOFVUSEdwa1dHNFRUakl0TnJQRlhPQWY4RXNPR0xGaDh2bjZtVGpGR3U1b2xjQ01nNVVTNTJnaGVlbVNOdGZsSkhNMU1JXzlWdkpKX0UtWC1CLXRVMWcweE1ZVmlQaGp4OWN2Mk5zURIEGgIIABr6AxIAGgAiACoAMgYIAhICaW46AEIECAEQAEoAWgByAHoAgkDWAwgAEAAYACAAKh4KCjk2Mjg2NDM0NTEV4NSSPhoLOTYyODYgNDM0NTEy0AEvZ290bz91cmw9Q0FFU2p3RUI2enN3RlNzZnN3enJaMmpKNk1BZXM0WUdkQXdUV2trYW9WMWpmSEJnWXNVQ0lRUUxFbjhNa2ttVHdxZktKeFhxMGdYTmpNb1RsMnJvTjB3QXFnLU9ZUS04VVRIR3BrV0c0VFRqSXROclBGWE9BZjhFc09HTEZoOHZuNm1UakZHdTVvbGNDTWc1VVM1MmdoZWVtU050ZmxKSE0xTUlfOVZ2SkpfRS1YLUItdFUxZzB4TVlWaVBoang5Y3YyTnNROiw5NjI4NjQzLCBTZW5zb3IgVGVjaCBDb25nbG9tZXJhdGUgU0FSTCAtIEFXU0KqATk2Mjg2NDMxODEsIDk2Mi04NjQtMzE4MSwgPGI-OTYyODY0MzQ1MTwvYj4sIDk2Mi04NjQtMzQ1MSwgOTYyODY0MzY4MywgOTYyLTg2NC0zNjgzLCA5NjI4NjQzMDk3LCA5NjItODY0LTMwOTcsIDk2Mjg2NDMzMjgsIDk2Mi04NjQtMzMyOCwgOTYyODY0MzY2MSwgOTYyLTg2NC0zNjYxJm5ic3A7Li4uIgIQAUgAWABoAA",
+    "source": "Amazon Web Services (AWS)",
+    "read_more_link": "https://searchbookphonedgm.s3-fips.dualstack.us-west-1.amazonaws.com/index.html?9628643#:~:text=https%3A%2F%2Fsearchbookphonedgm.s3%2Dfips.dualstack.us%2Dwest%2D1.amazonaws.com%2Findex.html%3F9628640https%3A%2F%2Fsearchbookphonedgm.s3%2Dfips.dualstack.us%2Dwest%2D1.amazonaws.com%2Findex.html%3F9628641https%3A%2F%2Fsearchbookphonedgm.s3%2Dfips.dualstack.us%2Dwest%2D1.amazonaws.com%2Findex.html%3F9628642https%3A%2F%2Fsearchbookphonedgm.s3%2Dfips.dualstack.us%2Dwest%2D1.amazonaws.com%2Findex.html%3F9628643https%3A%2F%2Fsearchbookphonedgm.s3%2Dfips.dualstack.us%2Dwest%2D1.amazonaws.com%2Findex.html%3F9628644https%3A%2F%2Fsearchbookphonedgm.s3%2Dfips.dualstack.us%2Dwest%2D1.amazonaws.com%2Findex.html%3F9628645https%3A%2F%2Fsearchbookphonedgm.s3%2Dfips.dualstack.us%2Dwest%2D1.amazonaws.com%2Findex.html%3F9628646https%3A%2F%2Fsearchbookphonedgm.s3%2Dfips.dualstack.us%2Dwest%2D1.amazonaws.com%2Findex.html%3F9628647https%3A%2F%2Fsearchbookphonedgm.s3%2Dfips.dualstack.us%2Dwest%2D1.amazonaws.com%2Findex.html%3F9628648https%3A%2F%2Fsearchbookphonedgm.s3%2Dfips.dualstack.us%2Dwest%2D1.amazonaws.com%2Findex.html%3F9628649https%3A%2F%2Fsearchbookphonedgm.s3%2Dfips.dualstack.us%2Dwest%2D1.amazonaws.com%2Findex.html%3F2025647https%3A%2F%2Fsearchbookphonedgm.s3%2Dfips.dualstack.us%2Dwest%2D1.amazonaws.com%2Findex.html%3F4465436https%3A%2F%2Fsearchbookphonedgm.s3%2Dfips.dualstack.us%2Dwest%2D1.amazonaws.com%2Findex.html%3F2882822https%3A%2F%2Fsearchbookphonedgm.s3%2Dfips.dualstack.us%2Dwest%2D1.amazonaws.com%2Findex.html%3F3494868https%3A%2F%2Fsearchbookphonedgm.s3%2Dfips.dualstack.us%2Dwest%2D1.amazonaws.com%2Findex.html%3F6525065https%3A%2F%2Fsearchbookphonedgm.s3%2Dfips.dualstack.us%2Dwest%2D1.amazonaws.com%2Findex.html%3F9758156https%3A%2F%2Fsearchbookphonedgm.s3%2Dfips.dualstack.us%2Dwest%2D1.amazonaws.com%2Findex.html%3F9789428https%3A%2F%2Fsearchbookphonedgm.s3%2Dfips.dualstack.us%2Dwest%2D1.amazonaws.com%2Findex.html%3F9707716https%3A%2F%2Fsearchbookphonedgm.s3%2Dfips.dualstack.us%2Dwest%2D1.amazonaws.com%2Findex.html%3F4754451https%3A%2F%2Fsearchbookphonedgm.s3%2Dfips.dualstack.us%2Dwest%2D1.amazonaws.com%2Findex.html%3F6875548https%3A%2F%2Fphone1tuy.s3.amazonaws.com%2Findex.html%3F3459477https%3A%2F%2Fphone2sbc.s3.amazonaws.com%2Findex.html%3F3695402https%3A%2F%2Fphone12phf.s3.amazonaws.com%2Findex.html%3F4824490https%3A%2F%2Fphone12rzt.s3.amazonaws.com%2Findex.html%3F9616351https%3A%2F%2Fphone11mei.s3.amazonaws.com%2Findex.html%3F6545385https%3A%2F%2Fphone6nyi.s3.amazonaws.com%2Findex.html%3F9107309https%3A%2F%2Fphone9hyd.s3.amazonaws.com%2Findex.html%3F5604439https%3A%2F%2Fphone8sju.s3.amazonaws.com%2Findex.html%3F3462212https%3A%2F%2Fphone9gev.s3.amazonaws.com%2Findex.html%3F2719367https%3A%2F%2Fphone6jcy.s3.amazonaws.com%2Findex.html%3F9398516https%3A%2F%2Fphone10xob.s3.amazonaws.com%2Findex.html%3F5873254https%3A%2F%2Fphone2exa.s3.amazonaws.com%2Findex.html%3F2424221https%3A%2F%2Fphone8lsn.s3.amazonaws.com%2Findex.html%3F7005689https%3A%2F%2Fphone8ijr.s3.amazonaws.com%2Findex.html%3F8552706https%3A%2F%2Fphone2eud.s3.amazonaws.com%2Findex.html%3F9159326https%3A%2F%2Fphone7zhr.s3.amazonaws.com%2Findex.html%3F4674510https%3A%2F%2Fphone10zmj.s3.amazonaws.com%2Findex.html%3F3259472https%3A%2F%2Fphone10hwo.s3.amazonaws.com%2Findex.html%3F8464769https%3A%2F%2Fphone8fau.s3.amazonaws.com%2Findex.html%3F6026105https%3A%2F%2Fphone10bxw.s3.amazonaws.com%2Findex.html%3F4695154https%3A%2F%2Fsearchbookphonedwekk.s3.amazonaws.com%2Findex.html%3Fkkaskemhttps%3A%2F%2Fsearchbookphonecmi.s3.amazonaws.com%2Findex.html%3Fgggosoehttps%3A%2F%2Fsearchbookphonedmsik.s3.amazonaws.com%2Findex.html%3Fsgcoagmhttps%3A%2F%2Fsearchbookphonedemco.s3.amazonaws.com%2Findex.html%3Fsmisemahttps%3A%2F%2Fsearchbookphoneamsco.s3.amazonaws.com%2Findex.html%3Fgskeogwhttps%3A%2F%2Fsearchbookphonecwiei.s3.amazonaws.com%2Findex.html%3Fksiwmeehttps%3A%2F%2Fsearchbookphonedmgmg.s3.amazonaws.com%2Findex.html%3Figkswachttps%3A%2F%2Fsearchbookphoneccmce.s3.amazonaws.com%2Findex.html%3Fwaomaighttps%3A%2F%2Fsearchbookphonecwcei.s3.amazonaws.com%2Findex.html%3Fskeeeimhttps%3A%2F%2Fsearchbookphonedwkka.s3.amazonaws.com%2Findex.html%3Feesgwkwhttps%3A%2F%2Fphoneonlinelookupxewka.s3.amazonaws.com%2Findex.html%3Fsoaswsehttps%3A%2F%2Fphoneonlinelookupxdmokg.s3.amazonaws.com%2Findex.html%3Fmwaooaohttps%3A%2F%2Fphoneonlinelookupxegwkg.s3.amazonaws.com%2Findex.html%3Fkiwgccehttps%3A%2F%2Fphoneonlinelookupxcokmk.s3.amazonaws.com%2Findex.html%3Fmismkkshttps%3A%2F%2Fphoneonlinelookupxeskag.s3.amazonaws.com%2Findex.html%3Fgaoiwiwhttps%3A%2F%2Fphoneonlinelookupxbiaae.s3.amazonaws.com%2Findex.html%3Foosmmkehttps%3A%2F%2Fphoneonlinelookupxacikw.s3.amazonaws.com%2Findex.html%3Ficgggschttps%3A%2F%2Fphoneonlinelookupxbkgee.s3.amazonaws.com%2Findex.html%3Fkwwoooahttps%3A%2F%2Fphoneonlinelookupxfwio.s3.amazonaws.com%2Findex.html%3Fkkksmkohttps%3A%2F%2Fphoneonlinelookupxegoga.s3.amazonaws.com%2Findex.html%3Fmogwwkihttps%3A%2F%2Fphonenumberlookupbgll.s3.amazonaws.com%2Findex.html%3Fgeaiwaahttps%3A%2F%2Fphonenumberlookupaaac.s3.amazonaws.com%2Findex.html%3Fswggkechttps%3A%2F%2Fphonenumberlookupcvll.s3.amazonaws.com%2Findex.html%3Fwskoewihttps%3A%2F%2Fphonenumberlookupbdsu.s3.amazonaws.com%2Findex.html%3Focameaehttps%3A%2F%2Fphonenumberlookupaseq.s3.amazonaws.com%2Findex.html%3Fgmwkkiohttps%3A%2F%2Fphonenumberlookupbtrw.s3.amazonaws.com%2Findex.html%3Fwkagwcohttps%3A%2F%2Fphonenumberlookupbmij.s3.amazonaws.com%2Findex.html%3Femmmioghttps%3A%2F%2Fphonenumberlookupacqq.s3.amazonaws.com%2Findex.html%3Fwemmmsihttps%3A%2F%2Fphonenumberlookupciyr.s3.amazonaws.com%2Findex.html%3Fesgskwohttps%3A%2F%2Fphonenumberlookupahfn.s3.amazonaws.com%2Findex.html%3Feeiomec"
+   },
+   {
+    "position": 2,
+    "title": "The 36 best Mumbai, India breweries and craft beer",
+    "link": "https://wanderlog.com/list/geoCategory/11508/best-mumbai-breweries-and-craft-beer",
+    "redirect_link": "https://www.google.co.in/url?sa=t&source=web&rct=j&opi=89978449&url=CAESiQEB6zswFeYHyIK8CSDmKG0MlPvrLS8MoL_l-P-j1fOaVXJjx5zFjvp0mKJuCp0k6YQhNmtcnPYbko3urWNFNCQxVwr_cIP3_b0nlie2TpO5OARX0hDS8I8kPTwSP9iyVAZphkhfP4DELkeY6_uZquoiSkdCvQBnGFgByY6qAoRv2cPLbx0aJXIyiw&ved=2ahUKEwi4jcnz14eXAxXDEVkFHdcxIngQFnoECCAQAQ&uoh=1",
+    "displayed_link": "https://wanderlog.com › list › geoCategory › best-mum...",
+    "snippet": "+91 96286 43451. Open in: Yelp · Tripadvisor · Google · Google Maps. Why you should go. 1. Experience a morning breakfast with friends at the Zomato office. 2.",
+    "snippet_highlighted_words": [
+     "96286 43451"
+    ],
+    "about_this_result": {
+     "source": {
+      "description": "+91 96286 43451. Open in: Yelp · Tripadvisor · Google · Google Maps. Why you should go. 1. Experience a morning breakfast with friends at the Zomato office. 2.",
+      "source_info_link": "https://wanderlog.com/list/geoCategory/11508/best-mumbai-breweries-and-craft-beer",
+      "icon": "https://serpapi.com/images/i/iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y-mAAAAKlBMVEVHcEz6WkH2WED6WkH4WkD5WkD5WkD4WUD5WkD6WkH5WkD4WkD5WkH4WUBdpYkOAAAADXRSTlMAjQ5CKMhx9LZb1uWmmVwrlQAAAOhJREFUKJGFUtkSwyAIxAOv6P__bjkE7Uym5SFCVlkWAPhrsZeSLEil9OhQxiXWOQjqY1asr20Ux8cCvZrYG7OtQIFgbcrBPHTUnUNyBmGq5AEU-jq9YZSf3ALIH3D2aj49QqhSiGedLoEv3lmDZ9W8XF96A0nEA5NKfwMnUyTT-w12FTromPkbzJM7uJlfTeqM4w0apuEFxavq1TJE5YyQ2zr6pl30gvC0yvvgoHRAzdt7pJwJoP177EE4FZXNz8qFK61rjjz20aqKqI2V-VyZYqvDa9l8ePoz2Gbi2VuBu211ulf6h30AmEAQAxq1E7wAAAAASUVORK5CYII.png"
+     },
+     "languages": [
+      "en"
+     ],
+     "regions": [
+      "IN"
+     ]
+    },
+    "about_page_link": "https://www.google.co.in/search/about-this-result?origin=www.google.com&req=CsgBL2dvdG8_dXJsPUNBRVNpUUVCNnpzd0ZlWUh5SUs4Q1NEbUtHME1sUHZyTFM4TW9MX2wtUC1qMWZPYVZYSmp4NXpGanZwMG1LSnVDcDBrNllRaE5tdGNuUFlia28zdXJXTkZOQ1F4VndyX2NJUDNfYjBubGllMlRwTzVPQVJYMGhEUzhJOGtQVHdTUDlpeVZBWnBoa2hmUDRERUxrZVk2X3VacXVvaVNrZEN2UUJuR0ZnQnlZNnFBb1J2MmNQTGJ4MGFKWEl5aXcSBBoCCAAalQQSABoAIgAqADIGCAMSAmluOgBCBAgBEABKAFoAcgB6AIJA8QMIABAAGAAgACoeCgo5NjI4NjQzNDUxFRA6ND0aCzk2Mjg2IDQzNDUxMsgBL2dvdG8_dXJsPUNBRVNpUUVCNnpzd0ZlWUh5SUs4Q1NEbUtHME1sUHZyTFM4TW9MX2wtUC1qMWZPYVZYSmp4NXpGanZwMG1LSnVDcDBrNllRaE5tdGNuUFlia28zdXJXTkZOQ1F4VndyX2NJUDNfYjBubGllMlRwTzVPQVJYMGhEUzhJOGtQVHdTUDlpeVZBWnBoa2hmUDRERUxrZVk2X3VacXVvaVNrZEN2UUJuR0ZnQnlZNnFBb1J2MmNQTGJ4MGFKWEl5aXc6PlRoZSAzNiBiZXN0IE11bWJhaSwgSW5kaWEgYnJld2VyaWVzIGFuZCBjcmFmdCBiZWVyIC0gV2FuZGVybG9nQrsBKzkxIDxiPjk2Mjg2IDQzNDUxPC9iPi4gT3BlbiBpbjogWWVscCAmbWlkZG90OyBUcmlwYWR2aXNvciAmbWlkZG90OyBHb29nbGUgJm1pZGRvdDsgR29vZ2xlIE1hcHMuIFdoeSB5b3Ugc2hvdWxkIGdvLiAxLiBFeHBlcmllbmNlIGEgbW9ybmluZyBicmVha2Zhc3Qgd2l0aCBmcmllbmRzIGF0IHRoZSBab21hdG8gb2ZmaWNlLiAyLiICEAFIAFgAaAA",
+    "about_page_serpapi_link": "https://serpapi.com/search.json?engine=google_about_this_result&google_domain=google.co.in&req_token=CsgBL2dvdG8_dXJsPUNBRVNpUUVCNnpzd0ZlWUh5SUs4Q1NEbUtHME1sUHZyTFM4TW9MX2wtUC1qMWZPYVZYSmp4NXpGanZwMG1LSnVDcDBrNllRaE5tdGNuUFlia28zdXJXTkZOQ1F4VndyX2NJUDNfYjBubGllMlRwTzVPQVJYMGhEUzhJOGtQVHdTUDlpeVZBWnBoa2hmUDRERUxrZVk2X3VacXVvaVNrZEN2UUJuR0ZnQnlZNnFBb1J2MmNQTGJ4MGFKWEl5aXcSBBoCCAAalQQSABoAIgAqADIGCAMSAmluOgBCBAgBEABKAFoAcgB6AIJA8QMIABAAGAAgACoeCgo5NjI4NjQzNDUxFRA6ND0aCzk2Mjg2IDQzNDUxMsgBL2dvdG8_dXJsPUNBRVNpUUVCNnpzd0ZlWUh5SUs4Q1NEbUtHME1sUHZyTFM4TW9MX2wtUC1qMWZPYVZYSmp4NXpGanZwMG1LSnVDcDBrNllRaE5tdGNuUFlia28zdXJXTkZOQ1F4VndyX2NJUDNfYjBubGllMlRwTzVPQVJYMGhEUzhJOGtQVHdTUDlpeVZBWnBoa2hmUDRERUxrZVk2X3VacXVvaVNrZEN2UUJuR0ZnQnlZNnFBb1J2MmNQTGJ4MGFKWEl5aXc6PlRoZSAzNiBiZXN0IE11bWJhaSwgSW5kaWEgYnJld2VyaWVzIGFuZCBjcmFmdCBiZWVyIC0gV2FuZGVybG9nQrsBKzkxIDxiPjk2Mjg2IDQzNDUxPC9iPi4gT3BlbiBpbjogWWVscCAmbWlkZG90OyBUcmlwYWR2aXNvciAmbWlkZG90OyBHb29nbGUgJm1pZGRvdDsgR29vZ2xlIE1hcHMuIFdoeSB5b3Ugc2hvdWxkIGdvLiAxLiBFeHBlcmllbmNlIGEgbW9ybmluZyBicmVha2Zhc3Qgd2l0aCBmcmllbmRzIGF0IHRoZSBab21hdG8gb2ZmaWNlLiAyLiICEAFIAFgAaAA",
+    "source": "Wanderlog",
+    "read_more_link": "https://wanderlog.com/list/geoCategory/11508/best-mumbai-breweries-and-craft-beer#:~:text=Map%20view"
+   },
+   {
+    "position": 3,
+    "title": "Untitled",
+    "link": "https://z-idbdphaj.blogspot.com/index.html?8085217&m=1",
+    "redirect_link": "https://www.google.co.in/url?sa=t&source=web&rct=j&opi=89978449&url=CAESbgHrOzAVipGctP3sJcYoqN0cH1IbSIQnbaTCFEU22iC1_1T9vnDa_T__OQQPBB3JpAx7v354fT34tXXCccIshNKgNkR1iX2fcOjFnrrSdHHWJyVkuP2wMB420Fc4YRAWZUBaWL1Xp6MWb8X387kU&ved=2ahUKEwi4jcnz14eXAxXDEVkFHdcxIngQFnoECB8QAQ&uoh=1",
+    "displayed_link": "https://z-idbdphaj.blogspot.com › ...",
+    "snippet": "How to understand who called you, scammers, organizations, medical institutions or someone else. You can determine the region from which you received a call ...",
+    "about_this_result": {
+     "source": {
+      "description": "How to understand who called you, scammers, organizations, medical institutions or someone else. You can determine the region from which you received a call ...",
+      "source_info_link": "https://z-idbdphaj.blogspot.com/index.html?8085217&m=1",
+      "icon": "https://serpapi.com/images/i/iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y-mAAAAKlBMVEVHcEz-ZgL-___-ZgL-WwD-49j-vJD-6-H-8-3-gzP-oXD-eiD-2cj-xKXrGQLoAAAAAnRSTlMARXAleCcAAACpSURBVCiRpdPZDsQgCAVQK-CC-v-_O2Ksa21mMjz2BHsrVKkLDnWps4meDeA7xFqPyCYSUTQeN0Sja7nkV2yWy8yIPJgmP2NpdPmVRXlGeWg5hJAE04wkjex9KK2Wa-SO2llra2KXcMEp1E8ox-ZyTyiBpNgtKCFJPiUXS6o44H0JcvXlWNMReA10vPjWuI9ssDZshDLsMm-45913CHHblD-273Wp336HDzfYCtDpHI3hAAAAAElFTkSuQmCC.png"
+     },
+     "languages": [
+      "en"
+     ],
+     "regions": [
+      "IN"
+     ]
+    },
+    "about_page_link": "https://www.google.co.in/search/about-this-result?origin=www.google.com&req=CqIBL2dvdG8_dXJsPUNBRVNiZ0hyT3pBVmlwR2N0UDNzSmNZb3FOMGNIMUliU0lRbmJhVENGRVUyMmlDMV8xVDl2bkRhX1RfX09RUVBCQjNKcEF4N3YzNTRmVDM0dFhYQ2NjSXNoTktnTmtSMWlYMmZjT2pGbnJyU2RISFdKeVZrdVAyd01CNDIwRmM0WVJBV1pVQmFXTDFYcDZNV2I4WDM4N2tVEgQaAggAGpsDEgAaACIAKgAyBggDEgJpbjoAQgQIARAASgBaAHIAegCCQPcCCAAQABgAIAAqHgoKOTYyODY0MzQ1MRW9uxg3Ggs5NjI4NiA0MzQ1MTKiAS9nb3RvP3VybD1DQUVTYmdIck96QVZpcEdjdFAzc0pjWW9xTjBjSDFJYlNJUW5iYVRDRkVVMjJpQzFfMVQ5dm5EYV9UX19PUVFQQkIzSnBBeDd2MzU0ZlQzNHRYWENjY0lzaE5LZ05rUjFpWDJmY09qRm5yclNkSEhXSnlWa3VQMndNQjQyMEZjNFlSQVdaVUJhV0wxWHA2TVdiOFgzODdrVToAQqUBSG93IHRvIHVuZGVyc3RhbmQgd2hvIGNhbGxlZCB5b3UsIHNjYW1tZXJzLCBvcmdhbml6YXRpb25zLCBtZWRpY2FsIGluc3RpdHV0aW9ucyBvciBzb21lb25lIGVsc2UuIFlvdSBjYW4gZGV0ZXJtaW5lIHRoZSByZWdpb24gZnJvbSB3aGljaCB5b3UgcmVjZWl2ZWQgYSBjYWxsJm5ic3A7Li4uIgIQAUgAWABoAA",
+    "about_page_serpapi_link": "https://serpapi.com/search.json?engine=google_about_this_result&google_domain=google.co.in&req_token=CqIBL2dvdG8_dXJsPUNBRVNiZ0hyT3pBVmlwR2N0UDNzSmNZb3FOMGNIMUliU0lRbmJhVENGRVUyMmlDMV8xVDl2bkRhX1RfX09RUVBCQjNKcEF4N3YzNTRmVDM0dFhYQ2NjSXNoTktnTmtSMWlYMmZjT2pGbnJyU2RISFdKeVZrdVAyd01CNDIwRmM0WVJBV1pVQmFXTDFYcDZNV2I4WDM4N2tVEgQaAggAGpsDEgAaACIAKgAyBggDEgJpbjoAQgQIARAASgBaAHIAegCCQPcCCAAQABgAIAAqHgoKOTYyODY0MzQ1MRW9uxg3Ggs5NjI4NiA0MzQ1MTKiAS9nb3RvP3VybD1DQUVTYmdIck96QVZpcEdjdFAzc0pjWW9xTjBjSDFJYlNJUW5iYVRDRkVVMjJpQzFfMVQ5dm5EYV9UX19PUVFQQkIzSnBBeDd2MzU0ZlQzNHRYWENjY0lzaE5LZ05rUjFpWDJmY09qRm5yclNkSEhXSnlWa3VQMndNQjQyMEZjNFlSQVdaVUJhV0wxWHA2TVdiOFgzODdrVToAQqUBSG93IHRvIHVuZGVyc3RhbmQgd2hvIGNhbGxlZCB5b3UsIHNjYW1tZXJzLCBvcmdhbml6YXRpb25zLCBtZWRpY2FsIGluc3RpdHV0aW9ucyBvciBzb21lb25lIGVsc2UuIFlvdSBjYW4gZGV0ZXJtaW5lIHRoZSByZWdpb24gZnJvbSB3aGljaCB5b3UgcmVjZWl2ZWQgYSBjYWxsJm5ic3A7Li4uIgIQAUgAWABoAA",
+    "source": "Blogger.com"
+   },
+   {
+    "position": 4,
+    "title": "Search",
+    "link": "https://z-eldfpcad.blogspot.com/index.html?9673480&m=1",
+    "redirect_link": "https://www.google.co.in/url?sa=t&source=web&rct=j&opi=89978449&url=CAESbgHrOzAVDddgrlokAsb4sNvTYyWt2rt8pCZdHI7iVXIbXkU8Utf8OWLtShEpAoBmfNKpgxEFbMfvuBCwLSHWxJ9gz6PrqRlHPpCInAneU97osbPNtFA-gIuE5s952VOD98VAiuXbCDiYWH1xt4Im&ved=2ahUKEwi4jcnz14eXAxXDEVkFHdcxIngQFnoECBsQAQ&uoh=1",
+    "displayed_link": "https://z-eldfpcad.blogspot.com › ...",
+    "snippet": "How to understand who called you, scammers, organizations, medical institutions or someone else. You can determine the region from which you received a call ...",
+    "about_this_result": {
+     "source": {
+      "description": "How to understand who called you, scammers, organizations, medical institutions or someone else. You can determine the region from which you received a call ...",
+      "source_info_link": "https://z-eldfpcad.blogspot.com/index.html?9673480&m=1",
+      "icon": "https://serpapi.com/images/i/iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y-mAAAAKlBMVEVHcEz-ZgL-___-ZgL-WwD-49j-vJD-6-H-8-3-gzP-oXD-eiD-2cj-xKXrGQLoAAAAAnRSTlMARXAleCcAAACpSURBVCiRpdPZDsQgCAVQK-CC-v-_O2Ksa21mMjz2BHsrVKkLDnWps4meDeA7xFqPyCYSUTQeN0Sja7nkV2yWy8yIPJgmP2NpdPmVRXlGeWg5hJAE04wkjex9KK2Wa-SO2llra2KXcMEp1E8ox-ZyTyiBpNgtKCFJPiUXS6o44H0JcvXlWNMReA10vPjWuI9ssDZshDLsMm-45913CHHblD-273Wp336HDzfYCtDpHI3hAAAAAElFTkSuQmCC.png"
+     },
+     "languages": [
+      "en"
+     ],
+     "regions": [
+      "IN"
+     ]
+    },
+    "about_page_link": "https://www.google.co.in/search/about-this-result?origin=www.google.com&req=CqIBL2dvdG8_dXJsPUNBRVNiZ0hyT3pBVkRkZGdybG9rQXNiNHNOdlRZeVd0MnJ0OHBDWmRISTdpVlhJYlhrVThVdGY4T1dMdFNoRXBBb0JtZk5LcGd4RUZiTWZ2dUJDd0xTSFd4SjlnejZQcnFSbEhQcENJbkFuZVU5N29zYlBOdEZBLWdJdUU1czk1MlZPRDk4VkFpdVhiQ0RpWVdIMXh0NEltEgQaAggAGq8DEgAaACIAKgAyBggDEgJpbjoAQgQIARAASgBaAHIAegCCQIsDCAAQABgAIAAqHgoKOTYyODY0MzQ1MRUvwBg3Ggs5NjI4NiA0MzQ1MTKiAS9nb3RvP3VybD1DQUVTYmdIck96QVZEZGRncmxva0FzYjRzTnZUWXlXdDJydDhwQ1pkSEk3aVZYSWJYa1U4VXRmOE9XTHRTaEVwQW9CbWZOS3BneEVGYk1mdnVCQ3dMU0hXeEo5Z3o2UHJxUmxIUHBDSW5BbmVVOTdvc2JQTnRGQS1nSXVFNXM5NTJWT0Q5OFZBaXVYYkNEaVlXSDF4dDRJbToUU2VhcmNoIC0gQmxvZ2dlci5jb21CpQFIb3cgdG8gdW5kZXJzdGFuZCB3aG8gY2FsbGVkIHlvdSwgc2NhbW1lcnMsIG9yZ2FuaXphdGlvbnMsIG1lZGljYWwgaW5zdGl0dXRpb25zIG9yIHNvbWVvbmUgZWxzZS4gWW91IGNhbiBkZXRlcm1pbmUgdGhlIHJlZ2lvbiBmcm9tIHdoaWNoIHlvdSByZWNlaXZlZCBhIGNhbGwmbmJzcDsuLi4iAhABSABYAGgA",
+    "about_page_serpapi_link": "https://serpapi.com/search.json?engine=google_about_this_result&google_domain=google.co.in&req_token=CqIBL2dvdG8_dXJsPUNBRVNiZ0hyT3pBVkRkZGdybG9rQXNiNHNOdlRZeVd0MnJ0OHBDWmRISTdpVlhJYlhrVThVdGY4T1dMdFNoRXBBb0JtZk5LcGd4RUZiTWZ2dUJDd0xTSFd4SjlnejZQcnFSbEhQcENJbkFuZVU5N29zYlBOdEZBLWdJdUU1czk1MlZPRDk4VkFpdVhiQ0RpWVdIMXh0NEltEgQaAggAGq8DEgAaACIAKgAyBggDEgJpbjoAQgQIARAASgBaAHIAegCCQIsDCAAQABgAIAAqHgoKOTYyODY0MzQ1MRUvwBg3Ggs5NjI4NiA0MzQ1MTKiAS9nb3RvP3VybD1DQUVTYmdIck96QVZEZGRncmxva0FzYjRzTnZUWXlXdDJydDhwQ1pkSEk3aVZYSWJYa1U4VXRmOE9XTHRTaEVwQW9CbWZOS3BneEVGYk1mdnVCQ3dMU0hXeEo5Z3o2UHJxUmxIUHBDSW5BbmVVOTdvc2JQTnRGQS1nSXVFNXM5NTJWT0Q5OFZBaXVYYkNEaVlXSDF4dDRJbToUU2VhcmNoIC0gQmxvZ2dlci5jb21CpQFIb3cgdG8gdW5kZXJzdGFuZCB3aG8gY2FsbGVkIHlvdSwgc2NhbW1lcnMsIG9yZ2FuaXphdGlvbnMsIG1lZGljYWwgaW5zdGl0dXRpb25zIG9yIHNvbWVvbmUgZWxzZS4gWW91IGNhbiBkZXRlcm1pbmUgdGhlIHJlZ2lvbiBmcm9tIHdoaWNoIHlvdSByZWNlaXZlZCBhIGNhbGwmbmJzcDsuLi4iAhABSABYAGgA",
+    "source": "Blogger.com"
+   }
+  ],
+  "dmca_messages": {
+   "title": "Notices about Filtered Results",
+   "messages": [
+    {
+     "content": "In order to show you the most relevant results, we have omitted some entries very similar to the 4 already displayed.If you like, you can repeat the search with the omitted results included.",
+     "highlighted_words": [
+      {
+       "link": "https://www.google.co.in/search?q=%229628643451%22+OR+%2296286+43451%22&sca_esv=c9af837ca623c2e6&hl=en&gl=in&filter=0",
+       "text": "repeat the search with the omitted results included"
+      }
+     ]
+    }
+   ]
+  }
+ }
+}

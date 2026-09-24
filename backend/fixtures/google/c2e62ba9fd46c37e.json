@@ -1,0 +1,43 @@
+{
+ "_fixture": {
+  "kind": "recorded",
+  "recorded_at": "2026-09-24T17:00:18+00:00",
+  "params": {
+   "engine": "google",
+   "q": "\"9330879344\" OR \"93308 79344\"",
+   "google_domain": "google.co.in",
+   "gl": "in",
+   "hl": "en",
+   "num": "10"
+  }
+ },
+ "response": {
+  "search_metadata": {
+   "id": "6ab5572188aca4eab1a9dd8a",
+   "status": "Success",
+   "json_endpoint": "https://serpapi.com/searches/E7HmzzyGt2ayvh2dtPzOMONGhK6IAvu6DSRhFHpWiQQ/6ab5572188aca4eab1a9dd8a.json",
+   "markdown_endpoint": "https://serpapi.com/searches/E7HmzzyGt2ayvh2dtPzOMONGhK6IAvu6DSRhFHpWiQQ/6ab5572188aca4eab1a9dd8a.md",
+   "pixel_position_endpoint": "https://serpapi.com/searches/E7HmzzyGt2ayvh2dtPzOMONGhK6IAvu6DSRhFHpWiQQ/6ab5572188aca4eab1a9dd8a.json_with_pixel_position",
+   "created_at": "2026-09-24 17:00:17 UTC",
+   "processed_at": "2026-09-24 17:00:17 UTC",
+   "google_url": "https://www.google.co.in/search?q=%229330879344%22+OR+%2293308+79344%22&oq=%229330879344%22+OR+%2293308+79344%22&hl=en&gl=in&sourceid=chrome&ie=UTF-8",
+   "raw_html_file": "https://serpapi.com/searches/E7HmzzyGt2ayvh2dtPzOMONGhK6IAvu6DSRhFHpWiQQ/6ab5572188aca4eab1a9dd8a.html",
+   "total_time_taken": 0.83
+  },
+  "search_parameters": {
+   "engine": "google",
+   "q": "\"9330879344\" OR \"93308 79344\"",
+   "google_domain": "google.co.in",
+   "hl": "en",
+   "gl": "in",
+   "device": "desktop"
+  },
+  "search_information": {
+   "query_displayed": "\"9330879344\" OR \"93308 79344\"",
+   "total_results": 0,
+   "time_taken_displayed": 0.28,
+   "organic_results_state": "Fully empty"
+  },
+  "no_results": "Google hasn't returned any results for this query."
+ }
+}

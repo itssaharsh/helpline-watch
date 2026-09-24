@@ -32,7 +32,7 @@ export default function App() {
 }
 
 function Workspace() {
-  const [{ DEMO, FORCED }] = useState(() => { const p = new URLSearchParams(window.location.search); return { DEMO: p.get('demo') === '1', FORCED: p.get('state') } })
+  const [{ DEMO, FORCED, BRAND }] = useState(() => { const p = new URLSearchParams(window.location.search); return { DEMO: p.get('demo') === '1', FORCED: p.get('state'), BRAND: p.get('brand') } })
   const [health, setHealth] = useState<Health | null>(null)
   const [brands, setBrands] = useState<Brand[]>([])
   const [cities, setCities] = useState<City[]>([])
@@ -45,20 +45,22 @@ function Workspace() {
   const [busy, setBusy] = useState(false)
   const { state, start, load, patch, clearLanded } = useSweep()
   const autoStarted = useRef(false)
+  const skipFirstLoad = useRef(DEMO)  // ?demo=1 starts a fresh sweep instead of showing the last one; later brand changes load normally
   const running = state.status === 'running', done = state.status === 'done', idle = state.status === 'idle'
 
   useEffect(() => {
     Promise.all([api.health(), api.brands(), api.cities()])
-      .then(([h, b, c]) => { setHealth(h); setBrands(b); setCities(c.cities); setCityIds(c.default); setBrandId(b[0]?.id ?? null) })
+      .then(([h, b, c]) => { setHealth(h); setBrands(b); setCities(c.cities); setCityIds(c.default); setBrandId(b.find((x) => x.id === BRAND)?.id ?? b[0]?.id ?? null) })
       .catch((e) => setError(`The app could not reach its API: ${e.message}`))
   }, [])
   useEffect(() => {
     if (!brandId) return
     let cancelled = false
-    api.sweeps(brandId).then((list) => { if (!cancelled && list[0] && FORCED !== 'empty' && !DEMO) load(list[0].id) }).catch(() => undefined)
+    if (skipFirstLoad.current) { skipFirstLoad.current = false; return }
+    api.sweeps(brandId).then((list) => { if (!cancelled && list[0] && FORCED !== 'empty') load(list[0].id) }).catch(() => undefined)
     return () => { cancelled = true }
-  }, [brandId, load, DEMO, FORCED])
-  useEffect(() => { if (DEMO && brandId && cityIds.length && !autoStarted.current) { autoStarted.current = true; start(brandId, cityIds, 6) } }, [brandId, cityIds, start, DEMO])
+  }, [brandId, load, FORCED])
+  useEffect(() => { if (DEMO && brandId && cityIds.length && !autoStarted.current) { autoStarted.current = true; start(brandId, cityIds, 10) } }, [brandId, cityIds, start, DEMO])
   useEffect(() => { if (done) api.network().then(setNetwork).catch(() => undefined) }, [done, state.sweepId])
   useEffect(() => { if (!network) api.network().then(setNetwork).catch(() => undefined) }, [network])
   useEffect(() => { if (state.landed.length) { const t = setTimeout(clearLanded, 1400); return () => clearTimeout(t) } }, [state.landed, clearLanded])
@@ -75,7 +77,7 @@ function Workspace() {
   const progress = useMemo(() => { const all = Object.values(state.calls); return { done: all.filter((c) => c.status !== 'pending').length, total: all.length } }, [state.calls])
   const shownError = error ?? state.error
 
-  const onSweep = useCallback(() => { if (brandId && cityIds.length) { setSelected(null); setError(null); setTab('pages'); start(brandId, cityIds, 6) } }, [brandId, cityIds, start])
+  const onSweep = useCallback(() => { if (brandId && cityIds.length) { setSelected(null); setError(null); setTab('pages'); start(brandId, cityIds, 10) } }, [brandId, cityIds, start])
   const onSelect = useCallback((n: string | null) => { setSelected(n); if (n) setTab('evidence') }, [])
   const onTogglePack = useCallback(async (v: boolean) => { if (!finding) return; setBusy(true); try { await patch(finding.number_norm, { in_pack: v }) } finally { setBusy(false) } }, [finding, patch])
   const onMarkOfficial = useCallback(async () => { if (!finding) return; setBusy(true); try { await patch(finding.number_norm, { mark_official: true }); setBrands(await api.brands()) } finally { setBusy(false) } }, [finding, patch])

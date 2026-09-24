@@ -131,3 +131,33 @@ def test_international_spellings_are_read():
     assert normalise("0091 98765 43210").norm == "+919876543210"
     assert normalise("+91 (0) 98765 43210").norm == "+919876543210"
     assert [p.norm for p in extract("Toll free: +91 1800 266 2626 or +91 (0) 98765 43210")] == ["18002662626", "+919876543210"]
+
+
+def test_explicit_plus91_before_a_short_service_number_is_not_a_landline():
+    # Google Maps renders 1800 1601 as "+91 1800 1601"
+    got = extract("HDFC Bank +91 1800 1601 Metro Station Chakala")
+    assert [(p.norm, p.kind) for p in got] == [("18001601", NumberKind.TOLLFREE_1800)]
+
+
+def test_two_short_service_numbers_in_a_row_are_split():
+    got = extract("call 1800 1600 / 1800 2600 · +9122-6160-6160")
+    assert [p.norm for p in got] == ["18001600", "18002600", "+912261606160"]
+
+
+def test_twelve_digit_service_number_is_kept_whole_when_the_tail_is_not_a_number():
+    assert [p.norm for p in extract("1800 1600 1600 toll free")] == ["180016001600"]
+
+
+def test_north_american_numbers_are_not_indian():
+    assert extract("Zomato Customer Service Phone Number 1-815-214-9414 ... +91 114 059 2373") == extract("+91 114 059 2373")
+    assert extract("call +1 815 214 9414 today") == []
+    assert [p.norm for p in extract("+91 98765 43210")] == ["+919876543210"]
+
+
+def test_a_trailing_list_marker_is_not_part_of_the_number():
+    assert [p.norm for p in extract("Toll free: 1800 210 0018 2. Abroad: +91 22 6480 7999")] == ["18002100018", "+912264807999"]
+
+
+def test_numbers_labelled_as_another_countrys_are_skipped():
+    got = extract("Bangalore 18001600 or 18002600. USA: 855-999-6061, Canada: 1-855-999-6062, for any other country: 91-2267606161.")
+    assert [p.norm for p in got] == ["18001600", "18002600", "+912267606161"]

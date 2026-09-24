@@ -35,7 +35,7 @@ def test_health_reports_replay_mode_without_key(client):
 
 
 def test_stream_emits_plan_calls_findings_and_done(client):
-    res = client.get("/api/sweeps/stream", params={"brand_id": "hdfc-bank", "cities": "mumbai,delhi"})
+    res = client.get("/api/sweeps/stream", params={"brand_id": "sbi", "cities": "mumbai,delhi"})
     assert res.status_code == 200 and res.headers["content-type"].startswith("text/event-stream")
     events = _events(res.text)
     names = [n for n, _ in events]
@@ -46,14 +46,14 @@ def test_stream_emits_plan_calls_findings_and_done(client):
     sweep_id = done["sweep"]["id"]
 
     got = client.get(f"/api/sweeps/{sweep_id}").json()
-    assert got["sweep"]["brand_id"] == "hdfc-bank"
+    assert got["sweep"]["brand_id"] == "sbi"
 
     pack = client.get(f"/api/sweeps/{sweep_id}/pack.zip")
     assert pack.status_code == 200 and pack.headers["content-type"] == "application/zip"
 
 
 def test_patch_finding_can_mark_official_and_toggle_pack(client):
-    done = _events(client.get("/api/sweeps/stream", params={"brand_id": "hdfc-bank", "cities": "kolkata"}).text)[-1][1]
+    done = _events(client.get("/api/sweeps/stream", params={"brand_id": "sbi", "cities": "kolkata"}).text)[-1][1]
     sweep_id = done["sweep"]["id"]
     review = next(f for f in done["sweep"]["findings"] if f["verdict"] == "review")
     fake = next(f for f in done["sweep"]["findings"] if f["verdict"] == "fake")

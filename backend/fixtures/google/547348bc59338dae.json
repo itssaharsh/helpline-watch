@@ -1,0 +1,396 @@
+{
+ "_fixture": {
+  "kind": "recorded",
+  "recorded_at": "2026-09-24T16:57:19+00:00",
+  "params": {
+   "engine": "google",
+   "q": "\"01140592373\" OR \"011 4059 2373\"",
+   "google_domain": "google.co.in",
+   "gl": "in",
+   "hl": "en",
+   "num": "10"
+  }
+ },
+ "response": {
+  "search_metadata": {
+   "id": "6ab5566e14537b5108b5d6e0",
+   "status": "Success",
+   "json_endpoint": "https://serpapi.com/searches/Rjn1pn8L7At2Zxn2rFRpdFSUcSTX2pcb9bm2aQqNnl4/6ab5566e14537b5108b5d6e0.json",
+   "markdown_endpoint": "https://serpapi.com/searches/Rjn1pn8L7At2Zxn2rFRpdFSUcSTX2pcb9bm2aQqNnl4/6ab5566e14537b5108b5d6e0.md",
+   "pixel_position_endpoint": "https://serpapi.com/searches/Rjn1pn8L7At2Zxn2rFRpdFSUcSTX2pcb9bm2aQqNnl4/6ab5566e14537b5108b5d6e0.json_with_pixel_position",
+   "created_at": "2026-09-24 16:57:18 UTC",
+   "processed_at": "2026-09-24 16:57:18 UTC",
+   "google_url": "https://www.google.co.in/search?q=%2201140592373%22+OR+%22011+4059+2373%22&oq=%2201140592373%22+OR+%22011+4059+2373%22&hl=en&gl=in&sourceid=chrome&ie=UTF-8",
+   "raw_html_file": "https://serpapi.com/searches/Rjn1pn8L7At2Zxn2rFRpdFSUcSTX2pcb9bm2aQqNnl4/6ab5566e14537b5108b5d6e0.html",
+   "total_time_taken": 0.43
+  },
+  "search_parameters": {
+   "engine": "google",
+   "q": "\"01140592373\" OR \"011 4059 2373\"",
+   "google_domain": "google.co.in",
+   "hl": "en",
+   "gl": "in",
+   "device": "desktop"
+  },
+  "search_information": {
+   "query_displayed": "\"01140592373\" OR \"011 4059 2373\"",
+   "total_results": 57,
+   "time_taken_displayed": 0.25,
+   "organic_results_state": "Results for exact spelling"
+  },
+  "related_questions": [
+   {
+    "question": "What is Zomato's contact email address?",
+    "type": "ai_overview",
+    "page_token": "vgaEmXicHdBdboIwAADg7DI-apHNDROzyKQqC2ytbUFelv6AIK1URcG97S471U6zZQf4Xr6vb10d6p-7vmxbe56ORl3XDXdNs9P5UDbD6jDi59tBjiTXWnBZTyePE-e5kLPgsvZfjmsfUWvZAoONabe8bjE38pYCe5Ise2UgDhSFUILQKMZ6uo8dwfAZG7sWrr9PVgwhB-rIhFglsZvXrUafISKgT8QyvGA974Ubr7KlF7J03uUMR6SGNw68d5wG9xxmFKe2yKDWb0yBjMiH2LU9WdmEG9DHSelHiWf5Xl05yYr8UGrlRq1Ms8uWlEds1C0iOKWBd44hxtggh8H5_cZYPyhVJZZBv02exjm1Dhp7nYIQCaArsXF81TcVovhT7rVhUHUSQiOgDxXZuVGASwpDGtOSyFov_vyVokEhrzN38P85-yhMO7WnZvcLXXmFiQ",
+    "serpapi_ai_overview_link": "https://serpapi.com/search.json?engine=google_ai_overview&page_token=vgaEmXicHdBdboIwAADg7DI-apHNDROzyKQqC2ytbUFelv6AIK1URcG97S471U6zZQf4Xr6vb10d6p-7vmxbe56ORl3XDXdNs9P5UDbD6jDi59tBjiTXWnBZTyePE-e5kLPgsvZfjmsfUWvZAoONabe8bjE38pYCe5Ise2UgDhSFUILQKMZ6uo8dwfAZG7sWrr9PVgwhB-rIhFglsZvXrUafISKgT8QyvGA974Ubr7KlF7J03uUMR6SGNw68d5wG9xxmFKe2yKDWb0yBjMiH2LU9WdmEG9DHSelHiWf5Xl05yYr8UGrlRq1Ms8uWlEds1C0iOKWBd44hxtggh8H5_cZYPyhVJZZBv02exjm1Dhp7nYIQCaArsXF81TcVovhT7rVhUHUSQiOgDxXZuVGASwpDGtOSyFov_vyVokEhrzN38P85-yhMO7WnZvcLXXmFiQ",
+    "next_page_token": "eyJvbnMiOiIxMDA0MSIsImZjIjoiRXFFQkNtSkJTbWxVTkhSS1ltMTRjWFZuYVhkc1ZtaHZXR2h6UWpOdWNqUmZjMk01YUVOTlRGaEJXR2xLWlhwMGFrdzBObkV0TVV0aVRHSlNiVk5sYVhwWVMwdFZPRE5LVlZkcExVbHBSMmh6VXpWUFdEWlRMVTR6ZG5rMk1VazBRazVoTUVNNVp4SVhZbXhoTVdGdk5ubEtkVU52Y0hSUlVHOUpZbTB0UVhjYUlrRkVjM0k1WmxKaFJtcExjRFZpUlVabU56QlZXbFJrYTJFMFdEWnpkalEzWlVFIiwiZmN2IjoiMyIsImVpIjoiYmxhMWFvNnlKdUNvcHRRUG9JYm0tQXciLCJxYyI6ImMtT1NOREEwTkRFd3RUUXlOamRXQUxJVlFCd0ZFRS1Bb2JhcmJhTWRBQSIsInF1ZXN0aW9uIjoiV2hhdCBpcyBab21hdG8ncyBjb250YWN0IGVtYWlsIGFkZHJlc3M/IiwibGsiOiJHaFI2YjIxaGRHOGdZMjl1ZEdGamRDQmxiV0ZwYkEiLCJicyI6ImMxM05Qd3ZDTUJDSFlWeHZjaENIb0hDNmRNOHVvVGlvbjBCd081TFRCdkpIbWhPaG45NVFDMkxuZS03OVFRdk50U05CWF9DV0kwbHVDdHFjaEt3Z1JfSUJ5Ym1lU3pGNnJWYkRTUDRCSEdCN3BJUVhmTEFnWWNfM1YzS1kweFEwZXFPVXJjQ1A0SGYteHVBRXUzTi1ZODF5c1JSSWVIcXNNX0VaeUNjeGVxLXdtNkZoaHBhTER3IiwiaWQiOiJmY19ibGExYW82eUp1Q29wdFFQb0libS1Bd180In0=",
+    "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google_related_questions&google_domain=google.com&next_page_token=eyJvbnMiOiIxMDA0MSIsImZjIjoiRXFFQkNtSkJTbWxVTkhSS1ltMTRjWFZuYVhkc1ZtaHZXR2h6UWpOdWNqUmZjMk01YUVOTlRGaEJXR2xLWlhwMGFrdzBObkV0TVV0aVRHSlNiVk5sYVhwWVMwdFZPRE5LVlZkcExVbHBSMmh6VXpWUFdEWlRMVTR6ZG5rMk1VazBRazVoTUVNNVp4SVhZbXhoTVdGdk5ubEtkVU52Y0hSUlVHOUpZbTB0UVhjYUlrRkVjM0k1WmxKaFJtcExjRFZpUlVabU56QlZXbFJrYTJFMFdEWnpkalEzWlVFIiwiZmN2IjoiMyIsImVpIjoiYmxhMWFvNnlKdUNvcHRRUG9JYm0tQXciLCJxYyI6ImMtT1NOREEwTkRFd3RUUXlOamRXQUxJVlFCd0ZFRS1Bb2JhcmJhTWRBQSIsInF1ZXN0aW9uIjoiV2hhdCBpcyBab21hdG8ncyBjb250YWN0IGVtYWlsIGFkZHJlc3M%2FIiwibGsiOiJHaFI2YjIxaGRHOGdZMjl1ZEdGamRDQmxiV0ZwYkEiLCJicyI6ImMxM05Qd3ZDTUJDSFlWeHZjaENIb0hDNmRNOHVvVGlvbjBCd081TFRCdkpIbWhPaG45NVFDMkxuZS03OVFRdk50U05CWF9DV0kwbHVDdHFjaEt3Z1JfSUJ5Ym1lU3pGNnJWYkRTUDRCSEdCN3BJUVhmTEFnWWNfM1YzS1kweFEwZXFPVXJjQ1A0SGYteHVBRXUzTi1ZODF5c1JSSWVIcXNNX0VaeUNjeGVxLXdtNkZoaHBhTER3IiwiaWQiOiJmY19ibGExYW82eUp1Q29wdFFQb0libS1Bd180In0%3D"
+   },
+   {
+    "question": "Can I get a refund on Zomato?",
+    "type": "ai_overview",
+    "page_token": "lIzTU3icHdBfToMwHADgeJk9bvxx6pYsJgjF4cbW0naMF1NaGIwfBRWl25t38VSexsTvCN_3D9S6-b0x1TD0H8vZbBzH6anrTlBMZTet9Ux8XLScSQGQC9ks7-7v7MdSroLPtff0tvYw63vuEytJ-SHji30Wwl6G6ExceOGOSnAa0dT2vJiiSmgIihaaBMBg4ANpA0sClJzyrgiNz_1oJ9hxvtXylrVml4QqKyiqaavmgkU1tjN3qyOKuZeSQNmkMdcDizdxyiNqoTcRQqLA0ySN5huK2C44mdgne95UVuZnPWcgjoCAWdVFOQgJOwoLTsrEbdy4jXzq3F7ZMx-2VqaDStV5GJjj4cEpWG9jZzEqhHBuQZ0ntqdMV2NGrvIMLTsrkV_jdWwvXGGpULkKco0SEvBy25iRI7XDeFLKr5U7-f9cvZbtsOzfu9MfE3mDpw",
+    "serpapi_ai_overview_link": "https://serpapi.com/search.json?engine=google_ai_overview&page_token=lIzTU3icHdBfToMwHADgeJk9bvxx6pYsJgjF4cbW0naMF1NaGIwfBRWl25t38VSexsTvCN_3D9S6-b0x1TD0H8vZbBzH6anrTlBMZTet9Ux8XLScSQGQC9ks7-7v7MdSroLPtff0tvYw63vuEytJ-SHji30Wwl6G6ExceOGOSnAa0dT2vJiiSmgIihaaBMBg4ANpA0sClJzyrgiNz_1oJ9hxvtXylrVml4QqKyiqaavmgkU1tjN3qyOKuZeSQNmkMdcDizdxyiNqoTcRQqLA0ySN5huK2C44mdgne95UVuZnPWcgjoCAWdVFOQgJOwoLTsrEbdy4jXzq3F7ZMx-2VqaDStV5GJjj4cEpWG9jZzEqhHBuQZ0ntqdMV2NGrvIMLTsrkV_jdWwvXGGpULkKco0SEvBy25iRI7XDeFLKr5U7-f9cvZbtsOzfu9MfE3mDpw",
+    "next_page_token": "eyJvbnMiOiIxMDA0MSIsImZjIjoiRXFFQkNtSkJTbWxVTkhSS1ltMTRjWFZuYVhkc1ZtaHZXR2h6UWpOdWNqUmZjMk01YUVOTlRGaEJXR2xLWlhwMGFrdzBObkV0TVV0aVRHSlNiVk5sYVhwWVMwdFZPRE5LVlZkcExVbHBSMmh6VXpWUFdEWlRMVTR6ZG5rMk1VazBRazVoTUVNNVp4SVhZbXhoTVdGdk5ubEtkVU52Y0hSUlVHOUpZbTB0UVhjYUlrRkVjM0k1WmxKaFJtcExjRFZpUlVabU56QlZXbFJrYTJFMFdEWnpkalEzWlVFIiwiZmN2IjoiMyIsImVpIjoiYmxhMWFvNnlKdUNvcHRRUG9JYm0tQXciLCJxYyI6ImMtT1NOREEwTkRFd3RUUXlOamRXQUxJVlFCd0ZFRS1Bb2JhcmJhTWRBQSIsInF1ZXN0aW9uIjoiQ2FuIEkgZ2V0IGEgcmVmdW5kIG9uIFpvbWF0bz8iLCJsayI6IkdocGpZVzRnYVNCblpYUWdjbVZtZFc1a0lHOXVJSHB2YldGMGJ3IiwiYnMiOiJjMTNOUHd2Q01CQ0hZVnh2Y2hDSG9IQzZkTTh1b1Rpb24wQndPNUxUQnZKSG1oT2huOTVRQzJMbmUtNzlRUXZOdFNOQlhfQ1dJMGx1Q3RxY2hLd2dSX0lCeWJtZVN6RjZyVmJEU1A0QkhHQjdwSVFYZkxBZ1ljXzNWM0tZMHhRMGVxT1VyY0NQNEhmLXh1QUV1M04tWTgxeXNSUkllSHFzTV9FWnlDY3hlcS13bTZGaGhwYUxEdyIsImlkIjoiZmNfYmxhMWFvNnlKdUNvcHRRUG9JYm0tQXdfNCJ9",
+    "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google_related_questions&google_domain=google.com&next_page_token=eyJvbnMiOiIxMDA0MSIsImZjIjoiRXFFQkNtSkJTbWxVTkhSS1ltMTRjWFZuYVhkc1ZtaHZXR2h6UWpOdWNqUmZjMk01YUVOTlRGaEJXR2xLWlhwMGFrdzBObkV0TVV0aVRHSlNiVk5sYVhwWVMwdFZPRE5LVlZkcExVbHBSMmh6VXpWUFdEWlRMVTR6ZG5rMk1VazBRazVoTUVNNVp4SVhZbXhoTVdGdk5ubEtkVU52Y0hSUlVHOUpZbTB0UVhjYUlrRkVjM0k1WmxKaFJtcExjRFZpUlVabU56QlZXbFJrYTJFMFdEWnpkalEzWlVFIiwiZmN2IjoiMyIsImVpIjoiYmxhMWFvNnlKdUNvcHRRUG9JYm0tQXciLCJxYyI6ImMtT1NOREEwTkRFd3RUUXlOamRXQUxJVlFCd0ZFRS1Bb2JhcmJhTWRBQSIsInF1ZXN0aW9uIjoiQ2FuIEkgZ2V0IGEgcmVmdW5kIG9uIFpvbWF0bz8iLCJsayI6IkdocGpZVzRnYVNCblpYUWdjbVZtZFc1a0lHOXVJSHB2YldGMGJ3IiwiYnMiOiJjMTNOUHd2Q01CQ0hZVnh2Y2hDSG9IQzZkTTh1b1Rpb24wQndPNUxUQnZKSG1oT2huOTVRQzJMbmUtNzlRUXZOdFNOQlhfQ1dJMGx1Q3RxY2hLd2dSX0lCeWJtZVN6RjZyVmJEU1A0QkhHQjdwSVFYZkxBZ1ljXzNWM0tZMHhRMGVxT1VyY0NQNEhmLXh1QUV1M04tWTgxeXNSUkllSHFzTV9FWnlDY3hlcS13bTZGaGhwYUxEdyIsImlkIjoiZmNfYmxhMWFvNnlKdUNvcHRRUG9JYm0tQXdfNCJ9"
+   },
+   {
+    "question": "How to escalate Zomato complaint?",
+    "type": "ai_overview",
+    "page_token": "_cchEXicHdDBbpswGABg7WV6TGwyd02kaBoNJumEqQH_Bi4T2E3CsLGz0pFw27vsqfo0nXb-bt-fv6Yb-vdP1_M4-tfNcjlN0-Lk3Mm8LJRbdMOyeb0NaqkaY9pG9Zv7L_f461Fto7dD-Hg5hFx4D7sM5XK6caONoI4kAUeVNKSypM4GuoeVPxd7wK11o5QPqMSUK0oJl-sLWBrkq28jk-aocHTNYZ0o5NN61kONohvrjQdrvgP4opJZ0xZQpmU_C8OGRFCSlh4E8s_5EI2N1SNgvcvjaax6QZjUjbAHXKF-pWN2kQUNxI450ZMOMEtSySKG_QX6p7kuHeHB-jGBp6lAPozOumvj6FrJh-BFePzPJk0pb5Hp2hyH-uo6LrJZ_TQWYvPc7E3IrfsMJbP5bEgawy7B_JYWhyCL16Ke7o7q93Z19_9z--Nox43_5U4fx1eDFw",
+    "serpapi_ai_overview_link": "https://serpapi.com/search.json?engine=google_ai_overview&page_token=_cchEXicHdDBbpswGABg7WV6TGwyd02kaBoNJumEqQH_Bi4T2E3CsLGz0pFw27vsqfo0nXb-bt-fv6Yb-vdP1_M4-tfNcjlN0-Lk3Mm8LJRbdMOyeb0NaqkaY9pG9Zv7L_f461Fto7dD-Hg5hFx4D7sM5XK6caONoI4kAUeVNKSypM4GuoeVPxd7wK11o5QPqMSUK0oJl-sLWBrkq28jk-aocHTNYZ0o5NN61kONohvrjQdrvgP4opJZ0xZQpmU_C8OGRFCSlh4E8s_5EI2N1SNgvcvjaax6QZjUjbAHXKF-pWN2kQUNxI450ZMOMEtSySKG_QX6p7kuHeHB-jGBp6lAPozOumvj6FrJh-BFePzPJk0pb5Hp2hyH-uo6LrJZ_TQWYvPc7E3IrfsMJbP5bEgawy7B_JYWhyCL16Ke7o7q93Z19_9z--Nox43_5U4fx1eDFw",
+    "next_page_token": "eyJvbnMiOiIxMDA0MSIsImZjIjoiRXFFQkNtSkJTbWxVTkhSS1ltMTRjWFZuYVhkc1ZtaHZXR2h6UWpOdWNqUmZjMk01YUVOTlRGaEJXR2xLWlhwMGFrdzBObkV0TVV0aVRHSlNiVk5sYVhwWVMwdFZPRE5LVlZkcExVbHBSMmh6VXpWUFdEWlRMVTR6ZG5rMk1VazBRazVoTUVNNVp4SVhZbXhoTVdGdk5ubEtkVU52Y0hSUlVHOUpZbTB0UVhjYUlrRkVjM0k1WmxKaFJtcExjRFZpUlVabU56QlZXbFJrYTJFMFdEWnpkalEzWlVFIiwiZmN2IjoiMyIsImVpIjoiYmxhMWFvNnlKdUNvcHRRUG9JYm0tQXciLCJxYyI6ImMtT1NOREEwTkRFd3RUUXlOamRXQUxJVlFCd0ZFRS1Bb2JhcmJhTWRBQSIsInF1ZXN0aW9uIjoiSG93IHRvIGVzY2FsYXRlIFpvbWF0byBjb21wbGFpbnQ/IiwibGsiOiJHaUJvYjNjZ2RHOGdaWE5qWVd4aGRHVWdlbTl0WVhSdklHTnZiWEJzWVdsdWRBIiwiYnMiOiJjMTNOUHd2Q01CQ0hZVnh2Y2hDSG9IQzZkTTh1b1Rpb24wQndPNUxUQnZKSG1oT2huOTVRQzJMbmUtNzlRUXZOdFNOQlhfQ1dJMGx1Q3RxY2hLd2dSX0lCeWJtZVN6RjZyVmJEU1A0QkhHQjdwSVFYZkxBZ1ljXzNWM0tZMHhRMGVxT1VyY0NQNEhmLXh1QUV1M04tWTgxeXNSUkllSHFzTV9FWnlDY3hlcS13bTZGaGhwYUxEdyIsImlkIjoiZmNfYmxhMWFvNnlKdUNvcHRRUG9JYm0tQXdfNCJ9",
+    "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google_related_questions&google_domain=google.com&next_page_token=eyJvbnMiOiIxMDA0MSIsImZjIjoiRXFFQkNtSkJTbWxVTkhSS1ltMTRjWFZuYVhkc1ZtaHZXR2h6UWpOdWNqUmZjMk01YUVOTlRGaEJXR2xLWlhwMGFrdzBObkV0TVV0aVRHSlNiVk5sYVhwWVMwdFZPRE5LVlZkcExVbHBSMmh6VXpWUFdEWlRMVTR6ZG5rMk1VazBRazVoTUVNNVp4SVhZbXhoTVdGdk5ubEtkVU52Y0hSUlVHOUpZbTB0UVhjYUlrRkVjM0k1WmxKaFJtcExjRFZpUlVabU56QlZXbFJrYTJFMFdEWnpkalEzWlVFIiwiZmN2IjoiMyIsImVpIjoiYmxhMWFvNnlKdUNvcHRRUG9JYm0tQXciLCJxYyI6ImMtT1NOREEwTkRFd3RUUXlOamRXQUxJVlFCd0ZFRS1Bb2JhcmJhTWRBQSIsInF1ZXN0aW9uIjoiSG93IHRvIGVzY2FsYXRlIFpvbWF0byBjb21wbGFpbnQ%2FIiwibGsiOiJHaUJvYjNjZ2RHOGdaWE5qWVd4aGRHVWdlbTl0WVhSdklHTnZiWEJzWVdsdWRBIiwiYnMiOiJjMTNOUHd2Q01CQ0hZVnh2Y2hDSG9IQzZkTTh1b1Rpb24wQndPNUxUQnZKSG1oT2huOTVRQzJMbmUtNzlRUXZOdFNOQlhfQ1dJMGx1Q3RxY2hLd2dSX0lCeWJtZVN6RjZyVmJEU1A0QkhHQjdwSVFYZkxBZ1ljXzNWM0tZMHhRMGVxT1VyY0NQNEhmLXh1QUV1M04tWTgxeXNSUkllSHFzTV9FWnlDY3hlcS13bTZGaGhwYUxEdyIsImlkIjoiZmNfYmxhMWFvNnlKdUNvcHRRUG9JYm0tQXdfNCJ9"
+   }
+  ],
+  "organic_results": [
+   {
+    "position": 1,
+    "title": "ZOMATO - Refund issue - Grahak Complaints",
+    "link": "https://www.grahakcomplaints.in/zomato-refund-issue-339/",
+    "redirect_link": "https://www.google.co.in/url?sa=t&source=web&rct=j&opi=89978449&url=CAEScAHrOzAVKm0y6fvhH7Wux6uox50LEnuLfNRV2KKJIeXWtdwkQcV4T_35Ij9HrmdctuqtQIReDCguKdRbsTt4Y_ELpvj3Kmf_FNWnsVoLO3zFp8gxvfc_kkHJG0o7IFnDxbFGcIx4h-P9z_aIrtHVC0I&ved=2ahUKEwiOoebw14eXAxVglIkEHSCDGc8QFnoECBkQAQ&uoh=1",
+    "displayed_link": "https://www.grahakcomplaints.in › zomato-refund-issue-...",
+    "snippet": "Customer Rating. Total Complaints ... 38. Pending Complaint ... 31. Resolved Complaint ... 7. Phone Number : 01140592373. Email Id : Companysecretary@Zomato.Com.",
+    "snippet_highlighted_words": [
+     "01140592373"
+    ],
+    "about_this_result": {
+     "source": {
+      "description": "Customer Rating. Total Complaints ... 38. Pending Complaint ... 31. Resolved Complaint ... 7. Phone Number : 01140592373. Email Id : Companysecretary@Zomato.Com.",
+      "source_info_link": "https://www.grahakcomplaints.in/zomato-refund-issue-339/",
+      "icon": "https://serpapi.com/images/i/UklGRkwBAABXRUJQVlA4IEABAABwCQCdASogACAAPtEutFooIagoGAEAGglsAJ05QVLdknip8gNsB4mfUU8lXrAPQA_TP00f2A-EbyabuaSAe9g6o_uIHotw1n-mPDiwDvVB4Ww30IAA_pk79-Jgpfz5ou7SwhvOkuqB9OwyOrVKzWj7r-QY5KZcJkNxt5cGw96rtRC2JnbFfY7YfVHCSlW1G1jZa76Ii09MpzL77tKQ0jTZSx8zEZlaZAZTrDUdY-9e0BglfkXFWvplL2JlSAAJ4Mx_VDhPNhvbNBk59LGnYnWyawlpn4zT_MEKjKA2MLJ5woR6Wd4LgCDJX3lOPbCrPgsO4qhxPh_XTGvO2xTNkycDhqjd-swuwlDXtSM-Q-GFjVDsl1GSLnHdXnNxW6YBoOPdUJvBkeTTxT1n1qLqXD4MVK1mI7mq_EaqAEMo2AAAAA.webp"
+     },
+     "languages": [
+      "en"
+     ],
+     "regions": [
+      "IN"
+     ]
+    },
+    "about_page_link": "https://www.google.co.in/search/about-this-result?origin=www.google.com&req=CqUBL2dvdG8_dXJsPUNBRVNjQUhyT3pBVkttMHk2ZnZoSDdXdXg2dW94NTBMRW51TGZOUlYyS0tKSWVYV3Rkd2tRY1Y0VF8zNUlqOUhybWRjdHVxdFFJUmVEQ2d1S2RSYnNUdDRZX0VMcHZqM0ttZl9GTlduc1ZvTE8zekZwOGd4dmZjX2trSEpHMG83SUZuRHhiRkdjSXg0aC1QOXpfYUlydEhWQzBJEgQaAggAGs0DEgAaACIAKgAyBggBEgJpbjoAQgQIARAASgBaAHIAegCCQKkDCAAQABgAIAAqIQoLMDExNDA1OTIzNzMVwi8GPxoNMDExIDQwNTkgMjM3MzKlAS9nb3RvP3VybD1DQUVTY0FIck96QVZLbTB5NmZ2aEg3V3V4NnVveDUwTEVudUxmTlJWMktLSkllWFd0ZHdrUWNWNFRfMzVJajlIcm1kY3R1cXRRSVJlRENndUtkUmJzVHQ0WV9FTHB2ajNLbWZfRk5XbnNWb0xPM3pGcDhneHZmY19ra0hKRzBvN0lGbkR4YkZHY0l4NGgtUDl6X2FJcnRIVkMwSTopWk9NQVRPIC0gUmVmdW5kIGlzc3VlIC0gR3JhaGFrIENvbXBsYWludHNCqAFDdXN0b21lciBSYXRpbmcuIFRvdGFsIENvbXBsYWludHMgLi4uIDM4LiBQZW5kaW5nIENvbXBsYWludCAuLi4gMzEuIFJlc29sdmVkIENvbXBsYWludCAuLi4gNy4gUGhvbmUgTnVtYmVyIDogPGI-MDExNDA1OTIzNzM8L2I-LiBFbWFpbCBJZCA6IENvbXBhbnlzZWNyZXRhcnlAWm9tYXRvLkNvbS4iAhABSABYAGgA",
+    "about_page_serpapi_link": "https://serpapi.com/search.json?engine=google_about_this_result&google_domain=google.co.in&req_token=CqUBL2dvdG8_dXJsPUNBRVNjQUhyT3pBVkttMHk2ZnZoSDdXdXg2dW94NTBMRW51TGZOUlYyS0tKSWVYV3Rkd2tRY1Y0VF8zNUlqOUhybWRjdHVxdFFJUmVEQ2d1S2RSYnNUdDRZX0VMcHZqM0ttZl9GTlduc1ZvTE8zekZwOGd4dmZjX2trSEpHMG83SUZuRHhiRkdjSXg0aC1QOXpfYUlydEhWQzBJEgQaAggAGs0DEgAaACIAKgAyBggBEgJpbjoAQgQIARAASgBaAHIAegCCQKkDCAAQABgAIAAqIQoLMDExNDA1OTIzNzMVwi8GPxoNMDExIDQwNTkgMjM3MzKlAS9nb3RvP3VybD1DQUVTY0FIck96QVZLbTB5NmZ2aEg3V3V4NnVveDUwTEVudUxmTlJWMktLSkllWFd0ZHdrUWNWNFRfMzVJajlIcm1kY3R1cXRRSVJlRENndUtkUmJzVHQ0WV9FTHB2ajNLbWZfRk5XbnNWb0xPM3pGcDhneHZmY19ra0hKRzBvN0lGbkR4YkZHY0l4NGgtUDl6X2FJcnRIVkMwSTopWk9NQVRPIC0gUmVmdW5kIGlzc3VlIC0gR3JhaGFrIENvbXBsYWludHNCqAFDdXN0b21lciBSYXRpbmcuIFRvdGFsIENvbXBsYWludHMgLi4uIDM4LiBQZW5kaW5nIENvbXBsYWludCAuLi4gMzEuIFJlc29sdmVkIENvbXBsYWludCAuLi4gNy4gUGhvbmUgTnVtYmVyIDogPGI-MDExNDA1OTIzNzM8L2I-LiBFbWFpbCBJZCA6IENvbXBhbnlzZWNyZXRhcnlAWm9tYXRvLkNvbS4iAhABSABYAGgA",
+    "source": "grahakcomplaints.in",
+    "read_more_link": "https://www.grahakcomplaints.in/zomato-refund-issue-339/#:~:text=Customer%20Rating,Email%20Id%20%3A%20Companysecretary%40Zomato.Com"
+   },
+   {
+    "position": 2,
+    "title": "Blinkit delivered used product",
+    "link": "https://consumercourt.net/threads/blinkit-delivered-used-product.4187/",
+    "redirect_link": "https://www.google.co.in/url?sa=t&source=web&rct=j&opi=89978449&url=CAESfgHrOzAV6W00e_zXWpmJiTEagzRllxcrVApudDIpQtJ0EvccIghPSdX5SN9W05Utmhj91ZL77DrvN89Jfz0QQa3_pi1cmDCyEE5bUhxhWHtXvo0bQUu10EkTERJkAo81J211yzBiitYc9m9gJEw1pFg9fiPMfWKkC-HC3UbidA&ved=2ahUKEwiOoebw14eXAxVglIkEHSCDGc8QFnoECBIQAQ&uoh=1",
+    "displayed_link": "https://consumercourt.net › Forums › Online Shopping",
+    "date": "22 Jan 2026",
+    "snippet": "Seller Name: Blinkit ; Company Name: Blinkit ; Product Name: Alexa echo ; Website Name: Blinkit ; Customer Care Number: 01140592373.",
+    "snippet_highlighted_words": [
+     "01140592373"
+    ],
+    "about_this_result": {
+     "source": {
+      "description": "Seller Name: Blinkit ; Company Name: Blinkit ; Product Name: Alexa echo ; Website Name: Blinkit ; Customer Care Number: 01140592373.",
+      "source_info_link": "https://consumercourt.net/threads/blinkit-delivered-used-product.4187/",
+      "icon": "https://serpapi.com/images/i/UklGRnIBAABXRUJQVlA4IGYBAACwBwCdASocABwAPtE-tFooIigoFAEAGglsAJ0yy8LPpt1PbKPLx-AfSiuIMwD9Mw-3puoM315hyCiMJXMoLKzQQ6ejqCUQAP6bsQKQIuHJQByDt5EccrpBPKbarEb73pMqZTiW_uT-0UBfhiUDnmrht56kfc2qLsttxgLi0-IH_uRFJT0UOuHVy__3bjYhZY1EC0OOmTUqqIDc4QYyWUuan311w9IaCqA7qjUn-v6NHxRPZhfesmpswjZ9z7UNvcqVY0o8av29He-G7zgwkcsAUhgYvH9vWKNwTnuF9cDBCJFr6bdCCYEBXhqG6h-G8W38GFKUcxBPq55Obrg_9pRmzdpUb6qJU_LCsvnFOJmMd1ojnHuJsOFjYYtvoMZfaHSUVl1tmSBIUe0-wsCih56ejWEqH4zx8r9IMdWbyNtstSPRviLN4Aub29vX7f7lmXJavcfIzr0XyPo2x1qXh326w5ZjWsAA.webp"
+     },
+     "languages": [
+      "en"
+     ],
+     "regions": [
+      "IN"
+     ]
+    },
+    "about_page_link": "https://www.google.co.in/search/about-this-result?origin=www.google.com&req=CrgBL2dvdG8_dXJsPUNBRVNmZ0hyT3pBVjZXMDBlX3pYV3BtSmlURWFnelJsbHhjclZBcHVkRElwUXRKMEV2Y2NJZ2hQU2RYNVNOOVcwNVV0bWhqOTFaTDc3RHJ2Tjg5SmZ6MFFRYTNfcGkxY21EQ3lFRTViVWh4aFdIdFh2bzBiUVV1MTBFa1RFUkprQW84MUoyMTF5ekJpaXRZYzltOWdKRXcxcEZnOWZpUE1mV0trQy1IQzNVYmlkQRIEGgIIABrSAxIAGgAiACoAMgYIAxICaW46AEIECAEQAEoAWgByAHoAgkCuAwgAEAAYACAAKiEKCzAxMTQwNTkyMzczFRrDiD4aDTAxMSA0MDU5IDIzNzMyuAEvZ290bz91cmw9Q0FFU2ZnSHJPekFWNlcwMGVfelhXcG1KaVRFYWd6UmxseGNyVkFwdWRESXBRdEowRXZjY0lnaFBTZFg1U045VzA1VXRtaGo5MVpMNzdEcnZOODlKZnowUVFhM19waTFjbURDeUVFNWJVaHhoV0h0WHZvMGJRVXUxMEVrVEVSSmtBbzgxSjIxMXl6QmlpdFljOW05Z0pFdzFwRmc5ZmlQTWZXS2tDLUhDM1ViaWRBOjhCbGlua2l0IGRlbGl2ZXJlZCB1c2VkIHByb2R1Y3QgLSBDb25zdW1lciBDb3VydCBBZHZpc29yLkKLAVNlbGxlciBOYW1lOiBCbGlua2l0IDsgQ29tcGFueSBOYW1lOiBCbGlua2l0IDsgUHJvZHVjdCBOYW1lOiBBbGV4YSBlY2hvIDsgV2Vic2l0ZSBOYW1lOiBCbGlua2l0IDsgQ3VzdG9tZXIgQ2FyZSBOdW1iZXI6IDxiPjAxMTQwNTkyMzczPC9iPi4iAhABSABYAGgA",
+    "about_page_serpapi_link": "https://serpapi.com/search.json?engine=google_about_this_result&google_domain=google.co.in&req_token=CrgBL2dvdG8_dXJsPUNBRVNmZ0hyT3pBVjZXMDBlX3pYV3BtSmlURWFnelJsbHhjclZBcHVkRElwUXRKMEV2Y2NJZ2hQU2RYNVNOOVcwNVV0bWhqOTFaTDc3RHJ2Tjg5SmZ6MFFRYTNfcGkxY21EQ3lFRTViVWh4aFdIdFh2bzBiUVV1MTBFa1RFUkprQW84MUoyMTF5ekJpaXRZYzltOWdKRXcxcEZnOWZpUE1mV0trQy1IQzNVYmlkQRIEGgIIABrSAxIAGgAiACoAMgYIAxICaW46AEIECAEQAEoAWgByAHoAgkCuAwgAEAAYACAAKiEKCzAxMTQwNTkyMzczFRrDiD4aDTAxMSA0MDU5IDIzNzMyuAEvZ290bz91cmw9Q0FFU2ZnSHJPekFWNlcwMGVfelhXcG1KaVRFYWd6UmxseGNyVkFwdWRESXBRdEowRXZjY0lnaFBTZFg1U045VzA1VXRtaGo5MVpMNzdEcnZOODlKZnowUVFhM19waTFjbURDeUVFNWJVaHhoV0h0WHZvMGJRVXUxMEVrVEVSSmtBbzgxSjIxMXl6QmlpdFljOW05Z0pFdzFwRmc5ZmlQTWZXS2tDLUhDM1ViaWRBOjhCbGlua2l0IGRlbGl2ZXJlZCB1c2VkIHByb2R1Y3QgLSBDb25zdW1lciBDb3VydCBBZHZpc29yLkKLAVNlbGxlciBOYW1lOiBCbGlua2l0IDsgQ29tcGFueSBOYW1lOiBCbGlua2l0IDsgUHJvZHVjdCBOYW1lOiBBbGV4YSBlY2hvIDsgV2Vic2l0ZSBOYW1lOiBCbGlua2l0IDsgQ3VzdG9tZXIgQ2FyZSBOdW1iZXI6IDxiPjAxMTQwNTkyMzczPC9iPi4iAhABSABYAGgA",
+    "source": "Consumer Court Advisor.",
+    "read_more_link": "https://consumercourt.net/threads/blinkit-delivered-used-product.4187/#:~:text=Seller%20Name,Blinkit&text=Company%20Name,Blinkit&text=Product%20Name,Alexa%20echo&text=Website%20Name,Blinkit&text=Customer%20Care%20Number,01140592373"
+   },
+   {
+    "position": 3,
+    "title": "Zomato Customer Care Number",
+    "link": "https://www.instagram.com/popular/zomato-customer-care-number/?hl=en",
+    "redirect_link": "https://www.google.co.in/url?sa=t&source=web&rct=j&opi=89978449&url=CAESfAHrOzAV9AV5uiuS2AfzW354Nd35ZWF0fw44_uVDZJYqKR-WitT5teUq-wBADDPJkIDkoTpZFwYnqMYkqP6qTTazgFPjtyPY__4PfSYA5mA6GqSu3cE46i7Q_ZMfe5aKoD7zrdMqVPw41k6Sa00vVpqMzhlZikaULJxFmM8&ved=2ahUKEwiOoebw14eXAxVglIkEHSCDGc8QFnoECA8QAQ&uoh=1",
+    "displayed_link": "https://www.instagram.com › popular › zomato-custom...",
+    "snippet": "The main Zomato customer care number for India is 011-4059 2373 for general support. A commonly listed number across multiple cities is 01130806376 for ...",
+    "snippet_highlighted_words": [
+     "011-4059 2373"
+    ],
+    "about_this_result": {
+     "source": {
+      "description": "The main Zomato customer care number for India is 011-4059 2373 for general support. A commonly listed number across multiple cities is 01130806376 for ...",
+      "source_info_link": "https://www.instagram.com/popular/zomato-customer-care-number/?hl=en",
+      "icon": "https://serpapi.com/images/i/UklGRrQBAABXRUJQVlA4IKgBAABwCACdASocABwAPrUurVanIacnG_DgFolsAJ0yhHp_qvDn8INhnGwwG2i5ADWgPQA6TAiNSWpNpaKsXIF39bGj3Qd8pbRqOqkClBeAAP5tEoJlJoIDKX9SM7Zcd-n9JzxjUyFwXhzwPaTeFm2SeuMf1qLVq3t4wI3Sjh-TwPMqC3IvNj-0iGrCQSLYH_-G79_n_WM3XsPcVuoDF5Qv72r9Pf808tOK5Udv-Td9HMGptvnvxKOoa_2nDyZ2ppkSa2bNDL-K8pl3NhKk0sDV6BtpvNMgPb8dFSIrV0bFXaXgk5e0X-zIfxi-75avphrtEjwdvibNuQxApMkfs-CMi8mkD-o9_Rjb7y57vXTZx0h5MRX7n1JX-MenGUk5E4XC7vzHzXwfTDhRIb4bBfoSZiSNQ4UQGB7jAg92d64S_P_CCBANUoR3tplweT0RfxTAFGtV0vGjuwbJ25X1m04VXMMJ8Q3QzEsyD8w7jnAm5jqpKUZtVe-82LngE828BL78VksB9boYA1KjkUFty8pEW9876P84D7-A_J3doJbl9U3F-cBP_D9uzAAA.webp"
+     },
+     "languages": [
+      "en"
+     ],
+     "regions": [
+      "IN"
+     ]
+    },
+    "about_page_link": "https://www.google.co.in/search/about-this-result?origin=www.google.com&req=CrUBL2dvdG8_dXJsPUNBRVNmQUhyT3pBVjlBVjV1aXVTMkFmelczNTROZDM1WldGMGZ3NDRfdVZEWkpZcUtSLVdpdFQ1dGVVcS13QkFERFBKa0lEa29UcFpGd1lucU1Za3FQNnFUVGF6Z0ZQanR5UFlfXzRQZlNZQTVtQTZHcVN1M2NFNDZpN1FfWk1mZTVhS29EN3pyZE1xVlB3NDFrNlNhMDB2VnBxTXpobFppa2FVTEp4Rm1NOBIEGgIIABraAxIAGgAiACoAMgYIARICaW46AEIECAEQAEoAWgByAHoAgkC2AwgAEAAYACAAKiEKCzAxMTQwNTkyMzczFZQu0j4aDTAxMSA0MDU5IDIzNzMytQEvZ290bz91cmw9Q0FFU2ZBSHJPekFWOUFWNXVpdVMyQWZ6VzM1NE5kMzVaV0YwZnc0NF91VkRaSllxS1ItV2l0VDV0ZVVxLXdCQUREUEprSURrb1RwWkZ3WW5xTVlrcVA2cVRUYXpnRlBqdHlQWV9fNFBmU1lBNW1BNkdxU3UzY0U0Nmk3UV9aTWZlNWFLb0Q3enJkTXFWUHc0MWs2U2EwMHZWcHFNemhsWmlrYVVMSnhGbU04Oidab21hdG8gQ3VzdG9tZXIgQ2FyZSBOdW1iZXIgLSBJbnN0YWdyYW1CpwFUaGUgbWFpbiBab21hdG8gY3VzdG9tZXIgY2FyZSBudW1iZXIgZm9yIEluZGlhIGlzIDxiPjAxMS00MDU5IDIzNzM8L2I-IGZvciBnZW5lcmFsIHN1cHBvcnQuIEEgY29tbW9ubHkgbGlzdGVkIG51bWJlciBhY3Jvc3MgbXVsdGlwbGUgY2l0aWVzIGlzIDAxMTMwODA2Mzc2IGZvciZuYnNwOy4uLiICEAFIAFgAaAA",
+    "about_page_serpapi_link": "https://serpapi.com/search.json?engine=google_about_this_result&google_domain=google.co.in&req_token=CrUBL2dvdG8_dXJsPUNBRVNmQUhyT3pBVjlBVjV1aXVTMkFmelczNTROZDM1WldGMGZ3NDRfdVZEWkpZcUtSLVdpdFQ1dGVVcS13QkFERFBKa0lEa29UcFpGd1lucU1Za3FQNnFUVGF6Z0ZQanR5UFlfXzRQZlNZQTVtQTZHcVN1M2NFNDZpN1FfWk1mZTVhS29EN3pyZE1xVlB3NDFrNlNhMDB2VnBxTXpobFppa2FVTEp4Rm1NOBIEGgIIABraAxIAGgAiACoAMgYIARICaW46AEIECAEQAEoAWgByAHoAgkC2AwgAEAAYACAAKiEKCzAxMTQwNTkyMzczFZQu0j4aDTAxMSA0MDU5IDIzNzMytQEvZ290bz91cmw9Q0FFU2ZBSHJPekFWOUFWNXVpdVMyQWZ6VzM1NE5kMzVaV0YwZnc0NF91VkRaSllxS1ItV2l0VDV0ZVVxLXdCQUREUEprSURrb1RwWkZ3WW5xTVlrcVA2cVRUYXpnRlBqdHlQWV9fNFBmU1lBNW1BNkdxU3UzY0U0Nmk3UV9aTWZlNWFLb0Q3enJkTXFWUHc0MWs2U2EwMHZWcHFNemhsWmlrYVVMSnhGbU04Oidab21hdG8gQ3VzdG9tZXIgQ2FyZSBOdW1iZXIgLSBJbnN0YWdyYW1CpwFUaGUgbWFpbiBab21hdG8gY3VzdG9tZXIgY2FyZSBudW1iZXIgZm9yIEluZGlhIGlzIDxiPjAxMS00MDU5IDIzNzM8L2I-IGZvciBnZW5lcmFsIHN1cHBvcnQuIEEgY29tbW9ubHkgbGlzdGVkIG51bWJlciBhY3Jvc3MgbXVsdGlwbGUgY2l0aWVzIGlzIDAxMTMwODA2Mzc2IGZvciZuYnNwOy4uLiICEAFIAFgAaAA",
+    "source": "Instagram"
+   },
+   {
+    "position": 4,
+    "title": "zomato limited - Basis Of Allotment",
+    "link": "http://www.cmlinks.com/pub/ba/bashow.asp?code=68117",
+    "redirect_link": "https://www.google.co.in/url?sa=t&source=web&rct=j&opi=89978449&url=CAESawHrOzAVem4xDVgHYS4c-GmzfK7C5Nk4ZQlBmC-QrO1iIOw48HWJeLOKuS7JFq_SJmcthSb999OYbg1EAOuSGoaPtu8cBwptbDPrOyb5QeILP0YguE3Q14Zp4HPWAyuTCIp1gHGIQh8iVkIj&ved=2ahUKEwiOoebw14eXAxVglIkEHSCDGc8QFnoECBQQAQ&uoh=1",
+    "displayed_link": "http://www.cmlinks.com › pub › bashow",
+    "snippet": "NCT of Delhi and Haryana at New Delhi, (\"RoC\"). Registered Office: Ground Floor, 12A, 94 Meghdoot, Nehru Place, New Delhi 110 019; Tel: +91 011 4059 2373.",
+    "snippet_highlighted_words": [
+     "011 4059 2373"
+    ],
+    "about_this_result": {
+     "source": {
+      "description": "NCT of Delhi and Haryana at New Delhi, (\"RoC\"). Registered Office: Ground Floor, 12A, 94 Meghdoot, Nehru Place, New Delhi 110 019; Tel: +91 011 4059 2373.",
+      "source_info_link": "http://www.cmlinks.com/pub/ba/bashow.asp?code=68117"
+     },
+     "languages": [
+      "en"
+     ],
+     "regions": [
+      "IN"
+     ]
+    },
+    "about_page_link": "https://www.google.co.in/search/about-this-result?origin=www.google.com&req=Cp4BL2dvdG8_dXJsPUNBRVNhd0hyT3pBVmVtNHhEVmdIWVM0Yy1HbXpmSzdDNU5rNFpRbEJtQy1Rck8xaUlPdzQ4SFdKZUxPS3VTN0pGcV9TSm1jdGhTYjk5OU9ZYmcxRUFPdVNHb2FQdHU4Y0J3cHRiRFByT3liNVFlSUxQMFlndUUzUTE0WnA0SFBXQXl1VENJcDFnSEdJUWg4aVZrSWoSBBoCCAAawwMSABoAIgAqADIGCAESAmluOgBCBAgBEABKAFoAcgB6AIJAnwMIABAAGAAgACohCgswMTE0MDU5MjM3MxWqWrY-Gg0wMTEgNDA1OSAyMzczMp4BL2dvdG8_dXJsPUNBRVNhd0hyT3pBVmVtNHhEVmdIWVM0Yy1HbXpmSzdDNU5rNFpRbEJtQy1Rck8xaUlPdzQ4SFdKZUxPS3VTN0pGcV9TSm1jdGhTYjk5OU9ZYmcxRUFPdVNHb2FQdHU4Y0J3cHRiRFByT3liNVFlSUxQMFlndUUzUTE0WnA0SFBXQXl1VENJcDFnSEdJUWg4aVZrSWo6I3pvbWF0byBsaW1pdGVkIC0gQmFzaXMgT2YgQWxsb3RtZW50QqsBTkNUIG9mIERlbGhpIGFuZCBIYXJ5YW5hIGF0IE5ldyBEZWxoaSwgKCZxdW90O1JvQyZxdW90OykuIFJlZ2lzdGVyZWQgT2ZmaWNlOiBHcm91bmQgRmxvb3IsIDEyQSwgOTQgTWVnaGRvb3QsIE5laHJ1IFBsYWNlLCBOZXcgRGVsaGkgMTEwIDAxOTsgVGVsOiArOTEgPGI-MDExIDQwNTkgMjM3MzwvYj4uIgIQAUgAWABoAA",
+    "about_page_serpapi_link": "https://serpapi.com/search.json?engine=google_about_this_result&google_domain=google.co.in&req_token=Cp4BL2dvdG8_dXJsPUNBRVNhd0hyT3pBVmVtNHhEVmdIWVM0Yy1HbXpmSzdDNU5rNFpRbEJtQy1Rck8xaUlPdzQ4SFdKZUxPS3VTN0pGcV9TSm1jdGhTYjk5OU9ZYmcxRUFPdVNHb2FQdHU4Y0J3cHRiRFByT3liNVFlSUxQMFlndUUzUTE0WnA0SFBXQXl1VENJcDFnSEdJUWg4aVZrSWoSBBoCCAAawwMSABoAIgAqADIGCAESAmluOgBCBAgBEABKAFoAcgB6AIJAnwMIABAAGAAgACohCgswMTE0MDU5MjM3MxWqWrY-Gg0wMTEgNDA1OSAyMzczMp4BL2dvdG8_dXJsPUNBRVNhd0hyT3pBVmVtNHhEVmdIWVM0Yy1HbXpmSzdDNU5rNFpRbEJtQy1Rck8xaUlPdzQ4SFdKZUxPS3VTN0pGcV9TSm1jdGhTYjk5OU9ZYmcxRUFPdVNHb2FQdHU4Y0J3cHRiRFByT3liNVFlSUxQMFlndUUzUTE0WnA0SFBXQXl1VENJcDFnSEdJUWg4aVZrSWo6I3pvbWF0byBsaW1pdGVkIC0gQmFzaXMgT2YgQWxsb3RtZW50QqsBTkNUIG9mIERlbGhpIGFuZCBIYXJ5YW5hIGF0IE5ldyBEZWxoaSwgKCZxdW90O1JvQyZxdW90OykuIFJlZ2lzdGVyZWQgT2ZmaWNlOiBHcm91bmQgRmxvb3IsIDEyQSwgOTQgTWVnaGRvb3QsIE5laHJ1IFBsYWNlLCBOZXcgRGVsaGkgMTEwIDAxOTsgVGVsOiArOTEgPGI-MDExIDQwNTkgMjM3MzwvYj4uIgIQAUgAWABoAA",
+    "source": "cmlinks.com",
+    "read_more_link": "http://www.cmlinks.com/pub/ba/bashow.asp?code=68117#:~:text=NCT%20of%20Delhi%20and%20Haryana,Tel%3A%20%2B91%20011%204059%202373."
+   },
+   {
+    "position": 5,
+    "title": "zomato",
+    "link": "https://nsearchives.nseindia.com/corporate/ZOMATO_05082022205639_Zomato_Notice_compressed.pdf",
+    "redirect_link": "https://www.google.co.in/url?sa=t&source=web&rct=j&opi=89978449&url=CAESlQEB6zswFWokUebvNBJqbEiDy2bVUyqvJAVsbrcqbyyCvXJhyXl_GNmoVv1wXCVK6p_pajIw9guCz4Nsjc_xcehgiHp0zb6Z_JeDt_zGbclSwXld8lKY5ntYvtm1gd97sZ2o1WNpoK-sAYT1kGllyHM8N9TWyFeJUjNO6LxVxa3ycX6xzKdSlmpKwKboZsysTD12bBNbSQ&ved=2ahUKEwiOoebw14eXAxVglIkEHSCDGc8QFnoECBoQAQ&uoh=1",
+    "displayed_link": "https://nsearchives.nseindia.com › corporate › ZO...",
+    "date": "5 Aug 2022",
+    "snippet": "... 011 4059 2373. Corporate Office: Ground Floor, Tower C, Vipul. Tech Square, Golf Course Road, Sector 43,. Gurgaon, Haryana 122 009, India. Tel ...",
+    "snippet_highlighted_words": [
+     "011 4059 2373"
+    ],
+    "rich_snippet": {
+     "top": {
+      "detected_extensions": {
+       "pages": 391
+      },
+      "extensions": [
+       "391 pages"
+      ]
+     }
+    },
+    "about_this_result": {
+     "source": {
+      "description": "... 011 4059 2373. Corporate Office: Ground Floor, Tower C, Vipul. Tech Square, Golf Course Road, Sector 43,. Gurgaon, Haryana 122 009, India. Tel ...",
+      "source_info_link": "https://nsearchives.nseindia.com/corporate/ZOMATO_05082022205639_Zomato_Notice_compressed.pdf"
+     },
+     "languages": [
+      "en"
+     ],
+     "regions": [
+      "IN"
+     ]
+    },
+    "about_page_link": "https://www.google.co.in/search/about-this-result?origin=www.google.com&req=CtgBL2dvdG8_dXJsPUNBRVNsUUVCNnpzd0ZXb2tVZWJ2TkJKcWJFaUR5MmJWVXlxdkpBVnNicmNxYnl5Q3ZYSmh5WGxfR05tb1Z2MXdYQ1ZLNnBfcGFqSXc5Z3VDejROc2pjX3hjZWhnaUhwMHpiNlpfSmVEdF96R2JjbFN3WGxkOGxLWTVudFl2dG0xZ2Q5N3NaMm8xV05wb0stc0FZVDFrR2xseUhNOE45VFd5RmVKVWpOTzZMeFZ4YTN5Y1g2eHpLZFNsbXBLd0tib1pzeXNURDEyYkJOYlNREgQaAggAGt0DEgAaACIAKgAyBggBEgJpbjoAQgQIARAASgBaAHIAegCCQLkDCAAQABgAIAAqIQoLMDExNDA1OTIzNzMVZ_0FOxoNMDExIDQwNTkgMjM3MzLYAS9nb3RvP3VybD1DQUVTbFFFQjZ6c3dGV29rVWVidk5CSnFiRWlEeTJiVlV5cXZKQVZzYnJjcWJ5eUN2WEpoeVhsX0dObW9WdjF3WENWSzZwX3Bhakl3OWd1Q3o0TnNqY194Y2VoZ2lIcDB6YjZaX0plRHRfekdiY2xTd1hsZDhsS1k1bnRZdnRtMWdkOTdzWjJvMVdOcG9LLXNBWVQxa0dsbHlITThOOVRXeUZlSlVqTk82THhWeGEzeWNYNnh6S2RTbG1wS3dLYm9ac3lzVEQxMmJCTmJTUToMem9tYXRvIC0gTlNFQqIBLi4uIDxiPjAxMSA0MDU5IDIzNzM8L2I-LiBDb3Jwb3JhdGUgT2ZmaWNlOiBHcm91bmQgRmxvb3IsIFRvd2VyIEMsIFZpcHVsLiBUZWNoIFNxdWFyZSwgR29sZiBDb3Vyc2UgUm9hZCwgU2VjdG9yIDQzLC4gR3VyZ2FvbiwgSGFyeWFuYSAxMjIgMDA5LCBJbmRpYS4gVGVsJm5ic3A7Li4uIgIQAUgAWABoAA",
+    "about_page_serpapi_link": "https://serpapi.com/search.json?engine=google_about_this_result&google_domain=google.co.in&req_token=CtgBL2dvdG8_dXJsPUNBRVNsUUVCNnpzd0ZXb2tVZWJ2TkJKcWJFaUR5MmJWVXlxdkpBVnNicmNxYnl5Q3ZYSmh5WGxfR05tb1Z2MXdYQ1ZLNnBfcGFqSXc5Z3VDejROc2pjX3hjZWhnaUhwMHpiNlpfSmVEdF96R2JjbFN3WGxkOGxLWTVudFl2dG0xZ2Q5N3NaMm8xV05wb0stc0FZVDFrR2xseUhNOE45VFd5RmVKVWpOTzZMeFZ4YTN5Y1g2eHpLZFNsbXBLd0tib1pzeXNURDEyYkJOYlNREgQaAggAGt0DEgAaACIAKgAyBggBEgJpbjoAQgQIARAASgBaAHIAegCCQLkDCAAQABgAIAAqIQoLMDExNDA1OTIzNzMVZ_0FOxoNMDExIDQwNTkgMjM3MzLYAS9nb3RvP3VybD1DQUVTbFFFQjZ6c3dGV29rVWVidk5CSnFiRWlEeTJiVlV5cXZKQVZzYnJjcWJ5eUN2WEpoeVhsX0dObW9WdjF3WENWSzZwX3Bhakl3OWd1Q3o0TnNqY194Y2VoZ2lIcDB6YjZaX0plRHRfekdiY2xTd1hsZDhsS1k1bnRZdnRtMWdkOTdzWjJvMVdOcG9LLXNBWVQxa0dsbHlITThOOVRXeUZlSlVqTk82THhWeGEzeWNYNnh6S2RTbG1wS3dLYm9ac3lzVEQxMmJCTmJTUToMem9tYXRvIC0gTlNFQqIBLi4uIDxiPjAxMSA0MDU5IDIzNzM8L2I-LiBDb3Jwb3JhdGUgT2ZmaWNlOiBHcm91bmQgRmxvb3IsIFRvd2VyIEMsIFZpcHVsLiBUZWNoIFNxdWFyZSwgR29sZiBDb3Vyc2UgUm9hZCwgU2VjdG9yIDQzLC4gR3VyZ2FvbiwgSGFyeWFuYSAxMjIgMDA5LCBJbmRpYS4gVGVsJm5ic3A7Li4uIgIQAUgAWABoAA",
+    "source": "NSE India",
+    "read_more_link": "https://nsearchives.nseindia.com/corporate/ZOMATO_05082022205639_Zomato_Notice_compressed.pdf#:~:text=Tel%3A%20%2B91%20011%204059%202373,Tel%3A%20%2B91%20124%20426%208565"
+   },
+   {
+    "position": 6,
+    "title": "ZOMATO LIMITED",
+    "link": "https://www.sebi.gov.in/sebi_data/attachdocs/apr-2021/1619584567739.pdf",
+    "redirect_link": "https://www.google.co.in/url?sa=t&source=web&rct=j&opi=89978449&url=CAESfwHrOzAVaU1jiym3FwPcyPHgr1Xke1GRQK8_knCN3OczOUdWpeudEX7elvd9IL3ExGzBtqdx2IIPVVVyWJGa7I8wT3THYq6E-iUpvAS-cb5bdSHlgHuSM8kQQJQDMwctS9UmoVpSq4DYsLqclUa0vWF3MibYdMrhk3UsDXqbnzc&ved=2ahUKEwiOoebw14eXAxVglIkEHSCDGc8QFnoECBEQAQ&uoh=1",
+    "displayed_link": "https://www.sebi.gov.in › attachdocs › apr-2021",
+    "date": "27 Apr 2021",
+    "snippet": "... 011 4059 2373. Corporate Office: Ground Floor, Tower C, Vipul Tech Square, Golf Course Road, Sector 43, Gurgaon 122 009; Tel: +91 124 426 ...",
+    "snippet_highlighted_words": [
+     "011 4059 2373"
+    ],
+    "rich_snippet": {
+     "top": {
+      "detected_extensions": {
+       "pages": 419
+      },
+      "extensions": [
+       "419 pages"
+      ]
+     }
+    },
+    "about_this_result": {
+     "source": {
+      "description": "... 011 4059 2373. Corporate Office: Ground Floor, Tower C, Vipul Tech Square, Golf Course Road, Sector 43, Gurgaon 122 009; Tel: +91 124 426 ...",
+      "source_info_link": "https://www.sebi.gov.in/sebi_data/attachdocs/apr-2021/1619584567739.pdf",
+      "icon": "https://serpapi.com/images/i/UklGRkYBAABXRUJQVlA4IDoBAABQBgCdASogABAAPtEwtFooIigoGAEAGglmAKkF-OdSTbs1sCmXeLtMd_WBbYXrAZghRENO8IKRUPeUgAD-_VCfaHs6CIStWh1CmoanP6UcyxnzJzVMNyvnX_ln890yJu1z_AL1j6JY4Hy_xtX5Qr0iOEaXHJImCsf1MAaFINgk77yoBdEiqgcMV2P3HJv56SUIdjX0LZCzT--G_1vz-4PDi4GLmoxrZvTOHdQz2TWN6RihtpIJXgP_8Y8gu-GQqXmYEYXRf5n0-ivSB_p6sFLGcPr-ya1fxjg8JvSzVhDbIP1Ac8hhLdH0pheTnK4ds-urKNPmYA9LNEHv5mmZbgJ_dk6mrcoTAj15Vo3A7OAjfM4wPun5yWuRVCA96FizyElbxXm9pqu7efATXeUxW6xHx9z5qThoUcAAAA.webp"
+     },
+     "languages": [
+      "en"
+     ],
+     "regions": [
+      "IN"
+     ]
+    },
+    "about_page_link": "https://www.google.co.in/search/about-this-result?origin=www.google.com&req=CrkBL2dvdG8_dXJsPUNBRVNmd0hyT3pBVmFVMWppeW0zRndQY3lQSGdyMVhrZTFHUlFLOF9rbkNOM09jek9VZFdwZXVkRVg3ZWx2ZDlJTDNFeEd6QnRxZHgySUlQVlZWeVdKR2E3STh3VDNUSFlxNkUtaVVwdkFTLWNiNWJkU0hsZ0h1U004a1FRSlFETXdjdFM5VW1vVnBTcTREWXNMcWNsVWEwdldGM01pYllkTXJoazNVc0RYcWJuemMSBBoCCAAawgMSABoAIgAqADIGCAESAmluOgBCBAgBEABKAFoAcgB6AIJAngMIABAAGAAgACohCgswMTE0MDU5MjM3MxVI0ug9Gg0wMTEgNDA1OSAyMzczMrkBL2dvdG8_dXJsPUNBRVNmd0hyT3pBVmFVMWppeW0zRndQY3lQSGdyMVhrZTFHUlFLOF9rbkNOM09jek9VZFdwZXVkRVg3ZWx2ZDlJTDNFeEd6QnRxZHgySUlQVlZWeVdKR2E3STh3VDNUSFlxNkUtaVVwdkFTLWNiNWJkU0hsZ0h1U004a1FRSlFETXdjdFM5VW1vVnBTcTREWXNMcWNsVWEwdldGM01pYllkTXJoazNVc0RYcWJuemM6FVpPTUFUTyBMSU1JVEVEIC0gU0VCSUKdAS4uLiA8Yj4wMTEgNDA1OSAyMzczPC9iPi4gQ29ycG9yYXRlIE9mZmljZTogR3JvdW5kIEZsb29yLCBUb3dlciBDLCBWaXB1bCBUZWNoIFNxdWFyZSwgR29sZiBDb3Vyc2UgUm9hZCwgU2VjdG9yIDQzLCBHdXJnYW9uIDEyMiAwMDk7IFRlbDogKzkxIDEyNCA0MjYmbmJzcDsuLi4iAhABSABYAGgA",
+    "about_page_serpapi_link": "https://serpapi.com/search.json?engine=google_about_this_result&google_domain=google.co.in&req_token=CrkBL2dvdG8_dXJsPUNBRVNmd0hyT3pBVmFVMWppeW0zRndQY3lQSGdyMVhrZTFHUlFLOF9rbkNOM09jek9VZFdwZXVkRVg3ZWx2ZDlJTDNFeEd6QnRxZHgySUlQVlZWeVdKR2E3STh3VDNUSFlxNkUtaVVwdkFTLWNiNWJkU0hsZ0h1U004a1FRSlFETXdjdFM5VW1vVnBTcTREWXNMcWNsVWEwdldGM01pYllkTXJoazNVc0RYcWJuemMSBBoCCAAawgMSABoAIgAqADIGCAESAmluOgBCBAgBEABKAFoAcgB6AIJAngMIABAAGAAgACohCgswMTE0MDU5MjM3MxVI0ug9Gg0wMTEgNDA1OSAyMzczMrkBL2dvdG8_dXJsPUNBRVNmd0hyT3pBVmFVMWppeW0zRndQY3lQSGdyMVhrZTFHUlFLOF9rbkNOM09jek9VZFdwZXVkRVg3ZWx2ZDlJTDNFeEd6QnRxZHgySUlQVlZWeVdKR2E3STh3VDNUSFlxNkUtaVVwdkFTLWNiNWJkU0hsZ0h1U004a1FRSlFETXdjdFM5VW1vVnBTcTREWXNMcWNsVWEwdldGM01pYllkTXJoazNVc0RYcWJuemM6FVpPTUFUTyBMSU1JVEVEIC0gU0VCSUKdAS4uLiA8Yj4wMTEgNDA1OSAyMzczPC9iPi4gQ29ycG9yYXRlIE9mZmljZTogR3JvdW5kIEZsb29yLCBUb3dlciBDLCBWaXB1bCBUZWNoIFNxdWFyZSwgR29sZiBDb3Vyc2UgUm9hZCwgU2VjdG9yIDQzLCBHdXJnYW9uIDEyMiAwMDk7IFRlbDogKzkxIDEyNCA0MjYmbmJzcDsuLi4iAhABSABYAGgA",
+    "source": "SEBI",
+    "read_more_link": "https://www.sebi.gov.in/sebi_data/attachdocs/apr-2021/1619584567739.pdf#:~:text=Registered%20Office%3A%20Ground%20Floor%2C%2012A%2C,Tel%3A%20%2B91%20124%20426%208565"
+   },
+   {
+    "position": 7,
+    "title": "Zomato IPO Date, Price, GMP, Review, Analysis & Details",
+    "link": "https://www.chittorgarh.com/ipo/zomato-ipo/1126/",
+    "redirect_link": "https://www.google.co.in/url?sa=t&source=web&rct=j&opi=89978449&url=CAESaAHrOzAVa8QVQudcGf4y-ly7Di75ixlVDorEtOgY7sgtRRc2GUUCln8xQjbJw9k20gxLO3uMfyVV5CZoxKGow_HVC2iEgj8_mQ3-Lc46VTOZMEky5HqKCkNny7cgQjsBZ6exOLegiTEI&ved=2ahUKEwiOoebw14eXAxVglIkEHSCDGc8QFnoECBAQAQ&uoh=1",
+    "displayed_link": "https://www.chittorgarh.com › ipo › zomato-ipo",
+    "date": "14 Jul 2021",
+    "snippet": ", 110019. +91 011 4059 2373; companysecretary@zomato.com; Visit Website · Open an Instant Account with Zerodha. IPO FAQs. What is the Zomato IPO ...",
+    "snippet_highlighted_words": [
+     "011 4059 2373"
+    ],
+    "about_this_result": {
+     "source": {
+      "description": ", 110019. +91 011 4059 2373; companysecretary@zomato.com; Visit Website · Open an Instant Account with Zerodha. IPO FAQs. What is the Zomato IPO ...",
+      "source_info_link": "https://www.chittorgarh.com/ipo/zomato-ipo/1126/",
+      "icon": "https://serpapi.com/images/i/UklGRtAAAABXRUJQVlA4IMQAAABwBwCdASogACAAPtEutFooIagoGAEAGglsAJ0yhHp_nN23anjAbcm7gAgC5e-_Oi1xMrF3L7_rk0E9v_Vxpx7g1agTmAD-_qyh8ZEpB7QEZmWvOQmS9WfeCc_q_Lx8obumn0unrprbSIz1-xEipTe0Tr4b3GXkkdOEG8pNYSxrBjeGbZ5936X016BmjiVAN0TOzK1CPl973CMEG8c30WWSzlSp76RUTXMhFP1YUtNHNTwhFI7KMJH-d6zuvMqrQ1v8F2AA.webp"
+     },
+     "languages": [
+      "en"
+     ],
+     "regions": [
+      "IN"
+     ]
+    },
+    "about_page_link": "https://www.google.co.in/search/about-this-result?origin=www.google.com&req=CpoBL2dvdG8_dXJsPUNBRVNhQUhyT3pBVmE4UVZRdWRjR2Y0eS1seTdEaTc1aXhsVkRvckV0T2dZN3NndFJSYzJHVVVDbG44eFFqYkp3OWsyMGd4TE8zdU1meVZWNUNab3hLR293X0hWQzJpRWdqOF9tUTMtTGM0NlZUT1pNRWt5NUhxS0NrTm55N2NnUWpzQlo2ZXhPTGVnaVRFSRIEGgIIABrVAxICCAAaACIAKgAyBggDEgJpbjoAQgQIARAASgBaAHIAegCCQK8DCAAQABgAIAAqIQoLMDExNDA1OTIzNzMVYKXAOxoNMDExIDQwNTkgMjM3MzKaAS9nb3RvP3VybD1DQUVTYUFIck96QVZhOFFWUXVkY0dmNHktbHk3RGk3NWl4bFZEb3JFdE9nWTdzZ3RSUmMyR1VVQ2xuOHhRamJKdzlrMjBneExPM3VNZnlWVjVDWm94S0dvd19IVkMyaUVnajhfbVEzLUxjNDZWVE9aTUVreTVIcUtDa05ueTdjZ1Fqc0JaNmV4T0xlZ2lURUk6O1pvbWF0byBJUE8gRGF0ZSwgUHJpY2UsIEdNUCwgUmV2aWV3LCBBbmFseXNpcyAmYW1wOyBEZXRhaWxzQqcBLCAxMTAwMTkuICs5MSA8Yj4wMTEgNDA1OSAyMzczPC9iPjsgY29tcGFueXNlY3JldGFyeUB6b21hdG8uY29tOyBWaXNpdCBXZWJzaXRlICZtaWRkb3Q7IE9wZW4gYW4gSW5zdGFudCBBY2NvdW50IHdpdGggWmVyb2RoYS4gSVBPIEZBUXMuIFdoYXQgaXMgdGhlIFpvbWF0byBJUE8mbmJzcDsuLi4iAhABSABYAGgA",
+    "about_page_serpapi_link": "https://serpapi.com/search.json?engine=google_about_this_result&google_domain=google.co.in&req_token=CpoBL2dvdG8_dXJsPUNBRVNhQUhyT3pBVmE4UVZRdWRjR2Y0eS1seTdEaTc1aXhsVkRvckV0T2dZN3NndFJSYzJHVVVDbG44eFFqYkp3OWsyMGd4TE8zdU1meVZWNUNab3hLR293X0hWQzJpRWdqOF9tUTMtTGM0NlZUT1pNRWt5NUhxS0NrTm55N2NnUWpzQlo2ZXhPTGVnaVRFSRIEGgIIABrVAxICCAAaACIAKgAyBggDEgJpbjoAQgQIARAASgBaAHIAegCCQK8DCAAQABgAIAAqIQoLMDExNDA1OTIzNzMVYKXAOxoNMDExIDQwNTkgMjM3MzKaAS9nb3RvP3VybD1DQUVTYUFIck96QVZhOFFWUXVkY0dmNHktbHk3RGk3NWl4bFZEb3JFdE9nWTdzZ3RSUmMyR1VVQ2xuOHhRamJKdzlrMjBneExPM3VNZnlWVjVDWm94S0dvd19IVkMyaUVnajhfbVEzLUxjNDZWVE9aTUVreTVIcUtDa05ueTdjZ1Fqc0JaNmV4T0xlZ2lURUk6O1pvbWF0byBJUE8gRGF0ZSwgUHJpY2UsIEdNUCwgUmV2aWV3LCBBbmFseXNpcyAmYW1wOyBEZXRhaWxzQqcBLCAxMTAwMTkuICs5MSA8Yj4wMTEgNDA1OSAyMzczPC9iPjsgY29tcGFueXNlY3JldGFyeUB6b21hdG8uY29tOyBWaXNpdCBXZWJzaXRlICZtaWRkb3Q7IE9wZW4gYW4gSW5zdGFudCBBY2NvdW50IHdpdGggWmVyb2RoYS4gSVBPIEZBUXMuIFdoYXQgaXMgdGhlIFpvbWF0byBJUE8mbmJzcDsuLi4iAhABSABYAGgA",
+    "source": "Chittorgarh",
+    "read_more_link": "https://www.chittorgarh.com/ipo/zomato-ipo/1126/#:~:text=%2C%20110019,What%20is%20the%20Zomato%20IPO%3F"
+   },
+   {
+    "position": 8,
+    "title": "Zomato India Customer Care No.",
+    "link": "https://www.punjabcustomercare.com/zomato-india-customer-care-no/",
+    "redirect_link": "https://www.google.co.in/url?sa=t&source=web&rct=j&opi=89978449&url=CAESeQHrOzAVFodqUoAM-ETk_NQIR5OXSq_7bIped7liNxls9nYkj7kIs1Oh8QiFYyQezs9ZbB1VUpO6MMBF44LvxFAp-OBkAYG2bAaKYMQU7exzickBAFaTfSQPNpZXOt5azjqkjJs7jLj8n0d1Z5VqFcAmIRMXEI1OgBk&ved=2ahUKEwiOoebw14eXAxVglIkEHSCDGc8QFnoECBMQAQ&uoh=1",
+    "displayed_link": "https://www.punjabcustomercare.com › zomato-india-c...",
+    "date": "18 Feb 2025",
+    "snippet": "Organization: Zomato. ALL INDIA NUMBER(S):. 011-4059 2373 (For Support). Website: Official Website. Posted in Food & DrinksTagged Zomato ...",
+    "snippet_highlighted_words": [
+     "011-4059 2373"
+    ],
+    "about_this_result": {
+     "source": {
+      "description": "Organization: Zomato. ALL INDIA NUMBER(S):. 011-4059 2373 (For Support). Website: Official Website. Posted in Food & DrinksTagged Zomato ...",
+      "source_info_link": "https://www.punjabcustomercare.com/zomato-india-customer-care-no/",
+      "icon": "https://serpapi.com/images/i/UklGRsYAAABXRUJQVlA4ILoAAAAQBQCdASocABwAPtEutFooIagoGAEAGglkAAPj9ln4sgPNDc7CFNURyPLYZCMBV7GAAP7-YL5mqh2KKftMO44FsphAwUoXhiNG7vmC1k7uLSjOYIDZD5i8Nv2leGsw9yX_T8I8fGe6n2Xu-ilWf-5drE3_Q7cIlyk-icHjohOYmaKeDhaf_27BlzBcgWMxv9LMkYu8y5PKmE3LPLIih9GHOpyjKv6xP22BUtyhssSj_TxFJrTbMFJAAAA.webp"
+     },
+     "languages": [
+      "en"
+     ],
+     "regions": [
+      "IN"
+     ]
+    },
+    "about_page_link": "https://www.google.co.in/search/about-this-result?origin=www.google.com&req=CrEBL2dvdG8_dXJsPUNBRVNlUUhyT3pBVkZvZHFVb0FNLUVUa19OUUlSNU9YU3FfN2JJcGVkN2xpTnhsczluWWtqN2tJczFPaDhRaUZZeVFlenM5WmJCMVZVcE82TU1CRjQ0THZ4RkFwLU9Ca0FZRzJiQWFLWU1RVTdleHppY2tCQUZhVGZTUVBOcFpYT3Q1YXpqcWtqSnM3akxqOG4wZDFaNVZxRmNBbUlSTVhFSTFPZ0JrEgQaAggAGsIDEgAaACIAKgAyBggBEgJpbjoAQgQIARAASgBaAHIAegCCQJ4DCAAQABgAIAAqIQoLMDExNDA1OTIzNzMVdm67PhoNMDExIDQwNTkgMjM3MzKxAS9nb3RvP3VybD1DQUVTZVFIck96QVZGb2RxVW9BTS1FVGtfTlFJUjVPWFNxXzdiSXBlZDdsaU54bHM5bllrajdrSXMxT2g4UWlGWXlRZXpzOVpiQjFWVXBPNk1NQkY0NEx2eEZBcC1PQmtBWUcyYkFhS1lNUVU3ZXh6aWNrQkFGYVRmU1FQTnBaWE90NWF6anFrakpzN2pMajhuMGQxWjVWcUZjQW1JUk1YRUkxT2dCazoeWm9tYXRvIEluZGlhIEN1c3RvbWVyIENhcmUgTm8uQpwBT3JnYW5pemF0aW9uOiBab21hdG8uIEFMTCBJTkRJQSBOVU1CRVIoUyk6LiA8Yj4wMTEtNDA1OSAyMzczPC9iPiAoRm9yIFN1cHBvcnQpLiBXZWJzaXRlOiBPZmZpY2lhbCBXZWJzaXRlLiBQb3N0ZWQgaW4gRm9vZCAmYW1wOyBEcmlua3NUYWdnZWQgWm9tYXRvJm5ic3A7Li4uIgIQAUgAWABoAA",
+    "about_page_serpapi_link": "https://serpapi.com/search.json?engine=google_about_this_result&google_domain=google.co.in&req_token=CrEBL2dvdG8_dXJsPUNBRVNlUUhyT3pBVkZvZHFVb0FNLUVUa19OUUlSNU9YU3FfN2JJcGVkN2xpTnhsczluWWtqN2tJczFPaDhRaUZZeVFlenM5WmJCMVZVcE82TU1CRjQ0THZ4RkFwLU9Ca0FZRzJiQWFLWU1RVTdleHppY2tCQUZhVGZTUVBOcFpYT3Q1YXpqcWtqSnM3akxqOG4wZDFaNVZxRmNBbUlSTVhFSTFPZ0JrEgQaAggAGsIDEgAaACIAKgAyBggBEgJpbjoAQgQIARAASgBaAHIAegCCQJ4DCAAQABgAIAAqIQoLMDExNDA1OTIzNzMVdm67PhoNMDExIDQwNTkgMjM3MzKxAS9nb3RvP3VybD1DQUVTZVFIck96QVZGb2RxVW9BTS1FVGtfTlFJUjVPWFNxXzdiSXBlZDdsaU54bHM5bllrajdrSXMxT2g4UWlGWXlRZXpzOVpiQjFWVXBPNk1NQkY0NEx2eEZBcC1PQmtBWUcyYkFhS1lNUVU3ZXh6aWNrQkFGYVRmU1FQTnBaWE90NWF6anFrakpzN2pMajhuMGQxWjVWcUZjQW1JUk1YRUkxT2dCazoeWm9tYXRvIEluZGlhIEN1c3RvbWVyIENhcmUgTm8uQpwBT3JnYW5pemF0aW9uOiBab21hdG8uIEFMTCBJTkRJQSBOVU1CRVIoUyk6LiA8Yj4wMTEtNDA1OSAyMzczPC9iPiAoRm9yIFN1cHBvcnQpLiBXZWJzaXRlOiBPZmZpY2lhbCBXZWJzaXRlLiBQb3N0ZWQgaW4gRm9vZCAmYW1wOyBEcmlua3NUYWdnZWQgWm9tYXRvJm5ic3A7Li4uIgIQAUgAWABoAA",
+    "source": "punjabcustomercare.com",
+    "read_more_link": "https://www.punjabcustomercare.com/zomato-india-customer-care-no/#:~:text=Organization%3A,Number%2C%20Zomato%20Toll%20Free%20Number"
+   },
+   {
+    "position": 9,
+    "title": "ZOMATO - Wrong food Delivery - Grahak Complaints",
+    "link": "https://www.grahakcomplaints.in/zomato-wrong-food-delivery-904/",
+    "redirect_link": "https://www.google.co.in/url?sa=t&source=web&rct=j&opi=89978449&url=CAESdwHrOzAVub1B8RfHBSmH3nT1HGmQ6Q_A-3_bmyz99xsEmkZLDQVgXhZicsqV6BeZj3HLwITXfSctnObJ8jh8q58hqbn8hGewu7VQXBxYl8v9AgeAjLB_dUrwL2jo3l-Ki2nUzl00WV4FHIzmH7U0Sb0JWASfkXD2&ved=2ahUKEwiOoebw14eXAxVglIkEHSCDGc8QFnoECBgQAQ&uoh=1",
+    "displayed_link": "https://www.grahakcomplaints.in › zomato-wrong-food-...",
+    "snippet": "Customer Rating. Total Complaints ... 38. Pending Complaint ... 31. Resolved Complaint ... 7. Phone Number : 01140592373. Email Id : Companysecretary@Zomato.Com.",
+    "snippet_highlighted_words": [
+     "01140592373"
+    ],
+    "about_this_result": {
+     "source": {
+      "description": "Customer Rating. Total Complaints ... 38. Pending Complaint ... 31. Resolved Complaint ... 7. Phone Number : 01140592373. Email Id : Companysecretary@Zomato.Com.",
+      "source_info_link": "https://www.grahakcomplaints.in/zomato-wrong-food-delivery-904/",
+      "icon": "https://serpapi.com/images/i/UklGRkwBAABXRUJQVlA4IEABAABwCQCdASogACAAPtEutFooIagoGAEAGglsAJ05QVLdknip8gNsB4mfUU8lXrAPQA_TP00f2A-EbyabuaSAe9g6o_uIHotw1n-mPDiwDvVB4Ww30IAA_pk79-Jgpfz5ou7SwhvOkuqB9OwyOrVKzWj7r-QY5KZcJkNxt5cGw96rtRC2JnbFfY7YfVHCSlW1G1jZa76Ii09MpzL77tKQ0jTZSx8zEZlaZAZTrDUdY-9e0BglfkXFWvplL2JlSAAJ4Mx_VDhPNhvbNBk59LGnYnWyawlpn4zT_MEKjKA2MLJ5woR6Wd4LgCDJX3lOPbCrPgsO4qhxPh_XTGvO2xTNkycDhqjd-swuwlDXtSM-Q-GFjVDsl1GSLnHdXnNxW6YBoOPdUJvBkeTTxT1n1qLqXD4MVK1mI7mq_EaqAEMo2AAAAA.webp"
+     },
+     "languages": [
+      "en"
+     ],
+     "regions": [
+      "IN"
+     ]
+    },
+    "about_page_link": "https://www.google.co.in/search/about-this-result?origin=www.google.com&req=Cq4BL2dvdG8_dXJsPUNBRVNkd0hyT3pBVnViMUI4UmZIQlNtSDNuVDFIR21RNlFfQS0zX2JteXo5OXhzRW1rWkxEUVZnWGhaaWNzcVY2QmVaajNITHdJVFhmU2N0bk9iSjhqaDhxNThocWJuOGhHZXd1N1ZRWEJ4WWw4djlBZ2VBakxCX2RVcndMMmpvM2wtS2kyblV6bDAwV1Y0RkhJem1IN1UwU2IwSldBU2ZrWEQyEgQaAggAGt0DEgAaACIAKgAyBggBEgJpbjoAQgQIARAASgBaAHIAegCCQLkDCAAQABgAIAAqIQoLMDExNDA1OTIzNzMV2_IFPxoNMDExIDQwNTkgMjM3MzKuAS9nb3RvP3VybD1DQUVTZHdIck96QVZ1YjFCOFJmSEJTbUgzblQxSEdtUTZRX0EtM19ibXl6OTl4c0Vta1pMRFFWZ1hoWmljc3FWNkJlWmozSEx3SVRYZlNjdG5PYko4amg4cTU4aHFibjhoR2V3dTdWUVhCeFlsOHY5QWdlQWpMQl9kVXJ3TDJqbzNsLUtpMm5VemwwMFdWNEZISXptSDdVMFNiMEpXQVNma1hEMjowWk9NQVRPIC0gV3JvbmcgZm9vZCBEZWxpdmVyeSAtIEdyYWhhayBDb21wbGFpbnRzQqgBQ3VzdG9tZXIgUmF0aW5nLiBUb3RhbCBDb21wbGFpbnRzIC4uLiAzOC4gUGVuZGluZyBDb21wbGFpbnQgLi4uIDMxLiBSZXNvbHZlZCBDb21wbGFpbnQgLi4uIDcuIFBob25lIE51bWJlciA6IDxiPjAxMTQwNTkyMzczPC9iPi4gRW1haWwgSWQgOiBDb21wYW55c2VjcmV0YXJ5QFpvbWF0by5Db20uIgIQAUgAWABoAA",
+    "about_page_serpapi_link": "https://serpapi.com/search.json?engine=google_about_this_result&google_domain=google.co.in&req_token=Cq4BL2dvdG8_dXJsPUNBRVNkd0hyT3pBVnViMUI4UmZIQlNtSDNuVDFIR21RNlFfQS0zX2JteXo5OXhzRW1rWkxEUVZnWGhaaWNzcVY2QmVaajNITHdJVFhmU2N0bk9iSjhqaDhxNThocWJuOGhHZXd1N1ZRWEJ4WWw4djlBZ2VBakxCX2RVcndMMmpvM2wtS2kyblV6bDAwV1Y0RkhJem1IN1UwU2IwSldBU2ZrWEQyEgQaAggAGt0DEgAaACIAKgAyBggBEgJpbjoAQgQIARAASgBaAHIAegCCQLkDCAAQABgAIAAqIQoLMDExNDA1OTIzNzMV2_IFPxoNMDExIDQwNTkgMjM3MzKuAS9nb3RvP3VybD1DQUVTZHdIck96QVZ1YjFCOFJmSEJTbUgzblQxSEdtUTZRX0EtM19ibXl6OTl4c0Vta1pMRFFWZ1hoWmljc3FWNkJlWmozSEx3SVRYZlNjdG5PYko4amg4cTU4aHFibjhoR2V3dTdWUVhCeFlsOHY5QWdlQWpMQl9kVXJ3TDJqbzNsLUtpMm5VemwwMFdWNEZISXptSDdVMFNiMEpXQVNma1hEMjowWk9NQVRPIC0gV3JvbmcgZm9vZCBEZWxpdmVyeSAtIEdyYWhhayBDb21wbGFpbnRzQqgBQ3VzdG9tZXIgUmF0aW5nLiBUb3RhbCBDb21wbGFpbnRzIC4uLiAzOC4gUGVuZGluZyBDb21wbGFpbnQgLi4uIDMxLiBSZXNvbHZlZCBDb21wbGFpbnQgLi4uIDcuIFBob25lIE51bWJlciA6IDxiPjAxMTQwNTkyMzczPC9iPi4gRW1haWwgSWQgOiBDb21wYW55c2VjcmV0YXJ5QFpvbWF0by5Db20uIgIQAUgAWABoAA",
+    "source": "grahakcomplaints.in",
+    "read_more_link": "https://www.grahakcomplaints.in/zomato-wrong-food-delivery-904/#:~:text=Customer%20Rating,Email%20Id%20%3A%20Companysecretary%40Zomato.Com"
+   },
+   {
+    "position": 10,
+    "title": "direct Form No. MGT-7 - Zomato",
+    "link": "https://b.zmtcdn.com/investor-relations/c4a6490fe1ff75617203611b7841fe20_1753352432.pdf",
+    "redirect_link": "https://www.google.co.in/url?sa=t&source=web&rct=j&opi=89978449&url=CAESjwEB6zswFfvmhG8tt65uXlDqa4w_kQ2cpohPP-G-pv0pQHJ0Dck0-XQRBJwaPwtrtiakv46L9__9ZVEscEHpDyldgrwwQt1GVaUqdYRpdveYhfN2IjD6CTfEZB5hZ5oKEVVo30kKlAnQUfGO_IdfJbxOpuG5UGL4Hxx65Uhp4T6IFbzhCDnIISrIyYw7ow9E7g&ved=2ahUKEwiOoebw14eXAxVglIkEHSCDGc8QFnoECEUQAQ&uoh=1",
+    "displayed_link": "https://b.zmtcdn.com › investor-relations",
+    "snippet": "01140592373. 18/01/2010. Public company. Company limited by shares. Indian Non-Government company. Form No. MGT-7. 31/03/2025. 01/04/2024.",
+    "snippet_highlighted_words": [
+     "01140592373"
+    ],
+    "rich_snippet": {
+     "top": {
+      "detected_extensions": {
+       "pages": 49
+      },
+      "extensions": [
+       "49 pages"
+      ]
+     }
+    },
+    "about_this_result": {
+     "source": {
+      "description": "01140592373. 18/01/2010. Public company. Company limited by shares. Indian Non-Government company. Form No. MGT-7. 31/03/2025. 01/04/2024.",
+      "source_info_link": "https://b.zmtcdn.com/investor-relations/c4a6490fe1ff75617203611b7841fe20_1753352432.pdf"
+     },
+     "languages": [
+      "en"
+     ],
+     "regions": [
+      "IN"
+     ]
+    },
+    "about_page_link": "https://www.google.co.in/search/about-this-result?origin=www.google.com&req=CtABL2dvdG8_dXJsPUNBRVNqd0VCNnpzd0Zmdm1oRzh0dDY1dVhsRHFhNHdfa1EyY3BvaFBQLUctcHYwcFFISjBEY2swLVhRUkJKd2FQd3RydGlha3Y0Nkw5X185WlZFc2NFSHBEeWxkZ3J3d1F0MUdWYVVxZFlScGR2ZVloZk4ySWpENkNUZkVaQjVoWjVvS0VWVm8zMGtLbEFuUVVmR09fSWRmSmJ4T3B1RzVVR0w0SHh4NjVVaHA0VDZJRmJ6aENEbklJU3JJeVl3N293OUU3ZxIEGgIIABrWAxIAGgAiACoAMgYIARICaW46AEIECAEQAEoAWgByAHoAgkCyAwgAEAAYACAAKiEKCzAxMTQwNTkyMzczFbuA7j0aDTAxMSA0MDU5IDIzNzMy0AEvZ290bz91cmw9Q0FFU2p3RUI2enN3RmZ2bWhHOHR0NjV1WGxEcWE0d19rUTJjcG9oUFAtRy1wdjBwUUhKMERjazAtWFFSQkp3YVB3dHJ0aWFrdjQ2TDlfXzlaVkVzY0VIcER5bGRncnd3UXQxR1ZhVXFkWVJwZHZlWWhmTjJJakQ2Q1RmRVpCNWhaNW9LRVZWbzMwa0tsQW5RVWZHT19JZGZKYnhPcHVHNVVHTDRIeHg2NVVocDRUNklGYnpoQ0RuSUlTckl5WXc3b3c5RTdnOh5kaXJlY3QgRm9ybSBOby4gTUdULTcgLSBab21hdG9CkQE8Yj4wMTE0MDU5MjM3MzwvYj4uIDE4LzAxLzIwMTAuIFB1YmxpYyBjb21wYW55LiBDb21wYW55IGxpbWl0ZWQgYnkgc2hhcmVzLiBJbmRpYW4gTm9uLUdvdmVybm1lbnQgY29tcGFueS4gRm9ybSBOby4gTUdULTcuIDMxLzAzLzIwMjUuIDAxLzA0LzIwMjQuIgIQAUgAWABoAA",
+    "about_page_serpapi_link": "https://serpapi.com/search.json?engine=google_about_this_result&google_domain=google.co.in&req_token=CtABL2dvdG8_dXJsPUNBRVNqd0VCNnpzd0Zmdm1oRzh0dDY1dVhsRHFhNHdfa1EyY3BvaFBQLUctcHYwcFFISjBEY2swLVhRUkJKd2FQd3RydGlha3Y0Nkw5X185WlZFc2NFSHBEeWxkZ3J3d1F0MUdWYVVxZFlScGR2ZVloZk4ySWpENkNUZkVaQjVoWjVvS0VWVm8zMGtLbEFuUVVmR09fSWRmSmJ4T3B1RzVVR0w0SHh4NjVVaHA0VDZJRmJ6aENEbklJU3JJeVl3N293OUU3ZxIEGgIIABrWAxIAGgAiACoAMgYIARICaW46AEIECAEQAEoAWgByAHoAgkCyAwgAEAAYACAAKiEKCzAxMTQwNTkyMzczFbuA7j0aDTAxMSA0MDU5IDIzNzMy0AEvZ290bz91cmw9Q0FFU2p3RUI2enN3RmZ2bWhHOHR0NjV1WGxEcWE0d19rUTJjcG9oUFAtRy1wdjBwUUhKMERjazAtWFFSQkp3YVB3dHJ0aWFrdjQ2TDlfXzlaVkVzY0VIcER5bGRncnd3UXQxR1ZhVXFkWVJwZHZlWWhmTjJJakQ2Q1RmRVpCNWhaNW9LRVZWbzMwa0tsQW5RVWZHT19JZGZKYnhPcHVHNVVHTDRIeHg2NVVocDRUNklGYnpoQ0RuSUlTckl5WXc3b3c5RTdnOh5kaXJlY3QgRm9ybSBOby4gTUdULTcgLSBab21hdG9CkQE8Yj4wMTE0MDU5MjM3MzwvYj4uIDE4LzAxLzIwMTAuIFB1YmxpYyBjb21wYW55LiBDb21wYW55IGxpbWl0ZWQgYnkgc2hhcmVzLiBJbmRpYW4gTm9uLUdvdmVybm1lbnQgY29tcGFueS4gRm9ybSBOby4gTUdULTcuIDMxLzAzLzIwMjUuIDAxLzA0LzIwMjQuIgIQAUgAWABoAA",
+    "source": "zmtcdn.com",
+    "read_more_link": "https://b.zmtcdn.com/investor-relations/c4a6490fe1ff75617203611b7841fe20_1753352432.pdf#:~:text=01140592373,01%2F04%2F2024"
+   }
+  ],
+  "pagination": {
+   "current": 1,
+   "next": "https://www.google.co.in/search?q=%2201140592373%22+OR+%22011+4059+2373%22&sca_esv=c9af837ca623c2e6&hl=en&gl=in&ei=bla1ao6yJuCoptQPoIbm-Aw&start=10&sa=N&sstk=AS6-VmJG9hynx2N65BtdbeCfl_xCXnljcY15w6hClaakJa-R5Gm172_lkzx7liQyw8YxfDp3pNRrlNdk4N3vXgOBtWQNSWYCNazBUw&ved=2ahUKEwiOoebw14eXAxVglIkEHSCDGc8Q8NMDegQIQhAG",
+   "other_pages": {
+    "2": "https://www.google.co.in/search?q=%2201140592373%22+OR+%22011+4059+2373%22&sca_esv=c9af837ca623c2e6&hl=en&gl=in&ei=bla1ao6yJuCoptQPoIbm-Aw&start=10&sa=N&sstk=AS6-VmJG9hynx2N65BtdbeCfl_xCXnljcY15w6hClaakJa-R5Gm172_lkzx7liQyw8YxfDp3pNRrlNdk4N3vXgOBtWQNSWYCNazBUw&ved=2ahUKEwiOoebw14eXAxVglIkEHSCDGc8Q8tMDegQIQhAE"
+   }
+  },
+  "serpapi_pagination": {
+   "current": 1,
+   "next_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.co.in&hl=en&q=%2201140592373%22+OR+%22011+4059+2373%22&start=10",
+   "next": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.co.in&hl=en&q=%2201140592373%22+OR+%22011+4059+2373%22&start=10",
+   "other_pages": {
+    "2": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.co.in&hl=en&q=%2201140592373%22+OR+%22011+4059+2373%22&start=10"
+   }
+  }
+ }
+}

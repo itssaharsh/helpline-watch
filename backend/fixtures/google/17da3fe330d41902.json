@@ -1,0 +1,70 @@
+{
+ "_fixture": {
+  "kind": "recorded",
+  "recorded_at": "2026-09-24T16:57:21+00:00",
+  "params": {
+   "engine": "google",
+   "q": "\"6383598274\" OR \"63835 98274\"",
+   "google_domain": "google.co.in",
+   "gl": "in",
+   "hl": "en",
+   "num": "10"
+  }
+ },
+ "response": {
+  "search_metadata": {
+   "id": "6ab55671392e0ba7306e5577",
+   "status": "Success",
+   "json_endpoint": "https://serpapi.com/searches/XKr1Ih4upndV8qoy0o6aXslOV8LwTdbnxIJDPyYs4ng/6ab55671392e0ba7306e5577.json",
+   "markdown_endpoint": "https://serpapi.com/searches/XKr1Ih4upndV8qoy0o6aXslOV8LwTdbnxIJDPyYs4ng/6ab55671392e0ba7306e5577.md",
+   "pixel_position_endpoint": "https://serpapi.com/searches/XKr1Ih4upndV8qoy0o6aXslOV8LwTdbnxIJDPyYs4ng/6ab55671392e0ba7306e5577.json_with_pixel_position",
+   "created_at": "2026-09-24 16:57:21 UTC",
+   "processed_at": "2026-09-24 16:57:21 UTC",
+   "google_url": "https://www.google.co.in/search?q=%226383598274%22+OR+%2263835+98274%22&oq=%226383598274%22+OR+%2263835+98274%22&hl=en&gl=in&sourceid=chrome&ie=UTF-8",
+   "raw_html_file": "https://serpapi.com/searches/XKr1Ih4upndV8qoy0o6aXslOV8LwTdbnxIJDPyYs4ng/6ab55671392e0ba7306e5577.html",
+   "total_time_taken": 0.67
+  },
+  "search_parameters": {
+   "engine": "google",
+   "q": "\"6383598274\" OR \"63835 98274\"",
+   "google_domain": "google.co.in",
+   "hl": "en",
+   "gl": "in",
+   "device": "desktop"
+  },
+  "search_information": {
+   "query_displayed": "\"6383598274\" OR \"63835 98274\"",
+   "total_results": 1,
+   "time_taken_displayed": 0.2,
+   "organic_results_state": "Results for exact spelling"
+  },
+  "organic_results": [
+   {
+    "position": 1,
+    "title": "6383598, HR Services Consulate SCS",
+    "link": "https://lookupphonebyproern.z48.web.core.windows.net/?6383598",
+    "redirect_link": "https://www.google.co.in/url?sa=t&source=web&rct=j&opi=89978449&url=CAESdQHrOzAVqAporqOyuaIr_URbujZ4Ueg2aGVRiY-Z0LpbTTbExUiBS3YXKQFD9PlSnHBAQE4cIpYhkbys-HKO-QWzAONZA0OhQBYqH3VjK9sFo5hxhXyiYTEYuQfPQV0BORg3A2-4vQnQieTFP8fAUKvBwMKUQg&ved=2ahUKEwjQ3YDy14eXAxVfafUHHXpHCXEQFnoECBkQAQ&uoh=1",
+    "displayed_link": "https://lookupphonebyproern.z48.web.core.windows.net › ...",
+    "snippet": "6383598521, 638-359-8521, 6383598274, 638-359-8274, 6383598417, 638-359-8417, 6383598944, 638-359-8944, 6383598206, 638-359-8206, 6383598750, 638-359-8750 ...",
+    "snippet_highlighted_words": [
+     "6383598274"
+    ],
+    "about_this_result": {
+     "source": {
+      "description": "6383598521, 638-359-8521, 6383598274, 638-359-8274, 6383598417, 638-359-8417, 6383598944, 638-359-8944, 6383598206, 638-359-8206, 6383598750, 638-359-8750 ...",
+      "source_info_link": "https://lookupphonebyproern.z48.web.core.windows.net/?6383598"
+     },
+     "languages": [
+      "en"
+     ],
+     "regions": [
+      "IN"
+     ]
+    },
+    "about_page_link": "https://www.google.co.in/search/about-this-result?origin=www.google.com&req=CqwBL2dvdG8_dXJsPUNBRVNkUUhyT3pBVnFBcG9ycU95dWFJcl9VUmJ1alo0VWVnMmFHVlJpWS1aMExwYlRUYkV4VWlCUzNZWEtRRkQ5UGxTbkhCQVFFNGNJcFloa2J5cy1IS08tUVd6QU9OWkEwT2hRQllxSDNWaks5c0ZvNWh4aFh5aVlURVl1UWZQUVYwQk9SZzNBMi00dlFuUWllVEZQOGZBVUt2QndNS1VRZxIEGgIIABrMAxIAGgAiACoAMgYIAhICaW46AEIECAEQAEoAWgByAHoAgkCoAwgAEAAYACAAKh4KCjYzODM1OTgyNzQVNp1CPhoLNjM4MzUgOTgyNzQyrAEvZ290bz91cmw9Q0FFU2RRSHJPekFWcUFwb3JxT3l1YUlyX1VSYnVqWjRVZWcyYUdWUmlZLVowTHBiVFRiRXhVaUJTM1lYS1FGRDlQbFNuSEJBUUU0Y0lwWWhrYnlzLUhLTy1RV3pBT05aQTBPaFFCWXFIM1ZqSzlzRm81aHhoWHlpWVRFWXVRZlBRVjBCT1JnM0EyLTR2UW5RaWVURlA4ZkFVS3ZCd01LVVFnOiI2MzgzNTk4LCBIUiBTZXJ2aWNlcyBDb25zdWxhdGUgU0NTQqoBNjM4MzU5ODUyMSwgNjM4LTM1OS04NTIxLCA8Yj42MzgzNTk4Mjc0PC9iPiwgNjM4LTM1OS04Mjc0LCA2MzgzNTk4NDE3LCA2MzgtMzU5LTg0MTcsIDYzODM1OTg5NDQsIDYzOC0zNTktODk0NCwgNjM4MzU5ODIwNiwgNjM4LTM1OS04MjA2LCA2MzgzNTk4NzUwLCA2MzgtMzU5LTg3NTAmbmJzcDsuLi4iAhABSABYAGgA",
+    "about_page_serpapi_link": "https://serpapi.com/search.json?engine=google_about_this_result&google_domain=google.co.in&req_token=CqwBL2dvdG8_dXJsPUNBRVNkUUhyT3pBVnFBcG9ycU95dWFJcl9VUmJ1alo0VWVnMmFHVlJpWS1aMExwYlRUYkV4VWlCUzNZWEtRRkQ5UGxTbkhCQVFFNGNJcFloa2J5cy1IS08tUVd6QU9OWkEwT2hRQllxSDNWaks5c0ZvNWh4aFh5aVlURVl1UWZQUVYwQk9SZzNBMi00dlFuUWllVEZQOGZBVUt2QndNS1VRZxIEGgIIABrMAxIAGgAiACoAMgYIAhICaW46AEIECAEQAEoAWgByAHoAgkCoAwgAEAAYACAAKh4KCjYzODM1OTgyNzQVNp1CPhoLNjM4MzUgOTgyNzQyrAEvZ290bz91cmw9Q0FFU2RRSHJPekFWcUFwb3JxT3l1YUlyX1VSYnVqWjRVZWcyYUdWUmlZLVowTHBiVFRiRXhVaUJTM1lYS1FGRDlQbFNuSEJBUUU0Y0lwWWhrYnlzLUhLTy1RV3pBT05aQTBPaFFCWXFIM1ZqSzlzRm81aHhoWHlpWVRFWXVRZlBRVjBCT1JnM0EyLTR2UW5RaWVURlA4ZkFVS3ZCd01LVVFnOiI2MzgzNTk4LCBIUiBTZXJ2aWNlcyBDb25zdWxhdGUgU0NTQqoBNjM4MzU5ODUyMSwgNjM4LTM1OS04NTIxLCA8Yj42MzgzNTk4Mjc0PC9iPiwgNjM4LTM1OS04Mjc0LCA2MzgzNTk4NDE3LCA2MzgtMzU5LTg0MTcsIDYzODM1OTg5NDQsIDYzOC0zNTktODk0NCwgNjM4MzU5ODIwNiwgNjM4LTM1OS04MjA2LCA2MzgzNTk4NzUwLCA2MzgtMzU5LTg3NTAmbmJzcDsuLi4iAhABSABYAGgA",
+    "source": "windows.net"
+   }
+  ]
+ }
+}

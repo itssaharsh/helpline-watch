@@ -40,7 +40,7 @@ def brands():
 
 
 @app.command()
-def sweep(brand_id: str, cities: str = "", reverse: int = 6, out: Path | None = None, quiet: bool = False):
+def sweep(brand_id: str, cities: str = "", reverse: int = 10, out: Path | None = None, quiet: bool = False):
     """Run one sweep and print the findings table."""
     svc = _services()
     brand = svc.brand(brand_id)

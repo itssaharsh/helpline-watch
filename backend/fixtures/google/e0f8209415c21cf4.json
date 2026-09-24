@@ -1,0 +1,67 @@
+{
+ "_fixture": {
+  "kind": "recorded",
+  "recorded_at": "2026-09-24T17:04:29+00:00",
+  "params": {
+   "engine": "google",
+   "q": "\"18001601149\" OR \"1800 160 1149\"",
+   "google_domain": "google.co.in",
+   "gl": "in",
+   "hl": "en",
+   "num": "10"
+  }
+ },
+ "response": {
+  "search_metadata": {
+   "id": "6ab55819560433e929394a4c",
+   "status": "Success",
+   "json_endpoint": "https://serpapi.com/searches/PEtXj-2qCm5rY8JZTzlvRL-QFmGB5avOF-9-jKgERGg/6ab55819560433e929394a4c.json",
+   "markdown_endpoint": "https://serpapi.com/searches/PEtXj-2qCm5rY8JZTzlvRL-QFmGB5avOF-9-jKgERGg/6ab55819560433e929394a4c.md",
+   "pixel_position_endpoint": "https://serpapi.com/searches/PEtXj-2qCm5rY8JZTzlvRL-QFmGB5avOF-9-jKgERGg/6ab55819560433e929394a4c.json_with_pixel_position",
+   "created_at": "2026-09-24 17:04:25 UTC",
+   "processed_at": "2026-09-24 17:04:25 UTC",
+   "google_url": "https://www.google.co.in/search?q=%2218001601149%22+OR+%221800+160+1149%22&oq=%2218001601149%22+OR+%221800+160+1149%22&hl=en&gl=in&sourceid=chrome&ie=UTF-8",
+   "raw_html_file": "https://serpapi.com/searches/PEtXj-2qCm5rY8JZTzlvRL-QFmGB5avOF-9-jKgERGg/6ab55819560433e929394a4c.html",
+   "total_time_taken": 3.78
+  },
+  "search_parameters": {
+   "engine": "google",
+   "q": "\"18001601149\" OR \"1800 160 1149\"",
+   "google_domain": "google.co.in",
+   "hl": "en",
+   "gl": "in",
+   "device": "desktop"
+  },
+  "search_information": {
+   "query_displayed": "\"18001601149\" OR \"1800 160 1149\"",
+   "total_results": 1,
+   "time_taken_displayed": 0.2,
+   "organic_results_state": "Results for exact spelling"
+  },
+  "organic_results": [
+   {
+    "position": 1,
+    "title": "Bistro Tallulah Patricia L. Schmoke, MD",
+    "link": "https://z-eefapbab.blogspot.com/index.html?5140794&m=1",
+    "redirect_link": "https://www.google.co.in/url?sa=t&source=web&rct=j&opi=89978449&url=CAESbgHrOzAVgzMrrH1e5t7fT7-tCNqmWm_7yIHyYhj-y92kp4XyRJ9uiFWhjHpqDj1_SI4L2ZW9Ua-GfOun-6jl4sXjrfLuUI11-wPvMGRW-1zrsgHUVomg8Z45J-iHThP36TdOa9wS9OKQAyZb924h&ved=2ahUKEwjM3u-92YeXAxWUSzABHRpBJ34QFnoECBgQAQ&uoh=1",
+    "displayed_link": "https://z-eefapbab.blogspot.com › ...",
+    "snippet": "How to understand who called you, scammers, organizations, medical institutions or someone else. You can determine the region from which you received a call ...",
+    "about_this_result": {
+     "source": {
+      "description": "How to understand who called you, scammers, organizations, medical institutions or someone else. You can determine the region from which you received a call ...",
+      "source_info_link": "https://z-eefapbab.blogspot.com/index.html?5140794&m=1"
+     },
+     "languages": [
+      "en"
+     ],
+     "regions": [
+      "IN"
+     ]
+    },
+    "about_page_link": "https://www.google.co.in/search/about-this-result?origin=www.google.com&req=CqIBL2dvdG8_dXJsPUNBRVNiZ0hyT3pBVmd6TXJySDFlNXQ3ZlQ3LXRDTnFtV21fN3lJSHlZaGoteTkya3A0WHlSSjl1aUZXaGpIcHFEajFfU0k0TDJaVzlVYS1HZk91bi02amw0c1hqcmZMdVVJMTEtd1B2TUdSVy0xenJzZ0hVVm9tZzhaNDVKLWlIVGhQMzZUZE9hOXdTOU9LUUF5WmI5MjRoEgQaAggAGrIDEgAaACIAKgAyBggDEgJpbjoAQgQIARAASgBaAHIAegCCQI4DCAAQABgAIAAqIgoLMTgwMDE2MDExNDkVu8IYNxoOMV84MDAgMTYwIDExNDkyogEvZ290bz91cmw9Q0FFU2JnSHJPekFWZ3pNcnJIMWU1dDdmVDctdENOcW1XbV83eUlIeVloai15OTJrcDRYeVJKOXVpRldoakhwcURqMV9TSTRMMlpXOVVhLUdmT3VuLTZqbDRzWGpyZkx1VUkxMS13UHZNR1JXLTF6cnNnSFVWb21nOFo0NUotaUhUaFAzNlRkT2E5d1M5T0tRQXlaYjkyNGg6E1NlYXJjaCAtIHotZWVmYXBiYWJCpQFIb3cgdG8gdW5kZXJzdGFuZCB3aG8gY2FsbGVkIHlvdSwgc2NhbW1lcnMsIG9yZ2FuaXphdGlvbnMsIG1lZGljYWwgaW5zdGl0dXRpb25zIG9yIHNvbWVvbmUgZWxzZS4gWW91IGNhbiBkZXRlcm1pbmUgdGhlIHJlZ2lvbiBmcm9tIHdoaWNoIHlvdSByZWNlaXZlZCBhIGNhbGwmbmJzcDsuLi4iAhABSABYAGgA",
+    "about_page_serpapi_link": "https://serpapi.com/search.json?engine=google_about_this_result&google_domain=google.co.in&req_token=CqIBL2dvdG8_dXJsPUNBRVNiZ0hyT3pBVmd6TXJySDFlNXQ3ZlQ3LXRDTnFtV21fN3lJSHlZaGoteTkya3A0WHlSSjl1aUZXaGpIcHFEajFfU0k0TDJaVzlVYS1HZk91bi02amw0c1hqcmZMdVVJMTEtd1B2TUdSVy0xenJzZ0hVVm9tZzhaNDVKLWlIVGhQMzZUZE9hOXdTOU9LUUF5WmI5MjRoEgQaAggAGrIDEgAaACIAKgAyBggDEgJpbjoAQgQIARAASgBaAHIAegCCQI4DCAAQABgAIAAqIgoLMTgwMDE2MDExNDkVu8IYNxoOMV84MDAgMTYwIDExNDkyogEvZ290bz91cmw9Q0FFU2JnSHJPekFWZ3pNcnJIMWU1dDdmVDctdENOcW1XbV83eUlIeVloai15OTJrcDRYeVJKOXVpRldoakhwcURqMV9TSTRMMlpXOVVhLUdmT3VuLTZqbDRzWGpyZkx1VUkxMS13UHZNR1JXLTF6cnNnSFVWb21nOFo0NUotaUhUaFAzNlRkT2E5d1M5T0tRQXlaYjkyNGg6E1NlYXJjaCAtIHotZWVmYXBiYWJCpQFIb3cgdG8gdW5kZXJzdGFuZCB3aG8gY2FsbGVkIHlvdSwgc2NhbW1lcnMsIG9yZ2FuaXphdGlvbnMsIG1lZGljYWwgaW5zdGl0dXRpb25zIG9yIHNvbWVvbmUgZWxzZS4gWW91IGNhbiBkZXRlcm1pbmUgdGhlIHJlZ2lvbiBmcm9tIHdoaWNoIHlvdSByZWNlaXZlZCBhIGNhbGwmbmJzcDsuLi4iAhABSABYAGgA",
+    "source": "Blogger.com"
+   }
+  ]
+ }
+}

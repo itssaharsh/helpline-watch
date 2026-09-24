@@ -38,6 +38,16 @@ def official_norms(brand: Brand) -> set[str]:
     return out
 
 
+def _page_is_about_brand(o: Observation, brand: Brand) -> bool:
+    """Marketplaces host user-created pages on the brand's own domain (restaurants on zomato.com, sellers on a store).
+
+    The brand's site vouches for a mobile number only when the page itself is about the brand.
+    """
+    title = (o.source_title or "").lower()
+    names = [brand.name.lower(), *[a.lower() for a in brand.aliases]]
+    return any(n and n in title for n in names)
+
+
 def _helpline_context(obs: list[Observation]) -> bool:
     for o in obs:
         if contains_any(o.context, HELPLINE_WORDS):
@@ -122,14 +132,19 @@ def classify(brand: Brand, observations: list[Observation], cross_brand: dict[st
             continue
 
         on_official_site = [o for o in obs if o.surface in DOMAIN_TRUSTED_SURFACES and is_official_domain(o.source_domain, brand.official_domains)]
-        if on_official_site:
-            detail = f"Published on {on_official_site[0].source_domain} but missing from the official list; add it"
+        vouched = [o for o in on_official_site if kind != NumberKind.MOBILE or _page_is_about_brand(o, brand)]
+        if vouched:
+            detail = f"Published on {vouched[0].source_domain} but missing from the official list; add it"
             findings.append(Finding(**base, verdict=Verdict.OFFICIAL_UNLISTED, score=0, signals=[Signal(code="ON_OFFICIAL_DOMAIN", weight=0, detail=detail)]))
             continue
 
         others = cross_brand.get(number) or {}
         other_fake, other_review = list(others.get("fake") or []), list(others.get("review") or [])
         signals = _signals_for(number, kind, obs, brand, officials, other_fake, other_review)
+        if on_official_site:
+            page = on_official_site[0]
+            detail = f"A mobile on a {page.source_domain} page that is not about {brand.name} (“{(page.source_title or '')[:60]}”): a user-created listing, not the brand"
+            signals.append(Signal(code="UGC_ON_OFFICIAL_DOMAIN", weight=2, detail=detail))
         score = sum(s.weight for s in signals)
         findings.append(Finding(**base, verdict=_verdict(score), score=score, signals=signals, other_brands=[*other_fake, *other_review]))
 
@@ -137,19 +152,24 @@ def classify(brand: Brand, observations: list[Observation], cross_brand: dict[st
     return sorted(findings, key=lambda f: (order[f.verdict], -f.score, f.number_norm))
 
 
-def apply_reverse(finding: Finding, hits: list[ReverseHit]) -> Finding:
+def apply_reverse(finding: Finding, hits: list[ReverseHit], official_domains: list[str] | None = None) -> Finding:
     """Fold reverse-lookup evidence into a finding and re-score it."""
-    flagged = [h for h in hits if h.scam_words]
-    signals = [s for s in finding.signals if s.code != "REVERSE_LOOKUP"]
+    own = [h for h in hits if is_official_domain(h.domain, official_domains or [])]
+    # Once the brand's own site vouches for the number, people merely discussing it on X or Truecaller is not evidence.
+    flagged = [h for h in hits if h.scam_words and (not own or any(w != "complaint-site" for w in h.scam_words))]
+    signals = [s for s in finding.signals if s.code not in ("REVERSE_LOOKUP", "REVERSE_ON_OFFICIAL_DOMAIN")]
     if flagged:
         detail = f"{len(flagged)} of {len(hits)} pages about this number mention fraud or sit on complaint sites (e.g. {flagged[0].domain})"
         signals.append(Signal(code="REVERSE_LOOKUP", weight=2, detail=detail))
-    score = sum(s.weight for s in signals)
+    if own:
+        detail = f"Googling the number itself turns up {own[0].domain}; probably the brand's own number — verify, then mark official"
+        signals.append(Signal(code="REVERSE_ON_OFFICIAL_DOMAIN", weight=-3, detail=detail))
+    score = max(0, sum(s.weight for s in signals))
     verdict = finding.verdict if finding.verdict in (Verdict.OFFICIAL, Verdict.OFFICIAL_UNLISTED) else _verdict(score)
     return finding.model_copy(update={"signals": signals, "score": score, "verdict": verdict, "reverse_hits": hits, "reverse_checked": True})
 
 
-def merge_analyst_state(new: list[Finding], old: list[Finding]) -> list[Finding]:
+def merge_analyst_state(new: list[Finding], old: list[Finding], official_domains: list[str] | None = None) -> list[Finding]:
     """Re-classification must not erase what the analyst and the reverse lookups already established."""
     previous = {f.number_norm: f for f in old}
     merged: list[Finding] = []
@@ -159,7 +179,7 @@ def merge_analyst_state(new: list[Finding], old: list[Finding]) -> list[Finding]
             merged.append(f)
             continue
         if before.reverse_checked:
-            f = apply_reverse(f, before.reverse_hits)
+            f = apply_reverse(f, before.reverse_hits, official_domains)
         keep_pack = before.in_pack and f.verdict in (Verdict.FAKE, Verdict.REVIEW)
         merged.append(f.model_copy(update={"in_pack": keep_pack, "explanation": before.explanation}))
     return merged

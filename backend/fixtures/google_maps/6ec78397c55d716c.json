@@ -2,7 +2,7 @@
  "_fixture": {
   "kind": "synthetic",
   "note": "Maps · Delhi · Paytm customer care",
-  "generated_at": "2026-09-23T20:53:40+00:00",
+  "generated_at": "2026-09-24T16:57:21+00:00",
   "params": {
    "engine": "google_maps",
    "type": "search",
@@ -16,11 +16,11 @@
   "search_metadata": {
    "id": "synthetic-6ec78397c55d716c",
    "status": "Success",
-   "created_at": "2026-09-23 20:53:40 UTC",
-   "processed_at": "2026-09-23 20:53:40 UTC",
+   "created_at": "2026-09-24 16:57:21 UTC",
+   "processed_at": "2026-09-24 16:57:21 UTC",
    "json_endpoint": null,
    "raw_html_file": null,
-   "total_time_taken": 1.49
+   "total_time_taken": 1.78
   },
   "search_parameters": {
    "engine": "google_maps",
@@ -35,20 +35,39 @@
     "position": 1,
     "title": "Paytm - Delhi Main Branch",
     "place_id": "synthetic-paytm-delhi-branch",
-    "data_id": "0xb4fd2d158ee4:0xce83ce42f6b1",
-    "rating": 3.7,
-    "reviews": 822,
+    "data_id": "0xc9ca18950980:0x8446fc833865",
+    "rating": 3.9,
+    "reviews": 775,
     "type": "Bank",
     "types": [
      "Bank"
     ],
     "address": "MG Road, Delhi",
     "gps_coordinates": {
-     "latitude": 20.79446880929229,
-     "longitude": 80.41626350321908
+     "latitude": 16.317895619756893,
+     "longitude": 82.00406269558476
     },
     "phone": "0120 445 6456",
     "website": "https://www.paytm.com/"
+   },
+   {
+    "position": 1,
+    "title": "Paytm Customer Care Number",
+    "place_id": "synthetic-paytm-delhi-care",
+    "data_id": "0x542f5ab70834:0xed8a00d35860",
+    "rating": 5.0,
+    "reviews": 3,
+    "type": "Customer service",
+    "types": [
+     "Customer service"
+    ],
+    "address": "Sector 12, Delhi",
+    "gps_coordinates": {
+     "latitude": 21.626340180441364,
+     "longitude": 85.59614224292169
+    },
+    "phone": "+91 74110 29385",
+    "unclaimed_listing": true
    }
   ]
  }

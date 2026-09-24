@@ -1,8 +1,7 @@
 {
  "_fixture": {
-  "kind": "synthetic",
-  "note": "Maps · Kolkata · Zomato customer care",
-  "generated_at": "2026-09-23T20:53:40+00:00",
+  "kind": "recorded",
+  "recorded_at": "2026-09-24T16:57:05+00:00",
   "params": {
    "engine": "google_maps",
    "type": "search",
@@ -14,13 +13,16 @@
  },
  "response": {
   "search_metadata": {
-   "id": "synthetic-83ca9866af1890ce",
+   "id": "6ab55660529e4b72c177fda1",
    "status": "Success",
-   "created_at": "2026-09-23 20:53:40 UTC",
-   "processed_at": "2026-09-23 20:53:40 UTC",
-   "json_endpoint": null,
-   "raw_html_file": null,
-   "total_time_taken": 1.21
+   "json_endpoint": "https://serpapi.com/searches/rP4BclkgBlLXBHKqAAeHMgq-Kr4f3eJZLjHQcJh7YDw/6ab55660529e4b72c177fda1.json",
+   "markdown_endpoint": "https://serpapi.com/searches/rP4BclkgBlLXBHKqAAeHMgq-Kr4f3eJZLjHQcJh7YDw/6ab55660529e4b72c177fda1.md",
+   "created_at": "2026-09-24 16:57:04 UTC",
+   "processed_at": "2026-09-24 16:57:04 UTC",
+   "google_maps_url": "https://www.google.com/maps/search/Zomato+customer+care/@22.5726,88.3639,12z/data=!3m1!4b1!4m2!2m1!6e5?hl=en",
+   "raw_html_file": "https://serpapi.com/searches/rP4BclkgBlLXBHKqAAeHMgq-Kr4f3eJZLjHQcJh7YDw/6ab55660529e4b72c177fda1.html",
+   "prettify_html_file": "https://serpapi.com/searches/rP4BclkgBlLXBHKqAAeHMgq-Kr4f3eJZLjHQcJh7YDw/6ab55660529e4b72c177fda1.prettify",
+   "total_time_taken": 0.64
   },
   "search_parameters": {
    "engine": "google_maps",
@@ -30,43 +32,85 @@
    "google_domain": "google.co.in",
    "hl": "en"
   },
+  "search_information": {
+   "local_results_state": "Results for exact spelling",
+   "query_displayed": "Zomato customer care"
+  },
   "local_results": [
    {
     "position": 1,
-    "title": "Zomato Customer Care Number",
-    "place_id": "synthetic-zomato-kolkata-care",
-    "data_id": "0xf21814ff4427:0x6d9e0270a35a",
-    "rating": 5.0,
-    "reviews": 3,
-    "type": "Customer service",
-    "types": [
-     "Customer service"
-    ],
-    "address": "Sector 12, Kolkata",
+    "title": "Zomato office",
+    "place_id": "ChIJf5msafVxAjoRmPmxXZCEPvo",
+    "data_id": "0x3a0271f569ac997f:0xfa3e84905db1f998",
+    "data_cid": "18031995713620146584",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x3a0271f569ac997f%3A0xfa3e84905db1f998&engine=google_maps_reviews&hl=en",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x3a0271f569ac997f%3A0xfa3e84905db1f998&engine=google_maps_photos&hl=en",
     "gps_coordinates": {
-     "latitude": 16.10986097690565,
-     "longitude": 81.20395549894015
+     "latitude": 22.4892963,
+     "longitude": 88.3840673
     },
-    "phone": "+91 74110 29385",
-    "unclaimed_listing": true
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJf5msafVxAjoRmPmxXZCEPvo",
+    "provider_id": "/g/11sqhdrx0v",
+    "rating": 2.9,
+    "reviews": 24,
+    "unclaimed_listing": true,
+    "type": "Restaurant",
+    "types": [
+     "Restaurant"
+    ],
+    "address": "F9QM+PJ8, Modern Park, Santoshpur, Kolkata, West Bengal 700075, India",
+    "country": "India",
+    "open_state": "Open 24 hours",
+    "hours": "Open 24 hours",
+    "operating_hours": {
+     "thursday": "Open 24 hours",
+     "friday": "Open 24 hours",
+     "saturday": "Open 24 hours",
+     "sunday": "Open 24 hours",
+     "monday": "Open 24 hours",
+     "tuesday": "Open 24 hours",
+     "wednesday": "Open 24 hours"
+    },
+    "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWl_RUFiJod5oDk2R5om4Wc9OG6zeOvD1qwLzedyDcRWh1T9Y_1gFI1BRHP7hzU4Yit9VHgyM_HU86BRWJI8A-VIMK2ESOwU6QEqR8U6RCk-4ffrhgEJc700VHB6RpTGOz2jAeJk=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/e09l_XicHcRBcoIwFADQE0USihE60wUUNKAO9pfAuGIRY2JBgiYtIxfsGXobZ_oW7-9XOzfaV8_r9ctCGaN6-W3lXZjBycEthLl6arRIWGS9mMGhavoW-PpSmNPSpJ0PS3MNGhGVGzrL8iclt2k3y9MjFdBoUkXHlqh1ThJgh5WeeXC8uKhm6rFvGQ9pAk2RhzGq8_3Wzz7LidOP7AYhp_DeoeB8vmuVFWKFcc0SCmO1KWf_K5ZF9zYRjDHS_ws0PAHJtkIy"
    },
    {
-    "position": 1,
-    "title": "Zomato Hyperpure Warehouse",
-    "place_id": "synthetic-zomato-kolkata-hp",
-    "data_id": "0x7ae36abcbd89:0xed6b5abb9993",
-    "rating": 4.1,
-    "reviews": 42,
-    "type": "Warehouse",
-    "types": [
-     "Warehouse"
-    ],
-    "address": "Industrial Area, Kolkata",
+    "position": 2,
+    "title": "Zomato office",
+    "place_id": "ChIJjTp9X8B3AjoRBt7IRE47KLM",
+    "data_id": "0x3a0277c05f7d3a8d:0xb3283b4e44c8de06",
+    "data_cid": "12909633539205029382",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x3a0277c05f7d3a8d%3A0xb3283b4e44c8de06&engine=google_maps_reviews&hl=en",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x3a0277c05f7d3a8d%3A0xb3283b4e44c8de06&engine=google_maps_photos&hl=en",
     "gps_coordinates": {
-     "latitude": 23.198745939295904,
-     "longitude": 81.77992763379262
+     "latitude": 22.5965574,
+     "longitude": 88.33943
     },
-    "website": "https://www.zomato.com/hyperpure"
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJjTp9X8B3AjoRBt7IRE47KLM",
+    "provider_id": "/g/11smtsvbgk",
+    "rating": 3.2,
+    "reviews": 18,
+    "unclaimed_listing": true,
+    "type": "Restaurant",
+    "types": [
+     "Restaurant"
+    ],
+    "address": "1/11, Babudanga, Salkia, Howrah, West Bengal 711106, India",
+    "country": "India",
+    "open_state": "Open 24 hours",
+    "hours": "Open 24 hours",
+    "operating_hours": {
+     "thursday": "Open 24 hours",
+     "friday": "Open 24 hours",
+     "saturday": "Open 24 hours",
+     "sunday": "Open 24 hours",
+     "monday": "Open 24 hours",
+     "tuesday": "Open 24 hours",
+     "wednesday": "Open 24 hours"
+    },
+    "phone": "+91 63835 98274",
+    "thumbnail": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=TbBlj7m-bLSH9kQYO5SJIQ&cb_client=search.gws-prod.gps&w=80&h=92&yaw=199.25166&pitch=0&thumbfov=100",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/zudoUXicHc1dCsIgAADg2_g2fwZbGUjQU0UQY730FOpMLZ0ybdZtula3KbrA933eJueYVgilPCmVZ6tKtE_lUhU51CFop3i0Ccrg0UxQNg8vRm7dOvIx2IGdxMbdFr4Sh35L79352PT7XQekuEhn1ZhZUnySBuryE6cwQB0TKGyJgWG0Bi9eGKEU1g1pWxBtloZh8F-uYWYE4y9MWTkA"
    }
   ]
  }

@@ -1,0 +1,43 @@
+{
+ "_fixture": {
+  "kind": "recorded",
+  "recorded_at": "2026-09-24T17:02:49+00:00",
+  "params": {
+   "engine": "google",
+   "q": "\"18001601103\" OR \"1800 160 1103\"",
+   "google_domain": "google.co.in",
+   "gl": "in",
+   "hl": "en",
+   "num": "10"
+  }
+ },
+ "response": {
+  "search_metadata": {
+   "id": "6ab557b704e10aac6a599deb",
+   "status": "Success",
+   "json_endpoint": "https://serpapi.com/searches/yu8lR2TdXh_sN_ozQwXmF3k_-l9p9Z2M1FSuo1tG768/6ab557b704e10aac6a599deb.json",
+   "markdown_endpoint": "https://serpapi.com/searches/yu8lR2TdXh_sN_ozQwXmF3k_-l9p9Z2M1FSuo1tG768/6ab557b704e10aac6a599deb.md",
+   "pixel_position_endpoint": "https://serpapi.com/searches/yu8lR2TdXh_sN_ozQwXmF3k_-l9p9Z2M1FSuo1tG768/6ab557b704e10aac6a599deb.json_with_pixel_position",
+   "created_at": "2026-09-24 17:02:47 UTC",
+   "processed_at": "2026-09-24 17:02:47 UTC",
+   "google_url": "https://www.google.co.in/search?q=%2218001601103%22+OR+%221800+160+1103%22&oq=%2218001601103%22+OR+%221800+160+1103%22&hl=en&gl=in&sourceid=chrome&ie=UTF-8",
+   "raw_html_file": "https://serpapi.com/searches/yu8lR2TdXh_sN_ozQwXmF3k_-l9p9Z2M1FSuo1tG768/6ab557b704e10aac6a599deb.html",
+   "total_time_taken": 1.11
+  },
+  "search_parameters": {
+   "engine": "google",
+   "q": "\"18001601103\" OR \"1800 160 1103\"",
+   "google_domain": "google.co.in",
+   "hl": "en",
+   "gl": "in",
+   "device": "desktop"
+  },
+  "search_information": {
+   "query_displayed": "\"18001601103\" OR \"1800 160 1103\"",
+   "total_results": 0,
+   "time_taken_displayed": 0.22,
+   "organic_results_state": "Fully empty"
+  },
+  "no_results": "Google hasn't returned any results for this query."
+ }
+}

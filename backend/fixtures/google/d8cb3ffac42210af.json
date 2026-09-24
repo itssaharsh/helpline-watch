@@ -1,0 +1,103 @@
+{
+ "_fixture": {
+  "kind": "synthetic",
+  "note": "Search · Kolkata · Paytm helpline number",
+  "generated_at": "2026-09-24T16:57:21+00:00",
+  "params": {
+   "engine": "google",
+   "q": "Paytm helpline number",
+   "location": "Kolkata,West Bengal,India",
+   "google_domain": "google.co.in",
+   "gl": "in",
+   "hl": "en",
+   "num": "10"
+  }
+ },
+ "response": {
+  "search_metadata": {
+   "id": "synthetic-d8cb3ffac42210af",
+   "status": "Success",
+   "created_at": "2026-09-24 16:57:21 UTC",
+   "processed_at": "2026-09-24 16:57:21 UTC",
+   "json_endpoint": null,
+   "raw_html_file": null,
+   "total_time_taken": 1.14
+  },
+  "search_parameters": {
+   "engine": "google",
+   "q": "Paytm helpline number",
+   "location": "Kolkata,West Bengal,India",
+   "google_domain": "google.co.in",
+   "gl": "in",
+   "hl": "en",
+   "num": "10"
+  },
+  "organic_results": [
+   {
+    "position": 1,
+    "title": "Contact us - Paytm",
+    "link": "https://www.paytm.com/contact-us",
+    "displayed_link": "https://www.paytm.com › contact-us",
+    "snippet": "Call our 24x7 toll-free customer care at 0120 445 6456. Never share your OTP or card PIN with anyone."
+   },
+   {
+    "position": 2,
+    "title": "Paytm customer care number 0120 445 6456 toll free",
+    "link": "https://www.helpline-directory.org/paytm-customer-care",
+    "displayed_link": "https://www.helpline-directory.org › paytm-customer-care",
+    "snippet": "Paytm customer care number is 0120 445 6456. Also try the grievance desk on the official website."
+   },
+   {
+    "position": 3,
+    "title": "Paytm customer care number - +91 74110 29385",
+    "link": "https://paytm-kyc-help.co/customer-care",
+    "displayed_link": "https://paytm-kyc-help.co › customer-care",
+    "snippet": "Call Paytm customer care +91 74110 29385 for instant refund and complaint. Available 24x7."
+   },
+   {
+    "position": 4,
+    "title": "Paytm - Wikipedia",
+    "link": "https://en.wikipedia.org/wiki/Paytm",
+    "displayed_link": "https://en.wikipedia.org › wiki › Paytm",
+    "snippet": "Paytm is an Indian company headquartered in India."
+   }
+  ],
+  "knowledge_graph": {
+   "title": "Paytm",
+   "type": "Company",
+   "phone": "0120 445 6456",
+   "website": "https://www.paytm.com/",
+   "description": "Paytm customer service"
+  },
+  "local_results": {
+   "places": [
+    {
+     "position": 1,
+     "title": "Paytm Customer Care Number",
+     "place_id": "synthetic-paytm-kolkata-care",
+     "data_id": "0xdee27ee88947:0x9360a8c28947",
+     "rating": 4.8,
+     "reviews": 3,
+     "type": "Customer service",
+     "types": [
+      "Customer service"
+     ],
+     "address": "Kolkata",
+     "gps_coordinates": {
+      "latitude": 19.780899979211654,
+      "longitude": 82.02241438132262
+     },
+     "phone": "+91 74110 29385"
+    }
+   ]
+  },
+  "related_questions": [
+   {
+    "question": "What is the Paytm customer care number?",
+    "snippet": "The official Paytm customer care number is 0120 445 6456.",
+    "title": "Contact us - Paytm",
+    "link": "https://www.paytm.com/contact-us"
+   }
+  ]
+ }
+}

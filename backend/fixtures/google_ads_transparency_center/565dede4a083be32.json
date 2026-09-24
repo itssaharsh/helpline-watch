@@ -1,8 +1,7 @@
 {
  "_fixture": {
-  "kind": "synthetic",
-  "note": "Ads Transparency · advertisers bidding on “Zomato”",
-  "generated_at": "2026-09-23T20:53:40+00:00",
+  "kind": "recorded",
+  "recorded_at": "2026-09-24T16:56:47+00:00",
   "params": {
    "engine": "google_ads_transparency_center",
    "text": "Zomato",
@@ -11,47 +10,25 @@
  },
  "response": {
   "search_metadata": {
-   "id": "synthetic-565dede4a083be32",
+   "id": "6ab5564e7dcfbe84adfcf6da",
    "status": "Success",
-   "created_at": "2026-09-23 20:53:40 UTC",
-   "processed_at": "2026-09-23 20:53:40 UTC",
-   "json_endpoint": null,
-   "raw_html_file": null,
-   "total_time_taken": 1.91
+   "json_endpoint": "https://serpapi.com/searches/9mz0GJPyrPImnv0mNI6CmU_6zROd7xLJwyKQqZmH2wM/6ab5564e7dcfbe84adfcf6da.json",
+   "markdown_endpoint": "https://serpapi.com/searches/9mz0GJPyrPImnv0mNI6CmU_6zROd7xLJwyKQqZmH2wM/6ab5564e7dcfbe84adfcf6da.md",
+   "created_at": "2026-09-24 16:56:46 UTC",
+   "processed_at": "2026-09-24 16:56:46 UTC",
+   "google_ads_transparency_center_url": "https://adstransparency.google.com?region=IN&domain=Zomato",
+   "raw_html_file": "https://serpapi.com/searches/9mz0GJPyrPImnv0mNI6CmU_6zROd7xLJwyKQqZmH2wM/6ab5564e7dcfbe84adfcf6da.html",
+   "prettify_html_file": "https://serpapi.com/searches/9mz0GJPyrPImnv0mNI6CmU_6zROd7xLJwyKQqZmH2wM/6ab5564e7dcfbe84adfcf6da.prettify",
+   "total_time_taken": 0.9
   },
   "search_parameters": {
    "engine": "google_ads_transparency_center",
    "text": "Zomato",
    "region": "2356"
   },
-  "ad_creatives": [
-   {
-    "advertiser_id": "AR-zomato-official",
-    "advertiser": "Zomato Limited",
-    "ad_creative_id": "CR-zomato-0",
-    "format": "text",
-    "first_shown": 1772916820,
-    "last_shown": 1790193220,
-    "details_link": "https://adstransparency.google.com/"
-   },
-   {
-    "advertiser_id": "AR-zomato-official",
-    "advertiser": "Zomato Limited",
-    "ad_creative_id": "CR-zomato-1",
-    "format": "text",
-    "first_shown": 1772916820,
-    "last_shown": 1790193220,
-    "details_link": "https://adstransparency.google.com/"
-   },
-   {
-    "advertiser_id": "AR-zomato-official",
-    "advertiser": "Zomato Limited",
-    "ad_creative_id": "CR-zomato-2",
-    "format": "text",
-    "first_shown": 1772916820,
-    "last_shown": 1790193220,
-    "details_link": "https://adstransparency.google.com/"
-   }
-  ]
+  "search_information": {
+   "results_state": "Fully empty"
+  },
+  "no_results": "Google Ads Transparency Center hasn't returned any results for this search."
  }
 }

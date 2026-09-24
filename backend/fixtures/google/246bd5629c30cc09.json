@@ -1,0 +1,110 @@
+{
+ "_fixture": {
+  "kind": "synthetic",
+  "note": "Search · Delhi · IndiGo helpline number",
+  "generated_at": "2026-09-24T16:57:21+00:00",
+  "params": {
+   "engine": "google",
+   "q": "IndiGo helpline number",
+   "location": "Delhi,Delhi,India",
+   "google_domain": "google.co.in",
+   "gl": "in",
+   "hl": "en",
+   "num": "10"
+  }
+ },
+ "response": {
+  "search_metadata": {
+   "id": "synthetic-246bd5629c30cc09",
+   "status": "Success",
+   "created_at": "2026-09-24 16:57:21 UTC",
+   "processed_at": "2026-09-24 16:57:21 UTC",
+   "json_endpoint": null,
+   "raw_html_file": null,
+   "total_time_taken": 2.38
+  },
+  "search_parameters": {
+   "engine": "google",
+   "q": "IndiGo helpline number",
+   "location": "Delhi,Delhi,India",
+   "google_domain": "google.co.in",
+   "gl": "in",
+   "hl": "en",
+   "num": "10"
+  },
+  "organic_results": [
+   {
+    "position": 1,
+    "title": "Contact us - IndiGo",
+    "link": "https://www.goindigo.in/contact-us",
+    "displayed_link": "https://www.goindigo.in › contact-us",
+    "snippet": "Call our 24x7 toll-free customer care at 0124 617 3838. Never share your OTP or card PIN with anyone."
+   },
+   {
+    "position": 2,
+    "title": "IndiGo customer care number 0124 617 3838 toll free",
+    "link": "https://www.helpline-directory.org/indigo-customer-care",
+    "displayed_link": "https://www.helpline-directory.org › indigo-customer-care",
+    "snippet": "IndiGo customer care number is 0124 617 3838. Also try the grievance desk on the official website."
+   },
+   {
+    "position": 3,
+    "title": "IndiGo customer care number - +91 74110 29385",
+    "link": "https://indigo-flightcare.in/customer-care",
+    "displayed_link": "https://indigo-flightcare.in › customer-care",
+    "snippet": "Call IndiGo customer care +91 74110 29385 for instant refund and complaint. Available 24x7."
+   },
+   {
+    "position": 4,
+    "title": "Man loses Rs 90,000 after calling fake IndiGo customer care number",
+    "link": "https://www.hindustantimes.com/city/delhi/fake-indigo-helpline",
+    "displayed_link": "https://www.hindustantimes.com › city › delhi",
+    "snippet": "The victim searched for IndiGo customer care on Google and dialled a number listed on a business listing. Police said the number was a scam."
+   },
+   {
+    "position": 5,
+    "title": "IndiGo - Wikipedia",
+    "link": "https://en.wikipedia.org/wiki/IndiGo",
+    "displayed_link": "https://en.wikipedia.org › wiki › IndiGo",
+    "snippet": "IndiGo is an Indian company headquartered in India."
+   }
+  ],
+  "knowledge_graph": {
+   "title": "IndiGo",
+   "type": "Company",
+   "phone": "0124 617 3838",
+   "website": "https://www.goindigo.in/",
+   "description": "IndiGo customer service"
+  },
+  "local_results": {
+   "places": [
+    {
+     "position": 1,
+     "title": "IndiGo Customer Care Number",
+     "place_id": "synthetic-indigo-delhi-care",
+     "data_id": "0xf61323fea4e0:0x4fcc28b94196",
+     "rating": 4.8,
+     "reviews": 3,
+     "type": "Customer service",
+     "types": [
+      "Customer service"
+     ],
+     "address": "Delhi",
+     "gps_coordinates": {
+      "latitude": 18.43911278226232,
+      "longitude": 85.54649219269079
+     },
+     "phone": "+91 74110 29385"
+    }
+   ]
+  },
+  "related_questions": [
+   {
+    "question": "What is the IndiGo customer care number?",
+    "snippet": "The official IndiGo customer care number is 0124 617 3838.",
+    "title": "Contact us - IndiGo",
+    "link": "https://www.goindigo.in/contact-us"
+   }
+  ]
+ }
+}

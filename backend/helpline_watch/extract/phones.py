@@ -38,11 +38,13 @@ class ParsedNumber:
         return re.sub(r"\D", "", self.norm)
 
 
-def _strip_prefix(digits: str) -> tuple[str, bool]:
+def _strip_prefix(digits: str, explicit_cc: bool = False) -> tuple[str, bool]:
     """Remove country/trunk prefixes. Returns (subscriber digits, had_explicit_prefix)."""
     had = False
     if digits.startswith("0091"):
         digits, had = digits[4:], True
+    elif explicit_cc and digits.startswith("91"):
+        digits, had = digits[2:], True
     elif digits.startswith("91") and len(digits) in (12, 13) and digits[2:6] not in _SERVICE_PREFIXES:
         digits, had = digits[2:], True
     elif digits.startswith("91") and len(digits) in (12, 13, 14) and digits[2:6] in _SERVICE_PREFIXES:
@@ -81,7 +83,7 @@ def _classify(digits: str, raw: str) -> tuple[str, NumberKind] | None:
     """Return (canonical, kind) or None if this is not an Indian phone number."""
     if digits[:4] in _SERVICE_PREFIXES and len(digits) in _SERVICE_LENGTHS:
         return digits, _SERVICE_KIND[digits[:4]]
-    subscriber, had_prefix = _strip_prefix(digits)
+    subscriber, had_prefix = _strip_prefix(digits, explicit_cc=raw.lstrip().startswith("+"))
     if subscriber[:4] in _SERVICE_PREFIXES and len(subscriber) in _SERVICE_LENGTHS:
         return subscriber, _SERVICE_KIND[subscriber[:4]]
     if len(subscriber) != 10:
@@ -110,32 +112,72 @@ def normalise(raw: str) -> ParsedNumber | None:
     return ParsedNumber(raw=raw.strip(), norm=norm, kind=kind)
 
 
+def _longest_from(run: str, groups: list[re.Match[str]], i: int, limit: int | None = None) -> tuple[int, ParsedNumber] | None:
+    """Longest valid parse that starts at group `i` and ends at or before group `limit`."""
+    last = len(groups) - 1 if limit is None else limit
+    for j in range(last, i - 1, -1):
+        candidate = run[groups[i].start() : groups[j].end()]
+        if not candidate.startswith("+") and groups[i].start() > 0 and run[groups[i].start() - 1] == "+":
+            candidate = "+" + candidate
+        ndigits = sum(len(g.group(0)) for g in groups[i : j + 1])
+        if ndigits > _MAX_DIGITS:
+            continue
+        if ndigits < _MIN_DIGITS:
+            break
+        if j > i and len(groups[j].group(0)) == 1:
+            continue  # "1800 210 0018 2." is a number followed by a list marker, never a 12-digit number
+        parsed = normalise(candidate)
+        if parsed is not None:
+            return j, parsed
+    return None
+
+
+def _split_service_pair(run: str, groups: list[re.Match[str]], i: int, found: tuple[int, ParsedNumber]) -> tuple[int, ParsedNumber]:
+    """“1800 1600 / 1800 2600” is two short numbers, not one 12-digit one.
+
+    Cut before a later group that itself starts a service series, but only when both halves parse.
+    """
+    j, parsed = found
+    if parsed.kind not in _SERVICE_KIND.values() or j - i < 1:
+        return found
+    for k in range(i + 1, j + 1):
+        if groups[k].group(0) in _SERVICE_PREFIXES:
+            head = _longest_from(run, groups, i, limit=k - 1)
+            tail = _longest_from(run, groups, k)
+            if head is not None and tail is not None:
+                return head
+    return found
+
+
+def _foreign_run(run: str, groups: list[re.Match[str]]) -> bool:
+    """“1-815-214-9414” or “+1 815 214 9414” is a North American number; none of its pieces is Indian."""
+    if not groups:
+        return False
+    digits = "".join(g.group(0) for g in groups)
+    if run.lstrip().startswith("+") and not digits.startswith("91") and not digits.startswith("0091"):
+        return True
+    return groups[0].group(0) == "1" and len(digits) == 11
+
+
 def _parse_run(run: str) -> list[ParsedNumber]:
     """Every number inside one run of digit groups, longest valid parse from each group start."""
     groups = list(_GROUP.finditer(run))
+    if _foreign_run(run, groups):
+        return []
     out: list[ParsedNumber] = []
     i = 0
     while i < len(groups):
-        found: tuple[int, ParsedNumber] | None = None
-        for j in range(len(groups) - 1, i - 1, -1):
-            candidate = run[groups[i].start() : groups[j].end()]
-            if candidate.startswith("+") is False and groups[i].start() > 0 and run[groups[i].start() - 1] == "+":
-                candidate = "+" + candidate
-            ndigits = sum(len(g.group(0)) for g in groups[i : j + 1])
-            if ndigits > _MAX_DIGITS:
-                continue
-            if ndigits < _MIN_DIGITS:
-                break
-            parsed = normalise(candidate)
-            if parsed is not None:
-                found = (j, parsed)
-                break
+        found = _longest_from(run, groups, i)
         if found is None:
             i += 1
             continue
+        found = _split_service_pair(run, groups, i, found)
         out.append(found[1])
         i = found[0] + 1
     return out
+
+
+_FOREIGN_CUE = re.compile(r"(?:\busa\b|\bu\.s\.a?\.?|\bus:|\bcanada\b|\bu\.?k\b|\baustralia\b|\bsingapore\b|\buae\b|\bqatar\b|\boman\b)\s*[:\-–]?\s*\(?$", re.I)
 
 
 def extract(text: str | None) -> list[ParsedNumber]:
@@ -146,6 +188,8 @@ def extract(text: str | None) -> list[ParsedNumber]:
     seen: set[str] = set()
     out: list[ParsedNumber] = []
     for run in _RUN.finditer(text):
+        if _FOREIGN_CUE.search(text[max(0, run.start() - 16) : run.start()]):
+            continue  # "USA: 855-999-6061" is another country's number
         for parsed in _parse_run(run.group(0)):
             if parsed.norm in seen:
                 continue

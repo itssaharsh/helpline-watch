@@ -1,0 +1,399 @@
+{
+ "_fixture": {
+  "kind": "recorded",
+  "recorded_at": "2026-09-24T16:47:13+00:00",
+  "params": {
+   "engine": "google",
+   "q": "\"180016001800\" OR \"1800 1600 1800\"",
+   "google_domain": "google.co.in",
+   "gl": "in",
+   "hl": "en",
+   "num": "10"
+  }
+ },
+ "response": {
+  "search_metadata": {
+   "id": "6ab5541113f4b663ee411b8c",
+   "status": "Success",
+   "json_endpoint": "https://serpapi.com/searches/ggYuNtWq2hr4U0o2H-sDxNZtgA8vkYljr6DLxrbJoCI/6ab5541113f4b663ee411b8c.json",
+   "markdown_endpoint": "https://serpapi.com/searches/ggYuNtWq2hr4U0o2H-sDxNZtgA8vkYljr6DLxrbJoCI/6ab5541113f4b663ee411b8c.md",
+   "pixel_position_endpoint": "https://serpapi.com/searches/ggYuNtWq2hr4U0o2H-sDxNZtgA8vkYljr6DLxrbJoCI/6ab5541113f4b663ee411b8c.json_with_pixel_position",
+   "created_at": "2026-09-24 16:47:13 UTC",
+   "processed_at": "2026-09-24 16:47:13 UTC",
+   "google_url": "https://www.google.co.in/search?q=%22180016001800%22+OR+%221800+1600+1800%22&oq=%22180016001800%22+OR+%221800+1600+1800%22&hl=en&gl=in&sourceid=chrome&ie=UTF-8",
+   "raw_html_file": "https://serpapi.com/searches/ggYuNtWq2hr4U0o2H-sDxNZtgA8vkYljr6DLxrbJoCI/6ab5541113f4b663ee411b8c.html",
+   "total_time_taken": 0.44
+  },
+  "search_parameters": {
+   "engine": "google",
+   "q": "\"180016001800\" OR \"1800 1600 1800\"",
+   "google_domain": "google.co.in",
+   "hl": "en",
+   "gl": "in",
+   "device": "desktop"
+  },
+  "search_information": {
+   "query_displayed": "\"180016001800\" OR \"1800 1600 1800\"",
+   "total_results": 65400,
+   "time_taken_displayed": 0.25,
+   "organic_results_state": "Results for exact spelling"
+  },
+  "related_questions": [
+   {
+    "question": "Is HDFC customer care available on 24/7?",
+    "type": "ai_overview",
+    "page_token": "bm1chHicHdBNcoIwGADQ6WVcKvhDR2ecTqlGpAWamHwimw4ENJIQ0koF2fUuPVVP004P8Dbv61udtfy560TTmMtiNGrbdniq65MqhrwenvUovdw0H_FUqSzlcuHcO_bDkS_Xn1v36X3rYmYMrIhFN00FSPiBhiCguMknrrOTnc1KBJnHmlCjKbO650zOY65RH9julStlUwpXTHMnHhMvtNQl0Y921iM3G8suvFlt7oGIAF322kyTftul1eyzKA_TYgWKSPMSMr-isbkBW3ehRBg24hDtjcpt0ibWdJKOzWT3Z3d78CgkLKEiyuTMwiz5OCjxmpZuHCEksPQ3oQdnrMmRMV-vRY5ABd0hBmfHfCvQpM0Rwlns4nw8J3tSnzEjPS9VxXokinLd88p2aKlSYsEL3bCuqESEIUlwGb5iPDjy63Iy-P9cvh2rZmE-6tMv5KuFKQ",
+    "serpapi_ai_overview_link": "https://serpapi.com/search.json?engine=google_ai_overview&page_token=bm1chHicHdBNcoIwGADQ6WVcKvhDR2ecTqlGpAWamHwimw4ENJIQ0koF2fUuPVVP004P8Dbv61udtfy560TTmMtiNGrbdniq65MqhrwenvUovdw0H_FUqSzlcuHcO_bDkS_Xn1v36X3rYmYMrIhFN00FSPiBhiCguMknrrOTnc1KBJnHmlCjKbO650zOY65RH9julStlUwpXTHMnHhMvtNQl0Y921iM3G8suvFlt7oGIAF322kyTftul1eyzKA_TYgWKSPMSMr-isbkBW3ehRBg24hDtjcpt0ibWdJKOzWT3Z3d78CgkLKEiyuTMwiz5OCjxmpZuHCEksPQ3oQdnrMmRMV-vRY5ABd0hBmfHfCvQpM0Rwlns4nw8J3tSnzEjPS9VxXokinLd88p2aKlSYsEL3bCuqESEIUlwGb5iPDjy63Iy-P9cvh2rZmE-6tMv5KuFKQ",
+    "next_page_token": "eyJvbnMiOiIxMDA0MSIsImZjIjoiRXFFQkNtSkJTbWxVTkhSTFZUQTRSbkZyUTBwS2VtZEVlVk01ZWxOaFgybHliV1JwYm01bVNVVnhabGRJTXpjeU9FdERUa051WmtSMFFVazVha2RQTlhsbFVscDFMVkpVT1ZsM1Z6TjZUM0JsYkdsa01FdEhPRmQxTm5sUmVHRTNZalZsYW5sa1VSSVhSVlpUTVdGMWVrbENkREowY0hSUlVHMXdVSGR2VVZrYUlrRkVjM0k1WmxRd1FYSkpObTV0YVhoelFsbFRSV1ZpZEhOSlpraG9NRTFrT0hjIiwiZmN2IjoiMyIsImVpIjoiRVZTMWF1eklCdDJ0cHRRUG1wUHdvUVkiLCJxYyI6ImMtT1NOclF3TURBMEEySWdyUUFoektBc0FZYmF3eTYyOWdBIiwicXVlc3Rpb24iOiJJcyBIREZDIGN1c3RvbWVyIGNhcmUgYXZhaWxhYmxlIG9uIDI0Lzc/IiwibGsiOiJHaVJwY3lCb1pHWmpJR04xYzNSdmJXVnlJR05oY21VZ1lYWmhhV3hoWW14bElESTBJRGMiLCJicyI6ImMzV09UUXVDUUJSRmFUc3JFU0p3MHcwaVhGVU1na3NYV1NqdC1nZlRPS1kwem9RekZ2MzdOSTAtb08xOTU5NTN5SUg0cVVFUzd6YmdqYkc2RWpVNHF3WFlsWldTSGFXQVZxREJLb3pvd3B1WEJrV1c4NzhzRFJDU1BWa24tdGFlRkZMd1F2QXpiQ0ZnTExPTmdjNVIzWWVQdXJwSVZpb2IwWWszN29kZjBZQ1RMVUUzWmpWT3d2NklxcVk2aWpxaU0yOWF2Smx2d1o0aFBuRmpEYVZ0cXlYbGMyY1pVZGR6c28tMGF6cWpCdyIsImlkIjoiZmNfRVZTMWF1eklCdDJ0cHRRUG1wUHdvUVlfNSJ9",
+    "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google_related_questions&google_domain=google.com&next_page_token=eyJvbnMiOiIxMDA0MSIsImZjIjoiRXFFQkNtSkJTbWxVTkhSTFZUQTRSbkZyUTBwS2VtZEVlVk01ZWxOaFgybHliV1JwYm01bVNVVnhabGRJTXpjeU9FdERUa051WmtSMFFVazVha2RQTlhsbFVscDFMVkpVT1ZsM1Z6TjZUM0JsYkdsa01FdEhPRmQxTm5sUmVHRTNZalZsYW5sa1VSSVhSVlpUTVdGMWVrbENkREowY0hSUlVHMXdVSGR2VVZrYUlrRkVjM0k1WmxRd1FYSkpObTV0YVhoelFsbFRSV1ZpZEhOSlpraG9NRTFrT0hjIiwiZmN2IjoiMyIsImVpIjoiRVZTMWF1eklCdDJ0cHRRUG1wUHdvUVkiLCJxYyI6ImMtT1NOclF3TURBMEEySWdyUUFoektBc0FZYmF3eTYyOWdBIiwicXVlc3Rpb24iOiJJcyBIREZDIGN1c3RvbWVyIGNhcmUgYXZhaWxhYmxlIG9uIDI0Lzc%2FIiwibGsiOiJHaVJwY3lCb1pHWmpJR04xYzNSdmJXVnlJR05oY21VZ1lYWmhhV3hoWW14bElESTBJRGMiLCJicyI6ImMzV09UUXVDUUJSRmFUc3JFU0p3MHcwaVhGVU1na3NYV1NqdC1nZlRPS1kwem9RekZ2MzdOSTAtb08xOTU5NTN5SUg0cVVFUzd6YmdqYkc2RWpVNHF3WFlsWldTSGFXQVZxREJLb3pvd3B1WEJrV1c4NzhzRFJDU1BWa24tdGFlRkZMd1F2QXpiQ0ZnTExPTmdjNVIzWWVQdXJwSVZpb2IwWWszN29kZjBZQ1RMVUUzWmpWT3d2NklxcVk2aWpxaU0yOWF2Smx2d1o0aFBuRmpEYVZ0cXlYbGMyY1pVZGR6c28tMGF6cWpCdyIsImlkIjoiZmNfRVZTMWF1eklCdDJ0cHRRUG1wUHdvUVlfNSJ9"
+   },
+   {
+    "question": "How can I check the status of my HDFC complaint?",
+    "type": "ai_overview",
+    "page_token": "fcA1AnicHdBLcpswAADQ6WWytAFjOnjGkykBYStFBCGJz6YjRAw2AhSbGKJd7pAj9FQ9TTvdvfX7_C3PQ_fn21c7Teq2W6_neV4149jI15UYV-dhzW8fg1gLLmXFRbdzvjvm40nsg7vwnq7CS6hSzMcGOXQadctTYSRTmpk0DZY3GnY6yiIdsWZT5fKZhMBOSDJlh3ZLDLxQoML6gJwiV1j08oQ3-AXnCmX9UQvmtayrLzGV8T_31cVzissPm9KSlNobsA_eUYYA15jzEG5Jx35yH5rCQi9Fr64xkbQguKut5T0LIaSssSMfHmnuWdEB8MinZsTcZ8Fck2S2UQIcEulCESg7DY5zaSBONuU1lYlRSuVXWRmXGvZxAEDQ1oDJaCly5qQUGtGA5xqApMq9pLZcnOHxnFCsxUX2VNcAGdNbpctWyMJAzB1eA3XnFrwVDG4xQE49P5zEfb95-H-9_3Xqp526js1fFEKMsQ",
+    "serpapi_ai_overview_link": "https://serpapi.com/search.json?engine=google_ai_overview&page_token=fcA1AnicHdBLcpswAADQ6WWytAFjOnjGkykBYStFBCGJz6YjRAw2AhSbGKJd7pAj9FQ9TTvdvfX7_C3PQ_fn21c7Teq2W6_neV4149jI15UYV-dhzW8fg1gLLmXFRbdzvjvm40nsg7vwnq7CS6hSzMcGOXQadctTYSRTmpk0DZY3GnY6yiIdsWZT5fKZhMBOSDJlh3ZLDLxQoML6gJwiV1j08oQ3-AXnCmX9UQvmtayrLzGV8T_31cVzissPm9KSlNobsA_eUYYA15jzEG5Jx35yH5rCQi9Fr64xkbQguKut5T0LIaSssSMfHmnuWdEB8MinZsTcZ8Fck2S2UQIcEulCESg7DY5zaSBONuU1lYlRSuVXWRmXGvZxAEDQ1oDJaCly5qQUGtGA5xqApMq9pLZcnOHxnFCsxUX2VNcAGdNbpctWyMJAzB1eA3XnFrwVDG4xQE49P5zEfb95-H-9_3Xqp526js1fFEKMsQ",
+    "next_page_token": "eyJvbnMiOiIxMDA0MSIsImZjIjoiRXFFQkNtSkJTbWxVTkhSTFZUQTRSbkZyUTBwS2VtZEVlVk01ZWxOaFgybHliV1JwYm01bVNVVnhabGRJTXpjeU9FdERUa051WmtSMFFVazVha2RQTlhsbFVscDFMVkpVT1ZsM1Z6TjZUM0JsYkdsa01FdEhPRmQxTm5sUmVHRTNZalZsYW5sa1VSSVhSVlpUTVdGMWVrbENkREowY0hSUlVHMXdVSGR2VVZrYUlrRkVjM0k1WmxRd1FYSkpObTV0YVhoelFsbFRSV1ZpZEhOSlpraG9NRTFrT0hjIiwiZmN2IjoiMyIsImVpIjoiRVZTMWF1eklCdDJ0cHRRUG1wUHdvUVkiLCJxYyI6ImMtT1NOclF3TURBMEEySWdyUUFoektBc0FZYmF3eTYyOWdBIiwicXVlc3Rpb24iOiJIb3cgY2FuIEkgY2hlY2sgdGhlIHN0YXR1cyBvZiBteSBIREZDIGNvbXBsYWludD8iLCJsayI6IkdoVm9aR1pqSUdOdmJYQnNZV2x1ZENCemRHRjBkWE0iLCJicyI6ImMzV09UUXVDUUJSRmFUc3JFU0p3MHcwaVhGVU1na3NYV1NqdC1nZlRPS1kwem9RekZ2MzdOSTAtb08xOTU5NTN5SUg0cVVFUzd6YmdqYkc2RWpVNHF3WFlsWldTSGFXQVZxREJLb3pvd3B1WEJrV1c4NzhzRFJDU1BWa24tdGFlRkZMd1F2QXpiQ0ZnTExPTmdjNVIzWWVQdXJwSVZpb2IwWWszN29kZjBZQ1RMVUUzWmpWT3d2NklxcVk2aWpxaU0yOWF2Smx2d1o0aFBuRmpEYVZ0cXlYbGMyY1pVZGR6c28tMGF6cWpCdyIsImlkIjoiZmNfRVZTMWF1eklCdDJ0cHRRUG1wUHdvUVlfNSJ9",
+    "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google_related_questions&google_domain=google.com&next_page_token=eyJvbnMiOiIxMDA0MSIsImZjIjoiRXFFQkNtSkJTbWxVTkhSTFZUQTRSbkZyUTBwS2VtZEVlVk01ZWxOaFgybHliV1JwYm01bVNVVnhabGRJTXpjeU9FdERUa051WmtSMFFVazVha2RQTlhsbFVscDFMVkpVT1ZsM1Z6TjZUM0JsYkdsa01FdEhPRmQxTm5sUmVHRTNZalZsYW5sa1VSSVhSVlpUTVdGMWVrbENkREowY0hSUlVHMXdVSGR2VVZrYUlrRkVjM0k1WmxRd1FYSkpObTV0YVhoelFsbFRSV1ZpZEhOSlpraG9NRTFrT0hjIiwiZmN2IjoiMyIsImVpIjoiRVZTMWF1eklCdDJ0cHRRUG1wUHdvUVkiLCJxYyI6ImMtT1NOclF3TURBMEEySWdyUUFoektBc0FZYmF3eTYyOWdBIiwicXVlc3Rpb24iOiJIb3cgY2FuIEkgY2hlY2sgdGhlIHN0YXR1cyBvZiBteSBIREZDIGNvbXBsYWludD8iLCJsayI6IkdoVm9aR1pqSUdOdmJYQnNZV2x1ZENCemRHRjBkWE0iLCJicyI6ImMzV09UUXVDUUJSRmFUc3JFU0p3MHcwaVhGVU1na3NYV1NqdC1nZlRPS1kwem9RekZ2MzdOSTAtb08xOTU5NTN5SUg0cVVFUzd6YmdqYkc2RWpVNHF3WFlsWldTSGFXQVZxREJLb3pvd3B1WEJrV1c4NzhzRFJDU1BWa24tdGFlRkZMd1F2QXpiQ0ZnTExPTmdjNVIzWWVQdXJwSVZpb2IwWWszN29kZjBZQ1RMVUUzWmpWT3d2NklxcVk2aWpxaU0yOWF2Smx2d1o0aFBuRmpEYVZ0cXlYbGMyY1pVZGR6c28tMGF6cWpCdyIsImlkIjoiZmNfRVZTMWF1eklCdDJ0cHRRUG1wUHdvUVlfNSJ9"
+   },
+   {
+    "question": "How to get HDFC customer number?",
+    "type": "ai_overview",
+    "page_token": "yxH2BHicHdBRboIwAIDh7DI-SsHMZSZmSQcVidS02hZ4WaBFq1ToBgPG2-6yU-00M8t_gS__94-51NXvw6i7zrYrxxmGYX5umrMp57KZX2onb79q6cjcmCKX1Wr5tHRfTnIdfG7h6_sWEmYt9yk4ANsKFI95oPQ-rLzDUV2Vr7A01C8NHHGodrmLRsYil3o8ViEEpckm6t9jKiZihKqGTSwegQjGazHpQRiTHRi-poJO2RTFe6Yz7OmaboBHN9amolowoDcZIMOO631xs72sI1BWbs-MfsegdXliW5UgQkAHcHCeUg93gmsjfRTvA2xIonrK6OJuCATDYYEwo7WGgVaIm3hME748sAjENR0UQqRIIFHeMxW0uRBGJ3k1N47oTgiecQamnWi7AhhbBi6moOsLj0N2jNxsmJ1kv17M_n-u3063bmU_mvMfukKEYQ",
+    "serpapi_ai_overview_link": "https://serpapi.com/search.json?engine=google_ai_overview&page_token=yxH2BHicHdBRboIwAIDh7DI-SsHMZSZmSQcVidS02hZ4WaBFq1ToBgPG2-6yU-00M8t_gS__94-51NXvw6i7zrYrxxmGYX5umrMp57KZX2onb79q6cjcmCKX1Wr5tHRfTnIdfG7h6_sWEmYt9yk4ANsKFI95oPQ-rLzDUV2Vr7A01C8NHHGodrmLRsYil3o8ViEEpckm6t9jKiZihKqGTSwegQjGazHpQRiTHRi-poJO2RTFe6Yz7OmaboBHN9amolowoDcZIMOO631xs72sI1BWbs-MfsegdXliW5UgQkAHcHCeUg93gmsjfRTvA2xIonrK6OJuCATDYYEwo7WGgVaIm3hME748sAjENR0UQqRIIFHeMxW0uRBGJ3k1N47oTgiecQamnWi7AhhbBi6moOsLj0N2jNxsmJ1kv17M_n-u3063bmU_mvMfukKEYQ",
+    "next_page_token": "eyJvbnMiOiIxMDA0MSIsImZjIjoiRXFFQkNtSkJTbWxVTkhSTFZUQTRSbkZyUTBwS2VtZEVlVk01ZWxOaFgybHliV1JwYm01bVNVVnhabGRJTXpjeU9FdERUa051WmtSMFFVazVha2RQTlhsbFVscDFMVkpVT1ZsM1Z6TjZUM0JsYkdsa01FdEhPRmQxTm5sUmVHRTNZalZsYW5sa1VSSVhSVlpUTVdGMWVrbENkREowY0hSUlVHMXdVSGR2VVZrYUlrRkVjM0k1WmxRd1FYSkpObTV0YVhoelFsbFRSV1ZpZEhOSlpraG9NRTFrT0hjIiwiZmN2IjoiMyIsImVpIjoiRVZTMWF1eklCdDJ0cHRRUG1wUHdvUVkiLCJxYyI6ImMtT1NOclF3TURBMEEySWdyUUFoektBc0FZYmF3eTYyOWdBIiwicXVlc3Rpb24iOiJIb3cgdG8gZ2V0IEhERkMgY3VzdG9tZXIgbnVtYmVyPyIsImxrIjoiR2g5b2IzY2dkRzhnWjJWMElHaGtabU1nWTNWemRHOXRaWElnYm5WdFltVnkiLCJicyI6ImMzV09UUXVDUUJSRmFUc3JFU0p3MHcwaVhGVU1na3NYV1NqdC1nZlRPS1kwem9RekZ2MzdOSTAtb08xOTU5NTN5SUg0cVVFUzd6YmdqYkc2RWpVNHF3WFlsWldTSGFXQVZxREJLb3pvd3B1WEJrV1c4NzhzRFJDU1BWa24tdGFlRkZMd1F2QXpiQ0ZnTExPTmdjNVIzWWVQdXJwSVZpb2IwWWszN29kZjBZQ1RMVUUzWmpWT3d2NklxcVk2aWpxaU0yOWF2Smx2d1o0aFBuRmpEYVZ0cXlYbGMyY1pVZGR6c28tMGF6cWpCdyIsImlkIjoiZmNfRVZTMWF1eklCdDJ0cHRRUG1wUHdvUVlfNSJ9",
+    "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google_related_questions&google_domain=google.com&next_page_token=eyJvbnMiOiIxMDA0MSIsImZjIjoiRXFFQkNtSkJTbWxVTkhSTFZUQTRSbkZyUTBwS2VtZEVlVk01ZWxOaFgybHliV1JwYm01bVNVVnhabGRJTXpjeU9FdERUa051WmtSMFFVazVha2RQTlhsbFVscDFMVkpVT1ZsM1Z6TjZUM0JsYkdsa01FdEhPRmQxTm5sUmVHRTNZalZsYW5sa1VSSVhSVlpUTVdGMWVrbENkREowY0hSUlVHMXdVSGR2VVZrYUlrRkVjM0k1WmxRd1FYSkpObTV0YVhoelFsbFRSV1ZpZEhOSlpraG9NRTFrT0hjIiwiZmN2IjoiMyIsImVpIjoiRVZTMWF1eklCdDJ0cHRRUG1wUHdvUVkiLCJxYyI6ImMtT1NOclF3TURBMEEySWdyUUFoektBc0FZYmF3eTYyOWdBIiwicXVlc3Rpb24iOiJIb3cgdG8gZ2V0IEhERkMgY3VzdG9tZXIgbnVtYmVyPyIsImxrIjoiR2g5b2IzY2dkRzhnWjJWMElHaGtabU1nWTNWemRHOXRaWElnYm5WdFltVnkiLCJicyI6ImMzV09UUXVDUUJSRmFUc3JFU0p3MHcwaVhGVU1na3NYV1NqdC1nZlRPS1kwem9RekZ2MzdOSTAtb08xOTU5NTN5SUg0cVVFUzd6YmdqYkc2RWpVNHF3WFlsWldTSGFXQVZxREJLb3pvd3B1WEJrV1c4NzhzRFJDU1BWa24tdGFlRkZMd1F2QXpiQ0ZnTExPTmdjNVIzWWVQdXJwSVZpb2IwWWszN29kZjBZQ1RMVUUzWmpWT3d2NklxcVk2aWpxaU0yOWF2Smx2d1o0aFBuRmpEYVZ0cXlYbGMyY1pVZGR6c28tMGF6cWpCdyIsImlkIjoiZmNfRVZTMWF1eklCdDJ0cHRRUG1wUHdvUVlfNSJ9"
+   },
+   {
+    "question": "Do not call HDFC.?",
+    "type": "ai_overview",
+    "page_token": "KBW4RXicHdBdboIwAADg7DI-Ckh0wcQs6YAigToKbbEvCxSVnwKNNDJ82112qp1myb4jfN8_shm63xdea62mvWHM87y-jeNNXtZiXDeDUUzLIAxRSFkWotvvXnfW21UcvGkG7-MMEqIUdbGZtnWeWyoSLeKc8AxtwmPS--2Z-FFJOYlh9RBtZROmUZRXbuapE5f-NpEOFkNtFhCl55ariDmculSeN9s79uq0gL4kWd0iT3e8D0-o01PmYUkCehTMKcpnbGMY9tjTHxhqnRLLZjD84lBHF8860c4hRYAX9AQg7viOeDzHJh6wjFPfpIw8_brKVZgMyVIFwCQUaOEDu7R8DpsQ4AAtJ8YzlmFEMzTiAcHcnGwW1Dh1qyWVYqYMN5xJe3UVj4O9-h87fF57vVf38fYHd1Z5cg",
+    "serpapi_ai_overview_link": "https://serpapi.com/search.json?engine=google_ai_overview&page_token=KBW4RXicHdBdboIwAADg7DI-Ckh0wcQs6YAigToKbbEvCxSVnwKNNDJ82112qp1myb4jfN8_shm63xdea62mvWHM87y-jeNNXtZiXDeDUUzLIAxRSFkWotvvXnfW21UcvGkG7-MMEqIUdbGZtnWeWyoSLeKc8AxtwmPS--2Z-FFJOYlh9RBtZROmUZRXbuapE5f-NpEOFkNtFhCl55ariDmculSeN9s79uq0gL4kWd0iT3e8D0-o01PmYUkCehTMKcpnbGMY9tjTHxhqnRLLZjD84lBHF8860c4hRYAX9AQg7viOeDzHJh6wjFPfpIw8_brKVZgMyVIFwCQUaOEDu7R8DpsQ4AAtJ8YzlmFEMzTiAcHcnGwW1Dh1qyWVYqYMN5xJe3UVj4O9-h87fF57vVf38fYHd1Z5cg",
+    "next_page_token": "eyJvbnMiOiIxMDA0MSIsImZjIjoiRXFFQkNtSkJTbWxVTkhSTFZUQTRSbkZyUTBwS2VtZEVlVk01ZWxOaFgybHliV1JwYm01bVNVVnhabGRJTXpjeU9FdERUa051WmtSMFFVazVha2RQTlhsbFVscDFMVkpVT1ZsM1Z6TjZUM0JsYkdsa01FdEhPRmQxTm5sUmVHRTNZalZsYW5sa1VSSVhSVlpUTVdGMWVrbENkREowY0hSUlVHMXdVSGR2VVZrYUlrRkVjM0k1WmxRd1FYSkpObTV0YVhoelFsbFRSV1ZpZEhOSlpraG9NRTFrT0hjIiwiZmN2IjoiMyIsImVpIjoiRVZTMWF1eklCdDJ0cHRRUG1wUHdvUVkiLCJxYyI6ImMtT1NOclF3TURBMEEySWdyUUFoektBc0FZYmF3eTYyOWdBIiwicXVlc3Rpb24iOiJEbyBub3QgY2FsbCBIREZDLj8iLCJsayI6IkdoQmtieUJ1YjNRZ1kyRnNiQ0JvWkdaaiIsImJzIjoiYzNXT1RRdUNRQlJGYVRzckVTSncwdzBpWEZVTWdrc1hXU2p0LWdmVE9LWTB6b1F6RnYzN05JMC1vTzE5NTk1M3lJSDRxVUVTN3piZ2piRzZFalU0cXdYWWxaV1NIYVdBVnFEQktvem93cHVYQmtXVzg3OHNEUkNTUFZrbi10YWVGRkx3UXZBemJDRmdMTE9OZ2M1UjNZZVB1cnBJVmlvYjBZazM3b2RmMFlDVExVRTNaalZPd3Y2SXFxWTZpanFpTTI5YXZKbHZ3WjRoUG5GakRhVnRxeVhsYzJjWlVkZHpzby0wYXpxakJ3IiwiaWQiOiJmY19FVlMxYXV6SUJ0MnRwdFFQbXBQd29RWV81In0=",
+    "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google_related_questions&google_domain=google.com&next_page_token=eyJvbnMiOiIxMDA0MSIsImZjIjoiRXFFQkNtSkJTbWxVTkhSTFZUQTRSbkZyUTBwS2VtZEVlVk01ZWxOaFgybHliV1JwYm01bVNVVnhabGRJTXpjeU9FdERUa051WmtSMFFVazVha2RQTlhsbFVscDFMVkpVT1ZsM1Z6TjZUM0JsYkdsa01FdEhPRmQxTm5sUmVHRTNZalZsYW5sa1VSSVhSVlpUTVdGMWVrbENkREowY0hSUlVHMXdVSGR2VVZrYUlrRkVjM0k1WmxRd1FYSkpObTV0YVhoelFsbFRSV1ZpZEhOSlpraG9NRTFrT0hjIiwiZmN2IjoiMyIsImVpIjoiRVZTMWF1eklCdDJ0cHRRUG1wUHdvUVkiLCJxYyI6ImMtT1NOclF3TURBMEEySWdyUUFoektBc0FZYmF3eTYyOWdBIiwicXVlc3Rpb24iOiJEbyBub3QgY2FsbCBIREZDLj8iLCJsayI6IkdoQmtieUJ1YjNRZ1kyRnNiQ0JvWkdaaiIsImJzIjoiYzNXT1RRdUNRQlJGYVRzckVTSncwdzBpWEZVTWdrc1hXU2p0LWdmVE9LWTB6b1F6RnYzN05JMC1vTzE5NTk1M3lJSDRxVUVTN3piZ2piRzZFalU0cXdYWWxaV1NIYVdBVnFEQktvem93cHVYQmtXVzg3OHNEUkNTUFZrbi10YWVGRkx3UXZBemJDRmdMTE9OZ2M1UjNZZVB1cnBJVmlvYjBZazM3b2RmMFlDVExVRTNaalZPd3Y2SXFxWTZpanFpTTI5YXZKbHZ3WjRoUG5GakRhVnRxeVhsYzJjWlVkZHpzby0wYXpxakJ3IiwiaWQiOiJmY19FVlMxYXV6SUJ0MnRwdFFQbXBQd29RWV81In0%3D"
+   }
+  ],
+  "organic_results": [
+   {
+    "position": 1,
+    "title": "Customer Care – 24x7 Support & Assistance",
+    "link": "https://www.hdfc.bank.in/contact-us/customer-care",
+    "redirect_link": "https://www.google.co.in/url?sa=t&source=web&rct=j&opi=89978449&url=CAESaQHrOzAV_jUhqdnxkvpOIp_Ixphdn9cYsVYppRc0_ytsA95HYYpAY1G8fCiJIRv4TDl7T-8YL_HF9VvMtyLRH4H9rCInUhlBnx8QgfJCrKUzxHKJxLilJcAenC-cxnFccbKG_JuMdoq3lg&ved=2ahUKEwislYjQ1YeXAxXdlokEHZoJPGQQFnoECA8QAQ&uoh=1",
+    "displayed_link": "https://www.hdfc.bank.in › Contact Us",
+    "snippet": "... 1800 1600 / 1800 2600(opens in a new tab). From outside India customers can call on: +91 22 6160 6160. Get in touch with us for your Banking needs on our ...",
+    "snippet_highlighted_words": [
+     "1800 1600 / 1800"
+    ],
+    "about_this_result": {
+     "source": {
+      "description": "... 1800 1600 / 1800 2600(opens in a new tab). From outside India customers can call on: +91 22 6160 6160. Get in touch with us for your Banking needs on our ...",
+      "source_info_link": "https://www.hdfc.bank.in/contact-us/customer-care",
+      "icon": "https://serpapi.com/images/i/UklGRsYAAABXRUJQVlA4ILoAAADQAgCdASoQABAAAsBMJbACdHMAmzcGLFjlaFjhUUQAAPyP9teCXBj-RQq1foqDpwlIO1WzwVb4IKBMaqDdXfmeQoQxw_xLipsf9ynWrn3VvDKDO4TtF57i8RzEjZ6xXBq7Y378UGemT2YxTrDBpkV6YI8wHI_2JKInxjnyDDFmd8Mlga1q0eZIPvfa8TnvMT82OKenmFBf3_8dBj9zKL6iP_jV0j90lF9RH_nOOY4aaRnAl9IZSVlAAAA.webp"
+     },
+     "languages": [
+      "en"
+     ],
+     "regions": [
+      "IN"
+     ]
+    },
+    "about_page_link": "https://www.google.co.in/search/about-this-result?origin=www.google.com&req=CpwBL2dvdG8_dXJsPUNBRVNhUUhyT3pBVl9qVWhxZG54a3ZwT0lwX0l4cGhkbjljWXNWWXBwUmMwX3l0c0E5NUhZWXBBWTFHOGZDaUpJUnY0VERsN1QtOFlMX0hGOVZ2TXR5TFJINEg5ckNJblVobEJueDhRZ2ZKQ3JLVXp4SEtKeExpbEpjQWVuQy1jeG5GY2NiS0dfSnVNZG9xM2xnEgQaAggAGt8DEgIIABoAIgAqADIGCAESAmluOgBCBAgBEABKAFoAcgB6AIJAuQMIABAAGAAgACojCgwxODAwMTYwMDE4MDAVLGLHPBoOMTgwMCAxNjAwIDE4MDAynAEvZ290bz91cmw9Q0FFU2FRSHJPekFWX2pVaHFkbnhrdnBPSXBfSXhwaGRuOWNZc1ZZcHBSYzBfeXRzQTk1SFlZcEFZMUc4ZkNpSklSdjRURGw3VC04WUxfSEY5VnZNdHlMUkg0SDlyQ0luVWhsQm54OFFnZkpDcktVenhIS0p4TGlsSmNBZW5DLWN4bkZjY2JLR19KdU1kb3EzbGc6O0N1c3RvbWVyIENhcmUg4oCTIDI0eDcgU3VwcG9ydCAmYW1wOyBBc3Npc3RhbmNlIC0gSERGQyBCYW5rQq0BLi4uIDxiPjE4MDAgMTYwMCAvIDE4MDA8L2I-IDI2MDAob3BlbnMgaW4gYSBuZXcgdGFiKS4gRnJvbSBvdXRzaWRlIEluZGlhIGN1c3RvbWVycyBjYW4gY2FsbCBvbjogKzkxIDIyIDYxNjAgNjE2MC4gR2V0IGluIHRvdWNoIHdpdGggdXMgZm9yIHlvdXIgQmFua2luZyBuZWVkcyBvbiBvdXImbmJzcDsuLi4iAhABSABYAGgA",
+    "about_page_serpapi_link": "https://serpapi.com/search.json?engine=google_about_this_result&google_domain=google.co.in&req_token=CpwBL2dvdG8_dXJsPUNBRVNhUUhyT3pBVl9qVWhxZG54a3ZwT0lwX0l4cGhkbjljWXNWWXBwUmMwX3l0c0E5NUhZWXBBWTFHOGZDaUpJUnY0VERsN1QtOFlMX0hGOVZ2TXR5TFJINEg5ckNJblVobEJueDhRZ2ZKQ3JLVXp4SEtKeExpbEpjQWVuQy1jeG5GY2NiS0dfSnVNZG9xM2xnEgQaAggAGt8DEgIIABoAIgAqADIGCAESAmluOgBCBAgBEABKAFoAcgB6AIJAuQMIABAAGAAgACojCgwxODAwMTYwMDE4MDAVLGLHPBoOMTgwMCAxNjAwIDE4MDAynAEvZ290bz91cmw9Q0FFU2FRSHJPekFWX2pVaHFkbnhrdnBPSXBfSXhwaGRuOWNZc1ZZcHBSYzBfeXRzQTk1SFlZcEFZMUc4ZkNpSklSdjRURGw3VC04WUxfSEY5VnZNdHlMUkg0SDlyQ0luVWhsQm54OFFnZkpDcktVenhIS0p4TGlsSmNBZW5DLWN4bkZjY2JLR19KdU1kb3EzbGc6O0N1c3RvbWVyIENhcmUg4oCTIDI0eDcgU3VwcG9ydCAmYW1wOyBBc3Npc3RhbmNlIC0gSERGQyBCYW5rQq0BLi4uIDxiPjE4MDAgMTYwMCAvIDE4MDA8L2I-IDI2MDAob3BlbnMgaW4gYSBuZXcgdGFiKS4gRnJvbSBvdXRzaWRlIEluZGlhIGN1c3RvbWVycyBjYW4gY2FsbCBvbjogKzkxIDIyIDYxNjAgNjE2MC4gR2V0IGluIHRvdWNoIHdpdGggdXMgZm9yIHlvdXIgQmFua2luZyBuZWVkcyBvbiBvdXImbmJzcDsuLi4iAhABSABYAGgA",
+    "source": "HDFC Bank",
+    "read_more_link": "https://www.hdfc.bank.in/contact-us/customer-care#:~:text=1800%201600%20%2F%201800%202600,needs%20on%20our%20helpline%20number."
+   },
+   {
+    "position": 2,
+    "title": "HDFC Credit Card Customer Care | 24×7 Toll-Free Number",
+    "link": "https://moneyview.in/credit-card/hdfc-bank-credit-card-customer-care-number",
+    "redirect_link": "https://www.google.co.in/url?sa=t&source=web&rct=j&opi=89978449&url=CAESgwEB6zswFRR6vp0sGo-wGkSj2gJwD9LpAJxAKLZ86NzQvedS9qsUzolzWRdbptdpa7hXNKbRsNeuBClvCZptXDwfM3qUpiHb7kWvneyY2EjPPP-C6s5bz3JayAMAJpetxFxF2KwZbu1uAHoQgGU7-1hVQcimsgQbibW2g_uwHv1m7HpLDA&ved=2ahUKEwislYjQ1YeXAxXdlokEHZoJPGQQFnoECBAQAQ&uoh=1",
+    "displayed_link": "https://moneyview.in › Apply For Credit Card",
+    "snippet": "... 1800 1600 / 1800 2600. To know more about All Bank Credit Card Customer Care Numbers. credit card customer care numbers. What are the Other HDFC Credit Card ...",
+    "snippet_highlighted_words": [
+     "1800 1600 / 1800"
+    ],
+    "about_this_result": {
+     "source": {
+      "description": "... 1800 1600 / 1800 2600. To know more about All Bank Credit Card Customer Care Numbers. credit card customer care numbers. What are the Other HDFC Credit Card ...",
+      "source_info_link": "https://moneyview.in/credit-card/hdfc-bank-credit-card-customer-care-number",
+      "icon": "https://serpapi.com/images/i/UklGRmABAABXRUJQVlA4IFQBAACwBwCdASocABwAPtE-tFooIigoFAEAGglmAIAIVl8gHPs53qI71q_sAGz_bb22cXAMTq1SUeLfDgmBkse1t3E4xy2_1jAAAP72EX2ghRtxcdfmTgD_iUVwgwIJJiQYJP53WKg2VvTKPOkqxA1Qe2_9R-5iHv9xqgoUJSnBCF_dbN1bFkLUjDzgSAwJ2Slbk7zKYfzYgvcaRFD2P7Wl6lcmAIsbUKARMY4cYs0WIA8yuVUjFWnLl-QkSuzRD-aDruT_4jzm8kIeNGsXu1UNR8-0T5S0Mcvc1aZN3--XO2T9OUhyBhhZ88X9MSwyxoJBkCBc2fQlvTzW7ebZOb0x7-PkSRiL7sUxxCRZV2GCIStxFotdCHv7fo03MyCS9cp3FmFMzy6-ttN4pZtmbaplGvcBYnRL_Vsig2GYKeU21Pf89FPxo3JpybT2Tsu7Rnnrq_r5QAAA.webp"
+     },
+     "languages": [
+      "en"
+     ],
+     "regions": [
+      "IN"
+     ]
+    },
+    "about_page_link": "https://www.google.co.in/search/about-this-result?origin=www.google.com&req=CsABL2dvdG8_dXJsPUNBRVNnd0VCNnpzd0ZSUjZ2cDBzR28td0drU2oyZ0p3RDlMcEFKeEFLTFo4Nk56UXZlZFM5cXNVem9seldSZGJwdGRwYTdoWE5LYlJzTmV1QkNsdkNacHRYRHdmTTNxVXBpSGI3a1d2bmV5WTJFalBQUC1DNnM1YnozSmF5QU1BSnBldHhGeEYyS3daYnUxdUFIb1FnR1U3LTFoVlFjaW1zZ1FiaWJXMmdfdXdIdjFtN0hwTERBEgQaAggAGoAEEgAaACIAKgAyBggBEgJpbjoAQgQIARAASgBaAHIAegCCQNwDCAAQABgAIAAqIwoMMTgwMDE2MDAxODAwFULc1j4aDjE4MDAgMTYwMCAxODAwMsABL2dvdG8_dXJsPUNBRVNnd0VCNnpzd0ZSUjZ2cDBzR28td0drU2oyZ0p3RDlMcEFKeEFLTFo4Nk56UXZlZFM5cXNVem9seldSZGJwdGRwYTdoWE5LYlJzTmV1QkNsdkNacHRYRHdmTTNxVXBpSGI3a1d2bmV5WTJFalBQUC1DNnM1YnozSmF5QU1BSnBldHhGeEYyS3daYnUxdUFIb1FnR1U3LTFoVlFjaW1zZ1FiaWJXMmdfdXdIdjFtN0hwTERBOjdIREZDIENyZWRpdCBDYXJkIEN1c3RvbWVyIENhcmUgfCAyNMOXNyBUb2xsLUZyZWUgTnVtYmVyQrABLi4uIDxiPjE4MDAgMTYwMCAvIDE4MDA8L2I-IDI2MDAuIFRvIGtub3cgbW9yZSBhYm91dCBBbGwgQmFuayBDcmVkaXQgQ2FyZCBDdXN0b21lciBDYXJlIE51bWJlcnMuIGNyZWRpdCBjYXJkIGN1c3RvbWVyIGNhcmUgbnVtYmVycy4gV2hhdCBhcmUgdGhlIE90aGVyIEhERkMgQ3JlZGl0IENhcmQmbmJzcDsuLi4iAhABSABYAGgA",
+    "about_page_serpapi_link": "https://serpapi.com/search.json?engine=google_about_this_result&google_domain=google.co.in&req_token=CsABL2dvdG8_dXJsPUNBRVNnd0VCNnpzd0ZSUjZ2cDBzR28td0drU2oyZ0p3RDlMcEFKeEFLTFo4Nk56UXZlZFM5cXNVem9seldSZGJwdGRwYTdoWE5LYlJzTmV1QkNsdkNacHRYRHdmTTNxVXBpSGI3a1d2bmV5WTJFalBQUC1DNnM1YnozSmF5QU1BSnBldHhGeEYyS3daYnUxdUFIb1FnR1U3LTFoVlFjaW1zZ1FiaWJXMmdfdXdIdjFtN0hwTERBEgQaAggAGoAEEgAaACIAKgAyBggBEgJpbjoAQgQIARAASgBaAHIAegCCQNwDCAAQABgAIAAqIwoMMTgwMDE2MDAxODAwFULc1j4aDjE4MDAgMTYwMCAxODAwMsABL2dvdG8_dXJsPUNBRVNnd0VCNnpzd0ZSUjZ2cDBzR28td0drU2oyZ0p3RDlMcEFKeEFLTFo4Nk56UXZlZFM5cXNVem9seldSZGJwdGRwYTdoWE5LYlJzTmV1QkNsdkNacHRYRHdmTTNxVXBpSGI3a1d2bmV5WTJFalBQUC1DNnM1YnozSmF5QU1BSnBldHhGeEYyS3daYnUxdUFIb1FnR1U3LTFoVlFjaW1zZ1FiaWJXMmdfdXdIdjFtN0hwTERBOjdIREZDIENyZWRpdCBDYXJkIEN1c3RvbWVyIENhcmUgfCAyNMOXNyBUb2xsLUZyZWUgTnVtYmVyQrABLi4uIDxiPjE4MDAgMTYwMCAvIDE4MDA8L2I-IDI2MDAuIFRvIGtub3cgbW9yZSBhYm91dCBBbGwgQmFuayBDcmVkaXQgQ2FyZCBDdXN0b21lciBDYXJlIE51bWJlcnMuIGNyZWRpdCBjYXJkIGN1c3RvbWVyIGNhcmUgbnVtYmVycy4gV2hhdCBhcmUgdGhlIE90aGVyIEhERkMgQ3JlZGl0IENhcmQmbmJzcDsuLi4iAhABSABYAGgA",
+    "source": "Moneyview",
+    "read_more_link": "https://moneyview.in/credit-card/hdfc-bank-credit-card-customer-care-number#:~:text=1800%201600%20%2F%201800%202600,Credit%20Card%20Customer%20Care%20Numbers%3F"
+   },
+   {
+    "position": 3,
+    "title": "\"our 24 hour Phone Banking numbers 1800 1600 / ...",
+    "link": "https://x.com/HDFCBank_Cares/status/1837096054040449338",
+    "redirect_link": "https://www.google.co.in/url?sa=t&source=web&rct=j&opi=89978449&url=CAESbwHrOzAVIZpmPWgX2BQGwUXF4SKxOHnEkSU3kSv0096vQ2Tjo_t_5DG1QjaJ7m_oiAxDAfTZ_F3M3WsfYoG3lxVgjsxuqrJxUQqkUDBEPuSNusUvWHw5mR2n1XHImF57ihgoTZsVjWj8R5h-wQEP3Q&ved=2ahUKEwislYjQ1YeXAxXdlokEHZoJPGQQFnoECBwQAQ&uoh=1",
+    "displayed_link": "2 years ago",
+    "snippet": "our 24 hour Phone Banking numbers 1800 1600 / 1800 2600 or write to us at customerservices.cards@hdfcbank.com from your registered e-mail ID ...",
+    "snippet_highlighted_words": [
+     "1800 1600 / 1800"
+    ],
+    "about_this_result": {
+     "source": {
+      "description": "our 24 hour Phone Banking numbers 1800 1600 / 1800 2600 or write to us at customerservices.cards@hdfcbank.com from your registered e-mail ID ...",
+      "source_info_link": "https://x.com/HDFCBank_Cares/status/1837096054040449338",
+      "icon": "https://serpapi.com/images/i/iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAAAAABXZoBIAAAAqUlEQVR4AdXQEQwCUQDG8b87pFkcRmGuyfFpFB-HuZ20_DA4yndLHj17dHJ08G_V1qp7vvWjT77t28cfKlIIMS54KmPa8uli35l4WGvNtyQ7G2CmF37M7WncQe-NidKW5CyYyDhboY5kRZelLshz5OyevK0dySVZNz1iT07r0LkpbJmqdcUoJyt-VVrAxkB0NRnzKhysGQfevt--mgavfOpi844hhFjyf-4xHWjgrPr73gAAAABJRU5ErkJggg.png"
+     },
+     "languages": [
+      "en"
+     ],
+     "regions": [
+      "IN"
+     ]
+    },
+    "about_page_link": "https://www.google.co.in/search/about-this-result?origin=www.google.com&req=CqQBL2dvdG8_dXJsPUNBRVNid0hyT3pBVklacG1QV2dYMkJRR3dVWEY0U0t4T0huRWtTVTNrU3YwMDk2dlEyVGpvX3RfNURHMVFqYUo3bV9vaUF4REFmVFpfRjNNM1dzZllvRzNseFZnanN4dXFySnhVUXFrVURCRVB1U051c1V2V0h3NW1SMm4xWEhJbUY1N2loZ29UWnNWaldqOFI1aC13UUVQM1ESBBoCCAAarQMSABoAIgAqADIGCAMSAmluOgBCBAgBEABKAFoAcgB6AIJAiQMIABAAGAAgACojCgwxODAwMTYwMDE4MDAVbk1iQBoOMTgwMCAxNjAwIDE4MDAypAEvZ290bz91cmw9Q0FFU2J3SHJPekFWSVpwbVBXZ1gyQlFHd1VYRjRTS3hPSG5Fa1NVM2tTdjAwOTZ2UTJUam9fdF81REcxUWphSjdtX29pQXhEQWZUWl9GM00zV3NmWW9HM2x4Vmdqc3h1cXJKeFVRcWtVREJFUHVTTnVzVXZXSHc1bVIybjFYSEltRjU3aWhnb1Rac1ZqV2o4UjVoLXdRRVAzUToUSERGQyBCYW5rIENhcmVzIG9uIFhCnAFvdXIgMjQgaG91ciBQaG9uZSBCYW5raW5nIG51bWJlcnMgPGI-MTgwMCAxNjAwIC8gMTgwMDwvYj4gMjYwMCBvciB3cml0ZSB0byB1cyBhdCBjdXN0b21lcnNlcnZpY2VzLmNhcmRzQGhkZmNiYW5rLmNvbSBmcm9tIHlvdXIgcmVnaXN0ZXJlZCBlLW1haWwgSUQmbmJzcDsuLi4iAhABSABYAGgA",
+    "about_page_serpapi_link": "https://serpapi.com/search.json?engine=google_about_this_result&google_domain=google.co.in&req_token=CqQBL2dvdG8_dXJsPUNBRVNid0hyT3pBVklacG1QV2dYMkJRR3dVWEY0U0t4T0huRWtTVTNrU3YwMDk2dlEyVGpvX3RfNURHMVFqYUo3bV9vaUF4REFmVFpfRjNNM1dzZllvRzNseFZnanN4dXFySnhVUXFrVURCRVB1U051c1V2V0h3NW1SMm4xWEhJbUY1N2loZ29UWnNWaldqOFI1aC13UUVQM1ESBBoCCAAarQMSABoAIgAqADIGCAMSAmluOgBCBAgBEABKAFoAcgB6AIJAiQMIABAAGAAgACojCgwxODAwMTYwMDE4MDAVbk1iQBoOMTgwMCAxNjAwIDE4MDAypAEvZ290bz91cmw9Q0FFU2J3SHJPekFWSVpwbVBXZ1gyQlFHd1VYRjRTS3hPSG5Fa1NVM2tTdjAwOTZ2UTJUam9fdF81REcxUWphSjdtX29pQXhEQWZUWl9GM00zV3NmWW9HM2x4Vmdqc3h1cXJKeFVRcWtVREJFUHVTTnVzVXZXSHc1bVIybjFYSEltRjU3aWhnb1Rac1ZqV2o4UjVoLXdRRVAzUToUSERGQyBCYW5rIENhcmVzIG9uIFhCnAFvdXIgMjQgaG91ciBQaG9uZSBCYW5raW5nIG51bWJlcnMgPGI-MTgwMCAxNjAwIC8gMTgwMDwvYj4gMjYwMCBvciB3cml0ZSB0byB1cyBhdCBjdXN0b21lcnNlcnZpY2VzLmNhcmRzQGhkZmNiYW5rLmNvbSBmcm9tIHlvdXIgcmVnaXN0ZXJlZCBlLW1haWwgSUQmbmJzcDsuLi4iAhABSABYAGgA",
+    "source": "X · HDFCBank_Cares"
+   },
+   {
+    "position": 4,
+    "title": "HDFC Bank Customer Care | 24×7 Toll-Free Number",
+    "link": "https://www.paisabazaar.com/hdfc-bank/customer-care/",
+    "redirect_link": "https://www.google.co.in/url?sa=t&source=web&rct=j&opi=89978449&url=CAESbAHrOzAVNj_fax63S6P0dRCVQa_3UIjC63unJq5jzRQLEU_32ZM4jk3LRdNV1KMS-kKlBgORqIPl540zoc1U2kwPL9lyBk3B9MKeIzJOY7Y2-JZpSBh-SJ4UUex_fLqUHFmrXLmG9lJ9HfUz6A&ved=2ahUKEwislYjQ1YeXAxXdlokEHZoJPGQQFnoECBUQAQ&uoh=1",
+    "displayed_link": "https://www.paisabazaar.com › ... › HDFC Debit Card",
+    "date": "10 May 2026",
+    "snippet": "can access customer service 24x7 from anywhere and anytime via its toll-free numbers 1800-1600 / 1800-2600. Home Debit Card HDFC Debit Card ...",
+    "snippet_highlighted_words": [
+     "1800-1600 / 1800"
+    ],
+    "about_this_result": {
+     "source": {
+      "description": "can access customer service 24x7 from anywhere and anytime via its toll-free numbers 1800-1600 / 1800-2600. Home Debit Card HDFC Debit Card ...",
+      "source_info_link": "https://www.paisabazaar.com/hdfc-bank/customer-care/",
+      "icon": "https://serpapi.com/images/i/UklGRo4AAABXRUJQVlA4IIIAAACQAgCdASoQABAAAsBMJbACdLoB-AACnPvwjd_AoAD-iI6y7Qn9XDNAQWoYSuSxM4-vPj7mAbBha-xem6T_gduNqcqcE-T9anZ4RR8VEUMVPtJhNtPf2I9c6VSMpQsUyFsGSX_56qGY5jxnT3r58tkv3qxOQf-LS0yONgZK_OauuuAA.webp"
+     },
+     "languages": [
+      "en"
+     ],
+     "regions": [
+      "IN"
+     ]
+    },
+    "about_page_link": "https://www.google.co.in/search/about-this-result?origin=www.google.com&req=CqABL2dvdG8_dXJsPUNBRVNiQUhyT3pBVk5qX2ZheDYzUzZQMGRSQ1ZRYV8zVUlqQzYzdW5KcTVqelJRTEVVXzMyWk00amszTFJkTlYxS01TLWtLbEJnT1JxSVBsNTQwem9jMVUya3dQTDlseUJrM0I5TUtlSXpKT1k3WTItSlpwU0JoLVNKNFVVZXhfZkxxVUhGbXJYTG1HOWxKOUhmVXo2QRIEGgIIABrGAxICCAAaACIAKgAyBggBEgJpbjoAQgQIARAASgBaAHIAegCCQKADCAAQABgAIAAqIwoMMTgwMDE2MDAxODAwFRef0T4aDjE4MDAgMTYwMCAxODAwMqABL2dvdG8_dXJsPUNBRVNiQUhyT3pBVk5qX2ZheDYzUzZQMGRSQ1ZRYV8zVUlqQzYzdW5KcTVqelJRTEVVXzMyWk00amszTFJkTlYxS01TLWtLbEJnT1JxSVBsNTQwem9jMVUya3dQTDlseUJrM0I5TUtlSXpKT1k3WTItSlpwU0JoLVNKNFVVZXhfZkxxVUhGbXJYTG1HOWxKOUhmVXo2QTowSERGQyBCYW5rIEN1c3RvbWVyIENhcmUgfCAyNMOXNyBUb2xsLUZyZWUgTnVtYmVyQpsBY2FuIGFjY2VzcyBjdXN0b21lciBzZXJ2aWNlIDI0eDcgZnJvbSBhbnl3aGVyZSBhbmQgYW55dGltZSB2aWEgaXRzIHRvbGwtZnJlZSBudW1iZXJzIDxiPjE4MDAtMTYwMCAvIDE4MDA8L2I-LTI2MDAuIEhvbWUgRGViaXQgQ2FyZCBIREZDIERlYml0IENhcmQmbmJzcDsuLi4iAhABSABYAGgA",
+    "about_page_serpapi_link": "https://serpapi.com/search.json?engine=google_about_this_result&google_domain=google.co.in&req_token=CqABL2dvdG8_dXJsPUNBRVNiQUhyT3pBVk5qX2ZheDYzUzZQMGRSQ1ZRYV8zVUlqQzYzdW5KcTVqelJRTEVVXzMyWk00amszTFJkTlYxS01TLWtLbEJnT1JxSVBsNTQwem9jMVUya3dQTDlseUJrM0I5TUtlSXpKT1k3WTItSlpwU0JoLVNKNFVVZXhfZkxxVUhGbXJYTG1HOWxKOUhmVXo2QRIEGgIIABrGAxICCAAaACIAKgAyBggBEgJpbjoAQgQIARAASgBaAHIAegCCQKADCAAQABgAIAAqIwoMMTgwMDE2MDAxODAwFRef0T4aDjE4MDAgMTYwMCAxODAwMqABL2dvdG8_dXJsPUNBRVNiQUhyT3pBVk5qX2ZheDYzUzZQMGRSQ1ZRYV8zVUlqQzYzdW5KcTVqelJRTEVVXzMyWk00amszTFJkTlYxS01TLWtLbEJnT1JxSVBsNTQwem9jMVUya3dQTDlseUJrM0I5TUtlSXpKT1k3WTItSlpwU0JoLVNKNFVVZXhfZkxxVUhGbXJYTG1HOWxKOUhmVXo2QTowSERGQyBCYW5rIEN1c3RvbWVyIENhcmUgfCAyNMOXNyBUb2xsLUZyZWUgTnVtYmVyQpsBY2FuIGFjY2VzcyBjdXN0b21lciBzZXJ2aWNlIDI0eDcgZnJvbSBhbnl3aGVyZSBhbmQgYW55dGltZSB2aWEgaXRzIHRvbGwtZnJlZSBudW1iZXJzIDxiPjE4MDAtMTYwMCAvIDE4MDA8L2I-LTI2MDAuIEhvbWUgRGViaXQgQ2FyZCBIREZDIERlYml0IENhcmQmbmJzcDsuLi4iAhABSABYAGgA",
+    "source": "Paisabazaar",
+    "read_more_link": "https://www.paisabazaar.com/hdfc-bank/customer-care/#:~:text=can%20access%20customer%20service%2024x7,Debit%20Card%20HDFC%20Customer%20Care"
+   },
+   {
+    "position": 5,
+    "title": "HDFC Bank Contact Details - Customer Care, Queries ...",
+    "link": "https://www.hdfc.bank.in/contact-us",
+    "redirect_link": "https://www.google.co.in/url?sa=t&source=web&rct=j&opi=89978449&url=CAESWwHrOzAVAdKSpj-QYT-CsxDQEx0wJwiRobxgZgI2qKu2e3VSadQyDzY16KmzjY3KIAvJaoCi861OFRz1gYp_a-3qQNDvz3Y5cR4TeYBJTAp7Gizva1MtLSYCu3c&ved=2ahUKEwislYjQ1YeXAxXdlokEHZoJPGQQFnoECB8QAQ&uoh=1",
+    "displayed_link": "https://www.hdfc.bank.in › contact-us",
+    "snippet": "... 1800 1600 / 1800 2600 (accessible across India). Credit Card Miselling. For any sales queries on mis-selling / harassment / complaints, please write to ...",
+    "snippet_highlighted_words": [
+     "1800 1600 / 1800"
+    ],
+    "about_this_result": {
+     "source": {
+      "description": "... 1800 1600 / 1800 2600 (accessible across India). Credit Card Miselling. For any sales queries on mis-selling / harassment / complaints, please write to ...",
+      "source_info_link": "https://www.hdfc.bank.in/contact-us",
+      "icon": "https://serpapi.com/images/i/UklGRsYAAABXRUJQVlA4ILoAAADQAgCdASoQABAAAsBMJbACdHMAmzcGLFjlaFjhUUQAAPyP9teCXBj-RQq1foqDpwlIO1WzwVb4IKBMaqDdXfmeQoQxw_xLipsf9ynWrn3VvDKDO4TtF57i8RzEjZ6xXBq7Y378UGemT2YxTrDBpkV6YI8wHI_2JKInxjnyDDFmd8Mlga1q0eZIPvfa8TnvMT82OKenmFBf3_8dBj9zKL6iP_jV0j90lF9RH_nOOY4aaRnAl9IZSVlAAAA.webp"
+     },
+     "languages": [
+      "en"
+     ],
+     "regions": [
+      "IN"
+     ]
+    },
+    "about_page_link": "https://www.google.co.in/search/about-this-result?origin=www.google.com&req=CokBL2dvdG8_dXJsPUNBRVNXd0hyT3pBVkFkS1Nwai1RWVQtQ3N4RFFFeDB3SndpUm9ieGdaZ0kycUt1MmUzVlNhZFF5RHpZMTZLbXpqWTNLSUF2SmFvQ2k4NjFPRlJ6MWdZcF9hLTNxUU5EdnozWTVjUjRUZVlCSlRBcDdHaXp2YTFNdExTWUN1M2MSBBoCCAAaxQMSAggAGgAiACoAMgYIARICaW46AEIECAEQAEoAWgByAHoAgkCfAwgAEAAYACAAKiMKDDE4MDAxNjAwMTgwMBVPpb88Gg4xODAwIDE2MDAgMTgwMDKJAS9nb3RvP3VybD1DQUVTV3dIck96QVZBZEtTcGotUVlULUNzeERRRXgwd0p3aVJvYnhnWmdJMnFLdTJlM1ZTYWRReUR6WTE2S216alkzS0lBdkphb0NpODYxT0ZSejFnWXBfYS0zcVFORHZ6M1k1Y1I0VGVZQkpUQXA3R2l6dmExTXRMU1lDdTNjOjZIREZDIEJhbmsgQ29udGFjdCBEZXRhaWxzIC0gQ3VzdG9tZXIgQ2FyZSwgUXVlcmllcyAuLi5CqwEuLi4gPGI-MTgwMCAxNjAwIC8gMTgwMDwvYj4gMjYwMCAoYWNjZXNzaWJsZSBhY3Jvc3MgSW5kaWEpLiBDcmVkaXQgQ2FyZCBNaXNlbGxpbmcuIEZvciBhbnkgc2FsZXMgcXVlcmllcyBvbiBtaXMtc2VsbGluZyAvIGhhcmFzc21lbnQgLyBjb21wbGFpbnRzLCBwbGVhc2Ugd3JpdGUgdG8mbmJzcDsuLi4iAhABSABYAGgA",
+    "about_page_serpapi_link": "https://serpapi.com/search.json?engine=google_about_this_result&google_domain=google.co.in&req_token=CokBL2dvdG8_dXJsPUNBRVNXd0hyT3pBVkFkS1Nwai1RWVQtQ3N4RFFFeDB3SndpUm9ieGdaZ0kycUt1MmUzVlNhZFF5RHpZMTZLbXpqWTNLSUF2SmFvQ2k4NjFPRlJ6MWdZcF9hLTNxUU5EdnozWTVjUjRUZVlCSlRBcDdHaXp2YTFNdExTWUN1M2MSBBoCCAAaxQMSAggAGgAiACoAMgYIARICaW46AEIECAEQAEoAWgByAHoAgkCfAwgAEAAYACAAKiMKDDE4MDAxNjAwMTgwMBVPpb88Gg4xODAwIDE2MDAgMTgwMDKJAS9nb3RvP3VybD1DQUVTV3dIck96QVZBZEtTcGotUVlULUNzeERRRXgwd0p3aVJvYnhnWmdJMnFLdTJlM1ZTYWRReUR6WTE2S216alkzS0lBdkphb0NpODYxT0ZSejFnWXBfYS0zcVFORHZ6M1k1Y1I0VGVZQkpUQXA3R2l6dmExTXRMU1lDdTNjOjZIREZDIEJhbmsgQ29udGFjdCBEZXRhaWxzIC0gQ3VzdG9tZXIgQ2FyZSwgUXVlcmllcyAuLi5CqwEuLi4gPGI-MTgwMCAxNjAwIC8gMTgwMDwvYj4gMjYwMCAoYWNjZXNzaWJsZSBhY3Jvc3MgSW5kaWEpLiBDcmVkaXQgQ2FyZCBNaXNlbGxpbmcuIEZvciBhbnkgc2FsZXMgcXVlcmllcyBvbiBtaXMtc2VsbGluZyAvIGhhcmFzc21lbnQgLyBjb21wbGFpbnRzLCBwbGVhc2Ugd3JpdGUgdG8mbmJzcDsuLi4iAhABSABYAGgA",
+    "source": "HDFC Bank",
+    "read_more_link": "https://www.hdfc.bank.in/contact-us#:~:text=HDFC%20Bank%20Services%20Online%2F%20Insta"
+   },
+   {
+    "position": 6,
+    "title": "HDFC Bank Home Loan Customer Care Number",
+    "link": "https://www.paisabazaar.com/hdfc-bank/home-loan-customer-care-number/",
+    "redirect_link": "https://www.google.co.in/url?sa=t&source=web&rct=j&opi=89978449&url=CAESfQHrOzAVEa3h9woCcWMi8OBaEeJQ2BOIorH-SaZeKW194jGTbEbGtht6JWLA4kj9I8GR6CBIddu8ihxRSeUhTG5feGUi3vvRmUE1CbziGetEomhwVLlm63GMSG74z7yKGq5D5J8Ni4AXbd1L80qxRmWW7wlkx6KZ7_gx1hQX&ved=2ahUKEwislYjQ1YeXAxXdlokEHZoJPGQQFnoECBEQAQ&uoh=1",
+    "displayed_link": "https://www.paisabazaar.com › HDFC Home Loan",
+    "snippet": "1800 1600 / 1800 2600. Bihar, Name: Sushant ShekharContact No: 7485072506. Banking No: 1800 1600 / 1800 2600. Chhattisgarh, Name: Debmalya SenContact No ...",
+    "snippet_highlighted_words": [
+     "1800 1600 / 1800",
+     "1800 1600 / 1800"
+    ],
+    "rich_snippet": {
+     "top": {
+      "detected_extensions": {
+       "rating": 4.5,
+       "reviews": 1565337
+      },
+      "extensions": [
+       "4.5(15,65,337)"
+      ]
+     }
+    },
+    "about_this_result": {
+     "source": {
+      "description": "1800 1600 / 1800 2600. Bihar, Name: Sushant ShekharContact No: 7485072506. Banking No: 1800 1600 / 1800 2600. Chhattisgarh, Name: Debmalya SenContact No ...",
+      "source_info_link": "https://www.paisabazaar.com/hdfc-bank/home-loan-customer-care-number/",
+      "icon": "https://serpapi.com/images/i/UklGRo4AAABXRUJQVlA4IIIAAACQAgCdASoQABAAAsBMJbACdLoB-AACnPvwjd_AoAD-iI6y7Qn9XDNAQWoYSuSxM4-vPj7mAbBha-xem6T_gduNqcqcE-T9anZ4RR8VEUMVPtJhNtPf2I9c6VSMpQsUyFsGSX_56qGY5jxnT3r58tkv3qxOQf-LS0yONgZK_OauuuAA.webp"
+     },
+     "languages": [
+      "en"
+     ],
+     "regions": [
+      "IN"
+     ]
+    },
+    "about_page_link": "https://www.google.co.in/search/about-this-result?origin=www.google.com&req=CrYBL2dvdG8_dXJsPUNBRVNmUUhyT3pBVkVhM2g5d29DY1dNaThPQmFFZUpRMkJPSW9ySC1TYVplS1cxOTRqR1RiRWJHdGh0NkpXTEE0a2o5SThHUjZDQklkZHU4aWh4UlNlVWhURzVmZUdVaTN2dlJtVUUxQ2J6aUdldEVvbWh3VkxsbTYzR01TRzc0ejd5S0dxNUQ1SjhOaTRBWGJkMUw4MHF4Um1XVzd3bGt4NktaN19neDFoUVgSBBoCCAAa9AMSABoAIgAqADIGCAESAmluOgBCBAgBEABKAFoAcgB6AIJA0AMIABAAGAAgACojCgwxODAwMTYwMDE4MDAV3hWfPxoOMTgwMCAxNjAwIDE4MDAytgEvZ290bz91cmw9Q0FFU2ZRSHJPekFWRWEzaDl3b0NjV01pOE9CYUVlSlEyQk9Jb3JILVNhWmVLVzE5NGpHVGJFYkd0aHQ2SldMQTRrajlJOEdSNkNCSWRkdThpaHhSU2VVaFRHNWZlR1VpM3Z2Um1VRTFDYnppR2V0RW9taHdWTGxtNjNHTVNHNzR6N3lLR3E1RDVKOE5pNEFYYmQxTDgwcXhSbVdXN3dsa3g2S1o3X2d4MWhRWDo2SERGQyBCYW5rIEhvbWUgTG9hbiBDdXN0b21lciBDYXJlIE51bWJlciAtIFBhaXNhYmF6YWFyQq8BPGI-MTgwMCAxNjAwIC8gMTgwMDwvYj4gMjYwMC4gQmloYXIsIE5hbWU6IFN1c2hhbnQgU2hla2hhckNvbnRhY3QgTm86IDc0ODUwNzI1MDYuIEJhbmtpbmcgTm86IDxiPjE4MDAgMTYwMCAvIDE4MDA8L2I-IDI2MDAuIENoaGF0dGlzZ2FyaCwgTmFtZTogRGVibWFseWEgU2VuQ29udGFjdCBObyZuYnNwOy4uLiICEAFIAFgAaAA",
+    "about_page_serpapi_link": "https://serpapi.com/search.json?engine=google_about_this_result&google_domain=google.co.in&req_token=CrYBL2dvdG8_dXJsPUNBRVNmUUhyT3pBVkVhM2g5d29DY1dNaThPQmFFZUpRMkJPSW9ySC1TYVplS1cxOTRqR1RiRWJHdGh0NkpXTEE0a2o5SThHUjZDQklkZHU4aWh4UlNlVWhURzVmZUdVaTN2dlJtVUUxQ2J6aUdldEVvbWh3VkxsbTYzR01TRzc0ejd5S0dxNUQ1SjhOaTRBWGJkMUw4MHF4Um1XVzd3bGt4NktaN19neDFoUVgSBBoCCAAa9AMSABoAIgAqADIGCAESAmluOgBCBAgBEABKAFoAcgB6AIJA0AMIABAAGAAgACojCgwxODAwMTYwMDE4MDAV3hWfPxoOMTgwMCAxNjAwIDE4MDAytgEvZ290bz91cmw9Q0FFU2ZRSHJPekFWRWEzaDl3b0NjV01pOE9CYUVlSlEyQk9Jb3JILVNhWmVLVzE5NGpHVGJFYkd0aHQ2SldMQTRrajlJOEdSNkNCSWRkdThpaHhSU2VVaFRHNWZlR1VpM3Z2Um1VRTFDYnppR2V0RW9taHdWTGxtNjNHTVNHNzR6N3lLR3E1RDVKOE5pNEFYYmQxTDgwcXhSbVdXN3dsa3g2S1o3X2d4MWhRWDo2SERGQyBCYW5rIEhvbWUgTG9hbiBDdXN0b21lciBDYXJlIE51bWJlciAtIFBhaXNhYmF6YWFyQq8BPGI-MTgwMCAxNjAwIC8gMTgwMDwvYj4gMjYwMC4gQmloYXIsIE5hbWU6IFN1c2hhbnQgU2hla2hhckNvbnRhY3QgTm86IDc0ODUwNzI1MDYuIEJhbmtpbmcgTm86IDxiPjE4MDAgMTYwMCAvIDE4MDA8L2I-IDI2MDAuIENoaGF0dGlzZ2FyaCwgTmFtZTogRGVibWFseWEgU2VuQ29udGFjdCBObyZuYnNwOy4uLiICEAFIAFgAaAA",
+    "source": "Paisabazaar",
+    "read_more_link": "https://www.paisabazaar.com/hdfc-bank/home-loan-customer-care-number/#:~:text=Banking%20No%3A%201800%201600%20%2F,Name%3A%20Debmalya%20SenContact%20No%3A%209522440827"
+   },
+   {
+    "position": 7,
+    "title": "Reporting of unauthorised/ disputed transactions",
+    "link": "https://v.hdfc.bank.in/htdocs/common/other/Unauthorized_Electronic_Banking/index.html",
+    "redirect_link": "https://www.google.co.in/url?sa=t&source=web&rct=j&opi=89978449&url=CAESjQEB6zswFd22dlSMy1lKALPfBjxHus9N1b2Sfq8H3jVUO6-wvo67f8BH7EPfTEmbo9v5M7WmjoF0BPNXESdC697atoKOpEzCnQoLqHysaq4AdryEo6NWhXXgpbX1GO7HjsMDL6Bu5x_AogXQMlJqVazIBKHP7cOFyMD-fWd6P1cRvD15DPHMlJEcO_62Z3s&ved=2ahUKEwislYjQ1YeXAxXdlokEHZoJPGQQFnoECBMQAQ&uoh=1",
+    "displayed_link": "https://v.hdfc.bank.in › Unauthorized_Electronic_Banking",
+    "snippet": "... 1800 1600 / 1800 2600 (accessible across India). You may also report through online portal at https://cybercrime.gov.in/Webform/Crime_AuthoLogin.aspx or www ...",
+    "snippet_highlighted_words": [
+     "1800 1600 / 1800"
+    ],
+    "about_this_result": {
+     "source": {
+      "description": "... 1800 1600 / 1800 2600 (accessible across India). You may also report through online portal at https://cybercrime.gov.in/Webform/Crime_AuthoLogin.aspx or www ...",
+      "source_info_link": "https://v.hdfc.bank.in/htdocs/common/other/Unauthorized_Electronic_Banking/index.html",
+      "icon": "https://serpapi.com/images/i/UklGRsYAAABXRUJQVlA4ILoAAADQAgCdASoQABAAAsBMJbACdHMAmzcGLFjlaFjhUUQAAPyP9teCXBj-RQq1foqDpwlIO1WzwVb4IKBMaqDdXfmeQoQxw_xLipsf9ynWrn3VvDKDO4TtF57i8RzEjZ6xXBq7Y378UGemT2YxTrDBpkV6YI8wHI_2JKInxjnyDDFmd8Mlga1q0eZIPvfa8TnvMT82OKenmFBf3_8dBj9zKL6iP_jV0j90lF9RH_nOOY4aaRnAl9IZSVlAAAA.webp"
+     },
+     "languages": [
+      "en"
+     ],
+     "regions": [
+      "IN"
+     ]
+    },
+    "about_page_link": "https://www.google.co.in/search/about-this-result?origin=www.google.com&req=Cs0BL2dvdG8_dXJsPUNBRVNqUUVCNnpzd0ZkMjJkbFNNeTFsS0FMUGZCanhIdXM5TjFiMlNmcThIM2pWVU82LXd2bzY3ZjhCSDdFUGZURW1ibzl2NU03V21qb0YwQlBOWEVTZEM2OTdhdG9LT3BFekNuUW9McUh5c2FxNEFkcnlFbzZOV2hYWGdwYlgxR083SGpzTURMNkJ1NXhfQW9nWFFNbEpxVmF6SUJLSFA3Y09GeU1ELWZXZDZQMWNSdkQxNURQSE1sSkVjT182MlozcxIEGgIIABqUBBICCAAaACIAKgAyBggBEgJpbjoAQgQIARAASgBaAHIAegCCQO4DCAAQABgAIAAqIwoMMTgwMDE2MDAxODAwFUyO_D4aDjE4MDAgMTYwMCAxODAwMs0BL2dvdG8_dXJsPUNBRVNqUUVCNnpzd0ZkMjJkbFNNeTFsS0FMUGZCanhIdXM5TjFiMlNmcThIM2pWVU82LXd2bzY3ZjhCSDdFUGZURW1ibzl2NU03V21qb0YwQlBOWEVTZEM2OTdhdG9LT3BFekNuUW9McUh5c2FxNEFkcnlFbzZOV2hYWGdwYlgxR083SGpzTURMNkJ1NXhfQW9nWFFNbEpxVmF6SUJLSFA3Y09GeU1ELWZXZDZQMWNSdkQxNURQSE1sSkVjT182Mlozczo8UmVwb3J0aW5nIG9mIHVuYXV0aG9yaXNlZC8gZGlzcHV0ZWQgdHJhbnNhY3Rpb25zIC0gSERGQyBCYW5rQrABLi4uIDxiPjE4MDAgMTYwMCAvIDE4MDA8L2I-IDI2MDAgKGFjY2Vzc2libGUgYWNyb3NzIEluZGlhKS4gWW91IG1heSBhbHNvIHJlcG9ydCB0aHJvdWdoIG9ubGluZSBwb3J0YWwgYXQgaHR0cHM6Ly9jeWJlcmNyaW1lLmdvdi5pbi9XZWJmb3JtL0NyaW1lX0F1dGhvTG9naW4uYXNweCBvciB3d3cmbmJzcDsuLi4iAhABSABYAGgA",
+    "about_page_serpapi_link": "https://serpapi.com/search.json?engine=google_about_this_result&google_domain=google.co.in&req_token=Cs0BL2dvdG8_dXJsPUNBRVNqUUVCNnpzd0ZkMjJkbFNNeTFsS0FMUGZCanhIdXM5TjFiMlNmcThIM2pWVU82LXd2bzY3ZjhCSDdFUGZURW1ibzl2NU03V21qb0YwQlBOWEVTZEM2OTdhdG9LT3BFekNuUW9McUh5c2FxNEFkcnlFbzZOV2hYWGdwYlgxR083SGpzTURMNkJ1NXhfQW9nWFFNbEpxVmF6SUJLSFA3Y09GeU1ELWZXZDZQMWNSdkQxNURQSE1sSkVjT182MlozcxIEGgIIABqUBBICCAAaACIAKgAyBggBEgJpbjoAQgQIARAASgBaAHIAegCCQO4DCAAQABgAIAAqIwoMMTgwMDE2MDAxODAwFUyO_D4aDjE4MDAgMTYwMCAxODAwMs0BL2dvdG8_dXJsPUNBRVNqUUVCNnpzd0ZkMjJkbFNNeTFsS0FMUGZCanhIdXM5TjFiMlNmcThIM2pWVU82LXd2bzY3ZjhCSDdFUGZURW1ibzl2NU03V21qb0YwQlBOWEVTZEM2OTdhdG9LT3BFekNuUW9McUh5c2FxNEFkcnlFbzZOV2hYWGdwYlgxR083SGpzTURMNkJ1NXhfQW9nWFFNbEpxVmF6SUJLSFA3Y09GeU1ELWZXZDZQMWNSdkQxNURQSE1sSkVjT182Mlozczo8UmVwb3J0aW5nIG9mIHVuYXV0aG9yaXNlZC8gZGlzcHV0ZWQgdHJhbnNhY3Rpb25zIC0gSERGQyBCYW5rQrABLi4uIDxiPjE4MDAgMTYwMCAvIDE4MDA8L2I-IDI2MDAgKGFjY2Vzc2libGUgYWNyb3NzIEluZGlhKS4gWW91IG1heSBhbHNvIHJlcG9ydCB0aHJvdWdoIG9ubGluZSBwb3J0YWwgYXQgaHR0cHM6Ly9jeWJlcmNyaW1lLmdvdi5pbi9XZWJmb3JtL0NyaW1lX0F1dGhvTG9naW4uYXNweCBvciB3d3cmbmJzcDsuLi4iAhABSABYAGgA",
+    "source": "HDFC Bank",
+    "read_more_link": "https://v.hdfc.bank.in/htdocs/common/other/Unauthorized_Electronic_Banking/index.html#:~:text=1800%201600%20%2F%201800%202600,at%20https%3A%2F%2Fcybercrime.gov.in%2FWebform%2FCrime_AuthoLogin.aspx%20or%20www.cybercrime.gov.in"
+   },
+   {
+    "position": 8,
+    "title": "HDFC Bank Cares on X",
+    "link": "https://x.com/HDFCBank_Cares/status/1895075523346219080",
+    "redirect_link": "https://www.google.co.in/url?sa=t&source=web&rct=j&opi=89978449&url=CAESbwHrOzAVjq1DriwmBpedjICLXJ5Y78o5EFap4WYHN0HyZC2wy9V_33Jzhz69ETjJrVILX1jYIa1Km0V6UtX90RyQHzd4py2gwfkJaruPzxuUba02subUKtvduHU8tKI-j0heggW9GiKyGOeH96Gy6A&ved=2ahUKEwislYjQ1YeXAxXdlokEHZoJPGQQFnoECBsQAQ&uoh=1",
+    "displayed_link": "1 year ago",
+    "snippet": "HDFC Bank Cares · @HDFCBank_Cares. 24 hour Phone Banking numbers 1800 1600 / 1800 2600 or write to us at customerservices.cards@hdfcbank.com ...",
+    "snippet_highlighted_words": [
+     "1800 1600 / 1800"
+    ],
+    "about_this_result": {
+     "source": {
+      "description": "HDFC Bank Cares · @HDFCBank_Cares. 24 hour Phone Banking numbers 1800 1600 / 1800 2600 or write to us at customerservices.cards@hdfcbank.com ...",
+      "source_info_link": "https://x.com/HDFCBank_Cares/status/1895075523346219080",
+      "icon": "https://serpapi.com/images/i/iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAAAAABXZoBIAAAAqUlEQVR4AdXQEQwCUQDG8b87pFkcRmGuyfFpFB-HuZ20_DA4yndLHj17dHJ08G_V1qp7vvWjT77t28cfKlIIMS54KmPa8uli35l4WGvNtyQ7G2CmF37M7WncQe-NidKW5CyYyDhboY5kRZelLshz5OyevK0dySVZNz1iT07r0LkpbJmqdcUoJyt-VVrAxkB0NRnzKhysGQfevt--mgavfOpi844hhFjyf-4xHWjgrPr73gAAAABJRU5ErkJggg.png"
+     },
+     "languages": [
+      "en"
+     ],
+     "regions": [
+      "IN"
+     ]
+    },
+    "about_page_link": "https://www.google.co.in/search/about-this-result?origin=www.google.com&req=CqQBL2dvdG8_dXJsPUNBRVNid0hyT3pBVmpxMURyaXdtQnBlZGpJQ0xYSjVZNzhvNUVGYXA0V1lITjBIeVpDMnd5OVZfMzNKemh6NjlFVGpKclZJTFgxallJYTFLbTBWNlV0WDkwUnlRSHpkNHB5Mmd3ZmtKYXJ1UHp4dVViYTAyc3ViVUt0dmR1SFU4dEtJLWowaGVnZ1c5R2lLeUdPZUg5Nkd5NkESBBoCCAAatAMSABoAIgAqADIGCAMSAmluOgBCBAgBEABKAFoAcgB6AIJAkAMIABAAGAAgACojCgwxODAwMTYwMDE4MDAVbk1iQBoOMTgwMCAxNjAwIDE4MDAypAEvZ290bz91cmw9Q0FFU2J3SHJPekFWanExRHJpd21CcGVkaklDTFhKNVk3OG81RUZhcDRXWUhOMEh5WkMyd3k5Vl8zM0p6aHo2OUVUakpyVklMWDFqWUlhMUttMFY2VXRYOTBSeVFIemQ0cHkyZ3dma0phcnVQenh1VWJhMDJzdWJVS3R2ZHVIVTh0S0ktajBoZWdnVzlHaUt5R09lSDk2R3k2QToUSERGQyBCYW5rIENhcmVzIG9uIFhCowFIREZDIEJhbmsgQ2FyZXMgJm1pZGRvdDsgQEhERkNCYW5rX0NhcmVzLiAyNCBob3VyIFBob25lIEJhbmtpbmcgbnVtYmVycyA8Yj4xODAwIDE2MDAgLyAxODAwPC9iPiAyNjAwIG9yIHdyaXRlIHRvIHVzIGF0IGN1c3RvbWVyc2VydmljZXMuY2FyZHNAaGRmY2JhbmsuY29tJm5ic3A7Li4uIgIQAUgAWABoAA",
+    "about_page_serpapi_link": "https://serpapi.com/search.json?engine=google_about_this_result&google_domain=google.co.in&req_token=CqQBL2dvdG8_dXJsPUNBRVNid0hyT3pBVmpxMURyaXdtQnBlZGpJQ0xYSjVZNzhvNUVGYXA0V1lITjBIeVpDMnd5OVZfMzNKemh6NjlFVGpKclZJTFgxallJYTFLbTBWNlV0WDkwUnlRSHpkNHB5Mmd3ZmtKYXJ1UHp4dVViYTAyc3ViVUt0dmR1SFU4dEtJLWowaGVnZ1c5R2lLeUdPZUg5Nkd5NkESBBoCCAAatAMSABoAIgAqADIGCAMSAmluOgBCBAgBEABKAFoAcgB6AIJAkAMIABAAGAAgACojCgwxODAwMTYwMDE4MDAVbk1iQBoOMTgwMCAxNjAwIDE4MDAypAEvZ290bz91cmw9Q0FFU2J3SHJPekFWanExRHJpd21CcGVkaklDTFhKNVk3OG81RUZhcDRXWUhOMEh5WkMyd3k5Vl8zM0p6aHo2OUVUakpyVklMWDFqWUlhMUttMFY2VXRYOTBSeVFIemQ0cHkyZ3dma0phcnVQenh1VWJhMDJzdWJVS3R2ZHVIVTh0S0ktajBoZWdnVzlHaUt5R09lSDk2R3k2QToUSERGQyBCYW5rIENhcmVzIG9uIFhCowFIREZDIEJhbmsgQ2FyZXMgJm1pZGRvdDsgQEhERkNCYW5rX0NhcmVzLiAyNCBob3VyIFBob25lIEJhbmtpbmcgbnVtYmVycyA8Yj4xODAwIDE2MDAgLyAxODAwPC9iPiAyNjAwIG9yIHdyaXRlIHRvIHVzIGF0IGN1c3RvbWVyc2VydmljZXMuY2FyZHNAaGRmY2JhbmsuY29tJm5ic3A7Li4uIgIQAUgAWABoAA",
+    "source": "X · HDFCBank_Cares",
+    "read_more_link": "https://x.com/HDFCBank_Cares/status/1895075523346219080#:~:text=HDFC%20Bank%20Cares,for%20further%20clarification%20or%20assistance."
+   },
+   {
+    "position": 9,
+    "title": "HDFC Personal Loan Customer Care Numbers - Toll Free",
+    "link": "https://www.bankbazaar.com/hdfc-personal-loan-customer-care-number.html",
+    "redirect_link": "https://www.google.co.in/url?sa=t&source=web&rct=j&opi=89978449&url=CAESfwHrOzAVz8U2lJsq6v785IifXW1_rJ8RUD4a4I3_KvWETxaBM1VTccfEzKHv8LnzGOakIcqRNzsUOSCYigx7CSElZ-Me2l4N2gnbuYtE02bFh5ax4Cze1Q4-VHDzabQZGCnYDoc18Q-QpEYuTxfmLfqjqCerL1CxIlXPELV0irg&ved=2ahUKEwislYjQ1YeXAxXdlokEHZoJPGQQFnoECBIQAQ&uoh=1",
+    "displayed_link": "https://www.bankbazaar.com › Personal Loan",
+    "snippet": "USA - 855-999-6061 · Canada - 855-999-6061 · Kenya - 0-800-721-740 · Singapore - 800-101-2850 · Other Countries - 1800 1600 / 1800 2600 / 91-2260006000.",
+    "snippet_highlighted_words": [
+     "1800 1600 / 1800"
+    ],
+    "about_this_result": {
+     "source": {
+      "description": "USA - 855-999-6061 · Canada - 855-999-6061 · Kenya - 0-800-721-740 · Singapore - 800-101-2850 · Other Countries - 1800 1600 / 1800 2600 / 91-2260006000.",
+      "source_info_link": "https://www.bankbazaar.com/hdfc-personal-loan-customer-care-number.html",
+      "icon": "https://serpapi.com/images/i/UklGRh4BAABXRUJQVlA4IBIBAABQBgCdASocABwAPtEutFooIagoGAEAGglsAJ0yhILIqqqCwAOk88oAmfQ07Cr62OpSBYd_SQj4xjFMAADiK45EAHsartgilhVOanRS0WmX3Gzrn-pkY6trZiCp7__4IS7bUd8q_fpKyHD_UquGX7HBQNz39KydGQT0XgYzCiZpYWXPmHfGN1_3X_lsDFDm7Q_SHW9AT5xolnzf_yIR9N05tgiujtW7qf9ieG_Iu17kDGA8lKebVE1XfNyE7KVf1mRDhk3_N1HkYRYi60pLBtucIeF7vavSOqoWOVHXqv_31ip8_E-SchuK3vp2ZF6jfMfv_igv1F_89PvyBvA5eQhGekC4f18x-9AfpZUlDvVvQAAA.webp"
+     },
+     "languages": [
+      "en"
+     ],
+     "regions": [
+      "IN"
+     ]
+    },
+    "about_page_link": "https://www.google.co.in/search/about-this-result?origin=www.google.com&req=CrkBL2dvdG8_dXJsPUNBRVNmd0hyT3pBVno4VTJsSnNxNnY3ODVJaWZYVzFfcko4UlVENGE0STNfS3ZXRVR4YUJNMVZUY2NmRXpLSHY4TG56R09ha0ljcVJOenNVT1NDWWlneDdDU0VsWi1NZTJsNE4yZ25idVl0RTAyYkZoNWF4NEN6ZTFRNC1WSER6YWJRWkdDbllEb2MxOFEtUXBFWXVUeGZtTGZxanFDZXJMMUN4SWxYUEVMVjBpcmcSBBoCCAAagQQSABoAIgAqADIGCAESAmluOgBCBAgBEABKAFoAcgB6AIJA3QMIABAAGAAgACojCgwxODAwMTYwMDE4MDAVxQbJPhoOMTgwMCAxNjAwIDE4MDAyuQEvZ290bz91cmw9Q0FFU2Z3SHJPekFWejhVMmxKc3E2djc4NUlpZlhXMV9ySjhSVUQ0YTRJM19LdldFVHhhQk0xVlRjY2ZFektIdjhMbnpHT2FrSWNxUk56c1VPU0NZaWd4N0NTRWxaLU1lMmw0TjJnbmJ1WXRFMDJiRmg1YXg0Q3plMVE0LVZIRHphYlFaR0NuWURvYzE4US1RcEVZdVR4Zm1MZnFqcUNlckwxQ3hJbFhQRUxWMGlyZzo0SERGQyBQZXJzb25hbCBMb2FuIEN1c3RvbWVyIENhcmUgTnVtYmVycyAtIFRvbGwgRnJlZUK7AVVTQSAtIDg1NS05OTktNjA2MSAmbWlkZG90OyBDYW5hZGEgLSA4NTUtOTk5LTYwNjEgJm1pZGRvdDsgS2VueWEgLSAwLTgwMC03MjEtNzQwICZtaWRkb3Q7IFNpbmdhcG9yZSAtIDgwMC0xMDEtMjg1MCAmbWlkZG90OyBPdGhlciBDb3VudHJpZXMgLSA8Yj4xODAwIDE2MDAgLyAxODAwPC9iPiAyNjAwIC8gOTEtMjI2MDAwNjAwMC4iAhABSABYAGgA",
+    "about_page_serpapi_link": "https://serpapi.com/search.json?engine=google_about_this_result&google_domain=google.co.in&req_token=CrkBL2dvdG8_dXJsPUNBRVNmd0hyT3pBVno4VTJsSnNxNnY3ODVJaWZYVzFfcko4UlVENGE0STNfS3ZXRVR4YUJNMVZUY2NmRXpLSHY4TG56R09ha0ljcVJOenNVT1NDWWlneDdDU0VsWi1NZTJsNE4yZ25idVl0RTAyYkZoNWF4NEN6ZTFRNC1WSER6YWJRWkdDbllEb2MxOFEtUXBFWXVUeGZtTGZxanFDZXJMMUN4SWxYUEVMVjBpcmcSBBoCCAAagQQSABoAIgAqADIGCAESAmluOgBCBAgBEABKAFoAcgB6AIJA3QMIABAAGAAgACojCgwxODAwMTYwMDE4MDAVxQbJPhoOMTgwMCAxNjAwIDE4MDAyuQEvZ290bz91cmw9Q0FFU2Z3SHJPekFWejhVMmxKc3E2djc4NUlpZlhXMV9ySjhSVUQ0YTRJM19LdldFVHhhQk0xVlRjY2ZFektIdjhMbnpHT2FrSWNxUk56c1VPU0NZaWd4N0NTRWxaLU1lMmw0TjJnbmJ1WXRFMDJiRmg1YXg0Q3plMVE0LVZIRHphYlFaR0NuWURvYzE4US1RcEVZdVR4Zm1MZnFqcUNlckwxQ3hJbFhQRUxWMGlyZzo0SERGQyBQZXJzb25hbCBMb2FuIEN1c3RvbWVyIENhcmUgTnVtYmVycyAtIFRvbGwgRnJlZUK7AVVTQSAtIDg1NS05OTktNjA2MSAmbWlkZG90OyBDYW5hZGEgLSA4NTUtOTk5LTYwNjEgJm1pZGRvdDsgS2VueWEgLSAwLTgwMC03MjEtNzQwICZtaWRkb3Q7IFNpbmdhcG9yZSAtIDgwMC0xMDEtMjg1MCAmbWlkZG90OyBPdGhlciBDb3VudHJpZXMgLSA8Yj4xODAwIDE2MDAgLyAxODAwPC9iPiAyNjAwIC8gOTEtMjI2MDAwNjAwMC4iAhABSABYAGgA",
+    "source": "BankBazaar",
+    "read_more_link": "https://www.bankbazaar.com/hdfc-personal-loan-customer-care-number.html#:~:text=USA%20%2D%20855%2D999%2D6061&text=Canada%20%2D%20855%2D999%2D6061&text=Kenya%20%2D%200%2D800%2D721%2D740&text=Singapore%20%2D%20800%2D101%2D2850&text=Other%20Countries%20%2D%201800%201600,%2F%201800%202600%20%2F%2091%2D2260006000"
+   },
+   {
+    "position": 10,
+    "title": "Time 1400 - 1800 1600 - MICEapps",
+    "link": "https://miceapps.com/uploads/user_uploads/6772/attachments/programme_14nov.pdf",
+    "redirect_link": "https://www.google.co.in/url?sa=t&source=web&rct=j&opi=89978449&url=CAEShgEB6zswFZ2lpCAk1of8BTAbTwoKiCq2fGpNBhI6jfKNBStz9nFM06fJYvpAVRc6yRXghiw7GYhZq7-b1jTK1GJan40rvYFPtEJZoJlv3ZbpLsa4fp8JxDlJtqHj7ZsPL3KbDpvKSdJ62afINnnPkKTsNyyAG0E9E9VmiuAxH3mZmOtiN0BwXA&ved=2ahUKEwislYjQ1YeXAxXdlokEHZoJPGQQFnoECD4QAQ&uoh=1",
+    "displayed_link": "https://miceapps.com › user_uploads › attachments",
+    "date": "27 Nov 2023",
+    "snippet": "Experimental study on the junction morphology and quality of 316L stainless steel thin-walled parts fabricated by segmental alternately ...",
+    "about_this_result": {
+     "source": {
+      "description": "Experimental study on the junction morphology and quality of 316L stainless steel thin-walled parts fabricated by segmental alternately ...",
+      "source_info_link": "https://miceapps.com/uploads/user_uploads/6772/attachments/programme_14nov.pdf",
+      "icon": "https://serpapi.com/images/i/UklGRpQBAABXRUJQVlA4IIgBAABQCACdASogACAAPrUurVanIacnG_DgFolsAJ0y43UHo1MV88c4DOAY5z6AHSqkRBu9CihAxWjI9gVnoR_2J8-4HaWGSSY6im3SAAAA_vi4EEUiA0Y5b1QhjALjs6hG2Vx7vGbh4fljoE4EF_W8pWLzVrhdHOPCRsGgfMg5m3f1maqXhk5M3wysPtdTdTp7EREpGhurm8ZvEd7NlFVYtDxYD8xJs6CYLRAzlBnrLmMiIdUmoHZiubQ_FvqeNPErAQOvx8rz6p-myErnSaOKGLN0TfQ2ljoTzYmLpBM1RnkSB2MHSwZRvdHZ48tvBsBAYSmMDpf_zixMqLx_XHeZeTp74OnXqxs4lThVRFjSrwfXn8fZxHIboHHDJtWUqY1X59cV6J7H_LqxOgbzJTkDFll368vRa6OWf0oGGC7W1dYtUfu4_6yjh-YXeY8NAQEPcDlg_9AAoDR64jkKX4i_63ZTiVJnrRouY-y11fMbbrL_RUIKEr6Kn5O_g5CxnzHHXxZzInLwYdMAAA.webp"
+     },
+     "languages": [
+      "en"
+     ],
+     "regions": [
+      "IN"
+     ]
+    },
+    "about_page_link": "https://www.google.co.in/search/about-this-result?origin=www.google.com&req=CsQBL2dvdG8_dXJsPUNBRVNoZ0VCNnpzd0ZaMmxwQ0FrMW9mOEJUQWJUd29LaUNxMmZHcE5CaEk2amZLTkJTdHo5bkZNMDZmSll2cEFWUmM2eVJYZ2hpdzdHWWhacTctYjFqVEsxR0phbjQwcnZZRlB0RUpab0psdjNaYnBMc2E0ZnA4SnhEbEp0cUhqN1pzUEwzS2JEcHZLU2RKNjJhZklObm5Qa0tUc055eUFHMEU5RTlWbWl1QXhIM21abU90aU4wQndYQRIEGgIIABrNAxIAGgAiACoAMgYIAhICaW46AEIECAEQAEoAWgByAHoAgkCpAwgAEAAYACAAKiMKDDE4MDAxNjAwMTgwMBXkOOY_Gg4xODAwIDE2MDAgMTgwMDLEAS9nb3RvP3VybD1DQUVTaGdFQjZ6c3dGWjJscENBazFvZjhCVEFiVHdvS2lDcTJmR3BOQmhJNmpmS05CU3R6OW5GTTA2ZkpZdnBBVlJjNnlSWGdoaXc3R1loWnE3LWIxalRLMUdKYW40MHJ2WUZQdEVKWm9KbHYzWmJwTHNhNGZwOEp4RGxKdHFIajdac1BMM0tiRHB2S1NkSjYyYWZJTm5uUGtLVHNOeXlBRzBFOUU5Vm1pdUF4SDNtWm1PdGlOMEJ3WEE6IFRpbWUgMTQwMCAtIDE4MDAgMTYwMCAtIE1JQ0VhcHBzQpABRXhwZXJpbWVudGFsIHN0dWR5IG9uIHRoZSBqdW5jdGlvbiBtb3JwaG9sb2d5IGFuZCBxdWFsaXR5IG9mIDMxNkwgc3RhaW5sZXNzIHN0ZWVsIHRoaW4td2FsbGVkIHBhcnRzIGZhYnJpY2F0ZWQgYnkgc2VnbWVudGFsIGFsdGVybmF0ZWx5Jm5ic3A7Li4uIgIQAUgAWABoAA",
+    "about_page_serpapi_link": "https://serpapi.com/search.json?engine=google_about_this_result&google_domain=google.co.in&req_token=CsQBL2dvdG8_dXJsPUNBRVNoZ0VCNnpzd0ZaMmxwQ0FrMW9mOEJUQWJUd29LaUNxMmZHcE5CaEk2amZLTkJTdHo5bkZNMDZmSll2cEFWUmM2eVJYZ2hpdzdHWWhacTctYjFqVEsxR0phbjQwcnZZRlB0RUpab0psdjNaYnBMc2E0ZnA4SnhEbEp0cUhqN1pzUEwzS2JEcHZLU2RKNjJhZklObm5Qa0tUc055eUFHMEU5RTlWbWl1QXhIM21abU90aU4wQndYQRIEGgIIABrNAxIAGgAiACoAMgYIAhICaW46AEIECAEQAEoAWgByAHoAgkCpAwgAEAAYACAAKiMKDDE4MDAxNjAwMTgwMBXkOOY_Gg4xODAwIDE2MDAgMTgwMDLEAS9nb3RvP3VybD1DQUVTaGdFQjZ6c3dGWjJscENBazFvZjhCVEFiVHdvS2lDcTJmR3BOQmhJNmpmS05CU3R6OW5GTTA2ZkpZdnBBVlJjNnlSWGdoaXc3R1loWnE3LWIxalRLMUdKYW40MHJ2WUZQdEVKWm9KbHYzWmJwTHNhNGZwOEp4RGxKdHFIajdac1BMM0tiRHB2S1NkSjYyYWZJTm5uUGtLVHNOeXlBRzBFOUU5Vm1pdUF4SDNtWm1PdGlOMEJ3WEE6IFRpbWUgMTQwMCAtIDE4MDAgMTYwMCAtIE1JQ0VhcHBzQpABRXhwZXJpbWVudGFsIHN0dWR5IG9uIHRoZSBqdW5jdGlvbiBtb3JwaG9sb2d5IGFuZCBxdWFsaXR5IG9mIDMxNkwgc3RhaW5sZXNzIHN0ZWVsIHRoaW4td2FsbGVkIHBhcnRzIGZhYnJpY2F0ZWQgYnkgc2VnbWVudGFsIGFsdGVybmF0ZWx5Jm5ic3A7Li4uIgIQAUgAWABoAA",
+    "source": "miceapps.com",
+    "read_more_link": "https://miceapps.com/uploads/user_uploads/6772/attachments/programme_14nov.pdf#:~:text=Experimental%20study%20on%20the%20junction,fabricated%20by%20segmental%20alternately%20additive%2Dsubtractive"
+   }
+  ],
+  "pagination": {
+   "current": 1,
+   "next": "https://www.google.co.in/search?q=%22180016001800%22+OR+%221800+1600+1800%22&sca_esv=c9af837ca623c2e6&gl=in&hl=en&sxsrf=APpeQnvyjpdftwXjHgatsVNrkmBrUk52HA:1790268433115&ei=EVS1auzIBt2tptQPmpPwoQY&start=10&sa=N&sstk=AS6-VmLH5xz-i7-lMPIvjY7vcukLvm2TcxzIPrmwitoojgswyu1gMFBYguOLzY3guiUbktzheAShAKpJD_WZVksos3woZeNB_csCgA&ved=2ahUKEwislYjQ1YeXAxXdlokEHZoJPGQQ8NMDegQIPRAW",
+   "other_pages": {
+    "2": "https://www.google.co.in/search?q=%22180016001800%22+OR+%221800+1600+1800%22&sca_esv=c9af837ca623c2e6&gl=in&hl=en&sxsrf=APpeQnvyjpdftwXjHgatsVNrkmBrUk52HA:1790268433115&ei=EVS1auzIBt2tptQPmpPwoQY&start=10&sa=N&sstk=AS6-VmLH5xz-i7-lMPIvjY7vcukLvm2TcxzIPrmwitoojgswyu1gMFBYguOLzY3guiUbktzheAShAKpJD_WZVksos3woZeNB_csCgA&ved=2ahUKEwislYjQ1YeXAxXdlokEHZoJPGQQ8tMDegQIPRAE",
+    "3": "https://www.google.co.in/search?q=%22180016001800%22+OR+%221800+1600+1800%22&sca_esv=c9af837ca623c2e6&gl=in&hl=en&sxsrf=APpeQnvyjpdftwXjHgatsVNrkmBrUk52HA:1790268433115&ei=EVS1auzIBt2tptQPmpPwoQY&start=20&sa=N&sstk=AS6-VmLH5xz-i7-lMPIvjY7vcukLvm2TcxzIPrmwitoojgswyu1gMFBYguOLzY3guiUbktzheAShAKpJD_WZVksos3woZeNB_csCgA&ved=2ahUKEwislYjQ1YeXAxXdlokEHZoJPGQQ8tMDegQIPRAG",
+    "4": "https://www.google.co.in/search?q=%22180016001800%22+OR+%221800+1600+1800%22&sca_esv=c9af837ca623c2e6&gl=in&hl=en&sxsrf=APpeQnvyjpdftwXjHgatsVNrkmBrUk52HA:1790268433115&ei=EVS1auzIBt2tptQPmpPwoQY&start=30&sa=N&sstk=AS6-VmLH5xz-i7-lMPIvjY7vcukLvm2TcxzIPrmwitoojgswyu1gMFBYguOLzY3guiUbktzheAShAKpJD_WZVksos3woZeNB_csCgA&ved=2ahUKEwislYjQ1YeXAxXdlokEHZoJPGQQ8tMDegQIPRAI",
+    "5": "https://www.google.co.in/search?q=%22180016001800%22+OR+%221800+1600+1800%22&sca_esv=c9af837ca623c2e6&gl=in&hl=en&sxsrf=APpeQnvyjpdftwXjHgatsVNrkmBrUk52HA:1790268433115&ei=EVS1auzIBt2tptQPmpPwoQY&start=40&sa=N&sstk=AS6-VmLH5xz-i7-lMPIvjY7vcukLvm2TcxzIPrmwitoojgswyu1gMFBYguOLzY3guiUbktzheAShAKpJD_WZVksos3woZeNB_csCgA&ved=2ahUKEwislYjQ1YeXAxXdlokEHZoJPGQQ8tMDegQIPRAK",
+    "6": "https://www.google.co.in/search?q=%22180016001800%22+OR+%221800+1600+1800%22&sca_esv=c9af837ca623c2e6&gl=in&hl=en&sxsrf=APpeQnvyjpdftwXjHgatsVNrkmBrUk52HA:1790268433115&ei=EVS1auzIBt2tptQPmpPwoQY&start=50&sa=N&sstk=AS6-VmLH5xz-i7-lMPIvjY7vcukLvm2TcxzIPrmwitoojgswyu1gMFBYguOLzY3guiUbktzheAShAKpJD_WZVksos3woZeNB_csCgA&ved=2ahUKEwislYjQ1YeXAxXdlokEHZoJPGQQ8tMDegQIPRAM",
+    "7": "https://www.google.co.in/search?q=%22180016001800%22+OR+%221800+1600+1800%22&sca_esv=c9af837ca623c2e6&gl=in&hl=en&sxsrf=APpeQnvyjpdftwXjHgatsVNrkmBrUk52HA:1790268433115&ei=EVS1auzIBt2tptQPmpPwoQY&start=60&sa=N&sstk=AS6-VmLH5xz-i7-lMPIvjY7vcukLvm2TcxzIPrmwitoojgswyu1gMFBYguOLzY3guiUbktzheAShAKpJD_WZVksos3woZeNB_csCgA&ved=2ahUKEwislYjQ1YeXAxXdlokEHZoJPGQQ8tMDegQIPRAO",
+    "8": "https://www.google.co.in/search?q=%22180016001800%22+OR+%221800+1600+1800%22&sca_esv=c9af837ca623c2e6&gl=in&hl=en&sxsrf=APpeQnvyjpdftwXjHgatsVNrkmBrUk52HA:1790268433115&ei=EVS1auzIBt2tptQPmpPwoQY&start=70&sa=N&sstk=AS6-VmLH5xz-i7-lMPIvjY7vcukLvm2TcxzIPrmwitoojgswyu1gMFBYguOLzY3guiUbktzheAShAKpJD_WZVksos3woZeNB_csCgA&ved=2ahUKEwislYjQ1YeXAxXdlokEHZoJPGQQ8tMDegQIPRAQ",
+    "9": "https://www.google.co.in/search?q=%22180016001800%22+OR+%221800+1600+1800%22&sca_esv=c9af837ca623c2e6&gl=in&hl=en&sxsrf=APpeQnvyjpdftwXjHgatsVNrkmBrUk52HA:1790268433115&ei=EVS1auzIBt2tptQPmpPwoQY&start=80&sa=N&sstk=AS6-VmLH5xz-i7-lMPIvjY7vcukLvm2TcxzIPrmwitoojgswyu1gMFBYguOLzY3guiUbktzheAShAKpJD_WZVksos3woZeNB_csCgA&ved=2ahUKEwislYjQ1YeXAxXdlokEHZoJPGQQ8tMDegQIPRAS",
+    "10": "https://www.google.co.in/search?q=%22180016001800%22+OR+%221800+1600+1800%22&sca_esv=c9af837ca623c2e6&gl=in&hl=en&sxsrf=APpeQnvyjpdftwXjHgatsVNrkmBrUk52HA:1790268433115&ei=EVS1auzIBt2tptQPmpPwoQY&start=90&sa=N&sstk=AS6-VmLH5xz-i7-lMPIvjY7vcukLvm2TcxzIPrmwitoojgswyu1gMFBYguOLzY3guiUbktzheAShAKpJD_WZVksos3woZeNB_csCgA&ved=2ahUKEwislYjQ1YeXAxXdlokEHZoJPGQQ8tMDegQIPRAU"
+   }
+  },
+  "serpapi_pagination": {
+   "current": 1,
+   "next_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.co.in&hl=en&q=%22180016001800%22+OR+%221800+1600+1800%22&start=10",
+   "next": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.co.in&hl=en&q=%22180016001800%22+OR+%221800+1600+1800%22&start=10",
+   "other_pages": {
+    "2": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.co.in&hl=en&q=%22180016001800%22+OR+%221800+1600+1800%22&start=10",
+    "3": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.co.in&hl=en&q=%22180016001800%22+OR+%221800+1600+1800%22&start=20",
+    "4": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.co.in&hl=en&q=%22180016001800%22+OR+%221800+1600+1800%22&start=30",
+    "5": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.co.in&hl=en&q=%22180016001800%22+OR+%221800+1600+1800%22&start=40",
+    "6": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.co.in&hl=en&q=%22180016001800%22+OR+%221800+1600+1800%22&start=50",
+    "7": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.co.in&hl=en&q=%22180016001800%22+OR+%221800+1600+1800%22&start=60",
+    "8": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.co.in&hl=en&q=%22180016001800%22+OR+%221800+1600+1800%22&start=70",
+    "9": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.co.in&hl=en&q=%22180016001800%22+OR+%221800+1600+1800%22&start=80",
+    "10": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.co.in&hl=en&q=%22180016001800%22+OR+%221800+1600+1800%22&start=90"
+   }
+  }
+ }
+}

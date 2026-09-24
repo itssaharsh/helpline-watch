@@ -2,7 +2,7 @@
  "_fixture": {
   "kind": "synthetic",
   "note": "Maps · Mumbai · SBI customer care",
-  "generated_at": "2026-09-23T20:53:40+00:00",
+  "generated_at": "2026-09-24T16:57:21+00:00",
   "params": {
    "engine": "google_maps",
    "type": "search",
@@ -16,11 +16,11 @@
   "search_metadata": {
    "id": "synthetic-212804e8f2148c2a",
    "status": "Success",
-   "created_at": "2026-09-23 20:53:40 UTC",
-   "processed_at": "2026-09-23 20:53:40 UTC",
+   "created_at": "2026-09-24 16:57:21 UTC",
+   "processed_at": "2026-09-24 16:57:21 UTC",
    "json_endpoint": null,
    "raw_html_file": null,
-   "total_time_taken": 1.55
+   "total_time_taken": 2.33
   },
   "search_parameters": {
    "engine": "google_maps",
@@ -35,38 +35,38 @@
     "position": 1,
     "title": "SBI - Mumbai Main Branch",
     "place_id": "synthetic-sbi-mumbai-branch",
-    "data_id": "0xebb3379f6980:0x69686b3a57df",
-    "rating": 4.3,
-    "reviews": 106,
+    "data_id": "0xe3fc909cb85d:0x98c26abe9516",
+    "rating": 3.9,
+    "reviews": 472,
     "type": "Bank",
     "types": [
      "Bank"
     ],
     "address": "MG Road, Mumbai",
     "gps_coordinates": {
-     "latitude": 21.488423201293347,
-     "longitude": 78.11295449248162
+     "latitude": 14.394029108837342,
+     "longitude": 76.14870761751509
     },
     "phone": "1800 1234",
     "website": "https://www.sbi.co.in/"
    },
    {
     "position": 1,
-    "title": "SBI Helpline 24x7",
-    "place_id": "synthetic-sbi-mumbai-help",
-    "data_id": "0x3c6a1fc10dc7:0x8aa5161d605d",
-    "rating": 4.9,
-    "reviews": 2,
-    "type": "Financial consultant",
+    "title": "SBI Customer Care Number",
+    "place_id": "synthetic-sbi-mumbai-care",
+    "data_id": "0xf4024dfa9d20:0x820081faa3f6",
+    "rating": 5.0,
+    "reviews": 0,
+    "type": "Customer service",
     "types": [
-     "Financial consultant"
+     "Customer service"
     ],
-    "address": "Near Metro Station, Mumbai",
+    "address": "Sector 12, Mumbai",
     "gps_coordinates": {
-     "latitude": 12.442972412712008,
-     "longitude": 85.18922454900596
+     "latitude": 17.492722008741403,
+     "longitude": 87.06184253353847
     },
-    "phone": "+91 63528 40917",
+    "phone": "+91 74110 29385",
     "unclaimed_listing": true
    }
   ]

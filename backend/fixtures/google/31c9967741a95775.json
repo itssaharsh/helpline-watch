@@ -1,0 +1,390 @@
+{
+ "_fixture": {
+  "kind": "recorded",
+  "recorded_at": "2026-09-24T16:57:15+00:00",
+  "params": {
+   "engine": "google",
+   "q": "Zomato customer care number",
+   "location": "Delhi,Delhi,India",
+   "google_domain": "google.co.in",
+   "gl": "in",
+   "hl": "en",
+   "num": "10"
+  }
+ },
+ "response": {
+  "search_metadata": {
+   "id": "6ab5564f6feec4f18c2c686f",
+   "status": "Success",
+   "json_endpoint": "https://serpapi.com/searches/TvV4gkCrXuIfjDAfOrn1ZKG7tfOZKiFZNdEdRm0il9s/6ab5564f6feec4f18c2c686f.json",
+   "markdown_endpoint": "https://serpapi.com/searches/TvV4gkCrXuIfjDAfOrn1ZKG7tfOZKiFZNdEdRm0il9s/6ab5564f6feec4f18c2c686f.md",
+   "pixel_position_endpoint": "https://serpapi.com/searches/TvV4gkCrXuIfjDAfOrn1ZKG7tfOZKiFZNdEdRm0il9s/6ab5564f6feec4f18c2c686f.json_with_pixel_position",
+   "created_at": "2026-09-24 16:56:47 UTC",
+   "processed_at": "2026-09-24 16:56:47 UTC",
+   "google_url": "https://www.google.co.in/search?q=Zomato+customer+care+number&oq=Zomato+customer+care+number&uule=w+CAIQICIRRGVsaGksRGVsaGksSW5kaWE&hl=en&gl=in&sourceid=chrome&ie=UTF-8",
+   "raw_html_file": "https://serpapi.com/searches/TvV4gkCrXuIfjDAfOrn1ZKG7tfOZKiFZNdEdRm0il9s/6ab5564f6feec4f18c2c686f.html",
+   "total_time_taken": 27.88
+  },
+  "search_parameters": {
+   "engine": "google",
+   "q": "Zomato customer care number",
+   "location_requested": "Delhi,Delhi,India",
+   "location_used": "Delhi,Delhi,India",
+   "google_domain": "google.co.in",
+   "hl": "en",
+   "gl": "in",
+   "device": "desktop"
+  },
+  "search_information": {
+   "query_displayed": "Zomato customer care number",
+   "total_results": 58,
+   "time_taken_displayed": 0.18,
+   "organic_results_state": "Results for exact spelling"
+  },
+  "organic_results": [
+   {
+    "position": 1,
+    "title": "Zomato Office Contact (Phone) numbers & Address Details",
+    "link": "https://www.zomato.com/contact",
+    "redirect_link": "https://www.google.co.in/url?sa=t&source=web&rct=j&opi=89978449&url=CAESVgHrOzAVLj3JXXYITi3uyXD2482T_vTImvkADoBNWqeDmFdk57QhF3u72PbRIZRPexN_Vf2IjoquFGTweu1C6AVsoYWhXbOswaV565BpCyqNdrxIZ_Rv&ved=2ahUKEwi6yfXu14eXAxXBCoYAHUp0KmkQFnoECA8QAQ&uoh=1",
+    "displayed_link": "https://www.zomato.com › contact",
+    "snippet": "Contact (Phone) numbers & Address. Click on the 'Support' or 'Online ordering help' section in your app to connect to our customer support team.",
+    "snippet_highlighted_words": [
+     "Contact (Phone) numbers & Address"
+    ],
+    "about_this_result": {
+     "source": {
+      "description": "Contact (Phone) numbers & Address. Click on the 'Support' or 'Online ordering help' section in your app to connect to our customer support team.",
+      "source_info_link": "https://www.zomato.com/contact",
+      "icon": "https://serpapi.com/images/i/UklGRuwAAABXRUJQVlA4IOAAAABwBQCdASocABwAPtEutFooIagoGAEAGglsAJ0zWj_50BztOYUKajSUqY0nxN_2kmmnO3MgAP6l_pFa1HehfrmOhi8DDnkzYvfS2FA_2MNfDwf-Cq3uUgIr_vILjPrTCBf_jePStpEEESUD77kFWFF9hNgvOYS3TSekcDmUmzIOBGzqNsnrLX_9Kj31aZ7P-CCJ_f9c2MTTC99iz_-ZhAJ7GJ4jboK7Q-E_gBDJO95ASmnr3_tPsjeIePS_PzY21euI7uqBZlYTzB97Cr_NqBBIjBw2DMjP1w7wW3LQ_nQAAA.webp"
+     },
+     "languages": [
+      "en"
+     ],
+     "regions": [
+      "IN"
+     ]
+    },
+    "about_page_link": "https://www.google.co.in/search/about-this-result?origin=www.google.com&req=CoIBL2dvdG8_dXJsPUNBRVNWZ0hyT3pBVkxqM0pYWFlJVGkzdXlYRDI0ODJUX3ZUSW12a0FEb0JOV3FlRG1GZGs1N1FoRjN1NzJQYlJJWlJQZXhOX1ZmMklqb3F1RkdUd2V1MUM2QVZzb1lXaFhiT3N3YVY1NjVCcEN5cU5kcnhJWl9SdhIEGgIIABrNBRICCAEaACIAKgAyBggDEgJpbjoAQgQIARAASgBaDggBEgp6b21hdG8uY29tcgB6AIJAmQUIABAAGAAgACoaCgZ6b21hdG8V9rgPQRoLaXY7cDt6b21hdG8qbAoIY3VzdG9tZXIVaWMZPhoHY29udGFjdBoEY3VzdBoMY3VzdG9tZXJjYXJlGgljdXN0b21lcnMaCGhlbHBsaW5lGg5zZXJ2aWNlIGNlbnRlchoOc2VydmljZSBjZW50cmUaCXRvbGwgZnJlZSpfCgRjYXJlFQAAAAAaBmNhcmluZxoHY29udGFjdBoMY3VzdG9tZXJjYXJlGghoZWxwbGluZRoOc2VydmljZSBjZW50ZXIaDnNlcnZpY2UgY2VudHJlGgl0b2xsIGZyZWUqFgoGbnVtYmVyFWljGT0aB251bWJlcnMyggEvZ290bz91cmw9Q0FFU1ZnSHJPekFWTGozSlhYWUlUaTN1eVhEMjQ4MlRfdlRJbXZrQURvQk5XcWVEbUZkazU3UWhGM3U3MlBiUklaUlBleE5fVmYySWpvcXVGR1R3ZXUxQzZBVnNvWVdoWGJPc3dhVjU2NUJwQ3lxTmRyeElaX1J2OlA8Yj5ab21hdG88L2I-IE9mZmljZSA8Yj5Db250YWN0PC9iPiAoUGhvbmUpIDxiPm51bWJlcnM8L2I-ICZhbXA7IEFkZHJlc3MgRGV0YWlsc0KrATxiPkNvbnRhY3QgKFBob25lKSBudW1iZXJzICZhbXA7IEFkZHJlc3M8L2I-LiBDbGljayBvbiB0aGUgJiMzOTtTdXBwb3J0JiMzOTsgb3IgJiMzOTtPbmxpbmUgb3JkZXJpbmcgaGVscCYjMzk7IHNlY3Rpb24gaW4geW91ciBhcHAgdG8gY29ubmVjdCB0byBvdXIgY3VzdG9tZXIgc3VwcG9ydCB0ZWFtLlIHY29udGFjdCICEAFIAFgAaAA",
+    "about_page_serpapi_link": "https://serpapi.com/search.json?engine=google_about_this_result&google_domain=google.co.in&req_token=CoIBL2dvdG8_dXJsPUNBRVNWZ0hyT3pBVkxqM0pYWFlJVGkzdXlYRDI0ODJUX3ZUSW12a0FEb0JOV3FlRG1GZGs1N1FoRjN1NzJQYlJJWlJQZXhOX1ZmMklqb3F1RkdUd2V1MUM2QVZzb1lXaFhiT3N3YVY1NjVCcEN5cU5kcnhJWl9SdhIEGgIIABrNBRICCAEaACIAKgAyBggDEgJpbjoAQgQIARAASgBaDggBEgp6b21hdG8uY29tcgB6AIJAmQUIABAAGAAgACoaCgZ6b21hdG8V9rgPQRoLaXY7cDt6b21hdG8qbAoIY3VzdG9tZXIVaWMZPhoHY29udGFjdBoEY3VzdBoMY3VzdG9tZXJjYXJlGgljdXN0b21lcnMaCGhlbHBsaW5lGg5zZXJ2aWNlIGNlbnRlchoOc2VydmljZSBjZW50cmUaCXRvbGwgZnJlZSpfCgRjYXJlFQAAAAAaBmNhcmluZxoHY29udGFjdBoMY3VzdG9tZXJjYXJlGghoZWxwbGluZRoOc2VydmljZSBjZW50ZXIaDnNlcnZpY2UgY2VudHJlGgl0b2xsIGZyZWUqFgoGbnVtYmVyFWljGT0aB251bWJlcnMyggEvZ290bz91cmw9Q0FFU1ZnSHJPekFWTGozSlhYWUlUaTN1eVhEMjQ4MlRfdlRJbXZrQURvQk5XcWVEbUZkazU3UWhGM3U3MlBiUklaUlBleE5fVmYySWpvcXVGR1R3ZXUxQzZBVnNvWVdoWGJPc3dhVjU2NUJwQ3lxTmRyeElaX1J2OlA8Yj5ab21hdG88L2I-IE9mZmljZSA8Yj5Db250YWN0PC9iPiAoUGhvbmUpIDxiPm51bWJlcnM8L2I-ICZhbXA7IEFkZHJlc3MgRGV0YWlsc0KrATxiPkNvbnRhY3QgKFBob25lKSBudW1iZXJzICZhbXA7IEFkZHJlc3M8L2I-LiBDbGljayBvbiB0aGUgJiMzOTtTdXBwb3J0JiMzOTsgb3IgJiMzOTtPbmxpbmUgb3JkZXJpbmcgaGVscCYjMzk7IHNlY3Rpb24gaW4geW91ciBhcHAgdG8gY29ubmVjdCB0byBvdXIgY3VzdG9tZXIgc3VwcG9ydCB0ZWFtLlIHY29udGFjdCICEAFIAFgAaAA",
+    "source": "Zomato"
+   },
+   {
+    "position": 2,
+    "title": "Report Fraud",
+    "link": "https://www.zomato.com/report-fraud",
+    "redirect_link": "https://www.google.co.in/url?sa=t&source=web&rct=j&opi=89978449&url=CAESWwHrOzAVa-AXrT41RZcEZj0g3kI8wrCR651ZToSu1NaoAbU6sgKiZaU4WJkdqWV67TvAxBLKhmSRBQ46kqnaAgxSJgMzdQtvnbkqZCZTdgqIxcUHpcaSoqrh5wA&ved=2ahUKEwi6yfXu14eXAxXBCoYAHUp0KmkQFnoECDUQAQ&uoh=1",
+    "displayed_link": "https://www.zomato.com › report-fraud",
+    "snippet": "For any concern / complaint relating to your order, please reach out to our customer care team using the chat option. For order or other general queries ...",
+    "snippet_highlighted_words": [
+     "please reach out to our customer care team using the chat option"
+    ],
+    "about_this_result": {
+     "source": {
+      "description": "For any concern / complaint relating to your order, please reach out to our customer care team using the chat option. For order or other general queries  ...",
+      "source_info_link": "https://www.zomato.com/report-fraud",
+      "icon": "https://serpapi.com/images/i/UklGRuwAAABXRUJQVlA4IOAAAABwBQCdASocABwAPtEutFooIagoGAEAGglsAJ0zWj_50BztOYUKajSUqY0nxN_2kmmnO3MgAP6l_pFa1HehfrmOhi8DDnkzYvfS2FA_2MNfDwf-Cq3uUgIr_vILjPrTCBf_jePStpEEESUD77kFWFF9hNgvOYS3TSekcDmUmzIOBGzqNsnrLX_9Kj31aZ7P-CCJ_f9c2MTTC99iz_-ZhAJ7GJ4jboK7Q-E_gBDJO95ASmnr3_tPsjeIePS_PzY21euI7uqBZlYTzB97Cr_NqBBIjBw2DMjP1w7wW3LQ_nQAAA.webp"
+     },
+     "languages": [
+      "en"
+     ],
+     "regions": [
+      "IN"
+     ]
+    },
+    "about_page_link": "https://www.google.co.in/search/about-this-result?origin=www.google.com&req=CokBL2dvdG8_dXJsPUNBRVNXd0hyT3pBVmEtQVhyVDQxUlpjRVpqMGcza0k4d3JDUjY1MVpUb1N1MU5hb0FiVTZzZ0tpWmFVNFdKa2RxV1Y2N1R2QXhCTEtobVNSQlE0NmtxbmFBZ3hTSmdNemRRdHZuYmtxWkNaVGRncUl4Y1VIcGNhU29xcmg1d0ESBBoCCAAalwUSAggAGgAiACoAMgYIAxICaW46AEIECAEQAEoAWg4IARIKem9tYXRvLmNvbXIAegCCQOMECAAQABgAIAAqGgoGem9tYXRvFSbz-0AaC2l2O3A7em9tYXRvKmwKCGN1c3RvbWVyFWSD-j4aB2NvbnRhY3QaBGN1c3QaDGN1c3RvbWVyY2FyZRoJY3VzdG9tZXJzGghoZWxwbGluZRoOc2VydmljZSBjZW50ZXIaDnNlcnZpY2UgY2VudHJlGgl0b2xsIGZyZWUqXwoEY2FyZRVkg_o-GgZjYXJpbmcaB2NvbnRhY3QaDGN1c3RvbWVyY2FyZRoIaGVscGxpbmUaDnNlcnZpY2UgY2VudGVyGg5zZXJ2aWNlIGNlbnRyZRoJdG9sbCBmcmVlKhYKBm51bWJlchU8QYs8GgdudW1iZXJzMokBL2dvdG8_dXJsPUNBRVNXd0hyT3pBVmEtQVhyVDQxUlpjRVpqMGcza0k4d3JDUjY1MVpUb1N1MU5hb0FiVTZzZ0tpWmFVNFdKa2RxV1Y2N1R2QXhCTEtobVNSQlE0NmtxbmFBZ3hTSmdNemRRdHZuYmtxWkNaVGRncUl4Y1VIcGNhU29xcmg1d0E6FVJlcG9ydCBGcmF1ZCAtIFpvbWF0b0KpAUZvciBhbnkgY29uY2VybiAvIGNvbXBsYWludCByZWxhdGluZyB0byB5b3VyIG9yZGVyLCA8Yj5wbGVhc2UgcmVhY2ggb3V0IHRvIG91ciBjdXN0b21lciBjYXJlIHRlYW0gdXNpbmcgdGhlIGNoYXQgb3B0aW9uPC9iPi4gRm9yIG9yZGVyIG9yIG90aGVyIGdlbmVyYWwgcXVlcmllcyAmbmJzcDsuLi5SB2NvbnRhY3QiAhABSABYAGgA",
+    "about_page_serpapi_link": "https://serpapi.com/search.json?engine=google_about_this_result&google_domain=google.co.in&req_token=CokBL2dvdG8_dXJsPUNBRVNXd0hyT3pBVmEtQVhyVDQxUlpjRVpqMGcza0k4d3JDUjY1MVpUb1N1MU5hb0FiVTZzZ0tpWmFVNFdKa2RxV1Y2N1R2QXhCTEtobVNSQlE0NmtxbmFBZ3hTSmdNemRRdHZuYmtxWkNaVGRncUl4Y1VIcGNhU29xcmg1d0ESBBoCCAAalwUSAggAGgAiACoAMgYIAxICaW46AEIECAEQAEoAWg4IARIKem9tYXRvLmNvbXIAegCCQOMECAAQABgAIAAqGgoGem9tYXRvFSbz-0AaC2l2O3A7em9tYXRvKmwKCGN1c3RvbWVyFWSD-j4aB2NvbnRhY3QaBGN1c3QaDGN1c3RvbWVyY2FyZRoJY3VzdG9tZXJzGghoZWxwbGluZRoOc2VydmljZSBjZW50ZXIaDnNlcnZpY2UgY2VudHJlGgl0b2xsIGZyZWUqXwoEY2FyZRVkg_o-GgZjYXJpbmcaB2NvbnRhY3QaDGN1c3RvbWVyY2FyZRoIaGVscGxpbmUaDnNlcnZpY2UgY2VudGVyGg5zZXJ2aWNlIGNlbnRyZRoJdG9sbCBmcmVlKhYKBm51bWJlchU8QYs8GgdudW1iZXJzMokBL2dvdG8_dXJsPUNBRVNXd0hyT3pBVmEtQVhyVDQxUlpjRVpqMGcza0k4d3JDUjY1MVpUb1N1MU5hb0FiVTZzZ0tpWmFVNFdKa2RxV1Y2N1R2QXhCTEtobVNSQlE0NmtxbmFBZ3hTSmdNemRRdHZuYmtxWkNaVGRncUl4Y1VIcGNhU29xcmg1d0E6FVJlcG9ydCBGcmF1ZCAtIFpvbWF0b0KpAUZvciBhbnkgY29uY2VybiAvIGNvbXBsYWludCByZWxhdGluZyB0byB5b3VyIG9yZGVyLCA8Yj5wbGVhc2UgcmVhY2ggb3V0IHRvIG91ciBjdXN0b21lciBjYXJlIHRlYW0gdXNpbmcgdGhlIGNoYXQgb3B0aW9uPC9iPi4gRm9yIG9yZGVyIG9yIG90aGVyIGdlbmVyYWwgcXVlcmllcyAmbmJzcDsuLi5SB2NvbnRhY3QiAhABSABYAGgA",
+    "source": "Zomato"
+   },
+   {
+    "position": 3,
+    "title": "Zomato India Customer Care No.",
+    "link": "https://www.indiacustomercare.com/zomato-customer-care-number",
+    "redirect_link": "https://www.google.co.in/url?sa=t&source=web&rct=j&opi=89978449&url=CAESdQHrOzAVMTkPREmTRJnFX2ZgTsN7sPOim909KviMLr84XLPfP331dMYzhPBsPLyhKR4Z1c0ZUgbTxXt-1fz1GS-YHZY3auHC6MgcdWU-BkAsu54ippBC2-50UHOMnKhqOlub8hZ7MIWPk-H42SJuTzJIZ6SlcQ&ved=2ahUKEwi6yfXu14eXAxXBCoYAHUp0KmkQFnoECDQQAQ&uoh=1",
+    "displayed_link": "https://www.indiacustomercare.com › zomato-customer...",
+    "snippet": "Toll Free: 011-4117 1852 (For Customer Support, Mon-Fri, 9am-6pm) Number(s): 011-4117 1852 (For Customer Support, Mon-Fri, 9am-6pm) Email help@zomato.com",
+    "snippet_highlighted_words": [
+     "Toll Free: 011-4117 1852"
+    ],
+    "about_this_result": {
+     "source": {
+      "description": "Toll Free: 011-4117 1852 (For Customer Support, Mon-Fri, 9am-6pm) Number(s): 011-4117 1852 (For Customer Support, Mon-Fri, 9am-6pm) Email help@zomato.com",
+      "source_info_link": "https://www.indiacustomercare.com/zomato-customer-care-number",
+      "icon": "https://serpapi.com/images/i/UklGRtoAAABXRUJQVlA4IM4AAADQBQCdASocABwAPtEutFooIagoGAEAGglsAMHPLBhgmZxf7McLETRfP_PRtSvBFNg4L_xyYgAAAP72B8hX7FAOQi-ckKWa_d5hjYi36GFr0aP-2P9-72yC5kS_eULPdXkcsFCNMflN8dlJ58_FH_wYvpPY6AUklli5Jjr6MC06gmyRYUKTDLn2fmbLAWH_AQ3TRjAP6iW56bE5ItMfzYdYfZohwV9neZ7zyUC4gj9KrD66DbT3nZ8-SicmlXe_HTNjjMWOsBr7Sn1F6TOAAA.webp"
+     },
+     "languages": [
+      "en"
+     ],
+     "regions": [
+      "IN"
+     ]
+    },
+    "about_page_link": "https://www.google.co.in/search/about-this-result?origin=www.google.com&req=CqwBL2dvdG8_dXJsPUNBRVNkUUhyT3pBVk1Ua1BSRW1UUkpuRlgyWmdUc043c1BPaW05MDlLdmlNTHI4NFhMUGZQMzMxZE1ZemhQQnNQTHloS1I0WjFjMFpVZ2JUeFh0LTFmejFHUy1ZSFpZM2F1SEM2TWdjZFdVLUJrQXN1NTRpcHBCQzItNTBVSE9NbktocU9sdWI4aFo3TUlXUGstSDQyU0p1VHpKSVo2U2xjURIEGgIIABq4BRIAGgAiACoAMgYIARICaW46AEIECAEQAEoAWgByAHoAgkCUBQgAEAAYACAAKhoKBnpvbWF0bxW6saRAGgtpdjtwO3pvbWF0bypsCghjdXN0b21lchVuTwFBGgdjb250YWN0GgRjdXN0GgxjdXN0b21lcmNhcmUaCWN1c3RvbWVycxoIaGVscGxpbmUaDnNlcnZpY2UgY2VudGVyGg5zZXJ2aWNlIGNlbnRyZRoJdG9sbCBmcmVlKl8KBGNhcmUVcNb6QBoGY2FyaW5nGgdjb250YWN0GgxjdXN0b21lcmNhcmUaCGhlbHBsaW5lGg5zZXJ2aWNlIGNlbnRlchoOc2VydmljZSBjZW50cmUaCXRvbGwgZnJlZSoWCgZudW1iZXIVhXnyPxoHbnVtYmVyczKsAS9nb3RvP3VybD1DQUVTZFFIck96QVZNVGtQUkVtVFJKbkZYMlpnVHNON3NQT2ltOTA5S3ZpTUxyODRYTFBmUDMzMWRNWXpoUEJzUEx5aEtSNFoxYzBaVWdiVHhYdC0xZnoxR1MtWUhaWTNhdUhDNk1nY2RXVS1Ca0FzdTU0aXBwQkMyLTUwVUhPTW5LaHFPbHViOGhaN01JV1BrLUg0MlNKdVR6SklaNlNsY1E6LDxiPlpvbWF0bzwvYj4gSW5kaWEgPGI-Q3VzdG9tZXIgQ2FyZTwvYj4gTm8uQqABPGI-VG9sbCBGcmVlOiAwMTEtNDExNyAxODUyPC9iPiAoRm9yIEN1c3RvbWVyIFN1cHBvcnQsIE1vbi1GcmksIDlhbS02cG0pIE51bWJlcihzKTogMDExLTQxMTcgMTg1MiAoRm9yIEN1c3RvbWVyIFN1cHBvcnQsIE1vbi1GcmksIDlhbS02cG0pIEVtYWlsIGhlbHBAem9tYXRvLmNvbVIHY29udGFjdCICEAFIAFgAaAA",
+    "about_page_serpapi_link": "https://serpapi.com/search.json?engine=google_about_this_result&google_domain=google.co.in&req_token=CqwBL2dvdG8_dXJsPUNBRVNkUUhyT3pBVk1Ua1BSRW1UUkpuRlgyWmdUc043c1BPaW05MDlLdmlNTHI4NFhMUGZQMzMxZE1ZemhQQnNQTHloS1I0WjFjMFpVZ2JUeFh0LTFmejFHUy1ZSFpZM2F1SEM2TWdjZFdVLUJrQXN1NTRpcHBCQzItNTBVSE9NbktocU9sdWI4aFo3TUlXUGstSDQyU0p1VHpKSVo2U2xjURIEGgIIABq4BRIAGgAiACoAMgYIARICaW46AEIECAEQAEoAWgByAHoAgkCUBQgAEAAYACAAKhoKBnpvbWF0bxW6saRAGgtpdjtwO3pvbWF0bypsCghjdXN0b21lchVuTwFBGgdjb250YWN0GgRjdXN0GgxjdXN0b21lcmNhcmUaCWN1c3RvbWVycxoIaGVscGxpbmUaDnNlcnZpY2UgY2VudGVyGg5zZXJ2aWNlIGNlbnRyZRoJdG9sbCBmcmVlKl8KBGNhcmUVcNb6QBoGY2FyaW5nGgdjb250YWN0GgxjdXN0b21lcmNhcmUaCGhlbHBsaW5lGg5zZXJ2aWNlIGNlbnRlchoOc2VydmljZSBjZW50cmUaCXRvbGwgZnJlZSoWCgZudW1iZXIVhXnyPxoHbnVtYmVyczKsAS9nb3RvP3VybD1DQUVTZFFIck96QVZNVGtQUkVtVFJKbkZYMlpnVHNON3NQT2ltOTA5S3ZpTUxyODRYTFBmUDMzMWRNWXpoUEJzUEx5aEtSNFoxYzBaVWdiVHhYdC0xZnoxR1MtWUhaWTNhdUhDNk1nY2RXVS1Ca0FzdTU0aXBwQkMyLTUwVUhPTW5LaHFPbHViOGhaN01JV1BrLUg0MlNKdVR6SklaNlNsY1E6LDxiPlpvbWF0bzwvYj4gSW5kaWEgPGI-Q3VzdG9tZXIgQ2FyZTwvYj4gTm8uQqABPGI-VG9sbCBGcmVlOiAwMTEtNDExNyAxODUyPC9iPiAoRm9yIEN1c3RvbWVyIFN1cHBvcnQsIE1vbi1GcmksIDlhbS02cG0pIE51bWJlcihzKTogMDExLTQxMTcgMTg1MiAoRm9yIEN1c3RvbWVyIFN1cHBvcnQsIE1vbi1GcmksIDlhbS02cG0pIEVtYWlsIGhlbHBAem9tYXRvLmNvbVIHY29udGFjdCICEAFIAFgAaAA",
+    "source": "India Customer Care"
+   },
+   {
+    "position": 4,
+    "title": "Delhi 84, Burari, New Delhi",
+    "link": "https://www.zomato.com/ncr/delhi-84-burari-new-delhi",
+    "redirect_link": "https://www.google.co.in/url?sa=t&source=web&rct=j&opi=89978449&url=CAESbAHrOzAVyLES2ZzDLqDdq93iI24Xn6WXyyJzbUzlymDhNc5hdHoQ5QcXjf7VzpnR6gtPHSfZO7GPD3GidCahx14y6HVVPdCV__xIJtLGTIY57HI9Xbz2uji8NpmyHELoEZnxwDwc5aY9fwpY4w&ved=2ahUKEwi6yfXu14eXAxXBCoYAHUp0KmkQFnoECDIQAQ&uoh=1",
+    "displayed_link": "https://www.zomato.com › ... › North Delhi › Burari",
+    "snippet": "Tap a number to call +917355602929 TRY THE ZOMATO APP Upto 50% off and free delivery on your first order Switch to the app for exclusive discounts, live order ...",
+    "snippet_highlighted_words": [
+     "917355602929"
+    ],
+    "about_this_result": {
+     "source": {
+      "description": "Tap a number to call +917355602929 TRY THE ZOMATO APP Upto 50% off and free delivery on your first order Switch to the app for exclusive discounts, live order ...",
+      "source_info_link": "https://www.zomato.com/ncr/delhi-84-burari-new-delhi",
+      "icon": "https://serpapi.com/images/i/UklGRuwAAABXRUJQVlA4IOAAAABwBQCdASocABwAPtEutFooIagoGAEAGglsAJ0zWj_50BztOYUKajSUqY0nxN_2kmmnO3MgAP6l_pFa1HehfrmOhi8DDnkzYvfS2FA_2MNfDwf-Cq3uUgIr_vILjPrTCBf_jePStpEEESUD77kFWFF9hNgvOYS3TSekcDmUmzIOBGzqNsnrLX_9Kj31aZ7P-CCJ_f9c2MTTC99iz_-ZhAJ7GJ4jboK7Q-E_gBDJO95ASmnr3_tPsjeIePS_PzY21euI7uqBZlYTzB97Cr_NqBBIjBw2DMjP1w7wW3LQ_nQAAA.webp"
+     },
+     "languages": [
+      "en"
+     ],
+     "regions": [
+      "IN"
+     ]
+    },
+    "about_page_link": "https://www.google.co.in/search/about-this-result?origin=www.google.com&req=CqABL2dvdG8_dXJsPUNBRVNiQUhyT3pBVnlMRVMyWnpETHFEZHE5M2lJMjRYbjZXWHl5SnpiVXpseW1EaE5jNWhkSG9RNVFjWGpmN1Z6cG5SNmd0UEhTZlpPN0dQRDNHaWRDYWh4MTR5NkhWVlBkQ1ZfX3hJSnRMR1RJWTU3SEk5WGJ6MnVqaThOcG15SEVMb0Vabnh3RHdjNWFZOWZ3cFk0dxIEGgIIABrMBRIAGgAiACoAOgBCBAgBEABKFAgBEgxEZWxoaSwgRGVsaGkaAggCWg4IARIKem9tYXRvLmNvbXIAegCCQI4FCAAQABgAIAAqGgoGem9tYXRvFb_CAEEaC2l2O3A7em9tYXRvKmwKCGN1c3RvbWVyFQAAAAAaB2NvbnRhY3QaBGN1c3QaDGN1c3RvbWVyY2FyZRoJY3VzdG9tZXJzGghoZWxwbGluZRoOc2VydmljZSBjZW50ZXIaDnNlcnZpY2UgY2VudHJlGgl0b2xsIGZyZWUqXwoEY2FyZRUAAAAAGgZjYXJpbmcaB2NvbnRhY3QaDGN1c3RvbWVyY2FyZRoIaGVscGxpbmUaDnNlcnZpY2UgY2VudGVyGg5zZXJ2aWNlIGNlbnRyZRoJdG9sbCBmcmVlKhYKBm51bWJlchWKRLs-GgdudW1iZXJzMqABL2dvdG8_dXJsPUNBRVNiQUhyT3pBVnlMRVMyWnpETHFEZHE5M2lJMjRYbjZXWHl5SnpiVXpseW1EaE5jNWhkSG9RNVFjWGpmN1Z6cG5SNmd0UEhTZlpPN0dQRDNHaWRDYWh4MTR5NkhWVlBkQ1ZfX3hJSnRMR1RJWTU3SEk5WGJ6MnVqaThOcG15SEVMb0Vabnh3RHdjNWFZOWZ3cFk0dzokRGVsaGkgODQsIEJ1cmFyaSwgTmV3IERlbGhpIC0gWm9tYXRvQq4BVGFwIGEgbnVtYmVyIHRvIGNhbGwgKzxiPjkxNzM1NTYwMjkyOTwvYj4gVFJZIFRIRSBaT01BVE8gQVBQIFVwdG8gNTAlIG9mZiBhbmQgZnJlZSBkZWxpdmVyeSBvbiB5b3VyIGZpcnN0IG9yZGVyIFN3aXRjaCB0byB0aGUgYXBwIGZvciBleGNsdXNpdmUgZGlzY291bnRzLCBsaXZlIG9yZGVyJm5ic3A7Li4uUgdjb250YWN0IgIQAUgAWABoAA",
+    "about_page_serpapi_link": "https://serpapi.com/search.json?engine=google_about_this_result&google_domain=google.co.in&req_token=CqABL2dvdG8_dXJsPUNBRVNiQUhyT3pBVnlMRVMyWnpETHFEZHE5M2lJMjRYbjZXWHl5SnpiVXpseW1EaE5jNWhkSG9RNVFjWGpmN1Z6cG5SNmd0UEhTZlpPN0dQRDNHaWRDYWh4MTR5NkhWVlBkQ1ZfX3hJSnRMR1RJWTU3SEk5WGJ6MnVqaThOcG15SEVMb0Vabnh3RHdjNWFZOWZ3cFk0dxIEGgIIABrMBRIAGgAiACoAOgBCBAgBEABKFAgBEgxEZWxoaSwgRGVsaGkaAggCWg4IARIKem9tYXRvLmNvbXIAegCCQI4FCAAQABgAIAAqGgoGem9tYXRvFb_CAEEaC2l2O3A7em9tYXRvKmwKCGN1c3RvbWVyFQAAAAAaB2NvbnRhY3QaBGN1c3QaDGN1c3RvbWVyY2FyZRoJY3VzdG9tZXJzGghoZWxwbGluZRoOc2VydmljZSBjZW50ZXIaDnNlcnZpY2UgY2VudHJlGgl0b2xsIGZyZWUqXwoEY2FyZRUAAAAAGgZjYXJpbmcaB2NvbnRhY3QaDGN1c3RvbWVyY2FyZRoIaGVscGxpbmUaDnNlcnZpY2UgY2VudGVyGg5zZXJ2aWNlIGNlbnRyZRoJdG9sbCBmcmVlKhYKBm51bWJlchWKRLs-GgdudW1iZXJzMqABL2dvdG8_dXJsPUNBRVNiQUhyT3pBVnlMRVMyWnpETHFEZHE5M2lJMjRYbjZXWHl5SnpiVXpseW1EaE5jNWhkSG9RNVFjWGpmN1Z6cG5SNmd0UEhTZlpPN0dQRDNHaWRDYWh4MTR5NkhWVlBkQ1ZfX3hJSnRMR1RJWTU3SEk5WGJ6MnVqaThOcG15SEVMb0Vabnh3RHdjNWFZOWZ3cFk0dzokRGVsaGkgODQsIEJ1cmFyaSwgTmV3IERlbGhpIC0gWm9tYXRvQq4BVGFwIGEgbnVtYmVyIHRvIGNhbGwgKzxiPjkxNzM1NTYwMjkyOTwvYj4gVFJZIFRIRSBaT01BVE8gQVBQIFVwdG8gNTAlIG9mZiBhbmQgZnJlZSBkZWxpdmVyeSBvbiB5b3VyIGZpcnN0IG9yZGVyIFN3aXRjaCB0byB0aGUgYXBwIGZvciBleGNsdXNpdmUgZGlzY291bnRzLCBsaXZlIG9yZGVyJm5ic3A7Li4uUgdjb250YWN0IgIQAUgAWABoAA",
+    "source": "Zomato"
+   },
+   {
+    "position": 5,
+    "title": "Zomato - Restaurant Partner",
+    "link": "https://www.zomato.com/partners/login",
+    "redirect_link": "https://www.google.co.in/url?sa=t&source=web&rct=j&opi=89978449&url=CAESXQHrOzAVLS-xBuJqX55qCOfI_je55gAUlY2Qlw8udriZZaqTHd_uulFGGy5TF6ZvxGEEoOqdRkX61l1hSYoY7teEkcwt5QvwZCpiFfBgIPuZIvDrzBiFm0ha1LuHAQ&ved=2ahUKEwi6yfXu14eXAxXBCoYAHUp0KmkQFnoECC4QAQ&uoh=1",
+    "displayed_link": "https://www.zomato.com › partners › login",
+    "snippet": "Zomato Restaurant Partner dashboard. Login. Register. Contact Us +91-97-38383838. By continuing, you agree to our. Terms of service. Privacy Policy.",
+    "snippet_highlighted_words": [
+     "91-97-38383838"
+    ],
+    "about_this_result": {
+     "source": {
+      "description": "Zomato Restaurant Partner dashboard. Login. Register. Contact Us +\n91-97-38383838. By continuing, you agree to our. Terms of service. Privacy Policy.",
+      "source_info_link": "https://www.zomato.com/partners/login",
+      "icon": "https://serpapi.com/images/i/UklGRuwAAABXRUJQVlA4IOAAAABwBQCdASocABwAPtEutFooIagoGAEAGglsAJ0zWj_50BztOYUKajSUqY0nxN_2kmmnO3MgAP6l_pFa1HehfrmOhi8DDnkzYvfS2FA_2MNfDwf-Cq3uUgIr_vILjPrTCBf_jePStpEEESUD77kFWFF9hNgvOYS3TSekcDmUmzIOBGzqNsnrLX_9Kj31aZ7P-CCJ_f9c2MTTC99iz_-ZhAJ7GJ4jboK7Q-E_gBDJO95ASmnr3_tPsjeIePS_PzY21euI7uqBZlYTzB97Cr_NqBBIjBw2DMjP1w7wW3LQ_nQAAA.webp"
+     },
+     "languages": [
+      "en"
+     ],
+     "regions": [
+      "IN"
+     ]
+    },
+    "about_page_link": "https://www.google.co.in/search/about-this-result?origin=www.google.com&req=CowBL2dvdG8_dXJsPUNBRVNYUUhyT3pBVkxTLXhCdUpxWDU1cUNPZklfamU1NWdBVWxZMlFsdzh1ZHJpWlphcVRIZF91dWxGR0d5NVRGNlp2eEdFRW9PcWRSa1g2MWwxaFNZb1k3dGVFa2N3dDVRdndaQ3BpRmZCZ0lQdVpJdkRyekJpRm0waGExTHVIQVESBBoCCAAakgUSAggBGgAiACoAMgYIAxICaW46AEIECAEQAEoAWg4IARIKem9tYXRvLmNvbXIAegCCQN4ECAAQABgAIAAqGgoGem9tYXRvFRD4zkAaC2l2O3A7em9tYXRvKmwKCGN1c3RvbWVyFQAAAAAaB2NvbnRhY3QaBGN1c3QaDGN1c3RvbWVyY2FyZRoJY3VzdG9tZXJzGghoZWxwbGluZRoOc2VydmljZSBjZW50ZXIaDnNlcnZpY2UgY2VudHJlGgl0b2xsIGZyZWUqXwoEY2FyZRUAAAAAGgZjYXJpbmcaB2NvbnRhY3QaDGN1c3RvbWVyY2FyZRoIaGVscGxpbmUaDnNlcnZpY2UgY2VudGVyGg5zZXJ2aWNlIGNlbnRyZRoJdG9sbCBmcmVlKhYKBm51bWJlchUAAAAAGgdudW1iZXJzMowBL2dvdG8_dXJsPUNBRVNYUUhyT3pBVkxTLXhCdUpxWDU1cUNPZklfamU1NWdBVWxZMlFsdzh1ZHJpWlphcVRIZF91dWxGR0d5NVRGNlp2eEdFRW9PcWRSa1g2MWwxaFNZb1k3dGVFa2N3dDVRdndaQ3BpRmZCZ0lQdVpJdkRyekJpRm0waGExTHVIQVE6G1Jlc3RhdXJhbnQgUGFydG5lciAtIFpvbWF0b0KbAVpvbWF0byBSZXN0YXVyYW50IFBhcnRuZXIgZGFzaGJvYXJkLiBMb2dpbi4gUmVnaXN0ZXIuIENvbnRhY3QgVXMgKzxiPjkxLTk3LTM4MzgzODM4PC9iPi4gQnkgY29udGludWluZywgeW91IGFncmVlIHRvIG91ci4gVGVybXMgb2Ygc2VydmljZS4gUHJpdmFjeSBQb2xpY3kuUgdjb250YWN0IgIQAUgAWABoAA",
+    "about_page_serpapi_link": "https://serpapi.com/search.json?engine=google_about_this_result&google_domain=google.co.in&req_token=CowBL2dvdG8_dXJsPUNBRVNYUUhyT3pBVkxTLXhCdUpxWDU1cUNPZklfamU1NWdBVWxZMlFsdzh1ZHJpWlphcVRIZF91dWxGR0d5NVRGNlp2eEdFRW9PcWRSa1g2MWwxaFNZb1k3dGVFa2N3dDVRdndaQ3BpRmZCZ0lQdVpJdkRyekJpRm0waGExTHVIQVESBBoCCAAakgUSAggBGgAiACoAMgYIAxICaW46AEIECAEQAEoAWg4IARIKem9tYXRvLmNvbXIAegCCQN4ECAAQABgAIAAqGgoGem9tYXRvFRD4zkAaC2l2O3A7em9tYXRvKmwKCGN1c3RvbWVyFQAAAAAaB2NvbnRhY3QaBGN1c3QaDGN1c3RvbWVyY2FyZRoJY3VzdG9tZXJzGghoZWxwbGluZRoOc2VydmljZSBjZW50ZXIaDnNlcnZpY2UgY2VudHJlGgl0b2xsIGZyZWUqXwoEY2FyZRUAAAAAGgZjYXJpbmcaB2NvbnRhY3QaDGN1c3RvbWVyY2FyZRoIaGVscGxpbmUaDnNlcnZpY2UgY2VudGVyGg5zZXJ2aWNlIGNlbnRyZRoJdG9sbCBmcmVlKhYKBm51bWJlchUAAAAAGgdudW1iZXJzMowBL2dvdG8_dXJsPUNBRVNYUUhyT3pBVkxTLXhCdUpxWDU1cUNPZklfamU1NWdBVWxZMlFsdzh1ZHJpWlphcVRIZF91dWxGR0d5NVRGNlp2eEdFRW9PcWRSa1g2MWwxaFNZb1k3dGVFa2N3dDVRdndaQ3BpRmZCZ0lQdVpJdkRyekJpRm0waGExTHVIQVE6G1Jlc3RhdXJhbnQgUGFydG5lciAtIFpvbWF0b0KbAVpvbWF0byBSZXN0YXVyYW50IFBhcnRuZXIgZGFzaGJvYXJkLiBMb2dpbi4gUmVnaXN0ZXIuIENvbnRhY3QgVXMgKzxiPjkxLTk3LTM4MzgzODM4PC9iPi4gQnkgY29udGludWluZywgeW91IGFncmVlIHRvIG91ci4gVGVybXMgb2Ygc2VydmljZS4gUHJpdmFjeSBQb2xpY3kuUgdjb250YWN0IgIQAUgAWABoAA",
+    "source": "Zomato",
+    "read_more_link": "https://www.zomato.com/partners/login#:~:text=Zomato%20Restaurant%20Partner%20dashboard,Privacy%20Policy"
+   },
+   {
+    "position": 6,
+    "title": "Report an Accident or Emergency",
+    "link": "https://www.zomato.com/contact/emergency",
+    "redirect_link": "https://www.google.co.in/url?sa=t&source=web&rct=j&opi=89978449&url=CAESYAHrOzAVR55S5YebRxNW4BVrfMFo87Rar_J6dI3ZQt_j9FFttX4Et6skszoOP_cF-MbDIYV-IWMR5TXn2mDgGX9GXdxYQFisYa4BH5e5KucBTQ6_JVB5aRF35Xq1rDKlJA&ved=2ahUKEwi6yfXu14eXAxXBCoYAHUp0KmkQFnoECDgQAQ&uoh=1",
+    "displayed_link": "https://www.zomato.com › contact › emergency",
+    "snippet": "Disclaimer. Please use this page to report a serious incident or accident only. For order related queries, please use our chat support.",
+    "about_this_result": {
+     "source": {
+      "description": "Disclaimer. Please use this page to report a serious incident or accident only. For order related queries, please use our chat support.",
+      "source_info_link": "https://www.zomato.com/contact/emergency",
+      "icon": "https://serpapi.com/images/i/UklGRuwAAABXRUJQVlA4IOAAAABwBQCdASocABwAPtEutFooIagoGAEAGglsAJ0zWj_50BztOYUKajSUqY0nxN_2kmmnO3MgAP6l_pFa1HehfrmOhi8DDnkzYvfS2FA_2MNfDwf-Cq3uUgIr_vILjPrTCBf_jePStpEEESUD77kFWFF9hNgvOYS3TSekcDmUmzIOBGzqNsnrLX_9Kj31aZ7P-CCJ_f9c2MTTC99iz_-ZhAJ7GJ4jboK7Q-E_gBDJO95ASmnr3_tPsjeIePS_PzY21euI7uqBZlYTzB97Cr_NqBBIjBw2DMjP1w7wW3LQ_nQAAA.webp"
+     },
+     "languages": [
+      "en"
+     ],
+     "regions": [
+      "IN"
+     ]
+    },
+    "about_page_link": "https://www.google.co.in/search/about-this-result?origin=www.google.com&req=CpABL2dvdG8_dXJsPUNBRVNZQUhyT3pBVlI1NVM1WWViUnhOVzRCVnJmTUZvODdSYXJfSjZkSTNaUXRfajlGRnR0WDRFdDZza3N6b09QX2NGLU1iRElZVi1JV01SNVRYbjJtRGdHWDlHWGR4WVFGaXNZYTRCSDVlNUt1Y0JUUTZfSlZCNWFSRjM1WHExckRLbEpBEgQaAggAGpYFEgIIABoAIgAqADIGCAMSAmluOgBCBAgBEABKAFoOCAESCnpvbWF0by5jb21yAHoAgkDiBAgAEAAYACAAKhoKBnpvbWF0bxXW_txAGgtpdjtwO3pvbWF0bypsCghjdXN0b21lchUAAAAAGgdjb250YWN0GgRjdXN0GgxjdXN0b21lcmNhcmUaCWN1c3RvbWVycxoIaGVscGxpbmUaDnNlcnZpY2UgY2VudGVyGg5zZXJ2aWNlIGNlbnRyZRoJdG9sbCBmcmVlKl8KBGNhcmUVAAAAABoGY2FyaW5nGgdjb250YWN0GgxjdXN0b21lcmNhcmUaCGhlbHBsaW5lGg5zZXJ2aWNlIGNlbnRlchoOc2VydmljZSBjZW50cmUaCXRvbGwgZnJlZSoWCgZudW1iZXIVAAAAABoHbnVtYmVyczKQAS9nb3RvP3VybD1DQUVTWUFIck96QVZSNTVTNVllYlJ4Tlc0QlZyZk1Gbzg3UmFyX0o2ZEkzWlF0X2o5RkZ0dFg0RXQ2c2tzem9PUF9jRi1NYkRJWVYtSVdNUjVUWG4ybURnR1g5R1hkeFlRRmlzWWE0Qkg1ZTVLdWNCVFE2X0pWQjVhUkYzNVhxMXJES2xKQTovUmVwb3J0IGFuIEFjY2lkZW50IG9yIEVtZXJnZW5jeSAtIDxiPlpvbWF0bzwvYj5ChwFEaXNjbGFpbWVyLiBQbGVhc2UgdXNlIHRoaXMgcGFnZSB0byByZXBvcnQgYSBzZXJpb3VzIGluY2lkZW50IG9yIGFjY2lkZW50IG9ubHkuIEZvciBvcmRlciByZWxhdGVkIHF1ZXJpZXMsIHBsZWFzZSB1c2Ugb3VyIGNoYXQgc3VwcG9ydC5SB2NvbnRhY3QiAhABSABYAGgA",
+    "about_page_serpapi_link": "https://serpapi.com/search.json?engine=google_about_this_result&google_domain=google.co.in&req_token=CpABL2dvdG8_dXJsPUNBRVNZQUhyT3pBVlI1NVM1WWViUnhOVzRCVnJmTUZvODdSYXJfSjZkSTNaUXRfajlGRnR0WDRFdDZza3N6b09QX2NGLU1iRElZVi1JV01SNVRYbjJtRGdHWDlHWGR4WVFGaXNZYTRCSDVlNUt1Y0JUUTZfSlZCNWFSRjM1WHExckRLbEpBEgQaAggAGpYFEgIIABoAIgAqADIGCAMSAmluOgBCBAgBEABKAFoOCAESCnpvbWF0by5jb21yAHoAgkDiBAgAEAAYACAAKhoKBnpvbWF0bxXW_txAGgtpdjtwO3pvbWF0bypsCghjdXN0b21lchUAAAAAGgdjb250YWN0GgRjdXN0GgxjdXN0b21lcmNhcmUaCWN1c3RvbWVycxoIaGVscGxpbmUaDnNlcnZpY2UgY2VudGVyGg5zZXJ2aWNlIGNlbnRyZRoJdG9sbCBmcmVlKl8KBGNhcmUVAAAAABoGY2FyaW5nGgdjb250YWN0GgxjdXN0b21lcmNhcmUaCGhlbHBsaW5lGg5zZXJ2aWNlIGNlbnRlchoOc2VydmljZSBjZW50cmUaCXRvbGwgZnJlZSoWCgZudW1iZXIVAAAAABoHbnVtYmVyczKQAS9nb3RvP3VybD1DQUVTWUFIck96QVZSNTVTNVllYlJ4Tlc0QlZyZk1Gbzg3UmFyX0o2ZEkzWlF0X2o5RkZ0dFg0RXQ2c2tzem9PUF9jRi1NYkRJWVYtSVdNUjVUWG4ybURnR1g5R1hkeFlRRmlzWWE0Qkg1ZTVLdWNCVFE2X0pWQjVhUkYzNVhxMXJES2xKQTovUmVwb3J0IGFuIEFjY2lkZW50IG9yIEVtZXJnZW5jeSAtIDxiPlpvbWF0bzwvYj5ChwFEaXNjbGFpbWVyLiBQbGVhc2UgdXNlIHRoaXMgcGFnZSB0byByZXBvcnQgYSBzZXJpb3VzIGluY2lkZW50IG9yIGFjY2lkZW50IG9ubHkuIEZvciBvcmRlciByZWxhdGVkIHF1ZXJpZXMsIHBsZWFzZSB1c2Ugb3VyIGNoYXQgc3VwcG9ydC5SB2NvbnRhY3QiAhABSABYAGgA",
+    "source": "Zomato",
+    "read_more_link": "https://www.zomato.com/contact/emergency#:~:text=Disclaimer,please%20use%20our%20chat%20support."
+   },
+   {
+    "position": 7,
+    "title": "Beware – Stay safe from fake customer care number",
+    "link": "https://www.zomato.com/beware-of-fraud",
+    "redirect_link": "https://www.google.co.in/url?sa=t&source=web&rct=j&opi=89978449&url=CAESXgHrOzAVOizOdduhXaWgrMrxYxX98EcLbgm4ajkAvM2jZYSpJ8KPh9OWJHmpM6FcF5mwRlMnUnKLfjf-_Ku29obWjGjK-W8VMexQsaQnP2CL0HmL2hKoSWJpQ0WY0U4&ved=2ahUKEwi6yfXu14eXAxXBCoYAHUp0KmkQFnoECDMQAQ&uoh=1",
+    "displayed_link": "https://www.zomato.com › beware-of-fraud",
+    "snippet": "Zomato does not have any customer care number and we never ask for any banking details like CVV, UPI, or PIN. Beware of fake numbers!",
+    "snippet_highlighted_words": [
+     "Zomato does not have any customer care number"
+    ],
+    "about_this_result": {
+     "source": {
+      "description": "Zomato does not have any customer care number and we never ask for any banking details like CVV, UPI, or PIN. Beware of fake numbers!",
+      "source_info_link": "https://www.zomato.com/beware-of-fraud",
+      "icon": "https://serpapi.com/images/i/UklGRuwAAABXRUJQVlA4IOAAAABwBQCdASocABwAPtEutFooIagoGAEAGglsAJ0zWj_50BztOYUKajSUqY0nxN_2kmmnO3MgAP6l_pFa1HehfrmOhi8DDnkzYvfS2FA_2MNfDwf-Cq3uUgIr_vILjPrTCBf_jePStpEEESUD77kFWFF9hNgvOYS3TSekcDmUmzIOBGzqNsnrLX_9Kj31aZ7P-CCJ_f9c2MTTC99iz_-ZhAJ7GJ4jboK7Q-E_gBDJO95ASmnr3_tPsjeIePS_PzY21euI7uqBZlYTzB97Cr_NqBBIjBw2DMjP1w7wW3LQ_nQAAA.webp"
+     },
+     "languages": [
+      "en"
+     ],
+     "regions": [
+      "IN"
+     ]
+    },
+    "about_page_link": "https://www.google.co.in/search/about-this-result?origin=www.google.com&req=Co0BL2dvdG8_dXJsPUNBRVNYZ0hyT3pBVk9pek9kZHVoWGFXZ3JNcnhZeFg5OEVjTGJnbTRhamtBdk0yalpZU3BKOEtQaDlPV0pIbXBNNkZjRjVtd1JsTW5VbktMZmpmLV9LdTI5b2JXakdqSy1XOFZNZXhRc2FRblAyQ0wwSG1MMmhLb1NXSnBRMFdZMFU0EgQaAggAGrMFEgIIABoAIgAqADIGCAESAmluOgBCBAgBEABKAFoOCAESCnpvbWF0by5jb21yAHoAgkD_BAgAEAAYACAAKhoKBnpvbWF0bxXvwdJAGgtpdjtwO3pvbWF0bypsCghjdXN0b21lchXGhYNAGgdjb250YWN0GgRjdXN0GgxjdXN0b21lcmNhcmUaCWN1c3RvbWVycxoIaGVscGxpbmUaDnNlcnZpY2UgY2VudGVyGg5zZXJ2aWNlIGNlbnRyZRoJdG9sbCBmcmVlKl8KBGNhcmUVxoWDQBoGY2FyaW5nGgdjb250YWN0GgxjdXN0b21lcmNhcmUaCGhlbHBsaW5lGg5zZXJ2aWNlIGNlbnRlchoOc2VydmljZSBjZW50cmUaCXRvbGwgZnJlZSoWCgZudW1iZXIVLteJQBoHbnVtYmVyczKNAS9nb3RvP3VybD1DQUVTWGdIck96QVZPaXpPZGR1aFhhV2dyTXJ4WXhYOThFY0xiZ200YWprQXZNMmpaWVNwSjhLUGg5T1dKSG1wTTZGY0Y1bXdSbE1uVW5LTGZqZi1fS3UyOW9iV2pHakstVzhWTWV4UXNhUW5QMkNMMEhtTDJoS29TV0pwUTBXWTBVNDpKQmV3YXJlIOKAkyBTdGF5IHNhZmUgZnJvbSBmYWtlIDxiPmN1c3RvbWVyIGNhcmUgbnVtYmVyPC9iPiAtIDxiPlpvbWF0bzwvYj5CjAE8Yj5ab21hdG8gZG9lcyBub3QgaGF2ZSBhbnkgY3VzdG9tZXIgY2FyZSBudW1iZXI8L2I-IGFuZCB3ZSBuZXZlciBhc2sgZm9yIGFueSBiYW5raW5nIGRldGFpbHMgbGlrZSBDVlYsIFVQSSwgb3IgUElOLiBCZXdhcmUgb2YgZmFrZSBudW1iZXJzIVIHY29udGFjdCICEAFIAFgAaAA",
+    "about_page_serpapi_link": "https://serpapi.com/search.json?engine=google_about_this_result&google_domain=google.co.in&req_token=Co0BL2dvdG8_dXJsPUNBRVNYZ0hyT3pBVk9pek9kZHVoWGFXZ3JNcnhZeFg5OEVjTGJnbTRhamtBdk0yalpZU3BKOEtQaDlPV0pIbXBNNkZjRjVtd1JsTW5VbktMZmpmLV9LdTI5b2JXakdqSy1XOFZNZXhRc2FRblAyQ0wwSG1MMmhLb1NXSnBRMFdZMFU0EgQaAggAGrMFEgIIABoAIgAqADIGCAESAmluOgBCBAgBEABKAFoOCAESCnpvbWF0by5jb21yAHoAgkD_BAgAEAAYACAAKhoKBnpvbWF0bxXvwdJAGgtpdjtwO3pvbWF0bypsCghjdXN0b21lchXGhYNAGgdjb250YWN0GgRjdXN0GgxjdXN0b21lcmNhcmUaCWN1c3RvbWVycxoIaGVscGxpbmUaDnNlcnZpY2UgY2VudGVyGg5zZXJ2aWNlIGNlbnRyZRoJdG9sbCBmcmVlKl8KBGNhcmUVxoWDQBoGY2FyaW5nGgdjb250YWN0GgxjdXN0b21lcmNhcmUaCGhlbHBsaW5lGg5zZXJ2aWNlIGNlbnRlchoOc2VydmljZSBjZW50cmUaCXRvbGwgZnJlZSoWCgZudW1iZXIVLteJQBoHbnVtYmVyczKNAS9nb3RvP3VybD1DQUVTWGdIck96QVZPaXpPZGR1aFhhV2dyTXJ4WXhYOThFY0xiZ200YWprQXZNMmpaWVNwSjhLUGg5T1dKSG1wTTZGY0Y1bXdSbE1uVW5LTGZqZi1fS3UyOW9iV2pHakstVzhWTWV4UXNhUW5QMkNMMEhtTDJoS29TV0pwUTBXWTBVNDpKQmV3YXJlIOKAkyBTdGF5IHNhZmUgZnJvbSBmYWtlIDxiPmN1c3RvbWVyIGNhcmUgbnVtYmVyPC9iPiAtIDxiPlpvbWF0bzwvYj5CjAE8Yj5ab21hdG8gZG9lcyBub3QgaGF2ZSBhbnkgY3VzdG9tZXIgY2FyZSBudW1iZXI8L2I-IGFuZCB3ZSBuZXZlciBhc2sgZm9yIGFueSBiYW5raW5nIGRldGFpbHMgbGlrZSBDVlYsIFVQSSwgb3IgUElOLiBCZXdhcmUgb2YgZmFrZSBudW1iZXJzIVIHY29udGFjdCICEAFIAFgAaAA",
+    "source": "Zomato"
+   },
+   {
+    "position": 8,
+    "title": "Zomato.com (Head Office) in Gurgaon Sector 44,Gurgaon",
+    "link": "https://www.justdial.com/Gurgaon/Zomatocom-Head-Office-Gurgaon-Sector-44/011PXX11-XX11-100316094957-H7X4_BZDET",
+    "redirect_link": "https://www.google.co.in/url?sa=t&source=web&rct=j&opi=89978449&url=CAESpgEB6zswFfCDwLLVYrqLYEifk7K5pT07qnBmWXUdDVMVsxfBx47pmwA44xP-HO5H2MydT0Ql3910Z6JMkL6zjx5qUFvKJ47wGvWTXzshgY1-gwbL9hDzCyJ9Ph18BLHlYG6WknoC0bKvS4kwJ0GBqLh0cEqeAfz8RZZ3eYEyum_4geKb9L9yRUVD8CdCtNy14YDU5YQRZfxoairCJsk32pQJOkhcaull&ved=2ahUKEwi6yfXu14eXAxXBCoYAHUp0KmkQFnoECC8QAQ&uoh=1",
+    "displayed_link": "https://www.justdial.com › Gurgaon › Zomatocom-Head...",
+    "snippet": "7:30 Pm Friday:- 8:30 Am - 7:30 Pm Saturday:- 8:30 Am - 7:30 Pm Sunday:- Closed. Find Address, Contact Number, Reviews & Ratings, Photos, Maps of Zomato.com ( ...",
+    "snippet_highlighted_words": [
+     "Contact Number",
+     "Zomato"
+    ],
+    "about_this_result": {
+     "source": {
+      "description": "7:30 Pm Friday:- 8:30 Am - 7:30 Pm Saturday:- 8:30 Am - 7:30 Pm Sunday:- Closed. Find Address, Contact Number, Reviews & Ratings, Photos, Maps of Zomato.com ( ...",
+      "source_info_link": "https://www.justdial.com/Gurgaon/Zomatocom-Head-Office-Gurgaon-Sector-44/011PXX11-XX11-100316094957-H7X4_BZDET",
+      "icon": "https://serpapi.com/images/i/UklGRqgAAABXRUJQVlA4IJwAAADwAgCdASoQABAAAsBMJbACdDiAP0A4CkFq58psin0SkAD--q31jH7d5W1uxfXO5nb8LSdefKaagozfP45QnxuH4vNL1KtsnPCpMJUuGP_FrEFbNoaquFgwJzn34CIyxoWia3lxLLsb-8VB4cmZOAYN_1krQMDF0t8L_p2aqhj9f-w2zUnHUm8H7QdRLxoFBciseJRQuvI02frQAAA.webp"
+     },
+     "languages": [
+      "en"
+     ],
+     "regions": [
+      "IN"
+     ]
+    },
+    "about_page_link": "https://www.google.co.in/search/about-this-result?origin=www.google.com&req=Cu4BL2dvdG8_dXJsPUNBRVNwZ0VCNnpzd0ZmQ0R3TExWWXJxTFlFaWZrN0s1cFQwN3FuQm1XWFVkRFZNVnN4ZkJ4NDdwbXdBNDR4UC1ITzVIMk15ZFQwUWwzOTEwWjZKTWtMNnpqeDVxVUZ2S0o0N3dHdldUWHpzaGdZMS1nd2JMOWhEekN5SjlQaDE4QkxIbFlHNldrbm9DMGJLdlM0a3dKMEdCcUxoMGNFcWVBZno4UlpaM2VZRXl1bV80Z2VLYjlMOXlSVVZEOENkQ3ROeTE0WURVNVlRUlpmeG9haXJDSnNrMzJwUUpPa2hjYXVsbBIEGgIIABqvBhIAGgAiACoAOgBCBAgBEABKFAgBEgxEZWxoaSwgRGVsaGkaAggCWgByAHoAgkD_BQgAEAAYACAAKhoKBnpvbWF0bxVeKG9AGgtpdjtwO3pvbWF0bypsCghjdXN0b21lchWFZHM_Ggdjb250YWN0GgRjdXN0GgxjdXN0b21lcmNhcmUaCWN1c3RvbWVycxoIaGVscGxpbmUaDnNlcnZpY2UgY2VudGVyGg5zZXJ2aWNlIGNlbnRyZRoJdG9sbCBmcmVlKl8KBGNhcmUVhvCPPxoGY2FyaW5nGgdjb250YWN0GgxjdXN0b21lcmNhcmUaCGhlbHBsaW5lGg5zZXJ2aWNlIGNlbnRlchoOc2VydmljZSBjZW50cmUaCXRvbGwgZnJlZSoWCgZudW1iZXIVP2uUPxoHbnVtYmVyczLuAS9nb3RvP3VybD1DQUVTcGdFQjZ6c3dGZkNEd0xMVllycUxZRWlmazdLNXBUMDdxbkJtV1hVZERWTVZzeGZCeDQ3cG13QTQ0eFAtSE81SDJNeWRUMFFsMzkxMFo2Sk1rTDZ6ang1cVVGdktKNDd3R3ZXVFh6c2hnWTEtZ3diTDloRHpDeUo5UGgxOEJMSGxZRzZXa25vQzBiS3ZTNGt3SjBHQnFMaDBjRXFlQWZ6OFJaWjNlWUV5dW1fNGdlS2I5TDl5UlVWRDhDZEN0TnkxNFlEVTVZUVJaZnhvYWlyQ0pzazMycFFKT2toY2F1bGw6PDxiPlpvbWF0bzwvYj4uY29tIChIZWFkIE9mZmljZSkgaW4gR3VyZ2FvbiBTZWN0b3IgNDQsR3VyZ2FvbkK5ATc6MzAgUG0gRnJpZGF5Oi0gODozMCBBbSAtIDc6MzAgUG0gU2F0dXJkYXk6LSA4OjMwIEFtIC0gNzozMCBQbSBTdW5kYXk6LSBDbG9zZWQuIEZpbmQgQWRkcmVzcywgPGI-Q29udGFjdCBOdW1iZXI8L2I-LCBSZXZpZXdzICZhbXA7IFJhdGluZ3MsIFBob3RvcywgTWFwcyBvZiA8Yj5ab21hdG88L2I-LmNvbSAoJm5ic3A7Li4uUgdjb250YWN0IgIQAUgAWABoAA",
+    "about_page_serpapi_link": "https://serpapi.com/search.json?engine=google_about_this_result&google_domain=google.co.in&req_token=Cu4BL2dvdG8_dXJsPUNBRVNwZ0VCNnpzd0ZmQ0R3TExWWXJxTFlFaWZrN0s1cFQwN3FuQm1XWFVkRFZNVnN4ZkJ4NDdwbXdBNDR4UC1ITzVIMk15ZFQwUWwzOTEwWjZKTWtMNnpqeDVxVUZ2S0o0N3dHdldUWHpzaGdZMS1nd2JMOWhEekN5SjlQaDE4QkxIbFlHNldrbm9DMGJLdlM0a3dKMEdCcUxoMGNFcWVBZno4UlpaM2VZRXl1bV80Z2VLYjlMOXlSVVZEOENkQ3ROeTE0WURVNVlRUlpmeG9haXJDSnNrMzJwUUpPa2hjYXVsbBIEGgIIABqvBhIAGgAiACoAOgBCBAgBEABKFAgBEgxEZWxoaSwgRGVsaGkaAggCWgByAHoAgkD_BQgAEAAYACAAKhoKBnpvbWF0bxVeKG9AGgtpdjtwO3pvbWF0bypsCghjdXN0b21lchWFZHM_Ggdjb250YWN0GgRjdXN0GgxjdXN0b21lcmNhcmUaCWN1c3RvbWVycxoIaGVscGxpbmUaDnNlcnZpY2UgY2VudGVyGg5zZXJ2aWNlIGNlbnRyZRoJdG9sbCBmcmVlKl8KBGNhcmUVhvCPPxoGY2FyaW5nGgdjb250YWN0GgxjdXN0b21lcmNhcmUaCGhlbHBsaW5lGg5zZXJ2aWNlIGNlbnRlchoOc2VydmljZSBjZW50cmUaCXRvbGwgZnJlZSoWCgZudW1iZXIVP2uUPxoHbnVtYmVyczLuAS9nb3RvP3VybD1DQUVTcGdFQjZ6c3dGZkNEd0xMVllycUxZRWlmazdLNXBUMDdxbkJtV1hVZERWTVZzeGZCeDQ3cG13QTQ0eFAtSE81SDJNeWRUMFFsMzkxMFo2Sk1rTDZ6ang1cVVGdktKNDd3R3ZXVFh6c2hnWTEtZ3diTDloRHpDeUo5UGgxOEJMSGxZRzZXa25vQzBiS3ZTNGt3SjBHQnFMaDBjRXFlQWZ6OFJaWjNlWUV5dW1fNGdlS2I5TDl5UlVWRDhDZEN0TnkxNFlEVTVZUVJaZnhvYWlyQ0pzazMycFFKT2toY2F1bGw6PDxiPlpvbWF0bzwvYj4uY29tIChIZWFkIE9mZmljZSkgaW4gR3VyZ2FvbiBTZWN0b3IgNDQsR3VyZ2FvbkK5ATc6MzAgUG0gRnJpZGF5Oi0gODozMCBBbSAtIDc6MzAgUG0gU2F0dXJkYXk6LSA4OjMwIEFtIC0gNzozMCBQbSBTdW5kYXk6LSBDbG9zZWQuIEZpbmQgQWRkcmVzcywgPGI-Q29udGFjdCBOdW1iZXI8L2I-LCBSZXZpZXdzICZhbXA7IFJhdGluZ3MsIFBob3RvcywgTWFwcyBvZiA8Yj5ab21hdG88L2I-LmNvbSAoJm5ic3A7Li4uUgdjb250YWN0IgIQAUgAWABoAA",
+    "source": "Justdial"
+   },
+   {
+    "position": 9,
+    "title": "Food Delivery 24X7, Raj Nagar Extension, Ghaziabad",
+    "link": "https://www.zomato.com/ncr/food-delivery-24x7-raj-nagar-extension-ghaziabad",
+    "redirect_link": "https://www.google.co.in/url?sa=t&source=web&rct=j&opi=89978449&url=CAESgwEB6zswFbrVgmgNPxcNEDgPEgnDyVRVwCc5NtlIma5mGRw4wSlCgfew2zmAdQxiy4Gom0dyf4_8ctpoMN_pj8UzJKomQU9Jzo0ELtptkbXV2Iwe4xeAWra3FixXa3J03fsMlY_AWJU7sTWocwaROnmKrBkwW64TPxcPhF6Q1zEf9Ymqxg&ved=2ahUKEwi6yfXu14eXAxXBCoYAHUp0KmkQFnoECDkQAQ&uoh=1",
+    "displayed_link": "https://www.zomato.com › ... › Raj Nagar Extension",
+    "snippet": "Tap a number to call. +918287546312. TRY THE ZOMATO APP. Upto 50% off and free delivery on your first order. Switch to the app for exclusive discounts, live ...",
+    "snippet_highlighted_words": [
+     "number",
+     "ZOMATO"
+    ],
+    "about_this_result": {
+     "source": {
+      "description": "Tap a number to call. +918287546312. TRY THE ZOMATO APP. Upto 50% off and free delivery on your first order. Switch to the app for exclusive discounts, live ...",
+      "source_info_link": "https://www.zomato.com/ncr/food-delivery-24x7-raj-nagar-extension-ghaziabad",
+      "icon": "https://serpapi.com/images/i/UklGRuwAAABXRUJQVlA4IOAAAABwBQCdASocABwAPtEutFooIagoGAEAGglsAJ0zWj_50BztOYUKajSUqY0nxN_2kmmnO3MgAP6l_pFa1HehfrmOhi8DDnkzYvfS2FA_2MNfDwf-Cq3uUgIr_vILjPrTCBf_jePStpEEESUD77kFWFF9hNgvOYS3TSekcDmUmzIOBGzqNsnrLX_9Kj31aZ7P-CCJ_f9c2MTTC99iz_-ZhAJ7GJ4jboK7Q-E_gBDJO95ASmnr3_tPsjeIePS_PzY21euI7uqBZlYTzB97Cr_NqBBIjBw2DMjP1w7wW3LQ_nQAAA.webp"
+     },
+     "languages": [
+      "en"
+     ],
+     "regions": [
+      "IN"
+     ]
+    },
+    "about_page_link": "https://www.google.co.in/search/about-this-result?origin=www.google.com&req=CsABL2dvdG8_dXJsPUNBRVNnd0VCNnpzd0ZiclZnbWdOUHhjTkVEZ1BFZ25EeVZSVndDYzVOdGxJbWE1bUdSdzR3U2xDZ2ZldzJ6bUFkUXhpeTRHb20wZHlmNF84Y3Rwb01OX3BqOFV6SktvbVFVOUp6bzBFTHRwdGtiWFYySXdlNHhlQVdyYTNGaXhYYTNKMDNmc01sWV9BV0pVN3NUV29jd2FST25tS3JCa3dXNjRUUHhjUGhGNlExekVmOVltcXhnEgQaAggAGo8GEgAaACIAKgA6AEIECAEQAEoUCAESDERlbGhpLCBEZWxoaRoCCAJaDggBEgp6b21hdG8uY29tcgB6AIJA0QUIABAAGAAgACoaCgZ6b21hdG8VitQBQRoLaXY7cDt6b21hdG8qbAoIY3VzdG9tZXIVAAAAABoHY29udGFjdBoEY3VzdBoMY3VzdG9tZXJjYXJlGgljdXN0b21lcnMaCGhlbHBsaW5lGg5zZXJ2aWNlIGNlbnRlchoOc2VydmljZSBjZW50cmUaCXRvbGwgZnJlZSpfCgRjYXJlFQAAAAAaBmNhcmluZxoHY29udGFjdBoMY3VzdG9tZXJjYXJlGghoZWxwbGluZRoOc2VydmljZSBjZW50ZXIaDnNlcnZpY2UgY2VudHJlGgl0b2xsIGZyZWUqFgoGbnVtYmVyFYpEuz4aB251bWJlcnMywAEvZ290bz91cmw9Q0FFU2d3RUI2enN3RmJyVmdtZ05QeGNORURnUEVnbkR5VlJWd0NjNU50bEltYTVtR1J3NHdTbENnZmV3MnptQWRReGl5NEdvbTBkeWY0XzhjdHBvTU5fcGo4VXpKS29tUVU5SnpvMEVMdHB0a2JYVjJJd2U0eGVBV3JhM0ZpeFhhM0owM2ZzTWxZX0FXSlU3c1RXb2N3YVJPbm1LckJrd1c2NFRQeGNQaEY2UTF6RWY5WW1xeGc6QkZvb2QgRGVsaXZlcnkgMjRYNywgUmFqIE5hZ2FyIEV4dGVuc2lvbiwgR2hhemlhYmFkIC0gPGI-Wm9tYXRvPC9iPkKzAVRhcCBhIDxiPm51bWJlcjwvYj4gdG8gY2FsbC4gKzkxODI4NzU0NjMxMi4gVFJZIFRIRSA8Yj5aT01BVE88L2I-IEFQUC4gVXB0byA1MCUgb2ZmIGFuZCBmcmVlIGRlbGl2ZXJ5IG9uIHlvdXIgZmlyc3Qgb3JkZXIuIFN3aXRjaCB0byB0aGUgYXBwIGZvciBleGNsdXNpdmUgZGlzY291bnRzLCBsaXZlJm5ic3A7Li4uUgdjb250YWN0IgIQAUgAWABoAA",
+    "about_page_serpapi_link": "https://serpapi.com/search.json?engine=google_about_this_result&google_domain=google.co.in&req_token=CsABL2dvdG8_dXJsPUNBRVNnd0VCNnpzd0ZiclZnbWdOUHhjTkVEZ1BFZ25EeVZSVndDYzVOdGxJbWE1bUdSdzR3U2xDZ2ZldzJ6bUFkUXhpeTRHb20wZHlmNF84Y3Rwb01OX3BqOFV6SktvbVFVOUp6bzBFTHRwdGtiWFYySXdlNHhlQVdyYTNGaXhYYTNKMDNmc01sWV9BV0pVN3NUV29jd2FST25tS3JCa3dXNjRUUHhjUGhGNlExekVmOVltcXhnEgQaAggAGo8GEgAaACIAKgA6AEIECAEQAEoUCAESDERlbGhpLCBEZWxoaRoCCAJaDggBEgp6b21hdG8uY29tcgB6AIJA0QUIABAAGAAgACoaCgZ6b21hdG8VitQBQRoLaXY7cDt6b21hdG8qbAoIY3VzdG9tZXIVAAAAABoHY29udGFjdBoEY3VzdBoMY3VzdG9tZXJjYXJlGgljdXN0b21lcnMaCGhlbHBsaW5lGg5zZXJ2aWNlIGNlbnRlchoOc2VydmljZSBjZW50cmUaCXRvbGwgZnJlZSpfCgRjYXJlFQAAAAAaBmNhcmluZxoHY29udGFjdBoMY3VzdG9tZXJjYXJlGghoZWxwbGluZRoOc2VydmljZSBjZW50ZXIaDnNlcnZpY2UgY2VudHJlGgl0b2xsIGZyZWUqFgoGbnVtYmVyFYpEuz4aB251bWJlcnMywAEvZ290bz91cmw9Q0FFU2d3RUI2enN3RmJyVmdtZ05QeGNORURnUEVnbkR5VlJWd0NjNU50bEltYTVtR1J3NHdTbENnZmV3MnptQWRReGl5NEdvbTBkeWY0XzhjdHBvTU5fcGo4VXpKS29tUVU5SnpvMEVMdHB0a2JYVjJJd2U0eGVBV3JhM0ZpeFhhM0owM2ZzTWxZX0FXSlU3c1RXb2N3YVJPbm1LckJrd1c2NFRQeGNQaEY2UTF6RWY5WW1xeGc6QkZvb2QgRGVsaXZlcnkgMjRYNywgUmFqIE5hZ2FyIEV4dGVuc2lvbiwgR2hhemlhYmFkIC0gPGI-Wm9tYXRvPC9iPkKzAVRhcCBhIDxiPm51bWJlcjwvYj4gdG8gY2FsbC4gKzkxODI4NzU0NjMxMi4gVFJZIFRIRSA8Yj5aT01BVE88L2I-IEFQUC4gVXB0byA1MCUgb2ZmIGFuZCBmcmVlIGRlbGl2ZXJ5IG9uIHlvdXIgZmlyc3Qgb3JkZXIuIFN3aXRjaCB0byB0aGUgYXBwIGZvciBleGNsdXNpdmUgZGlzY291bnRzLCBsaXZlJm5ic3A7Li4uUgdjb250YWN0IgIQAUgAWABoAA",
+    "source": "Zomato"
+   },
+   {
+    "position": 10,
+    "title": "Zomato Customer Service Phone Number 1-815-214-9414 ...",
+    "link": "https://zomato.pissedconsumer.com/customer-service.html",
+    "redirect_link": "https://www.google.co.in/url?sa=t&source=web&rct=j&opi=89978449&url=CAESbwHrOzAVKxCmvjKMoQ0Re-n5oponT09UzRHBhDmz0ESVlc5aXB1IHo5E_g5XqvQeq85RfKZibs45vXhwjO0wc-5Cea5hfET5eIJv8RieTGkdXDsR3eFDiUBBUVnqW-3w1c6eFq_Y6JIaWTsDATS5Sg&ved=2ahUKEwi6yfXu14eXAxXBCoYAHUp0KmkQFnoECDYQAQ&uoh=1",
+    "displayed_link": "https://zomato.pissedconsumer.com › customer-service",
+    "snippet": "Contact Zomato Customer Service. Customer Service Number: 1-815-214-9414. App Support. Advertisements. Choose how to contact Zomato support: Call Now Send ...",
+    "snippet_highlighted_words": [
+     "1-815-214-9414"
+    ],
+    "about_this_result": {
+     "source": {
+      "description": "Contact Zomato Customer Service. Customer Service Number: 1-815-214-9414. App Support. Advertisements. Choose how to contact Zomato support: Call Now Send ...",
+      "source_info_link": "https://zomato.pissedconsumer.com/customer-service.html",
+      "icon": "https://serpapi.com/images/i/UklGRnoBAABXRUJQVlA4IG4BAACQBwCdASocABwAPtE-tFooIigoFAEAGglsAJ0yhHZ-geFHpgG8qleCGT-Mr5wPVLTPR_UECnhL5TMvg-h-GoVPu-ywgAAA_tjWd5tA415NG63X0UTG8KD9i1fdBT0TSOjr4Cl0aZudcLcpYiChfNjwZv2NLFjinOsn11TTXcb5AMXjWfI3_7deSqZQSdwFO_57_czW4UpfBBSaEf_-wd_Pm6Vf-aBsGvmr3Kq7JkO_D_eci-bBI_MMvO5q5PJ-yDciFlCOUfpTRs9_Dj8EeJoDQXnZx_L7VYTGey35By0xP3zZ777BqRQeYEIWk8oU5cqFzyG1Tfuie95xtP_CSOeT6RWOJO4kygrcG9ZUMLNIZWx-q8auFgMX3PztQcc8O0eAbWbX-gdMZQmxU4PN7FQsixwGONlX_63vc4b-7jI7BTud1nG7fK8F3axZqUwZ5sC-SK5wMpkacJYmjE5oPvYQRLNTT2ifL6XyvbAAAAA.webp"
+     },
+     "languages": [
+      "en"
+     ],
+     "regions": [
+      "IN"
+     ]
+    },
+    "about_page_link": "https://www.google.co.in/search/about-this-result?origin=www.google.com&req=CqQBL2dvdG8_dXJsPUNBRVNid0hyT3pBVkt4Q212aktNb1EwUmUtbjVvcG9uVDA5VXpSSEJoRG16MEVTVmxjNWFYQjFJSG81RV9nNVhxdlFlcTg1UmZLWmliczQ1dlhod2pPMHdjLTVDZWE1aGZFVDVlSUp2OFJpZVRHa2RYRHNSM2VGRGlVQkJVVm5xVy0zdzFjNmVGcV9ZNkpJYVdUc0RBVFM1U2cSBBoCCAAa0wUSABoAIgAqADIGCAMSAmluOgBCBAgBEABKAFoAcgB6AIJArwUIABAAGAAgACoaCgZ6b21hdG8VxC_SQBoLaXY7cDt6b21hdG8qbAoIY3VzdG9tZXIVUF-fQBoHY29udGFjdBoEY3VzdBoMY3VzdG9tZXJjYXJlGgljdXN0b21lcnMaCGhlbHBsaW5lGg5zZXJ2aWNlIGNlbnRlchoOc2VydmljZSBjZW50cmUaCXRvbGwgZnJlZSpfCgRjYXJlFQAAAAAaBmNhcmluZxoHY29udGFjdBoMY3VzdG9tZXJjYXJlGghoZWxwbGluZRoOc2VydmljZSBjZW50ZXIaDnNlcnZpY2UgY2VudHJlGgl0b2xsIGZyZWUqFgoGbnVtYmVyFd7BUEAaB251bWJlcnMypAEvZ290bz91cmw9Q0FFU2J3SHJPekFWS3hDbXZqS01vUTBSZS1uNW9wb25UMDlVelJIQmhEbXowRVNWbGM1YVhCMUlIbzVFX2c1WHF2UWVxODVSZktaaWJzNDV2WGh3ak8wd2MtNUNlYTVoZkVUNWVJSnY4UmllVEdrZFhEc1IzZUZEaVVCQlVWbnFXLTN3MWM2ZUZxX1k2SklhV1RzREFUUzVTZzpFPGI-Wm9tYXRvIEN1c3RvbWVyPC9iPiBTZXJ2aWNlIFBob25lIDxiPk51bWJlcjwvYj4gMS04MTUtMjE0LTk0MTQgLi4uQqoBQ29udGFjdCBab21hdG8gQ3VzdG9tZXIgU2VydmljZS4gQ3VzdG9tZXIgU2VydmljZSBOdW1iZXI6IDxiPjEtODE1LTIxNC05NDE0PC9iPi4gQXBwIFN1cHBvcnQuIEFkdmVydGlzZW1lbnRzLiBDaG9vc2UgaG93IHRvIGNvbnRhY3QgWm9tYXRvIHN1cHBvcnQ6IENhbGwgTm93IFNlbmQmbmJzcDsuLi5SB2NvbnRhY3QiAhABSABYAGgA",
+    "about_page_serpapi_link": "https://serpapi.com/search.json?engine=google_about_this_result&google_domain=google.co.in&req_token=CqQBL2dvdG8_dXJsPUNBRVNid0hyT3pBVkt4Q212aktNb1EwUmUtbjVvcG9uVDA5VXpSSEJoRG16MEVTVmxjNWFYQjFJSG81RV9nNVhxdlFlcTg1UmZLWmliczQ1dlhod2pPMHdjLTVDZWE1aGZFVDVlSUp2OFJpZVRHa2RYRHNSM2VGRGlVQkJVVm5xVy0zdzFjNmVGcV9ZNkpJYVdUc0RBVFM1U2cSBBoCCAAa0wUSABoAIgAqADIGCAMSAmluOgBCBAgBEABKAFoAcgB6AIJArwUIABAAGAAgACoaCgZ6b21hdG8VxC_SQBoLaXY7cDt6b21hdG8qbAoIY3VzdG9tZXIVUF-fQBoHY29udGFjdBoEY3VzdBoMY3VzdG9tZXJjYXJlGgljdXN0b21lcnMaCGhlbHBsaW5lGg5zZXJ2aWNlIGNlbnRlchoOc2VydmljZSBjZW50cmUaCXRvbGwgZnJlZSpfCgRjYXJlFQAAAAAaBmNhcmluZxoHY29udGFjdBoMY3VzdG9tZXJjYXJlGghoZWxwbGluZRoOc2VydmljZSBjZW50ZXIaDnNlcnZpY2UgY2VudHJlGgl0b2xsIGZyZWUqFgoGbnVtYmVyFd7BUEAaB251bWJlcnMypAEvZ290bz91cmw9Q0FFU2J3SHJPekFWS3hDbXZqS01vUTBSZS1uNW9wb25UMDlVelJIQmhEbXowRVNWbGM1YVhCMUlIbzVFX2c1WHF2UWVxODVSZktaaWJzNDV2WGh3ak8wd2MtNUNlYTVoZkVUNWVJSnY4UmllVEdrZFhEc1IzZUZEaVVCQlVWbnFXLTN3MWM2ZUZxX1k2SklhV1RzREFUUzVTZzpFPGI-Wm9tYXRvIEN1c3RvbWVyPC9iPiBTZXJ2aWNlIFBob25lIDxiPk51bWJlcjwvYj4gMS04MTUtMjE0LTk0MTQgLi4uQqoBQ29udGFjdCBab21hdG8gQ3VzdG9tZXIgU2VydmljZS4gQ3VzdG9tZXIgU2VydmljZSBOdW1iZXI6IDxiPjEtODE1LTIxNC05NDE0PC9iPi4gQXBwIFN1cHBvcnQuIEFkdmVydGlzZW1lbnRzLiBDaG9vc2UgaG93IHRvIGNvbnRhY3QgWm9tYXRvIHN1cHBvcnQ6IENhbGwgTm93IFNlbmQmbmJzcDsuLi5SB2NvbnRhY3QiAhABSABYAGgA",
+    "source": "PissedConsumer",
+    "read_more_link": "https://zomato.pissedconsumer.com/customer-service.html#:~:text=Contact%20Zomato%20Customer%20Service,Call%20Now%20Send%20Message"
+   }
+  ],
+  "related_searches": [
+   {
+    "block_position": 1,
+    "query": "Zomato customer care number 24x7 near me",
+    "link": "https://www.google.co.in/search?sca_esv=c9af837ca623c2e6&hl=en&gl=in&sxsrf=APpeQnu2_W8s8IgUYMSyUCJcsKKHda_vVQ:1790269034692&q=Zomato+customer+care+number+24x7+near+me&sa=X&ved=2ahUKEwi6yfXu14eXAxXBCoYAHUp0KmkQ1QJ6BAgaEAE",
+    "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.co.in&hl=en&location=Delhi%2CDelhi%2CIndia&q=Zomato+customer+care+number+24x7+near+me"
+   },
+   {
+    "block_position": 1,
+    "query": "Zomato customer care number Delhi Delhi 24x7",
+    "link": "https://www.google.co.in/search?sca_esv=c9af837ca623c2e6&hl=en&gl=in&sxsrf=APpeQnu2_W8s8IgUYMSyUCJcsKKHda_vVQ:1790269034692&q=Zomato+customer+care+number+Delhi+Delhi+24x7&sa=X&ved=2ahUKEwi6yfXu14eXAxXBCoYAHUp0KmkQ1QJ6BAgeEAE",
+    "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.co.in&hl=en&location=Delhi%2CDelhi%2CIndia&q=Zomato+customer+care+number+Delhi+Delhi+24x7"
+   },
+   {
+    "block_position": 1,
+    "query": "Zomato customer care number near New Delhi Delhi",
+    "link": "https://www.google.co.in/search?sca_esv=c9af837ca623c2e6&hl=en&gl=in&sxsrf=APpeQnu2_W8s8IgUYMSyUCJcsKKHda_vVQ:1790269034692&q=Zomato+customer+care+number+near+New+Delhi+Delhi&sa=X&ved=2ahUKEwi6yfXu14eXAxXBCoYAHUp0KmkQ1QJ6BAgfEAE",
+    "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.co.in&hl=en&location=Delhi%2CDelhi%2CIndia&q=Zomato+customer+care+number+near+New+Delhi+Delhi"
+   },
+   {
+    "block_position": 1,
+    "query": "Zomato refund customer care number",
+    "link": "https://www.google.co.in/search?sca_esv=c9af837ca623c2e6&hl=en&gl=in&sxsrf=APpeQnu2_W8s8IgUYMSyUCJcsKKHda_vVQ:1790269034692&q=Zomato+refund+customer+care+number&sa=X&ved=2ahUKEwi6yfXu14eXAxXBCoYAHUp0KmkQ1QJ6BAghEAE",
+    "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.co.in&hl=en&location=Delhi%2CDelhi%2CIndia&q=Zomato+refund+customer+care+number"
+   },
+   {
+    "block_position": 1,
+    "query": "Zomato customer care number India",
+    "link": "https://www.google.co.in/search?sca_esv=c9af837ca623c2e6&hl=en&gl=in&sxsrf=APpeQnu2_W8s8IgUYMSyUCJcsKKHda_vVQ:1790269034692&q=Zomato+customer+care+number+India&sa=X&ved=2ahUKEwi6yfXu14eXAxXBCoYAHUp0KmkQ1QJ6BAggEAE",
+    "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.co.in&hl=en&location=Delhi%2CDelhi%2CIndia&q=Zomato+customer+care+number+India"
+   },
+   {
+    "block_position": 1,
+    "query": "Zomato customer care number Ghaziabad",
+    "link": "https://www.google.co.in/search?sca_esv=c9af837ca623c2e6&hl=en&gl=in&sxsrf=APpeQnu2_W8s8IgUYMSyUCJcsKKHda_vVQ:1790269034692&q=Zomato+customer+care+number+Ghaziabad&sa=X&ved=2ahUKEwi6yfXu14eXAxXBCoYAHUp0KmkQ1QJ6BAgdEAE",
+    "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.co.in&hl=en&location=Delhi%2CDelhi%2CIndia&q=Zomato+customer+care+number+Ghaziabad"
+   },
+   {
+    "block_position": 1,
+    "query": "Zomato customer care Number Mumbai 24x7",
+    "link": "https://www.google.co.in/search?sca_esv=c9af837ca623c2e6&hl=en&gl=in&sxsrf=APpeQnu2_W8s8IgUYMSyUCJcsKKHda_vVQ:1790269034692&q=Zomato+customer+care+Number+Mumbai+24x7&sa=X&ved=2ahUKEwi6yfXu14eXAxXBCoYAHUp0KmkQ1QJ6BAgcEAE",
+    "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.co.in&hl=en&location=Delhi%2CDelhi%2CIndia&q=Zomato+customer+care+Number+Mumbai+24x7"
+   },
+   {
+    "block_position": 1,
+    "query": "Zomato customer care number Noida",
+    "link": "https://www.google.co.in/search?sca_esv=c9af837ca623c2e6&hl=en&gl=in&sxsrf=APpeQnu2_W8s8IgUYMSyUCJcsKKHda_vVQ:1790269034692&q=Zomato+customer+care+number+Noida&sa=X&ved=2ahUKEwi6yfXu14eXAxXBCoYAHUp0KmkQ1QJ6BAgbEAE",
+    "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.co.in&hl=en&location=Delhi%2CDelhi%2CIndia&q=Zomato+customer+care+number+Noida"
+   }
+  ],
+  "pagination": {
+   "current": 1,
+   "next": "https://www.google.co.in/search?q=Zomato+customer+care+number&sca_esv=c9af837ca623c2e6&hl=en&gl=in&sxsrf=APpeQnu2_W8s8IgUYMSyUCJcsKKHda_vVQ:1790269034692&ei=ala1arrsKcGVmLQPyuipyQY&start=10&sa=N&sstk=AS6-VmK8FtvtLhkRXu8XCHAXtdHkyB8UxIojETrmTcJGJkPnb42SvoO5WQwLo_eq4wZ4GIToZLga8tNKw3sKaYwVyhwuxbUWPJWbtA&ved=2ahUKEwi6yfXu14eXAxXBCoYAHUp0KmkQ8NMDegQISRAM",
+   "other_pages": {
+    "2": "https://www.google.co.in/search?q=Zomato+customer+care+number&sca_esv=c9af837ca623c2e6&hl=en&gl=in&sxsrf=APpeQnu2_W8s8IgUYMSyUCJcsKKHda_vVQ:1790269034692&ei=ala1arrsKcGVmLQPyuipyQY&start=10&sa=N&sstk=AS6-VmK8FtvtLhkRXu8XCHAXtdHkyB8UxIojETrmTcJGJkPnb42SvoO5WQwLo_eq4wZ4GIToZLga8tNKw3sKaYwVyhwuxbUWPJWbtA&ved=2ahUKEwi6yfXu14eXAxXBCoYAHUp0KmkQ8tMDegQISRAE",
+    "3": "https://www.google.co.in/search?q=Zomato+customer+care+number&sca_esv=c9af837ca623c2e6&hl=en&gl=in&sxsrf=APpeQnu2_W8s8IgUYMSyUCJcsKKHda_vVQ:1790269034692&ei=ala1arrsKcGVmLQPyuipyQY&start=20&sa=N&sstk=AS6-VmK8FtvtLhkRXu8XCHAXtdHkyB8UxIojETrmTcJGJkPnb42SvoO5WQwLo_eq4wZ4GIToZLga8tNKw3sKaYwVyhwuxbUWPJWbtA&ved=2ahUKEwi6yfXu14eXAxXBCoYAHUp0KmkQ8tMDegQISRAG",
+    "4": "https://www.google.co.in/search?q=Zomato+customer+care+number&sca_esv=c9af837ca623c2e6&hl=en&gl=in&sxsrf=APpeQnu2_W8s8IgUYMSyUCJcsKKHda_vVQ:1790269034692&ei=ala1arrsKcGVmLQPyuipyQY&start=30&sa=N&sstk=AS6-VmK8FtvtLhkRXu8XCHAXtdHkyB8UxIojETrmTcJGJkPnb42SvoO5WQwLo_eq4wZ4GIToZLga8tNKw3sKaYwVyhwuxbUWPJWbtA&ved=2ahUKEwi6yfXu14eXAxXBCoYAHUp0KmkQ8tMDegQISRAI",
+    "5": "https://www.google.co.in/search?q=Zomato+customer+care+number&sca_esv=c9af837ca623c2e6&hl=en&gl=in&sxsrf=APpeQnu2_W8s8IgUYMSyUCJcsKKHda_vVQ:1790269034692&ei=ala1arrsKcGVmLQPyuipyQY&start=40&sa=N&sstk=AS6-VmK8FtvtLhkRXu8XCHAXtdHkyB8UxIojETrmTcJGJkPnb42SvoO5WQwLo_eq4wZ4GIToZLga8tNKw3sKaYwVyhwuxbUWPJWbtA&ved=2ahUKEwi6yfXu14eXAxXBCoYAHUp0KmkQ8tMDegQISRAK"
+   }
+  },
+  "serpapi_pagination": {
+   "current": 1,
+   "next_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.co.in&hl=en&location=Delhi%2CDelhi%2CIndia&q=Zomato+customer+care+number&start=10",
+   "next": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.co.in&hl=en&location=Delhi%2CDelhi%2CIndia&q=Zomato+customer+care+number&start=10",
+   "other_pages": {
+    "2": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.co.in&hl=en&location=Delhi%2CDelhi%2CIndia&q=Zomato+customer+care+number&start=10",
+    "3": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.co.in&hl=en&location=Delhi%2CDelhi%2CIndia&q=Zomato+customer+care+number&start=20",
+    "4": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.co.in&hl=en&location=Delhi%2CDelhi%2CIndia&q=Zomato+customer+care+number&start=30",
+    "5": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.co.in&hl=en&location=Delhi%2CDelhi%2CIndia&q=Zomato+customer+care+number&start=40"
+   }
+  }
+ }
+}

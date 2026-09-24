@@ -2,7 +2,7 @@
  "_fixture": {
   "kind": "synthetic",
   "note": "Maps · Bengaluru · Paytm customer care",
-  "generated_at": "2026-09-23T20:53:40+00:00",
+  "generated_at": "2026-09-24T16:57:21+00:00",
   "params": {
    "engine": "google_maps",
    "type": "search",
@@ -16,11 +16,11 @@
   "search_metadata": {
    "id": "synthetic-b88e53b061af761a",
    "status": "Success",
-   "created_at": "2026-09-23 20:53:40 UTC",
-   "processed_at": "2026-09-23 20:53:40 UTC",
+   "created_at": "2026-09-24 16:57:21 UTC",
+   "processed_at": "2026-09-24 16:57:21 UTC",
    "json_endpoint": null,
    "raw_html_file": null,
-   "total_time_taken": 0.96
+   "total_time_taken": 2.28
   },
   "search_parameters": {
    "engine": "google_maps",
@@ -35,17 +35,17 @@
     "position": 1,
     "title": "Paytm - Bengaluru Main Branch",
     "place_id": "synthetic-paytm-bengaluru-branch",
-    "data_id": "0xedd5443d5f2c:0xf70921999ddf",
-    "rating": 3.8,
-    "reviews": 287,
+    "data_id": "0x698a88a69b92:0x80ca15d9990d",
+    "rating": 3.7,
+    "reviews": 861,
     "type": "Bank",
     "types": [
      "Bank"
     ],
     "address": "MG Road, Bengaluru",
     "gps_coordinates": {
-     "latitude": 17.33387539236826,
-     "longitude": 73.41859506274223
+     "latitude": 14.719138190631732,
+     "longitude": 83.22353532011016
     },
     "phone": "0120 445 6456",
     "website": "https://www.paytm.com/"
@@ -54,17 +54,17 @@
     "position": 1,
     "title": "Paytm Helpline 24x7",
     "place_id": "synthetic-paytm-bengaluru-help",
-    "data_id": "0x3b1d7808246d:0xbae8d9d3b8f1",
+    "data_id": "0xacf9e06c5d07:0xcb33a391bb0f",
     "rating": 4.9,
-    "reviews": 4,
+    "reviews": 1,
     "type": "Financial consultant",
     "types": [
      "Financial consultant"
     ],
     "address": "Near Metro Station, Bengaluru",
     "gps_coordinates": {
-     "latitude": 22.22095733979242,
-     "longitude": 87.79703212688447
+     "latitude": 13.827164461101928,
+     "longitude": 81.07998514810328
     },
     "phone": "+91 63528 40917",
     "unclaimed_listing": true
@@ -73,7 +73,7 @@
     "position": 1,
     "title": "Paytm Toll Free Number",
     "place_id": "synthetic-paytm-bengaluru-look",
-    "data_id": "0x29612f908d70:0x808e235b2f42",
+    "data_id": "0x17a1d3e12295:0x4b44f23212a1",
     "rating": 5.0,
     "reviews": 1,
     "type": "Customer service",
@@ -82,8 +82,8 @@
     ],
     "address": "Whitefield, Bengaluru",
     "gps_coordinates": {
-     "latitude": 22.22682636878038,
-     "longitude": 85.92401616223765
+     "latitude": 14.153813992800739,
+     "longitude": 84.6515536313261
     },
     "phone": "0120 445 6457",
     "unclaimed_listing": true

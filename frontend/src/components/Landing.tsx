@@ -122,7 +122,7 @@ RESULT: PASS`}</pre>
 
       <footer className="footer">
         <span>Helpline Watch. Built for the SerpApi India Hackathon 2026.</span>
-        <a href="https://github.com/" target="_blank" rel="noreferrer" style={{ display: 'inline-flex', alignItems: 'center', gap: 6 }}><GithubLogo size={16} />Source on GitHub</a>
+        <a href="https://github.com/itssaharsh/helpline-watch" target="_blank" rel="noreferrer" style={{ display: 'inline-flex', alignItems: 'center', gap: 6 }}><GithubLogo size={16} />Source on GitHub</a>
         <a href="/_kit">Component kit</a>
         <span>MIT licence. No model runs inside the product.</span>
       </footer>

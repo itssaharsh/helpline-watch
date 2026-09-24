@@ -105,7 +105,7 @@ def create_app(settings: Settings | None = None) -> FastAPI:
         return svc.store.list_sweeps(brand_id)
 
     @app.get("/api/sweeps/stream")
-    async def stream(brand_id: str, cities: str | None = Query(default=None), reverse: int = 6):
+    async def stream(brand_id: str, cities: str | None = Query(default=None), reverse: int = 10):
         brand = svc.brand(brand_id)
         ids = [c for c in (cities or "").split(",") if c] or default_city_ids(svc.cities)
         city_objs = svc.city_list(ids)
@@ -146,7 +146,7 @@ def create_app(settings: Settings | None = None) -> FastAPI:
             svc.store.upsert_brand(brand)
             obs = [o for f in sweep.findings for o in f.observations]
             cross = svc.store.brands_for_numbers([f.number_norm for f in sweep.findings], exclude_brand_id=brand.id)
-            sweep.findings = merge_analyst_state(classify(brand, obs, cross), sweep.findings)
+            sweep.findings = merge_analyst_state(classify(brand, obs, cross), sweep.findings, brand.official_domains)
             target = next(f for f in sweep.findings if f.number_norm == number)
         if body.in_pack is not None:
             updated = target.model_copy(update={"in_pack": body.in_pack and target.verdict in (Verdict.FAKE, Verdict.REVIEW)})

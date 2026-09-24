@@ -2,7 +2,7 @@
  "_fixture": {
   "kind": "synthetic",
   "note": "reverse lookup 033 4040 1188",
-  "generated_at": "2026-09-23T20:53:40+00:00",
+  "generated_at": "2026-09-24T16:57:21+00:00",
   "params": {
    "engine": "google",
    "q": "\"03340401188\" OR \"033 4040 1188\"",
@@ -16,11 +16,11 @@
   "search_metadata": {
    "id": "synthetic-2f066774222a14f5",
    "status": "Success",
-   "created_at": "2026-09-23 20:53:40 UTC",
-   "processed_at": "2026-09-23 20:53:40 UTC",
+   "created_at": "2026-09-24 16:57:21 UTC",
+   "processed_at": "2026-09-24 16:57:21 UTC",
    "json_endpoint": null,
    "raw_html_file": null,
-   "total_time_taken": 1.29
+   "total_time_taken": 1.14
   },
   "search_parameters": {
    "engine": "google",
@@ -33,10 +33,10 @@
   "organic_results": [
    {
     "position": 3,
-    "title": "HDFC Bank customer care number 033 4040 1188",
-    "link": "https://hdfc-care-support.in/hdfc-bank",
-    "displayed_link": "https://hdfc-care-support.in › hdfc-bank",
-    "snippet": "HDFC Bank customer care 033 4040 1188, call 24x7."
+    "title": "SBI customer care number 033 4040 1188",
+    "link": "https://sbi-helpdesk-online.co/sbi",
+    "displayed_link": "https://sbi-helpdesk-online.co › sbi",
+    "snippet": "SBI customer care 033 4040 1188, call 24x7."
    }
   ]
  }

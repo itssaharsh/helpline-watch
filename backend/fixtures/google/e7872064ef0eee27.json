@@ -1,0 +1,72 @@
+{
+ "_fixture": {
+  "kind": "recorded",
+  "recorded_at": "2026-09-24T17:02:50+00:00",
+  "params": {
+   "engine": "google",
+   "q": "\"18001601106\" OR \"1800 160 1106\"",
+   "google_domain": "google.co.in",
+   "gl": "in",
+   "hl": "en",
+   "num": "10"
+  }
+ },
+ "response": {
+  "search_metadata": {
+   "id": "6ab557b9f73e4db159fd82f5",
+   "status": "Success",
+   "json_endpoint": "https://serpapi.com/searches/dqZV7uFeJ0ZQxVtmHAzLedov8OydNVQzU8kZiB_i9hM/6ab557b9f73e4db159fd82f5.json",
+   "markdown_endpoint": "https://serpapi.com/searches/dqZV7uFeJ0ZQxVtmHAzLedov8OydNVQzU8kZiB_i9hM/6ab557b9f73e4db159fd82f5.md",
+   "pixel_position_endpoint": "https://serpapi.com/searches/dqZV7uFeJ0ZQxVtmHAzLedov8OydNVQzU8kZiB_i9hM/6ab557b9f73e4db159fd82f5.json_with_pixel_position",
+   "created_at": "2026-09-24 17:02:49 UTC",
+   "processed_at": "2026-09-24 17:02:49 UTC",
+   "google_url": "https://www.google.co.in/search?q=%2218001601106%22+OR+%221800+160+1106%22&oq=%2218001601106%22+OR+%221800+160+1106%22&hl=en&gl=in&sourceid=chrome&ie=UTF-8",
+   "raw_html_file": "https://serpapi.com/searches/dqZV7uFeJ0ZQxVtmHAzLedov8OydNVQzU8kZiB_i9hM/6ab557b9f73e4db159fd82f5.html",
+   "total_time_taken": 0.38
+  },
+  "search_parameters": {
+   "engine": "google",
+   "q": "\"18001601106\" OR \"1800 160 1106\"",
+   "google_domain": "google.co.in",
+   "hl": "en",
+   "gl": "in",
+   "device": "desktop"
+  },
+  "search_information": {
+   "query_displayed": "\"18001601106\" OR \"1800 160 1106\"",
+   "total_results": 1,
+   "time_taken_displayed": 0.22,
+   "organic_results_state": "Results for exact spelling"
+  },
+  "organic_results": [
+   {
+    "position": 1,
+    "title": "Focus Kickstand iPhone 16 Pro Max Case White - Hello Canada",
+    "link": "https://thehellocanada.ca/products/focus-kickstand-iphone-16-pro-max-case-white",
+    "redirect_link": "https://www.google.co.in/url?sa=t&source=web&rct=j&opi=89978449&url=CAEShwEB6zswFUsp6VPf0T5UoAfVpaSLq1-_EB1suWPRZ6Tdy__88m7ej5MtwSU2tgXlwKhfQgIV0PKoCJ7FV0kWXS8d_LF9WRq_tjDcGMZc7PFzYMArMGk-1ZA8ugIsqUqZkizw_WB0R-cLeabwCnWN9fO6AJ7Wya3o56XnYotc5AELreN9wNuUJM4&ved=2ahUKEwiSwsiO2YeXAxU0D1kFHdzOI3IQFnoECBgQAQ&uoh=1",
+    "displayed_link": "https://thehellocanada.ca › products › focus-kickstand-ip...",
+    "snippet": "Focus Kickstand iPhone 16 Pro Max Case White. SKU:18001601106. LOGIN TO SEE PRICE. Pay over time for orders over $35.00 with. Quantity Quantity. (0 in cart).",
+    "snippet_highlighted_words": [
+     "18001601106"
+    ],
+    "about_this_result": {
+     "source": {
+      "description": "Focus Kickstand iPhone 16 Pro Max Case White. SKU:18001601106. LOGIN TO SEE PRICE. Pay over time for orders over $35.00 with. Quantity Quantity. (0 in cart).",
+      "source_info_link": "https://thehellocanada.ca/products/focus-kickstand-iphone-16-pro-max-case-white",
+      "icon": "https://serpapi.com/images/i/UklGRm4BAABXRUJQVlA4IGIBAADwBgCdASogACAAPtEutFooIagoGAEAGglsAMsytMjgGqx98Fvnf8zyj_QSU9ZvCg2zajgQ4Rus07tR6OfuJ7cAAP7-wh4bsIkENSc5MBy5RuZduhBzoJSMY-Ioh4fNhX9uhfpnbOASUWZKUHrD62cYrXGOHz8YwlQitV_iWpMx33eAcB_Mplzvt_dJ8_-tn4p4GlpoOKrOJq4WProgX7cM2nRT_EtmTkC2ycSm3D59NlMcHP_ldmfJeK_h1_9ZBu9jpmtVplJn-4WBrwQFwmEnqS_0efXcuEcqZO672xAZ7rJDa1dSwh4pZe1lu_Y5Mk9D5aT75M62vTnlpBHvUmynfQsqd07NPMfHjV9CjX9_-hBoprXLnEBiWkMiWTNMFJFxVfle3dPZ2j5J7qjqlWTr20SpoksfS8QHqBQ4l6cwlJx0WNaUcKOI8rGnTcTT1Cutmly8tZv-BGI0qqABjBOWAAA.webp"
+     },
+     "languages": [
+      "en"
+     ],
+     "regions": [
+      "IN"
+     ]
+    },
+    "about_page_link": "https://www.google.co.in/search/about-this-result?origin=www.google.com&req=CsUBL2dvdG8_dXJsPUNBRVNod0VCNnpzd0ZVc3A2VlBmMFQ1VW9BZlZwYVNMcTEtX0VCMXN1V1BSWjZUZHlfXzg4bTdlajVNdHdTVTJ0Z1hsd0toZlFnSVYwUEtvQ0o3RlYwa1dYUzhkX0xGOVdScV90akRjR01aYzdQRnpZTUFyTUdrLTFaQTh1Z0lzcVVxWmtpendfV0IwUi1jTGVhYndDbldOOWZPNkFKN1d5YTNvNTZYbllvdGM1QUVMcmVOOXdOdVVKTTQSBBoCCAAa-wMSABoAIgAqADIGCAISAmluOgBCBAgBEABKAFoAcgB6AIJA1wMIABAAGAAgACohCgsxODAwMTYwMTEwNhU8fPE9Gg0xODAwIDE2MCAxMTA2MsUBL2dvdG8_dXJsPUNBRVNod0VCNnpzd0ZVc3A2VlBmMFQ1VW9BZlZwYVNMcTEtX0VCMXN1V1BSWjZUZHlfXzg4bTdlajVNdHdTVTJ0Z1hsd0toZlFnSVYwUEtvQ0o3RlYwa1dYUzhkX0xGOVdScV90akRjR01aYzdQRnpZTUFyTUdrLTFaQTh1Z0lzcVVxWmtpendfV0IwUi1jTGVhYndDbldOOWZPNkFKN1d5YTNvNTZYbllvdGM1QUVMcmVOOXdOdVVKTTQ6O0ZvY3VzIEtpY2tzdGFuZCBpUGhvbmUgMTYgUHJvIE1heCBDYXNlIFdoaXRlIC0gSGVsbG8gQ2FuYWRhQqQBRm9jdXMgS2lja3N0YW5kIGlQaG9uZSAxNiBQcm8gTWF4IENhc2UgV2hpdGUuIFNLVTo8Yj4xODAwMTYwMTEwNjwvYj4uIExPR0lOIFRPIFNFRSBQUklDRS4gUGF5IG92ZXIgdGltZSBmb3Igb3JkZXJzIG92ZXIgJDM1LjAwIHdpdGguIFF1YW50aXR5IFF1YW50aXR5LiAoMCBpbiBjYXJ0KS4iAhABSABYAGgA",
+    "about_page_serpapi_link": "https://serpapi.com/search.json?engine=google_about_this_result&google_domain=google.co.in&req_token=CsUBL2dvdG8_dXJsPUNBRVNod0VCNnpzd0ZVc3A2VlBmMFQ1VW9BZlZwYVNMcTEtX0VCMXN1V1BSWjZUZHlfXzg4bTdlajVNdHdTVTJ0Z1hsd0toZlFnSVYwUEtvQ0o3RlYwa1dYUzhkX0xGOVdScV90akRjR01aYzdQRnpZTUFyTUdrLTFaQTh1Z0lzcVVxWmtpendfV0IwUi1jTGVhYndDbldOOWZPNkFKN1d5YTNvNTZYbllvdGM1QUVMcmVOOXdOdVVKTTQSBBoCCAAa-wMSABoAIgAqADIGCAISAmluOgBCBAgBEABKAFoAcgB6AIJA1wMIABAAGAAgACohCgsxODAwMTYwMTEwNhU8fPE9Gg0xODAwIDE2MCAxMTA2MsUBL2dvdG8_dXJsPUNBRVNod0VCNnpzd0ZVc3A2VlBmMFQ1VW9BZlZwYVNMcTEtX0VCMXN1V1BSWjZUZHlfXzg4bTdlajVNdHdTVTJ0Z1hsd0toZlFnSVYwUEtvQ0o3RlYwa1dYUzhkX0xGOVdScV90akRjR01aYzdQRnpZTUFyTUdrLTFaQTh1Z0lzcVVxWmtpendfV0IwUi1jTGVhYndDbldOOWZPNkFKN1d5YTNvNTZYbllvdGM1QUVMcmVOOXdOdVVKTTQ6O0ZvY3VzIEtpY2tzdGFuZCBpUGhvbmUgMTYgUHJvIE1heCBDYXNlIFdoaXRlIC0gSGVsbG8gQ2FuYWRhQqQBRm9jdXMgS2lja3N0YW5kIGlQaG9uZSAxNiBQcm8gTWF4IENhc2UgV2hpdGUuIFNLVTo8Yj4xODAwMTYwMTEwNjwvYj4uIExPR0lOIFRPIFNFRSBQUklDRS4gUGF5IG92ZXIgdGltZSBmb3Igb3JkZXJzIG92ZXIgJDM1LjAwIHdpdGguIFF1YW50aXR5IFF1YW50aXR5LiAoMCBpbiBjYXJ0KS4iAhABSABYAGgA",
+    "source": "thehellocanada.ca",
+    "read_more_link": "https://thehellocanada.ca/products/focus-kickstand-iphone-16-pro-max-case-white#:~:text=18001601106,Quantity"
+   }
+  ]
+ }
+}

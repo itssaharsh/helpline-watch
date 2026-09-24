@@ -1,8 +1,7 @@
 {
  "_fixture": {
-  "kind": "synthetic",
-  "note": "autocomplete for HDFC Bank",
-  "generated_at": "2026-09-23T20:53:40+00:00",
+  "kind": "recorded",
+  "recorded_at": "2026-09-24T16:46:35+00:00",
   "params": {
    "engine": "google_autocomplete",
    "q": "HDFC Bank customer care",
@@ -12,13 +11,16 @@
  },
  "response": {
   "search_metadata": {
-   "id": "synthetic-f75170e4bc291119",
+   "id": "6ab553e9acb3e43140249ccf",
    "status": "Success",
-   "created_at": "2026-09-23 20:53:40 UTC",
-   "processed_at": "2026-09-23 20:53:40 UTC",
-   "json_endpoint": null,
-   "raw_html_file": null,
-   "total_time_taken": 1.42
+   "json_endpoint": "https://serpapi.com/searches/NoD3DuNI7MNKlU9deYVIFI8YXO6Cn0MPo_9ECVHhHtk/6ab553e9acb3e43140249ccf.json",
+   "markdown_endpoint": "https://serpapi.com/searches/NoD3DuNI7MNKlU9deYVIFI8YXO6Cn0MPo_9ECVHhHtk/6ab553e9acb3e43140249ccf.md",
+   "created_at": "2026-09-24 16:46:33 UTC",
+   "processed_at": "2026-09-24 16:46:33 UTC",
+   "google_autocomplete_url": "https://www.google.com/complete/search?q=HDFC+Bank+customer+care&gl=in&hl=en&client=chrome&dpr=1",
+   "raw_html_file": "https://serpapi.com/searches/NoD3DuNI7MNKlU9deYVIFI8YXO6Cn0MPo_9ECVHhHtk/6ab553e9acb3e43140249ccf.html",
+   "prettify_html_file": "https://serpapi.com/searches/NoD3DuNI7MNKlU9deYVIFI8YXO6Cn0MPo_9ECVHhHtk/6ab553e9acb3e43140249ccf.prettify",
+   "total_time_taken": 1.46
   },
   "search_parameters": {
    "engine": "google_autocomplete",
@@ -26,32 +28,101 @@
    "gl": "in",
    "hl": "en"
   },
+  "search_information": {
+   "autocomplete_results_state": "Showing completion results."
+  },
   "suggestions": [
    {
-    "value": "HDFC Bank customer care number",
-    "relevance": 1200,
-    "type": "QUERY"
+    "value": "hdfc bank customer care number",
+    "relevance": 1250,
+    "type": "QUERY",
+    "serpapi_link": "https://serpapi.com/search.json?engine=google_autocomplete&gl=in&hl=en&q=hdfc+bank+customer+care+number"
    },
    {
-    "value": "HDFC Bank customer care number toll free",
-    "relevance": 1100,
-    "type": "QUERY"
+    "value": "hdfc bank customer care email id",
+    "relevance": 601,
+    "type": "QUERY",
+    "serpapi_link": "https://serpapi.com/search.json?engine=google_autocomplete&gl=in&hl=en&q=hdfc+bank+customer+care+email+id"
    },
    {
-    "value": "HDFC Bank helpline number 24x7",
-    "relevance": 1000,
-    "type": "QUERY"
+    "value": "hdfc bank customer care number delhi",
+    "relevance": 600,
+    "type": "QUERY",
+    "serpapi_link": "https://serpapi.com/search.json?engine=google_autocomplete&gl=in&hl=en&q=hdfc+bank+customer+care+number+delhi"
    },
    {
-    "value": "HDFC Bank complaint number",
-    "relevance": 900,
-    "type": "QUERY"
+    "value": "hdfc bank customer care toll free number",
+    "relevance": 561,
+    "type": "QUERY",
+    "serpapi_link": "https://serpapi.com/search.json?engine=google_autocomplete&gl=in&hl=en&q=hdfc+bank+customer+care+toll+free+number"
    },
    {
-    "value": "HDFC Bank customer care email",
-    "relevance": 800,
-    "type": "QUERY"
+    "value": "hdfc bank customer care number delhi delhi 24x7",
+    "relevance": 560,
+    "type": "QUERY",
+    "serpapi_link": "https://serpapi.com/search.json?engine=google_autocomplete&gl=in&hl=en&q=hdfc+bank+customer+care+number+delhi+delhi+24x7"
+   },
+   {
+    "value": "hdfc bank customer care ka number",
+    "relevance": 559,
+    "type": "QUERY",
+    "serpapi_link": "https://serpapi.com/search.json?engine=google_autocomplete&gl=in&hl=en&q=hdfc+bank+customer+care+ka+number"
+   },
+   {
+    "value": "hdfc bank customer care number credit card",
+    "relevance": 558,
+    "type": "QUERY",
+    "serpapi_link": "https://serpapi.com/search.json?engine=google_autocomplete&gl=in&hl=en&q=hdfc+bank+customer+care+number+credit+card"
+   },
+   {
+    "value": "hdfc bank customer care number chennai",
+    "relevance": 557,
+    "type": "QUERY",
+    "serpapi_link": "https://serpapi.com/search.json?engine=google_autocomplete&gl=in&hl=en&q=hdfc+bank+customer+care+number+chennai"
+   },
+   {
+    "value": "hdfc bank customer care contact number",
+    "relevance": 556,
+    "type": "QUERY",
+    "serpapi_link": "https://serpapi.com/search.json?engine=google_autocomplete&gl=in&hl=en&q=hdfc+bank+customer+care+contact+number"
+   },
+   {
+    "value": "hdfc bank customer care number mumbai",
+    "relevance": 555,
+    "type": "QUERY",
+    "serpapi_link": "https://serpapi.com/search.json?engine=google_autocomplete&gl=in&hl=en&q=hdfc+bank+customer+care+number+mumbai"
+   },
+   {
+    "value": "hdfc bank customer care credit card",
+    "relevance": 554,
+    "type": "QUERY",
+    "serpapi_link": "https://serpapi.com/search.json?engine=google_autocomplete&gl=in&hl=en&q=hdfc+bank+customer+care+credit+card"
+   },
+   {
+    "value": "hdfc bank customer care mail id",
+    "relevance": 553,
+    "type": "QUERY",
+    "serpapi_link": "https://serpapi.com/search.json?engine=google_autocomplete&gl=in&hl=en&q=hdfc+bank+customer+care+mail+id"
+   },
+   {
+    "value": "hdfc bank customer care email",
+    "relevance": 552,
+    "type": "QUERY",
+    "serpapi_link": "https://serpapi.com/search.json?engine=google_autocomplete&gl=in&hl=en&q=hdfc+bank+customer+care+email"
+   },
+   {
+    "value": "hdfc bank customer care whatsapp number",
+    "relevance": 551,
+    "type": "QUERY",
+    "serpapi_link": "https://serpapi.com/search.json?engine=google_autocomplete&gl=in&hl=en&q=hdfc+bank+customer+care+whatsapp+number"
+   },
+   {
+    "value": "hdfc bank customer care number hyderabad",
+    "relevance": 550,
+    "type": "QUERY",
+    "serpapi_link": "https://serpapi.com/search.json?engine=google_autocomplete&gl=in&hl=en&q=hdfc+bank+customer+care+number+hyderabad"
    }
-  ]
+  ],
+  "verbatim_relevance": 1300
  }
 }

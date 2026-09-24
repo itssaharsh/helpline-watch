@@ -37,8 +37,9 @@ C = "+91 98301 77462"
 D = "+91 63528 40917"
 E = "+91 91098 22764"
 F = "033 4040 1188"
-SHARED_A_BRANDS = {"hdfc-bank", "zomato", "indigo"}
-SHARED_D_BRANDS = {"sbi", "paytm"}
+SYNTHETIC_BRANDS = {"sbi", "indigo", "paytm"}  # hdfc-bank and zomato are swept live and recorded; never overwrite them
+SHARED_A_BRANDS = {"sbi", "indigo", "paytm"}
+SHARED_D_BRANDS = {"indigo", "paytm"}
 AGGREGATORS = ["justdial.com", "customercare-numbers.in", "helpline-directory.org", "tollfreenumber.in"]
 SCAM_DOMAINS = {"hdfc-bank": "hdfc-care-support.in", "sbi": "sbi-helpdesk-online.co", "zomato": "zomato-support-care.in",
                 "indigo": "indigo-flightcare.in", "paytm": "paytm-kyc-help.co"}
@@ -87,6 +88,8 @@ def write(engine: str, params: dict, response: dict, note: str) -> None:
     key = fixture_key(params)
     path = FIXTURES / engine / f"{key}.json"
     path.parent.mkdir(parents=True, exist_ok=True)
+    if path.exists() and json.loads(path.read_text(encoding="utf-8")).get("_fixture", {}).get("kind") == "recorded":
+        return  # a real recording always wins over the synthetic world
     body = {**meta(engine, params, key), **response}
     wrapper = {"_fixture": {"kind": "synthetic", "note": note, "generated_at": datetime.now(UTC).isoformat(timespec="seconds"), "params": params}, "response": body}
     path.write_text(json.dumps(wrapper, ensure_ascii=False, indent=1), encoding="utf-8")
@@ -108,8 +111,8 @@ def search_response(brand: Brand, city: City, q: str, hindi: bool) -> dict:
         pos += 1
         org.append(organic(f"{name} customer care number {off} toll free", f"https://www.{RNG.choice(AGGREGATORS)}/{brand.id}-customer-care", f"{name} customer care number is {off}. Also try the grievance desk on the official website.", pos))
         pos += 1
-    if brand.id == "hdfc-bank" and city.id in {"mumbai", "delhi"}:
-        org.append(organic("Grievance redressal - HDFC Bank", "https://www.hdfcbank.com/personal/need-help/grievance-redressal", "Nodal officer: write to us or call 022 6160 6161 between 9 AM and 6 PM.", pos))
+    if brand.id == "sbi" and city.id in {"mumbai", "delhi"}:
+        org.append(organic("Grievance redressal - SBI", "https://sbi.co.in/web/customer-care/grievance-redressal", "Nodal officer: write to us or call 022 2274 0841 between 9 AM and 6 PM.", pos))
         pos += 1
     if brand.id == "zomato":
         org.append(organic("Help & support - Zomato", "https://www.zomato.com/contact", "Chat with us in the app for order issues. We do not offer phone support.", pos))
@@ -124,8 +127,8 @@ def search_response(brand: Brand, city: City, q: str, hindi: bool) -> dict:
     if brand.id in SHARED_D_BRANDS and city.id in {"mumbai", "hyderabad"}:
         org.append(organic(f"{name} toll free helpline {D}", f"https://{scam_domain}/helpline", f"{name} customer care number {D}. Call now for KYC update and refund.", pos))
         pos += 1
-    if brand.id == "hdfc-bank" and city.id == "kolkata":
-        org.append(organic("HDFC Bank opens new branch in Salt Lake", f"https://www.{NEWS[0]}/city/kolkata/hdfc-salt-lake", f"The branch can be reached on {F} for account services, the bank said.", pos))
+    if brand.id == "sbi" and city.id == "kolkata":
+        org.append(organic("SBI opens new branch in Salt Lake", f"https://www.{NEWS[0]}/city/kolkata/sbi-salt-lake", f"The branch can be reached on {F} for account services, the bank said.", pos))
         pos += 1
     if city.id in {"delhi", "mumbai"}:
         org.append(organic(f"Man loses Rs 90,000 after calling fake {name} customer care number", f"https://www.{RNG.choice(NEWS)}/city/{city.id}/fake-{brand.id}-helpline", f"The victim searched for {name} customer care on Google and dialled a number listed on a business listing. Police said the number was a scam.", pos))
@@ -135,8 +138,8 @@ def search_response(brand: Brand, city: City, q: str, hindi: bool) -> dict:
     resp: dict = {"organic_results": org}
     if off:
         resp["knowledge_graph"] = {"title": name, "type": "Company", "phone": off, "website": f"https://www.{domain}/", "description": f"{name} customer service"}
-    if brand.id in {"hdfc-bank", "paytm"} and city.id in {"hyderabad", "delhi"} and not hindi:
-        num = C if brand.id == "hdfc-bank" else E
+    if brand.id in {"sbi", "paytm"} and city.id in {"hyderabad", "delhi"} and not hindi:
+        num = C if brand.id == "sbi" else E
         resp["ads"] = [ad(f"{name} Customer Care 24x7 - Call Now", scam_domain, f"Instant support for card block, refund & KYC. Call {num} now. Toll free assistance.")]
     if brand.id in SHARED_A_BRANDS and city.id in {"mumbai", "delhi", "kolkata"} and not hindi:
         resp["local_results"] = {"places": [place(f"{name} Customer Care Number", A, 3, 4.8, "Customer service", f"synthetic-{brand.id}-{city.id}-care", f"{city.name}")]}
@@ -173,7 +176,7 @@ def maps_response(brand: Brand, city: City) -> dict:
 def ads_transparency_response(brand: Brand) -> dict:
     now = int(datetime.now(UTC).timestamp())
     creatives = [{"advertiser_id": f"AR-{brand.id}-official", "advertiser": f"{brand.name} Limited", "ad_creative_id": f"CR-{brand.id}-{i}", "format": "text", "first_shown": now - 86400 * 200, "last_shown": now - 3600, "details_link": "https://adstransparency.google.com/"} for i in range(3)]
-    if brand.id in {"hdfc-bank", "paytm", "sbi"}:
+    if brand.id in {"paytm", "sbi"}:
         creatives += [{"advertiser_id": f"AR-{brand.id}-third", "advertiser": "Quick Assist Consultancy Services", "ad_creative_id": f"CR-third-{brand.id}-{i}", "format": "text", "first_shown": now - 86400 * (9 - i), "last_shown": now - 7200, "details_link": "https://adstransparency.google.com/"} for i in range(2)]
     return {"ad_creatives": creatives}
 
@@ -196,7 +199,7 @@ def reverse_response(number: str, brand_names: list[str], scam: bool) -> dict:
 
 
 def main() -> None:
-    brands = load_brands(BACKEND_DIR / "seeds")
+    brands = [b for b in load_brands(BACKEND_DIR / "seeds") if b.id in SYNTHETIC_BRANDS]
     cities = [c for c in load_cities(BACKEND_DIR / "seeds") if c.default]
     written = 0
     for brand in brands:
@@ -219,7 +222,7 @@ def main() -> None:
             written += 1
     # reverse lookups for every planted number
     look_numbers = {lookalike(b.official_numbers[0]): [b.name] for b in brands if b.official_numbers}
-    planted = {A: (["HDFC Bank", "Zomato", "IndiGo"], True), C: (["HDFC Bank"], True), D: (["SBI", "Paytm"], True), E: (["Paytm"], False), F: (["HDFC Bank"], False)}
+    planted = {A: (["SBI", "IndiGo", "Paytm"], True), C: (["SBI"], True), D: (["IndiGo", "Paytm"], True), E: (["Paytm"], False), F: (["SBI"], False)}
     for num, (names, scam) in planted.items():
         parsed = phones.normalise(num)
         write("google", reverse_params(parsed.norm, parsed.kind), reverse_response(num, names, scam), f"reverse lookup {num}")

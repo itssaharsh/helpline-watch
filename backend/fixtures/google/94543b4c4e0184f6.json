@@ -1,0 +1,68 @@
+{
+ "_fixture": {
+  "kind": "recorded",
+  "recorded_at": "2026-09-24T17:00:16+00:00",
+  "params": {
+   "engine": "google",
+   "q": "\"8240511047\" OR \"82405 11047\"",
+   "google_domain": "google.co.in",
+   "gl": "in",
+   "hl": "en",
+   "num": "10"
+  }
+ },
+ "response": {
+  "search_metadata": {
+   "id": "6ab5571f77e3d9d08a71cfee",
+   "status": "Success",
+   "json_endpoint": "https://serpapi.com/searches/4S_2i9qTkTcMQ1Cww5mfFYP7tjQBPnPPhu3E6wOQ-Z4/6ab5571f77e3d9d08a71cfee.json",
+   "markdown_endpoint": "https://serpapi.com/searches/4S_2i9qTkTcMQ1Cww5mfFYP7tjQBPnPPhu3E6wOQ-Z4/6ab5571f77e3d9d08a71cfee.md",
+   "pixel_position_endpoint": "https://serpapi.com/searches/4S_2i9qTkTcMQ1Cww5mfFYP7tjQBPnPPhu3E6wOQ-Z4/6ab5571f77e3d9d08a71cfee.json_with_pixel_position",
+   "created_at": "2026-09-24 17:00:15 UTC",
+   "processed_at": "2026-09-24 17:00:15 UTC",
+   "google_url": "https://www.google.co.in/search?q=%228240511047%22+OR+%2282405+11047%22&oq=%228240511047%22+OR+%2282405+11047%22&hl=en&gl=in&sourceid=chrome&ie=UTF-8",
+   "raw_html_file": "https://serpapi.com/searches/4S_2i9qTkTcMQ1Cww5mfFYP7tjQBPnPPhu3E6wOQ-Z4/6ab5571f77e3d9d08a71cfee.html",
+   "total_time_taken": 0.63
+  },
+  "search_parameters": {
+   "engine": "google",
+   "q": "\"8240511047\" OR \"82405 11047\"",
+   "google_domain": "google.co.in",
+   "hl": "en",
+   "gl": "in",
+   "device": "desktop"
+  },
+  "search_information": {
+   "query_displayed": "\"8240511047\" OR \"82405 11047\"",
+   "total_results": 1,
+   "time_taken_displayed": 0.15,
+   "organic_results_state": "Results for exact spelling"
+  },
+  "organic_results": [
+   {
+    "position": 1,
+    "title": "Untitled",
+    "link": "https://z-hcbcpgai.blogspot.com/index.html?9047456&m=1",
+    "redirect_link": "https://www.google.co.in/url?sa=t&source=web&rct=j&opi=89978449&url=CAESbgHrOzAV3v2Dy7DWftJhT8e5ZXF9lcB4CmuuXPwi6GHrP3pds2EXmQpx16Ltit0sSib3_CBROn2wgtXVgIM-_kcJsgIIKvrkZJTimyS2r-tZatKa55xQtJwMfZBYv5GKnUYpQM59U7y89h09sN9z&ved=2ahUKEwjlvozF2IeXAxXsVPUHHZ8xFNsQFnoECBkQAQ&uoh=1",
+    "displayed_link": "https://z-hcbcpgai.blogspot.com › ...",
+    "snippet": "How to understand who called you, scammers, organizations, medical institutions or someone else. You can determine the region from which you received a call ...",
+    "about_this_result": {
+     "source": {
+      "description": "How to understand who called you, scammers, organizations, medical institutions or someone else. You can determine the region from which you received a call ...",
+      "source_info_link": "https://z-hcbcpgai.blogspot.com/index.html?9047456&m=1",
+      "icon": "https://serpapi.com/images/i/iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y-mAAAAKlBMVEVHcEz-ZgL-___-ZgL-WwD-49j-vJD-6-H-8-3-gzP-oXD-eiD-2cj-xKXrGQLoAAAAAnRSTlMARXAleCcAAACpSURBVCiRpdPZDsQgCAVQK-CC-v-_O2Ksa21mMjz2BHsrVKkLDnWps4meDeA7xFqPyCYSUTQeN0Sja7nkV2yWy8yIPJgmP2NpdPmVRXlGeWg5hJAE04wkjex9KK2Wa-SO2llra2KXcMEp1E8ox-ZyTyiBpNgtKCFJPiUXS6o44H0JcvXlWNMReA10vPjWuI9ssDZshDLsMm-45913CHHblD-273Wp336HDzfYCtDpHI3hAAAAAElFTkSuQmCC.png"
+     },
+     "languages": [
+      "en"
+     ],
+     "regions": [
+      "IN"
+     ]
+    },
+    "about_page_link": "https://www.google.co.in/search/about-this-result?origin=www.google.com&req=CqIBL2dvdG8_dXJsPUNBRVNiZ0hyT3pBVjN2MkR5N0RXZnRKaFQ4ZTVaWEY5bGNCNENtdXVYUHdpNkdIclAzcGRzMkVYbVFweDE2THRpdDBzU2liM19DQlJPbjJ3Z3RYVmdJTS1fa2NKc2dJSUt2cmtaSlRpbXlTMnItdFphdEthNTV4UXRKd01mWkJZdjVHS25VWXBRTTU5VTd5ODloMDlzTjl6EgQaAggAGpsDEgAaACIAKgAyBggDEgJpbjoAQgQIARAASgBaAHIAegCCQPcCCAAQABgAIAAqHgoKODI0MDUxMTA0NxVKtxg3Ggs4MjQwNSAxMTA0NzKiAS9nb3RvP3VybD1DQUVTYmdIck96QVYzdjJEeTdEV2Z0SmhUOGU1WlhGOWxjQjRDbXV1WFB3aTZHSHJQM3BkczJFWG1RcHgxNkx0aXQwc1NpYjNfQ0JST24yd2d0WFZnSU0tX2tjSnNnSUlLdnJrWkpUaW15UzJyLXRaYXRLYTU1eFF0SndNZlpCWXY1R0tuVVlwUU01OVU3eTg5aDA5c045ejoAQqUBSG93IHRvIHVuZGVyc3RhbmQgd2hvIGNhbGxlZCB5b3UsIHNjYW1tZXJzLCBvcmdhbml6YXRpb25zLCBtZWRpY2FsIGluc3RpdHV0aW9ucyBvciBzb21lb25lIGVsc2UuIFlvdSBjYW4gZGV0ZXJtaW5lIHRoZSByZWdpb24gZnJvbSB3aGljaCB5b3UgcmVjZWl2ZWQgYSBjYWxsJm5ic3A7Li4uIgIQAUgAWABoAA",
+    "about_page_serpapi_link": "https://serpapi.com/search.json?engine=google_about_this_result&google_domain=google.co.in&req_token=CqIBL2dvdG8_dXJsPUNBRVNiZ0hyT3pBVjN2MkR5N0RXZnRKaFQ4ZTVaWEY5bGNCNENtdXVYUHdpNkdIclAzcGRzMkVYbVFweDE2THRpdDBzU2liM19DQlJPbjJ3Z3RYVmdJTS1fa2NKc2dJSUt2cmtaSlRpbXlTMnItdFphdEthNTV4UXRKd01mWkJZdjVHS25VWXBRTTU5VTd5ODloMDlzTjl6EgQaAggAGpsDEgAaACIAKgAyBggDEgJpbjoAQgQIARAASgBaAHIAegCCQPcCCAAQABgAIAAqHgoKODI0MDUxMTA0NxVKtxg3Ggs4MjQwNSAxMTA0NzKiAS9nb3RvP3VybD1DQUVTYmdIck96QVYzdjJEeTdEV2Z0SmhUOGU1WlhGOWxjQjRDbXV1WFB3aTZHSHJQM3BkczJFWG1RcHgxNkx0aXQwc1NpYjNfQ0JST24yd2d0WFZnSU0tX2tjSnNnSUlLdnJrWkpUaW15UzJyLXRaYXRLYTU1eFF0SndNZlpCWXY1R0tuVVlwUU01OVU3eTg5aDA5c045ejoAQqUBSG93IHRvIHVuZGVyc3RhbmQgd2hvIGNhbGxlZCB5b3UsIHNjYW1tZXJzLCBvcmdhbml6YXRpb25zLCBtZWRpY2FsIGluc3RpdHV0aW9ucyBvciBzb21lb25lIGVsc2UuIFlvdSBjYW4gZGV0ZXJtaW5lIHRoZSByZWdpb24gZnJvbSB3aGljaCB5b3UgcmVjZWl2ZWQgYSBjYWxsJm5ic3A7Li4uIgIQAUgAWABoAA",
+    "source": "Blogger.com"
+   }
+  ]
+ }
+}

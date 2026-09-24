@@ -48,3 +48,21 @@ def test_budget_blocks_live_calls_over_cap():
     budget.charge()
     with pytest.raises(BudgetExceeded):
         budget.charge()
+
+
+@pytest.mark.asyncio
+async def test_no_results_error_is_an_empty_page_and_gets_recorded(tmp_path):
+    import httpx
+
+    payload = {"search_metadata": {"id": "abc", "status": "Success"}, "search_parameters": {"engine": "google_ads_transparency_center"},
+               "error": "Google Ads Transparency Center hasn't returned any results for this search."}
+
+    async def handler(request):
+        return httpx.Response(200, json=payload)
+
+    http = httpx.AsyncClient(transport=httpx.MockTransport(handler))
+    client = SerpClient(api_key="k", mode="auto", fixtures_dir=tmp_path, http=http)
+    res = await client.search({"engine": "google_ads_transparency_center", "text": "HDFC Bank"}, CallBudget(max_calls=2))
+    assert res.data.get("error") is None and "no_results" in res.data
+    again = await client.search({"engine": "google_ads_transparency_center", "text": "HDFC Bank"}, CallBudget(max_calls=2))
+    assert again.from_cache

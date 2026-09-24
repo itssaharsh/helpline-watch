@@ -1,8 +1,7 @@
 {
  "_fixture": {
-  "kind": "synthetic",
-  "note": "Maps · Bengaluru · HDFC Bank customer care",
-  "generated_at": "2026-09-23T20:53:40+00:00",
+  "kind": "recorded",
+  "recorded_at": "2026-09-24T16:46:40+00:00",
   "params": {
    "engine": "google_maps",
    "type": "search",
@@ -14,13 +13,16 @@
  },
  "response": {
   "search_metadata": {
-   "id": "synthetic-165a8bd5c54c2daf",
+   "id": "6ab553efff3b7a59bb76747b",
    "status": "Success",
-   "created_at": "2026-09-23 20:53:40 UTC",
-   "processed_at": "2026-09-23 20:53:40 UTC",
-   "json_endpoint": null,
-   "raw_html_file": null,
-   "total_time_taken": 1.59
+   "json_endpoint": "https://serpapi.com/searches/pFZwiLRkAOB3LAaWmTv7tyTe4m5hhFVyGWSxNRDHJXE/6ab553efff3b7a59bb76747b.json",
+   "markdown_endpoint": "https://serpapi.com/searches/pFZwiLRkAOB3LAaWmTv7tyTe4m5hhFVyGWSxNRDHJXE/6ab553efff3b7a59bb76747b.md",
+   "created_at": "2026-09-24 16:46:39 UTC",
+   "processed_at": "2026-09-24 16:46:39 UTC",
+   "google_maps_url": "https://www.google.com/maps/search/HDFC+Bank+customer+care/@12.9716,77.5946,12z/data=!3m1!4b1!4m2!2m1!6e5?hl=en",
+   "raw_html_file": "https://serpapi.com/searches/pFZwiLRkAOB3LAaWmTv7tyTe4m5hhFVyGWSxNRDHJXE/6ab553efff3b7a59bb76747b.html",
+   "prettify_html_file": "https://serpapi.com/searches/pFZwiLRkAOB3LAaWmTv7tyTe4m5hhFVyGWSxNRDHJXE/6ab553efff3b7a59bb76747b.prettify",
+   "total_time_taken": 0.85
   },
   "search_parameters": {
    "engine": "google_maps",
@@ -30,45 +32,1368 @@
    "google_domain": "google.co.in",
    "hl": "en"
   },
+  "search_information": {
+   "local_results_state": "Results for exact spelling",
+   "query_displayed": "HDFC Bank customer care"
+  },
   "local_results": [
    {
     "position": 1,
-    "title": "HDFC Bank - Bengaluru Main Branch",
-    "place_id": "synthetic-hdfc-bank-bengaluru-branch",
-    "data_id": "0x8ba78f0bc8fc:0xab7cb5387f2",
-    "rating": 3.8,
-    "reviews": 679,
+    "title": "HDFC Bank",
+    "place_id": "ChIJ0d5goNQXrjsRIWU0krOh6VU",
+    "data_id": "0x3bae17d4a060ded1:0x55e9a1b392346521",
+    "data_cid": "6190656955421582625",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x3bae17d4a060ded1%3A0x55e9a1b392346521&engine=google_maps_reviews&hl=en",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x3bae17d4a060ded1%3A0x55e9a1b392346521&engine=google_maps_photos&hl=en",
+    "gps_coordinates": {
+     "latitude": 12.9781774,
+     "longitude": 77.6368888
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJ0d5goNQXrjsRIWU0krOh6VU",
+    "provider_id": "/g/11gz9z16k",
+    "rating": 2.2,
+    "reviews": 1010,
+    "type": "Bank",
+    "types": [
+     "Bank",
+     "ATM",
+     "Business banking service",
+     "Car finance and loan company",
+     "Financial institution",
+     "Insurance company",
+     "Investment service",
+     "Loan agency",
+     "Private sector bank",
+     "Savings bank"
+    ],
+    "type_id": "bank",
+    "type_ids": [
+     "bank",
+     "atm",
+     "business_banking_service",
+     "car_finance_and_loan_company",
+     "financial_institution",
+     "insurance_company",
+     "investment_service",
+     "loan_agency",
+     "private_sector_bank",
+     "savings_bank"
+    ],
+    "address": "Maruthi Mansion, No 548/D, Chinmaya Mission Hospital Rd, Stage 1, Indiranagar, Bengaluru, Karnataka 560038, India",
+    "country": "India",
+    "open_state": "Closed · Opens 10 AM Fri",
+    "hours": "Closed · Opens 10 AM Fri",
+    "operating_hours": {
+     "thursday": "10 AM–4 PM",
+     "friday": "10 AM–4 PM",
+     "saturday": "10 AM–4 PM",
+     "sunday": "Closed",
+     "monday": "10 AM–4 PM",
+     "tuesday": "10 AM–4 PM",
+     "wednesday": "10 AM–4 PM"
+    },
+    "phone": "+91 1800 1601",
+    "website": "https://www.hdfc.bank.in/branch-locator/karnataka/bengaluru/hdfcbank-branch-bangaloreindiranagarcmhroad",
+    "extensions": [
+     {
+      "service_options": [
+       "Onsite services"
+      ]
+     },
+     {
+      "amenities": [
+       "ATM"
+      ]
+     }
+    ],
+    "unsupported_extensions": [
+     {
+      "accessibility": [
+       "Wheelchair accessible entrance",
+       "Wheelchair accessible parking lot"
+      ]
+     }
+    ],
+    "service_options": {
+     "onsite_services": true
+    },
+    "user_review": "\"Got my bank statements signed and sealed in under 15 mins.\"",
+    "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWmkssecph9GRhVDJjMw4RZGEv-7gPfiHB1wZvDVikVFR4V7j-WM9wXDeiD-w1Zl7LatNP1SMzlTP_01XxxZojpvMdKMPaT_4r-21UERKvtHZCq3NYIbO8bCuvhXN_twflhrtgpkhw=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/qE7qT3icHcRRbsIgAADQE2HLbNK5ZB-bVTuVjrBaO34aRYS2WFhBMLuhR9htTPY-3t9dOmfsSxQpOZ0IrYXiV8tHpgfHBzdh-hIJYwGzwEZvOcHl_tJby5mRsxWRVbbuUEgIXS08SAU-t_k7DNRnVdtXS5JUaQf2aBbqjLcZCJCqdHtwBYZf6FeVuIlhfbtR3RmPThuED2WTjOAJ7hZk411O5z_T4vvj-Pl8nF-9rIvGhbOSoxOml-E1wDiOgfyfgeEB_sRGKA"
+   },
+   {
+    "position": 2,
+    "title": "HDFC Bank",
+    "place_id": "ChIJx5Ot7YMWrjsR1PW6iA77D1A",
+    "data_id": "0x3bae1683edad93c7:0x500ffb0e88baf5d4",
+    "data_cid": "5769105687526962644",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x3bae1683edad93c7%3A0x500ffb0e88baf5d4&engine=google_maps_reviews&hl=en",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x3bae1683edad93c7%3A0x500ffb0e88baf5d4&engine=google_maps_photos&hl=en",
+    "gps_coordinates": {
+     "latitude": 12.9728968,
+     "longitude": 77.6155759
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJx5Ot7YMWrjsR1PW6iA77D1A",
+    "provider_id": "/g/1tfyc03p",
+    "rating": 2.9,
+    "reviews": 163,
     "type": "Bank",
     "types": [
      "Bank"
     ],
-    "address": "MG Road, Bengaluru",
-    "gps_coordinates": {
-     "latitude": 20.283353553855342,
-     "longitude": 83.44588049664343
+    "type_id": "bank",
+    "type_ids": [
+     "bank"
+    ],
+    "address": "Ground Floor, Shubharam Complex, No 144, Mahatma Gandhi Rd, Craig Park Layout, Ashok Nagar, Bengaluru, Karnataka 560001, India",
+    "country": "India",
+    "open_state": "Closed · Opens 10 AM Fri",
+    "hours": "Closed · Opens 10 AM Fri",
+    "operating_hours": {
+     "thursday": "10 AM–4 PM",
+     "friday": "10 AM–4 PM",
+     "saturday": "10 AM–4 PM",
+     "sunday": "Closed",
+     "monday": "10 AM–4 PM",
+     "tuesday": "10 AM–4 PM",
+     "wednesday": "10 AM–4 PM"
     },
-    "phone": "1800 1600 1600",
-    "website": "https://www.hdfcbank.com/"
+    "phone": "+91 1800 1601",
+    "website": "https://www.hdfc.bank.in/branch-locator/andhrapradesh/vijayawada/hdfcbank-branch-mgroad",
+    "extensions": [
+     {
+      "service_options": [
+       "Onsite services"
+      ]
+     },
+     {
+      "accessibility": [
+       "Wheelchair accessible parking lot"
+      ]
+     },
+     {
+      "amenities": [
+       "ATM"
+      ]
+     }
+    ],
+    "unsupported_extensions": [
+     {
+      "accessibility": [
+       "Wheelchair accessible entrance"
+      ]
+     }
+    ],
+    "service_options": {
+     "onsite_services": true
+    },
+    "user_review": "\"Excellent customer service by HDFC bank MG Road branch.\"",
+    "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWn5-DpSjx8G6XsNGA5tYZszFbwqiN__uReyBLF1AhwhgK68WS_188csbIRgupKu891VQZodFk38hyZSZm49C5KGsR7DzKHyz9EzKm5MJk-2YXWYi_IZj3yCm4pb1b6_nsGV3_Ws_wcMLJyR=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/T26qGHicHcTdboIwGADQJ6rAEFaW7IKpoFbNVhaR3jShktYf2m5fCSsvuWvfZsnOxXn8KucsvATBXcUzaYy8dwN038Jo12k3E6YPpAUkAEGQr-n7Z60TtLTV9QeX6QkOZZ64hsFUtOPX5cD5QDv_tiuiXI1KkhTXFY8wFtBuqBwsGXAWHT-YORe3GCvPKtbPs0VCSqDPy4ms_ZStJtIn--0NPTWnurnwDbvGftHPbRu1KddQHmNeAx_Ffrf19HWMwjBE6n-B9B9_EEcB"
    },
    {
-    "position": 1,
-    "title": "HDFC Bank Toll Free Number",
-    "place_id": "synthetic-hdfc-bank-bengaluru-look",
-    "data_id": "0x87c0130a7861:0x1e850392ab7f",
-    "rating": 5.0,
-    "reviews": 1,
-    "type": "Customer service",
-    "types": [
-     "Customer service"
-    ],
-    "address": "Whitefield, Bengaluru",
+    "position": 3,
+    "title": "HDFC Bank",
+    "place_id": "ChIJlfmuW5YVrjsREn8U3pJxvD4",
+    "data_id": "0x3bae15965baef995:0x3ebc7192de147f12",
+    "data_cid": "4520613001578184466",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x3bae15965baef995%3A0x3ebc7192de147f12&engine=google_maps_reviews&hl=en",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x3bae15965baef995%3A0x3ebc7192de147f12&engine=google_maps_photos&hl=en",
     "gps_coordinates": {
-     "latitude": 27.13171509164986,
-     "longitude": 76.58783483928049
+     "latitude": 12.9365454,
+     "longitude": 77.5825456
     },
-    "phone": "1800 1600 1601",
-    "unclaimed_listing": true
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJlfmuW5YVrjsREn8U3pJxvD4",
+    "provider_id": "/g/1tcyvw7h",
+    "rating": 2.5,
+    "reviews": 157,
+    "type": "Bank",
+    "types": [
+     "Bank"
+    ],
+    "type_id": "bank",
+    "type_ids": [
+     "bank"
+    ],
+    "address": "No 27/7, Professional Court, 15th Cross Rd, Jaya Nagar 1st Block, Jayanagar 3rd Block, Jayanagar, Bengaluru, Karnataka 560011, India",
+    "country": "India",
+    "open_state": "Closed · Opens 10 AM Fri",
+    "hours": "Closed · Opens 10 AM Fri",
+    "operating_hours": {
+     "thursday": "10 AM–4 PM",
+     "friday": "10 AM–4 PM",
+     "saturday": "10 AM–4 PM",
+     "sunday": "Closed",
+     "monday": "10 AM–4 PM",
+     "tuesday": "10 AM–4 PM",
+     "wednesday": "10 AM–4 PM"
+    },
+    "phone": "+91 1800 1601",
+    "website": "https://www.hdfc.bank.in/branch-locator/karnataka/bengaluru/hdfcbank-branch-jayanagar3rdblock",
+    "extensions": [
+     {
+      "service_options": [
+       "Onsite services"
+      ]
+     },
+     {
+      "amenities": [
+       "ATM"
+      ]
+     }
+    ],
+    "unsupported_extensions": [
+     {
+      "accessibility": [
+       "Wheelchair accessible entrance",
+       "Wheelchair accessible parking lot"
+      ]
+     }
+    ],
+    "service_options": {
+     "onsite_services": true
+    },
+    "user_review": "\"Their dedication to customer service speaks for itself.\"",
+    "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWlNRnhvlFEz-0Bf4RkdW9iYEvS6KNJDZ_-Dus9rwy-YAUg0MSOEucFHxAfFygRikUrxpQbhN-SAVhoiJuv2tpWo_H3RAimHE57yOmUxMUTtzaGZrR9S11f9pznvRzPZzw-LIetK=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/6iSReHicHcTbboIwGADgJ_qleFow2UUXYXhCV2REbox20BKhbWg59QX3DL6Nid_F9_znxii9cpyKzyZMSlblrc4bKoXJhZlQWTtMaaAatINDcjqnVUQE76rAt4C-ijl5_KVeefG7eLmLtuvsCutWe00_wgUnDB3io9_SIBxwEYyMlI-kGdTPnUcQ418uy23bTY1K5TWcEVzWob_4GI91MhySs7G376whXuy6haes6Ig9ZbaH_SY3u8_eRQgBf09BvACSCUWx"
+   },
+   {
+    "position": 4,
+    "title": "HDFC Bank",
+    "place_id": "ChIJQzYCTGYXrjsR2GwVbRBkpvw",
+    "data_id": "0x3bae17664c023643:0xfca664106d156cd8",
+    "data_cid": "18205348565404183768",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x3bae17664c023643%3A0xfca664106d156cd8&engine=google_maps_reviews&hl=en",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x3bae17664c023643%3A0xfca664106d156cd8&engine=google_maps_photos&hl=en",
+    "gps_coordinates": {
+     "latitude": 13.0445493,
+     "longitude": 77.6207221
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJQzYCTGYXrjsR2GwVbRBkpvw",
+    "provider_id": "/g/11fx_5cfqt",
+    "rating": 3.9,
+    "reviews": 280,
+    "type": "Bank",
+    "types": [
+     "Bank",
+     "ATM",
+     "Business banking service",
+     "Car finance and loan company",
+     "Financial institution",
+     "Insurance company",
+     "Investment service",
+     "Loan agency",
+     "Private sector bank",
+     "Savings bank"
+    ],
+    "type_id": "bank",
+    "type_ids": [
+     "bank",
+     "atm",
+     "business_banking_service",
+     "car_finance_and_loan_company",
+     "financial_institution",
+     "insurance_company",
+     "investment_service",
+     "loan_agency",
+     "private_sector_bank",
+     "savings_bank"
+    ],
+    "address": "MFAR Greenheart, Manyata Tech Park, Outer Ring Rd, MS Ramaiah North City, Phase 4, Hebbal, Bengaluru, Karnataka 560045, India",
+    "country": "India",
+    "open_state": "Closed · Opens 10 AM Fri",
+    "hours": "Closed · Opens 10 AM Fri",
+    "operating_hours": {
+     "thursday": "10 AM–4 PM",
+     "friday": "10 AM–4 PM",
+     "saturday": "10 AM–4 PM",
+     "sunday": "Closed",
+     "monday": "10 AM–4 PM",
+     "tuesday": "10 AM–4 PM",
+     "wednesday": "10 AM–4 PM"
+    },
+    "phone": "+91 1800 1601",
+    "website": "https://www.hdfc.bank.in/branch-locator/karnataka/bengaluru/hdfcbank-branch-manyatatechpark",
+    "extensions": [
+     {
+      "service_options": [
+       "Onsite services"
+      ]
+     },
+     {
+      "amenities": [
+       "ATM"
+      ]
+     }
+    ],
+    "service_options": {
+     "onsite_services": true
+    },
+    "user_review": "\"Good customer service Mr Akash Shinde helped in good manner great awesome\"",
+    "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWlyvMUazR3V7y6aR9Gt1ZWudaBcaGoomaUtK2RqSSsu1yJzpgcpnhnvabz2THyYsW9kc48rP_PkqXxteJPTPmy_P6xxwofVK_Zqxr1nJ6KHwOa_okYl7pS4DAeQPeewtUrSNZE=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/QrYhonicHcTbCoIwAADQL_KaaAY9FIWiVMtLpi-y1lJQt-lmOj-wf-hvgs7D-X5qIRjfaFpbr9SK0qrFI8cDokRgIlREO61iXEFc4drOj0CStfJ9SuESrW6OtGHkesIosvEJ9wh6lHYwFaEZ9XHMR0MGC6sQIzV5w8diJr7MeeY2yFoPoARNf58FDkACOlkCe54n-rqFZdHPg0ECO_SnCyxpk7cOi63DDl8BxpNIh_hcHLeToeu6Uv9HCvkBIx9Hbw"
+   },
+   {
+    "position": 5,
+    "title": "HDFC Bank",
+    "place_id": "ChIJX2H1vb6d-DkRd8tVW41_z5w",
+    "data_id": "0x39f89dbebdf5615f:0x9ccf7f8d5b55cb77",
+    "data_cid": "11299390235195329399",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x39f89dbebdf5615f%3A0x9ccf7f8d5b55cb77&engine=google_maps_reviews&hl=en",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x39f89dbebdf5615f%3A0x9ccf7f8d5b55cb77&engine=google_maps_photos&hl=en",
+    "gps_coordinates": {
+     "latitude": 12.9400256,
+     "longitude": 77.6299844
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJX2H1vb6d-DkRd8tVW41_z5w",
+    "provider_id": "/g/1ptw8y7br",
+    "rating": 3.4,
+    "reviews": 101,
+    "type": "Bank",
+    "types": [
+     "Bank"
+    ],
+    "type_id": "bank",
+    "type_ids": [
+     "bank"
+    ],
+    "address": "Ward No 151, 4TH BLOCK, 754, 80 Feet Rd, next to Starbucks Cafe, VGS Layout, Koramangala, Bengaluru, Karnataka 560034, India",
+    "country": "India",
+    "open_state": "Closed · Opens 10 AM Fri",
+    "hours": "Closed · Opens 10 AM Fri",
+    "operating_hours": {
+     "thursday": "10 AM–4 PM",
+     "friday": "10 AM–4 PM",
+     "saturday": "10 AM–4 PM",
+     "sunday": "Closed",
+     "monday": "10 AM–4 PM",
+     "tuesday": "10 AM–4 PM",
+     "wednesday": "10 AM–4 PM"
+    },
+    "phone": "+91 1800 1601",
+    "website": "https://www.hdfc.bank.in/branch-locator/karnataka/bengaluru/hdfcbank-branch-koramangala4thblock",
+    "extensions": [
+     {
+      "service_options": [
+       "Onsite services"
+      ]
+     },
+     {
+      "amenities": [
+       "ATM"
+      ]
+     }
+    ],
+    "unsupported_extensions": [
+     {
+      "accessibility": [
+       "Wheelchair accessible entrance"
+      ]
+     }
+    ],
+    "service_options": {
+     "onsite_services": true
+    },
+    "user_review": "\"Came for my full prepayment of the loan and got full support from the staff.\"",
+    "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWnqAQhENGbAvNjRJuAnH2BAovgsd6KDJrmV_3uyZbH_YZVprwn4AqBJZDdw798aBmGGH1DbCtRfDmNW0T0puJc18HQqwIioXI0JyOLuaOnGU5QQk5D8aXaaW2hRFqQZqQO1zwcXQLn3s3bi=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/tnA-DHicHcTNboMgAADgJ7JiXVe3ZAccm5Q1OkxXnZcGqZX-CCJQ0r7kznubJfsO3--PsHY0z2F4EfGsV6q_dM50E1fSdtLOuBrCfjQBN4EJIS4_N5XUkIq3PGvhNT-VxEGJ5ylU197sHz8QmYbtLna3psW772Y7Tl4-QJ2SBu398ilh6ZBlOELtqy0PaMgrsAGjIzxKMNV-dVT1CpBbsXaskNnXgtLzAiWsZqyai_Jd00bTIrp7XtO1jE3cHl98BAAIxP88kH-kDEcz"
+   },
+   {
+    "position": 6,
+    "title": "HDFC Bank",
+    "place_id": "ChIJ0aUBDlsUrjsRZQrJePjeMyQ",
+    "data_id": "0x3bae145b0e01a5d1:0x2433def878c90a65",
+    "data_cid": "2608673767937346149",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x3bae145b0e01a5d1%3A0x2433def878c90a65&engine=google_maps_reviews&hl=en",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x3bae145b0e01a5d1%3A0x2433def878c90a65&engine=google_maps_photos&hl=en",
+    "gps_coordinates": {
+     "latitude": 12.931274499999999,
+     "longitude": 77.62360799999999
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJ0aUBDlsUrjsRZQrJePjeMyQ",
+    "provider_id": "/g/1pv0tbdcz",
+    "rating": 2.9,
+    "reviews": 95,
+    "type": "Bank",
+    "types": [
+     "Bank",
+     "ATM",
+     "Business banking service",
+     "Car finance and loan company",
+     "Financial institution",
+     "Insurance company",
+     "Investment service",
+     "Loan agency",
+     "Private sector bank",
+     "Savings bank"
+    ],
+    "type_id": "bank",
+    "type_ids": [
+     "bank",
+     "atm",
+     "business_banking_service",
+     "car_finance_and_loan_company",
+     "financial_institution",
+     "insurance_company",
+     "investment_service",
+     "loan_agency",
+     "private_sector_bank",
+     "savings_bank"
+    ],
+    "address": "No 83, BDA Complex, Block 4/B, 7th Cross Rd, KHB Block Koramangala, Koramangala 4-B Block, Koramangala, Bengaluru, Karnataka 560034, India",
+    "country": "India",
+    "open_state": "Closed · Opens 10 AM Fri",
+    "hours": "Closed · Opens 10 AM Fri",
+    "operating_hours": {
+     "thursday": "10 AM–4 PM",
+     "friday": "10 AM–4 PM",
+     "saturday": "10 AM–4 PM",
+     "sunday": "Closed",
+     "monday": "10 AM–4 PM",
+     "tuesday": "10 AM–4 PM",
+     "wednesday": "10 AM–4 PM"
+    },
+    "phone": "+91 1800 1601",
+    "website": "https://www.hdfc.bank.in/branch-locator/karnataka/bengaluru/hdfcbank-branch-koramangal4thbblock",
+    "extensions": [
+     {
+      "service_options": [
+       "Onsite services"
+      ]
+     },
+     {
+      "amenities": [
+       "ATM"
+      ]
+     }
+    ],
+    "service_options": {
+     "onsite_services": true
+    },
+    "user_review": "\"Extremely helpful staffs and polite branch manager.\"",
+    "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWn0oR33_21kEduxBUSA8okQInPOy0B1fZ4Kqzx9U5mTSs2vVQCfnyukluhyyNJRX09oOt9iWlQoQsHOhQJPO2VIKJNFu67P5SK1Ix-BpY0SDvApLm8W8eQ4wD_N98dr6wSCg8ST=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/TeD5JXicHcTBDoIgAADQLyJRs7Ctg2YttamIZXXpYCZNBQtI7Qf7hv6mrXd43w-VshMLTWuoOak4r5pSifJZcCZLJicFb7WqE6AQQGjONk2ynEGemubF0Ov1VQ3unjiI19hnSTxCV7-dp-HjPdh7q82IMF4HvLqxUdWNouMYBekR2jyW9j1vMMdiG1McJLFx8MMg2qjZPLFIqPsDcLsTJN7L6XYtylGJp713iWx0fc56sqoQyZa9DiEE9H8B2A8lAEOC"
+   },
+   {
+    "position": 7,
+    "title": "HDFC Bank",
+    "place_id": "ChIJNYgbZSoUrjsRJF4QwLq7myg",
+    "data_id": "0x3bae142a651b8835:0x289bbbbac0105e24",
+    "data_cid": "2926138793667878436",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x3bae142a651b8835%3A0x289bbbbac0105e24&engine=google_maps_reviews&hl=en",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x3bae142a651b8835%3A0x289bbbbac0105e24&engine=google_maps_photos&hl=en",
+    "gps_coordinates": {
+     "latitude": 12.9744149,
+     "longitude": 77.60680579999999
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJNYgbZSoUrjsRJF4QwLq7myg",
+    "provider_id": "/g/124srjk8p",
+    "rating": 2.4,
+    "reviews": 58,
+    "type": "Bank",
+    "types": [
+     "Bank",
+     "ATM",
+     "Business banking service",
+     "Car finance and loan company",
+     "Financial institution",
+     "Insurance company",
+     "Investment service",
+     "Loan agency",
+     "Private sector bank",
+     "Savings bank"
+    ],
+    "type_id": "bank",
+    "type_ids": [
+     "bank",
+     "atm",
+     "business_banking_service",
+     "car_finance_and_loan_company",
+     "financial_institution",
+     "insurance_company",
+     "investment_service",
+     "loan_agency",
+     "private_sector_bank",
+     "savings_bank"
+    ],
+    "address": "No 3, Ground Floor MSR West Park, Church St, Xavier Layout, Victoria Layout, Bengaluru, Karnataka 560007, India",
+    "country": "India",
+    "open_state": "Closed · Opens 10 AM Fri",
+    "hours": "Closed · Opens 10 AM Fri",
+    "operating_hours": {
+     "thursday": "10 AM–4 PM",
+     "friday": "10 AM–4 PM",
+     "saturday": "10 AM–4 PM",
+     "sunday": "Closed",
+     "monday": "10 AM–4 PM",
+     "tuesday": "10 AM–4 PM",
+     "wednesday": "10 AM–4 PM"
+    },
+    "phone": "+91 1800 1601",
+    "website": "https://near-me.hdfcbank.com/branch-atm-locator/hdfc-bank-church-street-banks-church-street-bengaluru-10840/Home?utm_source=locator&utm_medium=googleplaces",
+    "extensions": [
+     {
+      "service_options": [
+       "Onsite services"
+      ]
+     },
+     {
+      "amenities": [
+       "ATM"
+      ]
+     }
+    ],
+    "service_options": {
+     "onsite_services": true
+    },
+    "user_review": "\"Sneha was helpful in resolving my 15G problem.\"",
+    "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWkrxU92Z06OEPsfSONSc4lzBeLmibwFQGqqMs4Cj83L673TRUpS_F6wwQORbM6EksmdAEny54zY1znUdEJOfZCF-xoV4AWa6giMgZ-h11nst2Hz4W-FTcfXc3No16xNGDILbnMq0G8EYYvh=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/pZSgw3icFcrLUoMwFADQL0pJSozVGRdYA9Xh0fIQYeNICqEWEuiNgvyka_9G3ZzV-flujRng1rK61l5JrWVXf0B9EVqZWpmV0L0lB0ACEFjOLt6n-fkyZzfrErOI76FJojARtFvua78_VZN78MYxALp939g-u7bTOBuSV5dN0yGKq4DxM_RHh6uvK7oUZFHZkT9FTbl10ayfqZO_MXkKZIlaQhSY9W6hOXJT0bwIO9SEzaH38OhXKhixt-FF8dneTQRj_Pf_FUj9AkhDRhQ"
+   },
+   {
+    "position": 8,
+    "title": "HDFC Bank",
+    "place_id": "ChIJm6Qm_eQRrjsR1ZjJAiXNuIM",
+    "data_id": "0x3bae11e4fd26a49b:0x83b8cd2502c998d5",
+    "data_cid": "9491561773527570645",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x3bae11e4fd26a49b%3A0x83b8cd2502c998d5&engine=google_maps_reviews&hl=en",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x3bae11e4fd26a49b%3A0x83b8cd2502c998d5&engine=google_maps_photos&hl=en",
+    "gps_coordinates": {
+     "latitude": 12.9738075,
+     "longitude": 77.5933921
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJm6Qm_eQRrjsR1ZjJAiXNuIM",
+    "provider_id": "/g/1tf0p1dx",
+    "rating": 2.6,
+    "reviews": 273,
+    "type": "Bank",
+    "types": [
+     "Bank"
+    ],
+    "type_id": "bank",
+    "type_ids": [
+     "bank"
+    ],
+    "address": "HDFC House, No 24/3 & 51, Kasturba Rd, Nunegundlapalli, Ambedkar Veedhi, Bengaluru, Karnataka 560001, India",
+    "country": "India",
+    "open_state": "Closed · Opens 10 AM Fri",
+    "hours": "Closed · Opens 10 AM Fri",
+    "operating_hours": {
+     "thursday": "10 AM–4 PM",
+     "friday": "10 AM–4 PM",
+     "saturday": "10 AM–4 PM",
+     "sunday": "Closed",
+     "monday": "10 AM–4 PM",
+     "tuesday": "10 AM–4 PM",
+     "wednesday": "10 AM–4 PM"
+    },
+    "phone": "+91 1800 1601",
+    "website": "https://www.hdfc.bank.in/branch-locator/karnataka/bengaluru/hdfcbank-branch-kasturbagandhimarg",
+    "extensions": [
+     {
+      "service_options": [
+       "Drive-through",
+       "Onsite services"
+      ]
+     },
+     {
+      "accessibility": [
+       "Wheelchair accessible parking lot"
+      ]
+     },
+     {
+      "amenities": [
+       "ATM"
+      ]
+     },
+     {
+      "planning": [
+       "Appointment required"
+      ]
+     }
+    ],
+    "service_options": {
+     "drive_through": true
+    },
+    "user_review": "\"All hdfc personnel are professional and assist you with care and dilegence\"",
+    "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWmGGPuOMjNBkaayR2ovESEth0Y8F_LrdeXREitPURQPVQIuAXIXKjVsLrCMZtK0FkHy7Flv57mYPHiHnIlHbqOVuG0_owaV9-k8CRWxKiaGchuuKd4ulnWNd0jXCWoaFX19Q6nJzkLIoQhb=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/pDz_KXicHcTBboIwAADQL6pUp1OXeFAClIFaugl1F1MLoUBplbY695M7729M9g7v71dYezFvnifFy6jWupaVM9XAtbKVsiOue6--GMANMN4aEfxZ9FGE3X7b7jYdYw8y0bfgI7ACHhfhKR3KipKgsfhAMpxnsVvTmCZtbtLB337ZBIYdesxDeZvN-yNGDVKxROfrPncRPOk7y5egW_ik-E4aFnHhXFJOnVTFroQt9QvNQjpeZq_q_adLY52J8-o-hhAC8T8H6gnUl0f-"
+   },
+   {
+    "position": 9,
+    "title": "HDFC Bank",
+    "place_id": "ChIJPxpxWTYWrjsRo7W28llQwKE",
+    "data_id": "0x3bae163659711a3f:0xa1c05059f2b6b5a3",
+    "data_cid": "11655404182889215395",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x3bae163659711a3f%3A0xa1c05059f2b6b5a3&engine=google_maps_reviews&hl=en",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x3bae163659711a3f%3A0xa1c05059f2b6b5a3&engine=google_maps_photos&hl=en",
+    "gps_coordinates": {
+     "latitude": 13.004200299999999,
+     "longitude": 77.58230309999999
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJPxpxWTYWrjsRo7W28llQwKE",
+    "provider_id": "/g/1hjh15nfs",
+    "rating": 3.3,
+    "reviews": 82,
+    "type": "Bank",
+    "types": [
+     "Bank"
+    ],
+    "type_id": "bank",
+    "type_ids": [
+     "bank"
+    ],
+    "address": "No 9/2, Lower Palace Orchards 2nd Cross, Sankey Rd, Sadashiva Nagar, Bengaluru, Karnataka 560003, India",
+    "country": "India",
+    "open_state": "Closed · Opens 10 AM Fri",
+    "hours": "Closed · Opens 10 AM Fri",
+    "operating_hours": {
+     "thursday": "10 AM–4 PM",
+     "friday": "10 AM–4 PM",
+     "saturday": "10 AM–4 PM",
+     "sunday": "Closed",
+     "monday": "10 AM–4 PM",
+     "tuesday": "10 AM–4 PM",
+     "wednesday": "10 AM–4 PM"
+    },
+    "phone": "+91 94097 67967",
+    "website": "https://near-me.hdfcbank.com/branch-atm-locator/hdfc-bank-sadashivanagar-banks-sankey-road-bengaluru-8806/Home?utm_source=locator&utm_medium=googleplaces",
+    "extensions": [
+     {
+      "service_options": [
+       "Onsite services"
+      ]
+     },
+     {
+      "amenities": [
+       "ATM"
+      ]
+     }
+    ],
+    "unsupported_extensions": [
+     {
+      "accessibility": [
+       "Wheelchair accessible entrance"
+      ]
+     }
+    ],
+    "service_options": {
+     "onsite_services": true
+    },
+    "user_review": "\"Varshini.S who works as a cashier  is very much helpful and quick.\"",
+    "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWki7dmwnNA8khmEiWVHs7Sp7Gd6F6kiYqbCWiNwRVBzSV7Q6TxhbGDdHTjcc2vrjfVhwaDWdrNPYSaH7ppSyMyS0G-KUOGOhwbPws4UxXcw5t4UZ91Pi7CdYmJPaDU7W6cfQ5dHRO8AE_qy=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/xJhqDnicHcTBboIwAADQL6rgVOqWeEBxNDNCpUBllwVapBWBSrtV9pM772-W7B3e748wRukXx7mJxawZhuZWf-p6ZENv6t7M2NA5jdKAaaAdHyU4pa2EvLN95K9b0e0lzZGGRMGQe69eK4t7taMyskm-_SY5PHnpQ1RhwFF6Zezpa7xecmHLgPIxwgUpEVSKTMeJuCE4ZHEYC1thq5fZ48zsyiyz9-c5lnDHi-4Nl0EGqccupxVHSbz29x_3aWPnrusC8T8D_R_05Ue5"
+   },
+   {
+    "position": 10,
+    "title": "HDFC Bank Home Loan Branch - Bengaluru (Rajajinagar)",
+    "place_id": "ChIJqXwiDPU9rjsR9p3E4yJwh84",
+    "data_id": "0x3bae3df50c227ca9:0xce877022e3c49df6",
+    "data_cid": "14881986788821605878",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x3bae3df50c227ca9%3A0xce877022e3c49df6&engine=google_maps_reviews&hl=en",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x3bae3df50c227ca9%3A0xce877022e3c49df6&engine=google_maps_photos&hl=en",
+    "gps_coordinates": {
+     "latitude": 12.986159899999999,
+     "longitude": 77.5600335
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJqXwiDPU9rjsR9p3E4yJwh84",
+    "provider_id": "/g/12j8f29gn",
+    "rating": 4.2,
+    "reviews": 366,
+    "type": "Loan agency",
+    "types": [
+     "Loan agency"
+    ],
+    "type_id": "loan_agency",
+    "type_ids": [
+     "loan_agency"
+    ],
+    "address": "No 1034, New No 19, Pid No 22/1/19 4 Block, 1st Main Rd, Dr Rajkumar Rd, near Dr, Rajajinagar, Bengaluru, Karnataka 560010, India",
+    "country": "India",
+    "open_state": "Closed · Opens 9:30 AM Fri",
+    "hours": "Closed · Opens 9:30 AM Fri",
+    "operating_hours": {
+     "thursday": "9:30 AM–3:30 PM",
+     "friday": "9:30 AM–3:30 PM",
+     "saturday": "9:30 AM–3:30 PM",
+     "sunday": "Closed",
+     "monday": "9:30 AM–3:30 PM",
+     "tuesday": "9:30 AM–3:30 PM",
+     "wednesday": "9:30 AM–3:30 PM"
+    },
+    "phone": "+91 1800 210 0018",
+    "website": "https://www.hdfc.bank.in/branch-locator/karnataka/bengaluru/hdfcbank-branch-rajajinagarhomeloan",
+    "extensions": [
+     {
+      "accessibility": [
+       "Wheelchair accessible entrance"
+      ]
+     }
+    ],
+    "user_review": "\"Very happy with customer service during loan disbursal and part payment.\"",
+    "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWmP9ZFHM7d1Uet0SXhtmpYyELADpoWObrm2U6DABN_53AR59YCxzFUeFlxRl939yBVr8HhPylkagV_9D8QxXPfZpLljrV-QY4Q8oruPifr2Xk5OqssF2JAa9yqaa1GPIgTxluheww=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/uNAeHnicHcRLUoMwAADQE4VvUdKZLtJSRKefgIVCNwzFNNEGkiZhAG_oEbyNM77F-_1hxki9tG3OfIsKQTkZNFGt6A3pjdWKzqZSg1YDbaMkw6dzh-ElTvbPH25OjPNeMtPJat7uUCTF-XhVnZc_RWh9qAMfZQGsNtN3nJOYTxmHPpzXhQoThmd-b2hRwyhMpxLfLnLHv1QB0mqRhkIN-POmvPIeHB9ax94bauD8aBr3Bb_S08QHRsZxNbqO4wD2fwv6P8Z1RbY"
+   },
+   {
+    "position": 11,
+    "title": "HDFC Bank",
+    "place_id": "ChIJ3dp50gIUrjsRcqHrpUX5H_8",
+    "data_id": "0x3bae1402d279dadd:0xff1ff945a5eba172",
+    "data_cid": "18383686281481396594",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x3bae1402d279dadd%3A0xff1ff945a5eba172&engine=google_maps_reviews&hl=en",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x3bae1402d279dadd%3A0xff1ff945a5eba172&engine=google_maps_photos&hl=en",
+    "gps_coordinates": {
+     "latitude": 12.9673921,
+     "longitude": 77.6424577
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJ3dp50gIUrjsRcqHrpUX5H_8",
+    "provider_id": "/g/1vn_xdq3",
+    "rating": 2.3,
+    "reviews": 99,
+    "type": "Bank",
+    "types": [
+     "Bank",
+     "ATM",
+     "Business banking service",
+     "Car finance and loan company",
+     "Financial institution",
+     "Insurance company",
+     "Investment service",
+     "Loan agency",
+     "Private sector bank",
+     "Savings bank"
+    ],
+    "type_id": "bank",
+    "type_ids": [
+     "bank",
+     "atm",
+     "business_banking_service",
+     "car_finance_and_loan_company",
+     "financial_institution",
+     "insurance_company",
+     "investment_service",
+     "loan_agency",
+     "private_sector_bank",
+     "savings_bank"
+    ],
+    "address": "Ishita Nilaya, 2289, 14th Main Rd, near New Horizon Public School, Hal, HAL 2nd Stage, Indiranagar, Bengaluru, Karnataka 560008, India",
+    "country": "India",
+    "open_state": "Closed · Opens 10 AM Fri",
+    "hours": "Closed · Opens 10 AM Fri",
+    "operating_hours": {
+     "thursday": "10 AM–4 PM",
+     "friday": "10 AM–4 PM",
+     "saturday": "10 AM–4 PM",
+     "sunday": "Closed",
+     "monday": "10 AM–4 PM",
+     "tuesday": "10 AM–4 PM",
+     "wednesday": "10 AM–4 PM"
+    },
+    "phone": "+91 1800 1601",
+    "website": "https://www.hdfc.bank.in/branch-locator/karnataka/bengaluru/hdfcbank-branch-14thmainindiranagar",
+    "extensions": [
+     {
+      "service_options": [
+       "Onsite services"
+      ]
+     },
+     {
+      "amenities": [
+       "ATM"
+      ]
+     }
+    ],
+    "unsupported_extensions": [
+     {
+      "accessibility": [
+       "Wheelchair accessible entrance",
+       "Wheelchair accessible parking lot"
+      ]
+     }
+    ],
+    "service_options": {
+     "onsite_services": true
+    },
+    "user_review": "\"Supriya madam has helped me a lot with any bank queries.\"",
+    "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWnp2_oahCHkE_AScYgNQTXgCFrt6D1xPvY0Cc9fGPUXs8VT0I0cqVtJo6WNukEvs9WClsAaizMD2KcmF5wDzfx43-DLzkqnHr16lBW9OwNt7uv3hxiEgjPePM0XXq5pMye5IOpy=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/oZ7uYnicHcRLjoIwAADQE1WKCA4ms0BA8QNWRcGVMU1tFWwLLR-54JzB25jMW7zPH9NaqplhlMwaUSFoSRpFaiy4JlyPsHgZVCqAFVCGFx1QmnE5voob86MivHpHfKHJPs2pv6i1E5g9ai_Qx-59iU65-jmncAVxddZr4WRJU4StcjO_VN7tMcTBeINfC7sLhns_sUCwHYqKR7XplPPM3XWJnjatxfpHSJ-IoBjmeWXL-E3s1U6-fzsTQgjY_xjwL2f2RP0"
+   },
+   {
+    "position": 12,
+    "title": "HDFC Bank",
+    "place_id": "ChIJ600dwJc9rjsRVyBvyAjTzrM",
+    "data_id": "0x3bae3d97c01d4deb:0xb3ced308c86f2057",
+    "data_cid": "12956525212667420759",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x3bae3d97c01d4deb%3A0xb3ced308c86f2057&engine=google_maps_reviews&hl=en",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x3bae3d97c01d4deb%3A0xb3ced308c86f2057&engine=google_maps_photos&hl=en",
+    "gps_coordinates": {
+     "latitude": 12.914354,
+     "longitude": 77.58594219999999
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJ600dwJc9rjsRVyBvyAjTzrM",
+    "provider_id": "/g/126294g90",
+    "rating": 2.8,
+    "reviews": 175,
+    "type": "Bank",
+    "types": [
+     "Bank"
+    ],
+    "type_id": "bank",
+    "type_ids": [
+     "bank"
+    ],
+    "address": "No 37/953, 24th Main Rd, R.K Colony, Marenahalli, 2nd Phase, J. P. Nagar, Bengaluru, Karnataka 560041, India",
+    "country": "India",
+    "open_state": "Closed · Opens 10 AM Fri",
+    "hours": "Closed · Opens 10 AM Fri",
+    "operating_hours": {
+     "thursday": "10 AM–4 PM",
+     "friday": "10 AM–4 PM",
+     "saturday": "10 AM–4 PM",
+     "sunday": "Closed",
+     "monday": "10 AM–4 PM",
+     "tuesday": "10 AM–4 PM",
+     "wednesday": "10 AM–4 PM"
+    },
+    "phone": "+91 1800 1601",
+    "website": "https://www.hdfc.bank.in/branch-locator/karnataka/bengaluru/hdfcbank-branch-jpnagar",
+    "extensions": [
+     {
+      "service_options": [
+       "Onsite services"
+      ]
+     },
+     {
+      "amenities": [
+       "ATM"
+      ]
+     }
+    ],
+    "service_options": {
+     "onsite_services": true
+    },
+    "user_review": "\"The customer service person - Urvee is outstanding and is extremely helpful.\"",
+    "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWkfUuUFinhZnDHNf0MJs_AghtAHAfZHqBv-EDlg8Y0jjWfcChBkrvXcoP6-BFQMBLfqDzQ9K4iqTYjzAODKaLPX5UQq2hrGKUkJ_e8Jm_psAidekdcnK_FWUlwxWglZ8bevvdeFYA=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/TZfeWXicHcTbboIwAADQL6rUXQwu2UORIeHiYLFBeCGz9ALUFmiFhT_cJ-xvlngezt-vsHYwb44jxfOGa80lvRs6Ea0sVXZD9M3hgwHEAOOg8Cs7Fz3Ddxy0SlTKD08MppGpERcWhYhV4ejN4MOX3C1h1xWMHITXT_OF6GwHvCBPvYSN_prv45d2PJfdij79-DvJLq84H5_EdIxxH9XUjW71YFDb0L4hKq6DAsvlp-Cycq90nhsalOh92UIIgXhMgPoHLotGig"
+   },
+   {
+    "position": 13,
+    "title": "HDFC Bank",
+    "place_id": "ChIJa_UpxpMUrjsRRenPkUafH14",
+    "data_id": "0x3bae1493c629f56b:0x5e1f9f4691cfe945",
+    "data_cid": "6782314689286105413",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x3bae1493c629f56b%3A0x5e1f9f4691cfe945&engine=google_maps_reviews&hl=en",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x3bae1493c629f56b%3A0x5e1f9f4691cfe945&engine=google_maps_photos&hl=en",
+    "gps_coordinates": {
+     "latitude": 12.9049777,
+     "longitude": 77.6334433
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJa_UpxpMUrjsRRenPkUafH14",
+    "provider_id": "/g/11ckr9dfh6",
+    "rating": 2.7,
+    "reviews": 179,
+    "type": "Bank",
+    "types": [
+     "Bank",
+     "ATM",
+     "Business banking service",
+     "Car finance and loan company",
+     "Financial institution",
+     "Insurance company",
+     "Investment service",
+     "Loan agency",
+     "Private sector bank",
+     "Savings bank"
+    ],
+    "type_id": "bank",
+    "type_ids": [
+     "bank",
+     "atm",
+     "business_banking_service",
+     "car_finance_and_loan_company",
+     "financial_institution",
+     "insurance_company",
+     "investment_service",
+     "loan_agency",
+     "private_sector_bank",
+     "savings_bank"
+    ],
+    "address": "Ground Floor, 69/457/428/321/20/132, 5th Main Rd, 7th Sector, HSR Layout, Bengaluru, Karnataka 560102, India",
+    "country": "India",
+    "open_state": "Closed · Opens 10 AM Fri",
+    "hours": "Closed · Opens 10 AM Fri",
+    "operating_hours": {
+     "thursday": "10 AM–4 PM",
+     "friday": "10 AM–4 PM",
+     "saturday": "10 AM–4 PM",
+     "sunday": "Closed",
+     "monday": "10 AM–4 PM",
+     "tuesday": "10 AM–4 PM",
+     "wednesday": "10 AM–4 PM"
+    },
+    "phone": "+91 1800 1601",
+    "website": "https://www.hdfc.bank.in/branch-locator/karnataka/bengaluru/hdfcbank-branch-hsrlayoutiiibangalore",
+    "extensions": [
+     {
+      "service_options": [
+       "Onsite services"
+      ]
+     },
+     {
+      "amenities": [
+       "ATM"
+      ]
+     }
+    ],
+    "unsupported_extensions": [
+     {
+      "accessibility": [
+       "Wheelchair accessible parking lot"
+      ]
+     }
+    ],
+    "service_options": {
+     "onsite_services": true
+    },
+    "user_review": "\"They helped a lot and my problem got resolved in 2 days .\"",
+    "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWkfLCUc4RPRB13obyJnzBLLB2lsgTmN1R59tRKLclBHkkzlmmcOssbIxokcM9I7IiJPcd-9qK3T6zFweIekXSNc2-JsvHt-4zoa4M5Tva7MK3aDF0BiKK1qCf09TEiz42tasOyorg=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/eAzSSHicHcTbboIwGADgJ6qUgzOYeLG6GaCgpOuy3eK_WkgLVf_OQ9_QR9jbLPG7-P4evfdHXEaR7dOZdk5b9YvqDG7yavIzcGOkj0gACUavhWjllznU60_IRCtYnLr9vZoCq2uWWNRy3MZinnvBa7CsMCbYcYQd4r68OQNNXi7KoWrhh-QnnsqXsLmqUpnvjy0kpMJL4UkWXJc1c3npFg1Pu7cNZQPn8Wl9oLl8H0KW-A53d3fWq2tMKSX9cyDTP8sORMc"
+   },
+   {
+    "position": 14,
+    "title": "HDFC Bank",
+    "place_id": "ChIJh_XYbtYVrjsRj75465xkGgw",
+    "data_id": "0x3bae15d66ed8f587:0xc1a649ceb78be8f",
+    "data_cid": "872120102977846927",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x3bae15d66ed8f587%3A0xc1a649ceb78be8f&engine=google_maps_reviews&hl=en",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x3bae15d66ed8f587%3A0xc1a649ceb78be8f&engine=google_maps_photos&hl=en",
+    "gps_coordinates": {
+     "latitude": 12.9626126,
+     "longitude": 77.599569
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJh_XYbtYVrjsRj75465xkGgw",
+    "provider_id": "/g/1tf68hd3",
+    "rating": 2.6,
+    "reviews": 341,
+    "type": "Bank",
+    "types": [
+     "Bank"
+    ],
+    "type_id": "bank",
+    "type_ids": [
+     "bank"
+    ],
+    "address": "Global Tech Park, Divyasree Chambers, Ground Floor No. 11, O Shaughnessy Rd, Langford Town, Bengaluru, Karnataka 560025, India",
+    "country": "India",
+    "open_state": "Closed · Opens 10 AM Fri",
+    "hours": "Closed · Opens 10 AM Fri",
+    "operating_hours": {
+     "thursday": "10 AM–4 PM",
+     "friday": "10 AM–4 PM",
+     "saturday": "10 AM–4 PM",
+     "sunday": "Closed",
+     "monday": "10 AM–4 PM",
+     "tuesday": "10 AM–4 PM",
+     "wednesday": "10 AM–4 PM"
+    },
+    "phone": "+91 1800 1601",
+    "website": "https://www.hdfc.bank.in/branch-locator/karnataka/bengaluru/hdfcbank-branch-bangalorerichmondroad",
+    "extensions": [
+     {
+      "service_options": [
+       "Onsite services"
+      ]
+     },
+     {
+      "amenities": [
+       "ATM"
+      ]
+     }
+    ],
+    "unsupported_extensions": [
+     {
+      "accessibility": [
+       "Wheelchair accessible parking lot"
+      ]
+     }
+    ],
+    "service_options": {
+     "onsite_services": true
+    },
+    "user_review": "\"Good in customer behaviour and amazing customer service by bank staff\"",
+    "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWlSGMxkqLLTk52zDLt8AJmMblWXOEYE3o8zek67k9zhWzk56LfxY6fiUs0SAS2pDfgvDQ1i49KYjaAyvKAn1A7h7Id7Sf_h9FF09VgDX0wBH7E9kGinWqXD7rTKaTQ_7JrJg0g=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/WMKtCHicHcRJDoIwAADAFyHFhVoTDzUFFTAuoMDJIEKLxRZp3Xigf_A3Js5hvh-mdaMmplmzQY9KSeviroo2l0IXQvdyeTVpo4xcGcrEi90miutwvnrxWxBEfNTvSKDH2LuuTnWcrJ3UGchxV3AbctSxuOMjOyhfqV1WewVCHPYbUtIH2VrVEPnpJcPvh4-FhSGDyzMMyyNDrgvQgZIEPGcL6CA-r0R8SwhsIz-LtkfotR4FdPq0AAAG-58b4gfIO0Lb"
+   },
+   {
+    "position": 15,
+    "title": "HDFC Bank",
+    "place_id": "ChIJX2H1vb6d-DkRwTmm2--zPaM",
+    "data_id": "0x39f89dbebdf5615f:0xa33db3efdba639c1",
+    "data_cid": "11762755644525263297",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x39f89dbebdf5615f%3A0xa33db3efdba639c1&engine=google_maps_reviews&hl=en",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x39f89dbebdf5615f%3A0xa33db3efdba639c1&engine=google_maps_photos&hl=en",
+    "gps_coordinates": {
+     "latitude": 12.9882086,
+     "longitude": 77.6175315
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJX2H1vb6d-DkRwTmm2--zPaM",
+    "provider_id": "/g/1ptwhl7pt",
+    "rating": 3.2,
+    "reviews": 42,
+    "type": "Bank",
+    "types": [
+     "Bank"
+    ],
+    "type_id": "bank",
+    "type_ids": [
+     "bank"
+    ],
+    "address": "No 33/5, Mount Kailash, Meanee Ave Rd, Halasuru, Sindhi Colony, Fraser Town, Bengaluru, Karnataka 560042, India",
+    "country": "India",
+    "open_state": "Closed · Opens 10 AM Fri",
+    "hours": "Closed · Opens 10 AM Fri",
+    "operating_hours": {
+     "thursday": "10 AM–4 PM",
+     "friday": "10 AM–4 PM",
+     "saturday": "10 AM–4 PM",
+     "sunday": "Closed",
+     "monday": "10 AM–4 PM",
+     "tuesday": "10 AM–4 PM",
+     "wednesday": "10 AM–4 PM"
+    },
+    "phone": "+91 1800 1601",
+    "website": "https://near-me.hdfcbank.com/branch-atm-locator/hdfc-bank-halasuru-banks-halasuru-bengaluru-8193/Home?utm_source=locator&utm_medium=googleplaces",
+    "extensions": [
+     {
+      "service_options": [
+       "Onsite services"
+      ]
+     },
+     {
+      "accessibility": [
+       "Wheelchair accessible entrance"
+      ]
+     },
+     {
+      "amenities": [
+       "ATM"
+      ]
+     }
+    ],
+    "service_options": {
+     "onsite_services": true
+    },
+    "user_review": "\"Great Customer Care service\"",
+    "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWlD4a6HrgHXZlNf8QgPnBXT2kWQk87Gl1bJ2OB1kwkJNQyZl8SGOzKzK0cRApM5HB9pAQ0m5ZPYn_rxyUkDy9U1ueYsXqi5I9jqtQIf9h4amCSeM157V_rF987wkm78cE9o3AYntBRUHWM=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/mzhzEnicHcTNboIwAADgJ0JaldEu2QHUWTUoRRk_F-OaWraWFmkNw4f0vrdZsu_w_T4b5zr76vuqmU2EMULxu-U9M9px7SbMtL7orMesZ_2IZOmpUMv55YX0gpS12l8RFamOy9NUFlSicK3g53Z6iKEc5HZPx1qh4_rw2D12gGVRlwQkxl1EQRvUaaXP_c-Yy-WIc3jnlS1vX8EGf98c3VxxM7-0iyNPYBB-nPt3jMJBtiFiK2xmUaVdnOWkSN4GCADwmv-Zp_8A5fNFow"
+   },
+   {
+    "position": 16,
+    "title": "HDFC Bank Home Loan Branch - Bengaluru (Sector 4)",
+    "place_id": "ChIJSyQrMQcVrjsRU4ctRIWJ0es",
+    "data_id": "0x3bae1507312b244b:0xebd18985442d8753",
+    "data_cid": "16992514074513082195",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x3bae1507312b244b%3A0xebd18985442d8753&engine=google_maps_reviews&hl=en",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x3bae1507312b244b%3A0xebd18985442d8753&engine=google_maps_photos&hl=en",
+    "gps_coordinates": {
+     "latitude": 12.912367099999999,
+     "longitude": 77.6423927
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJSyQrMQcVrjsRU4ctRIWJ0es",
+    "provider_id": "/g/11v695frt9",
+    "rating": 4.6,
+    "reviews": 303,
+    "type": "Loan agency",
+    "types": [
+     "Loan agency"
+    ],
+    "type_id": "loan_agency",
+    "type_ids": [
+     "loan_agency"
+    ],
+    "address": "446, 17th Cross Rd, Sector 4, HSR Layout, Bengaluru, Karnataka 560102, India",
+    "country": "India",
+    "open_state": "Closed · Opens 9:30 AM Fri",
+    "hours": "Closed · Opens 9:30 AM Fri",
+    "operating_hours": {
+     "thursday": "9:30 AM–3:30 PM",
+     "friday": "9:30 AM–3:30 PM",
+     "saturday": "9:30 AM–3:30 PM",
+     "sunday": "Closed",
+     "monday": "9:30 AM–3:30 PM",
+     "tuesday": "9:30 AM–3:30 PM",
+     "wednesday": "9:30 AM–3:30 PM"
+    },
+    "phone": "+91 1800 210 0018",
+    "website": "https://www.hdfc.bank.in/branch-locator/karnataka/bengaluru/hdfcbank-branch-hsrlayouthomeloan",
+    "extensions": [
+     {
+      "service_options": [
+       "Onsite services"
+      ]
+     }
+    ],
+    "service_options": {
+     "onsite_services": true
+    },
+    "user_review": "\"Thanks to HDFC for such easy process and good staff.\"",
+    "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWmljMpprKZNCvA80kvl_xKHfm7B2oxGmLKRgIDyEaz_vej0wA9opUI2j-B-2-WWaxCR0t-HryBQu9gd1AYfp9yjeCIMNcYiSW3hprWn8E1biqFTmcnSAIBiuLNZbyKsKn8K1veZA_flpH8=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/wWpKGHicHcTNboIwAADgJ6oUPAyW7FCYCqkSh5pGLkRrKWD_pAVhD7m7b7PE7_C9_hrnjP30PNEsF1xrLthgWU-1cky5BdXS48YCaoH1UFrsj0SKbmdMj8s8GVEI76OoJpzW8iMO9LSRW1zw7HteXX6rkXXwiSJtTlnQgRgEgJDLlBTQgbSf458h4jcfnWsTzR1Lsl1Oz-2BLBvTExWu_Gv7WB8lVQeUxe2wzcvrjC1WIfZHVqKqFiYNv54-hBA07ylQ_5Q8R48"
+   },
+   {
+    "position": 17,
+    "title": "HDFC Bank Home Loan Branch - Bengaluru (Koramangala)",
+    "place_id": "ChIJKQbP70YUrjsR-ulHZZ5Y5Tk",
+    "data_id": "0x3bae1446efcf0629:0x39e5589e6547e9fa",
+    "data_cid": "4171838067155921402",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x3bae1446efcf0629%3A0x39e5589e6547e9fa&engine=google_maps_reviews&hl=en",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x3bae1446efcf0629%3A0x39e5589e6547e9fa&engine=google_maps_photos&hl=en",
+    "gps_coordinates": {
+     "latitude": 12.9327166,
+     "longitude": 77.6313167
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJKQbP70YUrjsR-ulHZZ5Y5Tk",
+    "provider_id": "/g/11g71j8rhw",
+    "rating": 4.3,
+    "reviews": 316,
+    "type": "Loan agency",
+    "types": [
+     "Loan agency"
+    ],
+    "type_id": "loan_agency",
+    "type_ids": [
+     "loan_agency"
+    ],
+    "address": "2nd Floor, 80 Feet Rd, next to Starbucks cafe, 4th Block, Koramangala, Bengaluru, Karnataka 560034, India",
+    "country": "India",
+    "open_state": "Closed · Opens 9:30 AM Fri",
+    "hours": "Closed · Opens 9:30 AM Fri",
+    "operating_hours": {
+     "thursday": "9:30 AM–3:30 PM",
+     "friday": "9:30 AM–3:30 PM",
+     "saturday": "9:30 AM–3:30 PM",
+     "sunday": "Closed",
+     "monday": "9:30 AM–3:30 PM",
+     "tuesday": "9:30 AM–3:30 PM",
+     "wednesday": "9:30 AM–3:30 PM"
+    },
+    "phone": "+91 1800 210 0018",
+    "website": "https://www.hdfc.bank.in/branch-locator/karnataka/bengaluru/hdfcbank-branch-koramangalahomeloan",
+    "extensions": [
+     {
+      "service_options": [
+       "Onsite services"
+      ]
+     }
+    ],
+    "unsupported_extensions": [
+     {
+      "accessibility": [
+       "Wheelchair accessible entrance",
+       "Wheelchair accessible parking lot"
+      ]
+     }
+    ],
+    "service_options": {
+     "onsite_services": true
+    },
+    "user_review": "\"Great support by the hdfc team with the loan account and documents.\"",
+    "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWmcU1EbM2n5NXA4vPhqQ0T7WX8Z8E6OLKhgdI5KyhwPTURXbVmRMQE_zTkn46s7R0pjw6oE_uQbJvPivazgcv_8ARMljEXnQQzCSurI2dQ6M-G-i_l0GMJC9_2FchgzC3r4n6NRYVAUJYkX=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/JqkK5HicHcTNboIwAADgJ6pUxMpMdiCkc-KqtILWXZpRSatCyyg_GS-5s2-zZN_he_7qrmvc2vMqvZgpa1VV9q5spTVdabqZtLWnGgekA86L3lmanWuZz3FBfLPc8ygYUv1NYbY68_AzxOjwsdPqul3ufvSYZjnjxalmhGIxZQ8TILdisLmPyGLR0yIZ0tvwNSk5iDBipLpjbiid4mPfbv0rRQRswE1UcEOS-EX4b1KrKV60gUF7djlFeXJ58NdxDiEE-n8JzB9L2UZt"
+   },
+   {
+    "position": 18,
+    "title": "HDFC Bank",
+    "place_id": "ChIJkWA99SwWrjsRhFJesuzJpPA",
+    "data_id": "0x3bae162cf53d6091:0xf0a4c9ecb25e5284",
+    "data_cid": "17340206483725243012",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x3bae162cf53d6091%3A0xf0a4c9ecb25e5284&engine=google_maps_reviews&hl=en",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x3bae162cf53d6091%3A0xf0a4c9ecb25e5284&engine=google_maps_photos&hl=en",
+    "gps_coordinates": {
+     "latitude": 13.0084512,
+     "longitude": 77.56900019999999
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJkWA99SwWrjsRhFJesuzJpPA",
+    "provider_id": "/g/12qgbc8zy",
+    "rating": 2.8,
+    "reviews": 89,
+    "type": "Bank",
+    "types": [
+     "Bank"
+    ],
+    "type_id": "bank",
+    "type_ids": [
+     "bank"
+    ],
+    "address": "47 15th Cross, Margosa Rd, next to Bsnl Office, Malleshwaram, Bengaluru, Karnataka 560055, India",
+    "country": "India",
+    "open_state": "Closed · Opens 10 AM Fri",
+    "hours": "Closed · Opens 10 AM Fri",
+    "operating_hours": {
+     "thursday": "10 AM–4 PM",
+     "friday": "10 AM–4 PM",
+     "saturday": "10 AM–4 PM",
+     "sunday": "Closed",
+     "monday": "10 AM–4 PM",
+     "tuesday": "10 AM–4 PM",
+     "wednesday": "10 AM–4 PM"
+    },
+    "website": "https://www.hdfc.bank.in/branch-locator/karnataka/bengaluru/hdfcbank-branch-malleshwarambangalore",
+    "extensions": [
+     {
+      "service_options": [
+       "Onsite services"
+      ]
+     },
+     {
+      "amenities": [
+       "ATM"
+      ]
+     }
+    ],
+    "unsupported_extensions": [
+     {
+      "accessibility": [
+       "Wheelchair accessible entrance"
+      ]
+     }
+    ],
+    "service_options": {
+     "onsite_services": true
+    },
+    "user_review": "\"Branch manager is too Good and CS executives are none the less!\"",
+    "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWn-UAujiPk931wR3_56PatijjPCNBijKNronx3rB3FNV2XX-1EceVJhih0MCmirsnslLW6HuTZYbRxz6vEOJevBJ4lvJMFndGOqTY-V73L6d5yyIoRBIrYrqfc75NuyWuyEnDn7ZRG3mcTV=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/h4UsfHicHcTbboIwGADgJ6qAFYgmXojigSmShoF4Y7ba0TL4qz2g7CV3vbdZ4nfx_f1yY2565jgtx6NayrplVjNFJRgGZkRl59Q3jahG2llsSZaXgN4XthHZ9xR7D4IvfpB9GNE02TKNRPOWKglPrCK8Tovx6YS8mLIi4YK7h2UnlAbd7stga_Nz9UmeP0EfHxPWR8mk7ZPDGq6b4z2vUBHifXD1h2EnSbRTlbp_0dBP7VDaIYYVhGeywR3Ni_nDc10X8dcUwT-RfEeB"
+   },
+   {
+    "position": 19,
+    "title": "HDFC Bank",
+    "place_id": "ChIJu-C3iAwWrjsR1m_yKJs2HWc",
+    "data_id": "0x3bae160c88b7e0bb:0x671d369b28f26fd6",
+    "data_cid": "7430155000265994198",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x3bae160c88b7e0bb%3A0x671d369b28f26fd6&engine=google_maps_reviews&hl=en",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x3bae160c88b7e0bb%3A0x671d369b28f26fd6&engine=google_maps_photos&hl=en",
+    "gps_coordinates": {
+     "latitude": 12.9707478,
+     "longitude": 77.5771089
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJu-C3iAwWrjsR1m_yKJs2HWc",
+    "provider_id": "/g/12611sd1q",
+    "rating": 2.3,
+    "reviews": 48,
+    "type": "Bank",
+    "types": [
+     "Bank"
+    ],
+    "type_id": "bank",
+    "type_ids": [
+     "bank"
+    ],
+    "address": "KHB Building East Wing, Kempegowda Rd, Huriopet, Chickpet, Bengaluru, Karnataka 560053, India",
+    "country": "India",
+    "open_state": "Closed · Opens 10 AM Fri",
+    "hours": "Closed · Opens 10 AM Fri",
+    "operating_hours": {
+     "thursday": "10 AM–4 PM",
+     "friday": "10 AM–4 PM",
+     "saturday": "10 AM–4 PM",
+     "sunday": "Closed",
+     "monday": "10 AM–4 PM",
+     "tuesday": "10 AM–4 PM",
+     "wednesday": "10 AM–4 PM"
+    },
+    "phone": "+91 1800 1601",
+    "website": "https://www.hdfc.bank.in/branch-locator/karnataka/bengaluru/hdfcbank-branch-cauverybhavan",
+    "extensions": [
+     {
+      "service_options": [
+       "Onsite services"
+      ]
+     },
+     {
+      "amenities": [
+       "ATM"
+      ]
+     }
+    ],
+    "service_options": {
+     "onsite_services": true
+    },
+    "user_review": "\"Hdfc bank is near the circle.\"",
+    "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWmNmp-GX0HzPDbpr116-XS9lzfaIYF2-xphP5Z4PSxY6LxJ1s-aomtAE3JiCk1QbR4GDoGZtaS_STn6XyVkl6HE4vKzHAFNaoxVOPm790108gFu2AilywRX-E5kIzywR-V__BdyvXppUia6=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/oZkzd3icHcbdboIwGADQJ_qkVezUZBc4-VEX7cBh9YZUxoDQ0sZWBV7S673Nlt2cnJ9nZa02C8cR1WRUKlWK4maKa65aW7R2lCvplNpAbsA4XhTTw1HupIaQoWigq4u-YkyAJXMxfPP1KRhDpys6Pbs06U7kvdtgA1xJ6_mTTf3W4I9L7IYrFZ4tT7Lk0BLWp40gke_et0PkBTuuunRP5cscYTQrg9vYq0X_iBn402Y9_A3SLFt-9Xem9WfNyesDI4Sg-jeH9hccVEZr"
+   },
+   {
+    "position": 20,
+    "title": "HDFC Bank",
+    "place_id": "ChIJhYfjVN0ZrjsRYIkpTPcbQes",
+    "data_id": "0x3bae19dd54e38785:0xeb411bf74c298960",
+    "data_cid": "16951861221347920224",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x3bae19dd54e38785%3A0xeb411bf74c298960&engine=google_maps_reviews&hl=en",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x3bae19dd54e38785%3A0xeb411bf74c298960&engine=google_maps_photos&hl=en",
+    "gps_coordinates": {
+     "latitude": 13.104110799999999,
+     "longitude": 77.6157157
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJhYfjVN0ZrjsRYIkpTPcbQes",
+    "provider_id": "/g/11t451v4kr",
+    "rating": 4.2,
+    "reviews": 97,
+    "type": "Bank",
+    "types": [
+     "Bank",
+     "ATM",
+     "Business banking service",
+     "Car finance and loan company",
+     "Financial institution",
+     "Insurance company",
+     "Investment service",
+     "Loan agency",
+     "Private sector bank",
+     "Savings bank"
+    ],
+    "type_id": "bank",
+    "type_ids": [
+     "bank",
+     "atm",
+     "business_banking_service",
+     "car_finance_and_loan_company",
+     "financial_institution",
+     "insurance_company",
+     "investment_service",
+     "loan_agency",
+     "private_sector_bank",
+     "savings_bank"
+    ],
+    "address": "2, Ground Floor, Shivanaradamuni Arcade, Kogilu Main Rd, Maruthi Nagar, Bengaluru, Karnataka 560064, India",
+    "country": "India",
+    "open_state": "Closed · Opens 10 AM Fri",
+    "hours": "Closed · Opens 10 AM Fri",
+    "operating_hours": {
+     "thursday": "10 AM–4 PM",
+     "friday": "10 AM–4 PM",
+     "saturday": "10 AM–4 PM",
+     "sunday": "Closed",
+     "monday": "10 AM–4 PM",
+     "tuesday": "10 AM–4 PM",
+     "wednesday": "10 AM–4 PM"
+    },
+    "phone": "+91 1800 1601",
+    "website": "https://www.hdfc.bank.in/branch-locator/karnataka/bengaluru/hdfcbank-branch-kogilucross",
+    "extensions": [
+     {
+      "amenities": [
+       "ATM"
+      ]
+     }
+    ],
+    "user_review": "\"Very efficient and customer oriented bank personnel at work.\"",
+    "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWk7kCONcJZam4CBbNXnV8kj1S0vZxGjOVYc2PCTDxdEAejY9DWfkTXxlphxwE7QoT22mVG_VV_eWhmeJnlwNt29rOJzX3Jnq1QPqAk8CqpEq-lspaBLPVng7fXWCIH5Zd-n47G7eFIUhipz=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/_M-IanicHcTNboIwAADgJ6r8yFI12QErosQAKivIxbhaqbS0xXaD-JKe9zYm-w7f34tZq83CcQSbThqlGkF_DH0QJS2VdkJU5zTaAGKAccLNIS9KDjnKUpLUly5Ay--0knjGW-_o_tZj3Gb4RPwcFavxGoW0Pc1X5Y0X1Sg0G4cI7lXh-x2Ozxifack6mkgxpNafP7LkWU0T2Xv7vA_5DPU66oEw-rLc5Vg28FaVaLv5qK9ABjCGdL39Ynf9_Bw813UB-58A-QazY0eK"
    }
-  ]
+  ],
+  "serpapi_pagination": {
+   "next": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.co.in&hl=en&ll=%4012.9716%2C77.5946%2C12z&q=HDFC+Bank+customer+care&start=20&type=search"
+  }
  }
 }

@@ -1,8 +1,7 @@
 {
  "_fixture": {
-  "kind": "synthetic",
-  "note": "Maps · Mumbai · HDFC Bank customer care",
-  "generated_at": "2026-09-23T20:53:40+00:00",
+  "kind": "recorded",
+  "recorded_at": "2026-09-24T16:46:39+00:00",
   "params": {
    "engine": "google_maps",
    "type": "search",
@@ -14,13 +13,16 @@
  },
  "response": {
   "search_metadata": {
-   "id": "synthetic-6832d31bbfeee7e7",
+   "id": "6ab553eda3ce84cc44f41344",
    "status": "Success",
-   "created_at": "2026-09-23 20:53:40 UTC",
-   "processed_at": "2026-09-23 20:53:40 UTC",
-   "json_endpoint": null,
-   "raw_html_file": null,
-   "total_time_taken": 2.33
+   "json_endpoint": "https://serpapi.com/searches/caTvkHbeHi0r83AvGFAwoyZ6bOKNj3SFGrXIh9anc-A/6ab553eda3ce84cc44f41344.json",
+   "markdown_endpoint": "https://serpapi.com/searches/caTvkHbeHi0r83AvGFAwoyZ6bOKNj3SFGrXIh9anc-A/6ab553eda3ce84cc44f41344.md",
+   "created_at": "2026-09-24 16:46:37 UTC",
+   "processed_at": "2026-09-24 16:46:37 UTC",
+   "google_maps_url": "https://www.google.com/maps/search/HDFC+Bank+customer+care/@19.0760,72.8777,12z/data=!3m1!4b1!4m2!2m1!6e5?hl=en",
+   "raw_html_file": "https://serpapi.com/searches/caTvkHbeHi0r83AvGFAwoyZ6bOKNj3SFGrXIh9anc-A/6ab553eda3ce84cc44f41344.html",
+   "prettify_html_file": "https://serpapi.com/searches/caTvkHbeHi0r83AvGFAwoyZ6bOKNj3SFGrXIh9anc-A/6ab553eda3ce84cc44f41344.prettify",
+   "total_time_taken": 1.72
   },
   "search_parameters": {
    "engine": "google_maps",
@@ -30,45 +32,1301 @@
    "google_domain": "google.co.in",
    "hl": "en"
   },
+  "search_information": {
+   "local_results_state": "Results for exact spelling",
+   "query_displayed": "HDFC Bank customer care"
+  },
   "local_results": [
    {
     "position": 1,
-    "title": "HDFC Bank - Mumbai Main Branch",
-    "place_id": "synthetic-hdfc-bank-mumbai-branch",
-    "data_id": "0xe3fc909cb85d:0x98c26abe9516",
-    "rating": 3.9,
-    "reviews": 472,
+    "title": "HDFC Bank",
+    "place_id": "ChIJ9W-IUDnI5zsRVedbH5y1RMY",
+    "data_id": "0x3be7c83950886ff5:0xc644b59c1f5be755",
+    "data_cid": "14286743600071698261",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x3be7c83950886ff5%3A0xc644b59c1f5be755&engine=google_maps_reviews&hl=en",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x3be7c83950886ff5%3A0xc644b59c1f5be755&engine=google_maps_photos&hl=en",
+    "gps_coordinates": {
+     "latitude": 19.109852399999998,
+     "longitude": 72.8597456
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJ9W-IUDnI5zsRVedbH5y1RMY",
+    "provider_id": "/g/11dxj0z_n0",
+    "rating": 2.7,
+    "reviews": 108,
     "type": "Bank",
     "types": [
      "Bank"
     ],
-    "address": "MG Road, Mumbai",
-    "gps_coordinates": {
-     "latitude": 14.394029108837342,
-     "longitude": 76.14870761751509
+    "type_id": "bank",
+    "type_ids": [
+     "bank"
+    ],
+    "address": "Metro Station Chakala (J B Nagar), J B Nagar, First Floor & Ground Floor R Square, Andheri - Kurla Rd, near Chakala, Andheri East, Mumbai, Maharashtra 400059, India",
+    "country": "India",
+    "open_state": "Closed · Opens 9:30 AM Fri",
+    "hours": "Closed · Opens 9:30 AM Fri",
+    "operating_hours": {
+     "thursday": "9:30 AM–3:30 PM",
+     "friday": "9:30 AM–3:30 PM",
+     "saturday": "9:30 AM–3:30 PM",
+     "sunday": "Closed",
+     "monday": "9:30 AM–3:30 PM",
+     "tuesday": "9:30 AM–3:30 PM",
+     "wednesday": "9:30 AM–3:30 PM"
     },
-    "phone": "1800 1600 1600",
-    "website": "https://www.hdfcbank.com/"
+    "phone": "+91 1800 1601",
+    "website": "https://near-me.hdfcbank.com/branch-atm-locator/hdfc-bank-andheri-east-j-b-nagar-banks-andheri-east-mumbai-8847/Home?utm_source=locator&utm_medium=googleplaces",
+    "extensions": [
+     {
+      "service_options": [
+       "Onsite services"
+      ]
+     }
+    ],
+    "unsupported_extensions": [
+     {
+      "accessibility": [
+       "Wheelchair accessible parking lot"
+      ]
+     }
+    ],
+    "service_options": {
+     "onsite_services": true
+    },
+    "user_review": "\"Superb Service at Customer Service Desk Loans\"",
+    "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9RXwdR1tENJrhWmAqUBNqYh9VzSpfyzEz954lhXONv6TQPmYSfQ_mbCHsz3rhKNvwrG6d9jP3s7i8CliD3hL8sjPZMKzJlo-WyJm5019Up4cv6mCq6V6Oums7E0FJrMiP53HrKZ=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/rIo2o3icHcRRboIwGADgE1VKKtUu2YNjbAZmRZ2iviyxIsW0FPpXCL2gZ9htlux7-H6f0rkWXoJASTKpjKlU-YDSCtO4snETYXRQtYAEIAgWvKhHtj0O123oEp5aWehFt3_j3Umyg9-1t9EnnkVTJY9r3tPvTa5Pu9vmR1_iJXhiZcb7wX7SK7vnBGb1PFb1O5Ffc7jn51XmU2VQMaY6wiHbt1PRUx139EDXDw2zBH-kdlXnEVna7Pw6hBhjJP8XqPkDwHJEyg"
    },
    {
-    "position": 1,
-    "title": "HDFC Bank Customer Care Number",
-    "place_id": "synthetic-hdfc-bank-mumbai-care",
-    "data_id": "0xf4024dfa9d20:0x820081faa3f6",
-    "rating": 5.0,
-    "reviews": 0,
-    "type": "Customer service",
-    "types": [
-     "Customer service"
-    ],
-    "address": "Sector 12, Mumbai",
+    "position": 2,
+    "title": "HDFC Bank",
+    "place_id": "ChIJORwAxdmw5zsRWQY7sk_yl_k",
+    "data_id": "0x3be7b0d9c5001c39:0xf997f24fb23b0659",
+    "data_cid": "17985110061033915993",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x3be7b0d9c5001c39%3A0xf997f24fb23b0659&engine=google_maps_reviews&hl=en",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x3be7b0d9c5001c39%3A0xf997f24fb23b0659&engine=google_maps_photos&hl=en",
     "gps_coordinates": {
-     "latitude": 17.492722008741403,
-     "longitude": 87.06184253353847
+     "latitude": 19.2335134,
+     "longitude": 72.85564049999999
     },
-    "phone": "+91 74110 29385",
-    "unclaimed_listing": true
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJORwAxdmw5zsRWQY7sk_yl_k",
+    "provider_id": "/g/1tdqy5kz",
+    "rating": 3.2,
+    "reviews": 92,
+    "type": "Bank",
+    "types": [
+     "Bank"
+    ],
+    "type_id": "bank",
+    "type_ids": [
+     "bank"
+    ],
+    "address": "Shriram Trade Center SVP Road, Aacharya Shanti Sagar Chawk, opposite Jain Temple, Borivali West, Mumbai, Maharashtra 400092, India",
+    "country": "India",
+    "open_state": "Closed · Opens 9:30 AM Fri",
+    "hours": "Closed · Opens 9:30 AM Fri",
+    "operating_hours": {
+     "thursday": "9:30 AM–3:30 PM",
+     "friday": "9:30 AM–3:30 PM",
+     "saturday": "9:30 AM–3:30 PM",
+     "sunday": "Closed",
+     "monday": "9:30 AM–3:30 PM",
+     "tuesday": "9:30 AM–3:30 PM",
+     "wednesday": "9:30 AM–3:30 PM"
+    },
+    "phone": "+91 1800 1601",
+    "website": "https://www.hdfc.bank.in/branch-locator/maharashtra/mumbai/hdfcbank-branch-borivaliwestchamundacircle",
+    "extensions": [
+     {
+      "service_options": [
+       "Onsite services"
+      ]
+     },
+     {
+      "accessibility": [
+       "Wheelchair accessible entrance"
+      ]
+     },
+     {
+      "amenities": [
+       "ATM"
+      ]
+     }
+    ],
+    "service_options": {
+     "onsite_services": true
+    },
+    "user_review": "\"Dimple Shah is an excellent customer service provider in your branch.\"",
+    "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9QITF0pawEol90RwLUmh6CFlNogSoEGTJJ6EnhjQjV6a1M-hwEmTEPRIi5fwoCaS80ORk5kR8mVl0wh3agOtNFZXYY7DVAQ_9bj0bIWBXq6HEGagEroORBIUCNoMrhlb6EE1EhrbdONdGM=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/MlaU-nicHcTRToMwFADQL-ooWVaHiQ8bXpBFinSMbb6YwrAdK1ykNY0_6bt_s8TzcP5-tXOTfQwCo5cLhahM9227ucXRdaNbtDgEarKktcQGG368_kRlViV0kh7QRFT418OgWZwYjmqPkFa7HYNR92VfMxnmRHsYKngT2XX16TGW-zUtxG11E-uhNtTrpVSF48n76Xx-eK435UfU9LTJjtvTF3uBVCqYsRDb7BBzzGdtGgYQgp6bS8Evaf7kQ0op0f-3ZLwDDtZF-g"
+   },
+   {
+    "position": 3,
+    "title": "HDFC Bank",
+    "place_id": "ChIJOcdvD-bH5zsRU7ZM6OhEYvo",
+    "data_id": "0x3be7c7e60f6fc739:0xfa6244e8e84cb653",
+    "data_cid": "18042058824320071251",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x3be7c7e60f6fc739%3A0xfa6244e8e84cb653&engine=google_maps_reviews&hl=en",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x3be7c7e60f6fc739%3A0xfa6244e8e84cb653&engine=google_maps_photos&hl=en",
+    "gps_coordinates": {
+     "latitude": 19.1161134,
+     "longitude": 72.9099707
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJOcdvD-bH5zsRU7ZM6OhEYvo",
+    "provider_id": "/g/1tkc0l23",
+    "rating": 3.2,
+    "reviews": 159,
+    "type": "Bank",
+    "types": [
+     "Bank"
+    ],
+    "type_id": "bank",
+    "type_ids": [
+     "bank"
+    ],
+    "address": "Hiranandani Business Park, Ground Floor, Prudential Building, Powai, Mumbai, Maharashtra 400076, India",
+    "country": "India",
+    "open_state": "Closed · Opens 9:30 AM Fri",
+    "hours": "Closed · Opens 9:30 AM Fri",
+    "operating_hours": {
+     "thursday": "9:30 AM–3:30 PM",
+     "friday": "9:30 AM–3:30 PM",
+     "saturday": "9:30 AM–3:30 PM",
+     "sunday": "Closed",
+     "monday": "9:30 AM–3:30 PM",
+     "tuesday": "9:30 AM–3:30 PM",
+     "wednesday": "9:30 AM–3:30 PM"
+    },
+    "phone": "+91 1800 1601",
+    "website": "https://www.hdfc.bank.in/branch-locator/maharashtra/mumbai/hdfcbank-branch-powaihiranandani",
+    "extensions": [
+     {
+      "service_options": [
+       "Onsite services"
+      ]
+     },
+     {
+      "accessibility": [
+       "Wheelchair accessible entrance"
+      ]
+     },
+     {
+      "amenities": [
+       "ATM"
+      ]
+     }
+    ],
+    "service_options": {
+     "onsite_services": true
+    },
+    "user_review": "\"Great branch, have attended my loan query and solved within timeline\"",
+    "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9Rzjtf4u9jCsa-jqN0M4AHhG05IF9BUn-PWp9eE2yB9Iwm4QPu4nECxMXYZ7WSeZ5FY83R21pVdeWleC05QQu-WjGlWTfkE9xffSRBfPUCYSo2Ri60iGxSKN1z7PNR6jv7vlSwr=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/W5N1YXicHcRdboIwAADgE1UK8rOa7EEIIlkk0M51-GawBWpt0RZBL-gZvM2SfQ_f-9VZO5iV48huuWi1biUbDbs1Wlmm7KLRF6cdDGgMMM66oP0D4aew3B-RSMwRiGsBd_5622UwyDco3itQ0gGx1HvEKJ8uflWOvkqTefdbHyJK2CHY1B9L7LnDz4lRyRIYVNUIqMgk_ebnFM2cExzzcp_URHu4D2GfzeSrcJ9RWeBQ3KO7JNPtc3IhhKD7vwHqD8JeQwY"
+   },
+   {
+    "position": 4,
+    "title": "HDFC Bank",
+    "place_id": "ChIJhbQStN7R5zsRYuFy_epTz9w",
+    "data_id": "0x3be7d1deb412b485:0xdccf53eafd72e162",
+    "data_cid": "15911028277262868834",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x3be7d1deb412b485%3A0xdccf53eafd72e162&engine=google_maps_reviews&hl=en",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x3be7d1deb412b485%3A0xdccf53eafd72e162&engine=google_maps_photos&hl=en",
+    "gps_coordinates": {
+     "latitude": 18.938390599999998,
+     "longitude": 72.833463
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJhbQStN7R5zsRYuFy_epTz9w",
+    "provider_id": "/g/1w0hz2bc",
+    "rating": 2.9,
+    "reviews": 36,
+    "type": "Bank",
+    "types": [
+     "Bank",
+     "ATM",
+     "Business banking service",
+     "Car finance and loan company",
+     "Financial institution",
+     "Insurance company",
+     "Investment service",
+     "Loan agency",
+     "Private sector bank",
+     "Savings bank"
+    ],
+    "type_id": "bank",
+    "type_ids": [
+     "bank",
+     "atm",
+     "business_banking_service",
+     "car_finance_and_loan_company",
+     "financial_institution",
+     "insurance_company",
+     "investment_service",
+     "loan_agency",
+     "private_sector_bank",
+     "savings_bank"
+    ],
+    "address": "Elphinstone House, CST Building, No 17, Murzban Rd, near Sterling Cinema, Azad Maidan, Fort, Mumbai, Maharashtra 400001, India",
+    "country": "India",
+    "open_state": "Closed · Opens 10 AM Fri",
+    "hours": "Closed · Opens 10 AM Fri",
+    "operating_hours": {
+     "thursday": "10 AM–4 PM",
+     "friday": "10 AM–4 PM",
+     "saturday": "10 AM–4 PM",
+     "sunday": "Closed",
+     "monday": "10 AM–4 PM",
+     "tuesday": "10 AM–4 PM",
+     "wednesday": "10 AM–4 PM"
+    },
+    "phone": "+91 1800 1601",
+    "website": "https://www.hdfc.bank.in/branch-locator/maharashtra/mumbai/hdfcbank-branch-cstmumbaivt",
+    "extensions": [
+     {
+      "service_options": [
+       "Onsite services"
+      ]
+     },
+     {
+      "amenities": [
+       "ATM"
+      ]
+     }
+    ],
+    "unsupported_extensions": [
+     {
+      "accessibility": [
+       "Wheelchair accessible entrance"
+      ]
+     }
+    ],
+    "service_options": {
+     "onsite_services": true
+    },
+    "user_review": "\"Location of the branch is good.\"",
+    "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9T-ix6USzAedfyYrSeaKD24wWStVuBYtR3SHv5B0cT7RJ8un2IYhd5C-rDGJJOSmSVQEg9ff_VkTN1iDUcmdXjsz8Nd-vqyMhqUwm6_HjG5zPJzYlLoDkk-fPwU2-xw_Hw9yxTanOt9hk4=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/yjajlnicHcTBboIwGADgJ_oFUZyYeJCxyNhEpYDjREwpFIEWabHAQ3r3bUz2Hb7Xk0rZio2m1XQxKzgvatIL0mHOJGFyhnmjFa0ALEBoO_9SjlYI5bCK0LQjWT4mHSLXH8dYqguScW8nMlgg92HaOg4_Am_dM-M7oZn5CZ2z97wjalB8_iqsPE_jKvTnpRPhJvu7iWntZ_C4jwd6j1SzSt3b3pxO3pTUv9ypKshPKjJgUKmrrHEIr-woLVott2qu6zrQ_zGwN39pR-8"
+   },
+   {
+    "position": 5,
+    "title": "HDFC Bank",
+    "place_id": "ChIJQSelsRW35zsRiaM9hm-AwiM",
+    "data_id": "0x3be7b715b1a52741:0x23c2806f863da389",
+    "data_cid": "2576763153291256713",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x3be7b715b1a52741%3A0x23c2806f863da389&engine=google_maps_reviews&hl=en",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x3be7b715b1a52741%3A0x23c2806f863da389&engine=google_maps_photos&hl=en",
+    "gps_coordinates": {
+     "latitude": 19.197063399999998,
+     "longitude": 72.871349
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJQSelsRW35zsRiaM9hm-AwiM",
+    "provider_id": "/g/1pt__qq8q",
+    "rating": 2.1,
+    "reviews": 56,
+    "type": "Bank",
+    "types": [
+     "Bank"
+    ],
+    "type_id": "bank",
+    "type_ids": [
+     "bank"
+    ],
+    "address": "Shop No 1 to 3, Centrium Mall, Kandivali, Alika Nagar, Lokhandwala Twp, Kandivali East, Mumbai, Maharashtra 400101, India",
+    "country": "India",
+    "open_state": "Closed · Opens 9:30 AM Fri",
+    "hours": "Closed · Opens 9:30 AM Fri",
+    "operating_hours": {
+     "thursday": "9:30 AM–3:30 PM",
+     "friday": "9:30 AM–3:30 PM",
+     "saturday": "9:30 AM–3:30 PM",
+     "sunday": "Closed",
+     "monday": "9:30 AM–3:30 PM",
+     "tuesday": "9:30 AM–3:30 PM",
+     "wednesday": "9:30 AM–3:30 PM"
+    },
+    "phone": "+91 1800 1601",
+    "website": "https://near-me.hdfcbank.com/branch-atm-locator/hdfc-bank-kandivili-east-lokhandwala-centrium-mall-banks-kandivali-east-mumbai-8836/Home?utm_source=locator&utm_medium=googleplaces",
+    "extensions": [
+     {
+      "service_options": [
+       "Onsite services"
+      ]
+     },
+     {
+      "amenities": [
+       "ATM"
+      ]
+     }
+    ],
+    "service_options": {
+     "onsite_services": true
+    },
+    "user_review": "\"Special thanks to Ritu Pandey for great customer service\"",
+    "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9R08XmiylB5kh67w4mGNn397waCO0ec0E1LyOCLAyBYwxNBlnhBFEshsOykIG4LTps-MswrWth9Jn8Ij6LEgV7vW6GA-fQYudJGYy6bMOiAEj8mbu9JiKdPIT14Aj5aaEDWHjhe=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/_98k6XicHcxLEoIgAADQE6E4mZ9mWmCRaabVNJlLQxJNsQmMOGFn6DY1bd7yfd5MyruYmWbHJkY9DHVHR0EfZOCScmmQoTfruwBEAGGiNG-0f4DeuW90F0xvzHGV3Ycpn_iuKhcZpARiK9HZIkE6KNQrDTrOghUWTGT6FoV2cvxlW6EeuWR-zL2odRJcn9xn7oQIXPfFWMVhoZ3LNmsQbr3-Mvpxs6l20dGyUTstS7zM1y2jc2VBCAH7SwD_Ah0yQ7o"
+   },
+   {
+    "position": 6,
+    "title": "HDFC Bank",
+    "place_id": "ChIJg0fVk83I5zsRUJGv5Q9BScY",
+    "data_id": "0x3be7c8cd93d54783:0xc649410fe5af9150",
+    "data_cid": "14288022829343412560",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x3be7c8cd93d54783%3A0xc649410fe5af9150&engine=google_maps_reviews&hl=en",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x3be7c8cd93d54783%3A0xc649410fe5af9150&engine=google_maps_photos&hl=en",
+    "gps_coordinates": {
+     "latitude": 19.040883,
+     "longitude": 72.86513099999999
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJg0fVk83I5zsRUJGv5Q9BScY",
+    "provider_id": "/g/1tj4x53s",
+    "rating": 2.7,
+    "reviews": 134,
+    "type": "Bank",
+    "types": [
+     "Bank"
+    ],
+    "type_id": "bank",
+    "type_ids": [
+     "bank"
+    ],
+    "address": "Rupam Centre, Cineplanet, Sion Cir, Sion Koliwada, Sion East, Sion, Mumbai, Maharashtra 400022, India",
+    "country": "India",
+    "open_state": "Closed · Opens 9:30 AM Fri",
+    "hours": "Closed · Opens 9:30 AM Fri",
+    "operating_hours": {
+     "thursday": "9:30 AM–3:30 PM",
+     "friday": "9:30 AM–3:30 PM",
+     "saturday": "9:30 AM–3:30 PM",
+     "sunday": "Closed",
+     "monday": "9:30 AM–3:30 PM",
+     "tuesday": "9:30 AM–3:30 PM",
+     "wednesday": "9:30 AM–3:30 PM"
+    },
+    "phone": "+91 1800 1601",
+    "website": "https://www.hdfc.bank.in/branch-locator/maharashtra/mumbai/hdfcbank-branch-sioneastsioncircle",
+    "extensions": [
+     {
+      "service_options": [
+       "Drive-through",
+       "Onsite services"
+      ]
+     },
+     {
+      "amenities": [
+       "ATM"
+      ]
+     }
+    ],
+    "unsupported_extensions": [
+     {
+      "accessibility": [
+       "Wheelchair accessible entrance"
+      ]
+     }
+    ],
+    "service_options": {
+     "drive_through": true
+    },
+    "user_review": "\"Good Atmosphere,polite staff ,Good bank\"",
+    "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9T4jdHI_y_90TP7Rpk6Ytb7FKKdwWKbJu5hgPupLHsI6FmLVrVIP0ekKCawEv-DzyVcdcr3lXAuQm0eN8_2clSgSubwc0fE8h5pplBjbaU7U9I29gFeWtRfyivGIXo74MTDpwUAYg=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/zFhQiHicHcTbDoIgAADQLyLparb1YBeLrGblpZ5cIkGFwgRi9od9Qn_T1nk43w_TWqqJ43DW71AhKCdGkQaLWpNad7CoHCoVwAoox99n99aLB49yjfI292AcuUf5HF104QZhWNosLDZmyGhk5Hat0CiotmmTogiSZzi_2uULLN5tikvc9PnZN4cKkv0472F-oidTWAxvyzEbSslnj-KauImHeh4NSKaPt_b-WqGzcAe7eCFt4l_o1HYhhID9x6D-ARIZRcg"
+   },
+   {
+    "position": 7,
+    "title": "HDFC Bank Home Loan Branch - Mumbai (Churchgate)",
+    "place_id": "ChIJ9fvBaujR5zsRlhmJa6jYGqA",
+    "data_id": "0x3be7d1e86ac1fbf5:0xa01ad8a86b891996",
+    "data_cid": "11536771613333199254",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x3be7d1e86ac1fbf5%3A0xa01ad8a86b891996&engine=google_maps_reviews&hl=en",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x3be7d1e86ac1fbf5%3A0xa01ad8a86b891996&engine=google_maps_photos&hl=en",
+    "gps_coordinates": {
+     "latitude": 18.929547,
+     "longitude": 72.8262728
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJ9fvBaujR5zsRlhmJa6jYGqA",
+    "provider_id": "/g/1tycv34x",
+    "rating": 4.6,
+    "reviews": 623,
+    "type": "Loan agency",
+    "types": [
+     "Loan agency"
+    ],
+    "type_id": "loan_agency",
+    "type_ids": [
+     "loan_agency"
+    ],
+    "address": "No 169, HT Parekh Marg, Backbay Reclamation, Churchgate, Mumbai, Maharashtra 400020, India",
+    "country": "India",
+    "open_state": "Closed · Opens 9:30 AM Fri",
+    "hours": "Closed · Opens 9:30 AM Fri",
+    "operating_hours": {
+     "thursday": "9:30 AM–3:30 PM",
+     "friday": "9:30 AM–3:30 PM",
+     "saturday": "9:30 AM–3:30 PM",
+     "sunday": "Closed",
+     "monday": "9:30 AM–3:30 PM",
+     "tuesday": "9:30 AM–3:30 PM",
+     "wednesday": "9:30 AM–3:30 PM"
+    },
+    "phone": "+91 1800 210 0018",
+    "website": "https://www.hdfc.bank.in/branch-locator/maharashtra/mumbai/hdfcbank-branch-churchgatehomeloan",
+    "extensions": [
+     {
+      "service_options": [
+       "Onsite services"
+      ]
+     }
+    ],
+    "unsupported_extensions": [
+     {
+      "accessibility": [
+       "Wheelchair accessible entrance"
+      ]
+     }
+    ],
+    "service_options": {
+     "onsite_services": true
+    },
+    "user_review": "\"... to Have Services with HDFC and Exceptional Customer Service\"",
+    "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9RpskOJ5b-rDfh9vZRT4o1T1IV0GQCbyWl3HvnUGpXH_T0y7aHe81IlUd3dBn_XgzQVE8K-qqeJ2VBOczTZfu_1hXylb6MT2QpaC0WmIi7JeRGyTRn4Z3cSrX7spiGb51wc4VJwkfIQ_UQq=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/m8l2e3icHcRLjoIwAADQE1VaQdFJZuEvfCajKVM-YUOkFkqsbaEoqZectbcx8S3e65-PozZfjiO4O2uVagW7GzZQJUcmxxlVN6fVBlADjLM55p1dJ9pcT_GiBsO-4etHmRBPIYKiDAZ4V9tcuOFDpoEuwopA659DtkKRSC_uZSuron3i7LD6AX3P4nm2PdEnKZt7hXhhRb38JXOszzuY36LOj1kSWJJIr3Tp31D4RndBvUAT9bJ4ujYRrlLcf08IQgj4ZwrkG3CARv4"
+   },
+   {
+    "position": 8,
+    "title": "HDFC Bank",
+    "place_id": "ChIJ9zqbNC3I5zsRSvokwYpRkNo",
+    "data_id": "0x3be7c82d349b3af7:0xda90518ac124fa4a",
+    "data_cid": "15749177553302387274",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x3be7c82d349b3af7%3A0xda90518ac124fa4a&engine=google_maps_reviews&hl=en",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x3be7c82d349b3af7%3A0xda90518ac124fa4a&engine=google_maps_photos&hl=en",
+    "gps_coordinates": {
+     "latitude": 19.1169319,
+     "longitude": 72.8481006
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJ9zqbNC3I5zsRSvokwYpRkNo",
+    "provider_id": "/g/1ptwjd6v9",
+    "rating": 2.8,
+    "reviews": 131,
+    "type": "Bank",
+    "types": [
+     "Bank",
+     "ATM",
+     "Business banking service",
+     "Car finance and loan company",
+     "Financial institution",
+     "Insurance company",
+     "Investment service",
+     "Loan agency",
+     "Private sector bank",
+     "Savings bank"
+    ],
+    "type_id": "bank",
+    "type_ids": [
+     "bank",
+     "atm",
+     "business_banking_service",
+     "car_finance_and_loan_company",
+     "financial_institution",
+     "insurance_company",
+     "investment_service",
+     "loan_agency",
+     "private_sector_bank",
+     "savings_bank"
+    ],
+    "address": "106, GF, Nityanand Nagar, Siddhi Aura, Shop No 3 to 6, Office No 104 to, Andheri East, Mumbai, Maharashtra 400069, India",
+    "country": "India",
+    "open_state": "Closed · Opens 9:30 AM Fri",
+    "hours": "Closed · Opens 9:30 AM Fri",
+    "operating_hours": {
+     "thursday": "9:30 AM–3:30 PM",
+     "friday": "9:30 AM–3:30 PM",
+     "saturday": "9:30 AM–3:30 PM",
+     "sunday": "Closed",
+     "monday": "9:30 AM–3:30 PM",
+     "tuesday": "9:30 AM–3:30 PM",
+     "wednesday": "9:30 AM–3:30 PM"
+    },
+    "phone": "+91 1800 1601",
+    "website": "https://www.hdfc.bank.in/branch-locator/maharashtra/mumbai/hdfcbank-branch-andherieastvishalhall",
+    "extensions": [
+     {
+      "service_options": [
+       "Onsite services"
+      ]
+     },
+     {
+      "amenities": [
+       "ATM"
+      ]
+     }
+    ],
+    "service_options": {
+     "onsite_services": true
+    },
+    "user_review": "\"Good customer service and proper guidance by the customer representative.\"",
+    "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9SUA0qGq2vDkaVy9VBW9w0AJNX_CdhCivEmYYDhb1Gj6cZWqAOcLXKsBv80mzZCnOFu0rm18Pet1kmvSgDT54KyJXfTwCBLlR9F7xF_Prvp5LxMykHdZqFuVdoCe1HxD3Q-kzy5kx_zk_9d=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/LQyzQXicHcTBToMwAADQL-ponehq4gGKbNlwm9sExoVoqXSWUqBQKD_p2b8x8R3e7w_v-0Y_OU7Fl4tSqbJig2YdVXXP6n5BlXTKRgOqgXa8fXKz-PzuwXbd3plAfMQWx36CR-ht92lOCk5u5kVerwH_ROvvB5olrXegUbrTvllBOWekPoQD7CRaHVmPhDTnMri49zu7Tb8uI_Gj6oTDxynMj51p3Gh6tWJTZG04xIUiDG2mYPkGxGxdMeWzyHHxPCIIIeD_U1D_AaL8R-Y"
+   },
+   {
+    "position": 9,
+    "title": "HDFC Bank Home Loan Branch - Navi Mumbai (Sector 8)",
+    "place_id": "ChIJ74cHQmzC5zsRUHyFqZ0FkPw",
+    "data_id": "0x3be7c26c420787ef:0xfc90059da9857c50",
+    "data_cid": "18199052268916276304",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x3be7c26c420787ef%3A0xfc90059da9857c50&engine=google_maps_reviews&hl=en",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x3be7c26c420787ef%3A0xfc90059da9857c50&engine=google_maps_photos&hl=en",
+    "gps_coordinates": {
+     "latitude": 19.0321,
+     "longitude": 73.0669525
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJ74cHQmzC5zsRUHyFqZ0FkPw",
+    "provider_id": "/g/11f0845k0p",
+    "rating": 4.1,
+    "reviews": 394,
+    "type": "Loan agency",
+    "types": [
+     "Loan agency"
+    ],
+    "type_id": "loan_agency",
+    "type_ids": [
+     "loan_agency"
+    ],
+    "address": "No 1, 1st Flr, PN 5 & 6, Wing F, Sector 8, Kharghar, Panvel, Maharashtra 410210, India",
+    "country": "India",
+    "open_state": "Closed · Opens 9:30 AM Fri",
+    "hours": "Closed · Opens 9:30 AM Fri",
+    "operating_hours": {
+     "thursday": "9:30 AM–3:30 PM",
+     "friday": "9:30 AM–3:30 PM",
+     "saturday": "9:30 AM–3:30 PM",
+     "sunday": "Closed",
+     "monday": "9:30 AM–3:30 PM",
+     "tuesday": "9:30 AM–3:30 PM",
+     "wednesday": "9:30 AM–3:30 PM"
+    },
+    "phone": "+91 1800 210 0018",
+    "website": "https://www.hdfc.bank.in/branch-locator/maharashtra/navimumbai/hdfcbank-branch-sector8homeloan",
+    "unsupported_extensions": [
+     {
+      "accessibility": [
+       "Wheelchair accessible entrance"
+      ]
+     }
+    ],
+    "user_review": "\"Supportive staff they actually resolved my query so quickly and nicely\"",
+    "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9QTgAMec0Zi61t8ZenGhYfRcmr8j8qE5zPik-0l0aPF0VAEh2-NWGxv5x7E_LTQGYaYGx5SPD0PYHC-YYQU5f9YhSj4J6CfT0G94w3R9KzOCrTQI6VbBrEkT80FNp164oAy2DcLzlx124E=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/dZHREnicHcTBboIwGADgJ6r8ICAs8YBYq5sy0KqpF6NNoShSpJ0iD7n73maJ3-H7-5XGNPrDsio5HBRKFZX40aLlqjaiNgOublbRaMQ10laU7MtXmNEiWgkOh9K3TXAQNZEsX_NbG1yCO_b6tLwiqOCUzmAXYemgZE-6h9eN8HFJM8JOjHTeJp1CyuYxYizbennI5ObifvpxToGE7nO4Dr_677il2cLfnSctvtIAZklj-66KXs6UL_uqsx0Xj582ACD5nqP6H36GQ8Q"
+   },
+   {
+    "position": 10,
+    "title": "HDFC Bank",
+    "place_id": "ChIJJ6FmDsPR5zsR-XA2ot4KT4o",
+    "data_id": "0x3be7d1c30e66a127:0x8a4f0adea23670f9",
+    "data_cid": "9966196451714691321",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x3be7d1c30e66a127%3A0x8a4f0adea23670f9&engine=google_maps_reviews&hl=en",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x3be7d1c30e66a127%3A0x8a4f0adea23670f9&engine=google_maps_photos&hl=en",
+    "gps_coordinates": {
+     "latitude": 18.928835,
+     "longitude": 72.8315302
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJJ6FmDsPR5zsR-XA2ot4KT4o",
+    "provider_id": "/g/1pt_bznq5",
+    "rating": 3.4,
+    "reviews": 111,
+    "type": "Bank",
+    "types": [
+     "Bank"
+    ],
+    "type_id": "bank",
+    "type_ids": [
+     "bank"
+    ],
+    "address": "Jehangir Building, Mahatma Gandhi Road, Kala Ghoda, Fort, Mumbai, Maharashtra 400001, India",
+    "country": "India",
+    "open_state": "Closed · Opens 10 AM Fri",
+    "hours": "Closed · Opens 10 AM Fri",
+    "operating_hours": {
+     "thursday": "10 AM–4 PM",
+     "friday": "10 AM–4 PM",
+     "saturday": "10 AM–4 PM",
+     "sunday": "Closed",
+     "monday": "10 AM–4 PM",
+     "tuesday": "10 AM–4 PM",
+     "wednesday": "10 AM–4 PM"
+    },
+    "phone": "+91 1800 1601",
+    "website": "https://www.hdfc.bank.in/branch-locator/maharashtra/mumbai/hdfcbank-branch-fortnanikmotwanimarg",
+    "extensions": [
+     {
+      "service_options": [
+       "Onsite services"
+      ]
+     },
+     {
+      "amenities": [
+       "ATM"
+      ]
+     }
+    ],
+    "unsupported_extensions": [
+     {
+      "accessibility": [
+       "Wheelchair accessible entrance",
+       "Wheelchair accessible parking lot"
+      ]
+     }
+    ],
+    "service_options": {
+     "onsite_services": true
+    },
+    "user_review": "\"Good place to bank with helpful staff but very busy\"",
+    "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9TFTvPnJqFL5B_HyF9BFmnEQfY9OUvp7vwMy3A5Hh4Xdnt41RpIwAV5yYyV_G3hC982TiYNLa667YROjGGVy5RTekNb52bRup4z0XpsMzsf9nTP8U8xZXI2taLFr9BvniHjayRjlE9J8K5T=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/DgEGVHicHcTBboIwAADQL0IQKFITD7BY0CFqUxnsYoAhhWGptoLlJz37N0v2Du_9olJysdT1jlqzuu_rrnqI6l72TFZMzsr-qtdcaKXQhO7FX42CBJHhwLY3FAH_HCoEfXRl6-Mlg_vTwBfDuFOWB0Jqpz9M2nPMN6OXAJWp5BxY9AO6JmmyOModZ5HhfRsEiQKYVL9xAcwCP7g9GSkXu0lcICMH9-Q-v9ONKfMI3aE_sCZsc4Xbbg237icgq3FuGIZG_y819gdYU0aG"
+   },
+   {
+    "position": 11,
+    "title": "HDFC Bank",
+    "place_id": "ChIJq6qq6hfC5zsRwkqAbokSM8g",
+    "data_id": "0x3be7c217eaaaaaab:0xc83312896e804ac2",
+    "data_cid": "14425894412871551682",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x3be7c217eaaaaaab%3A0xc83312896e804ac2&engine=google_maps_reviews&hl=en",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x3be7c217eaaaaaab%3A0xc83312896e804ac2&engine=google_maps_photos&hl=en",
+    "gps_coordinates": {
+     "latitude": 19.0348151,
+     "longitude": 73.0645466
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJq6qq6hfC5zsRwkqAbokSM8g",
+    "provider_id": "/g/1ptxfyzht",
+    "rating": 2,
+    "reviews": 85,
+    "type": "Bank",
+    "types": [
+     "Bank"
+    ],
+    "type_id": "bank",
+    "type_ids": [
+     "bank"
+    ],
+    "address": "Patel Heritage, SN 38 & 39, PN 15 &17, Hiranandani, Sector 7, Kharghar, Panvel, Maharashtra 410210, India",
+    "country": "India",
+    "open_state": "Closed · Opens 9:30 AM Fri",
+    "hours": "Closed · Opens 9:30 AM Fri",
+    "operating_hours": {
+     "thursday": "9:30 AM–3:30 PM",
+     "friday": "9:30 AM–3:30 PM",
+     "saturday": "9:30 AM–3:30 PM",
+     "sunday": "Closed",
+     "monday": "9:30 AM–3:30 PM",
+     "tuesday": "9:30 AM–3:30 PM",
+     "wednesday": "9:30 AM–3:30 PM"
+    },
+    "phone": "+91 1800 1601",
+    "website": "https://www.hdfc.bank.in/branch-locator/maharashtra/mumbai/hdfcbank-branch-kharghar",
+    "extensions": [
+     {
+      "service_options": [
+       "Onsite services"
+      ]
+     }
+    ],
+    "service_options": {
+     "onsite_services": true
+    },
+    "user_review": "\"Kalpana is Very helpful and polite……great service 👍🏻\"",
+    "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9RnHAP3yHuOBESvyXTSCQRW5A_mT21u2TFzsE3u402wAspehJXMa9JekFZqG_7gh1W_NAY8uXy8cYBkTMDS7iqRGOikCdyUbkbqeeuLULuI8G198Fv5fGEhb7SpcnPQ_N3Ej9Vz6_iis7r0=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/PeqKqnicHcRRE4EwAADgX5RWoXLnYahwhIriZaeZNrHKmm7-pGf_xp3v4ft-aNvWYqTrd2r1iqoq7kQK8sQVbwlve7h66EUtNCw0ocMwZcqN-BxuLTWXm4kXv1SWxNNdlA4geiSmIc3EfwvPkn1gdlDUhC6z9dldktI_NQGyC2qkKIRHR2bKwcdJmaxnsc2aKNiwcnpR-7zMG0Lkar-SCycwXMd_Da6BR3M7rjHf7lBoeTf38B4ixoT9BOPOAABo9D_W-A9q9UbO"
+   },
+   {
+    "position": 12,
+    "title": "HDFC Bank",
+    "place_id": "ChIJFw_OfOy45zsRRZWHQ-0V_nw",
+    "data_id": "0x3be7b8ec7cce0f17:0x7cfe15ed43879545",
+    "data_cid": "9006660413571962181",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x3be7b8ec7cce0f17%3A0x7cfe15ed43879545&engine=google_maps_reviews&hl=en",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x3be7b8ec7cce0f17%3A0x7cfe15ed43879545&engine=google_maps_photos&hl=en",
+    "gps_coordinates": {
+     "latitude": 19.1782084,
+     "longitude": 72.9605916
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJFw_OfOy45zsRRZWHQ-0V_nw",
+    "provider_id": "/g/1tq6bzfd",
+    "rating": 2.4,
+    "reviews": 38,
+    "type": "Bank",
+    "types": [
+     "Bank"
+    ],
+    "type_id": "bank",
+    "type_ids": [
+     "bank"
+    ],
+    "address": "Shop No 1, 101, Parmeshwari Plaza, Netaji Subhash Chandra Rd, near Canara Bank, Mulund West, Mumbai, Maharashtra 400080, India",
+    "country": "India",
+    "open_state": "Closed · Opens 9:30 AM Fri",
+    "hours": "Closed · Opens 9:30 AM Fri",
+    "operating_hours": {
+     "thursday": "9:30 AM–3:30 PM",
+     "friday": "9:30 AM–3:30 PM",
+     "saturday": "9:30 AM–3:30 PM",
+     "sunday": "Closed",
+     "monday": "9:30 AM–3:30 PM",
+     "tuesday": "9:30 AM–3:30 PM",
+     "wednesday": "9:30 AM–3:30 PM"
+    },
+    "phone": "+91 1800 1601",
+    "website": "https://www.hdfc.bank.in/branch-locator/maharashtra/mumbai/hdfcbank-branch-parmeshwariplazamulund",
+    "extensions": [
+     {
+      "service_options": [
+       "Onsite services"
+      ]
+     },
+     {
+      "amenities": [
+       "ATM"
+      ]
+     }
+    ],
+    "service_options": {
+     "onsite_services": true
+    },
+    "user_review": "\"Supportive staff and well experience.\"",
+    "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9SZpeJNoKkkUfegQDHSpLAfkBvmIpJXCmjDxNOWA5XVbAq9nCffxcn4D9xvOL-tgDPnJSzqWgqL4qOkzotiwd-o38YwNkwphE2ZiS83A_X47CDQ1yX-8K0VigazabBW4izKB-Dw=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/Dma8D3icHcRRboIwAADQExVwYAYm-yjUxAEBDVHQHyO1lFppi-0sckHPsNss2ft4v-_eGKVXrnvvfYdKSe_kR5MHlsIQYRwsB5cqDbAG2oVFzV5RdVIkLWTG-b4jdIc2lcphx-Pn8K3SJhluaCrKGi6bQwvHSCRdN2ERoGh6ljkwFG1FWs1jTcc8GEs-S8PsFUg_PNqCW9WvP06sCn14boLPBO0WrwaEmXdg9DJf2rgO2JzFANkvu_A8D_T_YyD-AOS9RVs"
+   },
+   {
+    "position": 13,
+    "title": "HDFC Bank",
+    "place_id": "ChIJJeUD2WjO5zsR5W01jiBms-E",
+    "data_id": "0x3be7ce68d903e525:0xe1b366208e356de5",
+    "data_cid": "16263454969375845861",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x3be7ce68d903e525%3A0xe1b366208e356de5&engine=google_maps_reviews&hl=en",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x3be7ce68d903e525%3A0xe1b366208e356de5&engine=google_maps_photos&hl=en",
+    "gps_coordinates": {
+     "latitude": 18.973658099999998,
+     "longitude": 72.82310919999999
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJJeUD2WjO5zsR5W01jiBms-E",
+    "provider_id": "/g/1pt_2lqbz",
+    "rating": 2.6,
+    "reviews": 59,
+    "type": "Bank",
+    "types": [
+     "Bank"
+    ],
+    "type_id": "bank",
+    "type_ids": [
+     "bank"
+    ],
+    "address": "No 82, Khatija Mansion, Cyprus Avenue, Dr Anandrao Nair Marg, opposite Topiwala National Medical College, Agripada, Mumbai, Maharashtra 400008, India",
+    "country": "India",
+    "open_state": "Closed · Opens 9:30 AM Fri",
+    "hours": "Closed · Opens 9:30 AM Fri",
+    "operating_hours": {
+     "thursday": "9:30 AM–3:30 PM",
+     "friday": "9:30 AM–3:30 PM",
+     "saturday": "9:30 AM–3:30 PM",
+     "sunday": "Closed",
+     "monday": "9:30 AM–3:30 PM",
+     "tuesday": "9:30 AM–3:30 PM",
+     "wednesday": "9:30 AM–3:30 PM"
+    },
+    "phone": "+91 1800 1601",
+    "website": "https://www.hdfc.bank.in/branch-locator/maharashtra/mumbai/hdfcbank-branch-mumbaicentralbranch",
+    "extensions": [
+     {
+      "service_options": [
+       "Onsite services"
+      ]
+     },
+     {
+      "amenities": [
+       "ATM"
+      ]
+     }
+    ],
+    "unsupported_extensions": [
+     {
+      "accessibility": [
+       "Wheelchair accessible entrance",
+       "Wheelchair accessible parking lot"
+      ]
+     }
+    ],
+    "service_options": {
+     "onsite_services": true
+    },
+    "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9Q95hUWxCS_Iyx1zLL4aqMmoe7ZhXVeddRIM32rG3iKBGVw_TIDW_clRmjVJs23bLi3MfMWr0B7bY83MdaBtcU_cBtRpYbw7abOynxOx2GIBtyHPiiMFwwf4cb4yJUUVH-PYjheiDuCFSbt=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/3jNb0XicHcTBboIwAADQL6ogxaBLdlg1Io5OhwLDC6Gl0hqgjNaU-pOe9zcme4f39-RaD-rNcVoOZ42UTcvuio1U9pr1ekZl5zSDAlQB5Xx85cKuvlcLnubT-lRGdpo_4tivfnEnWXDhPxmr6yTC0BtDKD5RmJnyHG3ykrZJd8v2yoMkFhBfcT66KCDFEuK6QpqmJUU6GQpigoocbD8dJi-MkLa7oxB4a8zVp8S3-zTNduBY3DgTm_t6eyL63cxd1wX8fwr6F7-3R_U"
+   },
+   {
+    "position": 14,
+    "title": "HDFC Bank",
+    "place_id": "ChIJT9QtvEPo5zsRKxI0P6AyJ7s",
+    "data_id": "0x3be7e843bc2dd44f:0xbb2732a03f34122b",
+    "data_cid": "13485803273020772907",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x3be7e843bc2dd44f%3A0xbb2732a03f34122b&engine=google_maps_reviews&hl=en",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x3be7e843bc2dd44f%3A0xbb2732a03f34122b&engine=google_maps_photos&hl=en",
+    "gps_coordinates": {
+     "latitude": 19.001077,
+     "longitude": 73.12241159999999
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJT9QtvEPo5zsRKxI0P6AyJ7s",
+    "provider_id": "/g/1tfkd19h",
+    "rating": 3.3,
+    "reviews": 155,
+    "type": "Bank",
+    "types": [
+     "Bank"
+    ],
+    "type_id": "bank",
+    "type_ids": [
+     "bank"
+    ],
+    "address": "Ground Floor, Neel Empress, Plot No 92/93, Sector 1S, New Panvel East, Panvel, Maharashtra 410206, India",
+    "country": "India",
+    "open_state": "Closed · Opens 9:30 AM Fri",
+    "hours": "Closed · Opens 9:30 AM Fri",
+    "operating_hours": {
+     "thursday": "9:30 AM–3:30 PM",
+     "friday": "9:30 AM–3:30 PM",
+     "saturday": "9:30 AM–3:30 PM",
+     "sunday": "Closed",
+     "monday": "9:30 AM–3:30 PM",
+     "tuesday": "9:30 AM–3:30 PM",
+     "wednesday": "9:30 AM–3:30 PM"
+    },
+    "phone": "+91 1800 1601",
+    "website": "https://www.hdfc.bank.in/branch-locator/maharashtra/mumbai/hdfcbank-branch-newpanvelneelempress",
+    "extensions": [
+     {
+      "service_options": [
+       "Onsite services"
+      ]
+     },
+     {
+      "amenities": [
+       "ATM"
+      ]
+     }
+    ],
+    "unsupported_extensions": [
+     {
+      "accessibility": [
+       "Wheelchair accessible entrance",
+       "Wheelchair accessible parking lot"
+      ]
+     }
+    ],
+    "service_options": {
+     "onsite_services": true
+    },
+    "user_review": "\"Good branch service\nStaff in branch are very polite and helpful\"",
+    "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9Tg0r9tTG_t0xfWJCCCZCd-2vJmEMUuWWG77B-XKNb1iPrHOv39g5D-S-eixY2YqLAYXVeIxdmVWKECR8qEGbpbVwr52A50rErc5A8TKA0tNXHgoio53Y6Uks7cdYYl03a3Z5naZg04PFx4=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/ugfRdXicHcTBboIwAADQL6pUaocs8dB1DJUNzYaUclmk1EIGFNuq-JWe9zdL9g7v99E4N9pnz-saNFNaq05erDRCD04ObiZ076nRAmGB9UjK2nuYKWhCl8XfDk4ntqWUlrQG_nXbRx-HC2NxELyAIkmrebs3690VhQq_gi8g24n7_PxOeJHLzVT3OUsi-rk8R3E1VvnNYJ9gaCIjMFlmCYEuLdZKtxoj_nT4sYGoOe8gOqISD8dSwcX-bVqsbnMIIWj-F2D4A-Q4RPg"
+   },
+   {
+    "position": 15,
+    "title": "HDFC Bank",
+    "place_id": "ChIJj5AG3uDJ5zsRbgWrnCM9f08",
+    "data_id": "0x3be7c9e0de06908f:0x4f7f3d239cab056e",
+    "data_cid": "5728364474200163694",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x3be7c9e0de06908f%3A0x4f7f3d239cab056e&engine=google_maps_reviews&hl=en",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x3be7c9e0de06908f%3A0x4f7f3d239cab056e&engine=google_maps_photos&hl=en",
+    "gps_coordinates": {
+     "latitude": 19.1216635,
+     "longitude": 72.82569579999999
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJj5AG3uDJ5zsRbgWrnCM9f08",
+    "provider_id": "/g/1ptxqm_74",
+    "rating": 3.1,
+    "reviews": 94,
+    "type": "Bank",
+    "types": [
+     "Bank"
+    ],
+    "type_id": "bank",
+    "type_ids": [
+     "bank"
+    ],
+    "address": "Amaltas CHS, Juhu Versova Link Rd, Gharkul Society, Bharat Nagar, Four Bungalows, Andheri West, Mumbai, Maharashtra 400053, India",
+    "country": "India",
+    "open_state": "Closed · Opens 9:30 AM Fri",
+    "hours": "Closed · Opens 9:30 AM Fri",
+    "operating_hours": {
+     "thursday": "9:30 AM–3:30 PM",
+     "friday": "9:30 AM–3:30 PM",
+     "saturday": "9:30 AM–3:30 PM",
+     "sunday": "Closed",
+     "monday": "9:30 AM–3:30 PM",
+     "tuesday": "9:30 AM–3:30 PM",
+     "wednesday": "9:30 AM–3:30 PM"
+    },
+    "phone": "+91 1800 1601",
+    "website": "https://www.hdfc.bank.in/branch-locator/maharashtra/mumbai/hdfcbank-branch-andheriwestversova",
+    "extensions": [
+     {
+      "service_options": [
+       "Onsite services"
+      ]
+     },
+     {
+      "amenities": [
+       "ATM"
+      ]
+     }
+    ],
+    "unsupported_extensions": [
+     {
+      "accessibility": [
+       "Wheelchair accessible parking lot"
+      ]
+     }
+    ],
+    "service_options": {
+     "onsite_services": true
+    },
+    "user_review": "\"Thanks, for hassle-free immediate support.\"",
+    "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9TLfwPrshlb1z6hXrFo_2hhAliAq7ZhxBdfVD_pYqNf-vN__byM8yExh-o91opNw-JKvJXyCzfKeKh5K5KaOOosB7WwL-0HVeWIAFNhsGZGVgTKZNpOW-4KRUJaZtPCtqTkdOk=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/QUl7gHicHcRLDoIwFADAEz0B_5q4AP9UizEIyoYoFh4BaaEVxAN6B29j4izm-0GlhJxqWo69TsJ5krOnZFXEC8UK1Yn4Q0uEhEiC1Ezqp-3E3cXNoZKY34z3EM_VioddRDNPzXIU4Mu6x94iFJeSxlDTMLy1-3G7fCHwicEFbcAmtX1u5--YMIIDMiBXx-HSGvnNDvSNx_ytuaIo18HaS1wSUOH40CfHk30N1GGuSje7O9msMXRdB_wfQfEDqbdFOg"
+   },
+   {
+    "position": 16,
+    "title": "HDFC Bank",
+    "place_id": "ChIJpf4Pg__J5zsR-GneJU_SSl0",
+    "data_id": "0x3be7c9ff830ffea5:0x5d4ad24f25de69f8",
+    "data_cid": "6722416631183469048",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x3be7c9ff830ffea5%3A0x5d4ad24f25de69f8&engine=google_maps_reviews&hl=en",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x3be7c9ff830ffea5%3A0x5d4ad24f25de69f8&engine=google_maps_photos&hl=en",
+    "gps_coordinates": {
+     "latitude": 19.1033668,
+     "longitude": 72.8865099
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJpf4Pg__J5zsR-GneJU_SSl0",
+    "provider_id": "/g/11hzzdjbkg",
+    "rating": 3.1,
+    "reviews": 37,
+    "type": "Bank",
+    "types": [
+     "Bank",
+     "ATM",
+     "Business banking service",
+     "Car finance and loan company",
+     "Financial institution",
+     "Insurance company",
+     "Investment service",
+     "Loan agency",
+     "Private sector bank",
+     "Savings bank"
+    ],
+    "type_id": "bank",
+    "type_ids": [
+     "bank",
+     "atm",
+     "business_banking_service",
+     "car_finance_and_loan_company",
+     "financial_institution",
+     "insurance_company",
+     "investment_service",
+     "loan_agency",
+     "private_sector_bank",
+     "savings_bank"
+    ],
+    "address": "Shop No 4/35, Gr Flr, Sagar Palaz Mall Andheri Kurla Road, Andheri - Ghatkopar Link Rd, Saki Naka, Mumbai, Maharashtra 400072, India",
+    "country": "India",
+    "open_state": "Closed · Opens 9:30 AM Fri",
+    "hours": "Closed · Opens 9:30 AM Fri",
+    "operating_hours": {
+     "thursday": "9:30 AM–3:30 PM",
+     "friday": "9:30 AM–3:30 PM",
+     "saturday": "9:30 AM–3:30 PM",
+     "sunday": "Closed",
+     "monday": "9:30 AM–3:30 PM",
+     "tuesday": "9:30 AM–3:30 PM",
+     "wednesday": "9:30 AM–3:30 PM"
+    },
+    "phone": "+91 1800 1601",
+    "website": "https://www.hdfc.bank.in/branch-locator/maharashtra/mumbai/hdfcbank-branch-sakinaka",
+    "extensions": [
+     {
+      "amenities": [
+       "ATM"
+      ]
+     }
+    ],
+    "user_review": "\"The staff members are professional, polite, and helpful.\"",
+    "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9RRTCWWc1Qslh4_rLqPH99BERvZ92pYrQ__AQCMaNDsFfOGSgZVKFMxxxIubiouPv4E-bJjzEpsHDj3MvgnzWqwb0jPimTavheOGNNne3BDhyYbm0FNOzdnigja5q4cIuhfbF6cMA=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/yEZ0zXicHcRJDoIwAADAF1WqoAkmHlDAlbJoJHohtNYWAi1QQOSHPsHfmDiH-X5421ZqqWkF1ydMSlbQTtGGSNFS0U6ILDVWKUAUUJqF4uxtRtFlE8dkGqqCG0lzqoOdaa6dqL-bs-rWhElihRsvRbZyn_72zO7Xo-sNw7DvcCa7oDccgA_56FRqZ-e61zMxxvULwzzIykvac-pvERJUX9v8fcMldJE_PkTG8nReG2Tf8Sd2F8SzVq8phBDw_wSIH0gSRsA"
+   },
+   {
+    "position": 17,
+    "title": "HDFC Bank",
+    "place_id": "ChIJE9WTdB7G5zsRVB_zPmyozvc",
+    "data_id": "0x3be7c61e7493d513:0xf7cea86c3ef31f54",
+    "data_cid": "17856394755436650324",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x3be7c61e7493d513%3A0xf7cea86c3ef31f54&engine=google_maps_reviews&hl=en",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x3be7c61e7493d513%3A0xf7cea86c3ef31f54&engine=google_maps_photos&hl=en",
+    "gps_coordinates": {
+     "latitude": 19.058456,
+     "longitude": 72.9002489
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJE9WTdB7G5zsRVB_zPmyozvc",
+    "provider_id": "/g/11b6gf47vy",
+    "rating": 3,
+    "reviews": 212,
+    "type": "Bank",
+    "types": [
+     "Bank"
+    ],
+    "type_id": "bank",
+    "type_ids": [
+     "bank"
+    ],
+    "address": "No 170/171, Central Ave Rd, Mahadeo Wadi, Chembur, Mumbai, Maharashtra 400071, India",
+    "country": "India",
+    "open_state": "Closed · Opens 9:30 AM Fri",
+    "hours": "Closed · Opens 9:30 AM Fri",
+    "operating_hours": {
+     "thursday": "9:30 AM–3:30 PM",
+     "friday": "9:30 AM–3:30 PM",
+     "saturday": "9:30 AM–3:30 PM",
+     "sunday": "Closed",
+     "monday": "9:30 AM–3:30 PM",
+     "tuesday": "9:30 AM–3:30 PM",
+     "wednesday": "9:30 AM–3:30 PM"
+    },
+    "phone": "+91 1800 1601",
+    "website": "https://www.hdfc.bank.in/branch-locator/maharashtra/mumbai/hdfcbank-branch-chemburcentralavenue",
+    "extensions": [
+     {
+      "service_options": [
+       "Onsite services"
+      ]
+     },
+     {
+      "amenities": [
+       "ATM"
+      ]
+     }
+    ],
+    "unsupported_extensions": [
+     {
+      "accessibility": [
+       "Wheelchair accessible entrance",
+       "Wheelchair accessible parking lot"
+      ]
+     }
+    ],
+    "service_options": {
+     "onsite_services": true
+    },
+    "user_review": "\"Customer service is good and the process is fast too.\"",
+    "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9R8Oo01iOsC4NuiVq4cUzCvuQ4-d_ycHxqEHGfl8HklclaAYTng8uxbYgL2CS11zBVUy5kLNkij0DDQT_cNHz1KzDVqwpKZMELZit5DFWo3s1HH0Hmr3q45n5d61CQQOEQ6zdioy4Z8-Lc=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/EeFglHicHcTBToMwGADgJ-popSxo4mECs8kQUt1YxmVxP1gqXQtrcaMP6X1vY-J3-O6_nXODfQoC1YULYYxQ7WTbCxjtWu0WYM6BGCwCi2ywKvZyfnyPS4OJLG1Ci0lWI4WdT34mTlFznIHdxoy9fqmY9QrU5-qw1SKebqeDyB-SD0L8S7Wboz4vevmN05Rvj1AwTzY-rcbrsKnfsryWLkrXexNawhhm50s40khHzZIknJcZX_pGmpnWMcrh-Uowxqj7H5D-A1vkRkc"
+   },
+   {
+    "position": 18,
+    "title": "HDFC Bank",
+    "place_id": "ChIJaQIKNAHG5zsRlcHx9mue6Wg",
+    "data_id": "0x3be7c601340a0269:0x68e99e6bf6f1c195",
+    "data_cid": "7559747636059816341",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x3be7c601340a0269%3A0x68e99e6bf6f1c195&engine=google_maps_reviews&hl=en",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x3be7c601340a0269%3A0x68e99e6bf6f1c195&engine=google_maps_photos&hl=en",
+    "gps_coordinates": {
+     "latitude": 19.045584299999998,
+     "longitude": 72.904515
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJaQIKNAHG5zsRlcHx9mue6Wg",
+    "provider_id": "/g/11cm_65h7j",
+    "rating": 2.5,
+    "reviews": 65,
+    "type": "Bank",
+    "types": [
+     "Bank",
+     "ATM",
+     "Business banking service",
+     "Car finance and loan company",
+     "Financial institution",
+     "Insurance company",
+     "Investment service",
+     "Loan agency",
+     "Private sector bank",
+     "Savings bank"
+    ],
+    "type_id": "bank",
+    "type_ids": [
+     "bank",
+     "atm",
+     "business_banking_service",
+     "car_finance_and_loan_company",
+     "financial_institution",
+     "insurance_company",
+     "investment_service",
+     "loan_agency",
+     "private_sector_bank",
+     "savings_bank"
+    ],
+    "address": "No 175/3, Unicorn Building, CG Rd, opposite Natraj Lawns, Gulab Park Colony, Vasant Vihar Complex, Chembur, Mumbai, Maharashtra 400074, India",
+    "country": "India",
+    "open_state": "Closed · Opens 9:30 AM Fri",
+    "hours": "Closed · Opens 9:30 AM Fri",
+    "operating_hours": {
+     "thursday": "9:30 AM–3:30 PM",
+     "friday": "9:30 AM–3:30 PM",
+     "saturday": "9:30 AM–3:30 PM",
+     "sunday": "Closed",
+     "monday": "9:30 AM–3:30 PM",
+     "tuesday": "9:30 AM–3:30 PM",
+     "wednesday": "9:30 AM–3:30 PM"
+    },
+    "phone": "+91 1800 1601",
+    "website": "https://www.hdfc.bank.in/branch-locator/maharashtra/mumbai/hdfcbank-branch-chemburcgroad",
+    "extensions": [
+     {
+      "service_options": [
+       "Onsite services"
+      ]
+     },
+     {
+      "amenities": [
+       "ATM"
+      ]
+     }
+    ],
+    "unsupported_extensions": [
+     {
+      "accessibility": [
+       "Wheelchair accessible entrance"
+      ]
+     }
+    ],
+    "service_options": {
+     "onsite_services": true
+    },
+    "user_review": "\"The BANK MANAGER, Mr. Johnny, was very understanding and helpful.\"",
+    "thumbnail": "https://lh3.googleusercontent.com/gps-proxy/ALd4DhF8VM1H-q71D1SnaExcNbtQT-G0cSOBzGdkebr3wRvCduHGQHNKoB9nLS2bXiBR37hn8ryvB30SMFJGO5oT8Y3O70oStnBJVLZREeBVAghyYxSj3t5r0UCKB5L27KeVJGs5B2g-dSiOSJa4EQ4CtOPZabrX17bIQ5dvSC7YJ2eHD5Y-Ds689WvFKbQ6aBf4GE9zKg=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/4ROsnnicHcRLUoMwAADQceNtUgKBhjrjouEr0CKkYumOT4RqTTCkFHpUT-OMb_F-Hx57pYbxSdMuPVp1QnQXdh2ZbARXjKtVI761bhjBIMW8aNukNd3et4udHoIfrLs65ZU3N_taZQcQwIam5B60X6yW6JZPTnsNgyzcx4JseEKN-ngmOcI9t-UyEQTpzo-C1BIHu0QphoIqTqIiOeUeI8W265dypp9IWRK-OTGxEgPHrIiC0SJGB1p6TmlUmV5mOip9PVW1POq4fsmsdqIOLiODha5VAndc25v3yY_rbF2RDzPwNve4e77pEELQ_98A_gcNrVUE"
+   },
+   {
+    "position": 19,
+    "title": "HDFC Bank Home Loan Branch - Mumbai (Vikhroli West)",
+    "place_id": "ChIJP2kN6cHH5zsR71h5fos5GGc",
+    "data_id": "0x3be7c7c1e90d693f:0x6718398b7e7958ef",
+    "data_cid": "7428750856632752367",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x3be7c7c1e90d693f%3A0x6718398b7e7958ef&engine=google_maps_reviews&hl=en",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x3be7c7c1e90d693f%3A0x6718398b7e7958ef&engine=google_maps_photos&hl=en",
+    "gps_coordinates": {
+     "latitude": 19.1109214,
+     "longitude": 72.9175454
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJP2kN6cHH5zsR71h5fos5GGc",
+    "provider_id": "/g/11f08sm_gn",
+    "rating": 4.4,
+    "reviews": 463,
+    "type": "Loan agency",
+    "types": [
+     "Loan agency"
+    ],
+    "type_id": "loan_agency",
+    "type_ids": [
+     "loan_agency"
+    ],
+    "address": "103 & 104, Park Site, Hiranadani Link Rd, Veer Savarkar Rd, near Kailash Commercial Complex, LBD Marg, Vikhroli West, MUMBAI, Maharashtra 400079, India",
+    "country": "India",
+    "open_state": "Closed · Opens 9:30 AM Fri",
+    "hours": "Closed · Opens 9:30 AM Fri",
+    "operating_hours": {
+     "thursday": "9:30 AM–3:30 PM",
+     "friday": "9:30 AM–3:30 PM",
+     "saturday": "9:30 AM–3:30 PM",
+     "sunday": "Closed",
+     "monday": "9:30 AM–3:30 PM",
+     "tuesday": "9:30 AM–3:30 PM",
+     "wednesday": "9:30 AM–3:30 PM"
+    },
+    "phone": "+91 1800 210 0018",
+    "website": "https://www.hdfc.bank.in/branch-locator/maharashtra/mumbai/hdfcbank-branch-vikhroliwesthomeloan",
+    "extensions": [
+     {
+      "service_options": [
+       "Onsite services"
+      ]
+     }
+    ],
+    "service_options": {
+     "onsite_services": true
+    },
+    "user_review": "\"Hassle free disbursement, co-operative staff and quick response...\"",
+    "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9Rvp65du6JwdRRnPiNFrJKsOmw1WZSBs_uh3y2BTx85s22qHfx8CiErssK9nN7adeTZMS8_H5tERibw7EFAycHqHrMOLC4NCojC7UojVuOl-icWot0vlqa_FEXfOmy2S0GneN69MTpGgnEe=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/PYiwSHicHcRNjoIwGADQE1UqDn-TuFBSJDqUCeBg3BAtFWqgBb4ickrXcxsT3-L9v2qtO_g2jKZeLSqlqoaPwAempOZSL5hqjaoDxACBsaG5mL3k0dlWOdr7qUwS-StoMOwPELfTMj-nWyjGejWb2-zpWmCafXh7ur4gA8DBk9S5lDw7R6lbhJYmibhODgk2Mwv7cIjiH_-L-uruO0d1_xvjBgmWK40fTX8pAnK6xe1spngnObW9KOt2lSR8PS0xxqj-zJB8A91tR9A"
+   },
+   {
+    "position": 20,
+    "title": "HDFC Bank",
+    "place_id": "ChIJdyeWkifI5zsR5AYt_5NjY14",
+    "data_id": "0x3be7c82792962777:0x5e636393ff2d06e4",
+    "data_cid": "6801389349552064228",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x3be7c82792962777%3A0x5e636393ff2d06e4&engine=google_maps_reviews&hl=en",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x3be7c82792962777%3A0x5e636393ff2d06e4&engine=google_maps_photos&hl=en",
+    "gps_coordinates": {
+     "latitude": 19.129069299999998,
+     "longitude": 72.86493879999999
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJdyeWkifI5zsR5AYt_5NjY14",
+    "provider_id": "/g/1ptvzhqph",
+    "rating": 2.6,
+    "reviews": 30,
+    "type": "Bank",
+    "types": [
+     "Bank"
+    ],
+    "type_id": "bank",
+    "type_ids": [
+     "bank"
+    ],
+    "address": "Ground Floor, Dharmkshetra, Mahakali Caves Rd, near Ginger Hotel, Madhukunj Society, Sher E Punjab Colony, Andheri East, Mumbai, Maharashtra 400093, India",
+    "country": "India",
+    "open_state": "Closed · Opens 9:30 AM Fri",
+    "hours": "Closed · Opens 9:30 AM Fri",
+    "operating_hours": {
+     "thursday": "9:30 AM–3:30 PM",
+     "friday": "9:30 AM–3:30 PM",
+     "saturday": "9:30 AM–3:30 PM",
+     "sunday": "Closed",
+     "monday": "9:30 AM–3:30 PM",
+     "tuesday": "9:30 AM–3:30 PM",
+     "wednesday": "9:30 AM–3:30 PM"
+    },
+    "phone": "+91 1800 1601",
+    "website": "https://www.hdfc.bank.in/branch-locator/maharashtra/mumbai/hdfcbank-branch-mahakalicavesroadandheri",
+    "extensions": [
+     {
+      "service_options": [
+       "Onsite services"
+      ]
+     },
+     {
+      "amenities": [
+       "ATM"
+      ]
+     }
+    ],
+    "unsupported_extensions": [
+     {
+      "accessibility": [
+       "Wheelchair accessible entrance",
+       "Wheelchair accessible parking lot"
+      ]
+     }
+    ],
+    "service_options": {
+     "onsite_services": true
+    },
+    "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9SpxAcB4Nn-kpXVi5GIyL52PRjr0EdtsN2_3ANPDKjdy7A4RT3Soqn8svozIv4b3_x7LwErVHmNqh8SimBJKahNxYVKNSJrMdj7h9ohla9hy0XWzJTQO3kyilrRq8Mn_e1ueg8s=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/-q0Qi3icHcRRDoIgAADQE5EUOrWtD1ut0qLSZvXlDJloCgpU0gU7Q7dp632874dp3ampZTUMjUohyoY-FJVEcE25HhHRWmWnAFFAWQE-V8ZPuiEgcxtzcO8uaeWsNmbrTA5xLeGy0ApPMhTgwyKqC-MGdnxCiei5p57ivXnaN5QN7va1lOm6xT3zkqqdh1HO8HBNI5yEclfULvMFa3KfGXg5v8PTcY_upmpk3Hs7ntHxg5aemr3GEELA_hPAf3WVRXo"
    }
-  ]
+  ],
+  "serpapi_pagination": {
+   "next": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.co.in&hl=en&ll=%4019.0760%2C72.8777%2C12z&q=HDFC+Bank+customer+care&start=20&type=search"
+  }
  }
 }

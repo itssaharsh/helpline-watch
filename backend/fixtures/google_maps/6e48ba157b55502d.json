@@ -1,8 +1,7 @@
 {
  "_fixture": {
-  "kind": "synthetic",
-  "note": "Maps · Delhi · Zomato customer care",
-  "generated_at": "2026-09-23T20:53:40+00:00",
+  "kind": "recorded",
+  "recorded_at": "2026-09-24T16:56:50+00:00",
   "params": {
    "engine": "google_maps",
    "type": "search",
@@ -14,13 +13,16 @@
  },
  "response": {
   "search_metadata": {
-   "id": "synthetic-6e48ba157b55502d",
+   "id": "6ab5565010c26d1da987bfd3",
    "status": "Success",
-   "created_at": "2026-09-23 20:53:40 UTC",
-   "processed_at": "2026-09-23 20:53:40 UTC",
-   "json_endpoint": null,
-   "raw_html_file": null,
-   "total_time_taken": 1.34
+   "json_endpoint": "https://serpapi.com/searches/2t0rNWDPiNP_wn3ROjE5F_UZYQnF6k5UHERQI22xQr0/6ab5565010c26d1da987bfd3.json",
+   "markdown_endpoint": "https://serpapi.com/searches/2t0rNWDPiNP_wn3ROjE5F_UZYQnF6k5UHERQI22xQr0/6ab5565010c26d1da987bfd3.md",
+   "created_at": "2026-09-24 16:56:48 UTC",
+   "processed_at": "2026-09-24 16:56:48 UTC",
+   "google_maps_url": "https://www.google.com/maps/search/Zomato+customer+care/@28.6139,77.2090,12z/data=!3m1!4b1!4m2!2m1!6e5?hl=en",
+   "raw_html_file": "https://serpapi.com/searches/2t0rNWDPiNP_wn3ROjE5F_UZYQnF6k5UHERQI22xQr0/6ab5565010c26d1da987bfd3.html",
+   "prettify_html_file": "https://serpapi.com/searches/2t0rNWDPiNP_wn3ROjE5F_UZYQnF6k5UHERQI22xQr0/6ab5565010c26d1da987bfd3.prettify",
+   "total_time_taken": 1.2
   },
   "search_parameters": {
    "engine": "google_maps",
@@ -30,43 +32,227 @@
    "google_domain": "google.co.in",
    "hl": "en"
   },
+  "search_information": {
+   "local_results_state": "Results for exact spelling",
+   "query_displayed": "Zomato customer care"
+  },
   "local_results": [
    {
     "position": 1,
-    "title": "Zomato Customer Care Number",
-    "place_id": "synthetic-zomato-delhi-care",
-    "data_id": "0x34d8ea73bc53:0x81d34a7c13d7",
-    "rating": 5.0,
-    "reviews": 1,
-    "type": "Customer service",
-    "types": [
-     "Customer service"
-    ],
-    "address": "Sector 12, Delhi",
+    "title": "Zomato Office Farmhouse",
+    "place_id": "ChIJGx2xKLMfDTkRBpy0heVEDB4",
+    "data_id": "0x390d1fb328b11d1b:0x1e0c44e585b49c06",
+    "data_cid": "2165181273439771654",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x390d1fb328b11d1b%3A0x1e0c44e585b49c06&engine=google_maps_reviews&hl=en",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x390d1fb328b11d1b%3A0x1e0c44e585b49c06&engine=google_maps_photos&hl=en",
     "gps_coordinates": {
-     "latitude": 25.922679459101353,
-     "longitude": 74.06553657645766
+     "latitude": 28.479474399999997,
+     "longitude": 77.16338309999999
     },
-    "phone": "+91 74110 29385",
-    "unclaimed_listing": true
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJGx2xKLMfDTkRBpy0heVEDB4",
+    "provider_id": "/g/11c1xp88s2",
+    "rating": 4.1,
+    "reviews": 179,
+    "type": "Corporate office",
+    "types": [
+     "Corporate office"
+    ],
+    "address": "Chhatarpur Farms, DLF Farms, New Delhi, Delhi 110030, India",
+    "country": "India",
+    "open_state": "Closed · Opens 9 AM Fri",
+    "hours": "Closed · Opens 9 AM Fri",
+    "operating_hours": {
+     "thursday": "9 AM–7 PM",
+     "friday": "9 AM–7 PM",
+     "saturday": "9 AM–7 PM",
+     "sunday": "Closed",
+     "monday": "9 AM–7 PM",
+     "tuesday": "9 AM–7 PM",
+     "wednesday": "9 AM–7 PM"
+    },
+    "extensions": [
+     {
+      "accessibility": [
+       "Wheelchair accessible entrance",
+       "Wheelchair accessible parking lot"
+      ]
+     }
+    ],
+    "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWnLHXej5AKkWmsJvcJXjn5edNxW5PTHyFQQVSZayeuD9I41h4dTqidxihg8vFZaqb6C0zKW43wNEKYcnJxgWRRyMMQ5-iijQnr3VtEMBr9W82oTlQxU9RUgBe2m1qunPBHML5PI=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/cJ8HG3icHcRdDoIgAADgE5Ga0rKth-xnptnETKq3QgaaQgqWdsHO0G3a-h6-74dr_VAzw6i4PWJSsop2irZECk2FHhFZG-yhAFFAGQs_iVMsdv6JlnAR3nGtgicJTqWANN_3GMapP2wQyg6X60C7lbt1LO7kaVPkfcHZ9Lm5XJvbZGm-Q-zYr_06PBMR9AwnyRBFCIKiKJFo7UyvI6918XQs0wr1Rzc5Mo-Oa6vpROz50Q7G2_nLMk0T8P8EiB-PRUSn"
    },
    {
-    "position": 1,
-    "title": "Zomato Hyperpure Warehouse",
-    "place_id": "synthetic-zomato-delhi-hp",
-    "data_id": "0x33981b827678:0x8dba7c493522",
-    "rating": 4.1,
-    "reviews": 42,
-    "type": "Warehouse",
-    "types": [
-     "Warehouse"
-    ],
-    "address": "Industrial Area, Delhi",
+    "position": 2,
+    "title": "BANTI ZOMATO SERVICE",
+    "place_id": "ChIJs1jlx6XhDDkRwhMjRKZhoY0",
+    "data_id": "0x390ce1a5c7e558b3:0x8da161a6442313c2",
+    "data_cid": "10205545597333869506",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x390ce1a5c7e558b3%3A0x8da161a6442313c2&engine=google_maps_reviews&hl=en",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x390ce1a5c7e558b3%3A0x8da161a6442313c2&engine=google_maps_photos&hl=en",
     "gps_coordinates": {
-     "latitude": 26.7247726045549,
-     "longitude": 84.14305224369848
+     "latitude": 28.5281475,
+     "longitude": 77.215695
     },
-    "website": "https://www.zomato.com/hyperpure"
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJs1jlx6XhDDkRwhMjRKZhoY0",
+    "provider_id": "/g/11ygmgh14n",
+    "rating": 5,
+    "reviews": 1,
+    "type": "Restaurant",
+    "types": [
+     "Restaurant"
+    ],
+    "address": "Shop No -47, Select Citywalk Mall, near Petro Pump, Saket District Centre, District Centre, Sector 6, Pushp Vihar, New Delhi, Delhi 110017, India",
+    "country": "India",
+    "phone": "+91 99994 50173",
+    "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWmkIY4d8GPvIv5Svfq8dTRDRw1PgwQQoT8oxrSz2N6xFwVZGRqN91wNxMf53nEnaTp0ZRQs0Nknn8OqcsTKqIWzoxwsb79zDUBbRArvTGDn5FY5JqnuPFEeWO_MIsEGnbodpyEuN-uZR8ar=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/625GoXicHcTdboIwGADQJ6qUOWZdsgsXfobGCrUbkZtFCkKifqV8QBkv6fXeZsnOxfl9NH3f4qvj3Jrlota6vlUDVp3S0FfQL5S-O3WLRCFBZ_MhEpndr_HpuWRRMsajdxwvhpVS-MK6SW3TVEump-44P_GXKbRfeSQMX7uWT_uLt4QAzrKluUiR8isAOxiFcmfibNaTxWK1nv3P90JsulFGPnjhydsaGJIwqLLD9z7GIIJCl-1PMHAy5IKduzfrUkpJ878i8AcBVUio"
+   },
+   {
+    "position": 3,
+    "title": "Zomato Customer Care",
+    "place_id": "ChIJF0tuYzb9DDkRd3-Dys139tI",
+    "data_id": "0x390cfd36636e4b17:0xd2f677cdca837f77",
+    "data_cid": "15201469317985304439",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x390cfd36636e4b17%3A0xd2f677cdca837f77&engine=google_maps_reviews&hl=en",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x390cfd36636e4b17%3A0xd2f677cdca837f77&engine=google_maps_photos&hl=en",
+    "gps_coordinates": {
+     "latitude": 28.6325313,
+     "longitude": 77.2092168
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJF0tuYzb9DDkRd3-Dys139tI",
+    "provider_id": "/g/11fmq9mz_l",
+    "rating": 2.6,
+    "reviews": 16,
+    "unclaimed_listing": true,
+    "type": "Corporate office",
+    "types": [
+     "Corporate office"
+    ],
+    "address": "J6M5+2M8, DIZ Staff Quarters, Connaught Place, New Delhi, Delhi 110001, India",
+    "country": "India",
+    "open_state": "Permanently closed",
+    "hours": "Permanently closed",
+    "thumbnail": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=7kxhLdP1INzAjlvR6f6mkg&cb_client=search.gws-prod.gps&w=80&h=92&yaw=357.93143&pitch=0&thumbfov=100",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/uY31jnicHc1tDoIgGADg2_AvPrI021jrZ1trrQs0RIRXUZgQWKfpWt2m1gWe5_M2MfqwJyTEWamYQGUPi7Jh5QXWzmmrhIeApRtJYiSax9hMAuzBi8lBy6thMef2yk6X17G36VZ25ThoJJu7tKCmyIMSszRY5584uxZrH1DmO4oMr9foKTIvthWuC7YpkIcoDafov3QucUbpF4pxOb8"
+   },
+   {
+    "position": 4,
+    "title": "Zomato Headquarters",
+    "place_id": "ChIJG7IWJUYZDTkRLgxCg6jzAqM",
+    "data_id": "0x390d19462516b21b:0xa302f3a883420c2e",
+    "data_cid": "11746218683217873966",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x390d19462516b21b%3A0xa302f3a883420c2e&engine=google_maps_reviews&hl=en",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x390d19462516b21b%3A0xa302f3a883420c2e&engine=google_maps_photos&hl=en",
+    "gps_coordinates": {
+     "latitude": 28.459574999999997,
+     "longitude": 77.0957657
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJG7IWJUYZDTkRLgxCg6jzAqM",
+    "provider_id": "/g/11q952_v3p",
+    "rating": 2.6,
+    "reviews": 253,
+    "type": "Corporate office",
+    "types": [
+     "Corporate office"
+    ],
+    "address": "42c, Golf Course Rd, Sector 42, Gurugram, Haryana 122009, India",
+    "country": "India",
+    "open_state": "Permanently closed",
+    "hours": "Permanently closed",
+    "extensions": [
+     {
+      "accessibility": [
+       "Wheelchair accessible entrance",
+       "Wheelchair accessible parking lot"
+      ]
+     }
+    ],
+    "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWk4LLKmcbG7hHfIGCgjJVmSWk64i7P_tzT_NjJOvEJFmfBlOa2O5KAikHjnK7svLf5OiyOJuq1A7pfkzJRAgF0otESi18AtFaJQNGbu8T85Ka-YVHwM5RARWvemHKdsV2qHJSHlwQ=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/bOhOgXicHcRLjoIwAADQE1VAQYiJi85EqC1aBQKZlcEOlF8p2gLRG3oEb2PiW7z3q9J6UBvD6KrVgkvJu2JUxZ3JXhe9XjApDD4owBRQBkTRKclaOwyJYNfArVC5D355g1MRZ-3art3TRT-Ty7HBdNphX5Q_Hc2X1CGwblHTE1dNYenQ-kHxeLOgO5TtE0eQ-6bUu7i2PKj9HJ-PwXX0Es8hOfhL0XxwIhhlUyEQ-Vfp8oZwjLr5vJ0t0zRB9Z2B_gO6u0Sj"
+   },
+   {
+    "position": 5,
+    "title": "Zomato customer service",
+    "place_id": "ChIJRWvWndgDDTkRMqlFHDUPq14",
+    "data_id": "0x390d03d89dd66b45:0x5eab0f351c45a932",
+    "data_cid": "6821562781364758834",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x390d03d89dd66b45%3A0x5eab0f351c45a932&engine=google_maps_reviews&hl=en",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x390d03d89dd66b45%3A0x5eab0f351c45a932&engine=google_maps_photos&hl=en",
+    "gps_coordinates": {
+     "latitude": 28.6451809,
+     "longitude": 77.1699569
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJRWvWndgDDTkRMqlFHDUPq14",
+    "provider_id": "/g/11rcn6kr9y",
+    "rating": 5,
+    "reviews": 2,
+    "unclaimed_listing": true,
+    "type": "Restaurant",
+    "types": [
+     "Restaurant"
+    ],
+    "address": "J5W9+3XG, NC Rd, Block 1, South Patel Nagar, Patel Nagar, New Delhi, Delhi 110008, India",
+    "country": "India",
+    "open_state": "Permanently closed",
+    "hours": "Permanently closed",
+    "thumbnail": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=Tcr17JlwQcj4dmhfb-_XsQ&cb_client=search.gws-prod.gps&w=80&h=92&yaw=144.0199&pitch=0&thumbfov=100",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/OIRvYXicHc1LDsIgEADQ27ArH9NEazJx765JF-4aSimMoWUCWPQ0nsvbaLzAe5-3L4XyWYhckrVlR1sJnzbkhjR3MbpgNWHmJq5iV6L4xzptGsOF9BZxhsEkdbyG2pt7O69-mZrxlntmptEEtFuBbHUynrv6E1OcuaPMKpwk89Ad2EtXUG3Lpeo6RliMB8n-yRJ3UFJ-AVQhOYw"
+   },
+   {
+    "position": 6,
+    "title": "Zomato",
+    "place_id": "ChIJUz8n--zjDDkRHbdbNGgF-SQ",
+    "data_id": "0x390ce3ecfb273f53:0x24f90568345bb71d",
+    "data_cid": "2664166599679522589",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x390ce3ecfb273f53%3A0x24f90568345bb71d&engine=google_maps_reviews&hl=en",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x390ce3ecfb273f53%3A0x24f90568345bb71d&engine=google_maps_photos&hl=en",
+    "gps_coordinates": {
+     "latitude": 28.577889,
+     "longitude": 77.238129
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJUz8n--zjDDkRHbdbNGgF-SQ",
+    "provider_id": "/g/11fszlncq0",
+    "rating": 4.3,
+    "reviews": 14,
+    "unclaimed_listing": true,
+    "type": "Restaurant",
+    "types": [
+     "Restaurant"
+    ],
+    "address": "2, Block I, Block D, Defence Colony, New Delhi, Delhi 110024, India",
+    "country": "India",
+    "open_state": "Permanently closed",
+    "hours": "Permanently closed",
+    "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWnFPtoEIQR29Fnq9vMNXVOtxTFe0gUqGUdcmgyVzQbqVnBCXVajBh32hku92TD3dvf89JQjFrUFo2Pmt1qveiR4Drbv6O46dlYbGGRBu86Z9hUJ3tdY2fmQym7T0aduZRk801U=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/7inju3icHcRRboIwAADQEyGlGEZN_BhzRU2c0FCm_klbW5W2QgubO-Du4G1MfB_v8a-8v7lZGLYqnkhrZSsGJ3pmjRfGT5jVoby5gLnAhe9LUlTfBhfefq5KAhE2HRo3X7t6638rLICkXU450_Je_5VNV5vsY1cfL5mKoboOCFaLmI-nFK3LC-4ptrDQPupGcSbTRd-MyXaa8Hbf5DnJhjQ5IEXXsed7eNLlXb9V4MiHA7mmIKLznwgAEKjXLDBPLxREDQ"
+   },
+   {
+    "position": 7,
+    "title": "Zomato customer care",
+    "place_id": "ChIJQ28BN0LdDDkR3tx17tSZZmM",
+    "data_id": "0x390cdd4237016f43:0x636699d4ee75dcde",
+    "data_cid": "7162581397192170718",
+    "reviews_link": "https://serpapi.com/search.json?data_id=0x390cdd4237016f43%3A0x636699d4ee75dcde&engine=google_maps_reviews&hl=en",
+    "photos_link": "https://serpapi.com/search.json?data_id=0x390cdd4237016f43%3A0x636699d4ee75dcde&engine=google_maps_photos&hl=en",
+    "gps_coordinates": {
+     "latitude": 28.426997699999998,
+     "longitude": 77.3329923
+    },
+    "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJQ28BN0LdDDkR3tx17tSZZmM",
+    "provider_id": "/g/11rnhwm0ww",
+    "rating": 3.4,
+    "reviews": 22,
+    "unclaimed_listing": true,
+    "type": "Restaurant",
+    "types": [
+     "Restaurant"
+    ],
+    "address": "C8GM+Q5X, Jeevan Nagar, Sector 87, Neharpar Faridabad, Faridabad, Haryana 121014, India",
+    "country": "India",
+    "open_state": "Permanently closed",
+    "hours": "Permanently closed",
+    "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWm_jqcEQcFyb5GFnExkdyKpk1tfwWasbtmaAzYNCViUPE-g7b9SNO-fbs-z9CsdZhNWg1n5fwDvzXxkag_23hSp5mpM-iOciD7_WhfKJOnjcAGn5ZpV6W6ywxBQz-JVGG_6Qwj_=w1000-h1000-c-n",
+    "serpapi_thumbnail": "https://serpapi.com/images/url/U1FZ6HicHcTdboIwGADQJ_oEZoBo4gUKYjSC-EOnNw0UaAEpde0s8IJ7hr3Nkp2L8_vDlBJyaRhPNp_RvqfP8luWX6TnquRqRvrOoEICkSANb3c-XVGHmxcJErIdczvc8mBoi_EgWktVGmUyV13mTfdok9a3UwDUzReXKIYqlzAtNrJ4sAhRi9uV9t_T59BmFH_M2UXYnThCHZPadzFi1WEf84Z4IbcfInWQM-phnUywT8MQO4lu8EpbpmkC-58A_wMDVUYJ"
    }
   ]
  }

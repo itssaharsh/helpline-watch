@@ -54,33 +54,33 @@ def main() -> int:
     results = {}
     for b in load_brands(settings.seeds_dir):
         results[b.id] = asyncio.run(run_sweep(svc, b.id))
-    # sweep HDFC again so cross-brand evidence from the other brands is available
-    results["hdfc-bank"] = asyncio.run(run_sweep(svc, "hdfc-bank"))
-    hdfc = results["hdfc-bank"]["sweep"]
-    by_num = {f["number_norm"]: f for f in hdfc["findings"]}
+    # sweep SBI again so cross-brand evidence from the other brands is available
+    results["sbi"] = asyncio.run(run_sweep(svc, "sbi"))
+    sbi = results["sbi"]["sweep"]
+    by_num = {f["number_norm"]: f for f in sbi["findings"]}
 
     shared = by_num.get("+917411029385")
     check("shared planted number is FAKE", bool(shared and shared["verdict"] == "fake"), f"score={shared and shared['score']}")
     check("shared number linked across brands", bool(shared and len(shared["other_brands"]) >= 2), f"other_brands={shared and shared['other_brands']}")
-    look = by_num.get("180016001601")
+    look = by_num.get("18001235")  # one digit off SBI's 1800 1234
     check("one-digit lookalike is FAKE without complaint evidence", bool(look and look["verdict"] == "fake" and not any(h["scam_words"] for h in look["reverse_hits"])))
-    official = by_num.get("180016001600")
-    third_party = official and any(o["source_domain"] and "hdfcbank.com" not in o["source_domain"] for o in official["observations"])
+    official = by_num.get("18001234")
+    third_party = official and any(o["source_domain"] and "sbi.co.in" not in o["source_domain"] for o in official["observations"])
     check("official number republished by a third party stays OFFICIAL", bool(official and official["verdict"] == "official" and third_party))
-    unlisted = by_num.get("+912261606161")
+    unlisted = by_num.get("+912222740841")
     check("unlisted number on the brand's own domain is OFFICIAL_UNLISTED", bool(unlisted and unlisted["verdict"] == "official_unlisted"))
     news = by_num.get("+913340401188")
     check("unknown landline in a news story stays REVIEW", bool(news and news["verdict"] == "review"))
     ad = by_num.get("+919830177462")
     check("number inside an impersonating ad is FAKE", bool(ad and ad["verdict"] == "fake" and any(s["code"] == "AD_FROM_NON_OFFICIAL_DOMAIN" for s in ad["signals"])))
 
-    sweep_obj = svc.store.get_sweep(hdfc["id"])
-    pack = build_pack(sweep_obj, svc.brand("hdfc-bank"))
+    sweep_obj = svc.store.get_sweep(sbi["id"])
+    pack = build_pack(sweep_obj, svc.brand("sbi"))
     with zipfile.ZipFile(io.BytesIO(pack)) as z:
         names = set(z.namelist())
         csv_rows = z.read("findings.csv").decode().strip().splitlines()[1:]
     check("takedown pack has csv, evidence, report and complaint template", names == {"findings.csv", "evidence.json", "report.md", "complaint_template.txt"})
-    fakes = sum(1 for f in hdfc["findings"] if f["verdict"] == "fake")
+    fakes = sum(1 for f in sbi["findings"] if f["verdict"] == "fake")
     check("takedown pack contains only confirmed fakes", len(csv_rows) == fakes and fakes > 0, f"rows={len(csv_rows)} fakes={fakes}")
 
     paytm = results["paytm"]["sweep"]
