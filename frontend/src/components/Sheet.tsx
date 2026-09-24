@@ -1,6 +1,6 @@
 import { useMemo, useState } from 'react'
 import type { CallState, City, SerpItem, SerpSnapshot } from '../lib/types'
-import { withMarks, type VerdictOf } from './Mark'
+import { withMarks, type VerdictOf } from './withMarks'
 
 interface SheetProps { city: City | null; snapshots: SerpSnapshot[]; calls: CallState[]; verdictOf: VerdictOf; landed: Set<string>; onNumber: (n: string) => void; running: boolean }
 
