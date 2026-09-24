@@ -24,10 +24,11 @@ export function Globe({ markers, sweeping }: { markers: GlobeMarker[]; sweeping:
     const reduce = window.matchMedia?.('(prefers-reduced-motion: reduce)').matches
     const [phi0, theta] = focus(21, 80)
     let width = canvas.offsetWidth, height = canvas.offsetHeight
+    const offsetFor = (w: number, h: number): [number, number] => (w < 1024 ? [0, h * 2 * 0.3] : [w * 2 * 0.22, h * 2 * 0.06])
     const globe = createGlobe(canvas, {
       devicePixelRatio: Math.min(window.devicePixelRatio || 1, 2), width: width * 2, height: height * 2, phi: phi0, theta, dark: 1, diffuse: 1.4,
       mapSamples: 30000, mapBrightness: 7, baseColor: [0.16, 0.2, 0.3], markerColor: [0.3, 0.79, 0.94], glowColor: [0.08, 0.14, 0.24],
-      scale: 2.1, offset: [width * 2 * 0.22, height * 2 * 0.06], markers: [],
+      scale: 2.1, offset: offsetFor(width, height), markers: [],
     })
     let raf = 0, t = 0
     const tick = () => {
@@ -39,7 +40,7 @@ export function Globe({ markers, sweeping }: { markers: GlobeMarker[]; sweeping:
       globe.update({ phi: phi0 + wobble, markers: ms })
     }
     tick()
-    const ro = new ResizeObserver(() => { width = canvas.offsetWidth; height = canvas.offsetHeight; globe.update({ width: width * 2, height: height * 2, offset: [width * 2 * 0.22, height * 2 * 0.06] }) })
+    const ro = new ResizeObserver(() => { width = canvas.offsetWidth; height = canvas.offsetHeight; globe.update({ width: width * 2, height: height * 2, offset: offsetFor(width, height) }) })
     ro.observe(canvas)
     return () => { cancelAnimationFrame(raf); ro.disconnect(); globe.destroy() }
   }, [])
