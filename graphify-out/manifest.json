@@ -864,9 +864,9 @@
     "semantic_hash": ""
   },
   "backend/helpline_watch/static/index.html": {
-    "mtime": 1790254856.4908993,
-    "seen": 1790254958.819643,
-    "ast_hash": "03daad1184dc51f53c3046ebc2da2c89",
+    "mtime": 1790255238.424562,
+    "seen": 1790255331.3147054,
+    "ast_hash": "4d271c113c0cbec6e7221e5f1a51caf9",
     "semantic_hash": ""
   },
   "docs/DESIGN.md": {
@@ -924,8 +924,8 @@
     "semantic_hash": ""
   },
   "backend/helpline_watch/static/icon.svg": {
-    "mtime": 1790254855.667046,
-    "seen": 1790254958.819667,
+    "mtime": 1790255237.5765665,
+    "seen": 1790255331.3147316,
     "ast_hash": "d42fd854e39cf1864feae37610bfeaa0",
     "semantic_hash": ""
   },
@@ -1031,40 +1031,40 @@
     "ast_hash": "ac47b3cefd6f38ae7bb3656f4284e759",
     "semantic_hash": ""
   },
-  "backend/helpline_watch/static/assets/index-DCBPOMyH.js": {
-    "mtime": 1790254856.4869,
-    "seen": 1790254958.8195508,
-    "ast_hash": "2103c259e3f79c6d361997e6c2f35490",
-    "semantic_hash": ""
-  },
-  "backend/helpline_watch/static/assets/react-force-graph-3d-blTPDaaA.js": {
-    "mtime": 1790254856.4869,
-    "seen": 1790254958.8195558,
-    "ast_hash": "930c2446e80218652c1a71b90a7bc986",
-    "semantic_hash": ""
-  },
   "backend/helpline_watch/static/assets/rolldown-runtime-CbXtAM7H.js": {
-    "mtime": 1790254856.4908993,
-    "seen": 1790254958.819558,
+    "mtime": 1790255238.420562,
+    "seen": 1790255331.3146167,
     "ast_hash": "2b78aebccd37b8227a6b0e6be422cdbb",
     "semantic_hash": ""
   },
   "frontend/src/components/Globe.tsx": {
-    "mtime": 1790254828.0406103,
-    "seen": 1790254958.8195984,
-    "ast_hash": "f2fff20c00a08adef074dfbe2c137b72",
+    "mtime": 1790255216.864565,
+    "seen": 1790255331.3146577,
+    "ast_hash": "b1267e01a4dd01b698cfa100a0071a8f",
     "semantic_hash": ""
   },
   "frontend/src/components/Hero.tsx": {
-    "mtime": 1790254351.9167013,
-    "seen": 1790254958.8196,
-    "ast_hash": "95fe0dcd74f75c83b601938ba408cf64",
+    "mtime": 1790255105.7126079,
+    "seen": 1790255331.31466,
+    "ast_hash": "0ae5d7d5a92291e8bfe76b52b878b119",
     "semantic_hash": ""
   },
   "frontend/src/components/Network3D.tsx": {
     "mtime": 1790254739.248597,
     "seen": 1790254958.819609,
     "ast_hash": "3096f9159428f5155569753a5995e8e0",
+    "semantic_hash": ""
+  },
+  "backend/helpline_watch/static/assets/index-hFdOWHvX.js": {
+    "mtime": 1790255238.420562,
+    "seen": 1790255331.3146079,
+    "ast_hash": "93c7a6f4a8244e7a86e82db5b39e9ebd",
+    "semantic_hash": ""
+  },
+  "backend/helpline_watch/static/assets/react-force-graph-3d-CiW46k8W.js": {
+    "mtime": 1790255238.420562,
+    "seen": 1790255331.3146122,
+    "ast_hash": "952db222618abbb12f995948c4cab169",
     "semantic_hash": ""
   }
 }
