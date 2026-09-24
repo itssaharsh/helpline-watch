@@ -70,7 +70,6 @@ function Desk() {
   const brand = useMemo(() => brands.find((b) => b.id === brandId) ?? null, [brands, brandId])
   const sweptCityIds = running || done ? state.cityIds : cityIds
   const sweptCities = useMemo(() => sweptCityIds.map((id) => cities.find((c) => c.id === id)).filter((c): c is City => Boolean(c)), [cities, sweptCityIds])
-  useEffect(() => { if (activeCity && !sweptCityIds.includes(activeCity)) setActiveCity(sweptCityIds[0] ?? null) }, [sweptCityIds, activeCity])
   const verdictOf = useCallback((norm: string): Verdict | undefined => state.findings.find((f) => f.number_norm === norm)?.verdict, [state.findings])
   const landed = useMemo(() => new Set(state.landed), [state.landed])
   const fakesByCity = useMemo(() => {
